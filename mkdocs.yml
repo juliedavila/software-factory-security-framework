@@ -53,7 +53,7 @@ nav:
 
   - Universal Stewardship:
     - Overview: 02-stewardship/overview.md
-    - Supply Chain (Priority #1): 02-stewardship/supply-chain.md
+    - "Supply Chain (Priority #1)": 02-stewardship/supply-chain.md
     - Process Stewardship: 02-stewardship/process.md
     - Runtime Stewardship: 02-stewardship/runtime.md
     - Third-Party Stewardship: 02-stewardship/third-party.md
@@ -107,13 +107,14 @@ plugins:
       type: date
   - minify:
       minify_html: true
-  - with-pdf:
-      author: Julie Davila
-      copyright: CC BY 4.0
-      cover_title: SF²
-      cover_subtitle: Software Factory Security Framework
-      output_path: pdf/sf2-framework.pdf
-      enabled_if_env: ENABLE_PDF_EXPORT
+  # - with-pdf:
+  #     author: Julie Davila
+  #     copyright: CC BY 4.0
+  #     cover_title: SF²
+  #     cover_subtitle: Software Factory Security Framework
+  #     output_path: pdf/sf2-framework.pdf
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  # NOTE: PDF export requires system dependencies (brew install cairo pango gdk-pixbuf libffi)
   - print-site:
       add_to_navigation: true
       print_page_title: 'Complete Framework'
