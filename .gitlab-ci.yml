@@ -1,14 +1,87 @@
-# This file is a template, and might need editing before it works on your project.
-# Full project: https://gitlab.com/pages/plain-html
+# Software Factory Security Framework (SF²)
+# GitLab Pages deployment with MkDocs Material
 
-image: busybox
+image: python:3.11
 
+stages:
+  - test
+  - build
+  - deploy
+
+# Cache pip packages for faster builds
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  - pip install --cache-dir .cache/pip -r requirements.txt
+
+# Test: Build docs on all branches (except main) to catch errors early
+test:
+  stage: test
+  script:
+    - mkdocs build --strict --verbose
+  artifacts:
+    paths:
+      - site/
+    expire_in: 1 hour
+  except:
+    - main
+  only:
+    - merge_requests
+    - branches
+
+# Build: Generate site with PDF on main branch
+build:
+  stage: build
+  script:
+    - mkdocs build --strict --verbose
+    - echo "Site built successfully"
+    - ls -lah site/
+  artifacts:
+    paths:
+      - site/
+    expire_in: 1 day
+  only:
+    - main
+
+# Deploy: Publish to GitLab Pages
 pages:
   stage: deploy
+  dependencies:
+    - build
   script:
-    - echo "The site will be deployed to $CI_PAGES_URL"
+    - mv site public
+    - echo "Deploying to GitLab Pages at $CI_PAGES_URL"
   artifacts:
     paths:
       - public
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  only:
+    - main
+
+# Optional: Generate PDF on demand
+pdf:
+  stage: build
+  script:
+    - ENABLE_PDF_EXPORT=1 mkdocs build --strict
+    - mkdir -p pdf
+    - cp site/pdf/sf2-framework.pdf pdf/ || echo "PDF generation skipped or failed"
+  artifacts:
+    paths:
+      - pdf/
+    expire_in: 30 days
+  only:
+    - tags
+  when: manual
+
+# Lint markdown files
+lint:
+  stage: test
+  image: node:18
+  before_script:
+    - npm install -g markdownlint-cli2
+  script:
+    - markdownlint-cli2 "docs/**/*.md" || echo "Linting warnings found"
+  allow_failure: true
+  except:
+    - main

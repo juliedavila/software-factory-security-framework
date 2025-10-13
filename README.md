@@ -1,64 +1,166 @@
-Example plain HTML site using GitLab Pages.
+# Software Factory Security Framework (SF²)
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+**A Complete Mental Model for Securing Software Factories at Scale**
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![GitLab Pages](https://img.shields.io/badge/docs-GitLab%20Pages-orange)](https://juliedavila.gitlab.io/software-factory-security-framework)
 
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## 📋 Overview
 
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+The Software Factory Security Framework (SF²) provides security leaders with a strategic approach to scaling security capabilities while improving business outcomes.
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+This framework helps you:
 
-## GitLab CI
+- ✅ Understand universal security responsibilities
+- ✅ Position your organization strategically
+- ✅ Invest resources effectively
+- ✅ Adapt to your specific context
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
+**👉 [Read the full framework](https://juliedavila.gitlab.io/software-factory-security-framework)**
 
+---
+
+## 🚀 Quick Start
+
+### For Security Leaders
+
+1. Read the [Executive Summary](https://juliedavila.gitlab.io/software-factory-security-framework/executive-summary/)
+2. Assess your [Strategic Position](https://juliedavila.gitlab.io/software-factory-security-framework/03-positioning/two-axis-model/)
+3. Follow your [Implementation Guide](https://juliedavila.gitlab.io/software-factory-security-framework/06-implementation/visionaries/)
+
+### For Contributors
+
+1. Read [Contributing Guidelines](https://juliedavila.gitlab.io/software-factory-security-framework/contributing/)
+2. Find a section to improve
+3. Click "Edit this page" and submit a merge request
+
+---
+
+## 📖 Framework Structure
+
+### Core Components
+
+1. **Foundation** - Software factory definition and core concepts
+2. **Universal Stewardship** - Five security responsibilities for all organizations
+3. **Strategic Positioning** - Two-axis model for organizational assessment
+4. **Investment Portfolio** - Balancing BAU work with scaling investments
+5. **Contextual Modifiers** - Adapting to your specific situation
+6. **Implementation Guides** - Quadrant-specific actionable guidance
+
+### Framework Relationships
+
+SF² complements existing standards:
+
+- **NIST SSDF** - Addresses sustainable resourcing at scale
+- **OWASP SAMM** - Contextualizes implementation based on readiness
+- **BSIMM** - Determines investment priorities
+- **OWASP ASVS** - Helps sequence implementation
+
+---
+
+## 🛠️ Local Development
+
+### Prerequisites
+
+- Python 3.11+
+- pip
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://gitlab.com/juliedavila/software-factory-security-framework.git
+cd software-factory-security-framework
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Serve locally with hot reload
+mkdocs serve
+
+# Visit http://127.0.0.1:8000
 ```
-image: busybox
 
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-    expire_in: 1 day
-  rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+### Build
+
+```bash
+# Build static site
+mkdocs build
+
+# Output: site/
+
+# Build with PDF export
+ENABLE_PDF_EXPORT=1 mkdocs build
 ```
 
-The above example expects to put all your HTML files in the `public/` directory.
+---
 
-## GitLab User or Group Pages
+## 🤝 Contributing
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+We welcome contributions! The framework is designed as a **public resource** for security leaders and practitioners.
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+**Easy contribution:**
+1. Visit any page on the [live site](https://juliedavila.gitlab.io/software-factory-security-framework)
+2. Click "Edit this page"
+3. Make your changes
+4. Submit a merge request
 
-## Did you fork this project?
+See [Contributing Guidelines](https://juliedavila.gitlab.io/software-factory-security-framework/contributing/) for details.
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
+### Types of Contributions
 
-## Troubleshooting
+- 📝 Content improvements and clarifications
+- 🔗 Framework relationship mappings
+- 💡 Use cases and implementation stories
+- 🐛 Error reports and feedback
 
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
+---
 
-[ci]: https://about.gitlab.com/gitlab-ci/
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+## 📝 License
+
+Copyright (c) 2025 Julie Davila
+
+Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE)
+
+You are free to:
+- Share and redistribute
+- Adapt and build upon
+
+With attribution.
+
+---
+
+## 🔗 Links
+
+- **Documentation:** https://juliedavila.gitlab.io/software-factory-security-framework
+- **Repository:** https://gitlab.com/juliedavila/software-factory-security-framework
+- **Issues:** https://gitlab.com/juliedavila/software-factory-security-framework/-/issues
+- **Author:** [Julie Davila](https://gitlab.com/juliedavila)
+
+---
+
+## 📊 Project Status
+
+**Version:** 0.1.0 (Initial Setup)
+
+- [x] Repository structure
+- [x] MkDocs + Material theme setup
+- [x] GitLab CI/CD pipeline
+- [x] Core navigation structure
+- [ ] Content migration from source document
+- [ ] PDF export configuration
+- [ ] First public release
+
+---
+
+## 🙏 Acknowledgments
+
+This framework represents years of experience leading product security at scale, distilled into a practical mental model for security leaders navigating the scaling challenge.
+
+Special thanks to the security community for continuous feedback and contributions.
+
+---
+
+**Ready to dive in?** [Start with the Executive Summary →](https://juliedavila.gitlab.io/software-factory-security-framework/executive-summary/)

@@ -1,0 +1,172 @@
+site_name: Software Factory Security Framework (SF²)
+site_description: A Complete Mental Model for Securing Software Factories at Scale
+site_author: Julie Davila
+site_url: https://juliedavila.gitlab.io/software-factory-security-framework
+
+repo_name: software-factory-security-framework
+repo_url: https://gitlab.com/juliedavila/software-factory-security-framework
+edit_uri: -/edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep-orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep-orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+
+nav:
+  - Home: index.md
+  - Executive Summary: executive-summary.md
+
+  - Foundation:
+    - Software Factory Definition: 01-foundation/software-factory-definition.md
+
+  - Universal Stewardship:
+    - Overview: 02-stewardship/overview.md
+    - Supply Chain (Priority #1): 02-stewardship/supply-chain.md
+    - Process Stewardship: 02-stewardship/process.md
+    - Runtime Stewardship: 02-stewardship/runtime.md
+    - Third-Party Stewardship: 02-stewardship/third-party.md
+    - Continuous Learning: 02-stewardship/continuous-learning.md
+
+  - Strategic Positioning:
+    - Two-Axis Model: 03-positioning/two-axis-model.md
+    - Four Strategic Positions: 03-positioning/strategic-positions.md
+    - Movement Paths: 03-positioning/movement-paths.md
+
+  - Investment Portfolio:
+    - Portfolio Framework: 04-investment/portfolio-framework.md
+    - BAU vs Scaling: 04-investment/bau-vs-scaling.md
+    - Platform Effects: 04-investment/platform-effects.md
+    - Evaluation Criteria: 04-investment/evaluation-criteria.md
+
+  - Contextual Modifiers:
+    - Overview: 05-context/overview.md
+    - Attack Landscape: 05-context/attack-landscape.md
+    - Supply Chain Complexity: 05-context/supply-chain-complexity.md
+    - Regulatory Constraints: 05-context/regulatory-constraints.md
+    - Crisis Events: 05-context/crisis-events.md
+    - Change Capacity: 05-context/change-capacity.md
+    - Relationship Health: 05-context/relationship-health.md
+
+  - Implementation Guides:
+    - Visionaries: 06-implementation/visionaries.md
+    - Leaders: 06-implementation/leaders.md
+    - Niche Players: 06-implementation/niche-players.md
+    - Challengers: 06-implementation/challengers.md
+
+  - Framework Relationships:
+    - NIST SSDF: 07-relationships/nist-ssdf.md
+    - OWASP SAMM: 07-relationships/owasp-samm.md
+    - BSIMM: 07-relationships/bsimm.md
+    - OWASP ASVS: 07-relationships/owasp-asvs.md
+
+  - Use Cases: 08-use-cases/scenarios.md
+
+  - Appendix:
+    - Glossary: appendix/glossary.md
+    - References: appendix/references.md
+
+  - Contributing: contributing.md
+
+plugins:
+  - search:
+      lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - minify:
+      minify_html: true
+  - with-pdf:
+      author: Julie Davila
+      copyright: CC BY 4.0
+      cover_title: SF²
+      cover_subtitle: Software Factory Security Framework
+      output_path: pdf/sf2-framework.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+  - print-site:
+      add_to_navigation: true
+      print_page_title: 'Complete Framework'
+      add_full_urls: false
+      enumerate_headings: true
+      enumerate_figures: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+      toc_depth: 3
+
+extra:
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/juliedavila
+      name: Julie Davila on GitLab
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/juliedavila
+  version:
+    provider: mike
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: Thanks! Help us improve by opening an issue.
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2025 Julie Davila | Licensed under CC BY 4.0
