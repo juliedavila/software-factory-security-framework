@@ -11,4 +11,4 @@ Content for **owasp samm** will be added here.
 
 **Section:** 07-relationships
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/07-relationships/owasp-samm.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/07-relationships/owasp-samm.md){ .md-button }

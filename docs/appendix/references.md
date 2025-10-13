@@ -11,4 +11,4 @@ Content for **references** will be added here.
 
 **Section:** appendix
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/appendix/references.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/appendix/references.md){ .md-button }

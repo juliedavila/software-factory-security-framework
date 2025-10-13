@@ -11,4 +11,4 @@ Content for **strategic positions** will be added here.
 
 **Section:** 03-positioning
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/03-positioning/strategic-positions.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/03-positioning/strategic-positions.md){ .md-button }

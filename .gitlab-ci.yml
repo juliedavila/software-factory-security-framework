@@ -26,12 +26,12 @@ test:
       - site/
     expire_in: 1 hour
   except:
-    - main
+    - master
   only:
     - merge_requests
     - branches
 
-# Build: Generate site with PDF on main branch
+# Build: Generate site with PDF on master branch
 build:
   stage: build
   script:
@@ -43,7 +43,7 @@ build:
       - site/
     expire_in: 1 day
   only:
-    - main
+    - master
 
 # Deploy: Publish to GitLab Pages
 pages:
@@ -57,7 +57,7 @@ pages:
     paths:
       - public
   only:
-    - main
+    - master
 
 # Optional: Generate PDF on demand
 pdf:
@@ -84,4 +84,4 @@ lint:
     - markdownlint-cli2 "docs/**/*.md" || echo "Linting warnings found"
   allow_failure: true
   except:
-    - main
+    - master

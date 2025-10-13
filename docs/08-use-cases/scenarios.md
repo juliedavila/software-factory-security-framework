@@ -11,4 +11,4 @@ Content for **scenarios** will be added here.
 
 **Section:** 08-use-cases
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/08-use-cases/scenarios.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/08-use-cases/scenarios.md){ .md-button }

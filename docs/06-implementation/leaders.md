@@ -11,4 +11,4 @@ Content for **leaders** will be added here.
 
 **Section:** 06-implementation
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/06-implementation/leaders.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/leaders.md){ .md-button }

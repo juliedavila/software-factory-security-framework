@@ -11,4 +11,4 @@ Content for **movement paths** will be added here.
 
 **Section:** 03-positioning
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/03-positioning/movement-paths.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/03-positioning/movement-paths.md){ .md-button }

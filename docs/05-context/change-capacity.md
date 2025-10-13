@@ -11,4 +11,4 @@ Content for **change capacity** will be added here.
 
 **Section:** 05-context
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/main/docs/05-context/change-capacity.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/05-context/change-capacity.md){ .md-button }
