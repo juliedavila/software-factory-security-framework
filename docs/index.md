@@ -143,7 +143,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 0.1.0
+**Version:** 0.2.0
 
 This framework represents years of experience leading product security at scale, distilled into a practical mental model for security leaders navigating the scaling challenge.
 
