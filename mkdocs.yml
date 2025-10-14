@@ -93,6 +93,12 @@ nav:
 
   - Use Cases: 08-use-cases/scenarios.md
 
+  - AI Integration:
+    - Overview: 09-ai-integration/overview.md
+    - Claude: 09-ai-integration/claude.md
+    - ChatGPT: 09-ai-integration/chatgpt.md
+    - Gemini: 09-ai-integration/gemini.md
+
   - Appendix:
     - Glossary: appendix/glossary.md
     - References: appendix/references.md
