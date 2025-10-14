@@ -16,6 +16,18 @@ cache:
 before_script:
   - pip install --cache-dir .cache/pip -r requirements.txt
 
+# Validate: Check framework consistency (runs on all branches and MRs)
+validate:
+  stage: test
+  script:
+    - chmod +x scripts/validate-consistency.sh
+    - ./scripts/validate-consistency.sh
+  except:
+    - master
+  only:
+    - merge_requests
+    - branches
+
 # Test: Build docs on all branches (except main) to catch errors early
 test:
   stage: test

@@ -135,10 +135,29 @@ Include:
 
 ### Review Process
 
-1. **Automatic checks** run on every MR (linting, build verification)
+1. **Automatic checks** run on every MR (validation, linting, build verification)
 2. **Content review** by framework maintainers
 3. **Feedback & iteration** - we'll work with you to refine contributions
 4. **Merge** - approved MRs are merged to main and deployed automatically
+
+### Automation: We Handle the Details! 🎉
+
+**You don't need to worry about consistency!** Our CI/CD pipeline automatically:
+
+✅ **Validates** version consistency across all files
+✅ **Checks** documentation structure and file counts
+✅ **Verifies** critical cross-references (Supply Chain #1, 2017 adversary evolution)
+✅ **Tests** terminology consistency
+✅ **Confirms** AI optimization files are valid
+✅ **Builds** the documentation to catch errors
+
+**What this means for you:**
+- Focus on writing great content
+- Don't worry about updating robots.txt, framework.json, or other meta files
+- If there's an issue, the pipeline will tell you exactly what needs fixing
+- Clear, helpful error messages guide you to the solution
+
+**Learn more**: See [scripts/README.md](https://gitlab.com/juliedavila/software-factory-security-framework/-/blob/master/scripts/README.md) for automation details
 
 ## Content Organization
 
