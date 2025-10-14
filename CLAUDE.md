@@ -36,11 +36,12 @@ When working on this framework, these principles are foundational:
 - SF² provides **sequencing, prioritization, and sustainability strategy**
 - Integration, not replacement
 
-### 5. Accessible to Security Leaders
-- **Executive-appropriate** language (board-ready)
-- **Minimal jargon**; explain when necessary
-- **Visual thinking** (quadrants, matrices, decision trees)
-- **Storytelling with data** (metrics that inform decisions)
+### 5. Accessible to All Security Leaders
+- **Content accessibility**: Executive-appropriate language, minimal jargon, clear visuals
+- **Technical accessibility**: WCAG 2.1 AA compliance for users with disabilities
+- **Visual thinking**: Quadrants, matrices, decision trees (with text alternatives)
+- **Storytelling with data**: Metrics that inform decisions
+- **Inclusive design**: Keyboard navigation, screen reader support, color-blind friendly
 
 ## Content Voice and Tone
 
@@ -90,7 +91,8 @@ docs/
 ├── 07-relationships/        # Integration with other frameworks
 ├── 08-use-cases/            # Real-world scenarios
 ├── 09-ai-integration/       # AI tool integration guides
-└── appendix/                # Glossary, references
+├── appendix/                # Glossary, references, accessibility statement
+└── stylesheets/             # Custom CSS (accessibility features)
 ```
 
 ## Content Patterns to Follow
@@ -314,6 +316,112 @@ Use sparingly for important callouts:
     Start with automated dependency scanning—high ROI, low risk.
 ```
 
+## Web Accessibility Standards
+
+SF² is committed to WCAG 2.1 Level AA compliance to ensure all security leaders can access the framework, regardless of ability.
+
+### Accessibility CSS Classes
+
+Use these standardized classes when styling content:
+
+**Priority/Risk Indicators** (includes text labels + color):
+```css
+.critical    /* Red background + "[CRITICAL]" prefix */
+.high        /* Orange background + "[HIGH]" prefix */
+.medium      /* Green background + "[MEDIUM]" prefix */
+.low         /* Gray background + "[LOW]" prefix */
+```
+
+**Screen Reader Utilities**:
+```css
+.sr-only     /* Visually hidden but announced by screen readers */
+```
+
+**Quadrant Styling**:
+```css
+.quadrant-visionaries    /* Green left border */
+.quadrant-leaders        /* Blue left border */
+.quadrant-niche          /* Yellow left border */
+.quadrant-challengers    /* Red left border */
+```
+
+### Content Contributor Accessibility Guidelines
+
+When adding or editing framework content:
+
+**1. Images & Diagrams**
+```markdown
+<!-- ❌ Bad: No alt text -->
+![](diagram.png)
+
+<!-- ✅ Good: Descriptive alt text -->
+![Two-axis positioning model showing operational complexity (x-axis) vs operational readiness (y-axis) with four quadrants](diagram.png)
+```
+
+**2. Links**
+```markdown
+<!-- ❌ Bad: Non-descriptive link text -->
+Click [here](link) for more information
+
+<!-- ✅ Good: Descriptive link text -->
+Review the [Visionaries implementation guide](link)
+```
+
+**3. Color Usage**
+- Never rely on color alone to convey information
+- Always include text labels (e.g., "[CRITICAL]" before priority items)
+- Ensure 4.5:1 contrast ratio for normal text, 3:1 for large text
+
+**4. Tables**
+```markdown
+<!-- ✅ Good: Clear headers -->
+| Question | Low Readiness | High Readiness |
+|----------|---------------|----------------|
+| Automation | Manual processes | Automated pipelines |
+```
+
+**5. Headings**
+- Use semantic heading hierarchy (H1 → H2 → H3)
+- Don't skip levels (e.g., H2 → H4)
+- One H1 per page (automatically the page title)
+
+**6. Lists**
+- Use `<ul>` (unordered) for non-sequential items
+- Use `<ol>` (ordered) for sequential steps
+- Use `- [ ]` for checklists
+
+**7. Language**
+- Target 8th-9th grade reading level for accessibility
+- Define technical terms on first use
+- Use short sentences (under 20 words when possible)
+
+### Testing Accessibility
+
+Before submitting changes, test:
+
+**Keyboard Navigation**:
+```bash
+# Test all interactive elements with:
+- Tab (navigate forward)
+- Shift+Tab (navigate backward)
+- Enter (activate links/buttons)
+```
+
+**Screen Reader** (if possible):
+- macOS: VoiceOver (Cmd + F5)
+- Windows: NVDA (free download)
+
+**Automated Tools**:
+```bash
+# Browser extensions
+- axe DevTools (Chrome/Firefox)
+- WAVE (Chrome/Firefox/Edge)
+```
+
+### Reference
+
+See complete accessibility documentation: [`docs/appendix/accessibility.md`](docs/appendix/accessibility.md)
+
 ## Content Quality Standards
 
 ### Before Committing
@@ -328,6 +436,10 @@ Use sparingly for important callouts:
 - [ ] Uses executive-appropriate language
 - [ ] Navigation links work correctly
 - [ ] Follows MkDocs markdown conventions
+- [ ] **Accessibility**: Images have descriptive alt text
+- [ ] **Accessibility**: Links use descriptive text (not "click here")
+- [ ] **Accessibility**: Color is not the only indicator (includes text labels)
+- [ ] **Accessibility**: Heading hierarchy is semantic (H1 → H2 → H3)
 
 ### Content Balance Target
 
@@ -486,6 +598,7 @@ If no → Refine or remove it.
 
 - **Contributing Guidelines**: See `contributing.md` for contribution process
 - **Glossary**: See `docs/appendix/glossary.md` for terminology definitions
+- **Accessibility Statement**: See `docs/appendix/accessibility.md` for WCAG compliance details
 - **Live Site**: https://sf2framework.com
 - **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
 
