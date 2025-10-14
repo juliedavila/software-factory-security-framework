@@ -1,0 +1,32 @@
+# Allow all AI crawlers and search engines
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://software-factory-security-framework-33acb0.gitlab.io/sitemap.xml
+
+# Specific AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Traditional search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

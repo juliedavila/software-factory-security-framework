@@ -1,0 +1,401 @@
+{
+  "framework": {
+    "name": "Software Factory Security Framework",
+    "abbreviation": "SF²",
+    "version": "0.3.1",
+    "description": "A strategic framework for scaling security capabilities while improving business outcomes",
+    "author": "Julie Davila",
+    "license": "CC BY 4.0",
+    "website": "https://software-factory-security-framework-33acb0.gitlab.io/",
+    "repository": "https://gitlab.com/juliedavila/software-factory-security-framework"
+  },
+  "core_model": {
+    "type": "two_axis_positioning",
+    "axes": [
+      {
+        "name": "Operational Complexity",
+        "description": "What you manage",
+        "range": ["Simple", "Complex"],
+        "factors": [
+          "Team size and structure",
+          "Number of products/services",
+          "Infrastructure diversity",
+          "Organizational interdependencies"
+        ]
+      },
+      {
+        "name": "Operational Readiness",
+        "description": "How you operate",
+        "range": ["Lower", "Higher"],
+        "factors": [
+          "Automation maturity",
+          "CI/CD sophistication",
+          "Infrastructure modernity",
+          "Process maturity"
+        ]
+      }
+    ],
+    "quadrants": [
+      {
+        "name": "Visionaries",
+        "position": "Simple + High Readiness",
+        "characteristics": [
+          "Small to medium scale (10-200 engineers)",
+          "Modern cloud-native infrastructure",
+          "Strong automation foundation",
+          "Fast decision-making"
+        ],
+        "strategy": "Automate from the start, build scaling foundations",
+        "timeline": "12-18 months to mature capabilities"
+      },
+      {
+        "name": "Leaders",
+        "position": "Complex + High Readiness",
+        "characteristics": [
+          "Large scale (200+ engineers)",
+          "Mature infrastructure and platforms",
+          "Strong security foundations",
+          "Platform-oriented thinking"
+        ],
+        "strategy": "Optimize existing, build platform effects, competitive advantage",
+        "timeline": "Ongoing optimization"
+      },
+      {
+        "name": "Niche Players",
+        "position": "Simple + Low Readiness",
+        "characteristics": [
+          "Small scale (<50 engineers)",
+          "Legacy or basic infrastructure",
+          "Resource constraints",
+          "Critical decision point"
+        ],
+        "strategy": "Choose intentional simplicity OR prepare for growth",
+        "timeline": "18-24 months if modernizing"
+      },
+      {
+        "name": "Challengers",
+        "position": "Complex + Low Readiness",
+        "characteristics": [
+          "Large scale with legacy systems",
+          "Manual processes at scale",
+          "Resource constrained",
+          "Highest transformation risk"
+        ],
+        "strategy": "Stabilize first, hybrid approach, realistic timelines",
+        "timeline": "3-5 years for transformation"
+      }
+    ]
+  },
+  "universal_stewardship": {
+    "description": "Five areas requiring attention regardless of organizational position",
+    "priority_note": "Supply Chain became #1 priority in 2017 due to adversary evolution to automated discovery at internet scale",
+    "areas": [
+      {
+        "name": "Supply Chain Stewardship",
+        "priority": 1,
+        "since": "2017",
+        "reason": "Adversary evolution to automated discovery",
+        "focus": "Managing security risks from all external dependencies and third-party components throughout their lifecycle"
+      },
+      {
+        "name": "Process Stewardship",
+        "priority": 2,
+        "focus": "Security embedded throughout development lifecycle with continuous validation and rapid feedback loops"
+      },
+      {
+        "name": "Runtime Stewardship",
+        "priority": 3,
+        "focus": "Maintaining security and reliability of systems in production with proactive monitoring and rapid response"
+      },
+      {
+        "name": "Third-Party Stewardship",
+        "priority": 4,
+        "focus": "Managing security risks from integrated services, platforms, and vendors throughout operational lifecycle"
+      },
+      {
+        "name": "Continuous Learning",
+        "priority": 5,
+        "focus": "Evolving security practices based on experience, incidents, and changing threat landscape"
+      }
+    ]
+  },
+  "investment_portfolio": {
+    "description": "Framework for categorizing security work and making investment decisions",
+    "categories": [
+      {
+        "name": "BAU (Business-as-Usual)",
+        "description": "Manual security work that scales linearly with growth",
+        "examples": [
+          "Security reviews",
+          "Threat modeling",
+          "Incident response",
+          "Compliance reporting"
+        ],
+        "strategy": "Constrain deliberately, don't expand",
+        "warning": "Should be limited post-scaling crisis"
+      },
+      {
+        "name": "Scaling Investments",
+        "description": "Capabilities that reduce manual effort exponentially",
+        "examples": [
+          "Automation platforms",
+          "Self-service capabilities",
+          "Policy-as-code",
+          "Paved roads and secure templates"
+        ],
+        "strategy": "Primary investment focus past crisis point",
+        "benefit": "Create compound capabilities"
+      },
+      {
+        "name": "Platform Effects",
+        "description": "Benefits that serve both internal and customer software factories",
+        "value": "Multiplicative impact across organization and customers"
+      }
+    ],
+    "scaling_crisis": {
+      "definition": "The inevitable moment when demand for security services grows exponentially while team capacity grows linearly",
+      "signal": "Security reviews blocking releases, team burnout, months-long backlogs",
+      "response": "Shift investment from BAU to scaling capabilities"
+    }
+  },
+  "contextual_modifiers": {
+    "description": "Six factors that significantly affect strategy implementation",
+    "modifiers": [
+      {
+        "name": "Attack Landscape Maturity",
+        "impact": "Accelerates need for automation; manual processes become existential vulnerabilities",
+        "high_maturity_characteristics": [
+          "Bug bounty techniques at internet scale",
+          "Adversaries discover assets before defenders",
+          "Rapid exploitation of disclosed vulnerabilities"
+        ]
+      },
+      {
+        "name": "Supply Chain Complexity",
+        "impact": "May require Leaders-level tools regardless of base quadrant",
+        "factors": [
+          "Multi-tier dependencies",
+          "Critical single vendors",
+          "Geopolitical constraints"
+        ]
+      },
+      {
+        "name": "Regulatory Constraints",
+        "impact": "Increases BAU burden; may delay quadrant progression",
+        "considerations": [
+          "Audit frequency",
+          "Technology constraints",
+          "Evidence collection requirements"
+        ]
+      },
+      {
+        "name": "Crisis Events",
+        "impact": "Can rapidly accelerate quadrant movement",
+        "types": [
+          "Security incidents",
+          "Compliance failures",
+          "Business disruptions"
+        ],
+        "opportunity": "Create windows for organizational change"
+      },
+      {
+        "name": "Change Capacity",
+        "impact": "Affects transition speed and scaling investment success probability",
+        "assessment": [
+          "Tool rollout timelines",
+          "Process disruption tolerance",
+          "Recent change success rate"
+        ]
+      },
+      {
+        "name": "Relationship Health",
+        "impact": "Directly affects adoption velocity",
+        "levels": [
+          "Damaged: Security seen as blocker",
+          "Functional: Working but transactional",
+          "Strategic: Security as enabler and partner"
+        ]
+      }
+    ]
+  },
+  "framework_relationships": {
+    "description": "How SF² integrates with other security frameworks",
+    "principle": "SF² is strategic overlay that guides sequencing, prioritization, and sustainability",
+    "frameworks": [
+      {
+        "name": "NIST SSDF",
+        "focus": "Secure development lifecycle practices",
+        "sf2_provides": "Implementation strategy for sustainable resourcing and scaling",
+        "url": "https://csrc.nist.gov/Projects/ssdf"
+      },
+      {
+        "name": "OWASP SAMM",
+        "focus": "Security practice maturity progression",
+        "sf2_provides": "Which maturity levels to pursue and how fast to progress",
+        "url": "https://owaspsamm.org/"
+      },
+      {
+        "name": "BSIMM",
+        "focus": "Security activity measurement and benchmarking",
+        "sf2_provides": "Investment priorities for activities based on organizational positioning",
+        "url": "https://www.bsimm.com/"
+      },
+      {
+        "name": "OWASP ASVS",
+        "focus": "Security verification requirements",
+        "sf2_provides": "Risk-based ASVS subset vs comprehensive implementation guidance",
+        "url": "https://owasp.org/www-project-application-security-verification-standard/"
+      }
+    ]
+  },
+  "ai_integration": {
+    "description": "Guidance for using AI tools with SF² framework",
+    "supported_tools": [
+      {
+        "name": "Claude Desktop",
+        "feature": "Projects with persistent framework knowledge",
+        "strength": "Deep strategic reasoning, long context"
+      },
+      {
+        "name": "ChatGPT",
+        "feature": "Custom GPTs with framework configuration",
+        "strength": "Team collaboration, web browsing"
+      },
+      {
+        "name": "Gemini",
+        "feature": "Gems with Google Workspace integration",
+        "strength": "Native Docs/Sheets/Slides collaboration"
+      }
+    ],
+    "use_cases": [
+      "Position assessment",
+      "Investment strategy development",
+      "Executive communication",
+      "Board preparation",
+      "Budget justification",
+      "Vendor evaluation",
+      "Team communication",
+      "Transformation planning"
+    ]
+  },
+  "documentation_structure": {
+    "sections": [
+      {
+        "id": "01-foundation",
+        "name": "Foundation",
+        "pages": ["Software Factory Definition"],
+        "url": "01-foundation/software-factory-definition.md"
+      },
+      {
+        "id": "02-stewardship",
+        "name": "Universal Stewardship",
+        "pages": [
+          "Overview",
+          "Supply Chain (Priority #1)",
+          "Process Stewardship",
+          "Runtime Stewardship",
+          "Third-Party Stewardship",
+          "Continuous Learning"
+        ],
+        "url": "02-stewardship/"
+      },
+      {
+        "id": "03-positioning",
+        "name": "Strategic Positioning",
+        "pages": [
+          "Two-Axis Model",
+          "Four Strategic Positions",
+          "Movement Paths"
+        ],
+        "url": "03-positioning/"
+      },
+      {
+        "id": "04-investment",
+        "name": "Investment Portfolio",
+        "pages": [
+          "Portfolio Framework",
+          "BAU vs Scaling",
+          "Platform Effects",
+          "Evaluation Criteria"
+        ],
+        "url": "04-investment/"
+      },
+      {
+        "id": "05-context",
+        "name": "Contextual Modifiers",
+        "pages": [
+          "Overview",
+          "Attack Landscape",
+          "Supply Chain Complexity",
+          "Regulatory Constraints",
+          "Crisis Events",
+          "Change Capacity",
+          "Relationship Health"
+        ],
+        "url": "05-context/"
+      },
+      {
+        "id": "06-implementation",
+        "name": "Implementation Guides",
+        "pages": [
+          "Visionaries",
+          "Leaders",
+          "Niche Players",
+          "Challengers"
+        ],
+        "url": "06-implementation/"
+      },
+      {
+        "id": "07-relationships",
+        "name": "Framework Relationships",
+        "pages": [
+          "NIST SSDF",
+          "OWASP SAMM",
+          "BSIMM",
+          "OWASP ASVS"
+        ],
+        "url": "07-relationships/"
+      },
+      {
+        "id": "08-use-cases",
+        "name": "Use Cases",
+        "pages": ["Scenarios and Applications"],
+        "url": "08-use-cases/scenarios.md"
+      },
+      {
+        "id": "09-ai-integration",
+        "name": "AI Integration",
+        "pages": [
+          "Overview",
+          "Claude",
+          "ChatGPT",
+          "Gemini"
+        ],
+        "url": "09-ai-integration/"
+      },
+      {
+        "id": "appendix",
+        "name": "Appendix",
+        "pages": [
+          "Glossary",
+          "References"
+        ],
+        "url": "appendix/"
+      }
+    ]
+  },
+  "key_principles": [
+    "Supply Chain Stewardship is #1 priority since 2017 adversary evolution",
+    "Constrain BAU activities, invest in scaling capabilities",
+    "High operational readiness enables automation",
+    "Two-axis transformation is high-risk; sequence carefully",
+    "Appropriate security depends on organizational position",
+    "Framework provides strategic overlay for other security frameworks",
+    "Realistic timelines: Challengers need 3-5 years for transformation"
+  ],
+  "target_audience": {
+    "primary": "Security leaders (VP, CISO, Director level)",
+    "use_case": "Strategic decision-making about positioning, investment, and transformation",
+    "value_proposition": "Context-appropriate guidance with realistic timelines and actionable steps"
+  }
+}

@@ -102,12 +102,15 @@ nav:
   - Appendix:
     - Glossary: appendix/glossary.md
     - References: appendix/references.md
+    - AI Framework Summary: ai-framework-summary.md
 
   - Contributing: contributing.md
 
 plugins:
   - search:
       lang: en
+  - sitemap:
+      changefreq: weekly
   - git-revision-date-localized:
       enable_creation_date: true
       type: date

@@ -1,3 +1,11 @@
+---
+title: Software Factory Security Framework (SF²)
+description: Strategic framework for scaling security capabilities while improving business outcomes
+keywords: security framework, security strategy, security scaling, software factory, security leadership, CISO, VP Security
+author: Julie Davila
+version: 0.3.1
+---
+
 # Software Factory Security Framework (SF²)
 
 ## A Complete Mental Model for Securing Software Factories at Scale
@@ -143,7 +151,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 0.2.0
+**Version:** 0.3.1
 
 This framework represents years of experience leading product security at scale, distilled into a practical mental model for security leaders navigating the scaling challenge.
 
