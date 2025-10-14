@@ -4,33 +4,33 @@
 
 This is the **Software Factory Security Framework (SF²)** - an open-source strategic framework for scaling security capabilities while improving business outcomes.
 
-**Author**: Julie Davila
 **Purpose**: Help security leaders make strategic decisions about positioning, investment, and transformation
-**License**: CC BY 4.0
+**License**: CC BY 4.0 (open for contributions)
 **Audience**: Security leaders, CISOs, VPs of Security at software organizations
+**Website**: https://software-factory-security-framework-33acb0.gitlab.io/
 
-## Framework Principles (Core DNA)
+## Framework Core Principles
 
 When working on this framework, these principles are foundational:
 
 ### 1. Strategic Over Tactical
-- Framework is about **positioning and investment strategy**, not specific security controls
+- Framework guides **positioning and investment strategy**, not specific security controls
 - Focus on **sustainable scaling** at organizational level
-- Guide leaders to appropriate security for their context
+- Help leaders find appropriate security for their context
 
 ### 2. Honest and Pragmatic
-- **Call out hard truths**: scaling crisis is inevitable, two-axis transformation is high-risk
+- **Call out hard truths**: Scaling crisis is inevitable, two-axis transformation is high-risk
 - **Realistic timelines**: Challenger transformations take 3-5 years, not 12 months
-- **Acknowledge tradeoffs**: no perfect solutions, only context-appropriate choices
+- **Acknowledge tradeoffs**: No perfect solutions, only context-appropriate choices
 - **Supply Chain #1 since 2017**: Adversary evolution to automated discovery is non-negotiable
 
 ### 3. Actionable and Specific
 - Provide **concrete checklists** (Week 1, Month 1, Quarter 1)
 - Include **success indicators** with measurable targets
 - Offer **decision frameworks** (should we build or buy? which quadrant? what timeline?)
-- Real **use cases and examples** grounded in actual organizational situations
+- Use **real examples** grounded in actual organizational situations
 
-### 4. Framework Relationships, Not Competition
+### 4. Framework Integration, Not Competition
 - SF² is **strategic overlay** for NIST SSDF, OWASP SAMM, BSIMM, OWASP ASVS
 - Other frameworks provide **practices and requirements**
 - SF² provides **sequencing, prioritization, and sustainability strategy**
@@ -38,74 +38,46 @@ When working on this framework, these principles are foundational:
 
 ### 5. Accessible to Security Leaders
 - **Executive-appropriate** language (board-ready)
-- **Avoid security jargon** where possible; explain when necessary
+- **Minimal jargon**; explain when necessary
 - **Visual thinking** (quadrants, matrices, decision trees)
 - **Storytelling with data** (metrics that inform decisions)
 
-## Content Development Philosophy
+## Content Voice and Tone
 
-### Voice and Tone
+### Primary Voice: Strategic Advisor
 
-**Strategic Advisor** - The primary voice:
-- Confident but not prescriptive
-- Direct about challenges and risks
-- Empathetic to organizational constraints
-- Data-informed without being academic
-- Professional without being corporate
+The framework should read like advice from an experienced security leader who:
+- Understands organizational constraints
+- Has lived through scaling challenges
+- Balances ambition with realism
+- Speaks directly without corporate-speak
+- Backs recommendations with reasoning
 
-**What to Avoid**:
-- Academic paper style (too theoretical)
-- Vendor marketing language (too promotional)
-- Compliance checklist mentality (too rigid)
-- Security absolutism ("you must do X")
-- Buzzword overload
+**Good example**:
+> "Visionaries should automate from the start. Your high operational readiness makes this achievable—don't build manual processes you'll need to replace in 18 months."
 
-**What to Embrace**:
-- Clear positioning: "Visionaries should...", "Challengers face..."
-- Honest tradeoffs: "faster timeline but higher risk"
-- Contextual guidance: "if you have strong executive support..."
-- Practical examples: "like when a Series B startup..."
+**Avoid**:
+> "Organizations in the Visionary quadrant may wish to consider implementing automation where feasible and appropriate to their context."
 
-### Content Structure Patterns
+### Tone Guidelines
 
-**Assessment Questions** - Help reader determine their situation:
-```
-| Question | Low | Moderate | High |
-|----------|-----|----------|------|
-| Specific assessment criterion | Description | Description | Description |
-```
+**Be Direct**:
+- ✅ "This transformation will fail without executive support"
+- ❌ "Executive support is recommended for success"
 
-**Implementation Guidance** - Actionable steps:
-```
-Week 1:
-- [ ] Specific, measurable action
-- [ ] Another specific action
+**Be Specific**:
+- ✅ "Reduce manual reviews from 40% to 10% of team time"
+- ❌ "Improve efficiency in security review processes"
 
-Month 1:
-- [ ] Achievable milestone
-```
+**Be Contextual**:
+- ✅ "Challengers need 3-5 years. Fast-tracking creates technical debt."
+- ❌ "Transformation timelines vary by organization"
 
-**Decision Frameworks** - Clear criteria:
-```
-Choose Option A if:
-- Criterion 1
-- Criterion 2
+**Be Honest About Tradeoffs**:
+- ✅ "Faster timeline but higher failure risk"
+- ❌ "Multiple approaches are available"
 
-Choose Option B if:
-- Different criterion
-- Another consideration
-```
-
-**Success Indicators** - Measurable outcomes:
-```
-6 Months:
-- [ ] **Metric reduced/improved X%** from baseline
-- [ ] **Qualitative outcome** (specific and verifiable)
-```
-
-## Working with This Repository
-
-### Documentation Structure
+## Documentation Structure
 
 ```
 docs/
@@ -121,263 +93,400 @@ docs/
 └── appendix/                # Glossary, references
 ```
 
-### Content Iteration Patterns
+## Content Patterns to Follow
 
-**Adding New Content**:
-1. Identify which section it belongs to
-2. Check cross-references to related concepts
-3. Maintain consistent terminology (use Glossary)
-4. Include practical examples or decision frameworks
-5. Add navigation links (Next Steps buttons)
+### 1. Assessment Questions
 
-**Refining Existing Content**:
-1. Read surrounding context for consistency
-2. Preserve the strategic advisor voice
-3. Enhance with specific, measurable guidance
-4. Add missing cross-references
-5. Verify all links work
+Help readers determine their situation:
 
-**Framework Evolution**:
-- New concepts should integrate with existing two-axis model
-- Additional modifiers should be truly contextual (not universal)
-- Implementation guides should stay quadrant-specific
-- Examples should represent diverse organizational contexts
+```markdown
+| Question | Low | Moderate | High |
+|----------|-----|----------|------|
+| Specific criterion | Description | Description | Description |
+```
 
-### MkDocs Conventions
+### 2. Implementation Checklists
 
-**Navigation Structure**:
-- Top-level tabs for major sections
-- Hierarchical for subsections
-- "Next Steps" buttons at bottom of pages
-- "Edit this page" links for contributions
+Provide actionable steps:
 
-**Markdown Extensions Used**:
-- Admonitions: `!!! note/warning/tip`
-- Tables: Standard markdown tables
-- Buttons: `[:octicons-icon: Text](link.md){ .md-button }`
-- Checklists: `- [ ] Item`
+```markdown
+### Week 1: Assessment
+- [ ] Specific, measurable action
+- [ ] Another specific action
 
-**Cross-References**:
-- Always use relative paths: `../02-stewardship/supply-chain.md`
-- Reference specific sections: `[Supply Chain #1](../02-stewardship/supply-chain.md#2017-adversary-evolution)`
-- Link to related concepts liberally
+### Month 1: Foundation
+- [ ] Achievable milestone
+- [ ] Measurable outcome
+```
 
-## Common Tasks for Claude Code
+### 3. Decision Frameworks
 
-### 1. Adding a New Use Case
+Clear criteria for choices:
 
-**Pattern**:
+```markdown
+## Should You [Decision]?
+
+**Yes, if:**
+- Criterion 1 with context
+- Criterion 2 with context
+
+**No, if:**
+- Different criterion
+- Risk factor to consider
+```
+
+### 4. Success Indicators
+
+Measurable outcomes with timelines:
+
+```markdown
+### 6 Months
+- [ ] **Specific metric reduced/improved X%** from baseline
+- [ ] **Qualitative outcome** (verifiable)
+
+### 12 Months
+- [ ] **Next milestone with number**
+```
+
+### 5. Common Pitfalls
+
+Problems with solutions:
+
+```markdown
+### [Pitfall Name]
+**Risk**: What can go wrong
+
+**Symptoms**:
+- Observable warning sign
+- Another indicator
+
+**Solution**: Specific corrective action
+```
+
+## Terminology Standards
+
+### Required Consistency
+
+Use these terms precisely:
+
+- **Software Factory** (capitalized) - organizations deploying code-based systems
+- **Supply Chain Stewardship is #1 priority** - always with "since 2017 adversary evolution"
+- **BAU (Business-as-Usual)** - activities to constrain
+- **Scaling Investments** - capabilities that create compound effects
+- **Operational Complexity** - "what you manage" axis (Simple → Complex)
+- **Operational Readiness** - "how you operate" axis (Lower → Higher)
+- **Quadrant names**: Visionaries, Leaders, Niche Players, Challengers (always capitalized)
+
+### Terms to Avoid
+
+Don't use:
+- "Security maturity" → use "operational readiness"
+- "Best practices" → use "position-appropriate practices"
+- "Security controls" → use "security capabilities"
+- "Compliance requirements" → use "regulatory constraints" (when contextual modifier)
+
+### Check the Glossary
+
+Before introducing new terms, check `docs/appendix/glossary.md`. Use established terminology consistently throughout the framework.
+
+## Common Contribution Tasks
+
+### Adding a New Use Case
+
+**Location**: `docs/08-use-cases/scenarios.md`
+
+**Template**:
 ```markdown
 ## Use Case X: [Descriptive Title]
 
 ### Situation
-[Specific organizational context]
+[Specific organizational context with enough detail to be recognizable]
 
 ### Framework Application
 
 **Strategic Position**: [Quadrant]
 
 **Contextual Modifiers**:
-- [Modifier 1]: [Impact]
-- [Modifier 2]: [Impact]
+- [Modifier]: [Impact on strategy]
+- [Modifier]: [Impact on strategy]
 
 **Investment Strategy**:
-[Specific approach]
+1. [Specific approach]
+2. [Timeline and resources]
+3. [Expected outcomes]
 
-**Outcome**: [Measurable result]
+**Outcome**: [Measurable result or lesson learned]
+
+---
 ```
 
-### 2. Enhancing Implementation Guides
+### Enhancing Implementation Guides
 
-**Check for**:
-- Clear quadrant positioning characteristics
+**Locations**: `docs/06-implementation/[quadrant].md`
+
+**What to include**:
+- Clear positioning characteristics
 - Specific investment priorities with rationale
-- Realistic timelines (Challengers = years, not months)
+- Realistic timelines (be honest!)
 - Common pitfalls with solutions
-- Success indicators at multiple timeframes
-- Movement paths (if staying in quadrant or transitioning)
+- Success indicators at 6/12/24 months
+- Movement paths (staying vs transitioning)
 
-### 3. Creating Decision Frameworks
+**Quality check**:
+- Would a security leader in this quadrant recognize themselves?
+- Are recommendations specific enough to act on?
+- Are timelines realistic (Challengers = years)?
+- Do pitfalls reflect real organizational challenges?
+
+### Creating Decision Frameworks
+
+**Pattern**:
+```markdown
+## Decision: [Clear Question]
+
+### Assessment Criteria
+
+[Table or structured comparison of options]
+
+### SF² Framework Guidance
+
+**For [Quadrant Position]**:
+- Recommendation with reasoning
+- Contextual considerations
+
+**For [Different Quadrant]**:
+- Different recommendation
+- Different reasoning
+
+### Key Considerations
+
+[Factors that affect the decision regardless of position]
+```
+
+### Adding Framework Relationships
+
+**Location**: `docs/07-relationships/[framework].md`
 
 **Structure**:
+1. **Framework Overview** - What it is, what it does
+2. **Relationship to SF²** - How they complement each other
+3. **Integration Approach** - Practical guidance by quadrant
+4. **Contextual Modifiers** - How context affects integration
+5. **Examples** - Real scenarios showing integration
+
+**Key principle**: SF² guides **which**, **when**, and **how fast** to implement other frameworks' practices.
+
+## MkDocs Conventions
+
+### Navigation Links
+
+Always include "Next Steps" at the end of pages:
+
 ```markdown
-## Decision: [Question]
+[:octicons-arrow-right-24: Continue to Next Section](next.md){ .md-button .md-button--primary }
+[:octicons-arrow-left-24: Back to Previous Section](previous.md){ .md-button }
 
-### Criteria Assessment
-[Table or list comparing options]
-
-### Framework Guidance
-[How SF² positioning affects the decision]
-
-### Recommendation Pattern
-[If X then Y, with reasoning]
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/path/to/file.md){ .md-button }
 ```
 
-### 4. Writing Executive Summaries
+### Cross-References
 
-**Key Elements**:
-- Start with strategic positioning question
-- Present two-axis model visually/conceptually
-- Show investment portfolio framework
-- Link to relevant implementation guide
-- Single-page digestible format
+Link liberally to related concepts:
 
-## Framework Terminology (Consistent Usage)
+```markdown
+See [Supply Chain Stewardship](../02-stewardship/supply-chain.md) for details on the #1 priority.
 
-**Required Precision**:
-- **Software Factory** (capitalized) - not "software organization" or "development team"
-- **Supply Chain Stewardship is #1 priority** - always with context "since 2017 adversary evolution"
-- **BAU (Business-as-Usual)** - activities to constrain
-- **Scaling Investments** - capabilities that create compound effects
-- **Operational Complexity** and **Operational Readiness** - the two axes (not "maturity")
-- **Quadrant names**: Visionaries, Leaders, Niche Players, Challengers (capitalized)
+As discussed in [Investment Portfolio](../04-investment/portfolio-framework.md), constrain BAU activities...
+```
 
-**Avoid These Terms**:
-- "Security maturity" (use operational readiness)
-- "Best practices" (use position-appropriate practices)
-- "Security controls" (use security capabilities)
-- "Security debt" (use technical debt in security context)
+### Admonitions
 
-## Quality Standards for Content
+Use sparingly for important callouts:
 
-### Before Committing New Content
+```markdown
+!!! note "Key Insight"
+    Supply Chain became #1 priority in 2017 due to adversary evolution to automated discovery.
 
-**Checklist**:
-- [ ] Aligns with core framework principles
-- [ ] Uses consistent terminology (check Glossary)
-- [ ] Provides actionable guidance (not just concepts)
+!!! warning "Critical Success Factor"
+    Two-axis transformation has high failure risk. Sequence carefully.
+
+!!! tip "Quick Win"
+    Start with automated dependency scanning—high ROI, low risk.
+```
+
+## Content Quality Standards
+
+### Before Committing
+
+**Self-review checklist**:
+- [ ] Aligns with core framework principles (strategic, honest, actionable)
+- [ ] Uses consistent terminology (checked against Glossary)
+- [ ] Provides actionable guidance (not just theory)
 - [ ] Includes specific examples or decision frameworks
-- [ ] Has appropriate cross-references
-- [ ] Maintains strategic advisor voice
-- [ ] Board-ready language (if executive-facing)
-- [ ] Navigation links work
-- [ ] Follows MkDocs conventions
+- [ ] Has appropriate cross-references to related sections
+- [ ] Maintains strategic advisor voice (direct, specific, contextual)
+- [ ] Uses executive-appropriate language
+- [ ] Navigation links work correctly
+- [ ] Follows MkDocs markdown conventions
 
-### Content Balance
+### Content Balance Target
 
-**Aim for**:
-- 60% practical guidance (how-to, checklists, decisions)
-- 30% strategic context (why this matters, tradeoffs)
-- 10% conceptual foundation (definitions, principles)
+Aim for this mix in implementation-focused content:
+- **60%** Practical guidance (how-to, checklists, decisions)
+- **30%** Strategic context (why this matters, tradeoffs)
+- **10%** Conceptual foundation (definitions, principles)
 
-**Warning Signs**:
+### Warning Signs
+
+Content may need revision if it's:
 - Too theoretical (lacks actionable steps)
-- Too prescriptive (doesn't acknowledge context)
+- Too prescriptive (doesn't acknowledge different contexts)
 - Too detailed (loses strategic altitude)
-- Too generic (could apply to anything)
+- Too generic (could apply to any framework)
+- Too jargon-heavy (not executive-accessible)
 
 ## Version Management
 
 **Semantic Versioning**:
-- **Patch (0.3.X)**: Content refinements, typo fixes, clarifications
-- **Minor (0.X.0)**: New sections, substantial content additions, new frameworks
-- **Major (X.0.0)**: Fundamental framework changes, restructuring
+- **Patch (0.3.X)**: Content refinements, typo fixes, clarifications, minor additions
+- **Minor (0.X.0)**: New sections, substantial content additions, new capabilities
+- **Major (X.0.0)**: Fundamental framework changes, restructuring, breaking changes
 
-**Update Locations**:
-- `docs/appendix/references.md` - "About This Framework" section
-- Git tags: `git tag vX.Y.Z && git push origin vX.Y.Z`
+**Update Version In**:
+1. `docs/appendix/references.md` - "About This Framework" section
+2. Git tag: `git tag vX.Y.Z && git push origin vX.Y.Z`
 
-## Repository-Specific Claude Code Workflows
+## Strategic Content Review
 
-### Strategic Content Review
+When reviewing or adding content, ask:
 
-When asked to review content:
-1. **Assess strategic alignment**: Does this help security leaders make better decisions?
-2. **Check positioning specificity**: Are recommendations quadrant-appropriate?
-3. **Verify actionability**: Can a reader actually use this guidance?
-4. **Evaluate voice**: Does it maintain strategic advisor tone?
-5. **Test practical value**: Would you use this in a real organizational decision?
+### 1. Strategic Alignment
+Does this help security leaders make better strategic decisions about positioning, investment, or transformation?
 
-### Framework Evolution Guidance
+### 2. Positioning Specificity
+Are recommendations appropriate for specific quadrants? Do they acknowledge that different positions need different approaches?
 
-When proposing new framework elements:
-1. **Integration test**: How does this fit with two-axis model?
-2. **Necessity test**: Is this truly needed or is existing framework sufficient?
-3. **Actionability test**: Does this help leaders make different/better decisions?
-4. **Clarity test**: Can this be explained to a board in 2 minutes?
-5. **Evidence test**: What real-world situations validate this addition?
+### 3. Actionability
+Can a security leader actually use this guidance tomorrow? Is it specific enough to act on?
 
-### Cross-Reference Enhancement
+### 4. Voice Consistency
+Does it maintain the strategic advisor tone (direct, specific, contextual, honest)?
 
-When improving existing content:
-1. Look for orphaned concepts (mentioned but not linked)
-2. Add references to related sections
-3. Create "See also" connections
-4. Enhance "Next Steps" navigation
-5. Build conceptual bridges between sections
+### 5. Practical Value
+Would you personally use this guidance in a real organizational decision?
 
-## Meta-Principles for This Work
+## Framework Evolution Principles
+
+### When Proposing New Elements
+
+**Integration test**: How does this fit with the two-axis positioning model?
+
+**Necessity test**: Is this truly needed or is the existing framework sufficient?
+
+**Actionability test**: Does this help leaders make different or better decisions?
+
+**Clarity test**: Can this be explained to a board in 2 minutes?
+
+**Evidence test**: What real-world situations validate this addition?
+
+### What Makes Good SF² Content
+
+**Include**:
+- Position-specific guidance (not one-size-fits-all)
+- Realistic timelines and resource requirements
+- Honest assessment of risks and tradeoffs
+- Concrete success indicators
+- Decision frameworks and checklists
+- Real organizational scenarios
+
+**Avoid**:
+- Generic security advice ("implement defense in depth")
+- Unrealistic timelines ("transform in 6 months")
+- Security absolutism ("you must do X")
+- Vendor-neutral language that says nothing ("consider solutions")
+- Theoretical frameworks without application guidance
+
+## Contributing Philosophy
 
 ### Framework as Living Document
-- SF² evolves with security landscape changes
-- Community contributions enhance it
-- Real-world application validates it
-- Julie's experience at GitLab informs it
-- Open source enables broader impact
+
+SF² evolves based on:
+- Security landscape changes (adversary evolution, new attack patterns)
+- Community contributions (real-world applications)
+- Validation through practice (what works in actual organizations)
+- Feedback from security leaders using the framework
 
 ### Integrity Over Completeness
+
 - **Honest about limitations**: Framework doesn't solve everything
 - **Transparent about tradeoffs**: Every choice has costs
 - **Realistic about timelines**: Don't oversell transformation speed
-- **Humble about certainty**: Security is probabilistic, not deterministic
+- **Humble about certainty**: Security is probabilistic, not absolute
 
 ### Accessibility Over Comprehensiveness
+
 - Better to be **useful to many** than complete for few
-- Strategic leaders need **decision frameworks**, not encyclopedias
+- Security leaders need **decision frameworks**, not encyclopedias
 - **Practical beats theoretical** in every content decision
-- **Clear language beats precise jargon**
+- **Clear language beats precise jargon** every time
 
-## When Working with Julie on This Repository
+## Working with Claude Code
 
-### Understanding Context
+### Expected Usage Patterns
 
-Julie brings:
-- **Lived experience** in Challenger quadrant (GitLab Product Security)
-- **Strategic thinking** shaped by systems, psychology, and philosophy
-- **Authentic voice** that values directness and empathy
-- **Open source ethos** that prioritizes community value
+Claude Code users working on this repository typically:
+- Refine existing implementation guides
+- Add new use cases or examples
+- Enhance cross-references and navigation
+- Improve clarity and actionability
+- Integrate new security frameworks
+- Update for security landscape changes
 
-### Response Patterns
+### Helpful Context to Provide
 
-**For Content Development**:
-- Lead with strategic framing (what problem does this solve?)
-- Provide concrete examples from her context when relevant
-- Maintain board-ready professional tone
-- Acknowledge organizational complexity honestly
+When asking Claude Code for help:
+- Specify which quadrant or section you're working on
+- Indicate target audience (board, security leader, practitioner)
+- Note any specific organizational context that matters
+- Reference related sections that should be consistent
+- Clarify whether you want strategic or tactical guidance
 
-**For Framework Iteration**:
-- Build on existing structure (don't propose dramatic restructuring)
-- Integrate with two-axis model and existing terminology
-- Test ideas against real organizational scenarios
-- Consider how security leaders will actually use this
+### Quality Reminders
 
-**For Technical Decisions** (MkDocs, structure, etc.):
-- Prioritize reader experience over technical elegance
-- Maintain consistency with existing patterns
-- Keep it simple and maintainable
-- Document why, not just what
+The test for any content addition:
 
-## Final Reminder
-
-This framework exists to help security leaders make **better strategic decisions** in their specific organizational context.
-
-Every word we add should:
-- Clarify strategic positioning
-- Guide investment decisions
-- Enable realistic transformation planning
-- Empower leaders with appropriate confidence
-
-The test: **Would a security leader use this to make a consequential decision?**
+**Would a security leader use this to make a consequential decision about their organization's security strategy?**
 
 If yes → Keep it.
+
 If no → Refine or remove it.
 
 ---
 
-**For questions about framework philosophy, positioning, or content direction**:
-Refer to Julie's personal Claude Desktop preferences, which provide her complete strategic and philosophical context.
+## Quick Reference
 
-**For questions about this repository, documentation structure, or content development**:
-This CLAUDE.md is your primary guide.
+**Core Concept**: Two-axis positioning model (Complexity × Readiness) creates four strategic positions
 
-Together, these contexts enable high-quality strategic framework development.
+**Key Framework Elements**:
+- 5 Universal Stewardship areas (Supply Chain #1)
+- 4 Strategic Quadrants (implementation approaches differ)
+- 6 Contextual Modifiers (affect strategy execution)
+- Investment Portfolio (BAU vs Scaling)
+- Framework Relationships (integration with NIST, OWASP, etc.)
+
+**Primary Audience**: Security leaders (VP, CISO, Director level)
+
+**Primary Use**: Strategic decision-making about positioning, investment, transformation
+
+**Primary Value**: Context-appropriate guidance with realistic timelines
+
+---
+
+## Additional Resources
+
+- **Contributing Guidelines**: See `contributing.md` for contribution process
+- **Glossary**: See `docs/appendix/glossary.md` for terminology definitions
+- **Live Site**: https://software-factory-security-framework-33acb0.gitlab.io/
+- **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
+
+For questions about the framework itself, refer to the published documentation. For questions about contributing or repository structure, this CLAUDE.md is your guide.
