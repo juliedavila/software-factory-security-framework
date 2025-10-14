@@ -42,7 +42,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  favicon: assets/favicon.ico
 
 nav:
   - Home: index.md
