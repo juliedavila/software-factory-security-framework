@@ -9,6 +9,7 @@ edit_uri: -/edit/master/docs/
 
 theme:
   name: material
+  language: en
   features:
     - navigation.instant
     - navigation.tracking
@@ -102,6 +103,7 @@ nav:
   - Appendix:
     - Glossary: appendix/glossary.md
     - References: appendix/references.md
+    - Accessibility: appendix/accessibility.md
     - AI Framework Summary: ai-framework-summary.md
 
   - Contributing: contributing.md
