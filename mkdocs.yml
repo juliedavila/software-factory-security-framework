@@ -109,8 +109,12 @@ nav:
 plugins:
   - search:
       lang: en
-  - sitemap:
-      changefreq: weekly
+  - social:
+      cards: true
+      cards_layout_options:
+        background_color: "#1a3a52"  # SF² shield blue
+        color: "#ffffff"
+        font_family: Roboto
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
