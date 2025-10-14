@@ -1,14 +1,90 @@
-# supply chain complexity
+# Supply Chain Complexity
 
-!!! warning "Content Coming Soon"
-    This section is currently being migrated from the source document. Full content will be available soon.
+## Beyond Volume: Complexity as Risk Multiplier
 
-## Overview
+Supply chain complexity isn't just about the number of dependencies—it's about the **interconnected risk** created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
 
-Content for **supply chain complexity** will be added here.
+!!! warning "May Require Leaders-Level Tools"
+    High supply chain complexity may require Leaders-level supply chain tools **regardless of your base quadrant position**. Organizations with critical supply chains should prioritize supply chain stewardship investments early.
 
----
+## Complexity Levels
 
-**Section:** 05-context
+### Simple Supply Chain
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/05-context/supply-chain-complexity.md){ .md-button }
+**Characteristics**:
+- Standard dependencies with known vendors
+- Direct relationships (minimal tiers)
+- Straightforward compliance
+- Geographic simplicity
+- Minimal single points of failure
+
+**Implementation**: Standard supply chain stewardship from your quadrant
+
+### Complex Supply Chain
+
+**Characteristics**:
+- Multi-tier dependencies (2-3 levels deep)
+- Critical SaaS integrations
+- Multiple geographic regions
+- Some vendor concentration risk
+- Industry-standard security requirements
+
+**Implementation**: Enhanced supply chain visibility and management
+
+### Critical Supply Chain
+
+**Characteristics**:
+- National security implications
+- Highly regulated vendors (defense, finance)
+- Geopolitical constraints and restrictions
+- Critical single vendors (business-critical dependencies)
+- Supply chain attacks as existential risk
+
+**Implementation**: Enterprise-grade supply chain security regardless of operational complexity
+
+## Assessment Questions
+
+| Question | Simple | Complex | Critical |
+|----------|--------|---------|----------|
+| Dependency tiers? | 1-2 levels | 2-3 levels | 3+ levels with unknowns |
+| Single vendor risk? | Multiple alternatives | Some concentration | Critical dependencies |
+| Geopolitical concerns? | Minimal | Moderate | Significant constraints |
+| Regulatory requirements? | Standard | Industry-specific | Government/defense |
+| Supply chain attack impact? | Recoverable | Significant | Existential |
+
+## Impact on Strategic Position
+
+### Simple Supply Chain
+
+Follow standard quadrant approach for supply chain stewardship
+
+### Complex Supply Chain
+
+- Enhanced SBOM capabilities required
+- Multi-tier dependency tracking
+- Vendor relationship management program
+- Supply chain risk scoring
+
+### Critical Supply Chain
+
+**Requires Leaders-level capabilities even in other quadrants**:
+
+**Niche Players with Critical Supply Chain**:
+- Implement enterprise SBOM tools early
+- Comprehensive vendor security program
+- May need dedicated supply chain security role
+
+**Challengers with Critical Supply Chain**:
+- Prioritize supply chain modernization
+- Hybrid approaches with enhanced visibility
+- Balance legacy and modern supply chain security
+
+**Visionaries with Critical Supply Chain**:
+- Leverage advanced supply chain automation
+- Policy-as-code for supply chain governance
+- AI-powered supply chain risk analysis
+
+## Next Steps
+
+[:octicons-arrow-right-24: Continue to Regulatory Constraints](regulatory-constraints.md){ .md-button .md-button--primary }
+[:octicons-arrow-left-24: Back to Attack Landscape](attack-landscape.md){ .md-button }
