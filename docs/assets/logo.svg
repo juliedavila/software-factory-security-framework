@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" width="400" height="450">
+  <!-- Shield background -->
+  <path d="M 50 50 L 350 50 L 350 300 L 200 400 L 50 300 Z"
+        fill="#1a3a52"
+        stroke="none"/>
+
+  <!-- SF² Lettermark -->
+  <g transform="translate(80, 140)">
+    <!-- S letter -->
+    <path d="M 0 0 L 70 0 L 70 50 L 20 50 L 20 70 L 70 70 L 70 160 L 0 160 L 0 110 L 50 110 L 50 90 L 0 90 Z"
+          fill="#ffffff"/>
+
+    <!-- F letter -->
+    <path d="M 90 0 L 170 0 L 170 50 L 140 50 L 140 70 L 170 70 L 170 120 L 140 120 L 140 230 L 90 230 Z"
+          fill="#ffffff"/>
+
+    <!-- Superscript 2 -->
+    <g transform="translate(180, 10)">
+      <path d="M 0 0 L 30 0 L 30 10 L 10 10 L 10 20 L 30 20 L 30 50 L 0 50 L 0 40 L 20 40 L 20 30 L 0 30 Z"
+            fill="#ffffff"/>
+    </g>
+  </g>
+</svg>
