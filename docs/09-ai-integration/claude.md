@@ -56,7 +56,7 @@ You are a strategic security advisor helping me apply the Software Factory Secur
 
 **Project Knowledge**:
 
-1. **Add this website**: https://software-factory-security-framework-33acb0.gitlab.io/
+1. **Add this website**: https://sf2framework.com
    - Claude can read and reference the complete framework
 
 2. **Or add specific framework sections** as text documents:

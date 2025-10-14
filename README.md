@@ -3,7 +3,7 @@
 **A Complete Mental Model for Securing Software Factories at Scale**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![GitLab Pages](https://img.shields.io/badge/docs-GitLab%20Pages-orange)](https://juliedavila.gitlab.io/software-factory-security-framework)
+[![GitLab Pages](https://img.shields.io/badge/docs-GitLab%20Pages-orange)](https://sf2framework.com)
 
 ---
 
@@ -18,7 +18,7 @@ This framework helps you:
 - ✅ Invest resources effectively
 - ✅ Adapt to your specific context
 
-**👉 [Read the full framework](https://juliedavila.gitlab.io/software-factory-security-framework)**
+**👉 [Read the full framework](https://sf2framework.com)**
 
 ---
 
@@ -26,13 +26,13 @@ This framework helps you:
 
 ### For Security Leaders
 
-1. Read the [Executive Summary](https://juliedavila.gitlab.io/software-factory-security-framework/executive-summary/)
-2. Assess your [Strategic Position](https://juliedavila.gitlab.io/software-factory-security-framework/03-positioning/two-axis-model/)
-3. Follow your [Implementation Guide](https://juliedavila.gitlab.io/software-factory-security-framework/06-implementation/visionaries/)
+1. Read the [Executive Summary](https://sf2framework.com/executive-summary/)
+2. Assess your [Strategic Position](https://sf2framework.com/03-positioning/two-axis-model/)
+3. Follow your [Implementation Guide](https://sf2framework.com/06-implementation/visionaries/)
 
 ### For Contributors
 
-1. Read [Contributing Guidelines](https://juliedavila.gitlab.io/software-factory-security-framework/contributing/)
+1. Read [Contributing Guidelines](https://sf2framework.com/contributing/)
 2. Find a section to improve
 3. Click "Edit this page" and submit a merge request
 
@@ -102,12 +102,12 @@ ENABLE_PDF_EXPORT=1 mkdocs build
 We welcome contributions! The framework is designed as a **public resource** for security leaders and practitioners.
 
 **Easy contribution:**
-1. Visit any page on the [live site](https://juliedavila.gitlab.io/software-factory-security-framework)
+1. Visit any page on the [live site](https://sf2framework.com)
 2. Click "Edit this page"
 3. Make your changes
 4. Submit a merge request
 
-See [Contributing Guidelines](https://juliedavila.gitlab.io/software-factory-security-framework/contributing/) for details.
+See [Contributing Guidelines](https://sf2framework.com/contributing/) for details.
 
 ### Types of Contributions
 
@@ -134,7 +134,7 @@ With attribution.
 
 ## 🔗 Links
 
-- **Documentation:** https://juliedavila.gitlab.io/software-factory-security-framework
+- **Documentation:** https://sf2framework.com
 - **Repository:** https://gitlab.com/juliedavila/software-factory-security-framework
 - **Issues:** https://gitlab.com/juliedavila/software-factory-security-framework/-/issues
 - **Author:** [Julie Davila](https://gitlab.com/juliedavila)
@@ -163,4 +163,4 @@ Special thanks to the security community for continuous feedback and contributio
 
 ---
 
-**Ready to dive in?** [Start with the Executive Summary →](https://juliedavila.gitlab.io/software-factory-security-framework/executive-summary/)
+**Ready to dive in?** [Start with the Executive Summary →](https://sf2framework.com/executive-summary/)

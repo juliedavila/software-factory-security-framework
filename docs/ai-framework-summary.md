@@ -10,7 +10,7 @@
 **License**: CC BY 4.0
 **Purpose**: Strategic framework for scaling security capabilities while improving business outcomes
 **Target Audience**: Security leaders (VP, CISO, Director level)
-**Website**: https://software-factory-security-framework-33acb0.gitlab.io/
+**Website**: https://sf2framework.com
 
 ## Core Concept
 
@@ -414,6 +414,6 @@ When helping users with SF² framework:
 
 ---
 
-**Full Documentation**: https://software-factory-security-framework-33acb0.gitlab.io/
+**Full Documentation**: https://sf2framework.com
 **Structured Data**: [framework.json](framework.json)
 **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework

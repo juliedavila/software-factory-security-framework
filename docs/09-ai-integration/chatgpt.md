@@ -98,7 +98,7 @@ Ask clarifying questions about:
 
 **Knowledge Base** (Upload to Custom GPT):
 
-1. **Download framework documentation** from https://software-factory-security-framework-33acb0.gitlab.io/
+1. **Download framework documentation** from https://sf2framework.com
    - Save key pages as PDF or text files
    - Include: Foundation, your quadrant's guide, investment portfolio
 

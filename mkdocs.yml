@@ -1,7 +1,7 @@
 site_name: Software Factory Security Framework (SF²)
 site_description: A Complete Mental Model for Securing Software Factories at Scale
 site_author: Julie Davila
-site_url: https://juliedavila.gitlab.io/software-factory-security-framework
+site_url: https://sf2framework.com
 
 repo_name: software-factory-security-framework
 repo_url: https://gitlab.com/juliedavila/software-factory-security-framework

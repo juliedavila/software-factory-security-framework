@@ -7,7 +7,7 @@ This is the **Software Factory Security Framework (SF²)** - an open-source stra
 **Purpose**: Help security leaders make strategic decisions about positioning, investment, and transformation
 **License**: CC BY 4.0 (open for contributions)
 **Audience**: Security leaders, CISOs, VPs of Security at software organizations
-**Website**: https://software-factory-security-framework-33acb0.gitlab.io/
+**Website**: https://sf2framework.com
 
 ## Framework Core Principles
 
@@ -486,7 +486,7 @@ If no → Refine or remove it.
 
 - **Contributing Guidelines**: See `contributing.md` for contribution process
 - **Glossary**: See `docs/appendix/glossary.md` for terminology definitions
-- **Live Site**: https://software-factory-security-framework-33acb0.gitlab.io/
+- **Live Site**: https://sf2framework.com
 - **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
 
 For questions about the framework itself, refer to the published documentation. For questions about contributing or repository structure, this CLAUDE.md is your guide.

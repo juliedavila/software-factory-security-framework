@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://software-factory-security-framework-33acb0.gitlab.io/sitemap.xml
+Sitemap: https://sf2framework.com/sitemap.xml
 
 # Specific AI crawlers
 User-agent: GPTBot
