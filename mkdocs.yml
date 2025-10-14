@@ -122,14 +122,15 @@ plugins:
       type: date
   - minify:
       minify_html: true
-  # - with-pdf:
-  #     author: Julie Davila
-  #     copyright: CC BY 4.0
-  #     cover_title: SF²
-  #     cover_subtitle: Software Factory Security Framework
-  #     output_path: pdf/sf2-framework.pdf
-  #     enabled_if_env: ENABLE_PDF_EXPORT
-  # NOTE: PDF export requires system dependencies (brew install cairo pango gdk-pixbuf libffi)
+  - with-pdf:
+      author: Julie Davila
+      copyright: Copyright © 2025 Julie Davila | Licensed under CC BY 4.0
+      cover_title: SF²
+      cover_subtitle: Software Factory Security Framework
+      cover_logo: assets/logo.svg
+      output_path: pdf/sf2-framework.pdf
+      # NOTE: PDF generation requires system dependencies installed in CI (already configured)
+      # For local development: brew install cairo pango gdk-pixbuf libffi
   - print-site:
       add_to_navigation: true
       print_page_title: 'Complete Framework'

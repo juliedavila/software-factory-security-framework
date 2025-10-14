@@ -14,7 +14,8 @@ cache:
     - .cache/pip
 
 before_script:
-  # Install system dependencies for mkdocs-material social plugin (generates social cards)
+  # Install system dependencies for mkdocs-material social plugin and PDF generation
+  # (cairo/pango for social cards and with-pdf plugin)
   - apt-get update
   - apt-get install -y --no-install-recommends libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 shared-mime-info
   # Install Python dependencies
@@ -47,13 +48,14 @@ test:
     - merge_requests
     - branches
 
-# Build: Generate site with PDF on master branch
+# Build: Generate site with auto-generated PDF on master branch
 build:
   stage: build
   script:
     - mkdocs build --strict --verbose
     - echo "Site built successfully"
     - ls -lah site/
+    - ls -lah site/pdf/ || echo "PDF directory check"
   artifacts:
     paths:
       - site/
@@ -75,13 +77,14 @@ pages:
   only:
     - master
 
-# Optional: Generate PDF on demand
+# Note: PDF is now automatically generated during regular build
+# This manual job is kept for backwards compatibility if needed
 pdf:
   stage: build
   script:
-    - ENABLE_PDF_EXPORT=1 mkdocs build --strict
+    - mkdocs build --strict
     - mkdir -p pdf
-    - cp site/pdf/sf2-framework.pdf pdf/ || echo "PDF generation skipped or failed"
+    - cp site/pdf/sf2-framework.pdf pdf/ || echo "PDF generation failed"
   artifacts:
     paths:
       - pdf/
