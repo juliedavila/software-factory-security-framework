@@ -10,11 +10,6 @@ version: 0.3.1
 
 ## A Complete Mental Model for Securing Software Factories at Scale
 
-!!! warning "Public Document"
-    This framework is designed for public consumption. Please do not add GitLab-internal information to this documentation.
-
----
-
 ## Welcome
 
 The **Software Factory Security Framework (SF²)** provides security leaders with a strategic approach to scaling security capabilities while improving business outcomes.

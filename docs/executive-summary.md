@@ -1,8 +1,5 @@
 # Executive Summary
 
-!!! warning "Public Document"
-    This framework is designed for public consumption. Please do not add GitLab-internal information to this documentation.
-
 ## The Security Scaling Challenge Every Leader Faces
 
 Every security leader eventually confronts the same fundamental challenge: the day when demand for security services begins to outpace your team's capacity to deliver them. You're managing an increasing volume of security reviews, compliance requests, and incident responses while your organization demands faster innovation and delivery.

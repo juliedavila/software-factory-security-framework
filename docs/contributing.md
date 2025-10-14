@@ -43,13 +43,13 @@ We welcome several types of contributions:
 
 ### Content Standards
 
-!!! important "Public Content Only"
-    This framework is designed for **public consumption**. Do not include:
+!!! important "Keep Content Universal"
+    Contributions should be broadly applicable to all organizations. Do not include:
 
-    - Organization-specific internal details
-    - Proprietary information
+    - Organization-specific internal details or processes
+    - Proprietary information or trade secrets
     - Customer/partner sensitive data
-    - GitLab-internal processes or metrics
+    - Confidential metrics or implementation details
 
 ### Writing Style
 
