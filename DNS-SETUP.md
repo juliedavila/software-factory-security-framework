@@ -15,21 +15,17 @@ You need to configure these DNS records with your domain registrar:
 
 ### Option 1: Apex Domain (sf2framework.com)
 
-**A Records** (IPv4 - Add all four):
+**A Record** (IPv4 - Required):
 ```
 35.185.44.232
-35.239.85.157
-34.149.10.42
-34.117.17.102
 ```
 
-**AAAA Records** (IPv6 - Optional but recommended):
+**AAAA Record** (IPv6 - Optional but recommended):
 ```
-2600:1901:0:c68b::
-2600:1901:0:27ab::
-2600:1901:0:7b39::
-2600:1901:0:6e52::
+2600:1901:0:7b8a::
 ```
+
+**Note**: GitLab Pages uses a single IPv4 and single IPv6 address for all custom domains.
 
 ### Option 2: WWW Subdomain (www.sf2framework.com)
 
@@ -42,7 +38,7 @@ www.sf2framework.com → software-factory-security-framework-33acb0.gitlab.io
 
 For maximum compatibility, configure **both** apex and www:
 
-1. **Apex domain** (sf2framework.com): Use A records above
+1. **Apex domain** (sf2framework.com): Use A record above (single IP)
 2. **WWW subdomain** (www.sf2framework.com): Use CNAME record above
 
 This ensures visitors can access the site with or without "www".
@@ -93,7 +89,7 @@ dig sf2framework.com
 nslookup sf2framework.com
 ```
 
-Should return the GitLab Pages A records listed above.
+Should return the GitLab Pages A record (35.185.44.232) listed above.
 
 ### SSL Certificate Issues
 
