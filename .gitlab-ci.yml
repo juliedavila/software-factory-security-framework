@@ -16,7 +16,7 @@ cache:
 before_script:
   # Install system dependencies for mkdocs-material social plugin (generates social cards)
   - apt-get update
-  - apt-get install -y --no-install-recommends libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 shared-mime-info
+  - apt-get install -y --no-install-recommends libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 shared-mime-info
   # Install Python dependencies
   - pip install --cache-dir .cache/pip -r requirements.txt
 
