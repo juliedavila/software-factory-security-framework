@@ -88,12 +88,11 @@
   },
   "universal_stewardship": {
     "description": "Five areas requiring attention regardless of organizational position",
-    "priority_note": "Supply Chain became #1 priority in 2017 due to adversary evolution to automated discovery at internet scale",
+    "priority_note": "Supply Chain became #1 priority due to adversary evolution to automated discovery at internet scale",
     "areas": [
       {
         "name": "Supply Chain Stewardship",
         "priority": 1,
-        "since": "2017",
         "reason": "Adversary evolution to automated discovery",
         "focus": "Managing security risks from all external dependencies and third-party components throughout their lifecycle"
       },
@@ -385,7 +384,7 @@
     ]
   },
   "key_principles": [
-    "Supply Chain Stewardship is #1 priority since 2017 adversary evolution",
+    "Supply Chain Stewardship is #1 priority due to adversary evolution to automated discovery",
     "Constrain BAU activities, invest in scaling capabilities",
     "High operational readiness enables automation",
     "Two-axis transformation is high-risk; sequence carefully",

@@ -115,7 +115,7 @@ Platform companies often serve as sophisticated users of their own products, pro
 
 **Adversary Evolution Insights**: When your platform company experiences security challenges that mirror broader industry shifts, these Customer Zero insights carry additional strategic weight.
 
-**Example**: Supply Chain Security Post-2017
+**Example**: Modern Supply Chain Security
 
 Your platform company discovers that:
 - Automated dependency scanning significantly reduces your manual security effort
@@ -124,7 +124,7 @@ Your platform company discovers that:
 
 ic rather than reactive
 
-**Strategic Insight**: If this internal pain point reflects the 2017 adversary evolution pattern (automated discovery), it likely represents a market opportunity affecting thousands of customer software factories facing the same capability gap.
+**Strategic Insight**: If this internal pain point reflects modern adversary capabilities (automated discovery at scale), it likely represents a market opportunity affecting thousands of customer software factories facing the same capability gap.
 
 ---
 

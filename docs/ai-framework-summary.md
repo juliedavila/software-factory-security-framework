@@ -92,8 +92,8 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 Five areas requiring attention regardless of quadrant position:
 
-### 1. Supply Chain Stewardship (#1 Priority Since 2017)
-**Why #1**: Adversary evolution in 2017 to automated discovery at internet scale
+### 1. Supply Chain Stewardship (#1 Priority)
+**Why #1**: Adversary evolution to automated discovery at internet scale
 
 **Focus**: All external dependencies, third-party components, multi-tier supply chain
 
@@ -239,7 +239,7 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 ## Key Principles (Critical for Understanding)
 
-1. **Supply Chain is #1 since 2017** - Adversary evolution to automated discovery
+1. **Supply Chain is #1 priority** - Adversary evolution to automated discovery
 2. **Constrain BAU, build scaling** - Don't expand manual work
 3. **High readiness enables automation** - Operational readiness determines feasibility
 4. **Two-axis transformation is high-risk** - Sequence carefully (stabilize → move one axis)
@@ -390,7 +390,7 @@ When helping users with SF² framework:
 3. **Apply quadrant-specific guidance** - Different recommendations for different positions
 4. **Consider realistic timelines** - Don't promise fast transformations for Challengers
 5. **Acknowledge tradeoffs** - Every choice has costs
-6. **Emphasize Supply Chain #1** - This is foundational since 2017
+6. **Emphasize Supply Chain #1** - This is foundational due to adversary evolution
 7. **Focus on actionability** - Provide specific, measurable guidance
 8. **Be honest about difficulty** - Security transformation is hard; acknowledge constraints
 

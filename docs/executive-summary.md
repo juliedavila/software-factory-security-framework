@@ -65,8 +65,8 @@ Six modifiers that influence your implementation approach:
 
 ## Strategic Context: Adversary Evolution
 
-!!! info "Critical Shift Around 2017"
-    Around 2017, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**—sweeping billions of assets to find vulnerabilities. 
+!!! info "Critical Shift in Adversary Capabilities"
+    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**—sweeping billions of assets to find vulnerabilities. 
     
     Organizations using manual security processes face a fundamental capability gap: **attackers can discover unknown systems faster than defenders can catalog them.**
     

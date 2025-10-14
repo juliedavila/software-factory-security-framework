@@ -88,7 +88,7 @@ Organizations that successfully navigate this challenge don't just solve a scali
 ## Strategic Context
 
 !!! info "Adversary Evolution"
-    Around 2017, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**—sweeping billions of assets to find vulnerabilities. Organizations using manual security processes face a fundamental capability gap: attackers can discover unknown systems faster than defenders can catalog them.
+    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**—sweeping billions of assets to find vulnerabilities. Organizations using manual security processes face a fundamental capability gap: attackers can discover unknown systems faster than defenders can catalog them.
 
     Understanding these adversary evolution patterns helps security leaders **prioritize investments that shift economic advantage away from attackers.**
 

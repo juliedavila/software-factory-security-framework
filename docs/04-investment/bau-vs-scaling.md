@@ -39,7 +39,7 @@ As software factories grow, traditional security activities face a scaling chall
 
 The BAU scaling crisis isn't only about volume—it's about a fundamental capability mismatch between manual defenders and automated adversaries.
 
-**The 2017 Capability Shift**: Around 2017, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
+**The Adversary Capability Shift**: In recent years, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
 
 - Discover unknown assets (forgotten servers, shadow IT, unmanaged dependencies) faster than organizations can inventory them
 - Exploit known vulnerabilities within hours or days of disclosure
@@ -48,7 +48,7 @@ The BAU scaling crisis isn't only about volume—it's about a fundamental capabi
 
 **The Structural Problem**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. This isn't a resource problem that hiring solves—it's a capability mismatch that requires automation.
 
-!!! warning "Critical Insight: Supply Chain Became #1 in 2017"
+!!! warning "Critical Insight: Supply Chain as #1 Priority"
     Supply chain security became the #1 priority not because dependencies increased, but because adversary capability evolved. When attackers can discover your unknown assets faster than you can catalog them, supply chain security becomes existential regardless of your other security investments.
 
 ---

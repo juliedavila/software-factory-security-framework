@@ -207,7 +207,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **Adversary Evolution Context**:
 
-Remember the 2017 shift: Adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Investments that address this capability gap have exceptional adversary economics impact:
+Adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Investments that address this capability gap have exceptional adversary economics impact:
 
 - Automated asset discovery (defenders find assets before attackers)
 - Continuous vulnerability management (close windows of exposure)
@@ -263,7 +263,7 @@ Minimum Possible Score: 13.5
 - Time to Value: 5 (measurable benefits within 8 weeks of deployment)
 - Cultural Alignment: 4 (enables learning, no blame dynamics)
 - Organizational Change: 4 (low change requirement, integrates with existing CI/CD)
-- Adversary Economics: 5 (addresses 2017 adversary evolution, closes supply chain gaps)
+- Adversary Economics: 5 (addresses modern adversary capabilities, closes supply chain gaps)
 
 **Total Score**: `(5×2) + (4×1.5) + (5×1) + (4×1.5) + ((6-4)×1) + (5×2) = 10 + 6 + 5 + 6 + 2 + 10 = 39`
 

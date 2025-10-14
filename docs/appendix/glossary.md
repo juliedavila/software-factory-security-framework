@@ -31,7 +31,7 @@
 ## Universal Stewardship
 
 **Supply Chain Stewardship**
-: Managing security risks from all external dependencies and third-party components throughout their lifecycle. #1 priority since 2017 due to adversary evolution.
+: Managing security risks from all external dependencies and third-party components throughout their lifecycle. #1 priority due to adversary evolution to automated discovery.
 
 **Process Stewardship**
 : Security embedded throughout development lifecycle with continuous validation and rapid feedback loops.

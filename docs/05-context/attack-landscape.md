@@ -147,7 +147,7 @@ High attack landscape maturity makes [Supply Chain Stewardship](../02-stewardshi
 - Compromised packages detected through industrial scanning
 - Manual dependency tracking can't keep pace
 
-**This is why supply chain became the #1 priority around 2017** when the attack landscape matured to industrial-scale automation.
+**This is why supply chain became the #1 priority** when the attack landscape matured to industrial-scale automation.
 
 ---
 

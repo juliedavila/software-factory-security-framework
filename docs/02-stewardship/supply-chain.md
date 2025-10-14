@@ -1,11 +1,11 @@
 # Supply Chain Stewardship (#1 Priority)
 
 !!! danger "Critical Priority"
-    Supply chain security became an existential priority around 2017 when attackers evolved from targeted reconnaissance to automated discovery at internet scale.
+    Supply chain security became an existential priority when attackers evolved from targeted reconnaissance to automated discovery at internet scale.
 
 ## The Critical Shift
 
-**The Modern Reality**: Around 2017, attackers fundamentally changed their approach. Instead of targeted reconnaissance against specific organizations, adversaries began using bug bounty techniques and internet-wide scanning to discover vulnerabilities at scale—sweeping billions of assets to find exploitable weaknesses.
+**The Modern Reality**: In recent years, attackers fundamentally changed their approach. Instead of targeted reconnaissance against specific organizations, adversaries began using bug bounty techniques and internet-wide scanning to discover vulnerabilities at scale—sweeping billions of assets to find exploitable weaknesses.
 
 **The Capability Gap**: Today's attackers can discover unknown assets—forgotten servers, shadow IT, unmanaged dependencies—**faster than most organizations can inventory them**. This creates a fundamental asymmetry:
 

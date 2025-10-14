@@ -40,7 +40,7 @@ SF² is a strategic framework for scaling security capabilities while improving 
    - Four quadrants: Visionaries, Leaders, Niche Players, Challengers
 
 2. **Universal Stewardship Areas**
-   - Supply Chain (#1 priority since 2017 adversary evolution)
+   - Supply Chain (#1 priority due to adversary evolution to automated discovery)
    - Process, Runtime, Third-Party, Continuous Learning
 
 3. **Investment Portfolio**
