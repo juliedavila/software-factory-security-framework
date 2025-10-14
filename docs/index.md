@@ -3,7 +3,7 @@ title: Software Factory Security Framework (SF²)
 description: Strategic framework for scaling security capabilities while improving business outcomes
 keywords: security framework, security strategy, security scaling, software factory, security leadership, CISO, VP Security
 author: Julie Davila
-version: 0.3.1
+version: 0.4.0
 ---
 
 # Software Factory Security Framework (SF²)
@@ -146,9 +146,13 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 0.3.1
+**Version:** 0.4.0
 
-This framework represents years of experience leading product security at scale, distilled into a practical mental model for security leaders navigating the scaling challenge.
+This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. While I currently serve as VP of Security at GitLab, **SF² is not an official GitLab framework** and does not formally represent GitLab's views.
+
+That said, these mental models do inform how I approach security strategy at GitLab. To the extent I have strategic influence over GitLab's security posture, the principles in SF² reflect my underlying approach to securing software factories at scale.
+
+This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 
 [:octicons-arrow-right-24: Contributing Guidelines](contributing.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: View on GitLab](https://gitlab.com/juliedavila/software-factory-security-framework){ .md-button }
