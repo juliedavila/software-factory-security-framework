@@ -122,8 +122,8 @@ We are committed to ongoing accessibility improvements:
 When adding content to this framework:
 
 1. **Use descriptive link text**: Avoid "click here" or "read more"
-   - ❌ Bad: "Click [here](link) for more information"
-   - ✅ Good: "[Review the implementation guide](link)"
+   - ❌ Bad: "Click [here](#) for more information"
+   - ✅ Good: "[Review the implementation guide](#)"
 
 2. **Provide text alternatives**: Add alt text for all images
    ```markdown

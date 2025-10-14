@@ -139,13 +139,13 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
     **Option 1: Direct PDF Download**
 
-    [:octicons-download-24: Download PDF](pdf/sf2-framework.pdf){ .md-button .md-button--primary }
+    [:octicons-download-24: Download PDF](https://sf2framework.com/pdf/sf2-framework.pdf){ .md-button .md-button--primary }
 
     Auto-generated with every documentation update
 
     **Option 2: Browser Print-to-PDF**
 
-    [:octicons-arrow-right-24: View Complete Framework](print_page/){ .md-button }
+    [:octicons-arrow-right-24: View Complete Framework](https://sf2framework.com/print_page/){ .md-button }
 
     Use your browser's **File → Print → Save as PDF** for custom formatting
 
