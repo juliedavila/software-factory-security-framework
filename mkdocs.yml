@@ -94,6 +94,15 @@ nav:
 
   - Use Cases: 08-use-cases/scenarios.md
 
+  - Coadaptive Security Layer:
+    - Overview: 10-coadaptive/overview.md
+    - "01 The Three-Layer Model": 10-coadaptive/01-three-layer-model.md
+    - "02 The AI-Era Threat Surface": 10-coadaptive/02-ai-era-threat-surface.md
+    - "03 The Unit of Defense": 10-coadaptive/03-unit-of-defense.md
+    - "04 Boundary Enforcement": 10-coadaptive/04-boundary-enforcement.md
+    - "05 Authorization at Agent Scale": 10-coadaptive/05-authorization-at-agent-scale.md
+    - "06 Input Trust Is a Category Error": 10-coadaptive/06-input-trust-is-a-category-error.md
+
   - AI Integration:
     - Overview: 09-ai-integration/overview.md
     - Claude: 09-ai-integration/claude.md
