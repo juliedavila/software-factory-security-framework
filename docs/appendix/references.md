@@ -30,6 +30,37 @@
 
 **Relationship to SF²**: SF² helps sequence ASVS implementation within scaling investment strategy. Use SF² to determine risk-based ASVS subset vs. comprehensive implementation.
 
+## Foundational References
+
+SF² is built on prior work. These are the thinkers whose arguments the framework rests on, grouped by the part of SF² they anchor. Each entry names the work, where to find it, and what it carries for the framework.
+
+### Capability and least-privilege
+
+- **Saltzer & Schroeder (1975), "The Protection of Information in Computer Systems."** *Proceedings of the IEEE* 63(9):1278-1308. <https://web.mit.edu/saltzer/www/publications/protection/>. The original eight design principles, least privilege among them. SF²'s investment portfolio is a modern form of the same question: where do you spend constrained attention? This is the half-century anchor.
+- **Hardy (1988), "The Confused Deputy."** *ACM SIGOPS Operating Systems Review* 22(4):36-38. <http://cap-lore.com/CapTheory/ConfusedDeputy.html> (DOI: <https://dl.acm.org/doi/10.1145/54289.871709>). The foundational account of why authority and the right to exercise it must be bound together. Agent and MCP authorization failures are this 1988 problem reincarnated.
+
+### Resilience and adaptive capacity
+
+- **Hollnagel, Leonhardt, Shorrock & Licu (2013), *From Safety-I to Safety-II: A White Paper.*** EUROCONTROL. <https://www.skybrary.aero/sites/default/files/bookshelf/2437.pdf>. Reframes safety from the absence of failure to the presence of adaptive capacity. This is the resilience-engineering anchor for SF²'s operational readiness axis.
+- **Woods (2018), "Resilience as Graceful Extensibility to Overcome Brittleness."** IRGC. <https://irgc.org/wp-content/uploads/2018/09/Woods-Resilience-as-Graceful-Extensibility-to-Overcome-Brittleness-1.pdf>. Precise vocabulary for what software factories need at brittle boundaries.
+- **Cook (2000), "How Complex Systems Fail."** <https://how.complexsystems.fail/>. An 18-point distillation of why complex systems break and keep running anyway. Pairs cleanly with Hollnagel and Woods.
+
+### Economic reasoning in security
+
+- **Geer et al. (2003), "CyberInsecurity: The Cost of Monopoly."** <https://www.schneier.com/essays/archives/2003/09/cyberinsecurity_the.html>. The monoculture argument: security risk priced as a market property, not a moral one.
+- **Geer (2010), "Cybersecurity and National Policy."** <https://www.schneier.com/blog/archives/2010/11/dan_geer_on_cyb.html>. Security reasoned about in economic terms. SF²'s investment portfolio needs Geer as its economic spine, or it reads as opinion rather than argument.
+
+### Operational and program design
+
+- **Anderson (2020), *Security Engineering*, 3rd ed.** Wiley. <https://www.cl.cam.ac.uk/archive/rja14/book.html> (full text free). The encyclopedic reference for building dependable distributed systems. SF² cites specific chapters rather than reinventing taxonomy.
+- **Venables, "Turning the Security Flywheel."** <https://www.philvenables.com/post/turning-the-security-flywheel>. Self-reinforcing, industrial-scale program design from a sitting CISO. Venables' artisanal-versus-industrial framing is the direct precursor to SF²'s Scaling Investments thesis.
+- **Sounil Yu, Cyber Defense Matrix and the DIE Triad.** <https://cyberdefensematrix.com/>. DIE (Distributed, Immutable, Ephemeral) is the architectural inverse of CIA, aligned with SF²'s stance of building security in through constraints on the artifact.
+
+### Emergent organizational design
+
+- **Komoroske, "Coordination Headwind" and the slime-mold model.** <https://komoroske.com/slime-mold/>. Names the gardening-platforms and Schelling-point moves that make SF² emergent rather than imposed. The direct lineage for any claim that security is an emergent property.
+- **Shortridge & Rinehart (2023), *Security Chaos Engineering.*** O'Reilly. <https://www.oreilly.com/library/view/security-chaos-engineering/9781098113810/>. Security as ecology, not enforcement. Gives SF² its experimental, probabilistic posture instead of a compliance-checkbox frame.
+
 ## Industry Resources
 
 ### Supply Chain Security
@@ -55,28 +86,15 @@
 ### Security Leadership
 
 - **Building a Modern Security Program**: Ryan McGeehan
-- **Security Chaos Engineering**: Kelly Shortridge and Aaron Rinehart
 - **The Manager's Path**: Camille Fournier (Technical Leadership)
+
+(Kelly Shortridge & Aaron Rinehart's *Security Chaos Engineering* moved up to [Foundational References](#foundational-references).)
 
 ### Strategic Thinking
 
 - **Wardley Mapping**: Simon Wardley (Strategic positioning)
 - **Good Strategy Bad Strategy**: Richard Rumelt
 - **Principles**: Ray Dalio (Organizational principles)
-
-## Academic Research
-
-### Adversary Evolution
-
-- **Internet-Wide Scanning Studies**: Various papers on automated vulnerability discovery
-- **Bug Bounty Research**: Academic studies on vulnerability discovery at scale
-- **Supply Chain Attack Analysis**: Research on dependency confusion and typosquatting
-
-### DevSecOps Effectiveness
-
-- **State of DevOps Reports**: Annual DORA research
-- **Security Testing Effectiveness**: Academic studies on SAST/DAST efficacy
-- **Security Champions Programs**: Research on distributed security models
 
 ## Community Resources
 
@@ -110,7 +128,7 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 
 This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. While I currently serve as VP of Security at GitLab, **SF² is not an official GitLab framework** and does not formally represent GitLab's views.
 
-That said, these mental models do inform how I approach security strategy at GitLab. To the extent I have strategic influence over GitLab's security posture, the principles in SF² reflect my underlying approach to securing software factories at scale.
+These mental models do inform how I approach security strategy at GitLab. To the extent I have strategic influence over GitLab's security posture, the principles in SF² reflect my underlying approach to securing software factories at scale.
 
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 
