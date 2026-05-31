@@ -32,7 +32,7 @@ The most important decision: intentional simplicity or prepare for growth?
 
 ### 2. Security Through Simplicity
 
-Your advantage is small scale. Leverage it.
+Your advantage is small scale. Use it.
 
 **Investment Focus**:
 - Managed security services (SaaS over self-hosted)
@@ -221,7 +221,7 @@ This is a valid, sustainable choice for many organizations:
 - Strong product-market fit at current scale
 
 **Strategy**:
-- Leverage managed services for security
+- Use managed services for security
 - Security through simplicity (small attack surface)
 - Quarterly reassessment of strategic choice
 - Prepared to pivot if growth trajectory changes

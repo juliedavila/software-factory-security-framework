@@ -2,7 +2,7 @@
 
 ## Systematic Framework for Prioritizing Security Investments
 
-Security leaders face overwhelming numbers of potential investments—automation projects, tooling purchases, process improvements, platform capabilities. Without systematic evaluation criteria, investment decisions become reactive or driven by whoever shouts loudest.
+Security leaders face overwhelming numbers of potential investments: automation projects, tooling purchases, process improvements, platform capabilities. Without systematic evaluation criteria, investment decisions become reactive or driven by whoever shouts loudest.
 
 This framework provides objective criteria for evaluating and prioritizing scaling investments.
 
@@ -32,7 +32,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Will this eliminate repetitive work permanently?
 
-**Why Primary**: Manual effort reduction is the fundamental driver of sustainable scaling. Investments that don't reduce manual work don't solve the scaling crisis—they may improve security outcomes but won't enable organizational growth without proportional security team expansion.
+**Why Primary**: Manual effort reduction is the fundamental driver of sustainable scaling. Investments that don't reduce manual work don't solve the scaling crisis. They may improve security outcomes but won't enable organizational growth without proportional security team expansion.
 
 **Assessment Framework**:
 
@@ -61,7 +61,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Does this reduce security friction or create new complexity?
 
-**Why Critical**: Scaling investments require developer adoption to deliver value. Security capabilities that degrade developer experience face resistance, workarounds, or abandonment regardless of security benefits. Developer experience is not a "nice to have"—it determines adoption success.
+**Why Critical**: Scaling investments require developer adoption to deliver value. Security capabilities that degrade developer experience face resistance, workarounds, or abandonment regardless of security benefits. Developer experience is not a "nice to have." It determines adoption success.
 
 **Assessment Framework**:
 
@@ -92,7 +92,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: How quickly will benefits become measurable?
 
-**Why Important**: Time to value affects organizational confidence in scaling investment strategy. Long-running projects with delayed benefits create skepticism, while quick wins build momentum and executive support. This doesn't mean always choosing fastest options—but timeline awareness is critical for communication and sequencing.
+**Why Important**: Time to value affects organizational confidence in scaling investment strategy. Long-running projects with delayed benefits create skepticism, while quick wins build momentum and executive support. This doesn't mean always choosing fastest options, but timeline awareness is critical for communication and sequencing.
 
 **Assessment Framework**:
 
@@ -114,7 +114,7 @@ Use these criteria to score and compare potential security investments systemati
 - Start investment portfolio with high time-to-value projects (score 4-5)
 - Build organizational confidence before tackling longer-term investments
 - Mix quick wins with strategic long-term capabilities
-- Communicate realistic timelines—don't over-promise to get approval
+- Communicate realistic timelines; don't over-promise to get approval
 
 ---
 
@@ -122,7 +122,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Does this support learning culture and psychological safety?
 
-**Why Critical**: Security investments succeed or fail based on organizational culture. Capabilities that punish developers, create blame dynamics, or undermine psychological safety will be resisted or circumvented regardless of security benefits. Cultural alignment isn't "soft"—it's a hard requirement for adoption success.
+**Why Critical**: Security investments succeed or fail based on organizational culture. Capabilities that punish developers, create blame dynamics, or undermine psychological safety will be resisted or circumvented regardless of security benefits. Cultural alignment isn't "soft." It's a hard requirement for adoption success.
 
 **Assessment Framework**:
 
@@ -186,7 +186,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Does this force attackers to more expensive or time-consuming approaches?
 
-**Why Important**: Security ultimately succeeds by making attacks economically infeasible or tactically impractical. Investments that don't affect adversary behavior may be compliance theater rather than risk reduction. Understanding adversary economics validates whether security investments actually improve security outcomes.
+**Why Important**: Security ultimately succeeds by making attacks economically infeasible or tactically impractical. Investments that don't affect adversary behavior may be compliance theater rather than risk reduction. Understanding adversary economics validates whether security investments improve security outcomes.
 
 **Assessment Framework**:
 
@@ -228,7 +228,7 @@ For each potential investment, score across all six criteria (1-5 scale):
 2. **Developer Experience** (weight: 1.5x)
 3. **Time to Value** (weight: 1x)
 4. **Cultural Alignment** (weight: 1.5x)
-5. **Organizational Change** (weight: 1x, reverse scored—lower is better)
+5. **Organizational Change** (weight: 1x, reverse scored, lower is better)
 6. **Adversary Economics** (weight: 2x)
 
 **Total Score Calculation**:
@@ -333,7 +333,7 @@ Use this framework to compare competing investments:
 | **Security Review Automation** | 4 | 3 | 3 | 3 | 3 | 3 | 28 | Consider |
 | **Compliance Documentation** | 2 | 2 | 4 | 3 | 4 | 1 | 21 | Avoid |
 
-**Decision**: Prioritize dependency scanning—highest total score, addresses adversary evolution, exceptional ROI.
+**Decision**: Prioritize dependency scanning: highest total score, addresses adversary evolution, exceptional ROI.
 
 ---
 

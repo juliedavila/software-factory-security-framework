@@ -44,7 +44,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 
 ### 3. Innovate for Competitive Advantage
 
-Security should be a differentiator, not just cost center.
+Security should be a differentiator, not a cost center.
 
 **Investment Focus**:
 - Security product capabilities (if customer-facing software factory)
@@ -63,7 +63,7 @@ Security should be a differentiator, not just cost center.
 - [ ] Conduct comprehensive capability assessment across all stewardship areas
 - [ ] Identify high-effort, low-impact security activities (candidates for elimination)
 - [ ] Map platform adoption rates and satisfaction
-- [ ] Review outcome metrics (not just activity metrics)
+- [ ] Review outcome metrics rather than activity metrics
 
 ### Quarter 1: Optimization
 - [ ] Eliminate or automate 3 low-value security activities

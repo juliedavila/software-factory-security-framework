@@ -14,7 +14,7 @@ This website aims to conform to the [Web Content Accessibility Guidelines (WCAG)
 
 ✅ **Keyboard Navigation**: All interactive elements are accessible via keyboard
 ✅ **Focus Indicators**: Clear visual indicators for keyboard focus
-✅ **Text Alternatives**: Priority levels include text labels, not just color
+✅ **Text Alternatives**: Priority levels include text labels, not color alone
 ✅ **Link Distinction**: Links are underlined, not identified by color alone
 ✅ **Reduced Motion**: Respects user's reduced motion preferences
 ✅ **High Contrast**: Enhanced borders and text in high contrast mode

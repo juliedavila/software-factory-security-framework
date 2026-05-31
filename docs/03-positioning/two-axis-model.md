@@ -5,7 +5,7 @@
 Rather than using traditional maturity models that assume linear progression, this framework positions software factories on **two independent dimensions** that determine your optimal security approach.
 
 !!! tip "Why Not Maturity Models?"
-    Traditional security maturity models imply everyone should follow the same path. SF² recognizes that a 10-person startup with modern cloud infrastructure shouldn't implement security the same way as a 5,000-person enterprise with legacy systems—even if both need strong security.
+    Traditional security maturity models imply everyone should follow the same path. SF² recognizes that a 10-person startup with modern cloud infrastructure shouldn't implement security the same way as a 5,000-person enterprise with legacy systems, even if both need strong security.
 
 ## The Strategic Positioning Framework
 
@@ -60,7 +60,7 @@ These two axes create four distinct strategic positions, each with different sec
 Enable security through modern tooling and self-service capabilities
 
 **Strategic Focus**:
-Leverage technology advantages while building organizational scale
+Use technology advantages while building organizational scale
 
 **Typical Organizations**:
 - Modern startups (post-Series A)
@@ -198,14 +198,14 @@ Most organizations benefit from moving toward the Leaders position, but the path
 | **Challengers → Niche Players** | Simplification | System consolidation, technical debt reduction, process streamlining | 18-30 months | Low (major organizational change required) |
 
 !!! tip "Executive Insight"
-    The Challengers → Leaders path is the most common but also the most challenging. It requires simultaneous modernization and scaling—transforming operations while maintaining business continuity.
+    The Challengers → Leaders path is the most common but also the most challenging. It requires simultaneous modernization and scaling, transforming operations while maintaining business continuity.
 
 ## Using Position to Guide Security Strategy
 
 Your position determines specific security implementation approaches:
 
 **For Visionaries**:
-- Leverage cloud-native security services
+- Use cloud-native security services
 - Implement policy-as-code from inception
 - Build security into platform capabilities
 - Enable developer self-service
@@ -220,7 +220,7 @@ Your position determines specific security implementation approaches:
 - Focus on foundational security controls
 - Manual but systematic approaches
 - Gradual capability building
-- Leverage managed security services
+- Use managed security services
 
 **For Challengers**:
 - Pragmatic hybrid security approaches

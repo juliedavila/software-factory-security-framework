@@ -99,7 +99,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 ### Common Pitfalls
 
 !!! warning "The 'Lift and Shift' Trap"
-    **Risk**: Moving legacy systems to cloud without architectural modernization—you get cloud bills without operational readiness benefits
+    **Risk**: Moving legacy systems to cloud without architectural modernization. You get cloud bills without operational readiness benefits
 
     **Solution**: Modernize incrementally. Start with new services cloud-native, migrate legacy strategically with re-architecture where beneficial
 
@@ -148,7 +148,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 ### Recommended Next Steps
 
-Plan immediately for Challengers → Leaders transformation. Don't stay in Challengers long-term—it's unsustainable.
+Plan immediately for Challengers → Leaders transformation. Don't stay in Challengers long-term. It's unsustainable.
 
 ---
 
@@ -166,7 +166,7 @@ Plan immediately for Challengers → Leaders transformation. Don't stay in Chall
 
 ### When to Choose This Path
 
-**Optimal scenario for sustainable growth**: You're scaling complexity while maintaining operational readiness—the high-success transformation path.
+**Optimal scenario for sustainable growth**: You're scaling complexity while maintaining operational readiness, the high-success transformation path.
 
 ### Key Investment Priorities
 
@@ -260,7 +260,7 @@ Most Challengers should invest in operational readiness rather than attempting t
 
 ### When to Choose This Path
 
-**Reality**: Most Challengers organizations must take this path—you can't simplify complexity, so you must modernize operations.
+**Reality**: Most Challengers organizations must take this path. You can't simplify complexity, so you must modernize operations.
 
 ### The Challenge
 

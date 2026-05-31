@@ -3,7 +3,7 @@
 ## Core Framework Terms
 
 **Software Factory**
-: An organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain—whether directly controlled or third-party.
+: An organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
 
 **SF²**
 : Software Factory Security Framework - A strategic mental model for scaling security capabilities while improving business outcomes.

@@ -16,7 +16,7 @@ This is the **most difficult transformation journey**. You must simultaneously:
 - **Reduce operational burden** (can't maintain current manual load)
 - **Increase automation** (while systems resist automation)
 - **Maintain operations** (can't stop to renovate)
-- **Navigate organizational resistance** (change is hard)
+- **Work through organizational resistance** (change is hard)
 
 **Critical Truth**: Two-axis movement (complexity + readiness) has high failure risk. Success requires strategic sequencing, executive support, and realistic timelines.
 

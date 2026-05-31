@@ -4,12 +4,12 @@
 
 Whether you're leading security for a three-person startup or a multinational corporation, you face the same fundamental question: **How do you maintain security accountability for code-based systems that deliver value to end users?**
 
-This responsibility spans your entire value delivery chain—from internal development through third-party dependencies to production operations.
+This responsibility spans your entire value delivery chain, from internal development through third-party dependencies to production operations.
 
 ## What is a Software Factory?
 
 !!! info "Definition"
-    A **software factory** is an organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain—whether directly controlled or third-party.
+    A **software factory** is an organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
 
 This definition encompasses:
 
@@ -40,7 +40,7 @@ Repeatable, improvable approaches to software creation and deployment rather tha
 
 Understanding your organization as a software factory helps clarify:
 
-1. **Scope of Responsibility**: You're accountable for security across the entire value delivery chain, not just code you write
+1. **Scope of Responsibility**: You're accountable for security across the entire value delivery chain, beyond the code you write
 2. **Third-Party Dependencies**: External components are part of your security responsibility
 3. **Operational Focus**: Security accountability extends through production operations
 4. **Universal Applicability**: The same framework applies regardless of organization size or technology choices

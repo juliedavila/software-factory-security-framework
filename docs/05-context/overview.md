@@ -98,7 +98,7 @@ Use this matrix to assess your organization:
 
 **Modifier Impact**: Strong relationship health enables faster adoption despite operational constraints
 
-**Adjustment**: Leverage trust to implement hybrid solutions more aggressively. Good relationships reduce friction of transformation, allowing faster progress than typical Challenger timeline.
+**Adjustment**: Use that trust to implement hybrid solutions more aggressively. Good relationships reduce friction of transformation, allowing faster progress than typical Challenger timeline.
 
 ### Example 3: Leader with High Regulatory Constraints
 

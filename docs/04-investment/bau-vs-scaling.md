@@ -1,8 +1,8 @@
 # BAU vs Scaling Investments
 
-## The Inevitable Choice Every Security Leader Faces
+## The Inevitable Choice
 
-Every security leader eventually confronts the same mathematical reality: demand for security services grows exponentially while team capacity grows linearly. This creates an inflection point where traditional approaches become unsustainable.
+The math is simple and it doesn't bend. Demand for security services grows exponentially while team capacity grows linearly, and past some point traditional approaches stop holding. That crossing is the inflection point.
 
 **The Traditional Response**: Hire more security professionals, work longer hours, accept growing backlogs.
 
@@ -37,7 +37,7 @@ As software factories grow, traditional security activities face a scaling chall
 
 ### The Capability Gap: Beyond Just Capacity
 
-The BAU scaling crisis isn't only about volume—it's about a fundamental capability mismatch between manual defenders and automated adversaries.
+Volume isn't the real problem in the BAU scaling crisis. The deeper issue is a capability mismatch between manual defenders and automated adversaries.
 
 **The Adversary Capability Shift**: In recent years, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
 
@@ -46,7 +46,7 @@ The BAU scaling crisis isn't only about volume—it's about a fundamental capabi
 - Conduct credential stuffing at scale against thousands of targets simultaneously
 - Probe continuously while defenders scan quarterly
 
-**The Structural Problem**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. This isn't a resource problem that hiring solves—it's a capability mismatch that requires automation.
+**The Structural Problem**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. This isn't a resource problem that hiring solves. It's a capability mismatch that requires automation.
 
 !!! warning "Critical Insight: Supply Chain as #1 Priority"
     Supply chain security became the #1 priority not because dependencies increased, but because adversary capability evolved. When attackers can discover your unknown assets faster than you can catalog them, supply chain security becomes existential regardless of your other security investments.
@@ -96,7 +96,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 - Security becomes a competitive advantage enabler
 
 !!! tip "The Compound Interest Principle"
-    Just as financial investments generate compound returns, security scaling investments create exponential value. An automation capability used 100 times costs the same to build as one used once, but delivers 100x the value. Manual security work scales linearly—each review costs the same effort.
+    Just as financial investments generate compound returns, security scaling investments create exponential value. An automation capability used 100 times costs the same to build as one used once, but delivers 100x the value. Manual security work scales linearly. Each review costs the same effort.
 
 ---
 
@@ -130,7 +130,7 @@ Security investments fall into three categories with fundamentally different sca
 
 | Position | BAU Approach | Constraint Mechanism |
 |----------|--------------|---------------------|
-| **Visionaries** | Minimal BAU burden initially | Automation-first—avoid creating manual processes |
+| **Visionaries** | Minimal BAU burden initially | Automation-first, avoid creating manual processes |
 | **Leaders** | Systematic constraint with alternatives | Self-service platform + clear escalation paths |
 | **Niche Players** | Manageable manual processes | Document processes while building readiness |
 | **Challengers** | High burden requiring constraint | Triage system + strategic automation pilots |
@@ -173,7 +173,7 @@ Security investments fall into three categories with fundamentally different sca
 **Definition**: Investments that benefit both your organization AND customer software factories (platform companies only)
 
 **Examples**:
-- Security platform features customers can leverage
+- Security platform features customers can use
 - Open-source security tools serving broader ecosystem
 - Security standards that become industry practices
 - Shared threat intelligence benefiting community
@@ -194,7 +194,7 @@ Security investments fall into three categories with fundamentally different sca
 
 ### The "Catch and Store Energy" Principle
 
-The most sustainable security investments don't just solve immediate problems—they **capture organizational effort and store it in reusable capabilities** that serve future needs without additional manual work.
+The most sustainable security investments do more than solve immediate problems. They **capture organizational effort and store it in reusable capabilities** that serve future needs without additional manual work.
 
 Like renewable energy systems that provide ongoing value after initial investment, effective scaling investments become self-sustaining:
 
@@ -300,7 +300,7 @@ Security leaders operate within inherited financial contexts that affect investm
 - Frame investments as risk reduction with quantifiable business impact
 
 **Conversation Template**:
-> "Our current security approach will become a business constraint as we scale. Rather than only adding capacity through hiring—which provides temporary relief at increasing cost—we recommend investing in capabilities that reduce manual effort requirements permanently. This approach improves both security outcomes and business velocity while managing cost growth."
+> "Our current security approach will become a business constraint as we scale. Rather than only adding capacity through hiring, which provides temporary relief at increasing cost, we recommend investing in capabilities that reduce manual effort requirements permanently. This approach improves both security outcomes and business velocity while managing cost growth."
 
 ---
 
@@ -330,7 +330,7 @@ Security leaders operate within inherited financial contexts that affect investm
 - Position security as accelerating time-to-market for secure products
 
 **Conversation Template**:
-> "Security automation isn't just about managing risk—it's about enabling our engineers to move faster with confidence. By investing in security platforms, we can support 3x growth without proportional security team expansion while improving both security posture and delivery velocity."
+> "Security automation does more than manage risk. It lets our engineers move faster with confidence. By investing in security platforms, we can support 3x growth without proportional security team expansion while improving both security posture and delivery velocity."
 
 ---
 

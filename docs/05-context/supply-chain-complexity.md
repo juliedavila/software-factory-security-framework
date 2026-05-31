@@ -2,7 +2,7 @@
 
 ## Beyond Volume: Complexity as Risk Multiplier
 
-Supply chain complexity isn't just about the number of dependencies—it's about the **interconnected risk** created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
+Supply chain complexity isn't about the number of dependencies. It's about the **interconnected risk** created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
 
 !!! warning "May Require Leaders-Level Tools"
     High supply chain complexity may require Leaders-level supply chain tools **regardless of your base quadrant position**. Organizations with critical supply chains should prioritize supply chain stewardship investments early.
@@ -80,7 +80,7 @@ Follow standard quadrant approach for supply chain stewardship
 - Balance legacy and modern supply chain security
 
 **Visionaries with Critical Supply Chain**:
-- Leverage advanced supply chain automation
+- Use advanced supply chain automation
 - Policy-as-code for supply chain governance
 - AI-powered supply chain risk analysis
 

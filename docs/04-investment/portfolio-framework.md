@@ -1,29 +1,29 @@
 # Investment Portfolio Framework
 
-## The Scaling Challenge Every Security Leader Encounters
+## The Scaling Challenge
 
 Picture this scenario: Your development teams want faster security reviews. Customer success needs immediate responses to security questionnaires. Compliance requires detailed audit preparations. Meanwhile, a critical vulnerability just dropped, and your CEO is asking about your incident response plan.
 
-Sound familiar? You've hit the **scaling crisis**—the inevitable moment when demand for security services grows exponentially while your team capacity grows linearly.
+Sound familiar? You've hit the **scaling crisis**, the inevitable moment when demand for security services grows exponentially while your team capacity grows linearly.
 
 !!! warning "The Inflection Point"
     Most security leaders respond to scaling challenges by hiring more people and working longer hours. While this provides temporary relief, it becomes increasingly difficult to sustain long-term and doesn't address the fundamental capability gap.
 
 ## A Different Approach
 
-Past a certain point, the solution isn't necessarily doing more security work—it's **deliberately constraining some activities while investing in capabilities that reduce future manual effort**. This section shows you how to make this strategic shift while maintaining security outcomes.
+Past a certain point, the solution isn't necessarily doing more security work. It's **deliberately constraining some activities while investing in capabilities that reduce future manual effort**. This section shows you how to make this strategic shift while maintaining security outcomes.
 
 ## The BAU Scaling Crisis
 
 ### The Capability Gap Reality
 
-The BAU scaling crisis isn't just a resource problem—it's a capability mismatch. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
+The BAU scaling crisis isn't a resource problem. It's a capability mismatch. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
 
 **The Structural Mismatch**:
 - **Manual defender processes**: Quarterly vulnerability scans, manual asset discovery, individual security reviews
 - **Scaled adversary automation**: Continuous probing, automated reconnaissance, industrial-scale exploitation
 
-This structural mismatch—manual defender processes versus scaled adversary automation—makes the crisis inevitable.
+This structural mismatch, manual defender processes versus scaled adversary automation, makes the crisis inevitable.
 
 ### Exponential Demand Growth
 
@@ -143,7 +143,7 @@ When evaluating security investments, consider these criteria:
 
 ### The "Catch and Store" Principle
 
-The most sustainable security investments don't just solve immediate problems—they capture organizational effort and store it in reusable capabilities that serve future needs without additional manual work.
+The most sustainable security investments do more than solve immediate problems. They capture organizational effort and store it in reusable capabilities that serve future needs without additional manual work.
 
 !!! tip "Renewable Energy Analogy"
     Like renewable energy systems that provide ongoing value after initial investment, effective scaling investments become self-sustaining and increasingly valuable over time.
@@ -171,7 +171,7 @@ The most sustainable security investments don't just solve immediate problems—
 - Reinforcing improvements over time
 
 !!! warning "Avoid Energy-Consuming Tools"
-    Some security tools create new maintenance burdens without proportional value. Favor investments that become more valuable and less demanding over time—capabilities that store energy rather than consume it.
+    Some security tools create new maintenance burdens without proportional value. Favor investments that become more valuable and less demanding over time, capabilities that store energy rather than consume it.
 
 ## BAU Constraint Strategy by Organizational Stage
 
@@ -220,11 +220,11 @@ Security leaders must work within inherited financial constraints while building
 When proposing the shift from traditional to strategic scaling:
 
 !!! quote "Executive Communication"
-    "We've identified that our current security approach may become a business constraint as we continue to scale. Rather than only adding capacity through hiring—which provides temporary relief—we recommend investing in capabilities that reduce manual effort requirements permanently.
+    "We've identified that our current security approach may become a business constraint as we continue to scale. Rather than only adding capacity through hiring, which provides temporary relief, we recommend investing in capabilities that reduce manual effort requirements permanently.
 
     This approach can improve both security outcomes and business velocity over time. The initial investment will create capabilities that compound: each use provides security value without proportional security team effort.
 
-    We'll measure success through developer satisfaction, security coverage, and time-to-market improvements—demonstrating that security enables rather than constrains business growth."
+    We'll measure success through developer satisfaction, security coverage, and time-to-market improvements, demonstrating that security enables rather than constrains business growth."
 
 ## Implementation Roadmap
 

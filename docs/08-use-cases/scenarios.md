@@ -43,7 +43,7 @@ A 5,000-person financial services company (Challenger position) needs to moderni
 - Recent crisis event (audit findings)
 
 **Investment Strategy**:
-1. **Use crisis window**: Leverage audit findings for funding approval
+1. **Use crisis window**: Apply audit findings for funding approval
 2. **Hybrid approach**: Modern security for new systems, pragmatic controls for legacy
 3. **Extended timeline**: 36-48 month transformation with phased rollout
 

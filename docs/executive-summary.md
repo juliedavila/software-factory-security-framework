@@ -1,14 +1,14 @@
 # Executive Summary
 
-## The Security Scaling Challenge Every Leader Faces
+## The Security Scaling Challenge
 
-Every security leader eventually confronts the same fundamental challenge: the day when demand for security services begins to outpace your team's capacity to deliver them. You're managing an increasing volume of security reviews, compliance requests, and incident responses while your organization demands faster innovation and delivery.
+Run a security org long enough and the math catches up with you. Demand for security work grows faster than your team's capacity to deliver it, and there's a day when the two cross. You're managing more security reviews, compliance requests, and incident responses while the organization demands faster innovation and delivery.
 
-The traditional response—hiring more security professionals—provides temporary relief but becomes increasingly difficult to sustain. This framework presents a different approach: strategic resource allocation that enables sustainable security scaling while improving business outcomes.
+The traditional response, hiring more security professionals, provides temporary relief but becomes increasingly difficult to sustain. This framework presents a different approach: strategic resource allocation that enables sustainable security scaling while improving business outcomes.
 
 ## The Strategic Opportunity
 
-Organizations that successfully navigate this challenge don't just solve a scaling problem—they create competitive advantages. They achieve faster time-to-market, higher developer productivity, and more robust security postures simultaneously. This transformation requires understanding that **security scaling is fundamentally a strategic and organizational challenge, not just a technical one.**
+Organizations that work through this well solve more than a scaling problem. They build competitive advantages: faster time-to-market, higher developer productivity, and more robust security postures at the same time. The shift requires understanding that **security scaling is a strategic and organizational challenge before it's a technical one.**
 
 ## Framework Overview
 
@@ -63,7 +63,7 @@ Six modifiers that influence your implementation approach:
 ## Strategic Context: Adversary Evolution
 
 !!! info "Critical Shift in Adversary Capabilities"
-    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**—sweeping billions of assets to find vulnerabilities. 
+    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**, sweeping billions of assets to find vulnerabilities. 
     
     Organizations using manual security processes face a fundamental capability gap: **attackers can discover unknown systems faster than defenders can catalog them.**
     
@@ -82,7 +82,7 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 ## Executive Insight
 
 !!! quote
-    Security scaling isn't primarily solved through capacity increases alone—it requires **strategic investment in capabilities that reduce manual effort requirements**. 
+    Security scaling isn't primarily solved through capacity increases alone. It requires **strategic investment in capabilities that reduce manual effort requirements**. 
     
     Organizations that make this shift successfully report significant improvements in both security effectiveness and business velocity.
 
@@ -96,6 +96,6 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 
 ---
 
-**Ready to dive deeper?** Start with [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md) to understand the core concepts.
+Start with [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md) to understand the core concepts.
 
 [:octicons-arrow-right-24: Continue to Foundation](01-foundation/software-factory-definition.md){ .md-button .md-button--primary }

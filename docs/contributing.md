@@ -53,8 +53,8 @@ We welcome several types of contributions:
 
 ### Writing Style
 
-- **Executive-friendly**: Write for security leaders, not just practitioners
-- **Actionable**: Provide clear guidance, not just theory
+- **Executive-friendly**: Write for security leaders, not practitioners alone
+- **Actionable**: Provide clear guidance, not theory
 - **Examples-driven**: Illustrate concepts with concrete examples
 - **Scale-agnostic**: Ensure content applies across organization sizes
 
@@ -253,7 +253,7 @@ See [LICENSE](https://gitlab.com/juliedavila/software-factory-security-framework
 
 ## Thank You!
 
-Every contribution, no matter how small, helps improve security practices across the industry. We appreciate your time and effort in making SF² better for everyone.
+Small fixes matter as much as big ones. Thank you for the time and effort you put into making SF² better for everyone.
 
 **Ready to contribute?** Find a page that could be improved and click **"Edit this page"**!
 

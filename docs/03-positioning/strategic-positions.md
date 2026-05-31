@@ -21,9 +21,9 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - API-driven operations and infrastructure-as-code
 - Minimal legacy technical debt
 
-**Your Security Approach**: Enable security through modern tooling and self-service capabilities. Leverage your technology advantages rather than building processes that assume operational constraints you don't have.
+**Your Security Approach**: Enable security through modern tooling and self-service capabilities. Use your technology advantages rather than building processes that assume operational constraints you don't have.
 
-**Strategic Focus**: Build security automation from day one—don't create manual processes you'll need to replace in 18 months. Your high operational readiness makes automation achievable now, and your simple operations mean you won't face enterprise coordination overhead.
+**Strategic Focus**: Build security automation from day one. Don't create manual processes you'll need to replace in 18 months. Your high operational readiness makes automation achievable now, and your simple operations mean you won't face enterprise coordination overhead.
 
 </div>
 
@@ -41,7 +41,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
     **Symptoms**: Multi-week security design reviews, approval workflows for two-person teams, committee decision-making
 
-    **Solution**: Build for your current reality. Add complexity only when your operational complexity actually increases.
+    **Solution**: Build for your current reality. Add complexity only when your operational complexity increases.
 
 **Success Indicators**:
 
@@ -49,7 +49,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Zero manual security reviews for standard deployments, developers resolve 80%+ security issues without security team involvement
 - **24 Months**: Security automation enables 3-5x growth without proportional security team expansion
 
-**Movement Path**: As you grow, you'll naturally add operational complexity. Your challenge is maintaining high operational readiness while scaling—transition to [Leaders](#leaders-complex-operations-high-readiness) rather than falling into the Challengers trap of adding complexity faster than capability.
+**Movement Path**: As you grow, you'll naturally add operational complexity. Your challenge is maintaining high operational readiness while scaling: transition to [Leaders](#leaders-complex-operations-high-readiness) rather than falling into the Challengers trap of adding complexity faster than capability.
 
 [:octicons-arrow-right-24: See Visionaries Implementation Guide](../06-implementation/visionaries.md){ .md-button }
 
@@ -68,7 +68,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Your Security Approach**: Orchestrate enterprise security architecture with integrated learning culture. Enable security at scale through platform engineering and federated security champions.
 
-**Strategic Focus**: Optimize security operations at enterprise scale while maintaining innovation velocity. Your advantage is operational sophistication—use it to embed security into engineering platforms rather than building centralized security bottlenecks.
+**Strategic Focus**: Optimize security operations at enterprise scale while maintaining innovation velocity. Your advantage is operational sophistication. Use it to embed security into engineering platforms rather than building centralized security bottlenecks.
 
 </div>
 
@@ -95,7 +95,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Security champions program active in all major teams, 60%+ of security issues resolved without central team involvement
 - **24 Months**: Security capabilities scale automatically with organizational growth, security becomes competitive advantage
 
-**Movement Path**: Stay in Leaders by continuously evolving security capabilities to match organizational scale. Falling into Challengers happens when operational readiness can't keep pace with complexity growth—maintain platform investment velocity.
+**Movement Path**: Stay in Leaders by continuously evolving security capabilities to match organizational scale. Falling into Challengers happens when operational readiness can't keep pace with complexity growth, so maintain platform investment velocity.
 
 [:octicons-arrow-right-24: See Leaders Implementation Guide](../06-implementation/leaders.md){ .md-button }
 
@@ -112,9 +112,9 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - Straightforward product or service offering
 - Often resource-constrained or bootstrapped
 
-**Your Security Approach**: Focus on operational readiness foundations while managing essential security controls. Accept manual security processes initially—but invest strategically in readiness improvements that enable future automation.
+**Your Security Approach**: Focus on operational readiness foundations while managing essential security controls. Accept manual security processes initially, but invest strategically in readiness improvements that enable future automation.
 
-**Strategic Focus**: Build operational capabilities systematically while maintaining security coverage. Your simple operations mean you can afford some manual processes temporarily—use this breathing room to invest in readiness infrastructure.
+**Strategic Focus**: Build operational capabilities systematically while maintaining security coverage. Your simple operations mean you can afford some manual processes temporarily. Use this breathing room to invest in readiness infrastructure.
 
 </div>
 
@@ -140,7 +140,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: 30-50% automation of security checks, measurable reduction in manual security work
 - **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Visionaries](#visionaries-simple-operations-high-readiness) position
 
-**Movement Path**: Move toward Visionaries by investing in operational readiness. This single-axis movement is achievable—prioritize cloud migration, DevOps tooling, and automation infrastructure over adding operational complexity.
+**Movement Path**: Move toward Visionaries by investing in operational readiness. This single-axis movement is achievable. Prioritize cloud migration, DevOps tooling, and automation infrastructure over adding operational complexity.
 
 [:octicons-arrow-right-24: See Niche Players Implementation Guide](../06-implementation/niche-players.md){ .md-button }
 
@@ -157,7 +157,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - Complex compliance and regulatory requirements
 - Multiple organizational changes or acquisitions
 
-**Your Security Approach**: Pragmatic security within constraints while enabling gradual modernization. Accept that full transformation takes 3-5 years—don't promise 12-month miracles.
+**Your Security Approach**: Pragmatic security within constraints while enabling gradual modernization. Accept that full transformation takes 3-5 years. Don't promise 12-month miracles.
 
 **Strategic Focus**: Balance current operational demands with strategic modernization investments. Your complexity prevents rapid transformation, but your scale justifies investment in foundational improvements.
 
@@ -165,7 +165,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Key Investment Priorities**:
 
-1. **Pragmatic Supply Chain Controls**: Risk-based approach given limitations—focus on critical paths and crown jewels
+1. **Pragmatic Supply Chain Controls**: Risk-based approach given limitations: focus on critical paths and crown jewels
 2. **Hybrid Security Architecture**: Solutions that work across legacy and modern systems without requiring full modernization
 3. **Strategic Technical Debt Reduction**: Systematic elimination of highest-risk legacy constraints enabling future automation
 4. **Change Management and Communication**: Organizational alignment on multi-year transformation reality and sequencing
@@ -174,7 +174,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 **Common Pitfalls to Avoid**:
 
 !!! warning "The Two-Axis Transformation Trap"
-    **Risk**: Attempting simultaneous complexity reduction AND readiness improvement—highest failure risk
+    **Risk**: Attempting simultaneous complexity reduction AND readiness improvement, the highest failure risk
 
     **Symptoms**: Aggressive transformation timelines, simultaneous re-platforming and process overhauls, widespread disruption
 
@@ -186,7 +186,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **24 Months**: Measurable automation improvements in high-value areas, improved operational readiness metrics, cultural momentum toward transformation
 - **36-48 Months**: Substantial progress toward [Leaders](#leaders-complex-operations-high-readiness) position, security increasingly enabling business rather than constraining it
 
-**Movement Path**: Most Challengers should move toward Leaders by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Challengers → Niche Players) rarely succeeds—requires major business restructuring.
+**Movement Path**: Most Challengers should move toward Leaders by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Challengers → Niche Players) rarely succeeds. It requires major business restructuring.
 
 [:octicons-arrow-right-24: See Challengers Implementation Guide](../06-implementation/challengers.md){ .md-button }
 
@@ -233,13 +233,13 @@ Your strategic position determines your optimal approach to the [investment port
 
 ## Common Position Misidentification
 
-**Startup Founder Self-Assessment**: "We're obviously Niche Players—we're small and scrappy!"
+**Startup Founder Self-Assessment**: "We're obviously Niche Players, we're small and scrappy!"
 
 **Reality Check**: If you're cloud-native with automated deployments, you're Visionaries. Your small size is simple operations, but your modern stack is high readiness. Don't build manual processes just because you're small.
 
 ---
 
-**Established Enterprise Self-Assessment**: "We're Leaders—we have mature security programs!"
+**Established Enterprise Self-Assessment**: "We're Leaders, we have mature security programs!"
 
 **Reality Check**: If you're running significant legacy infrastructure with manual deployments, you're Challengers regardless of security team size. Your complexity is high, but operational readiness is constrained by technical debt.
 
