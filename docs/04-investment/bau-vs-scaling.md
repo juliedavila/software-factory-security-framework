@@ -130,10 +130,10 @@ Security investments fall into three categories with fundamentally different sca
 
 | Position | BAU Approach | Constraint Mechanism |
 |----------|--------------|---------------------|
-| **Visionaries** | Minimal BAU burden initially | Automation-first, avoid creating manual processes |
-| **Leaders** | Systematic constraint with alternatives | Self-service platform + clear escalation paths |
-| **Niche Players** | Manageable manual processes | Document processes while building readiness |
-| **Challengers** | High burden requiring constraint | Triage system + strategic automation pilots |
+| **Studio** | Minimal BAU burden initially | Automation-first, avoid creating manual processes |
+| **Lean** | Systematic constraint with alternatives | Self-service platform + clear escalation paths |
+| **Craft** | Manageable manual processes | Document processes while building readiness |
+| **Mass** | High burden requiring constraint | Triage system + strategic automation pilots |
 
 ---
 

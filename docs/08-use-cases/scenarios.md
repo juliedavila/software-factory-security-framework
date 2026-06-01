@@ -7,11 +7,11 @@ This section demonstrates how to apply the Software Factory Security Framework t
 ## Use Case 1: Scaling Crisis at Series B Startup
 
 ### Situation
-A 50-person SaaS startup (Visionary position) hits the scaling crisis: security reviews now take 2 weeks, blocking feature releases.
+A 50-person SaaS startup (Studio position) hits the scaling crisis: security reviews now take 2 weeks, blocking feature releases.
 
 ### Framework Application
 
-**Strategic Position**: Visionaries (Simple + High Readiness)
+**Strategic Position**: Studio (Simple + High Readiness)
 
 **Contextual Modifiers**:
 - High attack landscape maturity (SaaS target)
@@ -30,11 +30,11 @@ A 50-person SaaS startup (Visionary position) hits the scaling crisis: security 
 ## Use Case 2: Enterprise Undergoing Digital Transformation
 
 ### Situation
-A 5,000-person financial services company (Challenger position) needs to modernize security while maintaining compliance and managing legacy systems.
+A 5,000-person financial services company (Mass position) needs to modernize security while maintaining compliance and managing legacy systems.
 
 ### Framework Application
 
-**Strategic Position**: Challengers (Complex + Low Readiness)
+**Strategic Position**: Mass (Complex + Low Readiness)
 
 **Contextual Modifiers**:
 - High regulatory constraints (financial services)
@@ -75,15 +75,15 @@ A technology company discovers compromised dependencies used in production syste
 
 ---
 
-## Use Case 4: Moving from Niche Player to Visionary
+## Use Case 4: Moving from Craft to Studio
 
 ### Situation
 A 20-person startup with legacy infrastructure decides to modernize their entire stack to enable faster growth.
 
 ### Framework Application
 
-**Current Position**: Niche Players (Simple + Low Readiness)
-**Target Position**: Visionaries (Simple + High Readiness)
+**Current Position**: Craft (Simple + Low Readiness)
+**Target Position**: Studio (Simple + High Readiness)
 
 **Movement Path**: Infrastructure modernization (single axis movement)
 - Timeline: 12-18 months
@@ -189,4 +189,4 @@ Have you applied SF² to your organization? We welcome real-world use case contr
 ## Next Steps
 
 [:octicons-arrow-right-24: Explore Framework Relationships](../07-relationships/nist-ssdf.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Implementation Guides](../06-implementation/visionaries.md){ .md-button }
+[:octicons-arrow-left-24: Back to Implementation Guides](../06-implementation/studio.md){ .md-button }

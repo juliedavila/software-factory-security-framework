@@ -111,26 +111,26 @@ td.low,
    STRATEGIC POSITIONING QUADRANT STYLING
    ============================================ */
 
-.quadrant-visionaries,
-.visionaries {
+.quadrant-studio,
+.studio {
   border-left: 4px solid #4CAF50;
   padding-left: 0.75rem !important;
 }
 
-.quadrant-leaders,
-.leaders {
+.quadrant-lean,
+.lean {
   border-left: 4px solid #2196F3;
   padding-left: 0.75rem !important;
 }
 
-.quadrant-niche,
-.niche-players {
+.quadrant-craft,
+.craft {
   border-left: 4px solid #FFC107;
   padding-left: 0.75rem !important;
 }
 
-.quadrant-challengers,
-.challengers {
+.quadrant-mass,
+.mass {
   border-left: 4px solid #F44336;
   padding-left: 0.75rem !important;
 }

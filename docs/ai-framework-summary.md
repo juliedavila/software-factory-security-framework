@@ -26,7 +26,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 ## Four Strategic Quadrants
 
-### 1. Visionaries (Simple + High Readiness)
+### 1. Studio (Simple + High Readiness)
 **Characteristics**: 10-200 engineers, modern cloud infrastructure, strong CI/CD, fast decision-making
 
 **Strategy**: Automate from the start, build scaling foundations early
@@ -39,9 +39,9 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Timeline**: 12-18 months to mature capabilities
 
-**Common Pitfall**: Building Leaders-level complexity too early
+**Common Pitfall**: Building Lean-level complexity too early
 
-### 2. Leaders (Complex + High Readiness)
+### 2. Lean (Complex + High Readiness)
 **Characteristics**: 200+ engineers, mature platforms, established security, platform-oriented
 
 **Strategy**: Optimize existing capabilities, build platform effects, security as competitive advantage
@@ -56,7 +56,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Complacency and tool sprawl without retirement
 
-### 3. Niche Players (Simple + Low Readiness)
+### 3. Craft (Simple + Low Readiness)
 **Characteristics**: <50 engineers, legacy/basic infrastructure, resource constraints, critical decision point
 
 **Strategy**: Choose intentional simplicity OR prepare for growth (two distinct paths)
@@ -69,11 +69,11 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Path B - Prepare for Growth**:
 - Infrastructure modernization
 - CI/CD foundation
-- Move toward Visionaries over 18-24 months
+- Move toward Studio over 18-24 months
 
-**Common Pitfall**: Accidental drift to Challenger (complexity without readiness)
+**Common Pitfall**: Accidental drift to Mass (complexity without readiness)
 
-### 4. Challengers (Complex + Low Readiness)
+### 4. Mass (Complex + Low Readiness)
 **Characteristics**: 100+ engineers, legacy systems at scale, manual processes, transformation imperative
 
 **Strategy**: Stabilize first, hybrid approach (modern for new, pragmatic for legacy), realistic 3-5 year timeline
@@ -153,7 +153,7 @@ Factors that significantly affect strategy implementation:
 **Characteristics**: Automated discovery at scale, rapid exploitation, adversaries find assets before defenders
 
 ### 2. Supply Chain Complexity
-**Impact**: May require Leaders-level tools regardless of base quadrant
+**Impact**: May require Lean-level tools regardless of base quadrant
 
 **Factors**: Multi-tier dependencies, critical vendors, geopolitical constraints
 
@@ -200,12 +200,12 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ### BSIMM Integration
 - BSIMM describes **112 security activities**
 - SF² helps **prioritize which activities** and **sequence implementation**
-- Quadrant determines activity count (Niche: 15-25, Visionaries: 30-40, Leaders: 60-80)
+- Quadrant determines activity count (Craft: 15-25, Studio: 30-40, Lean: 60-80)
 
 ### OWASP ASVS Integration
 - ASVS provides **verification requirements** (Levels 1-3)
 - SF² determines **appropriate level** and **risk-based subset**
-- Different levels for different system types in Challenger organizations
+- Different levels for different system types in Mass organizations
 
 ## AI Integration Guidance
 
@@ -244,12 +244,12 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 3. **High readiness enables automation** - Operational readiness determines feasibility
 4. **Two-axis transformation is high-risk** - Sequence carefully (stabilize → move one axis)
 5. **Appropriate security varies by position** - No one-size-fits-all
-6. **Realistic timelines matter** - Challengers need 3-5 years, not 12 months
+6. **Realistic timelines matter** - Mass organizations need 3-5 years, not 12 months
 7. **Framework integration, not competition** - SF² guides other frameworks' implementation
 
 ## Decision Frameworks
 
-### Should We Reduce Complexity First? (Challengers)
+### Should We Reduce Complexity First? (Mass)
 
 **Yes, if**:
 - Products/services can be consolidated or retired
@@ -266,23 +266,23 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ### Which ASVS Level Should We Target?
 
 **Level 1 (Opportunistic)**:
-- Niche Players for most applications
-- Challengers for legacy systems being retired
+- Craft for most applications
+- Mass for legacy systems being retired
 
 **Level 2 (Standard)**:
-- Visionaries for all applications
-- Leaders for all applications
-- Challengers for new/modern systems
+- Studio for all applications
+- Lean for all applications
+- Mass for new/modern systems
 - Most organizations should target this
 
 **Level 3 (Advanced)**:
-- Leaders for high-security applications
+- Lean for high-security applications
 - Payment systems, sensitive data, critical infrastructure
 - Not typically cost-effective for others
 
 ### Build vs Buy Security Platform?
 
-**Build** (Visionaries moving to Leaders):
+**Build** (Studio moving to Lean):
 - Custom requirements not met by vendors
 - Platform effects across many teams
 - Engineering capacity available
@@ -296,25 +296,25 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 ## Success Indicators by Quadrant
 
-### Visionaries - 12 Months
+### Studio - 12 Months
 - Manual security reviews reduced 70%
 - Automated scanning detecting 80%+ issues
 - Security review SLA: 90% under 2 hours
 - Zero critical incidents from standard patterns
 
-### Leaders - 12 Months
+### Lean - 12 Months
 - Security almost entirely self-service
 - Platform adoption >90% voluntary
 - Industry thought leadership established
 - Security as measurable competitive advantage
 
-### Niche Players - 12 Months (Path B: Growth)
+### Craft - 12 Months (Path B: Growth)
 - Cloud migration 80% complete OR basic CI/CD operational
 - Automated security scanning deployed
 - Infrastructure-as-code for 70%+ systems
 - Ready to scale with business
 
-### Challengers - 12 Months (Stabilization)
+### Mass - 12 Months (Stabilization)
 - Operational burden reduced 20% through automation
 - Executive sponsor actively engaged
 - Modern security for new systems (not recreating legacy)
@@ -322,25 +322,25 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 ## Common Pitfalls by Quadrant
 
-**Visionaries**: Premature complexity, missing scaling crisis signs, process over outcomes
+**Studio**: Premature complexity, missing scaling crisis signs, process over outcomes
 
-**Leaders**: Complacency, tool sprawl, optimization over innovation, platform without adoption
+**Lean**: Complacency, tool sprawl, optimization over innovation, platform without adoption
 
-**Niche Players**: Accidental drift to Challenger, premature optimization, wrong modernization sequence
+**Craft**: Accidental drift to Mass, premature optimization, wrong modernization sequence
 
-**Challengers**: Two-axis movement too fast, underestimating timeline/resources, recreating legacy in cloud, missing crisis window
+**Mass**: Two-axis movement too fast, underestimating timeline/resources, recreating legacy in cloud, missing crisis window
 
 ## Transformation Timelines (Realistic Expectations)
 
-**Visionaries staying Visionary**: 12-18 months to mature capabilities
+**Studio staying Studio**: 12-18 months to mature capabilities
 
-**Niche Players → Visionaries**: 18-24 months (single-axis movement)
+**Craft → Studio**: 18-24 months (single-axis movement)
 
-**Visionaries → Leaders**: 18-36 months as complexity increases
+**Studio → Lean**: 18-36 months as complexity increases
 
-**Challengers → Visionaries** (via Niche Players): 3-4 years
+**Mass → Studio** (via Craft): 3-4 years
 
-**Challengers → Leaders** (direct): 4-5 years (optimistic)
+**Mass → Lean** (direct): 4-5 years (optimistic)
 
 ## When to Use This Framework
 
@@ -388,7 +388,7 @@ When helping users with SF² framework:
 1. **Start with position assessment** - Determine quadrant based on complexity and readiness
 2. **Identify contextual modifiers** - Ask about attack landscape, supply chain, regulation, etc.
 3. **Apply quadrant-specific guidance** - Different recommendations for different positions
-4. **Consider realistic timelines** - Don't promise fast transformations for Challengers
+4. **Consider realistic timelines** - Don't promise fast transformations for Mass
 5. **Acknowledge tradeoffs** - Every choice has costs
 6. **Emphasize Supply Chain #1** - This is foundational due to adversary evolution
 7. **Focus on actionability** - Provide specific, measurable guidance
@@ -399,16 +399,16 @@ When helping users with SF² framework:
 **Current Position** → Assess Complexity (Simple/Complex) + Readiness (Lower/Higher)
 
 **Quadrant Priorities**:
-- Visionaries: Automate early
-- Leaders: Optimize and scale
-- Niche Players: Choose your path
-- Challengers: Stabilize first
+- Studio: Automate early
+- Lean: Optimize and scale
+- Craft: Choose your path
+- Mass: Stabilize first
 
 **Investment Rule**: Constrain BAU, build scaling
 
 **Supply Chain**: Always #1 priority
 
-**Timeline Honesty**: Challengers = 3-5 years
+**Timeline Honesty**: Mass = 3-5 years
 
 **Framework Integration**: SF² guides other frameworks' implementation
 

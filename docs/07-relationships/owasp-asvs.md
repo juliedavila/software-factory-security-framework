@@ -47,7 +47,7 @@ ASVS organizes requirements into 14 categories:
 
 ## SF² ASVS Strategy by Quadrant
 
-### Visionaries (Simple + High Readiness)
+### Studio (Simple + High Readiness)
 
 **ASVS Verification Approach**: Automated Level 2, selective Level 3
 
@@ -70,7 +70,7 @@ ASVS organizes requirements into 14 categories:
 
 **Timeline**: 12-18 months to comprehensive automated ASVS Level 2
 
-### Leaders (Complex + High Readiness)
+### Lean (Complex + High Readiness)
 
 **ASVS Verification Approach**: Comprehensive Level 2, selective Level 3 for high-risk
 
@@ -95,7 +95,7 @@ ASVS organizes requirements into 14 categories:
 
 **Timeline**: Ongoing optimization of established ASVS capabilities
 
-### Niche Players (Simple + Low Readiness)
+### Craft (Simple + Low Readiness)
 
 **ASVS Verification Approach**: Essential Level 1 requirements, risk-based Level 2
 
@@ -118,7 +118,7 @@ ASVS organizes requirements into 14 categories:
 
 **Timeline**: 6-12 months to essential ASVS Level 1 coverage
 
-### Challengers (Complex + Low Readiness)
+### Mass (Complex + Low Readiness)
 
 **ASVS Verification Approach**: Hybrid (Level 2 for new, Level 1 for legacy)
 
@@ -126,7 +126,7 @@ ASVS organizes requirements into 14 categories:
 
 **New/Modern Applications**:
 - **Level 2 (Standard)** with automated verification
-- Build Visionary/Leaders-level ASVS capabilities for future
+- Build Studio/Lean-level ASVS capabilities for future
 
 **Active Legacy Applications**:
 - **Level 1 (Opportunistic)** baseline
@@ -156,7 +156,7 @@ These categories should be prioritized regardless of position:
 3. **V4 (Access Control)** - Broken access control = unauthorized access
 4. **V5 (Validation, Sanitization)** - Prevents injection attacks
 
-### High-Value ASVS Categories (Visionaries, Leaders, Challengers-New)
+### High-Value ASVS Categories (Studio, Lean, Mass-New)
 
 5. **V9 (Communication)** - TLS/encryption for data in transit
 6. **V8 (Data Protection)** - Sensitive data handling
@@ -197,7 +197,7 @@ These categories should be prioritized regardless of position:
 
 ## Practical Integration Examples
 
-### Example 1: Visionary SaaS Startup
+### Example 1: Studio SaaS Startup
 
 **Scenario**: Series B startup building SaaS platform
 
@@ -217,7 +217,7 @@ These categories should be prioritized regardless of position:
 
 **Outcome**: Level 2 ASVS compliance with 80% automation, continuous verification
 
-### Example 2: Challenger Financial Services
+### Example 2: Mass Financial Services
 
 **Scenario**: Large bank with legacy applications and modern cloud services
 
@@ -234,7 +234,7 @@ These categories should be prioritized regardless of position:
 
 **Outcome**: Achievable ASVS compliance aligned with modernization timeline
 
-### Example 3: Leaders Platform Company
+### Example 3: Lean Platform Company
 
 **Scenario**: Large tech company with security product capabilities
 
@@ -260,10 +260,10 @@ These categories should be prioritized regardless of position:
 
 | Your SF² Position | Target ASVS Level | Verification Approach | Coverage |
 |------------------|------------------|---------------------|----------|
-| **Visionaries** | Level 2 | Automated verification | Comprehensive for new |
-| **Leaders** | Level 2-3 | Platform-scale automation | Comprehensive all apps |
-| **Niche Players** | Level 1 | Managed services, basic testing | Essential categories |
-| **Challengers** | Level 1-2 hybrid | Automated for new, risk-based for legacy | New: L2, Legacy: L1 |
+| **Studio** | Level 2 | Automated verification | Comprehensive for new |
+| **Lean** | Level 2-3 | Platform-scale automation | Comprehensive all apps |
+| **Craft** | Level 1 | Managed services, basic testing | Essential categories |
+| **Mass** | Level 1-2 hybrid | Automated for new, risk-based for legacy | New: L2, Legacy: L1 |
 
 ## Key Takeaways
 

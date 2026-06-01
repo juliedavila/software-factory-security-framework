@@ -33,7 +33,7 @@ Two-axis framework for understanding your organization's current state:
 - **Operational Complexity** (What you manage): Simple → Complex
 - **Operational Readiness** (How you operate): Lower → Higher
 
-This creates four strategic positions: **Visionaries**, **Leaders**, **Niche Players**, and **Challengers**.
+This creates four strategic positions: **Studio**, **Lean**, **Craft**, and **Mass**.
 
 [:octicons-arrow-right-24: Assess your position](03-positioning/two-axis-model.md)
 
@@ -92,7 +92,7 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 
 1. **Assess Your Position**: Use the [Two-Axis Model](03-positioning/two-axis-model.md) to understand your current state
 2. **Evaluate Context**: Review [Contextual Modifiers](05-context/overview.md) that influence your approach
-3. **Implement Strategically**: Follow your [Implementation Guide](06-implementation/visionaries.md) for actionable next steps
+3. **Implement Strategically**: Follow your [Implementation Guide](06-implementation/studio.md) for actionable next steps
 
 ---
 

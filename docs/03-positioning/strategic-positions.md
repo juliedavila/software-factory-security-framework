@@ -4,15 +4,15 @@
 
 The [two-axis positioning model](two-axis-model.md) creates four distinct strategic positions. Each position faces different security challenges and requires fundamentally different approaches to scaling security capabilities.
 
-**Critical Insight**: There is no single "best" security approach. The optimal strategy depends entirely on your organizational positioning. A Visionaries organization that implements security like Leaders will create unnecessary complexity. A Challengers organization that tries to operate like Visionaries will fail to address operational realities.
+**Critical Insight**: There is no single "best" security approach. The optimal strategy depends entirely on your organizational positioning. A Studio organization that implements security like Lean will create unnecessary complexity. A Mass organization that tries to operate like Studio will fail to address operational realities.
 
 ---
 
 ## The Four Strategic Positions
 
-### Visionaries: Simple Operations + High Readiness
+### Studio: Simple Operations + High Readiness
 
-<div class="quadrant-visionaries" markdown>
+<div class="quadrant-studio" markdown>
 
 **Who You Are**:
 - Small teams (typically under 50 engineers)
@@ -49,15 +49,15 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Zero manual security reviews for standard deployments, developers resolve 80%+ security issues without security team involvement
 - **24 Months**: Security automation enables 3-5x growth without proportional security team expansion
 
-**Movement Path**: As you grow, you'll naturally add operational complexity. Your challenge is maintaining high operational readiness while scaling: transition to [Leaders](#leaders-complex-operations-high-readiness) rather than falling into the Challengers trap of adding complexity faster than capability.
+**Movement Path**: As you grow, you'll naturally add operational complexity. Your challenge is maintaining high operational readiness while scaling: transition to [Lean](#lean-complex-operations-high-readiness) rather than falling into the Mass trap of adding complexity faster than capability.
 
-[:octicons-arrow-right-24: See Visionaries Implementation Guide](../06-implementation/visionaries.md){ .md-button }
+[:octicons-arrow-right-24: See Studio Implementation Guide](../06-implementation/studio.md){ .md-button }
 
 ---
 
-### Leaders: Complex Operations + High Readiness
+### Lean: Complex Operations + High Readiness
 
-<div class="quadrant-leaders" markdown>
+<div class="quadrant-lean" markdown>
 
 **Who You Are**:
 - Large-scale operations (100+ engineers, multiple teams)
@@ -95,15 +95,15 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Security champions program active in all major teams, 60%+ of security issues resolved without central team involvement
 - **24 Months**: Security capabilities scale automatically with organizational growth, security becomes competitive advantage
 
-**Movement Path**: Stay in Leaders by continuously evolving security capabilities to match organizational scale. Falling into Challengers happens when operational readiness can't keep pace with complexity growth, so maintain platform investment velocity.
+**Movement Path**: Stay in Lean by continuously evolving security capabilities to match organizational scale. Falling into Mass happens when operational readiness can't keep pace with complexity growth, so maintain platform investment velocity.
 
-[:octicons-arrow-right-24: See Leaders Implementation Guide](../06-implementation/leaders.md){ .md-button }
+[:octicons-arrow-right-24: See Lean Implementation Guide](../06-implementation/lean.md){ .md-button }
 
 ---
 
-### Niche Players: Simple Operations + Lower Readiness
+### Craft: Simple Operations + Lower Readiness
 
-<div class="quadrant-niche" markdown>
+<div class="quadrant-craft" markdown>
 
 **Who You Are**:
 - Small teams with limited resources
@@ -138,17 +138,17 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 - **6 Months**: Critical dependencies monitored, basic CI/CD pipeline operational, documented security processes
 - **12 Months**: 30-50% automation of security checks, measurable reduction in manual security work
-- **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Visionaries](#visionaries-simple-operations-high-readiness) position
+- **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Studio](#studio-simple-operations-high-readiness) position
 
-**Movement Path**: Move toward Visionaries by investing in operational readiness. This single-axis movement is achievable. Prioritize cloud migration, DevOps tooling, and automation infrastructure over adding operational complexity.
+**Movement Path**: Move toward Studio by investing in operational readiness. This single-axis movement is achievable. Prioritize cloud migration, DevOps tooling, and automation infrastructure over adding operational complexity.
 
-[:octicons-arrow-right-24: See Niche Players Implementation Guide](../06-implementation/niche-players.md){ .md-button }
+[:octicons-arrow-right-24: See Craft Implementation Guide](../06-implementation/craft.md){ .md-button }
 
 ---
 
-### Challengers: Complex Operations + Lower Readiness
+### Mass: Complex Operations + Lower Readiness
 
-<div class="quadrant-challengers" markdown>
+<div class="quadrant-mass" markdown>
 
 **Who You Are**:
 - Large-scale operations with legacy constraints
@@ -178,17 +178,17 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
     **Symptoms**: Aggressive transformation timelines, simultaneous re-platforming and process overhauls, widespread disruption
 
-    **Solution**: Sequence changes carefully. Typically, invest in readiness first (Challengers → Leaders path) to enable automation at scale. Accept 36-48 month timeline.
+    **Solution**: Sequence changes carefully. Typically, invest in readiness first (Mass → Lean path) to enable automation at scale. Accept 36-48 month timeline.
 
 **Success Indicators**:
 
 - **12 Months**: Hybrid security solutions operational, critical technical debt reduction projects started, transformation roadmap with executive buy-in
 - **24 Months**: Measurable automation improvements in high-value areas, improved operational readiness metrics, cultural momentum toward transformation
-- **36-48 Months**: Substantial progress toward [Leaders](#leaders-complex-operations-high-readiness) position, security increasingly enabling business rather than constraining it
+- **36-48 Months**: Substantial progress toward [Lean](#lean-complex-operations-high-readiness) position, security increasingly enabling business rather than constraining it
 
-**Movement Path**: Most Challengers should move toward Leaders by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Challengers → Niche Players) rarely succeeds. It requires major business restructuring.
+**Movement Path**: Most Mass should move toward Lean by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Mass → Craft) rarely succeeds. It requires major business restructuring.
 
-[:octicons-arrow-right-24: See Challengers Implementation Guide](../06-implementation/challengers.md){ .md-button }
+[:octicons-arrow-right-24: See Mass Implementation Guide](../06-implementation/mass.md){ .md-button }
 
 ---
 
@@ -224,30 +224,30 @@ Your strategic position determines your optimal approach to the [investment port
 
 | Position | BAU Approach | Scaling Investment Focus | Timeline to ROI |
 |----------|--------------|-------------------------|-----------------|
-| **Visionaries** | Minimal BAU burden initially | Automation-first from inception | 6-12 months |
-| **Leaders** | Systematic BAU constraint | Platform capabilities at scale | 12-18 months |
-| **Niche Players** | Manageable manual BAU | Foundational readiness infrastructure | 18-24 months |
-| **Challengers** | High BAU burden requiring constraint | Strategic debt reduction + readiness | 24-48 months |
+| **Studio** | Minimal BAU burden initially | Automation-first from inception | 6-12 months |
+| **Lean** | Systematic BAU constraint | Platform capabilities at scale | 12-18 months |
+| **Craft** | Manageable manual BAU | Foundational readiness infrastructure | 18-24 months |
+| **Mass** | High BAU burden requiring constraint | Strategic debt reduction + readiness | 24-48 months |
 
 ---
 
 ## Common Position Misidentification
 
-**Startup Founder Self-Assessment**: "We're obviously Niche Players, we're small and scrappy!"
+**Startup Founder Self-Assessment**: "We're obviously Craft, we're small and scrappy!"
 
-**Reality Check**: If you're cloud-native with automated deployments, you're Visionaries. Your small size is simple operations, but your modern stack is high readiness. Don't build manual processes just because you're small.
-
----
-
-**Established Enterprise Self-Assessment**: "We're Leaders, we have mature security programs!"
-
-**Reality Check**: If you're running significant legacy infrastructure with manual deployments, you're Challengers regardless of security team size. Your complexity is high, but operational readiness is constrained by technical debt.
+**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your small size is simple operations, but your modern stack is high readiness. Don't build manual processes just because you're small.
 
 ---
 
-**High-Growth Startup Self-Assessment**: "We're Visionaries scaling successfully!"
+**Established Enterprise Self-Assessment**: "We're Lean, we have mature security programs!"
 
-**Reality Check**: If you're adding teams faster than automation, you're moving toward Challengers (high complexity, decreasing readiness). Maintain readiness investments or you'll face the two-axis transformation trap.
+**Reality Check**: If you're running significant legacy infrastructure with manual deployments, you're Mass regardless of security team size. Your complexity is high, but operational readiness is constrained by technical debt.
+
+---
+
+**High-Growth Startup Self-Assessment**: "We're Studio scaling successfully!"
+
+**Reality Check**: If you're adding teams faster than automation, you're moving toward Mass (high complexity, decreasing readiness). Maintain readiness investments or you'll face the two-axis transformation trap.
 
 ---
 
@@ -255,7 +255,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 1. **Confirm Your Position**: Use the assessment tools above to validate your quadrant
 2. **Review [Movement Paths](movement-paths.md)**: Understand how to transition strategically
-3. **Read Your Implementation Guide**: Apply position-specific guidance from [`06-implementation/`](../06-implementation/visionaries.md)
+3. **Read Your Implementation Guide**: Apply position-specific guidance from [`06-implementation/`](../06-implementation/studio.md)
 4. **Evaluate [Contextual Modifiers](../05-context/overview.md)**: Understand how your specific situation affects implementation
 
 ---

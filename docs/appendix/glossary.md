@@ -16,16 +16,16 @@
 **Operational Readiness**
 : The "how you operate" axis measuring automation, infrastructure modernity, and process maturity (Lower → Higher).
 
-**Visionaries**
+**Studio**
 : Organizations with simple operations and high operational readiness (Simple + High Readiness).
 
-**Leaders**
+**Lean**
 : Organizations with complex operations and high operational readiness (Complex + High Readiness).
 
-**Niche Players**
+**Craft**
 : Organizations with simple operations and lower operational readiness (Simple + Low Readiness).
 
-**Challengers**
+**Mass**
 : Organizations with complex operations and lower operational readiness (Complex + Low Readiness).
 
 ## Universal Stewardship

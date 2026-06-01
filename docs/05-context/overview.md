@@ -5,14 +5,14 @@
 While the core framework applies universally, **six contextual factors** significantly modify your implementation approach. Understanding these modifiers helps you adapt the framework to your specific organizational constraints and opportunities.
 
 !!! tip "Context Matters"
-    Two organizations in the same strategic position (e.g., both Challengers) may need different implementation approaches based on their contextual modifiers. These factors help you customize the universal framework to your reality.
+    Two organizations in the same strategic position (e.g., both in the Mass quadrant) may need different implementation approaches based on their contextual modifiers. These factors help you customize the universal framework to your reality.
 
 ## The Six Contextual Modifiers
 
 | Modifier | Impact on Implementation | Assessment Questions |
 |----------|------------------------|---------------------|
 | **[Attack Landscape Maturity](attack-landscape.md)** | Accelerates need for automation; manual processes become existential vulnerabilities | Do attackers discover our assets before we do? Are we seeing automated reconnaissance? |
-| **[Supply Chain Complexity](supply-chain-complexity.md)** | May require Leaders-level tools regardless of base quadrant | How many dependency tiers? Critical single vendors? Geopolitical constraints? |
+| **[Supply Chain Complexity](supply-chain-complexity.md)** | May require Lean-level tools regardless of base quadrant | How many dependency tiers? Critical single vendors? Geopolitical constraints? |
 | **[Regulatory Constraints](regulatory-constraints.md)** | Increases BAU burden; may delay quadrant progression | Audit frequency? Technology constraints? Compliance violation risk? |
 | **[Crisis Events](crisis-events.md)** | Can rapidly accelerate quadrant movement through organizational change | Recent major incidents? Lasting organizational changes? |
 | **[Change Capacity](change-capacity.md)** | Affects transition speed and scaling investment success probability | Tool rollout timelines? Process disruption tolerance? |
@@ -84,25 +84,25 @@ Use this matrix to assess your organization:
 
 ## Strategic Examples
 
-### Example 1: Visionary with High Attack Landscape Maturity
+### Example 1: Studio with High Attack Landscape Maturity
 
-**Base Position**: Visionaries (Simple + High Readiness)
+**Base Position**: Studio (Simple + High Readiness)
 
 **Modifier Impact**: High attack landscape maturity means automated adversaries despite small scale
 
-**Adjustment**: Prioritize supply chain automation and continuous monitoring even earlier than typical Visionary roadmap. The capability gap created by automated adversaries requires immediate automation response.
+**Adjustment**: Prioritize supply chain automation and continuous monitoring even earlier than typical Studio roadmap. The capability gap created by automated adversaries requires immediate automation response.
 
-### Example 2: Challenger with Strong Relationship Health
+### Example 2: Mass with Strong Relationship Health
 
-**Base Position**: Challengers (Complex + Low Readiness)
+**Base Position**: Mass (Complex + Low Readiness)
 
 **Modifier Impact**: Strong relationship health enables faster adoption despite operational constraints
 
-**Adjustment**: Use that trust to implement hybrid solutions more aggressively. Good relationships reduce friction of transformation, allowing faster progress than typical Challenger timeline.
+**Adjustment**: Use that trust to implement hybrid solutions more aggressively. Good relationships reduce friction of transformation, allowing faster progress than typical Mass timeline.
 
 ### Example 3: Leader with High Regulatory Constraints
 
-**Base Position**: Leaders (Complex + High Readiness)
+**Base Position**: Lean (Complex + High Readiness)
 
 **Modifier Impact**: Heavy regulatory burden increases BAU workload despite strong operational capabilities
 

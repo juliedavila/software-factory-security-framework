@@ -49,7 +49,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 ## SF² Investment Strategy and BSIMM
 
-### Visionaries (Simple + High Readiness)
+### Studio (Simple + High Readiness)
 
 **BSIMM Activity Selection**: Automation-friendly activities that scale
 
@@ -76,7 +76,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 **Implementation Approach**: Automate BSIMM activities from the start
 
-### Leaders (Complex + High Readiness)
+### Lean (Complex + High Readiness)
 
 **BSIMM Activity Selection**: Comprehensive coverage with platform effects
 
@@ -94,7 +94,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 **Implementation Approach**: Comprehensive BSIMM with efficiency focus
 
-### Niche Players (Simple + Low Readiness)
+### Craft (Simple + Low Readiness)
 
 **BSIMM Activity Selection**: Essential activities only
 
@@ -118,7 +118,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 **Implementation Approach**: Minimal BSIMM coverage, managed services where possible
 
-### Challengers (Complex + Low Readiness)
+### Mass (Complex + Low Readiness)
 
 **BSIMM Activity Selection**: Hybrid (comprehensive for new, essential for legacy)
 
@@ -127,7 +127,7 @@ BSIMM organizes 112 activities into 4 domains:
 **New/Modern Systems**:
 - Full BSIMM practice coverage
 - Automated implementation where possible
-- Build Leaders-level capabilities for future
+- Build Lean-level capabilities for future
 
 **Legacy Systems**:
 - CMVM (vulnerability management) only
@@ -167,7 +167,7 @@ These BSIMM activities provide highest ROI across all quadrants:
 These BSIMM activities have value but require careful sequencing:
 
 4. **SFD** - Security features and design
-   - High value for Visionaries (secure templates)
+   - High value for Studio (secure templates)
    - Moderate value for others
 
 5. **SR** - Standards and requirements
@@ -175,9 +175,9 @@ These BSIMM activities have value but require careful sequencing:
    - Lower priority otherwise
 
 6. **SM** - Strategy and metrics
-   - Critical for Leaders (optimization)
-   - Basic for Visionaries
-   - Minimal for Niche Players
+   - Critical for Lean (optimization)
+   - Basic for Studio
+   - Minimal for Craft
 
 ### Lower-Value Activities (Implement Last or Skip)
 
@@ -222,7 +222,7 @@ These BSIMM activities often don't justify their cost:
 
 ## Practical Integration Example
 
-### Scenario: Challenger Position Enterprise
+### Scenario: Mass Position Enterprise
 
 **Current State**:
 - Attempting comprehensive BSIMM implementation
@@ -258,10 +258,10 @@ These BSIMM activities often don't justify their cost:
 
 | Your SF² Position | BSIMM Activity Count | Implementation Focus | Automation Level |
 |------------------|---------------------|---------------------|------------------|
-| **Visionaries** | 30-40 activities | Automation-friendly activities | Very high |
-| **Leaders** | 60-80 activities | Comprehensive with efficiency | High |
-| **Niche Players** | 15-25 activities | Essential only | Managed services |
-| **Challengers** | 30-40 (new systems only) | Hybrid approach | Mixed |
+| **Studio** | 30-40 activities | Automation-friendly activities | Very high |
+| **Lean** | 60-80 activities | Comprehensive with efficiency | High |
+| **Craft** | 15-25 activities | Essential only | Managed services |
+| **Mass** | 30-40 (new systems only) | Hybrid approach | Mixed |
 
 **Note**: These are guidelines, not targets. More BSIMM activities doesn't necessarily mean better security.
 

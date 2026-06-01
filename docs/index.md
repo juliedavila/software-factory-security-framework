@@ -110,7 +110,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 1. Read the [Executive Summary](executive-summary.md)
 2. Assess your [Strategic Position](03-positioning/two-axis-model.md)
-3. Review [Implementation Guide](06-implementation/visionaries.md) for your quadrant
+3. Review [Implementation Guide](06-implementation/studio.md) for your quadrant
 4. Evaluate [Contextual Modifiers](05-context/overview.md)
 
 ### For Individual Contributors
@@ -196,6 +196,6 @@ This is an open source framework (CC BY 4.0) intended as a resource for the broa
     Use the [Two-Axis Positioning Model](03-positioning/two-axis-model.md) to determine your current state and optimal path forward.
 
 !!! success "Implement Strategically"
-    Follow your quadrant-specific [Implementation Guide](06-implementation/visionaries.md) for actionable next steps.
+    Follow your quadrant-specific [Implementation Guide](06-implementation/studio.md) for actionable next steps.
 
 </div>

@@ -4,8 +4,8 @@
 
 Supply chain complexity isn't about the number of dependencies. It's about the **interconnected risk** created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
 
-!!! warning "May Require Leaders-Level Tools"
-    High supply chain complexity may require Leaders-level supply chain tools **regardless of your base quadrant position**. Organizations with critical supply chains should prioritize supply chain stewardship investments early.
+!!! warning "May Require Lean-Level Tools"
+    High supply chain complexity may require Lean-level supply chain tools **regardless of your base quadrant position**. Organizations with critical supply chains should prioritize supply chain stewardship investments early.
 
 ## Complexity Levels
 
@@ -67,19 +67,19 @@ Follow standard quadrant approach for supply chain stewardship
 
 ### Critical Supply Chain
 
-**Requires Leaders-level capabilities even in other quadrants**:
+**Requires Lean-level capabilities even in other quadrants**:
 
-**Niche Players with Critical Supply Chain**:
+**Craft with Critical Supply Chain**:
 - Implement enterprise SBOM tools early
 - Comprehensive vendor security program
 - May need dedicated supply chain security role
 
-**Challengers with Critical Supply Chain**:
+**Mass with Critical Supply Chain**:
 - Prioritize supply chain modernization
 - Hybrid approaches with enhanced visibility
 - Balance legacy and modern supply chain security
 
-**Visionaries with Critical Supply Chain**:
+**Studio with Critical Supply Chain**:
 - Use advanced supply chain automation
 - Policy-as-code for supply chain governance
 - AI-powered supply chain risk analysis

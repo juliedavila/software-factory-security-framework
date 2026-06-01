@@ -1,8 +1,8 @@
-# Implementation Guide: Visionaries
+# Implementation Guide: Studio
 
 ## Position Characteristics
 
-**Visionaries** occupy the Simple + High Readiness quadrant:
+**Studio** organizations occupy the Simple + High Readiness quadrant:
 
 - **Small to medium operational complexity** (10-200 engineers)
 - **Modern infrastructure** (cloud-native, infrastructure-as-code)
@@ -25,7 +25,7 @@ Your advantage is speed. Security should accelerate, not slow down.
 **Avoid**:
 - Manual security review bottlenecks
 - Process for process's sake
-- Premature complexity (don't build Leaders-level tools yet)
+- Premature complexity (don't build Lean-level tools yet)
 
 ### 2. Embed Security in Modern Infrastructure
 
@@ -123,7 +123,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 ## Common Pitfalls
 
 ### Premature Complexity
-**Risk**: Building Leaders-level tooling before you need it
+**Risk**: Building Lean-level tooling before you need it
 
 **Symptoms**:
 - Creating complex security platforms for simple needs
@@ -174,8 +174,8 @@ You're positioned to scale efficiently. Build the right foundations now.
 
 ## Movement Paths
 
-### Maintaining Position: Staying Visionary
-As your organization grows, operational complexity will naturally increase. To maintain the Visionary position:
+### Maintaining Position: Staying Studio
+As your organization grows, operational complexity will naturally increase. To maintain the Studio position:
 
 **Strategy**: Continuously optimize processes and automation as you scale
 
@@ -187,7 +187,7 @@ As your organization grows, operational complexity will naturally increase. To m
 
 **Timeline**: Ongoing; requires continuous attention
 
-### Advancing to Leaders
+### Advancing to Lean
 When operational complexity increases (100+ engineers, multiple products):
 
 **Strategy**: Thoughtful complexity management while maintaining readiness
@@ -206,7 +206,7 @@ When operational complexity increases (100+ engineers, multiple products):
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Leaders Implementation](leaders.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Continue to Lean Implementation](lean.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/relationship-health.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/visionaries.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/studio.md){ .md-button }

@@ -1,8 +1,11 @@
-# Implementation Guide: Challengers
+# Implementation Guide: Mass
+
+!!! note "Mass means low-flow, not the assembly line"
+    **Mass** here is lean's antonym: big-batch, siloed, low-flow security work at high complexity. It is not the 1913 mass-production repeatability triumph. The repeatability win in SF² is **Lean**; Mass is the high-complexity quadrant that has not yet earned it, which is why this guide is about getting there.
 
 ## Position Characteristics
 
-**Challengers** occupy the Complex + Low Readiness quadrant:
+**Mass** organizations occupy the Complex + Low Readiness quadrant:
 
 - **High operational complexity** (100+ engineers, multiple products/services)
 - **Legacy infrastructure** (manual processes, limited automation, technical debt)
@@ -10,7 +13,7 @@
 - **Transformation imperative** (current state unsustainable at scale)
 - **Highest transformation risk** (two-axis movement required)
 
-## The Challenger Reality
+## The Mass Reality
 
 This is the **most difficult transformation journey**. You must simultaneously:
 - **Reduce operational burden** (can't maintain current manual load)
@@ -44,19 +47,19 @@ Don't attempt transformation while drowning in operational work.
 
 Two possible strategies, each with different tradeoffs:
 
-**Path A: Reduce Complexity First (Move toward Niche Players)**
+**Path A: Reduce Complexity First (Move toward Craft)**
 - **Strategy**: Simplify operations while modernizing what remains
 - **Examples**: Consolidate products, retire legacy systems, reduce scope
 - **Advantages**: Easier transformation, clearer focus, faster progress
 - **Challenges**: May require difficult business decisions, potential revenue impact
-- **Timeline**: 12-24 months to Niche Players, then 18-24 to Visionaries
+- **Timeline**: 12-24 months to Craft, then 18-24 to Studio
 
-**Path B: Increase Readiness Despite Complexity (Move toward Leaders)**
+**Path B: Increase Readiness Despite Complexity (Move toward Lean)**
 - **Strategy**: Gradual modernization while maintaining complex operations
 - **Examples**: Hybrid approaches, phased rollouts, incremental automation
 - **Advantages**: Maintains business operations, no scope reduction needed
 - **Challenges**: Longest timeline, highest failure risk, requires sustained investment
-- **Timeline**: 36-60 months to Leaders (realistically)
+- **Timeline**: 36-60 months to Lean (realistically)
 
 **Critical Decision Factors**:
 - Executive support and patience (Path B requires 3-5 year commitment)
@@ -111,7 +114,7 @@ Regardless of path, you'll need hybrid approaches:
 
 ## Investment Roadmap
 
-### Path A: Reduce Complexity First (→ Niche Players → Visionaries)
+### Path A: Reduce Complexity First (→ Craft → Studio)
 
 **Year 1: Stabilize + Plan Complexity Reduction**
 - **Stabilization** (50% effort): Quick automation wins, operational burden reduction
@@ -123,14 +126,14 @@ Regardless of path, you'll need hybrid approaches:
 - **Modernization** (40% effort): Cloud migration, CI/CD, infrastructure-as-code
 - **Essential Security** (20% effort): Maintain security during transformation
 
-**Year 3-4: Complete Transformation to Visionaries**
-- **Security Automation** (60% effort): Build Visionary-level capabilities
+**Year 3-4: Complete Transformation to Studio**
+- **Security Automation** (60% effort): Build Studio-level capabilities
 - **Legacy Retirement** (30% effort): Complete sunset of old systems
 - **Optimization** (10% effort): Refine and improve
 
-**Expected Outcome**: **Visionary positioning** after 3-4 years
+**Expected Outcome**: **Studio positioning** after 3-4 years
 
-### Path B: Increase Readiness Despite Complexity (→ Leaders)
+### Path B: Increase Readiness Despite Complexity (→ Lean)
 
 **Year 1: Stabilize + Hybrid Foundation**
 - **Stabilization** (40% effort): Quick wins, operational burden reduction
@@ -138,16 +141,16 @@ Regardless of path, you'll need hybrid approaches:
 - **Hybrid Strategy** (20% effort): Define modern vs. legacy approach
 
 **Year 2-3: Gradual Modernization**
-- **New Systems** (40% effort): Leaders-level capabilities for modern infrastructure
+- **New Systems** (40% effort): Lean-level capabilities for modern infrastructure
 - **Legacy Pragmatism** (30% effort): Managed services, appropriate controls
 - **Platform Capabilities** (30% effort): Unified capabilities serving both
 
 **Year 4-5: Complete Modernization**
 - **Legacy Migration** (40% effort): Migrate remaining systems to modern platform
-- **Leaders Capabilities** (40% effort): Advanced automation, platform effects
+- **Lean Capabilities** (40% effort): Advanced automation, platform effects
 - **Legacy Retirement** (20% effort): Sunset old infrastructure
 
-**Expected Outcome**: **Leaders positioning** after 4-5 years (optimistic)
+**Expected Outcome**: **Lean positioning** after 4-5 years (optimistic)
 
 ## Common Pitfalls
 
@@ -225,9 +228,9 @@ Regardless of path, you'll need hybrid approaches:
 ### Year 3-5 (Transformation Progress)
 - [ ] **Operational burden reduced 60-80%** from baseline
 - [ ] **Majority of systems on modern infrastructure** (or complexity significantly reduced)
-- [ ] **Security automation at Visionary or Leaders level** for modern systems
+- [ ] **Security automation at Studio or Lean level** for modern systems
 - [ ] **Sustainable operations** (not requiring heroic effort)
-- [ ] **Position movement** toward Niche Players, Visionaries, or Leaders
+- [ ] **Position movement** toward Craft, Studio, or Lean
 
 ## Transformation Success Factors
 
@@ -268,7 +271,7 @@ Regardless of path, you'll need hybrid approaches:
 - No viable consolidation or retirement options
 - Must maintain all current operations
 
-### Can You Successfully Execute Path B (Direct to Leaders)?
+### Can You Successfully Execute Path B (Direct to Lean)?
 
 **Realistic if:**
 - Strong executive commitment (CEO level) to 4-5 year timeline
@@ -291,6 +294,6 @@ Regardless of path, you'll need hybrid approaches:
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to Framework Relationships](../07-relationships/nist-ssdf.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Niche Players Implementation](niche-players.md){ .md-button }
+[:octicons-arrow-left-24: Back to Craft Implementation](craft.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/challengers.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/mass.md){ .md-button }

@@ -1,8 +1,8 @@
-# Implementation Guide: Leaders
+# Implementation Guide: Lean
 
 ## Position Characteristics
 
-**Leaders** occupy the Complex + High Readiness quadrant:
+**Lean** organizations occupy the Complex + High Readiness quadrant:
 
 - **Large-scale operational complexity** (200+ engineers, multiple products/services)
 - **Mature infrastructure** (sophisticated cloud platforms, advanced automation)
@@ -207,7 +207,7 @@ Continuous effort required to maintain leadership position:
 
 **Critical Success Factor**: Balance innovation with operational excellence
 
-### Risk: Regressing to Challenger
+### Risk: Regressing to Mass
 Without continuous investment, complexity can overwhelm readiness:
 
 **Warning Signs**:
@@ -253,7 +253,7 @@ Advanced supply chain security:
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Niche Players Implementation](niche-players.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Visionaries Implementation](visionaries.md){ .md-button }
+[:octicons-arrow-right-24: Continue to Craft Implementation](craft.md){ .md-button .md-button--primary }
+[:octicons-arrow-left-24: Back to Studio Implementation](studio.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/leaders.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/lean.md){ .md-button }

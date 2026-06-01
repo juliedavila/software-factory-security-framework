@@ -37,7 +37,7 @@
     ],
     "quadrants": [
       {
-        "name": "Visionaries",
+        "name": "Studio",
         "position": "Simple + High Readiness",
         "characteristics": [
           "Small to medium scale (10-200 engineers)",
@@ -49,7 +49,7 @@
         "timeline": "12-18 months to mature capabilities"
       },
       {
-        "name": "Leaders",
+        "name": "Lean",
         "position": "Complex + High Readiness",
         "characteristics": [
           "Large scale (200+ engineers)",
@@ -61,7 +61,7 @@
         "timeline": "Ongoing optimization"
       },
       {
-        "name": "Niche Players",
+        "name": "Craft",
         "position": "Simple + Low Readiness",
         "characteristics": [
           "Small scale (<50 engineers)",
@@ -73,7 +73,7 @@
         "timeline": "18-24 months if modernizing"
       },
       {
-        "name": "Challengers",
+        "name": "Mass",
         "position": "Complex + Low Readiness",
         "characteristics": [
           "Large scale with legacy systems",
@@ -171,7 +171,7 @@
       },
       {
         "name": "Supply Chain Complexity",
-        "impact": "May require Leaders-level tools regardless of base quadrant",
+        "impact": "May require Lean-level tools regardless of base quadrant",
         "factors": [
           "Multi-tier dependencies",
           "Critical single vendors",
@@ -337,10 +337,10 @@
         "id": "06-implementation",
         "name": "Implementation Guides",
         "pages": [
-          "Visionaries",
-          "Leaders",
-          "Niche Players",
-          "Challengers"
+          "Studio",
+          "Lean",
+          "Craft",
+          "Mass"
         ],
         "url": "06-implementation/"
       },
@@ -390,7 +390,7 @@
     "Two-axis transformation is high-risk; sequence carefully",
     "Appropriate security depends on organizational position",
     "Framework provides strategic overlay for other security frameworks",
-    "Realistic timelines: Challengers need 3-5 years for transformation"
+    "Realistic timelines: Mass organizations need 3-5 years for transformation"
   ],
   "target_audience": {
     "primary": "Security leaders (VP, CISO, Director level)",

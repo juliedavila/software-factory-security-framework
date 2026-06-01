@@ -82,10 +82,10 @@ nav:
     - Relationship Health: 05-context/relationship-health.md
 
   - Implementation Guides:
-    - Visionaries: 06-implementation/visionaries.md
-    - Leaders: 06-implementation/leaders.md
-    - Niche Players: 06-implementation/niche-players.md
-    - Challengers: 06-implementation/challengers.md
+    - Studio: 06-implementation/studio.md
+    - Lean: 06-implementation/lean.md
+    - Craft: 06-implementation/craft.md
+    - Mass: 06-implementation/mass.md
 
   - Framework Relationships:
     - NIST SSDF: 07-relationships/nist-ssdf.md
@@ -114,6 +114,7 @@ nav:
     - Glossary: appendix/glossary.md
     - References: appendix/references.md
     - Accessibility: appendix/accessibility.md
+    - Quadrant Rename (v0.5 to v0.6): appendix/quadrant-rename-v06.md
     - AI Framework Summary: ai-framework-summary.md
 
   - Contributing: contributing.md

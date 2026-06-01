@@ -277,7 +277,7 @@ Minimum Possible Score: 13.5
 
 Your [strategic position](../03-positioning/strategic-positions.md) affects criteria weighting:
 
-### Visionaries (Simple + High Readiness)
+### Studio (Simple + High Readiness)
 
 **Adjust weights**:
 - Increase Time to Value weight (rapid iteration preferred)
@@ -288,7 +288,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Leaders (Complex + High Readiness)
+### Lean (Complex + High Readiness)
 
 **Adjust weights**:
 - Increase Adversary Economics weight (sophisticated threat model)
@@ -299,7 +299,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Niche Players (Simple + Lower Readiness)
+### Craft (Simple + Lower Readiness)
 
 **Adjust weights**:
 - Increase Organizational Change sensitivity (limited change capacity)
@@ -310,7 +310,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Challengers (Complex + Lower Readiness)
+### Mass (Complex + Lower Readiness)
 
 **Adjust weights**:
 - Dramatically increase Organizational Change sensitivity (change saturation risk)

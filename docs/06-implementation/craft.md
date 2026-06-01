@@ -1,8 +1,11 @@
-# Implementation Guide: Niche Players
+# Implementation Guide: Craft
+
+!!! note "Craft is a method, not a price tag"
+    **Craft** names a method: non-repeatable hand-work, a snowflake per build. It is not a statement about quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time, which is exactly the low-readiness condition this guide addresses.
 
 ## Position Characteristics
 
-**Niche Players** occupy the Simple + Low Readiness quadrant:
+**Craft** organizations occupy the Simple + Low Readiness quadrant:
 
 - **Simple operational complexity** (typically <50 engineers, single product/service)
 - **Legacy or basic infrastructure** (manual processes, limited automation)
@@ -16,13 +19,13 @@
 
 The most important decision: intentional simplicity or prepare for growth?
 
-**Option A: Intentional Simplicity (Remain Niche Player)**
+**Option A: Intentional Simplicity (Remain Craft)**
 - Small team, focused product, sustainable operations
 - Security through simplicity (small attack surface)
 - Selective modernization only where it reduces operational burden
 - Appropriate for: Lifestyle businesses, internal tools, specialized services
 
-**Option B: Prepare for Growth (Move toward Visionary)**
+**Option B: Prepare for Growth (Move toward Studio)**
 - Anticipate operational growth
 - Invest in infrastructure modernization now
 - Build foundations that will scale
@@ -48,7 +51,7 @@ Your advantage is small scale. Use it.
 
 ### 3. Strategic Modernization Choices
 
-If preparing for growth, modernize strategically to build Visionary foundations.
+If preparing for growth, modernize strategically to build Studio foundations.
 
 **Investment Focus**:
 - Cloud migration (if still on-premises)
@@ -90,7 +93,7 @@ If preparing for growth, modernize strategically to build Visionary foundations.
 
 ## Investment Roadmap
 
-### Path A: Intentional Simplicity (Remain Niche Player)
+### Path A: Intentional Simplicity (Remain Craft)
 
 **Year 1 Focus**:
 - Maintain essential security through managed services (80% effort)
@@ -107,7 +110,7 @@ If preparing for growth, modernize strategically to build Visionary foundations.
 - Low total cost of ownership
 - Sustainable operations at current scale
 
-### Path B: Prepare for Growth (Move toward Visionary)
+### Path B: Prepare for Growth (Move toward Studio)
 
 **Year 1: Infrastructure Modernization** (70% effort on modernization)
 - Cloud migration (if on-premises)
@@ -122,7 +125,7 @@ If preparing for growth, modernize strategically to build Visionary foundations.
 - Monitoring and response capabilities
 
 **Expected Outcomes**:
-- **Visionary quadrant positioning** after 18-24 months
+- **Studio quadrant positioning** after 18-24 months
 - Security embedded in modern infrastructure
 - Ready to scale with business growth
 - Avoided technical debt from premature scaling
@@ -163,7 +166,7 @@ If preparing for growth, modernize strategically to build Visionary foundations.
 **Solution**: Modernize infrastructure foundations first, then add security
 
 ### Resource Exhaustion
-**Risk**: Attempting Visionary/Leaders approaches with Niche Player resources
+**Risk**: Attempting Studio/Lean approaches with Craft resources
 
 **Symptoms**:
 - Security team overwhelmed trying to build platforms
@@ -204,14 +207,14 @@ If preparing for growth, modernize strategically to build Visionary foundations.
 - [ ] **Security embedded in deployment pipeline**
 
 **18-24 Months**:
-- [ ] **Visionary quadrant positioning achieved**
-- [ ] **Security automation at Visionary level** (see Visionaries guide)
+- [ ] **Studio quadrant positioning achieved**
+- [ ] **Security automation at Studio level** (see Studio guide)
 - [ ] **Ready to scale** with business growth
 - [ ] **Technical debt minimal**
 
 ## Movement Paths
 
-### Staying Intentionally Simple (Maintain Niche Player)
+### Staying Intentionally Simple (Maintain Craft)
 This is a valid, sustainable choice for many organizations:
 
 **When Appropriate**:
@@ -228,7 +231,7 @@ This is a valid, sustainable choice for many organizations:
 
 **Timeline**: Ongoing; sustainable at this scale
 
-### Moving to Visionary (Simple + High Readiness)
+### Moving to Studio (Simple + High Readiness)
 Preparing infrastructure for growth:
 
 **Strategy**: Single-axis movement (increase operational readiness)
@@ -249,7 +252,7 @@ Preparing infrastructure for growth:
 - Avoid half-finished modernization
 - Security embedded during modernization (not bolted on after)
 
-### Risk: Accidental Drift to Challenger
+### Risk: Accidental Drift to Mass
 Growing complexity without increasing readiness:
 
 **Warning Signs**:
@@ -275,7 +278,7 @@ Use this to determine your strategic path:
 | Expected team growth? | Stable (<20) | Growing (20-200+) |
 | Funding model? | Sustainable revenue | Venture-funded |
 | Product strategy? | Single focused product | Platform/multiple products |
-| Market position? | Niche/specialized | Expansion/growth |
+| Market position? | Craft/specialized | Expansion/growth |
 | Risk tolerance? | Conservative | Growth-oriented |
 | Infrastructure age? | Legacy OK if working | Must modernize |
 
@@ -283,7 +286,7 @@ Use this to determine your strategic path:
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Challengers Implementation](challengers.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Leaders Implementation](leaders.md){ .md-button }
+[:octicons-arrow-right-24: Continue to Mass Implementation](mass.md){ .md-button .md-button--primary }
+[:octicons-arrow-left-24: Back to Lean Implementation](lean.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/niche-players.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/craft.md){ .md-button }

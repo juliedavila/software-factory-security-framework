@@ -77,13 +77,13 @@ Use these questions to determine your attack landscape maturity:
 
 **High attack landscape maturity accelerates the need for automation regardless of your strategic position:**
 
-**Visionaries**: Implement continuous monitoring and automated security from inception; manual processes won't hold even at small scale
+**Studio**: Implement continuous monitoring and automated security from inception; manual processes won't hold even at small scale
 
-**Leaders**: Advanced threat detection and response automation become critical; scale advantages only work with automation
+**Lean**: Advanced threat detection and response automation become critical; scale advantages only work with automation
 
-**Niche Players**: Must prioritize basic automation earlier than typical roadmap; manual processes create existential risk
+**Craft**: Must prioritize basic automation earlier than typical roadmap; manual processes create existential risk
 
-**Challengers**: Automation becomes urgent even with limited operational readiness; hybrid manual/automated approaches are insufficient
+**Mass**: Automation becomes urgent even with limited operational readiness; hybrid manual/automated approaches are insufficient
 
 ### Investment Priorities
 

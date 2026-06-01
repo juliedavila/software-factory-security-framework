@@ -88,5 +88,5 @@ The health of relationships between security and engineering teams directly affe
 
 You've completed all six contextual modifiers! Return to the overview or continue to Implementation Guides:
 
-[:octicons-arrow-right-24: Continue to Implementation Guides](../06-implementation/visionaries.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Continue to Implementation Guides](../06-implementation/studio.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers Overview](overview.md){ .md-button }
