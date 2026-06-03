@@ -8,7 +8,7 @@ Code review was the security control that assumed a human could read what shippe
 
 ## Why code review doesn't scale to AI velocity
 
-The bandwidth math from [Chapter 02](02-ai-era-threat-surface.md) lands here as direct operational pressure. If generation outruns comprehension at the rate that chapter estimates, then human review is the bottleneck and the gap only widens. You can hire more reviewers and lose anyway, because the generation side scales with compute and the review side scales with headcount. Any control whose throughput is capped by human reading speed is a control that AI velocity has already outrun.
+The bandwidth problem from [Chapter 02](02-ai-era-threat-surface.md) lands here as direct operational pressure. If generation outruns comprehension, as that chapter lays out, then human review is the bottleneck and the gap only widens. You can hire more reviewers and lose anyway, because the generation side scales with compute and the review side scales with headcount. Any control whose throughput is capped by human reading speed is a control that AI velocity has already outrun.
 
 The trap is responding by demanding more review. That makes security the thing standing between the team and shipping, which is the failure mode the rest of this chapter names. The way out is to change what review is for: not gating every change, but designing the boundaries within which any change, reviewed or not, is safe to run.
 

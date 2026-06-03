@@ -58,6 +58,15 @@ SF² is built on prior work. These are the thinkers whose arguments the framewor
 - **Venables, "Turning the Security Flywheel."** <https://www.philvenables.com/post/turning-the-security-flywheel>. Self-reinforcing, industrial-scale program design from a sitting CISO. Venables' artisanal-versus-industrial framing is the direct precursor to SF²'s Scaling Investments thesis.
 - **Sounil Yu, Cyber Defense Matrix and the DIE Triad.** <https://cyberdefensematrix.com/>. DIE (Distributed, Immutable, Ephemeral) is the architectural inverse of CIA, aligned with SF²'s stance of building security in through constraints on the artifact.
 
+### AI-era code generation, comprehension, and review
+
+The comprehension crisis in the [Coadaptive Security layer](../10-coadaptive/02-ai-era-threat-surface.md) rests on a documented direction of travel, not a fixed multiple. These are the sources that establish it.
+
+- **DORA (2024), *Accelerate State of DevOps Report.*** <https://dora.dev/research/2024/dora-report/>. AI adoption is associated with an estimated 7.2% decrease in delivery stability, with larger change sets as the mechanism. Faster generation does not become safer delivery on its own.
+- **GitClear (2025), *AI Copilot Code Quality.*** <https://www.gitclear.com/ai_assistant_code_quality_2025_research>. Analysis of 211 million lines: copy-pasted code rose from 8.3% to 12.3% (2021-2024) while refactored lines fell from 24.1% to 9.5%, a maintainability erosion consistent with generation outrunning comprehension.
+- **DX, "Measuring AI's impact on developer productivity."** <https://getdx.com/blog/ai-measurement-hub/>. Experience-sampling that asks reviewers directly whether AI-generated code was harder to understand; the closest industry instrument for the comprehension gap itself.
+- **Dorner et al. (2025), "Quo Vadis, Code Review?"** arXiv:2508.06879. <https://arxiv.org/abs/2508.06879>. Practitioners expect LLMs as active review participants and name the long-term risk of eroding human understanding, accountability, and trust.
+
 ### Emergent organizational design
 
 - **Komoroske, "Coordination Headwind" and the slime-mold model.** <https://komoroske.com/slime-mold/>. Names the gardening-platforms and Schelling-point moves that make SF² emergent rather than imposed. The direct lineage for any claim that security is an emergent property.
