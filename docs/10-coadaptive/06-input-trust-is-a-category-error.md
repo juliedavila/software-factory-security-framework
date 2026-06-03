@@ -22,8 +22,6 @@ Defensive parsing presumes a grammar to parse against. There is no grammar. The 
 
 If the field can accept that TLS does not prevent denial of service and that signing does not prevent compromise of the signing key, it can accept that LLM input validation does not prevent prompt injection. The category-error label is the load-bearing claim of this chapter.
 
-There is theory behind this, not just field intuition. Wolf and colleagues proved it formally in [*Fundamental Limitations of Alignment in Large Language Models*](https://arxiv.org/abs/2304.11082) (ICML 2024): for any behavior the model exhibits with nonzero probability, there exists a prompt that elicits it, and the probability rises with prompt length. Any alignment that attenuates an undesired behavior without erasing it is reversible by a long-enough adversarial prompt. Prompt-side defense is bounded by a theorem, not by engineering effort.
-
 ## The taxonomy: Bargury, Greshake, Schulhoff
 
 The taxonomy of failure modes is by now well-mapped.
@@ -40,7 +38,7 @@ Read together, they point at one conclusion: prompt injection is a property of t
 
 The doctrinal move is to push the defense into layers where defense is real.
 
-**Substrate (Chapter 04 territory).** Capability containment. The agent should not be able to do what the attacker asks because the agent does not have the capability. Boundary-enforced authority is what mitigates the unsolvable, not better prompts. This is where the research frontier has converged. Google DeepMind and ETH Zürich's [*Defeating Prompt Injections by Design*](https://arxiv.org/abs/2503.18813) (CaMeL, 2025) gives up on hardening the model and wraps it in a system layer that tracks control and data flow and enforces capability-based policies in a custom interpreter, so untrusted tokens cannot steer privileged actions. The title says "by design," and the design lives outside the model. That is the same doctrine this chapter argues, validated by the people trying hardest to solve it the other way.
+**Substrate (Chapter 04 territory).** Capability containment. The agent should not be able to do what the attacker asks because the agent does not have the capability. Boundary-enforced authority is what mitigates the unsolvable, not better prompts. The research frontier has landed in the same place: DeepMind and ETH Zürich's [*Defeating Prompt Injections by Design*](https://arxiv.org/abs/2503.18813) (CaMeL, 2025) gives up on hardening the model and moves the entire defense to a system layer around it. The title says "by design," and the design lives outside the model.
 
 **Dynamic (the interaction-pattern layer).** Provenance and isolation. Know which tokens came from which trust domain; never let untrusted tokens cross into the action-bearing context without an explicit checkpoint. This is engineering, not prompting.
 
