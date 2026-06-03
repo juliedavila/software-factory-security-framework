@@ -127,27 +127,27 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 ---
 
-## Download Complete Framework
+## Download the Framework
 
 <div class="grid cards" markdown>
 
--   :material-file-pdf-box:{ .lg .middle } __Get the Complete PDF Version__
+-   :material-file-pdf-box:{ .lg .middle } __Read SF² offline__
 
     ---
 
-    Access the entire SF² framework as a single document for offline reading, printing, or sharing with your team.
+    Two ways to take the framework with you, depending on what you need.
 
-    **Option 1: Direct PDF Download**
+    **Option 1: Core Framework PDF**
 
-    [:octicons-download-24: Download PDF](https://sf2framework.com/pdf/sf2-framework.pdf){ .md-button .md-button--primary }
+    [:octicons-download-24: Download Core PDF](https://sf2framework.com/pdf/sf2-framework.pdf){ .md-button .md-button--primary }
 
-    Auto-generated with every documentation update
+    A single curated document covering the core argument: Foundation, the Universal Security Conditions, Strategic Positioning, and the Investment Portfolio. Regenerated on every site deploy.
 
-    **Option 2: Browser Print-to-PDF**
+    **Option 2: Complete site as PDF**
 
     [:octicons-arrow-right-24: View Complete Framework](https://sf2framework.com/print_page/){ .md-button }
 
-    Use your browser's **File → Print → Save as PDF** for custom formatting
+    Every page in one view. Use your browser's **File → Print → Save as PDF** for the full framework, including context, implementation guides, the Coadaptive layer, and the appendix.
 
 </div>
 

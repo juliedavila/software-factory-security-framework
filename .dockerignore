@@ -4,6 +4,7 @@
 .git
 site/
 public/
+pdf-build/
 venv/
 .venv/
 env/

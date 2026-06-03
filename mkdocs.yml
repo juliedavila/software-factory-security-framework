@@ -139,20 +139,14 @@ plugins:
       type: date
   - minify:
       minify_html: true
-  - with-pdf:
-      author: Julie Davila
-      copyright: Copyright © 2025 Julie Davila | Licensed under CC BY 4.0
-      cover_title: SF²
-      cover_subtitle: Software Factory Security Framework
-      cover_logo: assets/logo.svg
-      output_path: pdf/sf2-framework.pdf
-      # Gated behind an env var so normal builds (CI deploy, local serve, the
-      # docker harness) skip PDF generation. Cross-page links collapse into the
-      # single combined PDF and weasyprint cannot resolve them, which otherwise
-      # throws and fails the whole strict build. Opt in with:
-      #   ENABLE_PDF_EXPORT=1 mkdocs build
-      # (needs cairo/pango/gdk-pixbuf; the docker harness image already has them).
-      enabled_if_env: ENABLE_PDF_EXPORT
+  # NOTE: the combined-PDF export (with-pdf) lives in a SEPARATE overlay config,
+  # mkdocs.pdf.yml, NOT here. weasyprint cannot resolve cross-page anchors when
+  # the whole site collapses into one PDF, so with-pdf throws hundreds of link
+  # warnings that fail `mkdocs build --strict` (which CI runs on every branch and
+  # the Pages deploy). Keeping it out of the default config lets the strict build
+  # stay green with full link validation intact. The downloadable core PDF is
+  # produced by `mkdocs build -f mkdocs.pdf.yml` (non-strict, scoped to the core
+  # sections). See mkdocs.pdf.yml and the `pdf` CI job.
   - print-site:
       add_to_navigation: true
       print_page_title: 'Complete Framework'

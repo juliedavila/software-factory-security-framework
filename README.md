@@ -86,14 +86,22 @@ mkdocs serve
 ### Build
 
 ```bash
-# Build static site
-mkdocs build
+# Build the static site (strict, with link validation). Output: site/
+mkdocs build --strict
 
-# Output: site/
-
-# Build with PDF export
-ENABLE_PDF_EXPORT=1 mkdocs build
+# Build the downloadable core PDF (separate, non-strict, overlay config).
+# Output: pdf-build/pdf/sf2-framework.pdf
+mkdocs build -f mkdocs.pdf.yml
 ```
+
+The PDF lives in its own config (`mkdocs.pdf.yml`) on purpose. The `with-pdf`
+plugin collapses the whole site into one document, and weasyprint cannot resolve
+cross-page anchors in that combined view — those warnings would fail
+`mkdocs build --strict`, which CI runs on every branch. The overlay builds
+non-strict and is scoped to the core sections (Foundation, Universal Security
+Conditions, Strategic Positioning, Investment Portfolio), so the strict site
+build stays green while the core PDF still ships. CI copies it into
+`site/pdf/sf2-framework.pdf` on deploy.
 
 ### Docker (CI-parity build)
 
@@ -105,14 +113,18 @@ docker compose up serve
 
 # Strict build — fails loudly on any broken link or missing heading anchor
 docker compose run --rm build
+
+# Build the core PDF (pdf-build/pdf/sf2-framework.pdf)
+docker compose run --rm pdf
 ```
 
 Without the Compose plugin, the same thing with plain Docker:
 
 ```bash
 docker build -t sf2-docs .
-docker run --rm -p 8000:8000 -v "$PWD":/docs sf2-docs              # serve
-docker run --rm -v "$PWD":/docs sf2-docs mkdocs build --strict     # validate
+docker run --rm -p 8000:8000 -v "$PWD":/docs sf2-docs                  # serve
+docker run --rm -v "$PWD":/docs sf2-docs mkdocs build --strict         # validate
+docker run --rm -v "$PWD":/docs sf2-docs mkdocs build -f mkdocs.pdf.yml # core PDF
 ```
 
 ---

@@ -1,7 +1,8 @@
-# Local docs harness for SF². Two targets:
+# Local docs harness for SF². Three targets:
 #
 #   docker compose up serve         -> live preview at http://localhost:8000
 #   docker compose run --rm build   -> `mkdocs build --strict` (CI-parity link/anchor validation)
+#   docker compose run --rm pdf     -> core-of-SF² PDF (pdf-build/pdf/sf2-framework.pdf)
 #
 # Mirrors .gitlab-ci.yml (python:3.11 + cairo/pango + requirements.txt), so a
 # clean strict build here matches the pipeline. Without the Compose plugin, see
@@ -22,3 +23,10 @@ services:
     volumes:
       - .:/docs
     command: mkdocs build --strict --verbose
+
+  pdf:
+    build: .
+    image: sf2-docs
+    volumes:
+      - .:/docs
+    command: mkdocs build -f mkdocs.pdf.yml
