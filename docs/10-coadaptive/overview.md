@@ -6,7 +6,7 @@
 
 This layer earns top-level position next to SF², rather than nesting under AI tooling, because what AI changed is not a vendor choice but the operational fabric the whole framework runs on. Filing it under "AI Integration" would treat it as one more tool to configure. It is closer to a shift in the ground. The [five attack surface expansions](02-ai-era-threat-surface.md) and the comprehension crisis are cumulative pressure on every condition the base framework cultivates, and that pressure is what earned a layer of its own.
 
-The name is Coadaptive, not a rebrand of SF². The base framework is correct about software factories and stays exactly as it is. What this layer adds is the part that only shows up when a second intelligence joins the work and the system starts adapting to inputs no one wrote. Coadaptive names that: a system where the human, the agents, and the adversary are all adapting at once, and security has to be a property that adapts with them.
+The name is Coadaptive, not a rebrand of SF². The base framework's account of software factories holds without amendment, and this layer adds only the part that shows up when a second intelligence joins the work and the system starts adapting to inputs no one wrote. Coadaptive names that: a system where the human, the agents, and the adversary are all adapting at once, and security has to be a property that adapts with them.
 
 ## How this layer relates to SF²
 

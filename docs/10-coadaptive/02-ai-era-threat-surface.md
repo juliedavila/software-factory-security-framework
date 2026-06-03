@@ -5,11 +5,11 @@
     **Also flags:** SF² Adaptive Capacity (Section 02): comprehension-crisis addendum lives here in v0.6 (chapter-only per D2).
     **Scope:** the five attack surface expansions and the comprehension crisis.
 
-The AI era did not add five new threats to the board. It multiplied the board. Democratized builders, public APIs, agent access, autonomous reasoning, and LLM workflows each expand the attack surface, and they expand it together, each one widening the blast radius of the others. Underneath all five sits the comprehension crisis: code is now generated faster than any human process can understand it, and a surface you cannot comprehend is a surface you cannot review by the old methods.
+The AI era did not add five new threats to the board so much as multiply the board itself. Democratized builders, public APIs, agent access, autonomous reasoning, and LLM workflows each expand the attack surface, and they expand it together, each one widening the blast radius of the others. Underneath all five sits the comprehension crisis: code is now generated faster than any human process can understand it, and a surface you cannot comprehend is a surface you cannot review by the old methods.
 
 ## The five attack surface expansions
 
-Each expansion is a real shift in what the organization exposes. Named individually so they can be reasoned about, they are not meant to be defended individually, because they do not arrive individually.
+Each expansion is a real shift in what the organization exposes. The five are a way to reason about one surface, not five surfaces to defend in turn, because they do not arrive one at a time.
 
 ### Democratized builders
 
@@ -21,19 +21,19 @@ Every capability exposed as an API is a capability exposed to whatever calls it,
 
 ### Agent access
 
-The moment an agent reads, writes, or acts on a system, the trust boundary moves to wherever the agent reaches. That is almost always somewhere the security team never controlled: a mailbox, a wiki, a shared drive, a vendor's data. Agent access converts every readable surface into a potential injection point and every writable surface into a potential action the attacker gets for free.
+The moment an agent reads, writes, or acts on a system, the trust boundary moves to wherever the agent reaches. That is almost always somewhere the security team never controlled: a mailbox, a wiki, a shared drive, a vendor's data. Agent access converts every readable surface into a potential injection point and every writable surface into a potential action the attacker gets for free. You do not close that by sanitizing input; you close it by bounding what the agent can do regardless of what it reads, which is the substrate answer [Boundary Enforcement](04-boundary-enforcement.md) takes up.
 
 ### Autonomous reasoning
 
-A system that decides its own next step is a system whose behavior is no longer fully enumerable in advance. Autonomous reasoning means the path from input to action is chosen at runtime, under conditions the designer did not specify, which breaks the assumption that you can threat-model a fixed set of flows. The surface is not the code. The surface is the space of decisions the system can reach.
+A system that decides its own next step is a system whose behavior is no longer fully enumerable in advance. Autonomous reasoning means the path from input to action is chosen at runtime, under conditions the designer did not specify, which breaks the assumption that you can threat-model a fixed set of flows. The surface is no longer the code; it is the space of decisions the system can reach.
 
 ### LLM workflows
 
-Chaining models into pipelines compounds every property above. Output from one step becomes instruction for the next, trust domains blur across hops, and a single poisoned input can propagate through a workflow that no one drew on a whiteboard. LLM workflows are where the other four expansions stop being separate concerns and start being one system that fails as a whole.
+Chaining models into pipelines compounds every property above. Output from one step becomes instruction for the next, trust domains blur across hops, and a single poisoned input can propagate through a workflow that no one drew on a whiteboard. LLM workflows are where the other four expansions interlock, the place a weakness in any one of them becomes a weakness in the whole.
 
 ## The comprehension crisis
 
-The expansions would be manageable if comprehension kept pace. It does not. Code is now generated faster than humans can build semantic understanding of it, by something on the order of two and a half to one and widening. The gap is the crisis: an organization that ships software it does not understand cannot tell a vulnerability from a feature, cannot scope a blast radius, and cannot answer the only question that matters in an incident, which is what this system can actually do.
+The expansions would be manageable if comprehension kept pace. It does not. Code is now generated faster than humans can build semantic understanding of it: my own estimate puts the gap near two and a half to one and widening, and the exact multiple matters less than the direction it points. The gap is the crisis: an organization that ships software it does not understand cannot tell a vulnerability from a feature, cannot scope a blast radius, and cannot answer the only question that matters in an incident, which is what this system can actually do.
 
 The strategic claim follows from the gap. The enterprise that maintains semantic comprehension of its software estate holds a structural advantage over the one that does not, because comprehension is what every downstream security decision depends on. This is the AI-era amendment to [Adaptive Capacity](../02-stewardship/adaptive-capacity.md): the condition to cultivate is not faster generation, it is sustained understanding of what was generated.
 

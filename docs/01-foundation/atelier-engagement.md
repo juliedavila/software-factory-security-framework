@@ -23,11 +23,11 @@ The factory framing survives the critique because it answers a different questio
 
 The term is also not a coinage invented to make this argument, and not a jab at Palantir. It is industrial-lineage vocabulary with a fifty-year paper trail.
 
-### Term provenance (D4 §Claim 4)
+### Term provenance
 
 The history predates the current debate by decades:
 
-- **Bob Bemer, 1968**: first published use of the "software factory" framing.
+- **Bob Bemer, 1968**: the GE paper often credited as the earliest "software factory" proposal.
 - **Cusumano, Michael, 1991**: *Japan's Software Factories: A Challenge to U.S. Management.* Oxford University Press.
 - **Greenfield, Jack and Keith Short, 2004**: *Software Factories: Assembling Applications with Patterns, Models, Frameworks, and Tools.* Wiley.
 - **U.S. Department of Defense**: 20+ accredited Software Factories operating today (Platform One, Kessel Run, Kobayashi Maru, Black Pearl, others).
