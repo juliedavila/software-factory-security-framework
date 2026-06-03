@@ -33,9 +33,19 @@ Chaining models into pipelines compounds every property above. Output from one s
 
 ## The comprehension crisis
 
-The expansions would be manageable if comprehension kept pace. It does not. Code is now generated faster than humans can build semantic understanding of it, and the gap is widening. The exact multiple is less important than the direction, and the direction is documented: [DORA's 2024 research](https://dora.dev/research/2024/dora-report/) ties AI adoption to a measurable drop in delivery stability, driven by larger change sets, and [GitClear's analysis](https://www.gitclear.com/ai_assistant_code_quality_2025_research) of 211 million lines finds copy-pasted code rising and refactoring falling as assistants take over more of the authorship. The gap is the crisis: an organization that ships software it does not understand cannot tell a vulnerability from a feature, cannot scope a blast radius, and cannot answer the only question that matters in an incident, which is what this system can actually do.
+The expansions would be manageable if comprehension kept pace. It does not. Code is now generated faster than humans can build semantic understanding of it, and the gap is widening. The exact multiple is less important than the direction, and the direction is documented: [DORA's 2025 research](https://dora.dev/research/2025/dora-report/) finds AI adoption still pulling against delivery stability even as it lifts throughput, and frames AI as an amplifier of whatever discipline an organization already has. [GitClear's analysis](https://www.gitclear.com/ai_assistant_code_quality_2025_research) of 211 million lines finds copy-pasted code rising and refactoring falling as assistants take over more of the authorship. Addy Osmani has named the local form of this as [comprehension debt](https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/), the growing gap between how much code exists and how much anyone still understands it. The crisis is the systemic condition; the debt is how it accrues in a single codebase, and its tell is false confidence rather than the mounting friction technical debt announces. The gap is the crisis: an organization that ships software it does not understand cannot tell a vulnerability from a feature, cannot scope a blast radius, and cannot answer the only question that matters in an incident, which is what this system can actually do.
 
 The strategic claim follows from the gap. The enterprise that maintains semantic comprehension of its software estate holds a structural advantage over the one that does not, because comprehension is what every downstream security decision depends on. This is the AI-era amendment to [Adaptive Capacity](../02-stewardship/adaptive-capacity.md): the condition to cultivate is not faster generation, it is sustained understanding of what was generated.
+
+You can see the gap in your own estate before you can measure it. The same signals that show up in the aggregate show up in your own delivery telemetry: review times stretching as change sets grow, more changes merging with no real review, reverts and reworks climbing in the weeks after a feature ships. None of these is a comprehension score, and you should distrust anyone who sells you one. They are weather, not a gauge.
+
+What a leader can ask instead is whether the gap is widening:
+
+- Is the share of your estate that someone on your team can actually explain growing or shrinking as you ship faster?
+- When your engineers accept generated code, do you know whether they verified it or waved it through?
+- In your last incident, did someone already know what the affected system could do, or did you have to read the code to find out?
+
+None of these has a number, and none of them lets you rank yourself against another company. That is the point. They are answerable only about yourself, and only directionally.
 
 ## Why this is combinatorial, not additive
 

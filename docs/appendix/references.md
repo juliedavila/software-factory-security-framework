@@ -46,6 +46,7 @@ SF² is built on prior work. These are the thinkers whose arguments the framewor
 - **[Hollnagel, Leonhardt, Shorrock & Licu (2013), *From Safety-I to Safety-II: A White Paper.*](https://www.skybrary.aero/sites/default/files/bookshelf/2437.pdf)** EUROCONTROL. Reframes safety from the absence of failure to the presence of adaptive capacity. This is the resilience-engineering anchor for SF²'s operational readiness axis.
 - **[Woods (2018), "Resilience as Graceful Extensibility to Overcome Brittleness."](https://irgc.org/wp-content/uploads/2018/09/Woods-Resilience-as-Graceful-Extensibility-to-Overcome-Brittleness-1.pdf)** IRGC. Precise vocabulary for what software factories need at brittle boundaries.
 - **[Cook (2000), "How Complex Systems Fail."](https://how.complexsystems.fail/)** An 18-point distillation of why complex systems break and keep running anyway. Pairs cleanly with Hollnagel and Woods.
+- **[Parasuraman & Manzey (2010), "Complacency and Bias in Human Use of Automation."](https://doi.org/10.1177/0018720810376055)** *Human Factors* 52(3):381-410. The canonical account of automation complacency: under task load, attention drifts from automated output, and the effect shows up in experts as much as novices. The mechanism beneath the comprehension crisis, and the reason adaptive capacity depends on humans who still verify what the machine produced.
 
 ### Economic reasoning in security
 
@@ -62,10 +63,12 @@ SF² is built on prior work. These are the thinkers whose arguments the framewor
 
 The comprehension crisis in the [Coadaptive Security layer](../10-coadaptive/02-ai-era-threat-surface.md) rests on a documented direction of travel, not a fixed multiple. These are the sources that establish it.
 
-- **[DORA (2024), *Accelerate State of DevOps Report.*](https://dora.dev/research/2024/dora-report/)** AI adoption is associated with an estimated 7.2% decrease in delivery stability, with larger change sets as the mechanism. Faster generation does not become safer delivery on its own.
+- **[DORA (2025), *State of AI-assisted Software Development.*](https://dora.dev/research/2025/dora-report/)** AI adoption now shows a positive relationship with delivery throughput but continues to show a negative relationship with delivery stability, and 30% of respondents report little or no trust in AI-generated code. The report's frame is that AI is an amplifier, magnifying an organization's existing strengths and weaknesses rather than fixing them.
 - **[GitClear (2025), *AI Copilot Code Quality.*](https://www.gitclear.com/ai_assistant_code_quality_2025_research)** Analysis of 211 million lines: copy-pasted code rose from 8.3% to 12.3% (2021-2024) while refactored lines fell from 24.1% to 9.5%, a maintainability erosion consistent with generation outrunning comprehension.
 - **[DX, "Measuring AI's impact on developer productivity."](https://getdx.com/blog/ai-measurement-hub/)** Experience-sampling that asks reviewers directly whether AI-generated code was harder to understand; the closest industry instrument for the comprehension gap itself.
+- **[Osmani (2026), "Comprehension Debt: The Hidden Cost of AI-Generated Code."](https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/)** O'Reilly Radar. Names the per-codebase accrual of the comprehension crisis: the growing gap between how much code exists and how much any human genuinely understands. Distinct from technical debt because it breeds false confidence rather than the mounting friction of slow builds and tangled dependencies.
 - **[Dorner et al. (2025), "Quo Vadis, Code Review?" (arXiv:2508.06879)](https://arxiv.org/abs/2508.06879)** Practitioners expect LLMs as active review participants and name the long-term risk of eroding human understanding, accountability, and trust.
+- **[Tilbury & Flowerday (2026), "The Vigilance Paradox: Automation Reliance Inside the Modern SOC."](https://doi.org/10.1108/ics-08-2025-0318)** *Information & Computer Security.* A survey of 696 security analysts plus 29 interviews finds that automation complacency reduces monitoring of automated output and that systematic verification procedures are what mitigate it. The security-domain evidence that the comprehension gap is closed by verifying, not consuming.
 
 ### Emergent organizational design
 
