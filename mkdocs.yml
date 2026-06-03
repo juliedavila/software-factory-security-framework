@@ -7,6 +7,12 @@ repo_name: software-factory-security-framework
 repo_url: https://gitlab.com/juliedavila/software-factory-security-framework
 edit_uri: -/edit/master/docs/
 
+# Pages intentionally outside the nav (special 404 page + assets readme).
+# Keeps `mkdocs build --strict` from flagging them as orphaned.
+not_in_nav: |
+  /404.md
+  /assets/README.md
+
 theme:
   name: material
   language: en
@@ -140,8 +146,13 @@ plugins:
       cover_subtitle: Software Factory Security Framework
       cover_logo: assets/logo.svg
       output_path: pdf/sf2-framework.pdf
-      # NOTE: PDF generation requires system dependencies installed in CI (already configured)
-      # For local development: brew install cairo pango gdk-pixbuf libffi
+      # Gated behind an env var so normal builds (CI deploy, local serve, the
+      # docker harness) skip PDF generation. Cross-page links collapse into the
+      # single combined PDF and weasyprint cannot resolve them, which otherwise
+      # throws and fails the whole strict build. Opt in with:
+      #   ENABLE_PDF_EXPORT=1 mkdocs build
+      # (needs cairo/pango/gdk-pixbuf; the docker harness image already has them).
+      enabled_if_env: ENABLE_PDF_EXPORT
   - print-site:
       add_to_navigation: true
       print_page_title: 'Complete Framework'

@@ -95,6 +95,26 @@ mkdocs build
 ENABLE_PDF_EXPORT=1 mkdocs build
 ```
 
+### Docker (CI-parity build)
+
+No local Python needed. This mirrors the GitLab CI environment exactly (`python:3.11` + cairo/pango + `requirements.txt`), so a clean `--strict` build here matches what the pipeline does, including broken-link and missing-anchor detection.
+
+```bash
+# Live preview with hot reload at http://localhost:8000
+docker compose up serve
+
+# Strict build — fails loudly on any broken link or missing heading anchor
+docker compose run --rm build
+```
+
+Without the Compose plugin, the same thing with plain Docker:
+
+```bash
+docker build -t sf2-docs .
+docker run --rm -p 8000:8000 -v "$PWD":/docs sf2-docs              # serve
+docker run --rm -v "$PWD":/docs sf2-docs mkdocs build --strict     # validate
+```
+
 ---
 
 ## 🤝 Contributing

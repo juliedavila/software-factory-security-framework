@@ -1,0 +1,14 @@
+# Keep the build context small. The image only needs requirements.txt at build
+# time; the repo (including .git, which git-revision-date-localized reads) is
+# bind-mounted at run time, not baked into the image.
+.git
+site/
+public/
+venv/
+.venv/
+env/
+__pycache__/
+.cache/
+*.swp
+*.swo
+.DS_Store
