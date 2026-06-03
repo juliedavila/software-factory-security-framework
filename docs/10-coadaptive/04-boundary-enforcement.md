@@ -4,7 +4,7 @@
     **This chapter extends:** SF² Process Stewardship (Section 02), SF² Implementation Guides (Section 06).
     **Scope:** capability-based security as the substrate-layer answer when code review doesn't scale.
 
-Code review was the security control that assumed a human could read what shipped. That assumption is gone. When generation outruns comprehension, inspecting the code more carefully is a losing race against a faster machine. The architectural answer is to stop relying on inspection and start relying on boundaries: capability-based security enforced by infrastructure, so the question is not whether someone read the change but whether the system was ever able to do the dangerous thing in the first place. This is the move away from meat-gated security and toward paved roads.
+Code review was the security control that assumed a human could read what shipped. That assumption is gone. When generation outruns comprehension, inspecting the code more carefully is a losing race against a faster machine. The architectural response is to stop relying on inspection and start relying on boundaries: capability-based security enforced by infrastructure, so the question is not whether someone read the change but whether the system was ever able to do the dangerous thing in the first place. This is the move away from meat-gated security and toward paved roads.
 
 ## Why code review doesn't scale to AI velocity
 
@@ -27,6 +27,8 @@ The answer is to separate what an agent could do from what any single request is
 Meat-gated security is any control that depends on a human standing in the path of the work. A person approves the deploy, signs off on the access, eyeballs the diff. At human authorship speed, that was tolerable. At agent scale it becomes the bottleneck the system was supposed to remove, and worse, a bottleneck that quietly rubber-stamps because the human cannot actually evaluate the volume flowing past them. A queue that approves everything because it has no time to reject anything is not a control; it is theater with a person in it.
 
 Paved roads are the affirmative pattern. Build the safe path so it is also the easy path, enforce the boundaries in the infrastructure that path runs on, and let builders move at speed inside it without a human gate on every step. Reserve human authority for the narrow set of actions whose downside is catastrophic, where the judgment is worth the latency. The goal is not to remove humans from security; it is to spend their attention where it changes the outcome, and to let the boundary hold everywhere else.
+
+One caution closes the case. Boundaries are not the whole of security, and they do not retire monitoring, detection, or response. For a broad agent, the dynamic layer above the boundary still does real work. The boundary is the irreplaceable floor: the layer the others cannot substitute for once you assume the agent is compromised. Detection can miss and a reviewer can wave a change through, but a capability the system never granted is one the agent cannot spend. That claim is narrower than "boundaries are the answer," and far harder to argue away.
 
 ## See also
 
