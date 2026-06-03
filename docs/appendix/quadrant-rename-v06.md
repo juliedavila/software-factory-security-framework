@@ -1,6 +1,6 @@
-# Quadrant Rename (v0.5 → v0.6)
+# v0.5 → v0.6 Migration
 
-In v0.6, the four strategic positions were renamed. This page is the single source of truth for the crosswalk and the reasoning, so that anyone citing the v0.5 names can find their v0.6 equivalents.
+v0.6 changed two sets of names that v0.5 readers may have cited: the four strategic positions and the Section 02 stewardship areas. This page is the single source of truth for both. The strategic-position crosswalk and its reasoning come first; the Section 02 conditions crosswalk is at the end.
 
 ## The crosswalk
 
@@ -41,3 +41,19 @@ The vertical axis (Operational Readiness) is the **lean transformation**. Moving
 ## Citing the old names
 
 If you are referencing material that used the v0.5 names, the table above is the mapping. The framework's substance (the two axes, the four positions, the movement paths) did not change. Only the labels did.
+
+## Section 02: stewardship areas became security conditions
+
+In v0.5, Section 02 was titled *Universal Risk Stewardship Responsibilities*: five areas you steward. v0.6 reframes them as conditions you cultivate, splits the old Supply Chain area along the embedded/delegated line, and recasts Continuous Learning as the cross-cutting Adaptive Capacity condition.
+
+| v0.5 (areas you steward) | v0.6 (conditions you cultivate) |
+|--------------------------|---------------------------------|
+| Supply Chain Stewardship | Supply Chain (#1), embedded code, comprehension lever |
+| Third-Party Stewardship | Third-Party, delegated functions, containment lever |
+| Process Stewardship | Process, security produced by the build |
+| Runtime Stewardship | Runtime, sense and respond |
+| Continuous Learning | Adaptive Capacity, the cross-cutting resilience of the whole |
+
+The URL path stays `02-stewardship/` for stability, so existing links keep working. The one file that moved is `continuous-learning.md`, now `adaptive-capacity.md`.
+
+The deeper change is register, not labels. v0.5 framed these as responsibilities you own and steward, scored on a maturity chart. v0.6 frames them as living conditions with no passing grade, cultivated and assessed rather than owned and managed. The [Universal Security Conditions overview](../02-stewardship/overview.md) explains why that distinction carries weight.

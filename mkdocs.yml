@@ -53,13 +53,13 @@ nav:
     - Software Factory Definition: 01-foundation/software-factory-definition.md
     - "Engaging the Atelier Critique": 01-foundation/atelier-engagement.md
 
-  - Universal Stewardship:
+  - Universal Security Conditions:
     - Overview: 02-stewardship/overview.md
-    - "Supply Chain (Priority #1)": 02-stewardship/supply-chain.md
-    - Process Stewardship: 02-stewardship/process.md
-    - Runtime Stewardship: 02-stewardship/runtime.md
-    - Third-Party Stewardship: 02-stewardship/third-party.md
-    - Continuous Learning: 02-stewardship/continuous-learning.md
+    - "Supply Chain (#1)": 02-stewardship/supply-chain.md
+    - Third-Party: 02-stewardship/third-party.md
+    - Process: 02-stewardship/process.md
+    - Runtime: 02-stewardship/runtime.md
+    - Adaptive Capacity: 02-stewardship/adaptive-capacity.md
 
   - Strategic Positioning:
     - Two-Axis Model: 03-positioning/two-axis-model.md

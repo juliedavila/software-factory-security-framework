@@ -41,6 +41,7 @@ SF² is built on prior work. These are the thinkers whose arguments the framewor
 
 ### Resilience and adaptive capacity
 
+- **Holling (1973), "Resilience and Stability of Ecological Systems."** *Annual Review of Ecology and Systematics* 4:1-23. <https://doi.org/10.1146/annurev.es.04.110173.000245>. The origin of resilience as a property distinct from stability: a system's capacity to absorb disturbance and reorganize while keeping its essential function, rather than its tendency to return to a prior equilibrium. SF²'s Adaptive Capacity condition descends from this idea, carried into engineered systems by the resilience-engineering work below.
 - **Hollnagel, Leonhardt, Shorrock & Licu (2013), *From Safety-I to Safety-II: A White Paper.*** EUROCONTROL. <https://www.skybrary.aero/sites/default/files/bookshelf/2437.pdf>. Reframes safety from the absence of failure to the presence of adaptive capacity. This is the resilience-engineering anchor for SF²'s operational readiness axis.
 - **Woods (2018), "Resilience as Graceful Extensibility to Overcome Brittleness."** IRGC. <https://irgc.org/wp-content/uploads/2018/09/Woods-Resilience-as-Graceful-Extensibility-to-Overcome-Brittleness-1.pdf>. Precise vocabulary for what software factories need at brittle boundaries.
 - **Cook (2000), "How Complex Systems Fail."** <https://how.complexsystems.fail/>. An 18-point distillation of why complex systems break and keep running anyway. Pairs cleanly with Hollnagel and Woods.

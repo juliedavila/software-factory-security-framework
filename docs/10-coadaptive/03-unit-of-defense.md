@@ -22,4 +22,4 @@
 
 - [The AI-Era Threat Surface](02-ai-era-threat-surface.md) — what this unit defends against
 - [Boundary Enforcement](04-boundary-enforcement.md) — substrate-level support for paired-intelligence operation
-- [SF² Continuous Learning](../02-stewardship/continuous-learning.md) — base framework chapter being extended
+- [SF² Adaptive Capacity](../02-stewardship/adaptive-capacity.md) — base framework chapter being extended
