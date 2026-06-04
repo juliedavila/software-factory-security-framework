@@ -102,6 +102,11 @@ The comprehension a software factory needs is not knowledge held in any one pers
 - **[Baumeister (2004), "Combining Formal Specifications with Test Driven Development."](https://doi.org/10.1007/978-3-540-27777-4_1)** Tests describe behavior only by example, so a suite of passing assertions underdetermines what the system was meant to do. The classic statement of why example-based tests are insufficient as a specification of intent.
 - **[Park & Maurer (2009), "Communicating Domain Knowledge in Executable Acceptance Test Driven Development."](https://doi.org/10.1007/978-3-642-01853-4_5)** Executable acceptance tests as a living, queryable specification of behavior rather than a static document. Grounds the "current map you can question" form of the comprehension model.
 
+### Agent and MCP supply chain
+
+- **[OWASP MCP Security Cheat Sheet.](https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html)** Treats untrusted or compromised MCP server packages as a supply-chain attack, and names tool poisoning (malicious instructions hidden in tool descriptions, parameter schemas, or return values), rug pulls (a server changing its tool definitions after approval), and tool shadowing. Its core defense is the inventory-and-pin discipline the rest of the supply chain already needs: pin tool definitions by cryptographic hash and alert on any change.
+- **[The Hacker News (2025), "First Malicious MCP Server Found Stealing Emails in Rogue Postmark-MCP Package."](https://thehackernews.com/2025/09/first-malicious-mcp-server-found.html)** The first malicious MCP server found in the wild, identified by Koi Security: an npm package, postmark-mcp, that silently BCC'd every outgoing email to an attacker-controlled address across more than 1,600 installs before it was pulled. The in-the-wild proof that an agent's toolchain is a supply-chain target, not a hypothetical one.
+
 ### Emergent organizational design
 
 - **[Komoroske, "Coordination Headwind" and the slime-mold model.](https://komoroske.com/slime-mold/)** Names the gardening-platforms and Schelling-point moves that make SF² emergent rather than imposed. The direct lineage for any claim that security is an emergent property.
