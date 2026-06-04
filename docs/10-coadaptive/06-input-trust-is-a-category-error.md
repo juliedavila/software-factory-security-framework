@@ -34,7 +34,11 @@ The taxonomy of failure modes is by now well-mapped.
 
 Read together, they point at one conclusion: prompt injection is a property of the substrate, not a bug you patch. The defenders who get this earliest stop investing in prompt-side hardening and start investing in capability containment.
 
+Full citations for this chapter are in the [references](../appendix/references.md#prompt-injection-and-input-trust).
+
 ## Mitigate, don't solve
+
+Keep two things apart here. The diagnosis is settled: prompt injection is unsolvable, and no deployment changes that. The prescription is where judgment enters, because how you contain the unsolvable depends on what the agent is for.
 
 The doctrinal move is to push the defense into layers where defense is real.
 
@@ -43,6 +47,10 @@ The doctrinal move is to push the defense into layers where defense is real.
 **Dynamic (the interaction-pattern layer).** Provenance and isolation. Know which tokens came from which trust domain; never let untrusted tokens cross into the action-bearing context without an explicit checkpoint. This is engineering, not prompting.
 
 **Unit (Chapter 03 territory).** Human in the loop at the stakes that earn it. Not the default, not the bottleneck the paved road was supposed to eliminate, but a deliberate, narrow point of human authority for actions whose downside is catastrophic.
+
+These three are a coverage map, not a priority ladder. Which one carries the weight depends on how broad the agent is. Take a deployment agent whose only capabilities are to merge an approved change and trigger a build: bound it that tightly and an injected instruction to exfiltrate the customer database has nothing to reach, because that power was never granted. The substrate contains it almost completely. Now take an inbox assistant of the kind [EchoLeak](https://nvd.nist.gov/vuln/detail/CVE-2025-32711) turned against its own user, reading across your mail and documents and acting on what it finds. Its reach is the product; narrow it to the point of safety and you have removed the assistant. For an agent like that, capability limits run out early, and the dynamic layer has to carry the rest.
+
+Carrying the rest is concrete work, not a hope. It means tagging the email's content as untrusted the moment the assistant reads it, then refusing to let that content drive an outbound action without a checkpoint at the trust boundary. EchoLeak worked because untrusted email text was allowed to steer data back out unchecked; provenance marks the origin and blocks that crossing, which the model on its own cannot see. Research has already built this. CaMeL tracks where each value came from in a layer around the model, and blocks the action the model would otherwise take. Substrate first holds for the core you can bound; for agents you cannot bound that tightly, it is substrate as far as it reaches, then provenance for the rest.
 
 This is where the boring seams show up. In any complex system, the failures that do the most damage tend to hide in the unglamorous joints between components rather than inside the components everyone is watching, and prompt injection follows the pattern. The failures that matter are the quiet ones at the boundary between trust domains: the place where the agent's reading surface meets the user's request, where a shared document carries something it was not supposed to carry, where the MCP server forwards what it shouldn't. Glamorous prompts do not break systems. Trust-domain seams do.
 
