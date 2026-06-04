@@ -8,6 +8,8 @@ In 1973 the ecologist C.S. Holling drew a line between two things people had bee
 
 Security works the same way. A field of practice grew up carrying Holling's insight out of ecosystems and into engineered ones: Erik Hollnagel reframed safety as the presence of adaptive capacity rather than the absence of failure, David Woods described resilience as graceful extensibility at the brittle edges of a system, Richard Cook catalogued how complex systems fail and keep running anyway, and Kelly Shortridge made the case for treating security as ecology rather than enforcement. The full citations are in the [references](../appendix/references.md#resilience-and-adaptive-capacity). The throughline is one claim: a system you certify once and trust to hold is already falling behind, because the things trying to break it keep changing while it stands still.
 
+That throughline is a bet, and it is worth saying what would make it wrong. Adaptive Capacity earns its place only in a world where the threats keep moving. If the landscape ever froze, a system you certified once would hold, and this whole condition would be dead weight. The wager SF² makes is that it does not freeze: adversaries pick up the same automation defenders do, and the pace of change is itself the thing being defended against. Treat that as the assumption to check, not a law of nature.
+
 ## What it looks like, present and absent
 
 You cannot install Adaptive Capacity, but you can see it. It shows up as a blameless post-incident review that actually changes something, not as a document filed and forgotten. It shows up as feedback loops that shorten over time, and as the organization sensing a shift in the threat landscape and adjusting before it gets hit rather than after. It is the difference between learning from an incident and merely surviving it.
@@ -21,6 +23,8 @@ Adaptive Capacity is how all four of the other conditions improve at all. It is 
 ## The seam to the Coadaptive layer
 
 This is where the base framework meets the [Coadaptive Security layer](../10-coadaptive/overview.md). The contest between a system that keeps changing and adversaries who keep changing in response is the same predator-and-prey pressure that runs through any living system, and it sharpens once the system includes AI that writes, decides, and acts. Adaptive Capacity is the condition that carries the base framework up into that layer. It is the reason SF² treats security as something a system keeps doing rather than a state a system reaches.
+
+This chapter says security is never finished. The Coadaptive layer says something that sounds like the opposite: you can prove a hard limit on what one component is allowed to do, and that limit holds without tending. Both are true, because they describe different things. You can prove a part. You cannot finish the whole. A single component has a fixed job, so you can bound it and trust the bound. The system those components add up to keeps meeting new surprises, and they land at the seams between the parts, where no single proof reaches. So you prove each piece and you tend the system. Neither move does the other's job.
 
 ---
 
