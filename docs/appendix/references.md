@@ -51,6 +51,16 @@ The 2025-2026 agentic-security literature carries the two anchors above, least p
 - **[Zhu et al. (2025), "MiniScope: A Least Privilege Framework for Authorizing Tool Calling Agents" (arXiv:2512.11147).](https://arxiv.org/abs/2512.11147)** Automatically reconstructed least-privilege permissions that confine damage from unreliable models at low overhead. Capability-preserving by construction.
 - **[Betser et al. (2026), "AgenTRIM: Tool Risk Mitigation for Agentic AI" (arXiv:2601.12449).](https://arxiv.org/abs/2601.12449)** Per-step least-privilege enforcement that preserves capability while bounding it. The useful-and-bounded claim, evaluated on AgentDojo.
 
+### Prompt injection and input trust
+
+The prompt-injection literature this chapter draws on, from the naming of the category through the first production exploit to the system-layer defenses that answer it.
+
+- **[Greshake et al. (2023), "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection."](https://arxiv.org/abs/2302.12173)** Named indirect prompt injection as a category. The operational lesson: anything the agent reads is part of the agent's attack surface.
+- **[Bargury (2024), "Living off Microsoft Copilot."](https://i.blackhat.com/BH-US-24/Presentations/US24-MichaelBargury-LivingoffMicrosofCopilot.pdf)** Black Hat USA 2024. Indirect prompt injection that turns Copilot against its own user through content the agent reads automatically; "remote copilot execution." The trust boundary moves to wherever the agent reads.
+- **[Aim Labs (2025), "EchoLeak" (CVE-2025-32711).](https://nvd.nist.gov/vuln/detail/CVE-2025-32711)** The first zero-click prompt-injection exploit in a production LLM system: a single crafted email achieved remote, unauthenticated data exfiltration from Microsoft 365 Copilot. Technical analysis: [arXiv:2509.10540](https://arxiv.org/abs/2509.10540).
+- **[Schulhoff et al. (2023), "Ignore This Title and HackAPrompt."](https://aclanthology.org/2023.emnlp-main.302/)** EMNLP 2023. The first community-scale prompt-injection taxonomy: roughly 3,000 participants, some 600,000 adversarial prompts. Defense in the prompt does not generalize; defense at the boundary does.
+- **[Google DeepMind & ETH Zürich (2025), "Defeating Prompt Injections by Design" (CaMeL).](https://arxiv.org/abs/2503.18813)** Gives up on hardening the model and moves the defense to a system layer around it: track where each value came from and block the disallowed flow. The research instance of substrate-plus-provenance containment.
+
 ### Resilience and adaptive capacity
 
 - **[Holling (1973), "Resilience and Stability of Ecological Systems."](https://doi.org/10.1146/annurev.es.04.110173.000245)** *Annual Review of Ecology and Systematics* 4:1-23. The origin of resilience as a property distinct from stability: a system's capacity to absorb disturbance and reorganize while keeping its essential function, rather than its tendency to return to a prior equilibrium. SF²'s Adaptive Capacity condition descends from this idea, carried into engineered systems by the resilience-engineering work below.
