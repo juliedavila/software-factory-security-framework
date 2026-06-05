@@ -214,13 +214,13 @@ Use these questions to determine your organization's position:
 
 ## Why This Matters for Security
 
-Your strategic position determines:
+Position is a sequencing and funding diagnostic, not an architecture one. It does not decide whether you adopt the containment floor; every quadrant owes the same one. It decides how fast you reach it and what you fund first. Within that, your position determines:
 
-1. **Resource Allocation**: What security investments make sense
-2. **Implementation Approach**: How to roll out security capabilities
-3. **Timeline Expectations**: How fast you can transform
-4. **Tool Selection**: Which security tools fit your operational reality
-5. **Success Metrics**: What good looks like for your organization
+1. **Funding order**: Which security investments to make first, and which to defer
+2. **Rollout pace**: How fast you can stand up capabilities without outrunning the organization
+3. **Timeline expectations**: How long transformation realistically takes
+4. **Mechanism fit**: Which implementation meets the containment floor at your scale
+5. **Success metrics**: What good looks like at your stage
 
 !!! warning "Common Mistake"
     Implementing Lean-level security programs in a Mass or Craft organization often leads to:
@@ -248,7 +248,7 @@ Most organizations benefit from moving toward the Lean position, but the path de
 
 ## Using Position to Guide Security Strategy
 
-Your position determines specific security implementation approaches:
+The lists below are not four security architectures. They are four sequences toward the same containment, each with tooling fit to its scale. Every quadrant owes deny-by-default limits on the authority review cannot police at scale; what changes below is the order of investment and the tooling that fits the operational reality. Read each list as "what to fund first at your scale," not "what security to have."
 
 **For Studio**:
 - Use cloud-native security services

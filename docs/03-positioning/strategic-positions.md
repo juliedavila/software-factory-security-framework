@@ -2,9 +2,9 @@
 
 ## Understanding Where You Are Determines What You Should Do
 
-The [two-axis positioning model](two-axis-model.md) creates four distinct strategic positions. Each position faces different security challenges and requires fundamentally different approaches to scaling security capabilities.
+The [two-axis positioning model](two-axis-model.md) creates four distinct strategic positions. Each position faces different security challenges and requires different sequencing and pace to scale security capabilities. What it does not change is what the program must ultimately contain.
 
-**Critical Insight**: There is no single "best" security approach. The optimal strategy depends entirely on your organizational positioning. A Studio organization that implements security like Lean will create unnecessary complexity. A Mass organization that tries to operate like Studio will fail to address operational realities.
+**Critical Insight**: Your position changes almost everything about your security program. It does not change what the program is for. Every quadrant owes the same containment: deny-by-default limits on the authority that code review and human comprehension were never able to police at the scale enterprises already run. That containment is the [floor](../10-coadaptive/04-boundary-enforcement.md). How you enforce it fits your scale: a small shop on a single workload contains it with host isolation and tight access scoping; a large mesh contains it with workload identity. Same floor, mechanism fit to scale. What your position decides is how fast you reach that containment, what you fund first, and what pace the rest of the program can sustain. A Studio organization that funds security like a Lean enterprise creates coordination overhead it does not need; a Mass organization that promises Studio timelines will miss them.
 
 ---
 
