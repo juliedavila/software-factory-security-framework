@@ -86,7 +86,7 @@ The health of relationships between security and engineering teams directly affe
 
 ## Next Steps
 
-You've completed all six contextual modifiers! Return to the overview or continue to Implementation Guides:
+Six modifiers down, one to go. Continue to AI Saturation, the seventh and newest:
 
-[:octicons-arrow-right-24: Continue to Implementation Guides](../06-implementation/studio.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Continue to AI Saturation](ai-saturation.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers Overview](overview.md){ .md-button }

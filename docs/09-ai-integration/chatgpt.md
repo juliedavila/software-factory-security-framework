@@ -37,7 +37,7 @@ The SF² framework helps security leaders scale security capabilities while impr
 - Four quadrant strategic positions (Visionaries, Leaders, Niche Players, Challengers)
 - Universal stewardship areas with Supply Chain as #1 priority
 - Investment portfolio framework (BAU to constrain, Scaling investments to build)
-- Six contextual modifiers affecting implementation
+- Seven contextual modifiers affecting implementation
 
 ## Your Role
 Help security leaders:

@@ -49,7 +49,7 @@ Systematic method for balancing security investments:
 
 ### Contextual Adaptation Guide
 
-Six modifiers that influence your implementation approach:
+Seven modifiers that influence your implementation approach:
 
 1. Attack Landscape Maturity
 2. Supply Chain Complexity
@@ -57,6 +57,7 @@ Six modifiers that influence your implementation approach:
 4. Crisis Events
 5. Change Capacity
 6. Relationship Health
+7. AI Saturation
 
 [:octicons-arrow-right-24: Understand your context](05-context/overview.md)
 

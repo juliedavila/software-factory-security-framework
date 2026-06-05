@@ -2,12 +2,16 @@
 
 ## Adapting Your Strategy to Organizational Reality
 
-While the core framework applies universally, **six contextual factors** significantly modify your implementation approach. Understanding these modifiers helps you adapt the framework to your specific organizational constraints and opportunities.
+The core framework applies universally, but organizational reality bends how you implement it. **Contextual modifiers** are the factors that do the bending: the reasons two organizations in the same strategic position need different implementation approaches.
+
+The method for working with modifiers is permanent: assess each one's impact, read how they compound or offset, adjust your sequence. The set of modifiers is not fixed. Seven factors earn a place today. If your organization faces a contextual reality these seven miss, the method is built to absorb it: apply the same logic and add it.
 
 !!! tip "Context Matters"
     Two organizations in the same strategic position (e.g., both in the Mass quadrant) may need different implementation approaches based on their contextual modifiers. These factors help you customize the universal framework to your reality.
 
-## The Six Contextual Modifiers
+## The Seven Modifiers (Current Set)
+
+These seven meet the test below and weigh most on a software factory's security strategy right now. The set can grow as organizational reality changes.
 
 | Modifier | Impact on Implementation | Assessment Questions |
 |----------|------------------------|---------------------|
@@ -17,6 +21,7 @@ While the core framework applies universally, **six contextual factors** signifi
 | **[Crisis Events](crisis-events.md)** | Can rapidly accelerate quadrant movement through organizational change | Recent major incidents? Lasting organizational changes? |
 | **[Change Capacity](change-capacity.md)** | Affects transition speed and scaling investment success probability | Tool rollout timelines? Process disruption tolerance? |
 | **[Relationship Health](relationship-health.md)** | Directly affects adoption velocity and scaling investment success | Proactive consultation frequency? Voluntary participation rates? |
+| **[AI Saturation](ai-saturation.md)** | Shifts the binding constraint from writing code to understanding it; pushes review toward automated guardrails and authorization toward per-request scope | What share of code, review, and ops runs through AI and agents? Is review keeping pace with generation? |
 
 ## How Modifiers Work
 
@@ -41,6 +46,22 @@ Contextual modifiers can compound or offset each other:
 **Offsetting Effects**:
 - High regulatory constraints (slows down) + crisis events (speeds up) = May create windows for change during crisis response
 - Low change capacity + strong relationship health = Adoption challenges mitigated by trust and collaboration
+
+## Why These Seven
+
+The seven aren't arbitrary, and the count isn't permanent. A contextual modifier is a factor that meets three tests:
+
+1. **It doesn't fix your position.** Two organizations in the same strategic position can sit at opposite ends of it. A factor that only restates your position is not a modifier. Correlation is fine: regulatory exposure often tracks with position, but two regulated firms in the same quadrant can still carry very different compliance loads.
+2. **It shifts implementation.** It changes the pace, sequence, or investment of how you implement, not which position you occupy.
+3. **It isn't already covered.** No modifier already in the set captures the implementation shift it drives. Partial overlap is fine. A factor fails only when an existing modifier already does its work.
+
+These three tests are why the set holds where it does, and they are the gate for adding the next one.
+
+### Adding a Modifier
+
+When a real factor passes all three tests, give it three impact levels (Low / Moderate / High) with questions a security leader can answer, and state how each level shifts implementation. Every modifier chapter already follows that shape. A new one slots into the same matrix and the same compounding-and-offsetting logic, with no change to the method. This is the move the framework makes wherever a fixed list could harden into dogma: name the rule that generates the set, not just the set.
+
+The seventh modifier is the proof. **[AI Saturation](ai-saturation.md)** entered the set when AI moved from the margins of the pipeline to its center. It doesn't fix your position: a Craft shop and a Mass enterprise can each be barely touched or saturated. It shifts implementation: when AI writes code faster than people can read it, the binding constraint moves from writing to reviewing, and the investment moves from manual review toward automated guardrails and scoped agent identity. And it isn't already covered: supply chain measures what you pull in, attack landscape measures the adversary outside your boundary, while saturation measures how much of your own pipeline now runs faster than your people can comprehend it. It passed the gate, so it is the seventh.
 
 ## Using Modifiers Strategically
 
@@ -81,6 +102,7 @@ Use this matrix to assess your organization:
 | Crisis Events | Minor operational issues | Security incidents, compliance failures | Major breaches, business disruption | ? |
 | Change Capacity | Risk-averse culture, slow adoption | Selective pilots, gradual rollouts | Innovation culture, rapid experimentation | ? |
 | Relationship Health | Damaged security-R&D relationships | Functional but transactional | Strategic partnership collaboration | ? |
+| AI Saturation | AI on the margins, human-reviewed | AI in the workflow, review straining | AI the default author, generation decoupled from comprehension | ? |
 
 ## Strategic Examples
 
@@ -108,6 +130,14 @@ Use this matrix to assess your organization:
 
 **Adjustment**: Factor compliance operational overhead into capacity planning. May need dedicated compliance automation investments before other scaling capabilities.
 
+### Example 4: Lean with High AI Saturation
+
+**Base Position**: Lean (Complex + High Readiness)
+
+**Modifier Impact**: Most code and much of review now run through AI; generation has outpaced human comprehension
+
+**Adjustment**: Move the security investment from manual review to automated guardrails, and from static authorization to per-request agent identity. A Lean team's scale advantages hold only if review is automated, and saturation exposes manual gates first.
+
 ## Next Steps
 
 Explore each contextual modifier in detail to understand how it affects your implementation:
@@ -115,6 +145,7 @@ Explore each contextual modifier in detail to understand how it affects your imp
 [:octicons-arrow-right-24: Attack Landscape Maturity](attack-landscape.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: Supply Chain Complexity](supply-chain-complexity.md){ .md-button }
 [:octicons-arrow-right-24: Regulatory Constraints](regulatory-constraints.md){ .md-button }
+[:octicons-arrow-right-24: AI Saturation](ai-saturation.md){ .md-button }
 
 ---
 
