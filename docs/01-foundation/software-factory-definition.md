@@ -62,6 +62,8 @@ SF² addresses strategic questions that existing frameworks don't answer:
 | **BSIMM** | Security activity measurement and benchmarking | SF² determines investment priorities for BSIMM activities based on organizational positioning | Use SF² assessment to guide BSIMM implementation scope and sequencing |
 | **OWASP ASVS** | Security verification requirements | SF² helps sequence ASVS implementation within scaling investment strategy | Use SF² to determine risk-based ASVS subset vs. comprehensive implementation |
 
+The four frameworks in the table are today's instance of the baseline, not the baseline itself. SF² overlays whatever the prevailing practice baseline is, and right now that is a set of human-pace maturity models: SSDF, SAMM, BSIMM, ASVS. That baseline is already broadening. As more software gets built and shipped by machines, a new layer is emerging alongside the maturity models: attestation and capability standards, verifiable provenance for what was built (the direction [SLSA](https://slsa.dev/) points) and scoped identity for what an agent may do ([SPIFFE](https://spiffe.io)). The roster of the baseline will grow; SF²'s job does not. It sequences the investment, decides what to fund first for your context, and aims it at the thing both baselines are ultimately trying to protect: a capability boundary that bounds what any part of the system can do. When the baseline grows a new wing, SF² sequences it the way it sequenced the old. The durable commitment is to that floor, set out in [Boundary Enforcement](../10-coadaptive/04-boundary-enforcement.md), not to the four names that express it today.
+
 ## Examples of Software Factories
 
 To illustrate the universal nature of this definition:

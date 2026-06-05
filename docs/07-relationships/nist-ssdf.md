@@ -13,6 +13,8 @@
 
 **SF²** tells you **HOW** to sustainably resource and scale those practices based on your organizational position.
 
+SSDF's practice groups are one expression of the practice baseline SF² sequences, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context and keeps the work pointed at bounding what the system can do.
+
 ## Integration Approach
 
 ### SSDF Provides the Practices

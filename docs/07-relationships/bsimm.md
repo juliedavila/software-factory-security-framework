@@ -13,6 +13,8 @@
 
 **SF²** helps determine **which BSIMM activities to implement** and **in what sequence** based on your organizational positioning and investment strategy.
 
+BSIMM is a descriptive census of what programs already do, one snapshot of the practice baseline SF² sequences rather than a fixed target. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it turns the census into priorities for your context and aims them at limiting what the system can do.
+
 ## Key Insight
 
 **BSIMM is descriptive, not prescriptive.** It shows what organizations do, not what they should do.

@@ -13,6 +13,8 @@
 
 **SF²** helps determine **which ASVS level to target**, **which requirements to prioritize**, and **how to implement verification** based on organizational position and risk.
 
+ASVS's verification levels are one expression of the practice baseline SF² sequences, not a fixed endpoint. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it picks the right subset for your context and ties the verification back to what the system is allowed to do.
+
 ## Key Insight
 
 **ASVS provides three verification levels**:
