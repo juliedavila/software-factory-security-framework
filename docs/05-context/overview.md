@@ -4,14 +4,14 @@
 
 The core framework applies universally, but organizational reality bends how you implement it. **Contextual modifiers** are the factors that do the bending: the reasons two organizations in the same strategic position need different implementation approaches.
 
-The method for working with modifiers is permanent: assess each one's impact, read how they compound or offset, adjust your sequence. The set of modifiers is not fixed. Seven factors earn a place today. If your organization faces a contextual reality these seven miss, the method is built to absorb it: apply the same logic and add it.
+The method for working with modifiers is permanent: assess each one's impact, read how they compound or offset, adjust your sequence. The recognized set of modifiers is not fixed. Seven factors earn a place today. If your organization faces a contextual reality these seven miss, the method is built to absorb it: apply the same logic and add it.
 
 !!! tip "Context Matters"
     Two organizations in the same strategic position (e.g., both in the Mass quadrant) may need different implementation approaches based on their contextual modifiers. These factors help you customize the universal framework to your reality.
 
-## The Seven Modifiers (Current Set)
+## The Seven Modifiers (The Recognized Set)
 
-These seven meet the test below and weigh most on a software factory's security strategy right now. The set can grow as organizational reality changes.
+These seven are the recognized set: the factors that meet the test below and weigh most on a software factory's security strategy right now. The set grows when reality reveals a factor the others cannot hold.
 
 | Modifier | Impact on Implementation | Assessment Questions |
 |----------|------------------------|---------------------|
@@ -61,7 +61,17 @@ These three tests are why the set holds where it does, and they are the gate for
 
 When a real factor passes all three tests, give it three impact levels (Low / Moderate / High) with questions a security leader can answer, and state how each level shifts implementation. Every modifier chapter already follows that shape. A new one slots into the same matrix and the same compounding-and-offsetting logic, with no change to the method. This is the move the framework makes wherever a fixed list could harden into dogma: name the rule that generates the set, not just the set.
 
-The seventh modifier is the proof. **[AI Saturation](ai-saturation.md)** entered the set when AI moved from the margins of the pipeline to its center. It doesn't fix your position: a Craft shop and a Mass enterprise can each be barely touched or saturated. It shifts implementation: when AI writes code faster than people can read it, the binding constraint moves from writing to reviewing, and the investment moves from manual review toward automated guardrails and scoped agent identity. And it isn't already covered: supply chain measures what you pull in, attack landscape measures the adversary outside your boundary, while saturation measures how much of your own pipeline now runs faster than your people can comprehend it. It passed the gate, so it is the seventh.
+The seventh modifier is the proof. **[AI Saturation](ai-saturation.md)** entered the set when AI moved from the margins of the pipeline to its center. It doesn't fix your position: a Craft shop and a Mass enterprise can each be barely touched or saturated. It shifts implementation: when AI writes code faster than people can read it, the binding constraint moves from writing to reviewing, and the investment moves from manual review toward automated guardrails and scoped agent identity. And it isn't already covered: supply chain measures what you pull in, attack landscape measures the adversary outside your boundary, while saturation measures how much of your own pipeline now runs faster than your people can comprehend it. It passed the gate, so it was recognized as the seventh.
+
+### When the Map Stops Fitting
+
+Two activities are easy to confuse, and they run at different speeds. Assessing where you sit on each modifier is ongoing, per-organization work: your position on AI Saturation or Regulatory Constraints drifts as your world changes, and re-rating it belongs on a cadence. Changing the recognized set itself is rare and evidence-driven. It is not something you schedule.
+
+The modifiers are a map of your organization's reality, and like any map they hold until the terrain moves. You will not learn the set is behind from a calendar. You learn it when you catch yourself stretching a modifier to cover something it was never shaped to hold, forcing a new kind of risk into the closest old category because that category is what's on the slide. That stretch is the signal.
+
+The stretch nominates; it does not decide. It is a prompt to run the [three tests above](#why-these-seven), not proof a factor is missing. Sometimes the honest answer is that the modifier is broad and should hold the new factor, which is what the third test protects. A stretch that fails the gate confirms the set already covers the ground. A stretch that clears it means the territory grew a region the map did not have, and the factor is recognized. AI was that case: practitioners kept filing it under Supply Chain Complexity or Attack Landscape Maturity, it fit neither, and [AI Saturation](ai-saturation.md) became the seventh.
+
+So schedule the thing that drifts, not the thing that doesn't. Re-rate your position across the modifiers on a cadence, faster for the volatile ones. Revisit the recognized set itself only when the stretch keeps recurring, when reality has outgrown the map. A periodic look is a backstop for the drift you missed, never the reason to add.
 
 ## Using Modifiers Strategically
 
