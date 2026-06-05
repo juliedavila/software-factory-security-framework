@@ -40,7 +40,7 @@ Both framings are load-bearing, and the synthesis is naming the layer where each
 
 The factory framing is right at the layer of operational accountability. Foundation and the Universal Security Conditions live here: who owns the supply chain, who answers for what runs in production, how delivery stays safe as it scales. The atelier framing is right at the layer of the creative act and how roles get arranged inside a team. SF² never claimed that layer and does not want it. How you organize your artists is your business.
 
-Coadaptive Security extends the picture to a third layer neither metaphor anticipated: the unit of operation in the AI era. That unit is a person working with agents, and it resembles a paired-intelligence cell more than a factory worker or a lone craftsman. [Chapter 03, The Unit of Defense](../10-coadaptive/03-unit-of-defense.md), takes that up. The synthesis does not ask anyone to pick a team. It names the layer at which each framing earns its keep.
+Coadaptive Security extends the picture to a third layer neither metaphor anticipated: the unit of operation in the AI era. That unit is most often a person working with agents, and it resembles a paired-intelligence cell more than a factory worker or a lone craftsman. [Chapter 03, The Unit of Defense](../10-coadaptive/03-unit-of-defense.md), takes that up. The synthesis does not ask anyone to pick a team. It names the layer at which each framing earns its keep.
 
 ## The AI-era production-model question
 

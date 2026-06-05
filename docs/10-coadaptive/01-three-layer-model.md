@@ -24,7 +24,7 @@ The dynamic is where [The AI-Era Threat Surface](02-ai-era-threat-surface.md) ex
 
 ## Unit
 
-The unit is the operating-cell layer: who is doing the work now that the work is done by a human and their agents together. This is the newest of the three and the one the older frameworks have no slot for, because they assumed the unit was a person. When the unit becomes a paired-intelligence cell, the questions of org design, role, and what property keeps the cell safe all change.
+The unit is the operating-cell layer: who is doing the work, now that the work is not always done by a person. This is the newest of the three and the one the older frameworks have no slot for, because they assumed the unit was a person. The unit is whatever cell holds the authority to act, and its composition slides: a lone human, a human and their agents paired, a lone agent running on its own. When that composition changes, the questions of org design and role change with it. The property that keeps the cell safe does not: it is adaptive capacity whatever the cell is made of.
 
 The unit is where [The Unit of Defense](03-unit-of-defense.md) operates, and where the holobiont idea surfaces as vocabulary: the human and the agents as one unit of selection, defended as a pair rather than separately. The concept earns its keep here as a way to see the cell clearly, not as a name the layer flies under.
 
