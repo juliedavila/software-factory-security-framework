@@ -137,7 +137,7 @@ When evaluating security investments, consider these criteria:
 | **Time to Value** | How quickly will benefits become measurable? | Affects organizational confidence |
 | **Cultural Alignment** | Does this support learning culture and psychological safety? | Determines long-term sustainability |
 | **Organizational Change Requirements** | What adoption challenges should we anticipate? | Affects implementation success probability |
-| **Adversary Economics** | Does this make attacks more expensive or time-consuming? | Security succeeds when it shifts cost-benefit against attackers |
+| **Adversary Economics** | Does this close the surface it claims, or only raise the cost on paths already covered? | Coverage is the test. Cost-raising counts on top of a boundary that contains the breach, not instead of it. |
 
 ## Designing Security Capabilities That Compound
 

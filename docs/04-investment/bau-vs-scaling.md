@@ -166,7 +166,7 @@ Scaling Investments compound in two different ways, and the difference decides w
 | **Developer Experience** | Critical for adoption | Does this reduce security friction or create new complexity? |
 | **Time to Value** | Affects organizational confidence | How quickly will benefits become measurable? |
 | **Cultural Alignment** | Determines sustainability | Does this support learning culture and psychological safety? |
-| **Adversary Economics** | Validates security value | Does this force attackers to more expensive approaches? |
+| **Adversary Economics** | Real, but judged by coverage | Does this close a path, or only raise the price on paths already closed? |
 
 **Expected ROI Timeline**: 6-18 months with compound returns increasing over time
 
