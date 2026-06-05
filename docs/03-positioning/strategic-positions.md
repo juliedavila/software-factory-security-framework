@@ -66,7 +66,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - Mature change management and incident response processes
 - Strong engineering culture with continuous learning focus
 
-**Your Security Approach**: Orchestrate enterprise security architecture with integrated learning culture. Enable security at scale through platform engineering and federated security champions.
+**Your Security Approach**: Orchestrate enterprise security architecture with integrated learning culture. Enable security at scale through platform engineering and federated champions who configure the boundaries the platform enforces.
 
 **Strategic Focus**: Optimize security operations at enterprise scale while maintaining innovation velocity. Your advantage is operational sophistication. Use it to embed security into engineering platforms rather than building centralized security bottlenecks.
 
@@ -75,7 +75,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 **Key Investment Priorities**:
 
 1. **Security Platform Engineering**: Self-service security capabilities available across all teams and products
-2. **Federated Security Champions**: Distributed security expertise within engineering teams with central guidance
+2. **Federated Security Champions**: Engineers inside each team who set the team-level boundaries the platform then enforces: capability scopes, deny-by-default defaults, the guardrails their team ships inside. The platform team authors the paved road; champions set the boundaries within it and feed the threat models that shape it. The leverage is configuration, not inspection, so enforcement scales without a human in the path of every change. The boundary-setting is itself threat modeling and risk judgment, not a config chore: the enforcement is delegated to the platform, the judgment is not.
 3. **Enterprise Architecture Integration**: Security embedded in platform decisions and organizational standards
 4. **Continuous Security Intelligence**: Automated threat detection with predictive insights and proactive response
 5. **Cultural Scaling Mechanisms**: Learning from incidents and scaling security knowledge across the organization

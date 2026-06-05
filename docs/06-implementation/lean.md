@@ -34,7 +34,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 **Investment Focus**:
 - Security platforms with self-service capabilities
 - Policy-as-code at organizational scale
-- Federated security models (security champions, guild structure)
+- Federated security models (champions who set boundaries, not gate changes)
 - Reusable security components and libraries
 
 **Avoid**:
@@ -68,7 +68,7 @@ Security should be a differentiator, not a cost center.
 ### Quarter 1: Optimization
 - [ ] Eliminate or automate 3 low-value security activities
 - [ ] Implement data-driven optimization for top security platform
-- [ ] Establish federated security model (champions, guilds)
+- [ ] Establish federated security model (champions set team boundaries, platform enforces)
 - [ ] Define clear outcome metrics for each stewardship area
 
 ### Quarter 2: Innovation
