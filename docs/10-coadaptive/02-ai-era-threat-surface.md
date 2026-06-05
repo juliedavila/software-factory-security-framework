@@ -11,6 +11,10 @@ The AI era did not add five new threats to the board so much as multiply the boa
 
 Each expansion is a real shift in what the organization exposes. The five are a way to reason about one surface, not five surfaces to defend in turn, because they do not arrive one at a time.
 
+These five are not an arbitrary count. One rule sits under all of them. Each is a human-scale limit that used to hold the surface in check on its own, now coming undone. Only a known few could ship production behavior. An interface was safe because no human bothered to abuse it. The trust boundary stayed where the security team could see it. Behavior was predictable because a person specified the flows. Each was a quiet bottleneck doing security work no one paid for, and the AI era removes it. The test is whether the limit was holding the surface in check, not merely slowing the work down. Slow typing was a limit too, and removing it expands no one's attack surface.
+
+The fifth is a different kind of thing. LLM workflows are not another bottleneck coming undone so much as the place the first four chain into each other, where one removed limit becomes the next one's problem. The four are the load-bearing limits coming undone now, not a closed catalog. You can already see the next ones forming. An agent that remembers across sessions removes the limit that a session ended and its reach stopped with it. One operator spawning a fan-out of sub-agents removes the limit that one human was one actor you could count. The same rule names each as it arrives. The list was never meant to be finished.
+
 ### Democratized builders
 
 The set of people shipping production behavior has stopped matching the set of people the security program was built around. A product manager wiring together a workflow, an analyst writing a script an agent will run, a marketer standing up a site through a generation tool: each is now a builder, and most of them never touch the paved road the security team paved. The surface expands because authorship expands, and authorship expanded past the org chart.
@@ -58,6 +62,8 @@ None of this competes with containment. It sits beside it. A capability boundary
 ## Why this is combinatorial, not additive
 
 Traditional threat modeling counts surfaces and sums them. That under-counts this one badly, because the expansions multiply. A democratized builder standing up an agent with public-API access inside an LLM workflow is not four problems in a row; it is one surface whose risk is the product of all four, where each factor widens what the others can reach. Add a comprehension gap on top and no human in the loop can see the whole shape at once.
+
+The same multiplication can run inward. Spread across many hands the expansions multiply; folded into one general-purpose agent they collapse into a single actor that ships behavior, discovers and chains APIs, reads and acts across systems, picks its own next step, and runs its own multi-step workflow. A coding agent wired into your repositories, your build pipeline, your cloud, and your ticket queue is exactly that: one process, one set of credentials, all five expansions at once. It looks simpler, fewer seams to draw, and it is more dangerous, because the blast radius of all five now sits inside one entity that no static scope statement can narrow without taking away the generality that made it worth building. The risk did not drop when it consolidated. It concentrated, which is the case [Boundary Enforcement](04-boundary-enforcement.md) has to answer head-on.
 
 The defensive consequence is the rest of this layer. A surface that grows multiplicatively and outruns human comprehension cannot be defended by inspecting it more carefully. It has to be defended by containing what any part of it is allowed to do, which is the substrate-layer argument [Boundary Enforcement](04-boundary-enforcement.md) takes up next.
 
