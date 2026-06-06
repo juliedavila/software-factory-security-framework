@@ -64,6 +64,12 @@ Organizations approaching this inflection point can choose between different res
 
 ## Investment Portfolio Categories
 
+These three categories rank by the shape of their return. BAU is linear-effort work whose return is bounded by the hours spent and stops when the spending stops; Scaling investments keep paying after the spend ends ([BAU vs Scaling](bau-vs-scaling.md) works that economics in full). Platform Effects pay across more than one factory at once, but only where you have more than one factory to serve. Usually that means factories you do not run: a product your customers build on, an open-source tool the field adopts. A large enterprise running many factories of its own can reach the same multiplication internally. An organization that serves a single factory tops out at Scaling, which is the right ceiling for it. The ranking by return shape is the durable claim. Which rungs are open to you is a matter of context.
+
+The payback windows below are a 2026 baseline, calibrated to today's tooling and a typical rate of adoption. They will age. The ordering they sit under does not move on the same clock.
+
+How fast any of this returns is set by absorption capacity: how fast the organization adopts a paved road, retires the manual work it replaces, and keeps a working understanding of what changed. Absorption has a measurable cost. [DORA's 2024 State of DevOps research](https://dora.dev/research/2024/dora-report/) found that standing up a platform first cost roughly an eight percent dip in delivery throughput before the platform matured: the gain arrived after a temporary dip, paced by how fast teams absorbed the change, not by the rollout date.
+
 ### BAU Activities (Constrain)
 
 **Characteristics**:
@@ -101,7 +107,7 @@ Organizations approaching this inflection point can choose between different res
 
 **Resource Allocation**: Primary investment focus past crisis point
 
-**Expected ROI**: 6-18 months with compound returns
+**Expected ROI**: 6-18 months with compound returns (2026 baseline, modeled; paced by absorption capacity, not a fixed calendar)
 
 !!! example "Scaling Investment Examples"
     - **Paved Roads**: Secure templates that eliminate security review needs
@@ -124,7 +130,7 @@ Organizations approaching this inflection point can choose between different res
 
 **Resource Allocation**: Enhancement to scaling investments
 
-**Expected ROI**: 12-24 months with market amplification
+**Expected ROI**: 12-24 months with market amplification (2026 baseline, modeled; same caveat as above)
 
 ## Investment Evaluation Framework
 
@@ -227,6 +233,8 @@ When proposing the shift from traditional to strategic scaling:
     We'll measure success through developer satisfaction, security coverage, and time-to-market improvements, demonstrating that security enables rather than constrains business growth."
 
 ## Implementation Roadmap
+
+Run it in this order: assess, pilot, constrain, expand. The quarter labels are a 2026 baseline cadence. An organization with high absorption capacity may move through it in two quarters; one stabilizing heavy BAU debt may need a year. Pace the moves to what the organization can absorb, not to the calendar.
 
 **Quarter 1: Assessment and Planning**
 - Measure current BAU demand and capacity
