@@ -130,6 +130,16 @@ The comprehension a software factory needs is not knowledge held in any one pers
 - **[Komoroske, "Coordination Headwind" and the slime-mold model.](https://komoroske.com/slime-mold/)** Names the gardening-platforms and Schelling-point moves that make SF² emergent rather than imposed. The direct lineage for any claim that security is an emergent property.
 - **[Shortridge & Rinehart (2023), *Security Chaos Engineering.*](https://www.oreilly.com/library/view/security-chaos-engineering/9781098113810/)** Security as ecology, not enforcement. Gives SF² its experimental, probabilistic posture instead of a compliance-checkbox frame.
 
+### Crisis windows and staged response
+
+- **[Kingdon (1984/1995), *Agendas, Alternatives, and Public Policies.*](https://en.wikipedia.org/wiki/Multiple_streams_framework)** The policy-window mechanism: a window opens, often through a focusing event, and a pre-existing solution gets coupled to the agenda by whoever already holds a finished proposal. The academic spine for "stay staged," since the solution has to exist and be ready before the window opens.
+- **[Birkland (1998), "Focusing Events, Mobilization, and Agenda Setting."](https://doi.org/10.1017/S0143814X98000038)** *Journal of Public Policy* 18(1):53-74. Sudden harmful events concentrate attention and open windows, but the agenda change accrues to groups already mobilized. The "prepared" half of the mechanism: the event is necessary, the ready coalition is what converts it to action.
+- **[Downs (1972), "Up and Down with Ecology: The Issue-Attention Cycle."](https://gwern.net/doc/sociology/2015-gupta.pdf)** *The Public Interest* 28:38-50. Attention to a problem rises sharply then decays as it competes with other issues. Why the window closes on its own schedule, stated without committing to a duration.
+- **[NIST SP 800-61r3 (2025), *Incident Response Recommendations and Considerations for Cybersecurity Risk Management.*](https://csrc.nist.gov/pubs/sp/800/61/r3/final)** Supersedes the 2012 four-phase guide and reframes incident response as a risk-management activity under the CSF 2.0 Functions. The standards basis for staging response plans against your top risks (Govern, Identify) and sharpening them after the event (Improvement).
+- **[CISA Tabletop Exercise Packages.](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages)** Pre-built, scenario-specific exercises whose stated purpose is to test and build out response plans, each shipping an after-action template that feeds back into the plan. The mechanism behind rebaselining a staged plan on a cadence rather than writing it once.
+- **[Google SRE Workbook, "Postmortem Culture: Learning from Failure."](https://sre.google/workbook/postmortem-culture/)** A blameless post-mortem turns an incident into the highest-quality input a plan will ever get. The retro-sharpens-the-staged-plan loop, stated as practice.
+- **[IBM, *Cost of a Data Breach 2025.*](https://www.ibm.com/reports/data-breach)** (Trade.) Measures whether organizations raise security investment after a breach (49% in 2025, down from 63% in 2024), not how long the elevated-priority window lasts. The evidence that the post-incident window is real but variable, and that its duration is not a measured constant.
+
 ## Industry Resources
 
 ### Supply Chain Security
