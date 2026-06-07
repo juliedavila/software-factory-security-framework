@@ -74,7 +74,7 @@
 : The interconnected risk created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
 
 **Regulatory Constraints**
-: Compliance requirements that affect security implementation by increasing BAU workload and constraining technology choices.
+: Compliance requirements that cut both ways: they increase BAU workload and constrain technology choices, while also driving security investment as a forcing function and market-access lever.
 
 **Crisis Events**
 : Security incidents, compliance failures, or business disruptions that create windows for organizational change and transformation.

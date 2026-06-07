@@ -17,7 +17,7 @@ These seven are the recognized set: the factors that meet the test below and wei
 |----------|------------------------|---------------------|
 | **[Attack Landscape Maturity](attack-landscape.md)** | Accelerates need for automation; manual processes become existential vulnerabilities | Do attackers discover our assets before we do? Are we seeing automated reconnaissance? |
 | **[Supply Chain Complexity](supply-chain-complexity.md)** | May require Lean-level tools regardless of base quadrant | How many dependency tiers? Critical single vendors? Geopolitical constraints? |
-| **[Regulatory Constraints](regulatory-constraints.md)** | Increases BAU burden; may delay quadrant progression | Audit frequency? Technology constraints? Compliance violation risk? |
+| **[Regulatory Constraints](regulatory-constraints.md)** | Cuts both ways: a BAU drag that can delay progression, but also a forcing function and a market-access lever that make security easier to fund | Audit frequency? Technology constraints? Compliance violation risk? |
 | **[Crisis Events](crisis-events.md)** | Can rapidly accelerate quadrant movement through organizational change | Recent major incidents? Lasting organizational changes? |
 | **[Change Capacity](change-capacity.md)** | Affects transition speed and scaling investment success probability | Tool rollout timelines? Process disruption tolerance? |
 | **[Relationship Health](relationship-health.md)** | Directly affects adoption velocity and scaling investment success | Proactive consultation frequency? Voluntary participation rates? |
