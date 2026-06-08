@@ -226,7 +226,7 @@ Position is a sequencing and funding diagnostic, not an architecture one. It doe
     Implementing Lean-level security programs in a Mass or Craft organization often leads to:
     - Failed tooling implementations
     - Frustrated security and development teams
-    - Wasted budget on capabilities you can't operationalize
+    - Wasted budget on capabilities you never put to use
     - Security becoming a bottleneck instead of enabler
 
 ## Strategic Movement Paths
