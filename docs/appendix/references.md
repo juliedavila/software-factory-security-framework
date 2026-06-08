@@ -169,7 +169,7 @@ The operator/provider split in [Third-Party](../02-stewardship/third-party.md) r
 
 - **[DORA, "Platform engineering" capability.](https://dora.dev/capabilities/platform-engineering/)** An internal developer platform provides "golden paths" and a "paved road that scales these benefits securely," making the supported, secure option the self-service default. The grounding for adoption velocity as the binding constraint, and for the secure default that is mandatory and low-friction at once.
 - **[Howard (2018), "Less Gates, More Guardrails."](https://www.sonatype.com/blog/less-gates-more-guardrails-devsecops-lessons-learned-in-2017)** Sonatype. Security controls "cannot take the form of toll gates; instead, they must take the form of guardrails": automated, embedded in the pipeline, fast by default. The case that friction, not whether a control is mandatory, is what predicts adoption.
-- **[Singhal, "Scaling Appsec at Netflix."](https://netflixtechblog.medium.com/scaling-appsec-at-netflix-6a13d7ab6043)** Netflix Technology Blog. A paved-road platform made security best practices the default rather than a checklist, so a team could reach a production-ready, authenticated service in minutes. The worked example of a low-friction default carrying full adoption without a relationship to lean on.
+- **[Singhal, "Scaling Appsec at Netflix."](https://netflixtechblog.medium.com/scaling-appsec-at-netflix-6a13d7ab6043)** Netflix Technology Blog. A paved-road platform baked security in by default rather than leaving it to a checklist, so a team could reach a production-ready, authenticated service in minutes. The worked example of a low-friction default carrying full adoption without a relationship to lean on.
 
 ## Industry Resources
 
