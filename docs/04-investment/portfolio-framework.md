@@ -37,6 +37,8 @@ As software factories grow, traditional security activities face a mathematical 
 
 Meanwhile, security team capacity grows linearly at best. Hiring requires time and creates temporary productivity reduction during onboarding. Communication overhead increases with team size.
 
+A word on *exponential*: that growth rests on AI capability continuing to compound, and the pre-training mechanism behind it may be slowing, with the public-text supply it runs on exhausting this decade. It matters less than it sounds. The demand here tracks how much code ships and how much authority automation holds, both of which keep rising on deployment alone, and the comprehension gap above is already booked. A plateau buys more time, not a different answer. The [BAU vs Scaling](bau-vs-scaling.md) chapter works this through.
+
 !!! danger "The Inflection Point"
     Organizations reach a point where demand for BAU security services exceeds sustainable capacity, creating constraints on both security effectiveness and business velocity.
 
@@ -69,6 +71,8 @@ These three categories rank by the shape of their return. BAU is linear-effort w
 The payback windows below are a 2026 baseline, calibrated to today's tooling and a typical rate of adoption. They will age. The ordering they sit under does not move on the same clock.
 
 How fast any of this returns is set by absorption capacity: how fast the organization adopts a paved road, retires the manual work it replaces, and keeps a working understanding of what changed. Absorption has a measurable cost. [DORA's 2024 State of DevOps research](https://dora.dev/research/2024/dora-report/) found that standing up a platform first cost roughly an eight percent dip in delivery throughput before the platform matured: the gain arrived after a temporary dip, paced by how fast teams absorbed the change, not by the rollout date.
+
+One thing the return-shape ranking does not say on its own: the category it tells you to prioritize, compounding scaling investment, is also the most discretionary line on the budget, which makes it the first one a downturn cuts. The 2023 round of security budget cuts landed hardest on exactly this kind of future-facing spend: 63 percent of organizations cut their security budgets in a single year, and 39 percent cut headcount. Two instructions follow, and both are about sequencing, not reassurance. If you are funding in an up-cycle, pre-fund the compounding capability now, because it is the line that vanishes when the cycle turns. Whatever the cycle, bias the portfolio toward capability-based controls that keep enforcing with fewer hands, because that is the spend whose value does not leave with the headcount. What a cut cannot repossess is the [Lean guide](../06-implementation/lean.md)'s subject; this is about what to fund first. A plateau may give you more time on the demand side; a downturn gives you less on the funding side, so build for the clock that runs out first.
 
 ### BAU Activities (Constrain)
 
