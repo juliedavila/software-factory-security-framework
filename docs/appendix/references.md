@@ -236,9 +236,7 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
 **Website**: https://sf2framework.com
 
-This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. While I currently serve as VP of Security at GitLab, **SF² is not an official GitLab framework** and does not formally represent GitLab's views.
-
-These mental models do inform how I approach security strategy at GitLab. To the extent I have strategic influence over GitLab's security posture, the principles in SF² reflect my underlying approach to securing software factories at scale.
+This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
 
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 
