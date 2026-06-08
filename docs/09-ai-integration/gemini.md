@@ -48,10 +48,11 @@ SF² is a strategic framework for scaling security capabilities while improving 
    - Scaling investments (compound capabilities)
    - Platform effects (multiplicative value)
 
-4. **Six Contextual Modifiers**
+4. **Seven Contextual Modifiers**
    - Attack Landscape Maturity, Supply Chain Complexity
    - Regulatory Constraints, Crisis Events
    - Change Capacity, Relationship Health
+   - AI Saturation
 
 ## Your Role
 Help security leaders:

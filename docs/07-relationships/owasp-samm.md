@@ -13,6 +13,8 @@
 
 **SF²** helps determine **which maturity levels to pursue** and **how fast to progress** based on your organizational position and readiness.
 
+SAMM's maturity levels are one expression of the practice baseline SF² sequences, not a ladder to climb for its own sake. As that baseline broadens toward capability and attestation standards, SF²'s role holds: it decides which levels are worth the investment for your context and sequences them toward containing what the system can do.
+
 ## Key Insight
 
 **Not every organization should pursue SAMM Level 3 maturity in every practice.**
@@ -37,7 +39,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 
 ## SF² Maturity Strategy by Quadrant
 
-### Visionaries (Simple + High Readiness)
+### Studio (Simple + High Readiness)
 
 **SAMM Maturity Approach**: High maturity through automation
 
@@ -55,7 +57,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - Use automation to jump directly to Level 2-3 maturity
 - Avoid building manual processes that won't scale
 
-### Leaders (Complex + High Readiness)
+### Lean (Complex + High Readiness)
 
 **SAMM Maturity Approach**: Comprehensive high maturity across all functions
 
@@ -72,7 +74,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - Efficient maturity maintenance through platform effects
 - Eliminate practices that don't reduce risk (even if mature)
 
-### Niche Players (Simple + Low Readiness)
+### Craft (Simple + Low Readiness)
 
 **SAMM Maturity Approach**: Essential practices at appropriate maturity
 
@@ -91,7 +93,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - Avoid pursuing comprehensive SAMM maturity
 - Use managed services to achieve maturity without building capability
 
-### Challengers (Complex + Low Readiness)
+### Mass (Complex + Low Readiness)
 
 **SAMM Maturity Approach**: Hybrid maturity (high for new, pragmatic for legacy)
 
@@ -136,7 +138,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 
 ## Practical Integration Examples
 
-### Example 1: Visionary Pursuing SAMM Implementation Maturity
+### Example 1: Studio Pursuing SAMM Implementation Maturity
 
 **Scenario**: Series B startup wants to improve secure build practices
 
@@ -150,7 +152,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 2. **Skip manual levels**: Don't build Level 1-2 manual processes
 3. **Outcome**: Level 3 maturity achieved in 6 months vs 18+ months
 
-### Example 2: Challenger Pursuing SAMM Verification Maturity
+### Example 2: Mass Pursuing SAMM Verification Maturity
 
 **Scenario**: Large enterprise with mixed legacy and modern systems
 
@@ -165,7 +167,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - **Retiring legacy**: Level 0-1 (accept risk until retirement)
 - **Outcome**: Achievable maturity with realistic resources
 
-### Example 3: Leaders Optimizing SAMM Governance
+### Example 3: Lean Optimizing SAMM Governance
 
 **Scenario**: Large tech company with Level 2 governance across the board
 
@@ -182,10 +184,10 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 
 | Your SF² Position | SAMM Breadth vs Depth | Target Maturity | Progression Speed |
 |------------------|---------------------|----------------|------------------|
-| **Visionaries** | Depth (high maturity in essential practices) | L2-3 for core | Fast (12-18 mo) |
-| **Leaders** | Comprehensive depth | L2-3 across board | Optimization |
-| **Niche Players** | Breadth (basic coverage) | L1 sufficient | Slow (essentials only) |
-| **Challengers** | Hybrid (depth for new, breadth for legacy) | L0-1 legacy, L2-3 new | Very slow (3-5 yr) |
+| **Studio** | Depth (high maturity in essential practices) | L2-3 for core | Fast (12-18 mo) |
+| **Lean** | Comprehensive depth | L2-3 across board | Optimization |
+| **Craft** | Breadth (basic coverage) | L1 sufficient | Slow (essentials only) |
+| **Mass** | Hybrid (depth for new, breadth for legacy) | L0-1 legacy, L2-3 new | Very slow (3-5 yr) |
 
 ## Key Takeaways
 

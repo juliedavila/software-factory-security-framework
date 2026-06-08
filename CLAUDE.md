@@ -20,7 +20,7 @@ When working on this framework, these principles are foundational:
 
 ### 2. Honest and Pragmatic
 - **Call out hard truths**: Scaling crisis is inevitable, two-axis transformation is high-risk
-- **Realistic timelines**: Challenger transformations take 3-5 years, not 12 months
+- **Realistic timelines**: Mass transformations take 3-5 years, not 12 months
 - **Acknowledge tradeoffs**: No perfect solutions, only context-appropriate choices
 - **Supply Chain #1 since 2017**: Adversary evolution to automated discovery is non-negotiable
 
@@ -55,10 +55,10 @@ The framework should read like advice from an experienced security leader who:
 - Backs recommendations with reasoning
 
 **Good example**:
-> "Visionaries should automate from the start. Your high operational readiness makes this achievable—don't build manual processes you'll need to replace in 18 months."
+> "Studio organizations should automate from the start. Your high operational readiness makes this achievable—don't build manual processes you'll need to replace in 18 months."
 
 **Avoid**:
-> "Organizations in the Visionary quadrant may wish to consider implementing automation where feasible and appropriate to their context."
+> "Organizations in the Studio quadrant may wish to consider implementing automation where feasible and appropriate to their context."
 
 ### Tone Guidelines
 
@@ -71,7 +71,7 @@ The framework should read like advice from an experienced security leader who:
 - ❌ "Improve efficiency in security review processes"
 
 **Be Contextual**:
-- ✅ "Challengers need 3-5 years. Fast-tracking creates technical debt."
+- ✅ "Mass organizations need 3-5 years. Fast-tracking creates technical debt."
 - ❌ "Transformation timelines vary by organization"
 
 **Be Honest About Tradeoffs**:
@@ -177,7 +177,7 @@ Use these terms precisely:
 - **Scaling Investments** - capabilities that create compound effects
 - **Operational Complexity** - "what you manage" axis (Simple → Complex)
 - **Operational Readiness** - "how you operate" axis (Lower → Higher)
-- **Quadrant names**: Visionaries, Leaders, Niche Players, Challengers (always capitalized)
+- **Quadrant names**: Studio, Lean, Craft, Mass (always capitalized)
 
 ### Terms to Avoid
 
@@ -237,7 +237,7 @@ Before introducing new terms, check `docs/appendix/glossary.md`. Use established
 **Quality check**:
 - Would a security leader in this quadrant recognize themselves?
 - Are recommendations specific enough to act on?
-- Are timelines realistic (Challengers = years)?
+- Are timelines realistic (Mass = years)?
 - Do pitfalls reflect real organizational challenges?
 
 ### Creating Decision Frameworks
@@ -339,10 +339,10 @@ Use these standardized classes when styling content:
 
 **Quadrant Styling**:
 ```css
-.quadrant-visionaries    /* Green left border */
-.quadrant-leaders        /* Blue left border */
-.quadrant-niche          /* Yellow left border */
-.quadrant-challengers    /* Red left border */
+.quadrant-studio    /* Green left border */
+.quadrant-lean      /* Blue left border */
+.quadrant-craft     /* Yellow left border */
+.quadrant-mass      /* Red left border */
 ```
 
 ### Content Contributor Accessibility Guidelines
@@ -364,7 +364,7 @@ When adding or editing framework content:
 Click [here](link) for more information
 
 <!-- ✅ Good: Descriptive link text -->
-Review the [Visionaries implementation guide](link)
+Review the [Studio implementation guide](link)
 ```
 
 **3. Color Usage**

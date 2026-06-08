@@ -1,6 +1,7 @@
 # MkDocs build artifacts
 site/
 public/
+pdf-build/
 
 # Python virtual environment
 venv/

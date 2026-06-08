@@ -3,7 +3,7 @@
 ## Core Framework Terms
 
 **Software Factory**
-: An organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain—whether directly controlled or third-party.
+: An organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
 
 **SF²**
 : Software Factory Security Framework - A strategic mental model for scaling security capabilities while improving business outcomes.
@@ -16,16 +16,16 @@
 **Operational Readiness**
 : The "how you operate" axis measuring automation, infrastructure modernity, and process maturity (Lower → Higher).
 
-**Visionaries**
+**Studio**
 : Organizations with simple operations and high operational readiness (Simple + High Readiness).
 
-**Leaders**
+**Lean**
 : Organizations with complex operations and high operational readiness (Complex + High Readiness).
 
-**Niche Players**
+**Craft**
 : Organizations with simple operations and lower operational readiness (Simple + Low Readiness).
 
-**Challengers**
+**Mass**
 : Organizations with complex operations and lower operational readiness (Complex + Low Readiness).
 
 ## Universal Stewardship
@@ -74,7 +74,7 @@
 : The interconnected risk created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
 
 **Regulatory Constraints**
-: Compliance requirements that affect security implementation by increasing BAU workload and constraining technology choices.
+: Compliance requirements that cut both ways: they increase BAU workload and constrain technology choices, while also driving security investment as a forcing function and market-access lever.
 
 **Crisis Events**
 : Security incidents, compliance failures, or business disruptions that create windows for organizational change and transformation.

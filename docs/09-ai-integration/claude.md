@@ -5,7 +5,7 @@
 Claude excels at strategic analysis and long-form reasoning, making it particularly well-suited for security leadership work:
 
 - **Deep context understanding** - Handles complex organizational situations
-- **Nuanced analysis** - Balances competing priorities and tradeoffs
+- **Balanced analysis** - Weighs competing priorities and tradeoffs
 - **Professional communication** - Executive-ready output
 - **Long conversations** - Extended strategic planning sessions
 - **Projects feature** - Persistent framework knowledge base

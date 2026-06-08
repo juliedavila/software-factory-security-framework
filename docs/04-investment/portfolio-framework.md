@@ -1,29 +1,29 @@
 # Investment Portfolio Framework
 
-## The Scaling Challenge Every Security Leader Encounters
+## The Scaling Challenge
 
 Picture this scenario: Your development teams want faster security reviews. Customer success needs immediate responses to security questionnaires. Compliance requires detailed audit preparations. Meanwhile, a critical vulnerability just dropped, and your CEO is asking about your incident response plan.
 
-Sound familiar? You've hit the **scaling crisis**—the inevitable moment when demand for security services grows exponentially while your team capacity grows linearly.
+Sound familiar? You've hit the **scaling crisis**, the inevitable moment when demand for security services grows exponentially while your team capacity grows linearly.
 
 !!! warning "The Inflection Point"
     Most security leaders respond to scaling challenges by hiring more people and working longer hours. While this provides temporary relief, it becomes increasingly difficult to sustain long-term and doesn't address the fundamental capability gap.
 
 ## A Different Approach
 
-Past a certain point, the solution isn't necessarily doing more security work—it's **deliberately constraining some activities while investing in capabilities that reduce future manual effort**. This section shows you how to make this strategic shift while maintaining security outcomes.
+Past a certain point, the solution isn't necessarily doing more security work. It's **deliberately constraining some activities while investing in capabilities that reduce future manual effort**. This section shows you how to make this strategic shift while maintaining security outcomes.
 
 ## The BAU Scaling Crisis
 
 ### The Capability Gap Reality
 
-The BAU scaling crisis isn't just a resource problem—it's a capability mismatch. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
+The BAU scaling crisis isn't a resource problem. It's a capability mismatch. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
 
 **The Structural Mismatch**:
 - **Manual defender processes**: Quarterly vulnerability scans, manual asset discovery, individual security reviews
 - **Scaled adversary automation**: Continuous probing, automated reconnaissance, industrial-scale exploitation
 
-This structural mismatch—manual defender processes versus scaled adversary automation—makes the crisis inevitable.
+This structural mismatch, manual defender processes versus scaled adversary automation, makes the crisis inevitable.
 
 ### Exponential Demand Growth
 
@@ -64,6 +64,12 @@ Organizations approaching this inflection point can choose between different res
 
 ## Investment Portfolio Categories
 
+These three categories rank by the shape of their return. BAU is linear-effort work whose return is bounded by the hours spent and stops when the spending stops; Scaling investments keep paying after the spend ends ([BAU vs Scaling](bau-vs-scaling.md) works that economics in full). Platform Effects pay across more than one factory at once, but only where you have more than one factory to serve. Usually that means factories you do not run: a product your customers build on, an open-source tool the field adopts. A large enterprise running many factories of its own can reach the same multiplication internally. An organization that serves a single factory tops out at Scaling, which is the right ceiling for it. The ranking by return shape is the durable claim. Which rungs are open to you is a matter of context.
+
+The payback windows below are a 2026 baseline, calibrated to today's tooling and a typical rate of adoption. They will age. The ordering they sit under does not move on the same clock.
+
+How fast any of this returns is set by absorption capacity: how fast the organization adopts a paved road, retires the manual work it replaces, and keeps a working understanding of what changed. Absorption has a measurable cost. [DORA's 2024 State of DevOps research](https://dora.dev/research/2024/dora-report/) found that standing up a platform first cost roughly an eight percent dip in delivery throughput before the platform matured: the gain arrived after a temporary dip, paced by how fast teams absorbed the change, not by the rollout date.
+
 ### BAU Activities (Constrain)
 
 **Characteristics**:
@@ -101,7 +107,7 @@ Organizations approaching this inflection point can choose between different res
 
 **Resource Allocation**: Primary investment focus past crisis point
 
-**Expected ROI**: 6-18 months with compound returns
+**Expected ROI**: 6-18 months with compound returns (2026 baseline, modeled; paced by absorption capacity, not a fixed calendar)
 
 !!! example "Scaling Investment Examples"
     - **Paved Roads**: Secure templates that eliminate security review needs
@@ -124,7 +130,7 @@ Organizations approaching this inflection point can choose between different res
 
 **Resource Allocation**: Enhancement to scaling investments
 
-**Expected ROI**: 12-24 months with market amplification
+**Expected ROI**: 12-24 months with market amplification (2026 baseline, modeled; same caveat as above)
 
 ## Investment Evaluation Framework
 
@@ -137,13 +143,13 @@ When evaluating security investments, consider these criteria:
 | **Time to Value** | How quickly will benefits become measurable? | Affects organizational confidence |
 | **Cultural Alignment** | Does this support learning culture and psychological safety? | Determines long-term sustainability |
 | **Organizational Change Requirements** | What adoption challenges should we anticipate? | Affects implementation success probability |
-| **Adversary Economics** | Does this make attacks more expensive or time-consuming? | Security succeeds when it shifts cost-benefit against attackers |
+| **Adversary Economics** | Does this close the surface it claims, or only raise the cost on paths already covered? | Coverage is the test. Cost-raising counts on top of a boundary that contains the breach, not instead of it. |
 
 ## Designing Security Capabilities That Compound
 
 ### The "Catch and Store" Principle
 
-The most sustainable security investments don't just solve immediate problems—they capture organizational effort and store it in reusable capabilities that serve future needs without additional manual work.
+The most sustainable security investments do more than solve immediate problems. They capture organizational effort and store it in reusable capabilities that serve future needs without additional manual work.
 
 !!! tip "Renewable Energy Analogy"
     Like renewable energy systems that provide ongoing value after initial investment, effective scaling investments become self-sustaining and increasingly valuable over time.
@@ -171,7 +177,7 @@ The most sustainable security investments don't just solve immediate problems—
 - Reinforcing improvements over time
 
 !!! warning "Avoid Energy-Consuming Tools"
-    Some security tools create new maintenance burdens without proportional value. Favor investments that become more valuable and less demanding over time—capabilities that store energy rather than consume it.
+    Some security tools create new maintenance burdens without proportional value. Favor investments that become more valuable and less demanding over time, capabilities that store energy rather than consume it.
 
 ## BAU Constraint Strategy by Organizational Stage
 
@@ -220,13 +226,15 @@ Security leaders must work within inherited financial constraints while building
 When proposing the shift from traditional to strategic scaling:
 
 !!! quote "Executive Communication"
-    "We've identified that our current security approach may become a business constraint as we continue to scale. Rather than only adding capacity through hiring—which provides temporary relief—we recommend investing in capabilities that reduce manual effort requirements permanently.
+    "We've identified that our current security approach may become a business constraint as we continue to scale. Rather than only adding capacity through hiring, which provides temporary relief, we recommend investing in capabilities that reduce manual effort requirements permanently.
 
     This approach can improve both security outcomes and business velocity over time. The initial investment will create capabilities that compound: each use provides security value without proportional security team effort.
 
-    We'll measure success through developer satisfaction, security coverage, and time-to-market improvements—demonstrating that security enables rather than constrains business growth."
+    We'll measure success through developer satisfaction, security coverage, and time-to-market improvements, demonstrating that security enables rather than constrains business growth."
 
 ## Implementation Roadmap
+
+Run it in this order: assess, pilot, constrain, expand. The quarter labels are a 2026 baseline cadence. An organization with high absorption capacity may move through it in two quarters; one stabilizing heavy BAU debt may need a year. Pace the moves to what the organization can absorb, not to the calendar.
 
 **Quarter 1: Assessment and Planning**
 - Measure current BAU demand and capacity

@@ -48,14 +48,32 @@ test:
     - merge_requests
     - branches
 
-# Build: Generate site with auto-generated PDF on master branch
+# Build: strict site + the downloadable core PDF, on master.
+#
+# Two-config split (see mkdocs.pdf.yml for the why):
+#   1. `mkdocs build --strict` uses the default config (NO with-pdf) so link
+#      validation stays on and the build is green.
+#   2. `mkdocs build -f mkdocs.pdf.yml` is a SEPARATE non-strict build that
+#      generates the core-of-SF² PDF (Foundation -> Conditions -> Positioning
+#      -> Investment) into pdf-build/. We copy that PDF into site/pdf/ so it
+#      ships with Pages and the home-page "Download Core PDF" button resolves
+#      at /pdf/sf2-framework.pdf.
 build:
   stage: build
   script:
     - mkdocs build --strict --verbose
-    - echo "Site built successfully"
-    - ls -lah site/
-    - ls -lah site/pdf/ || echo "PDF directory check"
+    - mkdocs build -f mkdocs.pdf.yml
+    # Guard: the PDF build is non-strict, so it will not fail the pipeline if the
+    # PDF silently goes missing or comes out empty/truncated. Assert it exists and
+    # clears a size floor before shipping it, so a broken PDF fails the deploy
+    # loudly instead of publishing a dead download button.
+    - test -f pdf-build/pdf/sf2-framework.pdf || { echo "ERROR core PDF was not generated"; exit 1; }
+    - PDF_BYTES=$(stat -c%s pdf-build/pdf/sf2-framework.pdf); echo "core PDF size ${PDF_BYTES} bytes"
+    - test "$PDF_BYTES" -ge 51200 || { echo "ERROR core PDF is suspiciously small (${PDF_BYTES} bytes, floor 51200)"; exit 1; }
+    - mkdir -p site/pdf
+    - cp pdf-build/pdf/sf2-framework.pdf site/pdf/sf2-framework.pdf
+    - echo "Site built (strict) and core PDF generated"
+    - ls -lah site/pdf/
   artifacts:
     paths:
       - site/
@@ -76,22 +94,6 @@ pages:
       - public
   only:
     - master
-
-# Note: PDF is now automatically generated during regular build
-# This manual job is kept for backwards compatibility if needed
-pdf:
-  stage: build
-  script:
-    - mkdocs build --strict
-    - mkdir -p pdf
-    - cp site/pdf/sf2-framework.pdf pdf/ || echo "PDF generation failed"
-  artifacts:
-    paths:
-      - pdf/
-    expire_in: 30 days
-  only:
-    - tags
-  when: manual
 
 # Lint markdown files
 lint:

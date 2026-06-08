@@ -1,204 +1,47 @@
-# Third-Party Stewardship
+# Third-Party
 
-## The Integration Ecosystem
+Third-Party asks a harder question than Supply Chain: do you know what you handed off, and who holds the bag when it fails? This is the function you delegated rather than the code you embedded. The payments processor, the data warehouse, the identity-verification provider, the cloud, the SIEM. Some of these are infrastructure. Others are core to how your product delivers value at all. Either way, you do not run them, and you cannot see inside them.
 
-Modern software factories rarely operate in isolation—they integrate with cloud providers, monitoring services, development tools, and business platforms. Third-party stewardship addresses the security implications of these operational dependencies.
+That is the defining trait of this condition: opacity. You will never inspect your cloud provider's hypervisor or audit your SIEM vendor's internal controls directly. Third-Party is weather. You cannot change it. You can only prepare for it. The way it fails is that they got breached, and you inherited the consequence anyway.
 
-## Core Responsibility
+## Liability moves; responsibility does not
 
-Managing security risks from integrated services, platforms, and vendors throughout their operational lifecycle.
+A shared-responsibility model splits the work, and a contract can move a capped slice of the financial loss to the vendor through indemnities, a security super-cap, and a matched cyber policy. That money moves only after the failure, and only the part you could put a number on. It does not move the work of preventing the failure, or the duty to answer for it. Responsibility shifts; accountability never leaves you. Regulators treat it the same way: a board stays responsible for an outsourced function as if it ran in-house. When your identity provider leaks your users' credentials, your users do not call the vendor. They call you.
 
-!!! info "Beyond Supply Chain"
-    While [Supply Chain Stewardship](supply-chain.md) focuses on dependencies incorporated into your software, Third-Party Stewardship addresses operational services and platforms that support your software factory.
+This is where compliance gets misread. Compliance is a market-access key, not a security proof. A vendor earns FedRAMP to unlock the federal market, not to become safe to depend on. The attestation expands their addressable market and retires none of your risk. Read a SOC 2 or a FedRAMP authorization as evidence that a vendor cleared a bar, never as a transfer of the responsibility that stays with you.
 
-## Key Focus Areas
+This is the [Foundation accountability premise](../01-foundation/software-factory-definition.md) narrowed to the functions you delegate. No law lets you transfer the responsibility itself, only a capped slice of its cost, and that is why it cannot be argued away.
 
-### 1. Integration Security Risk Management
+## Operating is not delegating
 
-**Risk Assessment**:
+The agent era splits the vendor relationship in two. A **provider** ships the model or tool; you take it on the same terms as any other opaque dependency, and everything above applies. An **operator** runs an agent in its own environment, wired to its own credentials, data, and systems. Most organizations running AI agents are operators, and operating is not delegating. You did not build the model and cannot see how it reasons, but the authority it acts with is something you assembled: the token it carries, the systems it can reach, the actions it can take.
 
-- Security evaluation before integration
-- Data flow mapping and classification
-- Access scope and permission analysis
-- Vendor security posture assessment
-- Ongoing risk monitoring
+When you delegate a function you hand off the work, and a contract can move a capped slice of the cost back. When you operate an agent you keep the work, and usually carry the cost alone. How it goes wrong depends on what feeds it: exposed to input you do not control, it is the confused-deputy case; kept to internal, trusted inputs, the risk runs through a compromised account, an insider, or its own error, with the agent widening the reach of each. Either way it acts with the authority you gave it, and that reach is yours to bound.
 
-**Integration Patterns**:
+But you can only bound it as finely as the platforms beneath it allow: some reach you scope, some the platform sets for you. Your agent needs to read one project and the platform's token reads them all. To post a comment, it has to hold a scope that also lets it delete the repository. You did not choose that breadth and you often cannot remove it. The provider defines what is expressible in the authorization vocabulary; you stay [accountable](../01-foundation/software-factory-definition.md) for what you express, and for choosing that substrate at all. The residual is yours to answer for twice over. A capability limit is only as fine as the platform's model allows; [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) is where you attenuate within that floor. Bound what you can at the layers you control, compensate at runtime for what the substrate cannot express, and count coarse primitives as a real cost when you choose what to build on.
 
-- API security and authentication
-- Service-to-service encryption
-- Least-privilege access controls
-- Network segmentation where appropriate
-- Regular security review of integrations
+Regulators are drawing the same line. The [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) separates the provider that builds and places a system from the deployer, the operator in this chapter's terms, that uses it under its own authority, and it shifts a deployer toward provider obligations precisely as it modifies and repurposes the system. And the chain rarely stops at one link. A provider can itself be an operator, routing your data through native or OEM integration to sub-providers you never contracted and cannot see, so the residual travels a hop deeper than the link you signed. [Boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) is where you contain it. The more you wire an agent into your operation, the more of it lands on you.
 
-!!! example "Common Third-Party Integrations"
-    - **Cloud Providers**: AWS, GCP, Azure
-    - **Development Tools**: GitHub, GitLab, CI/CD platforms
-    - **Monitoring/Observability**: Datadog, New Relic, Splunk
-    - **Business Tools**: Slack, Google Workspace, Salesforce
-    - **Security Tools**: SIEM, vulnerability scanners, identity providers
+## What cultivating it looks like
 
-### 2. Shared Responsibility Model Clarity
+Because you cannot inspect the vendor, you cultivate this condition by preparing for the day it fails.
 
-**Responsibility Boundaries**:
+- **Contain the blast radius before you need to.** Scope what each vendor can reach to the minimum the function requires. The vendor breach you survive is the one whose reach you bounded in advance.
+- **Assume the breach and rehearse it.** Know which vendors are load-bearing, what happens to your product when one goes dark or goes hostile, and how you fail over. A contingency plan you have never tested is a hope.
+- **Make the shared-responsibility line explicit.** Most third-party incidents trace to a boundary nobody owned because each side assumed the other had it. Write down who secures what, then check the assumption against reality.
+- **Monitor the surface you can see.** You cannot watch their internals, but you can watch what they expose to you: the access they hold, the data crossing the boundary, the certifications lapsing.
 
-- Clear documentation of who secures what
-- Regular validation of assumptions
-- Training on shared responsibility
-- Audit of actual vs. documented responsibilities
-- Incident response coordination procedures
+## How tending differs by position
 
-**Common Shared Responsibility Areas**:
+A [Craft](../03-positioning/two-axis-model.md) shop tends Third-Party with a short list of critical vendors and a tested plan for the two or three it cannot live without. A [Lean](../03-positioning/two-axis-model.md) enterprise tends it with vendor risk scoring, pre-approved integration patterns, and failover rehearsed as a matter of course. Both are doing the same thing: bounding what an opaque dependency can do to them.
 
-- **Cloud Infrastructure**: Provider secures physical layer, you secure workloads
-- **SaaS Applications**: Provider secures application, you secure access and data
-- **Platform Services**: Provider secures platform, you secure usage and configuration
-- **Identity Providers**: Provider secures authentication, you secure authorization
+## Where it shows up
 
-!!! warning "Shared Responsibility Failures"
-    Many security incidents result from misunderstandings about responsibility boundaries. Document and validate assumptions regularly.
-
-### 3. Service Provider Security Monitoring
-
-**Ongoing Assessment**:
-
-- Vendor security posture tracking
-- Compliance certification monitoring
-- Security incident notification requirements
-- Regular vendor security reviews
-- Third-party audit rights and execution
-
-**Vendor Communication**:
-
-- Established security contacts
-- Incident notification procedures
-- Change management communication
-- Security improvement collaboration
-- Escalation paths for security issues
-
-### 4. Contingency Planning
-
-**Service Failure Preparation**:
-
-- Business continuity plans for critical services
-- Data portability and backup strategies
-- Alternative provider evaluation
-- Failover and recovery procedures
-- Regular testing of contingency plans
-
-**Vendor Security Incident Response**:
-
-- Coordinated incident response procedures
-- Customer data protection protocols
-- Communication templates and responsibilities
-- Recovery procedures and validation
-- Post-incident review processes
-
-### 5. Contract and SLA Security Requirements
-
-**Contractual Protections**:
-
-- Security requirements in vendor contracts
-- Data protection and privacy clauses
-- Incident notification SLAs
-- Audit rights and compliance requirements
-- Termination and data return procedures
-
-**SLA Monitoring**:
-
-- Security SLA tracking and reporting
-- Performance against security commitments
-- Escalation for SLA violations
-- Regular SLA review and updates
-
-## Success Indicators
-
-| Indicator | Description | Target |
-|-----------|-------------|--------|
-| **Integration Assessment Coverage** | Percentage of third-party integrations with security assessment | 100% of critical integrations |
-| **Shared Responsibility Validation** | Frequency of shared responsibility model review | Quarterly |
-| **Vendor Security Review Completion** | Percentage of critical vendors reviewed annually | 100% |
-| **Contingency Plan Testing** | Critical service contingency plans tested | Annually minimum |
-| **Contract Compliance** | Vendor adherence to security contract requirements | >95% |
-| **Incident Coordination Time** | Time to coordinate response with vendor during incident | <2 hours |
-
-## Implementation by Strategic Position
-
-### Visionaries (Simple + High Readiness)
-- Cloud-native service integrations with built-in security
-- Automated vendor security monitoring
-- Policy-as-code for integration governance
-- Modern identity and access management
-
-### Leaders (Complex + High Readiness)
-- Enterprise vendor risk management platforms
-- Comprehensive third-party security orchestration
-- Cross-organization integration policies
-- Advanced vendor security scorecards
-
-### Niche Players (Simple + Low Readiness)
-- Basic vendor security questionnaires
-- Manual integration documentation
-- Spreadsheet-based vendor tracking
-- Focus on critical vendor relationships first
-
-### Challengers (Complex + Low Readiness)
-- Pragmatic vendor prioritization (critical first)
-- Hybrid manual/automated assessment
-- Gradual integration security improvements
-- Leverage existing procurement infrastructure
-
-## Strategic Investments That Scale
-
-### Vendor Risk Management Platform
-
-**Centralized Oversight**:
-
-- Single source of truth for vendor relationships
-- Automated vendor security assessment
-- Risk scoring and trending
-- Integration with procurement systems
-- Continuous monitoring capabilities
-
-### Integration Security Patterns
-
-**Reusable Security Controls**:
-
-- Pre-approved integration patterns
-- Security-vetted service catalogs
-- Template contracts with security requirements
-- Standardized authentication and authorization
-- Automated security validation
-
-## Common Pitfalls
-
-!!! warning "Anti-Patterns to Avoid"
-    **Set-and-Forget Assessments**: Initial vendor review without ongoing monitoring
-
-    **Security Questionnaire Theater**: Relying solely on vendor self-assessment
-
-    **Shadow IT**: Unmanaged third-party integrations circumventing security review
-
-    **Unclear Responsibility**: Assumptions about shared responsibility without validation
-
-    **No Contingency Planning**: Single points of failure without backup plans
-
-## Quick Start Checklist
-
-For organizations starting third-party stewardship:
-
-- [ ] **Week 1**: Inventory all third-party services and integrations
-- [ ] **Week 2**: Identify critical vendors requiring immediate security review
-- [ ] **Week 3**: Document shared responsibility assumptions for critical services
-- [ ] **Month 2**: Conduct security assessments for top 5 critical vendors
-- [ ] **Month 3**: Establish vendor security incident notification procedures
-- [ ] **Quarter 2**: Develop contingency plans for single points of failure
-- [ ] **Quarter 3**: Implement vendor security review cadence
-- [ ] **Quarter 4**: Test contingency plans for critical service failures
+Third-Party failures are bounded by [Runtime](runtime.md) containment, which is why the two conditions are read together. And the line between Third-Party and [Supply Chain](supply-chain.md) is the line between what you delegated and what you embedded. Keep them apart on the page so they stay apart in the work: one is an opacity problem you prepare for, the other a comprehension problem you can fix.
 
 ---
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Continuous Learning](continuous-learning.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Runtime Stewardship](runtime.md){ .md-button }
+[:octicons-arrow-right-24: Process](process.md){ .md-button .md-button--primary }
+[:octicons-arrow-left-24: Back to Supply Chain](supply-chain.md){ .md-button }

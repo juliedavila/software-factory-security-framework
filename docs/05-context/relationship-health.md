@@ -1,8 +1,8 @@
 # Relationship Health
 
-## Trust as Implementation Accelerator
+## Adoption Velocity Is the Binding Constraint
 
-The health of relationships between security and engineering teams directly affects adoption velocity and scaling investment success. Strong relationships enable rapid transformation; damaged relationships create friction and delay.
+A scaling investment pays off only when the organization takes it up. The capability you ship sets a ceiling; how fast it gets adopted decides whether you ever reach it. That makes adoption velocity the binding constraint on this modifier once the capability exists. Relationship health is the strongest lever on it while the people doing the adopting are human: strong relationships speed adoption, damaged ones turn every rollout into a negotiation.
 
 ## Relationship Levels
 
@@ -70,23 +70,29 @@ The health of relationships between security and engineering teams directly affe
 
 **Strong relationships enable**:
 - Faster adoption of scaling investments
-- Higher voluntary participation rates
+- Higher adoption through low-friction, often voluntary, participation
 - Better feedback and iteration
 - Innovation opportunities
 - Sustainable transformation
 
 **Weak relationships require**:
 - Extended relationship-building before transformation
-- More mandatory controls (less voluntary adoption)
+- A shift to low-friction defaults rather than more mandates
 - Slower rollouts with more resistance
 - Limited innovation opportunities
 - Higher risk of transformation failure
 
+The reflex when relationships are weak is to make more controls mandatory and accept the resistance. That reads the trade-off as mandatory against voluntary, when the axis that governs adoption is friction. A secure default built into the [paved road](https://dora.dev/capabilities/platform-engineering/) is mandatory and low-friction at once: dependency scanning that runs in the pipeline and blocks only on a critical finding gets full adoption because no one has to choose it. The mandatory-versus-voluntary frame misses that whole quadrant. When trust is thin, the move that protects adoption velocity is to lower friction, to make the secure path the default path, so the capability lands even before the relationship does.
+
 ---
+
+## When the Counterparty Is an Agent
+
+Everything above assumes a person is doing the adopting. Relationship health is a property of people. An agent does not adopt through trust; it is governed by what it is allowed to do. As more of the work shifts to agents, the weight of this modifier shifts with it: the lever stops being the relationship and becomes the [capability boundary](../10-coadaptive/04-boundary-enforcement.md). You do not build trust with an agent. You bind what it can do.
 
 ## Next Steps
 
-You've completed all six contextual modifiers! Return to the overview or continue to Implementation Guides:
+Six modifiers down, one to go. Continue to AI Saturation, the seventh and newest:
 
-[:octicons-arrow-right-24: Continue to Implementation Guides](../06-implementation/visionaries.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Continue to AI Saturation](ai-saturation.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers Overview](overview.md){ .md-button }

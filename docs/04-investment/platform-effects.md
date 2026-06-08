@@ -2,7 +2,7 @@
 
 ## Multiplicative Value for Platform Companies
 
-Platform companies—organizations that provide capabilities to other software factories—have unique opportunities to create value that extends beyond their immediate organization. However, these opportunities come with important constraints and strategic considerations.
+Platform companies, organizations that provide capabilities to other software factories, have unique opportunities to create value that extends beyond their immediate organization. However, these opportunities come with important constraints and strategic considerations.
 
 **Critical Principle**: Platform effects should serve as investment multipliers, not primary drivers. The internal business case must work first.
 
@@ -74,7 +74,7 @@ Use this systematic framework to evaluate security investments when you're a pla
 
 | Dimension | Assessment Criteria | Weight | Strategic Implication |
 |-----------|-------------------|--------|----------------------|
-| **Direct Security Benefit** | Does this solve our internal security problems? | Primary | Business case foundation—must pass threshold independently |
+| **Direct Security Benefit** | Does this solve our internal security problems? | Primary | Business case foundation, must pass threshold independently |
 | **Multiplicative Customer Value** | Does this create additional customer value? | Enhancement | Multiplier on internal business case, breaks ties between competing investments |
 | **Competitive Differentiation** | Does this create defensible advantages? | Strategic | Market positioning, pricing power, customer acquisition/retention |
 | **Industry Influence** | Does this position us as thought leaders? | Market | Long-term market development, standard adoption, ecosystem benefits |
@@ -84,7 +84,7 @@ Use this systematic framework to evaluate security investments when you're a pla
 ### Decision Matrix
 
 **Strong Internal + Strong Customer Value** (Highest Priority):
-- Example: Automated vulnerability management solving your supply chain problems that customers can leverage
+- Example: Automated vulnerability management solving your supply chain problems that customers can use
 - Priority: Accelerate implementation, allocate cross-functional resources, market aggressively
 - Timeline Impact: May justify 30-50% faster implementation than internal-only business case
 - Investment Level: Can justify 2-3x higher investment than internal-only features
@@ -97,12 +97,12 @@ Use this systematic framework to evaluate security investments when you're a pla
 
 **Weak Internal + Strong Customer Value** (Avoid):
 - Example: Security features customers request but your team doesn't use
-- Priority: Decline or deprioritize—likely maintenance burden without sustainability
+- Priority: Decline or deprioritize, likely maintenance burden without sustainability
 - Warning: High risk of poor execution, customer disappointment, wasted investment
 
 **Weak Internal + Weak Customer Value** (Reject):
 - Example: Security theater features for marketing purposes
-- Priority: Hard reject—diverts resources from valuable work
+- Priority: Hard reject, diverts resources from valuable work
 - Risk: Damages credibility with both internal teams and customers
 
 ---
@@ -208,7 +208,7 @@ When you've identified a security investment with both internal and customer val
 - Customers achieve measurable security improvements
 - Feedback validates value hypothesis
 - Support burden matches predictions
-- Customers actively use capability (not just enable it)
+- Customers actively use the capability rather than only enabling it
 
 **Timeline**: 3-6 months typically
 
@@ -262,7 +262,7 @@ Evaluate whether security investments create defensible competitive advantages:
 
 ### Communication Strategy for Platform Companies
 
-**Critical Balance**: Platform companies must clearly communicate that platform security capabilities serve dual purposes—protecting the platform while enabling customer security—without creating unrealistic expectations about security responsibility transfer.
+**Critical Balance**: Platform companies must clearly communicate that platform security capabilities serve dual purposes, protecting the platform while enabling customer security, without creating unrealistic expectations about security responsibility transfer.
 
 !!! warning "The Shared Responsibility Clarity Requirement"
     Platform security features enhance customer capabilities but don't transfer security accountability. Customers remain responsible for their security decisions and implementations.

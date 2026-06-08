@@ -5,7 +5,7 @@
 Crisis events create unique windows for organizational change. Security incidents, compliance failures, and business disruptions can rapidly accelerate quadrant movement by shifting organizational priorities and unlocking resources.
 
 !!! tip "Crisis as Catalyst"
-    Well-managed crisis events can compress years of gradual transformation into months of focused change. The key is being prepared with strategic plans when crisis creates opportunity.
+    A crisis dissolves the friction that normally slows reallocation: priorities clear, budget frees, approvals that took quarters take days. It funds none of that on its own; the freed resources flow to whoever already holds a ready roadmap. The work is to stay staged so the window finds you ready.
 
 ## Types of Crisis Events
 
@@ -38,7 +38,7 @@ Crisis events create unique windows for organizational change. Security incident
 ### During Crisis
 **Heightened urgency**: Security becomes top priority, resources unlock, decisions accelerate
 
-**Window of opportunity**: 3-6 months of elevated priority and funding
+**Window of opportunity**: A finite stretch of elevated priority and funding. Practitioners often plan for one to two quarters; treat that as a rule of thumb, not a measured figure. Plan for it to close sooner than you expect.
 
 ### Post-Crisis
 **Two possible outcomes**:
@@ -77,11 +77,12 @@ Crisis events create unique windows for organizational change. Security incident
 
 ## Using Crisis Strategically
 
-**Be Prepared**:
-- Maintain ready strategic roadmap
-- Have business cases prepared
-- Know required resources
-- Understand organizational blockers
+**Stay Staged**: A crisis arrives on its own schedule, and the window closes on its own schedule, so a roadmap written once and parked is stale by the time it is needed. Staying staged starts with knowing your top systemic risks as a software producer, named concretely enough to hold a plan against each. What sits at the top is yours, not a standard list: for one org it is workstation access into production, for another a missing artifact server or no hardened base-image service, for another a supply chain it cannot see into. Stage the highest-priority one or two, and add the rest as your [change capacity](change-capacity.md) allows. When one of those risks lands, the staged roadmap is most of the answer already. Contain the incident, run the retro, and let what it teaches sharpen the staged roadmap before you launch it inside the window. If the budget was not there before, use the now-visible risk to build the case the organization was not ready to hear.
+
+- Keep a response plan for your highest-priority risks (one or two for a thin team)
+- Rebaseline those plans on a cadence
+- Refresh business cases against current numbers
+- Know the organizational blockers, and which a crisis removes
 
 **Act Quickly**:
 - Present solutions during crisis

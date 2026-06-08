@@ -1,0 +1,84 @@
+# Overlay config for the downloadable CORE-of-SF² PDF.
+#
+# WHY THIS EXISTS, SEPARATE FROM mkdocs.yml:
+#   The with-pdf plugin collapses the whole site into one combined document.
+#   weasyprint then cannot resolve cross-page anchors (link to #section on
+#   another page), so it emits hundreds of link warnings. Those warnings fail
+#   `mkdocs build --strict`, which CI runs on every branch and the Pages deploy.
+#   Keeping with-pdf out of the default config lets the strict build stay green
+#   with full link validation. This overlay carries the PDF concern on its own,
+#   built NON-strict, so the warnings are tolerated.
+#
+# WHAT IT PRODUCES:
+#   A downloadable PDF of the CORE of SF² — Foundation, the Universal Security
+#   Conditions, Strategic Positioning, and the Investment Portfolio. Appendix,
+#   use-cases, contextual modifiers, framework relationships, the Coadaptive
+#   layer, and AI-integration are intentionally excluded: the PDF is the core
+#   argument, not a mirror of every page, and the narrower scope keeps the
+#   cross-page-anchor noise down.
+#
+# BUILD:
+#   mkdocs build -f mkdocs.pdf.yml          (non-strict; outputs to pdf-build/)
+#   -> PDF lands at pdf-build/pdf/sf2-framework.pdf
+#   The `pdf` CI job copies it into site/pdf/ so it ships with Pages and the
+#   "Download PDF" button on the home page resolves.
+
+INHERIT: mkdocs.yml
+
+# Build into a dedicated directory so it never clobbers the main `site/` build.
+site_dir: pdf-build
+
+# with-pdf converts EVERY page mkdocs builds, not just the ones in `nav`. To
+# scope the PDF to the core, exclude the rest from the build itself (gitignore
+# syntax, relative to docs/). This is what actually keeps the non-core sections
+# — and most of the cross-page-anchor noise — out of the combined document.
+exclude_docs: |
+  05-context/
+  06-implementation/
+  07-relationships/
+  08-use-cases/
+  09-ai-integration/
+  10-coadaptive/
+  appendix/
+  assets/README.md
+  404.md
+  ai-framework-summary.md
+  contributing.md
+  executive-summary.md
+  index.md
+
+# A child `nav` replaces the parent's. Scope the combined PDF to the core
+# sections in reading order; with-pdf concatenates pages in nav order.
+nav:
+  - Foundation:
+    - Software Factory Definition: 01-foundation/software-factory-definition.md
+    - "Engaging the Atelier Critique": 01-foundation/atelier-engagement.md
+  - Universal Security Conditions:
+    - Overview: 02-stewardship/overview.md
+    - "Supply Chain (#1)": 02-stewardship/supply-chain.md
+    - Third-Party: 02-stewardship/third-party.md
+    - Process: 02-stewardship/process.md
+    - Runtime: 02-stewardship/runtime.md
+    - Adaptive Capacity: 02-stewardship/adaptive-capacity.md
+  - Strategic Positioning:
+    - Two-Axis Model: 03-positioning/two-axis-model.md
+    - Four Strategic Positions: 03-positioning/strategic-positions.md
+    - Movement Paths: 03-positioning/movement-paths.md
+  - Investment Portfolio:
+    - Portfolio Framework: 04-investment/portfolio-framework.md
+    - BAU vs Scaling: 04-investment/bau-vs-scaling.md
+    - Platform Effects: 04-investment/platform-effects.md
+    - Evaluation Criteria: 04-investment/evaluation-criteria.md
+
+# A child `plugins` list replaces the parent's. The PDF build needs only the
+# PDF generator; social cards, minify, git dates, and print-site are all
+# irrelevant here and only slow the build or conflict with with-pdf.
+plugins:
+  - with-pdf:
+      author: Julie Davila
+      copyright: Copyright © 2025 Julie Davila | Licensed under CC BY 4.0
+      cover_title: "SF² — Core Framework"
+      cover_subtitle: Software Factory Security Framework
+      cover_logo: assets/logo.svg
+      output_path: pdf/sf2-framework.pdf
+      toc_title: Contents

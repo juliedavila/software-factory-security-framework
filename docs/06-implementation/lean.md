@@ -1,8 +1,8 @@
-# Implementation Guide: Leaders
+# Implementation Guide: Lean
 
 ## Position Characteristics
 
-**Leaders** occupy the Complex + High Readiness quadrant:
+**Lean** organizations occupy the Complex + High Readiness quadrant:
 
 - **Large-scale operational complexity** (200+ engineers, multiple products/services)
 - **Mature infrastructure** (sophisticated cloud platforms, advanced automation)
@@ -34,7 +34,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 **Investment Focus**:
 - Security platforms with self-service capabilities
 - Policy-as-code at organizational scale
-- Federated security models (security champions, guild structure)
+- Federated security models (champions who set boundaries, not gate changes)
 - Reusable security components and libraries
 
 **Avoid**:
@@ -44,7 +44,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 
 ### 3. Innovate for Competitive Advantage
 
-Security should be a differentiator, not just cost center.
+Security should be a differentiator, not a cost center.
 
 **Investment Focus**:
 - Security product capabilities (if customer-facing software factory)
@@ -63,12 +63,12 @@ Security should be a differentiator, not just cost center.
 - [ ] Conduct comprehensive capability assessment across all stewardship areas
 - [ ] Identify high-effort, low-impact security activities (candidates for elimination)
 - [ ] Map platform adoption rates and satisfaction
-- [ ] Review outcome metrics (not just activity metrics)
+- [ ] Review outcome metrics rather than activity metrics
 
 ### Quarter 1: Optimization
 - [ ] Eliminate or automate 3 low-value security activities
 - [ ] Implement data-driven optimization for top security platform
-- [ ] Establish federated security model (champions, guilds)
+- [ ] Establish federated security model (champions set team boundaries, platform enforces)
 - [ ] Define clear outcome metrics for each stewardship area
 
 ### Quarter 2: Innovation
@@ -207,7 +207,7 @@ Continuous effort required to maintain leadership position:
 
 **Critical Success Factor**: Balance innovation with operational excellence
 
-### Risk: Regressing to Challenger
+### Risk: Regressing to Mass
 Without continuous investment, complexity can overwhelm readiness:
 
 **Warning Signs**:
@@ -253,7 +253,7 @@ Advanced supply chain security:
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Niche Players Implementation](niche-players.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Visionaries Implementation](visionaries.md){ .md-button }
+[:octicons-arrow-right-24: Continue to Craft Implementation](craft.md){ .md-button .md-button--primary }
+[:octicons-arrow-left-24: Back to Studio Implementation](studio.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/leaders.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/lean.md){ .md-button }

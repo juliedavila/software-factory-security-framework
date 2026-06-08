@@ -2,7 +2,7 @@
 
 ## How Organizations Transition Between Positions
 
-Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Leaders position (Complex + High Readiness), but **the path you take determines your likelihood of success**.
+Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Complex + High Readiness), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
     Quadrant transitions are organizational transformations, not technology projects. Single-axis movements (changing one dimension) take 12-24 months and have high success probability. Dual-axis transformations (changing both dimensions simultaneously) take 36-48 months and carry significant failure risk.
@@ -11,16 +11,16 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 ## The Strategic Movement Framework
 
-### The Goal Position: Leaders
+### The Goal Position: Lean
 
-**Why Leaders**: The Leaders quadrant combines enterprise-scale capabilities with operational excellence. Organizations in this position achieve:
+**Why Lean**: The Lean quadrant combines enterprise-scale capabilities with operational excellence. Organizations in this position achieve:
 
 - Security capabilities that scale automatically with organizational growth
 - Developer experience improvements that increase rather than constrain velocity
 - Platform approaches that enable innovation while maintaining security controls
 - Cultural integration where security is a competitive advantage, not a constraint
 
-**Reality Check**: Not every organization needs to reach Leaders immediately. Your optimal target depends on your business trajectory and organizational change capacity.
+**Reality Check**: Not every organization needs to reach Lean immediately. Your optimal target depends on your business trajectory and organizational change capacity.
 
 ---
 
@@ -28,18 +28,18 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 | From → To | Movement Type | Timeline | Success Probability | Strategic Guidance |
 |-----------|---------------|----------|---------------------|-------------------|
-| **Niche Players → Visionaries** | Single-axis (Readiness ↑) | 12-18 months | High ⭐⭐⭐⭐ | [Operational Readiness Path](#path-1-niche-players-visionaries-operational-readiness) |
-| **Niche Players → Challengers** | Single-axis (Complexity ↑) | 18-24 months | Moderate ⭐⭐ | [Complexity Scaling Path](#path-2-niche-players-challengers-complexity-scaling) |
-| **Visionaries → Leaders** | Single-axis (Complexity ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-visionaries-leaders-enterprise-scaling) |
-| **Challengers → Niche Players** | Single-axis (Complexity ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-challengers-niche-players-simplification) |
-| **Challengers → Leaders** | Dual-axis | 36-48 months | Moderate ⭐⭐ | [Dual Transformation Path](#path-5-challengers-leaders-dual-transformation) |
-| **Leaders → Leaders** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-leaders-position) |
+| **Craft → Studio** | Single-axis (Readiness ↑) | 12-18 months | High ⭐⭐⭐⭐ | [Operational Readiness Path](#path-1-craft-studio-operational-readiness) |
+| **Craft → Mass** | Single-axis (Complexity ↑) | 18-24 months | Moderate ⭐⭐ | [Complexity Scaling Path](#path-2-craft-mass-complexity-scaling) |
+| **Studio → Lean** | Single-axis (Complexity ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
+| **Mass → Craft** | Single-axis (Complexity ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
+| **Mass → Lean** | Dual-axis | 36-48 months | Moderate ⭐⭐ | [Dual Transformation Path](#path-5-mass-lean-dual-transformation) |
+| **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
 
 ---
 
-## Path 1: Niche Players → Visionaries (Operational Readiness)
+## Path 1: Craft → Studio (Operational Readiness)
 
-<div class="quadrant-visionaries" markdown>
+<div class="quadrant-studio" markdown>
 
 **Movement Type**: Single-axis (Increasing Operational Readiness)
 
@@ -99,15 +99,15 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 ### Common Pitfalls
 
 !!! warning "The 'Lift and Shift' Trap"
-    **Risk**: Moving legacy systems to cloud without architectural modernization—you get cloud bills without operational readiness benefits
+    **Risk**: Moving legacy systems to cloud without architectural modernization. You get cloud bills without operational readiness benefits
 
     **Solution**: Modernize incrementally. Start with new services cloud-native, migrate legacy strategically with re-architecture where beneficial
 
 ---
 
-## Path 2: Niche Players → Challengers (Complexity Scaling)
+## Path 2: Craft → Mass (Complexity Scaling)
 
-<div class="quadrant-challengers" markdown>
+<div class="quadrant-mass" markdown>
 
 **Movement Type**: Single-axis (Increasing Operational Complexity)
 
@@ -125,13 +125,13 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 - Investment in operational readiness infrastructure isn't immediately feasible
 
 **No, if:**
-- You can afford to invest in readiness first (Niche → Visionaries → Leaders is better)
+- You can afford to invest in readiness first (Craft → Studio → Lean is better)
 - Current manual processes are already creating business constraints
 - Team has capacity to focus on foundational improvements
 
 ### Strategic Warning
 
-**This path creates technical debt**. You're adding complexity (multiple teams, enterprise features, regulatory requirements) without corresponding automation infrastructure. Plan for eventual Challengers → Leaders transformation requiring 36-48 months.
+**This path creates technical debt**. You're adding complexity (multiple teams, enterprise features, regulatory requirements) without corresponding automation infrastructure. Plan for eventual Mass → Lean transformation requiring 36-48 months.
 
 ### Key Investment Priorities
 
@@ -148,13 +148,13 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 ### Recommended Next Steps
 
-Plan immediately for Challengers → Leaders transformation. Don't stay in Challengers long-term—it's unsustainable.
+Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term. It's unsustainable.
 
 ---
 
-## Path 3: Visionaries → Leaders (Enterprise Scaling)
+## Path 3: Studio → Lean (Enterprise Scaling)
 
-<div class="quadrant-leaders" markdown>
+<div class="quadrant-lean" markdown>
 
 **Movement Type**: Single-axis (Increasing Operational Complexity)
 
@@ -166,7 +166,7 @@ Plan immediately for Challengers → Leaders transformation. Don't stay in Chall
 
 ### When to Choose This Path
 
-**Optimal scenario for sustainable growth**: You're scaling complexity while maintaining operational readiness—the high-success transformation path.
+**Optimal scenario for sustainable growth**: You're scaling complexity while maintaining operational readiness, the high-success transformation path.
 
 ### Key Investment Priorities
 
@@ -205,9 +205,9 @@ Plan immediately for Challengers → Leaders transformation. Don't stay in Chall
 
 ---
 
-## Path 4: Challengers → Niche Players (Simplification)
+## Path 4: Mass → Craft (Simplification)
 
-<div class="quadrant-niche" markdown>
+<div class="quadrant-craft" markdown>
 
 **Movement Type**: Single-axis (Reducing Operational Complexity)
 
@@ -240,15 +240,15 @@ Plan immediately for Challengers → Leaders transformation. Don't stay in Chall
 - **Organizational Resistance**: Teams resist simplification seen as "scaling back"
 - **Market Perception**: Simplification can be viewed as retreat or failure
 
-### Alternative: Consider Challengers → Leaders Instead
+### Alternative: Consider Mass → Lean Instead
 
-Most Challengers should invest in operational readiness rather than attempting to reduce complexity. The Challengers → Leaders path is difficult but more achievable than organizational simplification.
+Most Mass should invest in operational readiness rather than attempting to reduce complexity. The Mass → Lean path is difficult but more achievable than organizational simplification.
 
 ---
 
-## Path 5: Challengers → Leaders (Dual Transformation)
+## Path 5: Mass → Lean (Dual Transformation)
 
-<div class="quadrant-leaders" markdown>
+<div class="quadrant-lean" markdown>
 
 **Movement Type**: Dual-axis (Increasing Readiness while Managing Complexity)
 
@@ -260,7 +260,7 @@ Most Challengers should invest in operational readiness rather than attempting t
 
 ### When to Choose This Path
 
-**Reality**: Most Challengers organizations must take this path—you can't simplify complexity, so you must modernize operations.
+**Reality**: Most Mass organizations must take this path. You can't simplify complexity, so you must modernize operations.
 
 ### The Challenge
 
@@ -301,7 +301,7 @@ This requires sustained executive support, significant investment, and realistic
 - [ ] Organizational capability development sustaining transformation
 
 **Phase 4 (Months 37-48): Optimization**
-- [ ] Leaders-level capabilities operational across organization
+- [ ] Lean-level capabilities operational across organization
 - [ ] Legacy constraints substantially eliminated or managed
 - [ ] Security automation enabling business velocity
 - [ ] Competitive advantage realization from transformation
@@ -319,13 +319,13 @@ This requires sustained executive support, significant investment, and realistic
 
 - **12 Months**: Hybrid solutions operational, transformation roadmap with executive buy-in, visible quick wins
 - **24 Months**: Measurable automation improvements, improved readiness metrics, cultural momentum
-- **36-48 Months**: Substantial Leaders-level capabilities, security enabling rather than constraining business
+- **36-48 Months**: Substantial Lean-level capabilities, security enabling rather than constraining business
 
 ---
 
-## Path 6: Maintaining Leaders Position
+## Path 6: Maintaining Lean Position
 
-<div class="quadrant-leaders" markdown>
+<div class="quadrant-lean" markdown>
 
 **Movement Type**: Position Maintenance and Continuous Evolution
 
@@ -337,7 +337,7 @@ This requires sustained executive support, significant investment, and realistic
 
 ### The Challenge
 
-**You're not done**. The Leaders position requires continuous investment to maintain as:
+**You're not done**. The Lean position requires continuous investment to maintain as:
 - Organizational complexity continues evolving
 - Technology platforms change and require adaptation
 - Threat landscape shifts requiring capability updates
@@ -354,11 +354,11 @@ This requires sustained executive support, significant investment, and realistic
 ### Common Pitfall: Complacency
 
 !!! warning "The 'We've Arrived' Trap"
-    **Risk**: Treating Leaders position as destination rather than ongoing commitment
+    **Risk**: Treating Lean position as destination rather than ongoing commitment
 
     **Symptoms**: Platform investment declining, manual processes creeping back, cultural erosion
 
-    **Solution**: Continuous investment in capabilities matching organizational evolution. Falling from Leaders to Challengers happens when readiness can't keep pace with complexity growth.
+    **Solution**: Continuous investment in capabilities matching organizational evolution. Falling from Lean to Mass happens when readiness can't keep pace with complexity growth.
 
 ---
 
@@ -388,20 +388,20 @@ Use these questions to select your optimal path:
 
 ### Recommended Paths by Situation
 
-**High-growth startup (Niche Players)**:
-- Best: Niche → Visionaries (12-18 months) → Leaders (24-36 months)
-- Avoid: Niche → Challengers (creates technical debt requiring later remediation)
+**High-growth startup (Craft)**:
+- Best: Craft → Studio (12-18 months) → Lean (24-36 months)
+- Avoid: Craft → Mass (creates technical debt requiring later remediation)
 
-**Established enterprise with legacy (Challengers)**:
-- Best: Challengers → Leaders (36-48 months)
-- Avoid: Attempting Challengers → Niche Players (usually fails)
+**Established enterprise with legacy (Mass)**:
+- Best: Mass → Lean (36-48 months)
+- Avoid: Attempting Mass → Craft (usually fails)
 
-**Cloud-native startup scaling (Visionaries)**:
-- Best: Visionaries → Leaders (24-36 months)
+**Cloud-native startup scaling (Studio)**:
+- Best: Studio → Lean (24-36 months)
 - Maintain: High operational readiness during complexity scaling
 
-**Industry leader (Leaders)**:
-- Best: Leaders → Leaders (continuous evolution)
+**Industry leader (Lean)**:
+- Best: Lean → Lean (continuous evolution)
 - Avoid: Complacency leading to readiness degradation
 
 ---
@@ -411,7 +411,7 @@ Use these questions to select your optimal path:
 1. **Confirm Your Current Position**: Use [strategic positions assessment](strategic-positions.md#position-assessment-tool)
 2. **Select Your Target Path**: Based on business trajectory and change capacity
 3. **Review [Contextual Modifiers](../05-context/overview.md)**: Understand how your specific constraints affect timeline
-4. **Read Your Implementation Guide**: Position-specific guidance in [`06-implementation/`](../06-implementation/visionaries.md)
+4. **Read Your Implementation Guide**: Position-specific guidance in [`06-implementation/`](../06-implementation/studio.md)
 5. **Develop Transformation Roadmap**: Use sequencing strategies above to create your plan
 
 ---

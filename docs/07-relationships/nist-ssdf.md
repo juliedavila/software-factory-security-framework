@@ -13,6 +13,8 @@
 
 **SF²** tells you **HOW** to sustainably resource and scale those practices based on your organizational position.
 
+SSDF's practice groups are one expression of the practice baseline SF² sequences, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context and keeps the work pointed at bounding what the system can do.
+
 ## Integration Approach
 
 ### SSDF Provides the Practices
@@ -33,7 +35,7 @@ SF² helps you:
 
 ## Implementation by Quadrant
 
-### Visionaries (Simple + High Readiness)
+### Studio (Simple + High Readiness)
 
 **SSDF Implementation Approach**: Automated from the start
 
@@ -51,7 +53,7 @@ SF² helps you:
 
 **Timeline**: 6-12 months for comprehensive automated SSDF implementation
 
-### Leaders (Complex + High Readiness)
+### Lean (Complex + High Readiness)
 
 **SSDF Implementation Approach**: Platform-scale automation
 
@@ -69,7 +71,7 @@ SF² helps you:
 
 **Timeline**: Ongoing optimization of established SSDF capabilities
 
-### Niche Players (Simple + Low Readiness)
+### Craft (Simple + Low Readiness)
 
 **SSDF Implementation Approach**: Essential practices, pragmatic implementation
 
@@ -87,7 +89,7 @@ SF² helps you:
 
 **Timeline**: 6-12 months for essential SSDF practices
 
-### Challengers (Complex + Low Readiness)
+### Mass (Complex + Low Readiness)
 
 **SSDF Implementation Approach**: Hybrid (automated for new, pragmatic for legacy)
 
@@ -127,7 +129,7 @@ SF² helps you:
 
 ## Practical Integration Example
 
-### Scenario: Series B Startup (Visionary Position)
+### Scenario: Series B Startup (Studio Position)
 
 **Current State**:
 - Manual security reviews blocking releases
@@ -135,7 +137,7 @@ SF² helps you:
 - Growing too fast for manual SSDF
 
 **SF² Guidance**:
-1. **Assess Position**: Visionaries (Simple + High Readiness)
+1. **Assess Position**: Studio (Simple + High Readiness)
 2. **Identify Scaling Crisis**: Manual SSDF practices not sustainable
 3. **Constrain BAU**: Manual security reviews for novel architectures only
 4. **Scaling Investment**: Automate SSDF practices in CI/CD
@@ -172,6 +174,6 @@ SF² helps you:
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to OWASP SAMM Relationship](owasp-samm.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Implementation Guides](../06-implementation/challengers.md){ .md-button }
+[:octicons-arrow-left-24: Back to Implementation Guides](../06-implementation/mass.md){ .md-button }
 
 [:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/07-relationships/nist-ssdf.md){ .md-button }

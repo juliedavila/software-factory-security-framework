@@ -1,8 +1,8 @@
 # BAU vs Scaling Investments
 
-## The Inevitable Choice Every Security Leader Faces
+## The Inevitable Choice
 
-Every security leader eventually confronts the same mathematical reality: demand for security services grows exponentially while team capacity grows linearly. This creates an inflection point where traditional approaches become unsustainable.
+Demand for security services grows exponentially. The instinct is to read the constraint as capacity: not enough reviewers, not enough hours. Several things do bind a scaling security program, but the one more headcount cannot buy is [comprehension bandwidth](../10-coadaptive/02-ai-era-threat-surface.md), the rate at which your people can actually understand what your factory ships. This is not a structural gap where a linear line loses to an exponential one and you manage the decline. It is a race between two exponentials: how fast the factory produces, and how much of that output your people can actually secure and understand. Which curve you fund is the inflection point.
 
 **The Traditional Response**: Hire more security professionals, work longer hours, accept growing backlogs.
 
@@ -37,7 +37,7 @@ As software factories grow, traditional security activities face a scaling chall
 
 ### The Capability Gap: Beyond Just Capacity
 
-The BAU scaling crisis isn't only about volume—it's about a fundamental capability mismatch between manual defenders and automated adversaries.
+Volume isn't the real problem in the BAU scaling crisis. The deeper issue is a capability mismatch between manual defenders and automated adversaries.
 
 **The Adversary Capability Shift**: In recent years, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
 
@@ -46,7 +46,9 @@ The BAU scaling crisis isn't only about volume—it's about a fundamental capabi
 - Conduct credential stuffing at scale against thousands of targets simultaneously
 - Probe continuously while defenders scan quarterly
 
-**The Structural Problem**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. This isn't a resource problem that hiring solves—it's a capability mismatch that requires automation.
+**One Break, Two Bottlenecks**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. Underneath this sits the same break in two places. Automation on the attacker's side outran a human-bound defensive process, so manual throughput loses the speed race. Automation on the production side now outruns it too: code and systems are generated faster than people can understand them, so manual comprehension loses the understanding race. One root cause, two human bottlenecks, neither closed by hiring alone.
+
+Once a program has enough repeated work to amortize, the dollar that makes the secure path the easy path, by automating a step or packaging it into a guardrail engineers plug into, buys more than the dollar that adds one more linear reviewer, including the dollar that pays the engineer who builds it.
 
 !!! warning "Critical Insight: Supply Chain as #1 Priority"
     Supply chain security became the #1 priority not because dependencies increased, but because adversary capability evolved. When attackers can discover your unknown assets faster than you can catalog them, supply chain security becomes existential regardless of your other security investments.
@@ -96,7 +98,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 - Security becomes a competitive advantage enabler
 
 !!! tip "The Compound Interest Principle"
-    Just as financial investments generate compound returns, security scaling investments create exponential value. An automation capability used 100 times costs the same to build as one used once, but delivers 100x the value. Manual security work scales linearly—each review costs the same effort.
+    Just as financial investments generate compound returns, security scaling investments create exponential value. An automation capability used 100 times costs the same to build as one used once, but delivers 100x the value. Manual security work scales linearly. Each review costs the same effort.
 
 ---
 
@@ -130,16 +132,18 @@ Security investments fall into three categories with fundamentally different sca
 
 | Position | BAU Approach | Constraint Mechanism |
 |----------|--------------|---------------------|
-| **Visionaries** | Minimal BAU burden initially | Automation-first—avoid creating manual processes |
-| **Leaders** | Systematic constraint with alternatives | Self-service platform + clear escalation paths |
-| **Niche Players** | Manageable manual processes | Document processes while building readiness |
-| **Challengers** | High burden requiring constraint | Triage system + strategic automation pilots |
+| **Studio** | Minimal BAU burden initially | Automation-first, avoid creating manual processes |
+| **Lean** | Systematic constraint with alternatives | Self-service platform + clear escalation paths |
+| **Craft** | Manageable manual processes | Document processes while building readiness |
+| **Mass** | High burden requiring constraint | Triage system + strategic automation pilots |
 
 ---
 
 ### Scaling Investments (Prioritize Post-Crisis)
 
 **Definition**: Capabilities that reduce manual effort exponentially or enable self-service
+
+Scaling Investments compound in two different ways, and the difference decides what each one buys. **Automation** takes a human out of a repeated step, so the work runs hands-free and throughput stops being bound by hours. **Composable guardrails** keep the human but change what they have to understand: instead of reviewing N bespoke implementations of mTLS, base images, scoped roles, or secure pub/sub, your people understand one packaged path that teams plug into. The comprehension does not disappear. It concentrates into one durable review, amortized across every team that adopts the path, which is a real economy only on the traffic that actually takes it. A guardrail also does what automation does not: because it is a boundary, it limits what goes wrong when something slips through, not just what your reviewers have to read. Two benefits from one artifact.
 
 **Examples**:
 - Automated dependency scanning with auto-remediation
@@ -162,7 +166,7 @@ Security investments fall into three categories with fundamentally different sca
 | **Developer Experience** | Critical for adoption | Does this reduce security friction or create new complexity? |
 | **Time to Value** | Affects organizational confidence | How quickly will benefits become measurable? |
 | **Cultural Alignment** | Determines sustainability | Does this support learning culture and psychological safety? |
-| **Adversary Economics** | Validates security value | Does this force attackers to more expensive approaches? |
+| **Adversary Economics** | Real, but judged by coverage | Does this close a path, or only raise the price on paths already closed? |
 
 **Expected ROI Timeline**: 6-18 months with compound returns increasing over time
 
@@ -173,7 +177,7 @@ Security investments fall into three categories with fundamentally different sca
 **Definition**: Investments that benefit both your organization AND customer software factories (platform companies only)
 
 **Examples**:
-- Security platform features customers can leverage
+- Security platform features customers can use
 - Open-source security tools serving broader ecosystem
 - Security standards that become industry practices
 - Shared threat intelligence benefiting community
@@ -194,7 +198,7 @@ Security investments fall into three categories with fundamentally different sca
 
 ### The "Catch and Store Energy" Principle
 
-The most sustainable security investments don't just solve immediate problems—they **capture organizational effort and store it in reusable capabilities** that serve future needs without additional manual work.
+The most sustainable security investments do more than solve immediate problems. They **capture organizational effort and store it in reusable capabilities** that serve future needs without additional manual work.
 
 Like renewable energy systems that provide ongoing value after initial investment, effective scaling investments become self-sustaining:
 
@@ -300,7 +304,7 @@ Security leaders operate within inherited financial contexts that affect investm
 - Frame investments as risk reduction with quantifiable business impact
 
 **Conversation Template**:
-> "Our current security approach will become a business constraint as we scale. Rather than only adding capacity through hiring—which provides temporary relief at increasing cost—we recommend investing in capabilities that reduce manual effort requirements permanently. This approach improves both security outcomes and business velocity while managing cost growth."
+> "Our current security approach will become a business constraint as we scale. Rather than only adding capacity through hiring, which provides temporary relief at increasing cost, we recommend investing in capabilities that reduce manual effort requirements permanently. This approach improves both security outcomes and business velocity while managing cost growth."
 
 ---
 
@@ -330,7 +334,7 @@ Security leaders operate within inherited financial contexts that affect investm
 - Position security as accelerating time-to-market for secure products
 
 **Conversation Template**:
-> "Security automation isn't just about managing risk—it's about enabling our engineers to move faster with confidence. By investing in security platforms, we can support 3x growth without proportional security team expansion while improving both security posture and delivery velocity."
+> "Security automation does more than manage risk. It lets our engineers move faster with confidence. By investing in security platforms, we can support 3x growth without proportional security team expansion while improving both security posture and delivery velocity."
 
 ---
 

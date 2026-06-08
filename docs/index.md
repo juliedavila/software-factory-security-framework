@@ -3,7 +3,7 @@ title: Software Factory Security Framework (SF²)
 description: Strategic framework for scaling security capabilities while improving business outcomes
 keywords: security framework, security strategy, security scaling, software factory, security leadership, CISO, VP Security
 author: Julie Davila
-version: 0.5.0
+version: 0.6.0
 ---
 
 # Software Factory Security Framework (SF²)
@@ -27,13 +27,13 @@ Whether you're leading security for a three-person startup or a multinational co
 
 ### The Security Scaling Challenge
 
-Every security leader eventually confronts the same fundamental challenge: **the day when demand for security services begins to outpace your team's capacity to deliver them.**
+Run a security org long enough and the math catches up with you. **Demand for security work grows faster than your team's capacity to deliver it, and there's a day when the two cross.**
 
-The traditional response—hiring more security professionals—provides temporary relief but becomes increasingly difficult to sustain. This framework presents a different approach: **strategic resource allocation that enables sustainable security scaling while improving business outcomes.**
+The traditional response, hiring more security professionals, provides temporary relief but becomes increasingly difficult to sustain. This framework presents a different approach: **strategic resource allocation that enables sustainable security scaling while improving business outcomes.**
 
 ### Strategic Opportunity
 
-Organizations that successfully navigate this challenge don't just solve a scaling problem—they create competitive advantages:
+Organizations that work through this well solve more than a scaling problem. They build competitive advantages:
 
 - Faster time-to-market
 - Higher developer productivity
@@ -83,7 +83,7 @@ Organizations that successfully navigate this challenge don't just solve a scali
 ## Strategic Context
 
 !!! info "Adversary Evolution"
-    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**—sweeping billions of assets to find vulnerabilities. Organizations using manual security processes face a fundamental capability gap: attackers can discover unknown systems faster than defenders can catalog them.
+    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**, sweeping billions of assets to find vulnerabilities. Organizations using manual security processes face a fundamental capability gap: attackers can discover unknown systems faster than defenders can catalog them.
 
     Understanding these adversary evolution patterns helps security leaders **prioritize investments that shift economic advantage away from attackers.**
 
@@ -110,7 +110,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 1. Read the [Executive Summary](executive-summary.md)
 2. Assess your [Strategic Position](03-positioning/two-axis-model.md)
-3. Review [Implementation Guide](06-implementation/visionaries.md) for your quadrant
+3. Review [Implementation Guide](06-implementation/studio.md) for your quadrant
 4. Evaluate [Contextual Modifiers](05-context/overview.md)
 
 ### For Individual Contributors
@@ -127,27 +127,19 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 ---
 
-## Download Complete Framework
+## Download the Framework
 
 <div class="grid cards" markdown>
 
--   :material-file-pdf-box:{ .lg .middle } __Get the Complete PDF Version__
+-   :material-file-pdf-box:{ .lg .middle } __Read SF² offline__
 
     ---
 
-    Access the entire SF² framework as a single document for offline reading, printing, or sharing with your team.
+    The entire framework renders as a single page, ready to save as a PDF.
 
-    **Option 1: Direct PDF Download**
+    [:octicons-arrow-right-24: View Complete Framework](https://sf2framework.com/print_page/){ .md-button .md-button--primary }
 
-    [:octicons-download-24: Download PDF](https://sf2framework.com/pdf/sf2-framework.pdf){ .md-button .md-button--primary }
-
-    Auto-generated with every documentation update
-
-    **Option 2: Browser Print-to-PDF**
-
-    [:octicons-arrow-right-24: View Complete Framework](https://sf2framework.com/print_page/){ .md-button }
-
-    Use your browser's **File → Print → Save as PDF** for custom formatting
+    Every page in one view: Foundation, the Universal Security Conditions, Strategic Positioning, the Investment Portfolio, context, implementation guides, the Coadaptive layer, and the appendix. Use your browser's **File → Print → Save as PDF** to take it with you.
 
 </div>
 
@@ -156,7 +148,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 ## Framework Principles
 
 !!! quote "Executive Insight"
-    Security scaling isn't primarily solved through capacity increases alone—it requires **strategic investment in capabilities that reduce manual effort requirements**. Organizations that make this shift successfully report significant improvements in both security effectiveness and business velocity.
+    Security scaling isn't primarily solved through capacity increases alone. It requires **strategic investment in capabilities that reduce manual effort requirements**. Organizations that make this shift successfully report significant improvements in both security effectiveness and business velocity.
 
 ### Core Principles
 
@@ -172,11 +164,9 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 0.5.0
+**Version:** 0.6.0
 
-This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. While I currently serve as VP of Security at GitLab, **SF² is not an official GitLab framework** and does not formally represent GitLab's views.
-
-That said, these mental models do inform how I approach security strategy at GitLab. To the extent I have strategic influence over GitLab's security posture, the principles in SF² reflect my underlying approach to securing software factories at scale.
+This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
 
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 
@@ -196,6 +186,6 @@ This is an open source framework (CC BY 4.0) intended as a resource for the broa
     Use the [Two-Axis Positioning Model](03-positioning/two-axis-model.md) to determine your current state and optimal path forward.
 
 !!! success "Implement Strategically"
-    Follow your quadrant-specific [Implementation Guide](06-implementation/visionaries.md) for actionable next steps.
+    Follow your quadrant-specific [Implementation Guide](06-implementation/studio.md) for actionable next steps.
 
 </div>

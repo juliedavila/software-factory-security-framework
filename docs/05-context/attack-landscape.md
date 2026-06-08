@@ -2,10 +2,10 @@
 
 ## The Critical Shift: From Targeted to Automated
 
-Around 2017, the attack landscape fundamentally changed. Adversaries evolved from targeted reconnaissance against specific organizations to **automated discovery at internet scale**—sweeping billions of assets to find exploitable weaknesses.
+Around 2017, the attack landscape fundamentally changed. Adversaries evolved from targeted reconnaissance against specific organizations to **automated discovery at internet scale**, sweeping billions of assets to find exploitable weaknesses.
 
 !!! danger "The Automation Advantage"
-    **High attack landscape maturity** means adversaries can discover your unknown assets—forgotten servers, shadow IT, unmanaged dependencies—**faster than you can inventory them**. This creates an existential capability gap regardless of your strategic position.
+    **High attack landscape maturity** means adversaries can discover your unknown assets (forgotten servers, shadow IT, unmanaged dependencies) **faster than you can inventory them**. This creates an existential capability gap regardless of your strategic position.
 
 ## Maturity Levels
 
@@ -57,7 +57,7 @@ Around 2017, the attack landscape fundamentally changed. Adversaries evolved fro
 **Implementation Impact**: **Manual security processes become existential vulnerabilities**
 
 !!! warning "The Capability Gap"
-    Organizations relying on quarterly asset inventories face adversaries who discover vulnerabilities continuously at internet scale. No amount of hiring closes this gap—only automation can match automated adversaries.
+    Organizations relying on quarterly asset inventories face adversaries who discover vulnerabilities continuously at internet scale. No amount of hiring closes this gap. Only automation can match automated adversaries.
 
 ## Assessment Questions
 
@@ -77,13 +77,13 @@ Use these questions to determine your attack landscape maturity:
 
 **High attack landscape maturity accelerates the need for automation regardless of your strategic position:**
 
-**Visionaries**: Implement continuous monitoring and automated security from inception—can't rely on manual processes even at small scale
+**Studio**: Implement continuous monitoring and automated security from inception; manual processes won't hold even at small scale
 
-**Leaders**: Advanced threat detection and response automation become critical—scale advantages only work with automation
+**Lean**: Advanced threat detection and response automation become critical; scale advantages only work with automation
 
-**Niche Players**: Must prioritize basic automation earlier than typical roadmap—manual processes create existential risk
+**Craft**: Must prioritize basic automation earlier than typical roadmap; manual processes create existential risk
 
-**Challengers**: Automation becomes urgent even with limited operational readiness—hybrid manual/automated approaches insufficient
+**Mass**: Automation becomes urgent even with limited operational readiness; hybrid manual/automated approaches are insufficient
 
 ### Investment Priorities
 

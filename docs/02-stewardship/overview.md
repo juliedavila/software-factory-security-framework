@@ -1,96 +1,75 @@
-# Universal Risk Stewardship Responsibilities
+# Universal Security Conditions
 
-## The Common Ground Across All Software Factories
+## Conditions, not controls
 
-Regardless of size, technology stack, or industry, every software factory must address five core stewardship areas. These represent the fundamental security responsibilities that scale with your organization.
+A control is something you check off. It passes or it fails, it lives as a line in a spreadsheet, and half the energy around it goes into arguing the spirit of the control rather than the state of the system. A condition is a different kind of object. It is something you cultivate and keep alive, and it has no passing grade. The security posture of a software factory is a set of conditions you tend, not a register of controls that cleared an audit. Like anything living, they start to degrade the moment you stop tending them.
 
-!!! info "Universal Applicability"
-    These stewardship responsibilities apply to every software-producing organization—from three-person startups to multinational enterprises. The specific implementation approaches vary based on your [strategic position](../03-positioning/two-axis-model.md), but the responsibilities themselves are universal.
+Your [strategic position](../03-positioning/two-axis-model.md) tells you *how* to tend them. A Craft shop and a Lean enterprise cultivate the same conditions with very different tools, budgets, and timelines. The conditions themselves do not move with size, stack, or industry. They are what every software factory has to keep alive regardless of where it sits on the map, which is why this section comes before the positioning work and not after it.
 
-## The Five Stewardship Areas
+There are four conditions you can hand to a team, and one you cannot.
 
-| Stewardship Area | Core Responsibility | Why Universal |
-|-----------------|-------------------|--------------|
-| **[Supply Chain](supply-chain.md)** (#1 Priority) | Managing security risks from all external dependencies and third-party components throughout their lifecycle | Modern software depends heavily on external components—even simple applications typically incorporate dozens of third-party dependencies |
-| **[Process](process.md)** | Security embedded throughout development lifecycle with continuous validation and rapid feedback loops | Development process directly impacts security outcomes regardless of sophistication level |
-| **[Runtime](runtime.md)** | Maintaining security and reliability of systems in production with proactive monitoring and rapid response capabilities | Once serving users, organization becomes directly responsible for security behavior in production |
-| **[Third-Party](third-party.md)** | Managing security risks from integrated services, platforms, and vendors throughout operational lifecycle | Modern software factories integrate with cloud providers, monitoring services, development tools, business platforms |
-| **[Continuous Learning](continuous-learning.md)** | Evolving security practices based on experience, incidents, and changing threat landscape while building organizational capability | Security landscape continuously evolves through new threats, technologies, organizational changes |
+## The four you can staff
 
-## Key Focus Areas by Stewardship Area
+| Condition | The question it asks | The lever |
+|-----------|----------------------|-----------|
+| **[Supply Chain](supply-chain.md)** (#1) | Do I know what is *inside* what I shipped? | Comprehension: SBOM, provenance, signing, pinning |
+| **[Third-Party](third-party.md)** | Do I know what I *handed off*, and who holds the bag when it fails? | Containment: blast-radius limits, shared-responsibility clarity, failover |
+| **[Process](process.md)** | Does the way we build *produce* security, or bolt it on afterward? | Feedback: security arriving while the work happens, not in a review at the end |
+| **[Runtime](runtime.md)** | Can we *sense* what production is doing right now and respond before a user does? | Observability: detection, response, recovery |
 
-### Supply Chain (#1 Priority)
+These four map to functions you can name, staff, and put on an org chart. That is deliberate. A condition you cannot assign to anyone is a condition nobody tends.
 
-- Dependency monitoring with automated vulnerability detection
-- Vendor security evaluation and relationship management
-- Supply chain attack detection and response planning
-- License compliance integrated with procurement
+### Supply Chain and Third-Party are not the same condition
 
-**Success Indicators**: Dependency mapping coverage, vendor security assessment completion, supply chain incident response readiness
+They look like one thing. They are not, and the line between them is where a lot of programs quietly fail.
 
-### Process
+**Supply Chain** is what you pull *in*: third-party libraries, base images, sidecars, the code you embed and then ship as if it were your own. Once you embed it, the liability is yours. You can also do something about it, because the artifact is in your hands. You can read it, generate an SBOM, sign it, pin it, rebuild it. Supply Chain is soil: you can amend it. The way it fails is that you did not look.
 
-- Pipeline security controls with automated continuous testing
-- Code review effectiveness integrated with quality processes
-- Secret management with automated rotation
-- Environment consistency with drift prevention
-- Security-quality integration
+**Third-Party** is what you hand *off*: the payments processor, the data warehouse, the identity-verification provider, the cloud, the SIEM. Some of these are infrastructure; others are core to how your product delivers value at all. You delegate the function, and a shared-responsibility model splits the work. A contract can shift the legal liability to them; it cannot shift the responsibility, and no certificate hands it back. Compliance is a market-access key, not a security proof: a vendor earns FedRAMP to unlock the federal market, not to become safe to depend on, and its attestation retires none of your risk. You still have to do your part and trust they are doing theirs. You cannot directly inspect or observe what they run. Third-Party is weather: you cannot change it, you can only prepare for it. The way it fails is that they got breached and you inherited it anyway.
 
-**Success Indicators**: Developer satisfaction scores, security-quality integration metrics, continuous validation effectiveness
+Lumping both under "supply chain" because the word has stretched to cover everything external is the move that hides the seam. The two conditions take different muscles. One is a comprehension problem: you embedded something and never read it. The other is an opacity problem: you delegated something you cannot directly inspect, and no contract or certificate changes that. Keep them apart on the page so they stay apart in the work.
 
-### Runtime
+### Supply Chain is still the loudest
 
-- Production monitoring with automated incident detection
-- Incident response readiness and execution
-- Data protection with access controls
-- Performance-security balance optimization
+Of the four, Supply Chain has been the one to watch for years, roughly since adversaries moved discovery to automation at internet scale and started finding vulnerable dependencies faster than defenders could inventory them. This is about tempo, not a ranking of which matters more. The supply-chain condition degrades faster and gets exploited sooner than the rest, so it earns first call on attention and budget. Treat it as the default #1 and argue yourself *down* from there if your context warrants.
 
-**Success Indicators**: Incident response time, monitoring coverage effectiveness, customer impact assessment quality
+## The one you cannot staff: Adaptive Capacity
 
-### Third-Party
+The fifth condition does not get a team, and that is the point.
 
-- Integration security risk management
-- Shared responsibility model clarity and enforcement
-- Service provider security monitoring
-- Contingency planning with tested procedures
+**Adaptive Capacity** is whether the system as a whole can absorb a surprise it was not designed for and keep working. It is the old Continuous Learning idea, finally named for what it actually is. The other four conditions each map to a function you can put on an org chart. This one does not. It is closer to the resilience of an ecosystem than to anything you could install or assign. The capacity of a living system to take a shock, a drought or a new predator, and reorganize without collapsing is spread across the whole web rather than held in any single species or place. It is never finished, because the system and the things stressing it keep changing against each other. You assess whether the system *has* this capacity. You cannot hand it to a team.
 
-**Success Indicators**: Integration assessment coverage, shared responsibility validation, contingency plan testing
+It runs across the other four rather than beside them. A healthy Adaptive Capacity shows up as blameless post-incident review that changes something, as feedback loops that shorten, as the organization sensing a shift in the threat landscape and adjusting before it gets hit rather than after. When it is missing, the other four can each look fine on a maturity chart while the system stays brittle, because nothing is teaching it to bend.
 
-### Continuous Learning
+This is the condition that carries the framework's resilience thinking, and it is the seam where this base framework meets the [Coadaptive Security layer](../10-coadaptive/overview.md). The idea comes from ecology. A system survives shocks when it can reorganize as new ones arrive, and that capacity lives in the whole web rather than in any single part. Security works the same way. Certify a system once and trust it to hold, and it falls behind, because the things trying to break it keep changing while it stands still. Adaptive Capacity measures whether the whole system is still adapting faster than its adversaries. That is the question worth asking.
 
-- Risk monitoring with predictive insights
-- Feedback loop optimization
-- Blameless post-mortems with lessons learned integration
-- Knowledge sharing with cross-functional collaboration
+## How the conditions hold each other up
 
-**Success Indicators**: Learning culture indicators, improvement cycle effectiveness, knowledge transfer success rates
+The conditions are coupled, not a checklist, and the coupling is where leverage hides:
 
-## Strategic Insight
+- A weak **Supply Chain** condition rarely announces itself in Supply Chain. It surfaces at **Runtime**, as the incident you trace back to a dependency you never inventoried.
+- **Process** is where the other conditions either get cultivated or get skipped. A build pipeline that produces provenance is tending Supply Chain for free.
+- **Third-Party** failures are bounded by **Runtime** containment. The vendor breach you survive is the one whose blast radius you limited in advance.
+- **Adaptive Capacity** is how all four improve at all. Without it, you are just repainting the same four walls on a fixed cadence.
 
-!!! tip "Implementation Varies, Responsibilities Don't"
-    These stewardship responsibilities are universal, but **implementation approaches must scale appropriately to organizational complexity and readiness**.
+Invest where a single move strengthens more than one condition at once. Those are the moves worth sequencing first.
 
-    A three-person startup and a 500-person enterprise both need supply chain stewardship, but their implementations will look dramatically different. The [Strategic Positioning](../03-positioning/two-axis-model.md) section provides frameworks for making these strategic implementation decisions.
+## Implementation varies, the conditions don't
 
-## How Stewardship Areas Interact
+The conditions are universal. How you cultivate them is not.
 
-The five stewardship areas are interconnected:
+A three-person Craft shop and a five-thousand-person Lean enterprise both have to tend Supply Chain, but one does it with a single well-chosen managed scanner and the other with a platform team and a paved road. The [Strategic Positioning](../03-positioning/two-axis-model.md) section is how you decide which version of "tending" your organization can actually sustain. Read the conditions here as the *what*. Read positioning as the *how*.
 
-- **Supply Chain** risks can manifest during **Runtime**
-- **Process** improvements enable better **Third-Party** integration security
-- **Continuous Learning** informs improvements across all other areas
-- **Runtime** incidents drive **Process** improvements
-- **Third-Party** security depends on **Supply Chain** visibility
-
-Understanding these interactions helps you prioritize investments that create cascading benefits across multiple stewardship areas.
+!!! info "Naming note (v0.5 → v0.6)"
+    In v0.5 this section was "Universal Risk Stewardship Responsibilities," organized as five areas you steward. v0.6 reframes them as conditions you cultivate, splits the old Supply Chain area along the embedded/delegated line, and recasts Continuous Learning as the cross-cutting Adaptive Capacity condition. The [migration crosswalk](../appendix/quadrant-rename-v06.md) maps every old name to its v0.6 home.
 
 ## Next Steps
 
-Explore each stewardship area in detail, starting with the highest priority:
+Start with the condition that degrades fastest:
 
-[:octicons-arrow-right-24: Supply Chain Stewardship (#1 Priority)](supply-chain.md){ .md-button .md-button--primary }
-[:octicons-arrow-right-24: Process Stewardship](process.md){ .md-button }
-[:octicons-arrow-right-24: Runtime Stewardship](runtime.md){ .md-button }
+[:octicons-arrow-right-24: Supply Chain (#1)](supply-chain.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Third-Party](third-party.md){ .md-button }
+[:octicons-arrow-right-24: Adaptive Capacity](adaptive-capacity.md){ .md-button }
 
 ---
 
