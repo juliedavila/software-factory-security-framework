@@ -163,6 +163,14 @@ The operator/provider split in [Third-Party](../02-stewardship/third-party.md) r
 - **[Schneider (2003), "Least Privilege and More."](https://www.cs.cornell.edu/fbs/publications/leastPriv.pdf)** *IEEE Security & Privacy* 1(5):55-59. Least privilege is bounded by what the enforcement mechanism can express: you confine a component only as finely as the underlying model allows. The academic anchor for the claim that a provider defines what is expressible in the authorization vocabulary, and the operator answers for the residual the vocabulary cannot remove.
 - **[GitHub (2022), "Introducing fine-grained personal access tokens for GitHub."](https://github.blog/security/application-security/introducing-fine-grained-personal-access-tokens-for-github/)** Classic personal access tokens "provided very coarse-grained permissions, granting access to all of the repositories and organizations that the owning user can access." The lived form of platform-set scope, where the token that reads one project reads them all until the platform ships a finer primitive. The concrete grounding for counting coarse primitives as a real cost when you choose what to build on.
 
+### Adoption velocity, paved roads, and guardrails
+
+[Relationship Health](../05-context/relationship-health.md) turns on adoption velocity, and the platform-engineering field has already worked out how to raise it without trust: make the secure path the default path. These are the anchors for the friction-over-mandate reframe.
+
+- **[DORA, "Platform engineering" capability.](https://dora.dev/capabilities/platform-engineering/)** An internal developer platform provides "golden paths" and a "paved road that scales these benefits securely," making the supported, secure option the self-service default. The grounding for adoption velocity as the binding constraint, and for the secure default that is mandatory and low-friction at once.
+- **[Howard (2018), "Less Gates, More Guardrails."](https://www.sonatype.com/blog/less-gates-more-guardrails-devsecops-lessons-learned-in-2017)** Sonatype. Security controls "cannot take the form of toll gates; instead, they must take the form of guardrails": automated, embedded in the pipeline, fast by default. The case that friction, not whether a control is mandatory, is what predicts adoption.
+- **[Singhal, "Scaling Appsec at Netflix."](https://netflixtechblog.medium.com/scaling-appsec-at-netflix-6a13d7ab6043)** Netflix Technology Blog. A paved-road platform made security best practices the default rather than a checklist, so a team could reach a production-ready, authenticated service in minutes. The worked example of a low-friction default carrying full adoption without a relationship to lean on.
+
 ## Industry Resources
 
 ### Supply Chain Security
