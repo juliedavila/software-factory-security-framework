@@ -42,6 +42,8 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 
 **Implementation**: Enterprise-grade supply chain security regardless of operational complexity
 
+A critical single vendor is a continuity risk, not only a concentration risk: weigh whether it could disappear and what you would do the week it did.
+
 ## Assessment Questions
 
 | Question | Simple | Complex | Critical |
@@ -51,6 +53,7 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 | Geopolitical concerns? | Minimal | Moderate | Significant constraints |
 | Regulatory requirements? | Standard | Industry-specific | Government/defense |
 | Supply chain attack impact? | Recoverable | Significant | Existential |
+| Vendor/dependency survivability? | Vendors stable, deps actively maintained | Some single-maintainer or aging deps | Load-bearing dep on one maintainer or a vendor that could vanish |
 
 ## Impact on Strategic Position
 

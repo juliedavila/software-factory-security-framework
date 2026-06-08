@@ -30,12 +30,16 @@ Three things compound down that chain. Opacity deepens: you could not see inside
 
 You cannot inventory what you cannot see, and here you cannot see in advance two layers down. That is the case that shows most cleanly why the answer is containment, not inspection. You do not certify the sub-dependency; you bound what the whole composition can reach and spend, so a failure at a link you never contracted spends only the authority you granted at the boundary. What the boundary cannot do is claw back data the sub-operator already holds and leaks; that residual is carried by contingency and contract, not by the boundary. [Boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) is built for exactly the dependency you cannot inventory.
 
+## When a vendor dies
+
+A breach is the failure you rehearse for most, but it is not the only way a vendor leaves you holding the bag. A vendor can also simply end: it goes bankrupt, it sunsets the product, an acquirer buys it and turns it off. The outage you fail over from is temporary; this one is permanent. When Facebook [shut down Parse](https://techcrunch.com/2017/01/30/facebooks-parse-developer-platform-is-shutting-down-today/), roughly six hundred thousand apps had a year to migrate or go dark. That sunset ended softly, because Facebook open-sourced the server so dependents could host it themselves, which is what source escrow is meant to deliver. Most do not end that softly. The preparation has the same shape as the breach plan and is rarely written beside it: know which vendors are load-bearing, what your product does the day one is gone for good, and what continuity you secured while the vendor still existed to sign it. That continuity is the concrete part: source escrow, a self-host right, a wind-down clause.
+
 ## What cultivating it looks like
 
 Because you cannot inspect the vendor, you cultivate this condition by preparing for the day it fails.
 
 - **Contain the blast radius before you need to.** Scope what each vendor can reach to the minimum the function requires. The vendor breach you survive is the one whose reach you bounded in advance.
-- **Assume the breach and rehearse it.** Know which vendors are load-bearing, what happens to your product when one goes dark or goes hostile, and how you fail over. A contingency plan you have never tested is a hope.
+- **Assume the breach and rehearse it.** Know which vendors are load-bearing, what happens to your product when one goes dark, for a day or for good, or goes hostile, and how you fail over. A contingency plan you have never tested is a hope.
 - **Make the shared-responsibility line explicit.** Most third-party incidents trace to a boundary nobody owned because each side assumed the other had it. Write down who secures what, then check the assumption against reality.
 - **Monitor the surface you can see.** You cannot watch their internals, but you can watch what they expose to you: the access they hold, the data crossing the boundary, the certifications lapsing.
 
