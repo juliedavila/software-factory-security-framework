@@ -156,6 +156,13 @@ The comprehension a software factory needs is not knowledge held in any one pers
 - **[European Commission, Cyber Resilience Act.](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)** In force December 2024, main obligations December 2027; non-compliant products may not be sold in the EU. Connected products and software moving from minimal regulation to market-access-gated.
 - **[CISA, Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA).](https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia)** Signed into law March 2022, reporting rule still landing years later. The clearest case that regulation telegraphs well ahead of enforcement.
 
+### Operator versus provider, and authorization granularity
+
+The operator/provider split in [Third-Party](../02-stewardship/third-party.md) rests on a single principle: an operator can confine an agent only as finely as the platform's own authorization model allows. These are the anchors for that claim; the EU AI Act's provider-versus-deployer line, codifying the same split in law, is listed under regulation above.
+
+- **[Schneider (2003), "Least Privilege and More."](https://www.cs.cornell.edu/fbs/publications/leastPriv.pdf)** *IEEE Security & Privacy* 1(5):55-59. Least privilege is bounded by what the enforcement mechanism can express: you confine a component only as finely as the underlying model allows. The academic anchor for the claim that a provider defines what is expressible in the authorization vocabulary, and the operator answers for the residual the vocabulary cannot remove.
+- **[GitHub (2022), "Introducing fine-grained personal access tokens for GitHub."](https://github.blog/security/application-security/introducing-fine-grained-personal-access-tokens-for-github/)** Classic personal access tokens "provided very coarse-grained permissions, granting access to all of the repositories and organizations that the owning user can access." The lived form of platform-set scope, where the token that reads one project reads them all until the platform ships a finer primitive. The concrete grounding for counting coarse primitives as a real cost when you choose what to build on.
+
 ## Industry Resources
 
 ### Supply Chain Security
