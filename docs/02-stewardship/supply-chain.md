@@ -4,6 +4,8 @@ Supply Chain is the condition that asks one question: do you know what is inside
 
 The question now reaches past code. A modern build also ships model weights you did not train, datasets you did not assemble, and the pieces an agent pulls in to do its work: the skills it loads, the tools it calls, the MCP servers it connects to. Each one you embed and then ship as your own, the same as any library, and the liability arrives with it. These resist inventory harder than code does. An agent's tools tend to self-install, self-update, and connect at runtime, often outside whatever software intake process you thought you had. And a model weight arrives as an opaque blob you cannot read or rebuild from source, whose origins you take on trust. The surface widened faster than the practice did. The discipline does not change: know what is inside, and refuse to ship what you cannot account for.
 
+Some of what you embed does not sit still. An agent's tools and MCP servers reach out at runtime to dependencies of their own, pulled in past whatever intake you thought you had, so the thing you shipped is operating sub-dependencies you never reviewed. That is [the operator beneath the operator](third-party.md#the-operator-beneath-the-operator) seen from the supply side: a delegated dependency, embedded.
+
 This is the condition you can do the most about, because the artifact is in your hands. You can read it, generate an SBOM, sign it, pin it, rebuild it from source. Supply Chain is soil. You can amend it. The way it fails is almost always the same: you did not look.
 
 ## Why it is the loudest of the four
