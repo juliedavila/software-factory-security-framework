@@ -132,6 +132,25 @@ A security team at series C company recognizes unsustainable demand growth and n
 
 ---
 
+## When the parts are safe and the system is not
+
+The cases above take a situation apart: find the position, read the modifiers, pick the stewardship areas, design the portfolio. That works when the parts fail independently. It breaks the moment the system is an agent wired to APIs and acting on its own.
+
+An agent, the APIs it can call, and the autonomy it runs with can each be safe on their own and still compose into a breach. The risk is not in any one part. It is in the seam where one part's output becomes another part's trusted input. [EchoLeak](../10-coadaptive/06-input-trust-is-a-category-error.md) is the case in production: a crafted email reached an inbox assistant that read it automatically and acted with the authority it already held, and no single component was breached. This is the [combinatorial surface](../10-coadaptive/02-ai-era-threat-surface.md) the framework warns about, met where you actually apply it: the interactions multiply faster than the parts, so a parts-list review misses the term that dominates.
+
+So add a step the other cases do not need. Before you sign off on an agent system, run an interaction pass: enumerate the agent against the APIs it can call against the autonomy it has, and ask what each seam lets through. The thing to test is what happens when this agent, reading input you do not control, is allowed to call this API on its own. Asking only whether the API is safe answers a smaller question.
+
+You cannot judge a run from inside it. The same crafted text that steered the agent can also narrate the result as clean, so the answer shown to the user looks fine while the damage happens off to the side. The evidence is blunt. When researchers fed agents data through ordinary outbound requests, checks on what the agent showed the user missed 95 percent of the leaks, because the data left through a channel the visible answer never mentioned.[^silent-egress] The same EchoLeak email fits this exact shape: the assistant's reply looked normal, and the mail left quietly. So the signal you trust comes from outside the agent, never from its own account.
+
+That outside signal has two jobs. The failures you can name in advance, you pre-commit as bright lines: a value with untrusted provenance reached a sink, data crossed a boundary it should not have, an action fired without its checkpoint. The failures you cannot name, because an injection invents a path no one listed, you catch a different way. You keep enough record of each run to reconstruct what the agent actually did from the outside, then ask a question you had not thought to ask.[^observability] That record has to be three things. Accurate, meaning read from the network and the actions, not from the agent's own reply. Real-time, because a finding a quarter later is an autopsy. And specific to the single run, because an average hides the one that leaked.
+
+This sign-off is dated. Today it is something you run periodically, at the level of a system you approve once. As autonomy widens and agents begin to wire themselves to each other, that cadence will be too slow, and the unit you analyze will shift from a system you approve to a population of agents you watch. If your sign-off cadence has not changed while your agents' autonomy has, your review is already aging.
+
+[^silent-egress]: Silent Egress (Lan et al., 2026, [arXiv:2602.22450](https://arxiv.org/abs/2602.22450)): implicit injection drives an agent to exfiltrate its runtime context through ordinary outbound requests while the user-facing response stays harmless.
+[^observability]: Observability in its original control-theory sense, a system is observable when its internal state can be reconstructed from its external outputs over time ([Kálmán, 1960](https://en.wikipedia.org/wiki/Observability)). [Charity Majors](https://charity.wtf/2020/03/03/observability-is-a-many-splendored-thing/) carries it into software practice: the ability to ask any question of a running system from the outside, including the ones you did not anticipate.
+
+---
+
 ## Framework Application Template
 
 Use this template to apply SF² to your organization:
@@ -168,6 +187,9 @@ Based on position and modifiers:
 - Target position: _______________
 - Movement strategy: _______________
 - Timeline: _______________
+
+### 6. For Agent Systems: Run the Seam Pass
+Enumerate the agent × API × autonomy interactions and test each seam: what it lets through when the agent acts on input you do not control. Before shipping, require an external correctness criterion: one observable that proves a run wrong, and a watcher outside the agent that checks for it.
 
 ---
 
