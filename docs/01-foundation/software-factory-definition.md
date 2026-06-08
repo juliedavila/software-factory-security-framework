@@ -9,7 +9,7 @@ This responsibility spans your entire value delivery chain, from internal develo
 ## What is a Software Factory?
 
 !!! info "Definition"
-    A **software factory** is an organization that bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
+    A **software factory** is whoever bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
 
 This definition encompasses:
 
