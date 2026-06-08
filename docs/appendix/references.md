@@ -53,6 +53,14 @@ The 2025-2026 agentic-security literature carries the two anchors above, least p
 - **[SPIFFE and SPIRE.](https://spiffe.io)** The CNCF workload-identity standard: short-lived, cryptographically attested identities (SVIDs) issued per workload, the production form of scoped machine identity for agents and services. Necessary for naming a deputy, insufficient on its own for bounding what it may do.
 - **[Cloud Security Alliance, "Agent Identity Governance Framework" (2026 draft).](https://labs.cloudsecurityalliance.org/agentic/agentic-identity-governance-framework-v1/)** Recommends SPIFFE SVIDs for persistent agent identities and pairs them with just-in-time, scope-limited, time-bound grants for ephemeral sub-agents: identity plus attenuation, the pairing the authorization chapter argues for.
 
+### Verified boundaries and AI-found vulnerabilities
+
+The substrate guarantee is provable by construction only for as long as a component cannot reach the layer that bounds it. These anchor the dating of that claim: what a verified boundary buys that an asserted one does not, and the evidence that AI now finds exploitable flaws in enforcement-layer code.
+
+- **[Klein et al. (2009), "seL4: Formal Verification of an OS Kernel."](https://dl.acm.org/doi/10.1145/1629575.1629596)** SOSP 2009 ([full proof account](https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf)). A machine-checked proof, in Isabelle/HOL, that a general-purpose OS kernel's C implementation refines its specification, carrying functional correctness, access-control enforcement, and information-flow noninterference. The existence proof that a boundary can be proven rather than asserted, and the reason verification is the one defensive property attacker cleverness cannot erode.
+- **[DARPA, "AI Cyber Challenge (AIxCC) Final Results" (2025).](https://www.darpa.mil/news/2025/aixcc-results)** Autonomous cyber-reasoning systems found 18 real vulnerabilities across 54 million lines of open-source code and patched the majority of injected ones, at roughly $152 per task. DARPA's own framing calls it an inflection point. The evidence that finding a path through enforcement-layer code is now a machine-scale capability, currently led by defenders.
+- **[Google, "Big Sleep" agent (Project Zero and DeepMind, 2024-2025).](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-big-sleep-agent-makes-big-leap)** The first AI agent to find a live, previously-unknown vulnerability in widely-deployed substrate software (SQLite, CVE-2025-6965), then more across open-source projects. The symmetric capability made concrete: AI reaching flaws in exactly the primitive code that sits below applications.
+
 ### Prompt injection and input trust
 
 The prompt-injection literature this chapter draws on, from the naming of the category through the first production exploit to the system-layer defenses that answer it.
