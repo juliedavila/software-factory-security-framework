@@ -248,7 +248,7 @@ Most organizations benefit from moving toward the Lean position, but the path de
 
 ## Using Position to Guide Security Strategy
 
-The lists below are not four security architectures. They are four sequences toward the same containment, each with tooling fit to its scale. Every quadrant owes deny-by-default limits on the authority review cannot police at scale; what changes below is the order of investment and the tooling that fits the operational reality. Read each list as "what to fund first at your scale," not "what security to have."
+The lists below are not four security architectures. They are four sequences toward the same containment, each with tooling fit to its scale. Every quadrant owes deny-by-default limits on the authority review cannot police at scale; what changes below is the order of investment and the tooling that fits the operational reality. Each list is a funding order for your scale, not the security you end up with.
 
 **For Studio**:
 - Use cloud-native security services

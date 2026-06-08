@@ -24,7 +24,7 @@ This does not make the actor's identity irrelevant. You still have to know which
 
 The Model Context Protocol is the current canonical case, because it standardizes exactly the moment authority changes hands: an agent reaching a tool or data source through a server. MCP gets the plumbing right and the authority model is where the risk concentrates. A server that holds broad credentials and serves whatever an agent asks is a confused deputy by construction, and the agent asking may itself be acting on injected instructions from [the input surface](06-input-trust-is-a-category-error.md).
 
-The design implication for anyone building agent platforms is to treat every server and every tool as a deputy that must be scoped, not trusted. Give it the narrowest capability that lets it do its job, make authority flow with the request so it cannot be reused for another, and assume the caller may be confused or compromised. The platforms that get this right in the design phase will not have to discover the confused deputy the expensive way, in an incident review.
+The design implication for anyone building agent platforms is to treat every server and every tool as a deputy that must be scoped, not trusted. Give it the narrowest capability that lets it do its job, make authority flow with the request so it cannot be reused for another, and assume the caller may be confused or compromised. Scoping a deputy at design time costs little; discovering the confused deputy unscoped in an incident review costs a great deal.
 
 ## See also
 
