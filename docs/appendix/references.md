@@ -14,7 +14,7 @@
 
 **Website**: https://owaspsamm.org/
 
-**Relationship to SF²**: SF² contextualizes SAMM implementation based on organizational readiness. Implementation speed and scope vary by operational complexity and readiness level.
+**Relationship to SF²**: SF² contextualizes SAMM implementation based on organizational readiness. Implementation speed and scope vary by blast radius and readiness level.
 
 ### BSIMM (Building Security In Maturity Model)
 **Focus**: Security activity measurement and benchmarking
@@ -89,6 +89,7 @@ The prompt-injection literature this chapter draws on, from the naming of the ca
 - **[Varian (2004), "System Reliability and Free Riding."](https://people.ischool.berkeley.edu/~hal/Papers/2004/reliability)** Security is the weakest-link case of system reliability: protection tracks the least-defended path, not the sum or average of effort. The economic statement of the one-seam correction, with the added bite that weakest-link structure invites underinvestment in the very seam that decides the outcome.
 - **[Anderson & Moore (2006), "The Economics of Information Security."](https://www.cl.cam.ac.uk/archive/rja14/Papers/sciecon2.pdf)** *Science* 314(5799):610-613. Ties weakest-link economics to systematic security underinvestment under misaligned incentives. Why spend chases the visible average rather than the binding minimum.
 - **[Gordon & Loeb (2002), "The Economics of Information Security Investment."](https://en.wikipedia.org/wiki/Gordon%E2%80%93Loeb_model)** *ACM TISSEC* 5(4):438-457. Anchors optimal security spend to expected loss reduction rather than to cost imposed on the attacker. The model behind judging an investment by the surface it closes, not the toll it adds.
+- **[HackerOne (2023), "As Economy Slows, Headcount and Resource Cuts Harm Security Teams."](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats)** Survey finding 63% of security organizations had budgets cut and 39% cut headcount in a single downturn year, with two-thirds reporting it degraded their ability to operate. The empirical basis for position durability: scaling investment is the discretionary spend a shock cuts first, so a capex shock unwinds Lean in a budget cycle rather than over quarters. (See also [TechCrunch's 2023 roundup](https://techcrunch.com/2023/12/30/cybersecurity-not-immune-brutal-layoffs-2023/): 110+ security firms cut staff that year.)
 
 ### Absorption capacity and investment timing
 

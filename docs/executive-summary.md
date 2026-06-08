@@ -30,7 +30,7 @@ Five core security responsibilities that apply to every software-producing organ
 
 Two-axis framework for understanding your organization's current state:
 
-- **Operational Complexity** (What you manage): Simple → Complex
+- **Blast Radius** (How far a failure can reach): Small reach → Large reach
 - **Operational Readiness** (How you operate): Lower → Higher
 
 This creates four strategic positions: **Studio**, **Lean**, **Craft**, and **Mass**.

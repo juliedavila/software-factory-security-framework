@@ -10,7 +10,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ## The Four Strategic Positions
 
-### Studio: Simple Operations + High Readiness
+### Studio: Small Reach + High Readiness
 
 <div class="quadrant-studio" markdown>
 
@@ -23,7 +23,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Your Security Approach**: Enable security through modern tooling and self-service capabilities. Use your technology advantages rather than building processes that assume operational constraints you don't have.
 
-**Strategic Focus**: Build security automation from day one. Don't create manual processes you'll need to replace in 18 months. Your high operational readiness makes automation achievable now, and your simple operations mean you won't face enterprise coordination overhead.
+**Strategic Focus**: Build security automation from day one. Don't create manual processes you'll need to replace in 18 months. Your high operational readiness makes automation achievable now, and your small reach means there's little cross-boundary authority to coordinate and govern.
 
 </div>
 
@@ -41,7 +41,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
     **Symptoms**: Multi-week security design reviews, approval workflows for two-person teams, committee decision-making
 
-    **Solution**: Build for your current reality. Add complexity only when your operational complexity increases.
+    **Solution**: Build for your current reality. Add governance weight only when your reach actually widens.
 
 **Success Indicators**:
 
@@ -49,13 +49,13 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Zero manual security reviews for standard deployments, developers resolve 80%+ security issues without security team involvement
 - **24 Months**: Security automation enables 3-5x growth without proportional security team expansion
 
-**Movement Path**: As you grow, you'll naturally add operational complexity. Your challenge is maintaining high operational readiness while scaling: transition to [Lean](#lean-complex-operations-high-readiness) rather than falling into the Mass trap of adding complexity faster than capability.
+**Movement Path**: As you grow, you'll naturally grant more authority and widen your reach. Your challenge is keeping containment ahead of that reach: transition to [Lean](#lean-large-reach-high-readiness) rather than falling into the Mass trap of widening reach faster than you can contain it.
 
 [:octicons-arrow-right-24: See Studio Implementation Guide](../06-implementation/studio.md){ .md-button }
 
 ---
 
-### Lean: Complex Operations + High Readiness
+### Lean: Large Reach + High Readiness
 
 <div class="quadrant-lean" markdown>
 
@@ -101,7 +101,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ---
 
-### Craft: Simple Operations + Lower Readiness
+### Craft: Small Reach + Lower Readiness
 
 <div class="quadrant-craft" markdown>
 
@@ -114,7 +114,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Your Security Approach**: Focus on operational readiness foundations while managing essential security controls. Accept manual security processes initially, but invest strategically in readiness improvements that enable future automation.
 
-**Strategic Focus**: Build operational capabilities systematically while maintaining security coverage. Your simple operations mean you can afford some manual processes temporarily. Use this breathing room to invest in readiness infrastructure.
+**Strategic Focus**: Build operational capabilities systematically while maintaining security coverage. Your small reach means a failure stays contained even when caught by hand, so you can afford some manual processes temporarily. Use this breathing room to invest in readiness infrastructure.
 
 </div>
 
@@ -138,15 +138,15 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 - **6 Months**: Critical dependencies monitored, basic CI/CD pipeline operational, documented security processes
 - **12 Months**: 30-50% automation of security checks, measurable reduction in manual security work
-- **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Studio](#studio-simple-operations-high-readiness) position
+- **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Studio](#studio-small-reach-high-readiness) position
 
-**Movement Path**: Move toward Studio by investing in operational readiness. This single-axis movement is achievable. Prioritize cloud migration, DevOps tooling, and automation infrastructure over adding operational complexity.
+**Movement Path**: Move toward Studio by investing in operational readiness. This single-axis movement is achievable. Prioritize cloud migration, DevOps tooling, and automation infrastructure over widening your reach.
 
 [:octicons-arrow-right-24: See Craft Implementation Guide](../06-implementation/craft.md){ .md-button }
 
 ---
 
-### Mass: Complex Operations + Lower Readiness
+### Mass: Large Reach + Lower Readiness
 
 <div class="quadrant-mass" markdown>
 
@@ -173,18 +173,18 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Common Pitfalls to Avoid**:
 
-!!! warning "The Two-Axis Transformation Trap"
-    **Risk**: Attempting simultaneous complexity reduction AND readiness improvement, the highest failure risk
+!!! warning "The Diagonal Transformation Trap"
+    **Risk**: Attempting to shrink reach AND build containment at the same time, the highest failure risk
 
     **Symptoms**: Aggressive transformation timelines, simultaneous re-platforming and process overhauls, widespread disruption
 
-    **Solution**: Sequence changes carefully. Typically, invest in readiness first (Mass → Lean path) to enable automation at scale. Accept 36-48 month timeline.
+    **Solution**: Sequence changes carefully. Typically, build the containment floor first (the Mass → Lean climb) to enable automation at scale. Accept 36-48 month timeline.
 
 **Success Indicators**:
 
 - **12 Months**: Hybrid security solutions operational, critical technical debt reduction projects started, transformation roadmap with executive buy-in
 - **24 Months**: Measurable automation improvements in high-value areas, improved operational readiness metrics, cultural momentum toward transformation
-- **36-48 Months**: Substantial progress toward [Lean](#lean-complex-operations-high-readiness) position, security increasingly enabling business rather than constraining it
+- **36-48 Months**: Substantial progress toward [Lean](#lean-large-reach-high-readiness) position, security increasingly enabling business rather than constraining it
 
 **Movement Path**: Most Mass should move toward Lean by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Mass → Craft) rarely succeeds. It requires major business restructuring.
 
@@ -196,14 +196,16 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 Use these questions to confirm your strategic position:
 
-### Operational Complexity Assessment
+### Blast Radius Assessment
 
-| Question | Simple | Complex |
-|----------|--------|---------|
-| **Team Scale** | Single team or few coordinated teams | Multiple teams across organizational boundaries |
-| **Service Interdependencies** | Straightforward dependencies | Extensive service mesh with complex interactions |
-| **Compliance Scope** | Single jurisdiction, basic requirements | Multi-jurisdictional, sector-specific regulations |
-| **Customer Impact** | Single product or limited services | Enterprise platform or multiple customer-facing systems |
+Measure inherent reach: how far a failure could travel if containment failed, given everything your automation is allowed to do. Answer with the verbs of authority (can reach, is granted, is allowed to touch), not the verbs of control.
+
+| Question | Small reach | Large reach |
+|----------|-------------|-------------|
+| **Reach of most-capable automation**: largest set of systems any one automated actor (pipeline, agent, service account) can touch without a human in the loop? | One bounded surface (single service or datastore) | Crosses trust boundaries (prod, data, and identity at once); org-wide |
+| **Worst-case propagation**: if your single most-privileged non-human identity were fully compromised now, how far does damage reach before something not also compromised stops it? | Contained to one blast cell | Cascades across the estate |
+| **Autonomy depth**: how much can automation do, not just read, without a human checkpoint (open and merge code, move money, grant access, drop data)? | Read or propose only; humans commit consequential actions | Acts and commits consequential actions unattended |
+| **Authority concentration**: does any single credential, role, or agent hold standing authority broad enough that its misuse is an enterprise event? | No; authority attenuated per task | Yes; broad standing authority exists |
 
 ### Operational Readiness Assessment
 
@@ -235,7 +237,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 **Startup Founder Self-Assessment**: "We're obviously Craft, we're small and scrappy!"
 
-**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your small size is simple operations, but your modern stack is high readiness. Don't build manual processes just because you're small.
+**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your small size keeps your reach small, but your modern stack is high readiness. Don't build manual processes just because you're small.
 
 ---
 
@@ -247,7 +249,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 **High-Growth Startup Self-Assessment**: "We're Studio scaling successfully!"
 
-**Reality Check**: If you're adding teams faster than automation, you're moving toward Mass (high complexity, decreasing readiness). Maintain readiness investments or you'll face the two-axis transformation trap.
+**Reality Check**: If you're widening reach faster than you can contain it, you're moving toward Mass (large reach, low readiness). Maintain containment investments or you'll face the diagonal transformation trap.
 
 ---
 

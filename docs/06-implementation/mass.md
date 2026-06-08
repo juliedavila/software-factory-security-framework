@@ -1,17 +1,17 @@
 # Implementation Guide: Mass
 
-!!! note "Mass means low-flow, not the assembly line"
-    **Mass** here is lean's antonym: big-batch, siloed, low-flow security work at high complexity. It is not the 1913 mass-production repeatability triumph. The repeatability win in SF² is **Lean**; Mass is the high-complexity quadrant that has not yet earned it, which is why this guide is about getting there.
+!!! note "Mass is Lean's reach without Lean's floor"
+    **Mass** is Lean's large reach without Lean's floor: ungoverned scale, not big batch. Your automation can already reach far; what it cannot yet do is prove a failure stays contained. The border that matters is against Lean, not against Ford's assembly line, and this guide is about building the floor.
 
 ## Position Characteristics
 
-**Mass** organizations occupy the Complex + Low Readiness quadrant:
+**Mass** organizations occupy the Large reach + Low Readiness quadrant:
 
-- **High operational complexity** (100+ engineers, multiple products/services)
+- **Large inherent reach** (broad authority granted; typically 100+ engineers, multiple products/services)
 - **Legacy infrastructure** (manual processes, limited automation, technical debt)
 - **Resource constraints** (security team stretched thin, competing priorities)
 - **Transformation imperative** (current state unsustainable at scale)
-- **Highest transformation risk** (two-axis movement required)
+- **Highest transformation risk** (containment climb under fixed large reach)
 
 ## The Mass Reality
 
@@ -21,7 +21,7 @@ This is the **most difficult transformation journey**. You must simultaneously:
 - **Maintain operations** (can't stop to renovate)
 - **Work through organizational resistance** (change is hard)
 
-**Critical Truth**: Two-axis movement (complexity + readiness) has high failure risk. Success requires strategic sequencing, executive support, and realistic timelines.
+**Critical Truth**: This is the containment climb. Your reach is already large and you can't shrink it, so the whole job is building the floor beneath it while operations continue. That single-axis climb still has high failure risk; success requires strategic sequencing, executive support, and realistic timelines.
 
 ## Strategic Priorities
 
@@ -154,7 +154,7 @@ Regardless of path, you'll need hybrid approaches:
 
 ## Common Pitfalls
 
-### Attempting Two-Axis Movement Too Fast
+### Attempting the Containment Climb Too Fast
 **Risk**: Transformation failure from moving too aggressively
 
 **Symptoms**:
@@ -163,7 +163,7 @@ Regardless of path, you'll need hybrid approaches:
 - Incomplete migrations and half-finished modernization
 - Regression to old patterns under pressure
 
-**Solution**: **Sequence transformation** - stabilize first, then move one axis at a time, or reduce complexity before increasing readiness
+**Solution**: **Sequence transformation**: stabilize first, then build the containment floor in stages rather than attempting the whole climb at once
 
 ### Underestimating Timeline and Resources
 **Risk**: Transformation stalls from insufficient investment
@@ -208,6 +208,8 @@ Regardless of path, you'll need hybrid approaches:
 - Reverting to old patterns
 
 **Solution**: Use crisis events to secure sustained executive commitment
+
+One more failure mode belongs here, because it is the one outside your control. Every path in this guide assumes the funding holds for the years it takes. A capex shock mid-transformation does not just slow you; it strands you, half off legacy and not yet on the modern platform, carrying both. The 2023 round of security budget cuts, 63 percent of organizations in a single year, landed on exactly these multi-year programs first. The hedge is the one Lean rests on: build the containment floor into the substrate early, because the floor is the part a budget cut cannot repossess. Spend buys position; design buys the floor.
 
 ## Success Indicators
 

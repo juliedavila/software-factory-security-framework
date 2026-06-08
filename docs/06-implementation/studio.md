@@ -2,9 +2,9 @@
 
 ## Position Characteristics
 
-**Studio** organizations occupy the Simple + High Readiness quadrant:
+**Studio** organizations occupy the Small reach + High Readiness quadrant:
 
-- **Small to medium operational complexity** (10-200 engineers)
+- **Small inherent reach** (authority scoped per task; typically 10-200 engineers)
 - **Modern infrastructure** (cloud-native, infrastructure-as-code)
 - **Strong automation foundation** (CI/CD, automated testing)
 - **Fast decision-making** (minimal bureaucracy)
@@ -60,7 +60,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 ## Quick Start Checklist
 
 ### Week 1: Assessment
-- [ ] Map current operational complexity and readiness level
+- [ ] Map current blast radius and readiness level
 - [ ] Identify manual security bottlenecks
 - [ ] Assess relationship health with engineering teams
 - [ ] Review current security tool coverage
@@ -175,7 +175,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 ## Movement Paths
 
 ### Maintaining Position: Staying Studio
-As your organization grows, operational complexity will naturally increase. To maintain the Studio position:
+As your organization grows, your inherent reach will naturally widen. To maintain the Studio position:
 
 **Strategy**: Continuously optimize processes and automation as you scale
 
@@ -188,7 +188,7 @@ As your organization grows, operational complexity will naturally increase. To m
 **Timeline**: Ongoing; requires continuous attention
 
 ### Advancing to Lean
-When operational complexity increases (100+ engineers, multiple products):
+When your reach widens (more automation authority, broader scope; often 100+ engineers, multiple products):
 
 **Strategy**: Thoughtful complexity management while maintaining readiness
 

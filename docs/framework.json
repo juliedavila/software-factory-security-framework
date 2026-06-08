@@ -13,14 +13,14 @@
     "type": "two_axis_positioning",
     "axes": [
       {
-        "name": "Operational Complexity",
-        "description": "What you manage",
-        "range": ["Simple", "Complex"],
+        "name": "Blast Radius",
+        "description": "How far a failure could reach if containment fails, given everything your systems are allowed to do",
+        "range": ["Small reach", "Large reach"],
         "factors": [
-          "Team size and structure",
-          "Number of products/services",
-          "Infrastructure diversity",
-          "Organizational interdependencies"
+          "Reach of the most-capable automation",
+          "Worst-case propagation if the most-privileged non-human identity is compromised",
+          "Autonomy depth (acts vs only proposes)",
+          "Authority concentration in any single credential, role, or agent"
         ]
       },
       {
@@ -38,7 +38,7 @@
     "quadrants": [
       {
         "name": "Studio",
-        "position": "Simple + High Readiness",
+        "position": "Small reach + High Readiness",
         "characteristics": [
           "Small to medium scale (10-200 engineers)",
           "Modern cloud-native infrastructure",
@@ -50,7 +50,7 @@
       },
       {
         "name": "Lean",
-        "position": "Complex + High Readiness",
+        "position": "Large reach + High Readiness",
         "characteristics": [
           "Large scale (200+ engineers)",
           "Mature infrastructure and platforms",
@@ -62,7 +62,7 @@
       },
       {
         "name": "Craft",
-        "position": "Simple + Low Readiness",
+        "position": "Small reach + Low Readiness",
         "characteristics": [
           "Small scale (<50 engineers)",
           "Legacy or basic infrastructure",
@@ -74,7 +74,7 @@
       },
       {
         "name": "Mass",
-        "position": "Complex + Low Readiness",
+        "position": "Large reach + Low Readiness",
         "characteristics": [
           "Large scale with legacy systems",
           "Manual processes at scale",
@@ -387,7 +387,7 @@
     "Supply Chain Stewardship is #1 priority due to adversary evolution to automated discovery",
     "Constrain BAU activities, invest in scaling capabilities",
     "High operational readiness enables automation",
-    "Two-axis transformation is high-risk; sequence carefully",
+    "Diagonal transformation (widening reach while building containment at once) is high-risk; sequence carefully",
     "Appropriate security depends on organizational position",
     "Framework provides strategic overlay for other security frameworks",
     "Realistic timelines: Mass organizations need 3-5 years for transformation"

@@ -2,10 +2,10 @@
 
 ## How Organizations Transition Between Positions
 
-Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Complex + High Readiness), but **the path you take determines your likelihood of success**.
+Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + High Readiness), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
-    Quadrant transitions are organizational transformations, not technology projects. Single-axis movements (changing one dimension) take 12-24 months and have high success probability. Dual-axis transformations (changing both dimensions simultaneously) take 36-48 months and carry significant failure risk.
+    Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-48 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
 
 ---
 
@@ -29,10 +29,10 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | From → To | Movement Type | Timeline | Success Probability | Strategic Guidance |
 |-----------|---------------|----------|---------------------|-------------------|
 | **Craft → Studio** | Single-axis (Readiness ↑) | 12-18 months | High ⭐⭐⭐⭐ | [Operational Readiness Path](#path-1-craft-studio-operational-readiness) |
-| **Craft → Mass** | Single-axis (Complexity ↑) | 18-24 months | Moderate ⭐⭐ | [Complexity Scaling Path](#path-2-craft-mass-complexity-scaling) |
-| **Studio → Lean** | Single-axis (Complexity ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
-| **Mass → Craft** | Single-axis (Complexity ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
-| **Mass → Lean** | Dual-axis | 36-48 months | Moderate ⭐⭐ | [Dual Transformation Path](#path-5-mass-lean-dual-transformation) |
+| **Craft → Mass** | Single-axis (Reach ↑) | 18-24 months | Moderate ⭐⭐ | [Reach Scaling Path](#path-2-craft-mass-reach-scaling) |
+| **Studio → Lean** | Single-axis (Reach ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
+| **Mass → Craft** | Single-axis (Reach ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
+| **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-48 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
 | **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
 
 ---
@@ -55,7 +55,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 - Your business remains relatively simple (single team or product focus)
 - You have budget/appetite for infrastructure modernization
 - Legacy technical debt is constraining your business velocity
-- You want to enable future automation before complexity increases
+- You want to enable future automation before your reach widens
 
 **No, if:**
 - You're simultaneously scaling teams and organizational complexity rapidly
@@ -105,11 +105,11 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 ---
 
-## Path 2: Craft → Mass (Complexity Scaling)
+## Path 2: Craft → Mass (Reach Scaling)
 
 <div class="quadrant-mass" markdown>
 
-**Movement Type**: Single-axis (Increasing Operational Complexity)
+**Movement Type**: Single-axis (Increasing Reach)
 
 **Timeline**: 18-24 months
 
@@ -131,14 +131,14 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 ### Strategic Warning
 
-**This path creates technical debt**. You're adding complexity (multiple teams, enterprise features, regulatory requirements) without corresponding automation infrastructure. Plan for eventual Mass → Lean transformation requiring 36-48 months.
+**This path creates technical debt**. You're widening reach (more automation authority, more autonomous actors, broader scope across teams and features) without building the containment to match. Plan for eventual Mass → Lean transformation requiring 36-48 months.
 
 ### Key Investment Priorities
 
 1. **Team Scaling**: Hiring and organizational structure for multiple teams
 2. **Process Sophistication**: Coordination mechanisms, change management, incident response
 3. **Compliance Capabilities**: Regulatory frameworks, audit readiness, documentation
-4. **Manual Security Scale**: Security team growth to match increased operational complexity
+4. **Manual Security Scale**: Security team growth to match increased reach
 
 ### Success Indicators
 
@@ -156,7 +156,7 @@ Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term.
 
 <div class="quadrant-lean" markdown>
 
-**Movement Type**: Single-axis (Increasing Operational Complexity)
+**Movement Type**: Single-axis (Increasing Reach)
 
 **Timeline**: 24-36 months
 
@@ -166,7 +166,7 @@ Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term.
 
 ### When to Choose This Path
 
-**Optimal scenario for sustainable growth**: You're scaling complexity while maintaining operational readiness, the high-success transformation path.
+**Optimal scenario for sustainable growth**: You're widening reach while maintaining operational readiness, so containment scales with the reach. This is the high-success transformation path.
 
 ### Key Investment Priorities
 
@@ -209,7 +209,7 @@ Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term.
 
 <div class="quadrant-craft" markdown>
 
-**Movement Type**: Single-axis (Reducing Operational Complexity)
+**Movement Type**: Single-axis (Reducing Reach)
 
 **Timeline**: 18-30 months
 
@@ -219,7 +219,7 @@ Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term.
 
 ### Strategic Reality Check
 
-**This is the hardest path** and rarely succeeds. Reducing operational complexity typically requires:
+**This is the hardest path** and rarely succeeds. Shrinking inherent reach means clawing back authority you have already granted across the estate, and a large enterprise cannot easily shrink below its own surface area. It typically requires:
 
 - Major business restructuring or product simplification
 - Customer migration from complex to simple offerings
@@ -242,15 +242,15 @@ Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term.
 
 ### Alternative: Consider Mass → Lean Instead
 
-Most Mass should invest in operational readiness rather than attempting to reduce complexity. The Mass → Lean path is difficult but more achievable than organizational simplification.
+Most Mass should invest in operational readiness rather than attempting to shrink reach. The Mass → Lean path is difficult but more achievable than clawing back granted authority across the estate.
 
 ---
 
-## Path 5: Mass → Lean (Dual Transformation)
+## Path 5: Mass → Lean (The Containment Climb)
 
 <div class="quadrant-lean" markdown>
 
-**Movement Type**: Dual-axis (Increasing Readiness while Managing Complexity)
+**Movement Type**: Single-axis (Increasing Readiness under fixed large reach)
 
 **Timeline**: 36-48 months
 
@@ -260,12 +260,12 @@ Most Mass should invest in operational readiness rather than attempting to reduc
 
 ### When to Choose This Path
 
-**Reality**: Most Mass organizations must take this path. You can't simplify complexity, so you must modernize operations.
+**Reality**: Most Mass organizations must take this path. You can't shrink reach you've already granted across the estate, so you must build containment under it.
 
 ### The Challenge
 
 You're simultaneously:
-- Managing high operational complexity (multiple teams, legacy systems, enterprise requirements)
+- Holding large inherent reach (broad automation authority across legacy and modern systems, enterprise requirements)
 - Improving operational readiness (automation, cloud migration, technical debt reduction)
 
 This requires sustained executive support, significant investment, and realistic timeline expectations.
@@ -358,7 +358,7 @@ This requires sustained executive support, significant investment, and realistic
 
     **Symptoms**: Platform investment declining, manual processes creeping back, cultural erosion
 
-    **Solution**: Continuous investment in capabilities matching organizational evolution. Falling from Lean to Mass happens when readiness can't keep pace with complexity growth.
+    **Solution**: Continuous investment in capabilities matching organizational evolution. Falling from Lean to Mass happens when containment can't keep pace with widening reach.
 
 ---
 
@@ -398,7 +398,7 @@ Use these questions to select your optimal path:
 
 **Cloud-native startup scaling (Studio)**:
 - Best: Studio → Lean (24-36 months)
-- Maintain: High operational readiness during complexity scaling
+- Maintain: High operational readiness during reach scaling
 
 **Industry leader (Lean)**:
 - Best: Lean → Lean (continuous evolution)

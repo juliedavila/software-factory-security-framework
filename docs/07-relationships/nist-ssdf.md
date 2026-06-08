@@ -35,7 +35,7 @@ SF² helps you:
 
 ## Implementation by Quadrant
 
-### Studio (Simple + High Readiness)
+### Studio (Small reach + High Readiness)
 
 **SSDF Implementation Approach**: Automated from the start
 
@@ -53,7 +53,7 @@ SF² helps you:
 
 **Timeline**: 6-12 months for comprehensive automated SSDF implementation
 
-### Lean (Complex + High Readiness)
+### Lean (Large reach + High Readiness)
 
 **SSDF Implementation Approach**: Platform-scale automation
 
@@ -71,7 +71,7 @@ SF² helps you:
 
 **Timeline**: Ongoing optimization of established SSDF capabilities
 
-### Craft (Simple + Low Readiness)
+### Craft (Small reach + Low Readiness)
 
 **SSDF Implementation Approach**: Essential practices, pragmatic implementation
 
@@ -89,7 +89,7 @@ SF² helps you:
 
 **Timeline**: 6-12 months for essential SSDF practices
 
-### Mass (Complex + Low Readiness)
+### Mass (Large reach + Low Readiness)
 
 **SSDF Implementation Approach**: Hybrid (automated for new, pragmatic for legacy)
 
@@ -137,7 +137,7 @@ SF² helps you:
 - Growing too fast for manual SSDF
 
 **SF² Guidance**:
-1. **Assess Position**: Studio (Simple + High Readiness)
+1. **Assess Position**: Studio (Small reach + High Readiness)
 2. **Identify Scaling Crisis**: Manual SSDF practices not sustainable
 3. **Constrain BAU**: Manual security reviews for novel architectures only
 4. **Scaling Investment**: Automate SSDF practices in CI/CD

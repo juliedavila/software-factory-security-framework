@@ -39,7 +39,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 
 ## SF² Maturity Strategy by Quadrant
 
-### Studio (Simple + High Readiness)
+### Studio (Small reach + High Readiness)
 
 **SAMM Maturity Approach**: High maturity through automation
 
@@ -57,7 +57,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - Use automation to jump directly to Level 2-3 maturity
 - Avoid building manual processes that won't scale
 
-### Lean (Complex + High Readiness)
+### Lean (Large reach + High Readiness)
 
 **SAMM Maturity Approach**: Comprehensive high maturity across all functions
 
@@ -74,7 +74,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - Efficient maturity maintenance through platform effects
 - Eliminate practices that don't reduce risk (even if mature)
 
-### Craft (Simple + Low Readiness)
+### Craft (Small reach + Low Readiness)
 
 **SAMM Maturity Approach**: Essential practices at appropriate maturity
 
@@ -93,7 +93,7 @@ Each practice has maturity levels 0 (not performed) through 3 (optimized/strateg
 - Avoid pursuing comprehensive SAMM maturity
 - Use managed services to achieve maturity without building capability
 
-### Mass (Complex + Low Readiness)
+### Mass (Large reach + Low Readiness)
 
 **SAMM Maturity Approach**: Hybrid maturity (high for new, pragmatic for legacy)
 

@@ -11,21 +11,21 @@ Rather than using traditional maturity models that assume linear progression, th
 
 Organizations can be assessed along two critical axes:
 
-### Operational Complexity Axis (What You Manage)
+### Blast Radius Axis (What a Failure Can Reach)
 
-**Simple Operations**:
-- Single or few teams
-- Basic processes
-- Straightforward compliance
-- Limited interdependencies
-- Centralized decision-making
+The horizontal axis is **inherent blast radius**: how far a failure could reach if containment fails, given everything your systems are allowed to do. It is set by the authority you have handed your automation and agents, not by how many people you employ. Headcount and team count were the old stand-in, and the stand-in held while a bigger system meant more people to run it. AI broke that correlation. A fifteen-person shop running fifty agents with broad tool access has the reach of an enterprise and the headcount of a studio, and a security strategy keyed to headcount cannot see the reach. So the axis names the reach directly.
 
-**Complex Operations**:
-- Multiple teams/organizations
-- Sophisticated processes
-- Multi-jurisdictional compliance
-- Extensive service interdependencies
-- Distributed decision-making
+**Small reach**: automation that touches one bounded surface, authority scoped per task, a worst-case failure contained to a single blast cell.
+
+**Large reach**: automation that crosses trust boundaries (production, data, and identity at once), standing authority broad enough that one misused credential is an enterprise event, a worst-case failure that cascades across the estate.
+
+Headcount survives here as a legacy proxy: it used to predict reach, and where a small team still holds small authority it still does. AI is what severs the two, and the axis follows the reach.
+
+This is *inherent* reach, measured as if containment failed. What you build to stop a failure reaching that far, the boundary enforcement that holds a compromised component to the authority it was granted, is the other axis: readiness. Keeping the two apart is what keeps the model honest. Your reach is mostly what you have decided to let your systems do; your readiness is what you build to contain it. The containment floor that bounds the blast is the same boundary enforcement the [coadaptive layer](../10-coadaptive/04-boundary-enforcement.md) specifies at the substrate: this chapter names the position, that chapter builds the floor.
+
+This runs asymmetrically, and the asymmetry is the point. A small shop can leap to large reach by granting fifty agents broad authority, but a large enterprise cannot shrink below its own surface area: inherent reach is the sum of every authority you have granted, and a big estate has granted a great deal. Past a certain scale that sum is simply large, and the horizontal axis stops telling enterprises apart. So the two ends of the model play different games. Small shops fight to stay on the left, one over-scoped agent fleet away from teleporting to Mass. Large enterprises take their reach as given and fight the vertical: the whole move is proving containment and climbing to Lean.
+
+A test keeps the two axes from blurring. Place yourself in two sentences: a reach sentence using only the verbs of authority (what the automation can reach, is granted, is allowed to touch) and a readiness sentence using only the verbs of control (what is contained, caught, reviewed, segmented). If a containment word is carrying your reach claim, you have measured the wrong axis.
 
 ### Operational Readiness Axis (How You Operate)
 
@@ -50,7 +50,7 @@ These two axes create four distinct strategic positions, each with different sec
 <figure>
   <svg viewBox="0 0 680 560" role="img" aria-labelledby="sf2-axis-title sf2-axis-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:inherit;">
     <title id="sf2-axis-title">SF² two-axis positioning model</title>
-    <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Operational Complexity, increasing from Simple on the left to Complex on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Simple plus High readiness (top left); Lean is Complex plus High readiness (top right) and is the goal position; Craft is Simple plus Low readiness (bottom left); Mass is Complex plus Low readiness (bottom right). Mass means big-batch, siloed, low-flow work, the antonym of lean, not the 1913 mass-production repeatability triumph.</desc>
+    <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus High readiness (top left); Lean is Large reach plus High readiness (top right) and is the goal position; Craft is Small reach plus Low readiness (bottom left); Mass is Large reach plus Low readiness (bottom right). Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</desc>
     <!-- quadrant fills -->
     <rect x="110" y="60" width="250" height="200" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
     <rect x="360" y="60" width="250" height="200" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
@@ -58,39 +58,39 @@ These two axes create four distinct strategic positions, each with different sec
     <rect x="360" y="260" width="250" height="200" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
     <!-- quadrant labels -->
     <text x="235" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#1b5e20">Studio</text>
-    <text x="235" y="172" text-anchor="middle" font-size="12" fill="#333">Simple + High readiness</text>
-    <text x="235" y="190" text-anchor="middle" font-size="12" fill="#333">repeatable at small scale</text>
+    <text x="235" y="172" text-anchor="middle" font-size="12" fill="#333">Small reach + High readiness</text>
+    <text x="235" y="190" text-anchor="middle" font-size="12" fill="#333">narrow grant, floor built</text>
     <text x="485" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#0d47a1">Lean &#9733;</text>
-    <text x="485" y="172" text-anchor="middle" font-size="12" fill="#333">Complex + High readiness</text>
-    <text x="485" y="190" text-anchor="middle" font-size="12" fill="#333">goal: repeatability at scale</text>
+    <text x="485" y="172" text-anchor="middle" font-size="12" fill="#333">Large reach + High readiness</text>
+    <text x="485" y="190" text-anchor="middle" font-size="12" fill="#333">goal: reach with the floor built</text>
     <text x="235" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#7a5c00">Craft</text>
-    <text x="235" y="372" text-anchor="middle" font-size="12" fill="#333">Simple + Low readiness</text>
-    <text x="235" y="390" text-anchor="middle" font-size="12" fill="#333">snowflake-per-build, by hand</text>
+    <text x="235" y="372" text-anchor="middle" font-size="12" fill="#333">Small reach + Low readiness</text>
+    <text x="235" y="390" text-anchor="middle" font-size="12" fill="#333">narrow grant, by hand</text>
     <text x="485" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#b71c1c">Mass</text>
-    <text x="485" y="372" text-anchor="middle" font-size="12" fill="#333">Complex + Low readiness</text>
-    <text x="485" y="390" text-anchor="middle" font-size="12" fill="#333">big-batch, siloed, low-flow</text>
+    <text x="485" y="372" text-anchor="middle" font-size="12" fill="#333">Large reach + Low readiness</text>
+    <text x="485" y="390" text-anchor="middle" font-size="12" fill="#333">ungoverned reach, no floor</text>
     <!-- axis lines -->
     <line x1="110" y1="490" x2="610" y2="490" stroke="#555" stroke-width="1.5"/>
     <line x1="90" y1="60" x2="90" y2="460" stroke="#555" stroke-width="1.5"/>
     <!-- x axis labels -->
-    <text x="110" y="508" text-anchor="start" font-size="13" fill="#333">Simple</text>
-    <text x="610" y="508" text-anchor="end" font-size="13" fill="#333">Complex</text>
-    <text x="360" y="532" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Operational Complexity (scale)</text>
+    <text x="110" y="508" text-anchor="start" font-size="13" fill="#333">Small reach</text>
+    <text x="610" y="508" text-anchor="end" font-size="13" fill="#333">Large reach</text>
+    <text x="360" y="532" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Blast Radius (inherent reach, if containment fails)</text>
     <!-- y axis labels -->
     <text x="80" y="455" text-anchor="end" font-size="13" fill="#333">Lower</text>
     <text x="80" y="70" text-anchor="end" font-size="13" fill="#333">Higher</text>
     <text x="32" y="260" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a" transform="rotate(-90 32 260)">Operational Readiness (repeatability rising)</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The readiness axis is the lean transformation. Craft to Mass to Lean traces repeatability rising. <strong>Mass</strong> is lean's antonym (big-batch, siloed, low-flow), not Ford's 1913 repeatability triumph.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The horizontal axis is inherent blast radius (reach if containment fails); the vertical axis is the lean transformation, repeatability and proven containment rising. <strong>Mass</strong> is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</figcaption>
 </figure>
 
 !!! note "Reading the two axes"
-    The vertical axis is the **lean transformation**: moving up means security work becomes more repeatable. Craft to Mass to Lean traces repeatability rising, which is the core SF² thesis. The horizontal axis is **scale** (operational complexity). The goal position is **Lean**: high repeatability sustained at high complexity.
+    The horizontal axis is **blast radius**: the inherent reach of a failure if containment fails, set by what authority your automation holds. The vertical axis is the **lean transformation**: moving up means the work becomes more repeatable and a failure provably stays contained. The goal position is **Lean**: large reach with the floor built.
 
-!!! warning "Mass means low-flow, not Ford's assembly line"
-    In SF², **Mass** is lean's antonym: big-batch, siloed, low-flow security work that has not yet earned repeatability. It is *not* the 1913 mass-production repeatability triumph. A reader fluent in manufacturing history should not invert the readiness axis here. In SF² terms the repeatability win is **Lean**; Mass is the high-complexity quadrant still waiting on it.
+!!! note "The names are production modes, about flow and containment"
+    The four names map to production modes, and the analogy is about flow and containment, not volume. Lean is the cleanest fit: Toyota's line stops the instant a defect appears so it cannot propagate, which is large flow contained by construction, exactly large reach with the floor built. Craft is the artisan touching one or two things by hand. Studio is the small, bounded, modern shop. **Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.** Under the reach axis the border that matters is against Lean, not against Ford's assembly line.
 
-### Studio (Simple + High Readiness)
+### Studio (Small reach + High Readiness)
 
 **Characteristics**:
 - Small teams with modern technology stack
@@ -111,9 +111,9 @@ Use technology advantages while building organizational scale
 - Platform teams in larger organizations
 
 !!! example "Studio in Action"
-    A 15-person SaaS startup running on AWS with full CI/CD automation, infrastructure-as-code, and comprehensive observability. They can implement policy-as-code and automated security testing from day one.
+    A fifteen-person SaaS company whose automation was never granted broad authority: each service's deploy actor is allowed to touch only its own service, so the worst failure can reach a single surface. Per-credential scoping and human review on consequential actions keep it that way, so the small reach stays a contained one. Small reach, high readiness. A small team is not automatically Studio: grant fifty agents broad tool access to production and the reach is enterprise-scale on startup discipline, which is [Mass](../06-implementation/mass.md).
 
-### Lean (Complex + High Readiness)
+### Lean (Large reach + High Readiness)
 
 **Characteristics**:
 - Large-scale operations
@@ -135,9 +135,9 @@ Optimize security operations at enterprise scale while maintaining innovation
 - Tech giants
 
 !!! example "Lean in Action"
-    A 2,000-person organization with mature platform engineering, comprehensive automation, and sophisticated security orchestration. They build internal security platforms that enable hundreds of engineers.
+    A two-thousand-person organization whose automation is granted authority across the whole estate, so a failure could reach broadly. Every request runs under per-request attenuation enforced in the platform, so a compromised component is held inside the authority it was granted. Large reach, contained by construction. Lean is large blast radius with the floor already built.
 
-### Craft (Simple + Low Readiness)
+### Craft (Small reach + Low Readiness)
 
 !!! note "Craft is a method, not a price tag"
     **Craft** here describes non-repeatable hand-work: snowflake-per-build, every deployment a little different. It names the *method* (low repeatability), not quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time.
@@ -162,9 +162,9 @@ Build operational capabilities while maintaining security coverage
 - Organizations in regulated industries with legacy systems
 
 !!! example "Craft in Action"
-    A 20-person company with legacy infrastructure, manual deployments, and limited security tooling. They focus on basic security hygiene and gradual automation while managing business growth.
+    A twenty-person company on legacy infrastructure whose automation is granted little: one or two systems, deployed by hand. Nothing proves a failure stays put; it relies on the systems behaving. Small reach, low readiness.
 
-### Mass (Complex + Low Readiness)
+### Mass (Large reach + Low Readiness)
 
 **Characteristics**:
 - Large scale with legacy constraints
@@ -186,26 +186,26 @@ Balance current operational demands with strategic modernization investments
 - Government agencies
 
 !!! example "Mass in Action"
-    A 5,000-person enterprise with 20+ year-old systems, mixed infrastructure (on-prem + cloud), and security teams managing both legacy and modern systems. They implement hybrid security approaches while gradually modernizing.
+    A five-thousand-person enterprise whose automation is granted broad authority across legacy and cloud, and equally the fifteen-person shop that handed fifty agents production access. Neither can prove a compromised component stays inside its grant. Both are large reach, low readiness. Mass is ungoverned reach, not size.
 
 ## Assessing Your Position
 
 Use these questions to determine your organization's position:
 
-### Operational Complexity Assessment
+### Blast Radius Assessment (inherent reach)
 
-| Question | Simple | Complex |
-|----------|--------|---------|
-| How many teams/organizations? | 1-3 teams | 10+ teams |
-| Process sophistication? | Basic workflows | Enterprise processes |
-| Compliance scope? | Single jurisdiction | Multi-jurisdictional |
-| Service interdependencies? | Few/simple | Extensive/complex |
-| Decision-making? | Centralized | Distributed |
+| Question | Simple (small reach) | Complex (large reach) |
+|----------|----------------------|------------------------|
+| **Reach of most-capable automation:** the largest set of systems any one automated actor (pipeline, agent, service account) can touch without a human in the loop? | One bounded surface (single service/datastore) | Crosses trust boundaries (prod + data + identity); org-wide |
+| **Worst-case propagation:** if your single most-privileged non-human identity were fully compromised now, how far does damage reach before something *not also compromised* stops it? | Contained to one blast cell | Cascades across the estate |
+| **Autonomy depth:** how much can automation *do*, not just read, without a human checkpoint (open and merge code, move money, grant access, drop data)? | Read or propose only; humans commit consequential actions | Acts and commits consequential actions unattended |
+| **Authority concentration:** does any single credential, role, or agent hold standing authority broad enough that its misuse is an enterprise event? | No; authority attenuated per task | Yes; broad standing authority exists |
 
 ### Operational Readiness Assessment
 
 | Question | Lower Readiness | Higher Readiness |
 |----------|----------------|-----------------|
+| **Containment verifiability:** can you *prove* (not assert) that a compromised component cannot exceed the authority you granted it? | No; you rely on it behaving | Yes; enforced at the boundary |
 | Deployment process? | Manual | Fully automated |
 | Infrastructure? | Legacy/on-prem | Cloud-native/hybrid |
 | Documentation? | Tribal knowledge | Comprehensive docs |
@@ -235,20 +235,20 @@ Most organizations benefit from moving toward the Lean position, but the path de
 
 ### Movement Strategies
 
-| Current Position | Optimal Path | Primary Investments | Timeline | Success Factors |
+| Current Position | Optimal Path | Primary Investments | Timeline | Notes |
 |-----------------|--------------|-------------------|----------|----------------|
-| **Craft → Studio** | Infrastructure modernization | Cloud platforms, DevOps toolchains, security automation | 12-18 months | High (single axis movement) |
-| **Craft → Mass** | Complexity scaling | Team expansion, process sophistication, compliance capabilities | 18-24 months | Moderate (scaling without readiness) |
-| **Studio → Lean** | Complexity scaling | Enterprise platforms, governance, multi-team coordination | 24-36 months | High (readiness enables scaling) |
-| **Mass → Lean** | Modernization while scaling | Hybrid solutions, change management, technical debt remediation | 36-48 months | Moderate (dual transformation) |
-| **Mass → Craft** | Simplification | System consolidation, technical debt reduction, process streamlining | 18-30 months | Low (major organizational change required) |
+| **Craft → Studio** | Build the floor without widening reach | Per-service scoping, boundary enforcement, grants held narrow | 12-18 months | Single-axis climb (up); reach stays small |
+| **Studio → Lean** | Grow reach with the floor traveling | Scale automation reach while attenuation and boundaries hold | 24-36 months | Reach grows right, containment travels with it |
+| **Mass → Lean** | Build the floor under reach you already hold | Containment over the estate: per-request attenuation, boundary enforcement, retire ungoverned grants | 36-48 months | The enterprise's main game: single-axis climb (up) |
+| **Mass → Craft** | Shrink reach by cutting granted authority | Retire systems, narrow grants, reduce agent scope | 18-30 months | Single-axis move (left); hard to surrender reach the business uses |
+| **Craft → Mass** | Reach outran the floor | Broad automation or agents added without containment | fast, often involuntary | Drift, not a goal: the move to guard against |
 
 !!! tip "Executive Insight"
-    The Mass → Lean path is the most common but also the most challenging. It requires simultaneous modernization and scaling, transforming operations while maintaining business continuity.
+    The Mass → Lean path is the most common enterprise move. Your reach is already large; the entire job is vertical, proving containment over the estate you already hold. That is hard, but it is one axis, not two.
 
 ## Using Position to Guide Security Strategy
 
-The lists below are not four security architectures. They are four sequences toward the same containment, each with tooling fit to its scale. Every quadrant owes deny-by-default limits on the authority review cannot police at scale; what changes below is the order of investment and the tooling that fits the operational reality. Each list is a funding order for your scale, not the security you end up with.
+The lists below are four sequences toward the same containment, each with tooling fit to its scale. Every quadrant owes deny-by-default limits on the authority review cannot police at scale; what changes below is the order of investment and the tooling that fits the operational reality. Each list is a funding order for your scale, not the security you end up with.
 
 **For Studio**:
 - Use cloud-native security services

@@ -11,7 +11,7 @@ A 50-person SaaS startup (Studio position) hits the scaling crisis: security rev
 
 ### Framework Application
 
-**Strategic Position**: Studio (Simple + High Readiness)
+**Strategic Position**: Studio (Small reach + High Readiness)
 
 **Contextual Modifiers**:
 - High attack landscape maturity (SaaS target)
@@ -34,7 +34,7 @@ A 5,000-person financial services company (Mass position) needs to modernize sec
 
 ### Framework Application
 
-**Strategic Position**: Mass (Complex + Low Readiness)
+**Strategic Position**: Mass (Large reach + Low Readiness)
 
 **Contextual Modifiers**:
 - High regulatory constraints (financial services)
@@ -82,8 +82,8 @@ A 20-person startup with legacy infrastructure decides to modernize their entire
 
 ### Framework Application
 
-**Current Position**: Craft (Simple + Low Readiness)
-**Target Position**: Studio (Simple + High Readiness)
+**Current Position**: Craft (Small reach + Low Readiness)
+**Target Position**: Studio (Small reach + High Readiness)
 
 **Movement Path**: Infrastructure modernization (single axis movement)
 - Timeline: 12-18 months
@@ -156,7 +156,7 @@ This sign-off is dated. Today it is something you run periodically, at the level
 Use this template to apply SF² to your organization:
 
 ### 1. Assess Strategic Position
-- Operational Complexity: Simple / Complex
+- Blast Radius: Small reach / Large reach
 - Operational Readiness: Lower / Higher
 - Current Quadrant: _______________
 

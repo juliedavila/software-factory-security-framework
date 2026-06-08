@@ -49,7 +49,7 @@ ASVS organizes requirements into 14 categories:
 
 ## SF² ASVS Strategy by Quadrant
 
-### Studio (Simple + High Readiness)
+### Studio (Small reach + High Readiness)
 
 **ASVS Verification Approach**: Automated Level 2, selective Level 3
 
@@ -72,7 +72,7 @@ ASVS organizes requirements into 14 categories:
 
 **Timeline**: 12-18 months to comprehensive automated ASVS Level 2
 
-### Lean (Complex + High Readiness)
+### Lean (Large reach + High Readiness)
 
 **ASVS Verification Approach**: Comprehensive Level 2, selective Level 3 for high-risk
 
@@ -97,7 +97,7 @@ ASVS organizes requirements into 14 categories:
 
 **Timeline**: Ongoing optimization of established ASVS capabilities
 
-### Craft (Simple + Low Readiness)
+### Craft (Small reach + Low Readiness)
 
 **ASVS Verification Approach**: Essential Level 1 requirements, risk-based Level 2
 
@@ -120,7 +120,7 @@ ASVS organizes requirements into 14 categories:
 
 **Timeline**: 6-12 months to essential ASVS Level 1 coverage
 
-### Mass (Complex + Low Readiness)
+### Mass (Large reach + Low Readiness)
 
 **ASVS Verification Approach**: Hybrid (Level 2 for new, Level 1 for legacy)
 

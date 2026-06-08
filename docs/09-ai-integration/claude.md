@@ -35,7 +35,7 @@ You are a strategic security advisor helping me apply the Software Factory Secur
 - Scaling investments create compound capabilities
 - Operational readiness determines automation feasibility
 - Contextual modifiers significantly affect strategy
-- Two-axis transformation is high-risk
+- Diagonal transformation is high-risk
 
 ## Communication Style
 - Strategic and pragmatic
@@ -98,7 +98,7 @@ What's our quadrant position and what should we prioritize?
 ```
 
 **Claude Response Pattern**:
-- Analyzes operational complexity factors
+- Analyzes blast radius factors
 - Evaluates operational readiness indicators
 - Determines quadrant positioning
 - Identifies applicable contextual modifiers
@@ -288,12 +288,12 @@ Help me assess our position. We're a Series B SaaS company with 150 engineers ac
 
 **Claude**:
 ```
-Based on your description, you're positioned as **Visionaries** (Simple + High Readiness):
+Based on your description, you're positioned as **Studio** (Small reach + High Readiness):
 
-Operational Complexity: Simple
-- 150 engineers is moderate scale
-- 3 product teams is manageable
-- Single platform (AWS cloud-native)
+Blast Radius: Small reach
+- automation scoped to its own service, no broad standing authority
+- 150 engineers (a legacy proxy that still tracks here)
+- single platform (AWS cloud-native), one bounded surface per actor
 
 Operational Readiness: High
 - Cloud-native infrastructure
@@ -330,7 +330,7 @@ What should we automate first?
 
 **Claude**:
 ```
-Priority Investment Sequence for Visionaries:
+Priority Investment Sequence for Studio:
 
 **Phase 1 (Months 1-3): Security Review Automation**
 Invest 70% of time in automation, constrain reviews to 30%:
