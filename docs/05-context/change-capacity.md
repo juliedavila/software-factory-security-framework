@@ -57,6 +57,10 @@ Change capacity determines how quickly you can implement security transformation
 - Rapid experimentation and iteration
 - Transformative rather than incremental changes
 
+## Is This Modifier Earning Its Place?
+
+> Score an organization's change capacity from its prior track record (slack, governance, how past rollouts went) before a new one. High-scorers will complete adoption materially faster than low-scorers running the same rollout. Equal timelines falsify this modifier.
+
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to Relationship Health](relationship-health.md){ .md-button .md-button--primary }

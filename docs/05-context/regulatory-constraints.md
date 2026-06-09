@@ -61,6 +61,10 @@ Regulation telegraphs. CIRCIA was law four years before its reporting rule lands
 
 **Opportunities during compliance**: Crisis events, Audit findings, Regulatory changes
 
+## Is This Modifier Earning Its Place?
+
+> Score an organization's regulatory load before a scaling push. High-scorers who budgeted no compliance overhead will overrun capacity materially more than low-scorers who budgeted none. Equal overrun falsifies this modifier.
+
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to Crisis Events](crisis-events.md){ .md-button .md-button--primary }

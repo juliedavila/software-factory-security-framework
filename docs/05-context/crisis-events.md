@@ -107,6 +107,10 @@ Crisis events create unique windows for organizational change. Security incident
     
     **Return to Normal**: Allowing organizational attention to fade
 
+## Is This Modifier Earning Its Place?
+
+> Crisis Events is an accelerant rather than a standing exposure, so it falsifies in the accelerant shape. Score whether an organization has had a recent crisis before measuring strategic movement. Orgs with crisis events will show faster quadrant change than matched orgs without, at equal intent. Equal movement falsifies this modifier.
+
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to Change Capacity](change-capacity.md){ .md-button .md-button--primary }

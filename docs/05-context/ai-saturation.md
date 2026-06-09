@@ -49,11 +49,16 @@ automated guardrails and scoped agent identity.
 - Most code, and much of review and operations, runs through AI
 - The human's default role shifts to reviewing and approving AI-originated code
 - Autonomous agents act across the repo, CI, and infrastructure
+- One operator now spawns a fan-out of many agents, so the blast radius of a single instruction is the union of what every spawned agent can reach
+- Authority propagates across agent-to-agent delegation chains, one hop past where it was scoped
 - Tool grants and non-human identities multiply faster than they are inventoried
 - Generation speed has decoupled from human comprehension
 
 **Implementation Impact**: Manual review is no longer the control. Guardrails,
-policy-as-code, and per-request authorization become the binding investments.
+policy-as-code, and per-request authorization become the binding investments. And a fleet you
+cannot see is a fleet you cannot bound: a registry, a delegation policy, and a tested kill-switch
+make the population governable, while [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md)
+contains what any one agent can reach.
 
 !!! warning "Better Models Do Not Close the Gap"
     In a [2025 study](https://www.veracode.com/blog/genai-code-security-report/) spanning
@@ -160,9 +165,13 @@ surface (more agents, more autonomous reasoning). What saturation isolates, and 
 other modifiers do not see, is internal: the proportion of your work that now moves faster
 than your people can comprehend it.
 
+## Is This Modifier Earning Its Place?
+
+> Score an organization's AI saturation before measuring review load. High-saturation orgs that kept manual review will hit a comprehension bottleneck materially sooner than low-saturation orgs that kept it. Equal bottlenecks falsify this modifier.
+
 ---
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Implementation Guides](../06-implementation/studio.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Continue to PQC Exposure](pqc-exposure.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers Overview](overview.md){ .md-button }

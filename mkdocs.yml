@@ -87,6 +87,7 @@ nav:
     - Change Capacity: 05-context/change-capacity.md
     - Relationship Health: 05-context/relationship-health.md
     - AI Saturation: 05-context/ai-saturation.md
+    - PQC Exposure: 05-context/pqc-exposure.md
 
   - Implementation Guides:
     - Studio: 06-implementation/studio.md

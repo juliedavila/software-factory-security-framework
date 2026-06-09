@@ -90,9 +90,13 @@ The reflex when relationships are weak is to make more controls mandatory and ac
 
 Everything above assumes a person is doing the adopting. Relationship health is a property of people. An agent does not adopt through trust; it is governed by what it is allowed to do. As more of the work shifts to agents, the weight of this modifier shifts with it: the lever stops being the relationship and becomes the [capability boundary](../10-coadaptive/04-boundary-enforcement.md). You do not build trust with an agent. You bind what it can do.
 
+## Is This Modifier Earning Its Place?
+
+> Score security-and-engineering relationship health before a scaling investment. High-health orgs will see materially higher voluntary adoption than low-health orgs deploying the same capability. Equal adoption falsifies this modifier.
+
 ## Next Steps
 
-Six modifiers down, one to go. Continue to AI Saturation, the seventh and newest:
+Continue to AI Saturation and PQC Exposure, the two newest modifiers:
 
 [:octicons-arrow-right-24: Continue to AI Saturation](ai-saturation.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers Overview](overview.md){ .md-button }
