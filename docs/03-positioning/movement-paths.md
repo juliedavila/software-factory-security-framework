@@ -7,6 +7,8 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 !!! warning "The Transformation Reality"
     Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-48 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
 
+    That gap between fast and slow is the install clock against the absorb clock: granting authority installs in a day, building the floor the organization runs on takes quarters (see [Change Capacity](../05-context/change-capacity.md)). And the reason doing both at once fails most is that they draw on one shared absorption budget, not two. The same people, sponsor, and approval path carry both, so each absorbs worse. Sequence the heavy moves; do not stack them.
+
 ---
 
 ## The Strategic Movement Framework
@@ -34,6 +36,8 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | **Mass → Craft** | Single-axis (Reach ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
 | **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-48 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
 | **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
+
+The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
 ---
 
