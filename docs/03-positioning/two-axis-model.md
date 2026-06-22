@@ -51,35 +51,45 @@ These two axes create four distinct strategic positions, each with different sec
   <svg viewBox="0 0 680 560" role="img" aria-labelledby="sf2-axis-title sf2-axis-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:inherit;">
     <title id="sf2-axis-title">SF² two-axis positioning model</title>
     <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus High readiness (top left); Lean is Large reach plus High readiness (top right) and is the goal position; Craft is Small reach plus Low readiness (bottom left); Mass is Large reach plus Low readiness (bottom right). Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</desc>
-    <!-- quadrant fills -->
-    <rect x="110" y="60" width="250" height="200" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
-    <rect x="360" y="60" width="250" height="200" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
-    <rect x="110" y="260" width="250" height="200" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
-    <rect x="360" y="260" width="250" height="200" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+    <defs>
+      <pattern id="pStudio" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="13" stroke="#009E73" stroke-width="1.2" opacity="0.38"/></pattern>
+      <pattern id="pLean" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.5" fill="#0072B2" opacity="0.38"/></pattern>
+      <pattern id="pCraft" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="13" stroke="#E69F00" stroke-width="1.3" opacity="0.42"/></pattern>
+      <pattern id="pMass" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 0 L13 13 M13 0 L0 13" stroke="#D55E00" stroke-width="0.9" opacity="0.3"/></pattern>
+    </defs>
+    <!-- quadrant fills + colorblind-safe pattern overlay (color + pattern + label) -->
+    <rect x="110" y="60" width="250" height="200" fill="#E2F3EC" stroke="#009E73" stroke-width="2.5"/>
+    <rect x="110" y="60" width="250" height="200" fill="url(#pStudio)" stroke="none"/>
+    <rect x="360" y="60" width="250" height="200" fill="#DCEBF6" stroke="#0072B2" stroke-width="2.5"/>
+    <rect x="360" y="60" width="250" height="200" fill="url(#pLean)" stroke="none"/>
+    <rect x="110" y="260" width="250" height="200" fill="#FBEFD9" stroke="#E69F00" stroke-width="2.5"/>
+    <rect x="110" y="260" width="250" height="200" fill="url(#pCraft)" stroke="none"/>
+    <rect x="360" y="260" width="250" height="200" fill="#FBE6DA" stroke="#D55E00" stroke-width="2.5"/>
+    <rect x="360" y="260" width="250" height="200" fill="url(#pMass)" stroke="none"/>
     <!-- quadrant labels -->
-    <text x="235" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#1b5e20">Studio</text>
-    <text x="235" y="172" text-anchor="middle" font-size="12" fill="#333">Small reach + High readiness</text>
-    <text x="235" y="190" text-anchor="middle" font-size="12" fill="#333">narrow grant, floor built</text>
-    <text x="485" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#0d47a1">Lean &#9733;</text>
-    <text x="485" y="172" text-anchor="middle" font-size="12" fill="#333">Large reach + High readiness</text>
-    <text x="485" y="190" text-anchor="middle" font-size="12" fill="#333">goal: reach with the floor built</text>
-    <text x="235" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#7a5c00">Craft</text>
-    <text x="235" y="372" text-anchor="middle" font-size="12" fill="#333">Small reach + Low readiness</text>
-    <text x="235" y="390" text-anchor="middle" font-size="12" fill="#333">narrow grant, by hand</text>
-    <text x="485" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#b71c1c">Mass</text>
-    <text x="485" y="372" text-anchor="middle" font-size="12" fill="#333">Large reach + Low readiness</text>
-    <text x="485" y="390" text-anchor="middle" font-size="12" fill="#333">ungoverned reach, no floor</text>
+    <text x="235" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00553F">Studio</text>
+    <text x="235" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + High readiness</text>
+    <text x="235" y="190" text-anchor="middle" font-size="12" fill="#2A2520">narrow grant, floor built</text>
+    <text x="485" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00557F">Lean &#9733;</text>
+    <text x="485" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + High readiness</text>
+    <text x="485" y="190" text-anchor="middle" font-size="12" fill="#2A2520">goal: reach with the floor built</text>
+    <text x="235" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#855A00">Craft</text>
+    <text x="235" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + Low readiness</text>
+    <text x="235" y="390" text-anchor="middle" font-size="12" fill="#2A2520">narrow grant, by hand</text>
+    <text x="485" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#A6450B">Mass</text>
+    <text x="485" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + Low readiness</text>
+    <text x="485" y="390" text-anchor="middle" font-size="12" fill="#2A2520">ungoverned reach, no floor</text>
     <!-- axis lines -->
-    <line x1="110" y1="490" x2="610" y2="490" stroke="#555" stroke-width="1.5"/>
-    <line x1="90" y1="60" x2="90" y2="460" stroke="#555" stroke-width="1.5"/>
+    <line x1="110" y1="490" x2="610" y2="490" stroke="#2A2520" stroke-width="1.5"/>
+    <line x1="90" y1="60" x2="90" y2="460" stroke="#2A2520" stroke-width="1.5"/>
     <!-- x axis labels -->
-    <text x="110" y="508" text-anchor="start" font-size="13" fill="#333">Small reach</text>
-    <text x="610" y="508" text-anchor="end" font-size="13" fill="#333">Large reach</text>
-    <text x="360" y="532" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Blast Radius (inherent reach, if containment fails)</text>
+    <text x="110" y="508" text-anchor="start" font-size="13" fill="#3A3530">Small reach</text>
+    <text x="610" y="508" text-anchor="end" font-size="13" fill="#3A3530">Large reach</text>
+    <text x="360" y="532" text-anchor="middle" font-size="14" font-weight="700" fill="#2C4A6B">Blast Radius (inherent reach, if containment fails)</text>
     <!-- y axis labels -->
-    <text x="80" y="455" text-anchor="end" font-size="13" fill="#333">Lower</text>
-    <text x="80" y="70" text-anchor="end" font-size="13" fill="#333">Higher</text>
-    <text x="32" y="260" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a" transform="rotate(-90 32 260)">Operational Readiness (repeatability rising)</text>
+    <text x="80" y="455" text-anchor="end" font-size="13" fill="#3A3530">Lower</text>
+    <text x="80" y="70" text-anchor="end" font-size="13" fill="#3A3530">Higher</text>
+    <text x="32" y="260" text-anchor="middle" font-size="14" font-weight="700" fill="#2C4A6B" transform="rotate(-90 32 260)">Operational Readiness (repeatability rising)</text>
   </svg>
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The horizontal axis is inherent blast radius (reach if containment fails); the vertical axis is the lean transformation, repeatability and proven containment rising. <strong>Mass</strong> is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</figcaption>
 </figure>

@@ -6,6 +6,37 @@
 
 AI-era security pressure shows up at three distinct levels, and conflating them is how defenses end up aimed at the wrong layer. The substrate is what the system is allowed to do. The dynamic is how untrusted input moves through it. The unit is who, human and agents together, is actually operating. The rest of this layer is organized around that decomposition, because a defense that belongs at the substrate fails when you try to enforce it in the dynamic, and a threat that lives in the dynamic cannot be fixed by redrawing the unit.
 
+<figure>
+  <svg viewBox="0 0 720 510" role="img" aria-labelledby="sf2-3l-title sf2-3l-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-3l-title">SF² three-layer model</title>
+    <desc id="sf2-3l-desc">A vertical stack of three layers plus a foundation. Top: the Unit layer, who is operating (human and agents), the newest and least stable layer. Middle: the Dynamic layer, how untrusted input moves through the system, where the goal is containment and provenance, not prevention. Bottom: the Substrate layer, what the system is allowed to do, boundary-enforceable and where defense is most reliable. Beneath the substrate sits a foundation layer of cryptography, silicon, and model weights, which fails silently. Defensive weight should sit low, on the substrate, because the unit at the top is the least stable layer.</desc>
+    <defs>
+      <marker id="sf2-3l-arrow" markerWidth="12" markerHeight="12" refX="5" refY="9" orient="auto"><path d="M1 1 L5 9 L9 1" fill="none" stroke="#2C4A6B" stroke-width="1.8"/></marker>
+    </defs>
+    <rect x="40" y="20" width="500" height="92" rx="6" fill="#DDE6EF" stroke="#2C4A6B" stroke-width="1.6"/>
+    <text x="60" y="50" font-size="18" font-weight="700" fill="#2C4A6B">Unit</text>
+    <text x="60" y="72" font-size="13" fill="#2A2520">Who is operating: human + agents, paired as one cell.</text>
+    <text x="60" y="92" font-size="13" fill="#2A2520">The newest layer, and the least stable: the human/agent split keeps moving.</text>
+    <rect x="40" y="126" width="500" height="92" rx="6" fill="#B9C9DA" stroke="#2C4A6B" stroke-width="1.6"/>
+    <text x="60" y="156" font-size="18" font-weight="700" fill="#1F3850">Dynamic</text>
+    <text x="60" y="178" font-size="13" fill="#2A2520">How untrusted input moves through the system at runtime.</text>
+    <text x="60" y="198" font-size="13" fill="#2A2520">Safe by construction is off the table: aim for containment and provenance.</text>
+    <rect x="40" y="232" width="500" height="104" rx="6" fill="#2C4A6B" stroke="#21384F" stroke-width="1.6"/>
+    <text x="60" y="264" font-size="18" font-weight="700" fill="#FFFFFF">Substrate</text>
+    <text x="60" y="286" font-size="12.5" fill="#EAF1F7">What it is allowed to do: capabilities, authority, infrastructure limits.</text>
+    <text x="60" y="305" font-size="12.5" fill="#EAF1F7">Boundary-enforceable. Defense is most reliable here: bound behavior, not predict it.</text>
+    <text x="60" y="325" font-size="12.5" font-style="italic" fill="#C9D8E6">A component that cannot reach the data cannot leak it, whatever it is told to do.</text>
+    <rect x="40" y="346" width="500" height="44" rx="5" fill="#B8956A" stroke="#9A7A52" stroke-width="1.4"/>
+    <text x="60" y="366" font-size="14" font-weight="700" fill="#2A2520">Layer beneath the substrate</text>
+    <text x="60" y="383" font-size="12.5" fill="#2A2520">cryptography &#183; silicon &#183; model weights. Usually holds; when it fails, it fails silently.</text>
+    <line x1="572" y1="46" x2="572" y2="288" stroke="#2C4A6B" stroke-width="2" marker-end="url(#sf2-3l-arrow)"/>
+    <text x="590" y="62" font-size="12.5" font-weight="700" fill="#A6450B">least stable</text>
+    <text x="590" y="262" font-size="12.5" font-weight="700" fill="#00553F">most reliable</text>
+    <text x="590" y="282" font-size="12.5" font-weight="700" fill="#2C4A6B">defend here</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The three layers, with the foundation beneath the substrate. Put defensive weight low, on the substrate: the unit at the top is the least stable layer, so a defense anchored there moves under you.</figcaption>
+</figure>
+
 ## Substrate
 
 The substrate is the static, boundary-enforceable layer: the capabilities a component holds, the authority a request carries, what the infrastructure permits before any input arrives. This is where defense is most reliable, because it does not depend on predicting behavior. It depends on bounding it. A component that cannot reach the data cannot leak the data, whatever it is told to do.
