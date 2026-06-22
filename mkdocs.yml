@@ -15,6 +15,7 @@ not_in_nav: |
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   features:
     - navigation.instant
@@ -103,6 +104,12 @@ nav:
 
   - Use Cases: 08-use-cases/scenarios.md
 
+  # Nav order is INTENTIONAL: the Coadaptive Security Layer (dir 10) is placed
+  # before AI Integration (dir 09) on purpose. Coadaptive is the conceptual
+  # capstone; the per-vendor AI Integration guides are the perishable, practical
+  # off-ramp before the Appendix. The visible tab labels carry no numbers, so
+  # readers never perceive a sequence break; this is a deliberate reading arc,
+  # not a numbering bug. (SF² v0.8, ISC-31; ratified after council review.)
   - Coadaptive Security Layer:
     - Overview: 10-coadaptive/overview.md
     - "01 The Three-Layer Model": 10-coadaptive/01-three-layer-model.md

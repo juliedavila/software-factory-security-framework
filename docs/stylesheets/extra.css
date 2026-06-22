@@ -329,6 +329,58 @@ td.low,
     overflow-x: auto;
     white-space: nowrap;
   }
+
+  /* ISC-29: the wide 5-col movement table (.sf2-card-table) becomes per-row
+     cards on narrow screens instead of a horizontal scroll. Each cell carries
+     its column header via data-label so nothing is lost. Scoped by class, so
+     every other table keeps the scroll-wrapper default above. Desktop is
+     untouched (this lives only inside the mobile breakpoint). */
+  .md-typeset .sf2-card-table > table,
+  .md-typeset .sf2-card-table > table tbody,
+  .md-typeset .sf2-card-table > table tr,
+  .md-typeset .sf2-card-table > table td {
+    display: block;
+    width: 100%;
+    overflow-x: visible;
+  }
+  .md-typeset .sf2-card-table > table thead {
+    /* header conveyed per-cell via data-label; clip (not remove) the row */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  .md-typeset .sf2-card-table > table tr {
+    margin: 0 0 1rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-left: 4px solid var(--sf2-azul);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .md-typeset .sf2-card-table > table td {
+    white-space: normal;
+    border: 0;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    padding: 0.55rem 0.8rem;
+  }
+  .md-typeset .sf2-card-table > table td:last-child {
+    border-bottom: 0;
+  }
+  .md-typeset .sf2-card-table > table td::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--sf2-azul);
+    margin-bottom: 0.15rem;
+  }
+  /* dark scheme: lift the label color for AA on the slate background */
+  [data-md-color-scheme="slate"] .md-typeset .sf2-card-table > table td::before {
+    color: var(--sf2-azul-light);
+  }
 }
 
 /* ============================================

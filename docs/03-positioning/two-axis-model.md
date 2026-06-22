@@ -245,13 +245,50 @@ Most organizations benefit from moving toward the Lean position, but the path de
 
 ### Movement Strategies
 
-| Current Position | Optimal Path | Primary Investments | Timeline | Notes |
-|-----------------|--------------|-------------------|----------|----------------|
-| **Craft → Studio** | Build the floor without widening reach | Per-service scoping, boundary enforcement, grants held narrow | 12-18 months | Single-axis climb (up); reach stays small |
-| **Studio → Lean** | Grow reach with the floor traveling | Scale automation reach while attenuation and boundaries hold | 24-36 months | Reach grows right, containment travels with it |
-| **Mass → Lean** | Build the floor under reach you already hold | Containment over the estate: per-request attenuation, boundary enforcement, retire ungoverned grants | 36-48 months | The enterprise's main game: single-axis climb (up) |
-| **Mass → Craft** | Shrink reach by cutting granted authority | Retire systems, narrow grants, reduce agent scope | 18-30 months | Single-axis move (left); hard to surrender reach the business uses |
-| **Craft → Mass** | Reach outran the floor | Broad automation or agents added without containment | fast, often involuntary | Drift, not a goal: the move to guard against |
+<div class="sf2-card-table">
+<table>
+<thead>
+<tr><th>Current Position</th><th>Optimal Path</th><th>Primary Investments</th><th>Timeline</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Current Position"><strong>Craft → Studio</strong></td>
+<td data-label="Optimal Path">Build the floor without widening reach</td>
+<td data-label="Primary Investments">Per-service scoping, boundary enforcement, grants held narrow</td>
+<td data-label="Timeline">12-18 months</td>
+<td data-label="Notes">Single-axis climb (up); reach stays small</td>
+</tr>
+<tr>
+<td data-label="Current Position"><strong>Studio → Lean</strong></td>
+<td data-label="Optimal Path">Grow reach with the floor traveling</td>
+<td data-label="Primary Investments">Scale automation reach while attenuation and boundaries hold</td>
+<td data-label="Timeline">24-36 months</td>
+<td data-label="Notes">Reach grows right, containment travels with it</td>
+</tr>
+<tr>
+<td data-label="Current Position"><strong>Mass → Lean</strong></td>
+<td data-label="Optimal Path">Build the floor under reach you already hold</td>
+<td data-label="Primary Investments">Containment over the estate: per-request attenuation, boundary enforcement, retire ungoverned grants</td>
+<td data-label="Timeline">36-48 months</td>
+<td data-label="Notes">The enterprise's main game: single-axis climb (up)</td>
+</tr>
+<tr>
+<td data-label="Current Position"><strong>Mass → Craft</strong></td>
+<td data-label="Optimal Path">Shrink reach by cutting granted authority</td>
+<td data-label="Primary Investments">Retire systems, narrow grants, reduce agent scope</td>
+<td data-label="Timeline">18-30 months</td>
+<td data-label="Notes">Single-axis move (left); hard to surrender reach the business uses</td>
+</tr>
+<tr>
+<td data-label="Current Position"><strong>Craft → Mass</strong></td>
+<td data-label="Optimal Path">Reach outran the floor</td>
+<td data-label="Primary Investments">Broad automation or agents added without containment</td>
+<td data-label="Timeline">fast, often involuntary</td>
+<td data-label="Notes">Drift, not a goal: the move to guard against</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 !!! tip "Executive Insight"
     The Mass → Lean path is the most common enterprise move. Your reach is already large; the entire job is vertical, proving containment over the estate you already hold. That is hard, but it is one axis, not two.
