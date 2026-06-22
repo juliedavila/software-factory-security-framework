@@ -13,7 +13,7 @@
 
 **SF²** helps determine **which ASVS level to target**, **which requirements to prioritize**, and **how to implement verification** based on organizational position and risk.
 
-SF² sequences a practice baseline, and ASVS's verification levels are one expression of that baseline, not a fixed endpoint. The baseline keeps broadening toward attestation and capability standards. Through all of it, SF²'s role holds: it picks the right subset for your context, and it ties the verification back to what the system is allowed to do.
+SF² sequences a practice baseline, and ASVS's verification levels are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it picks the right subset for your context, and it ties the verification back to what the system is allowed to do.
 
 ## Key Insight
 

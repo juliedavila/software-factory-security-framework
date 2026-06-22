@@ -13,7 +13,7 @@
 
 **SF²** helps determine **which maturity levels to pursue** and **how fast to progress** based on your organizational position and readiness.
 
-SF² sequences a practice baseline, and SAMM's maturity levels are one expression of that baseline, not a ladder to climb for its own sake. The baseline keeps broadening toward capability and attestation standards. Through all of it, SF²'s role holds: it decides which levels are worth the investment for your context, and it sequences them toward containing what the system can do.
+SF² sequences a practice baseline, and SAMM's maturity levels are one expression of that baseline, not a ladder to climb for its own sake. As that baseline broadens toward capability and attestation standards, SF²'s role holds: it decides which levels are worth the investment for your context, and it sequences them toward containing what the system can do.
 
 ## Key Insight
 
