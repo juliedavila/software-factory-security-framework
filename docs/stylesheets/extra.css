@@ -1,6 +1,111 @@
 /* Software Factory Security Framework (SF²) - Custom Styling */
 
 /* ============================================
+   SF² v0.8 HYBRID BRAND LAYER
+   Consumes the Mexican-modernist tokens per brand-spec.md (RATIFIED 2026-06-22).
+   Professional structure + restrained heritage accent. Accessibility classes
+   below (.critical/.high/.quadrant-*) are PRESERVED; this layer recolors only.
+   ============================================ */
+
+/* Cardo for headings (Source Serif 4 + JetBrains Mono load via theme.font). */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --sf2-azul: #2C4A6B;        /* Azul Talavera - primary accent */
+  --sf2-azul-dark: #21384F;
+  --sf2-azul-light: #8FB3D9;  /* lightened azul for dark-mode legibility */
+  --sf2-oro: #B8956A;         /* Oro de Retablo - ornament/hairline only */
+  --sf2-ink: #2A2520;         /* Tinta Sepia - body/headings */
+  --sf2-paper: #FAFAF7;       /* near-white base (RATIFIED) */
+  --sf2-cal: #F4EFE6;         /* Cal Encalada - warm tint, accent only */
+}
+
+/* Primary (header/nav) + accent (hover/active) = Azul Talavera. */
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--sf2-azul);
+  --md-primary-fg-color--light: #3C5E84;
+  --md-primary-fg-color--dark: var(--sf2-azul-dark);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+}
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--sf2-azul-dark);
+  --md-accent-fg-color--transparent: rgba(44, 74, 107, 0.1);
+  --md-accent-bg-color: #ffffff;
+}
+
+/* Light scheme: near-white base, ink text, azul links, footer contrast fix. */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: var(--sf2-paper);
+  --md-typeset-color: var(--sf2-ink);
+  --md-typeset-a-color: var(--sf2-azul);
+  /* ISC-28: copyright muted text on the dark footer rises from ~3.9:1 to >=4.5:1 */
+  --md-footer-fg-color: hsla(0, 0%, 100%, 0.95);
+  --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.85);
+  --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Dark scheme (slate): lighten azul so links/accents keep AA on dark. */
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: var(--sf2-azul-light);
+}
+[data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+  --md-primary-fg-color: #3C5E84;
+}
+[data-md-color-scheme="slate"][data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--sf2-azul-light);
+  --md-accent-fg-color--transparent: rgba(143, 179, 217, 0.1);
+}
+
+/* Type: Cardo display for content headings; body is Source Serif 4 (theme). */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: "Cardo", "Source Serif 4", Georgia, serif;
+  letter-spacing: 0.005em;
+}
+
+/* Warm tint (Cal Encalada) as the table zebra accent, replacing flat grey. */
+[data-md-color-scheme="default"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--sf2-cal);
+}
+
+/* Figures: consistent centering + breathing room across all diagrams (spec §6). */
+.md-typeset figure {
+  margin: 1.6em auto;
+  text-align: center;
+}
+.md-typeset figure svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* The ornament (sparing, <=2x sitewide). Placement 1: footer hairline cenefa. */
+.md-footer-meta::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 7px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='7'%20viewBox='0%200%2024%207'%3E%3Cpath%20d='M0%206H6V2H12V6H18V2H24'%20fill='none'%20stroke='%23B8956A'%20stroke-width='1.1'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  opacity: 0.6;
+}
+
+/* Placement 2: a single landing-page section divider (used once in index.md). */
+.sf2-cenefa-divider {
+  height: 14px;
+  max-width: 240px;
+  margin: 2.6rem auto;
+  border: 0;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='14'%20viewBox='0%200%2032%2014'%3E%3Cpath%20d='M0%2011H8V3H16V11H24V3H32'%20fill='none'%20stroke='%23B8956A'%20stroke-width='1.4'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.8;
+}
+
+/* ============================================
    TABLE ENHANCEMENTS FOR COMPARISON MATRICES
    ============================================ */
 

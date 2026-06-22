@@ -34,20 +34,20 @@ theme:
     - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
-      accent: deep-orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: deep-orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Source Serif 4
+    code: JetBrains Mono
   logo: assets/logo.svg
   favicon: assets/favicon.ico
 
@@ -133,7 +133,7 @@ plugins:
   - social:
       cards: true
       cards_layout_options:
-        background_color: "#1a3a52"  # SF² shield blue
+        background_color: "#2C4A6B"  # Azul Talavera (SF² primary accent, brand-spec §2)
         color: "#ffffff"
         font_family: Roboto
   - git-revision-date-localized:

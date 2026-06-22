@@ -21,7 +21,7 @@ Whether you're leading security for a three-person startup or a multinational co
 - ✅ **Invest resources effectively** by balancing immediate needs with long-term scaling
 - ✅ **Adapt to your context** using modifiers that account for your specific constraints
 
----
+<div class="sf2-cenefa-divider" role="separator" aria-hidden="true"></div>
 
 ## Framework Overview
 
