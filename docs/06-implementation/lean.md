@@ -2,9 +2,9 @@
 
 ## Position Characteristics
 
-**Lean** organizations occupy the Complex + High Readiness quadrant:
+**Lean** organizations occupy the Large reach + High Readiness quadrant:
 
-- **Large-scale operational complexity** (200+ engineers, multiple products/services)
+- **Large inherent reach** (broad authority across the estate; typically 200+ engineers, multiple products/services)
 - **Mature infrastructure** (sophisticated cloud platforms, advanced automation)
 - **Strong security foundations** (established security programs, proven capabilities)
 - **Platform-oriented** (internal platforms serving multiple teams)
@@ -208,7 +208,10 @@ Continuous effort required to maintain leadership position:
 **Critical Success Factor**: Balance innovation with operational excellence
 
 ### Risk: Regressing to Mass
-Without continuous investment, complexity can overwhelm readiness:
+
+There is a faster way to lose Lean than gradual creep, and it is worth naming plainly. Lean runs on 85 to 90 percent of effort going to scaling investment, the discretionary, future-facing spend a downturn cuts first. In 2023, 63 percent of security organizations had their budgets cut and 39 percent cut headcount in a single year, with two-thirds reporting it degraded their ability to operate. A capex shock does not let Lean drift back to Mass over quarters; it drops you there in a budget cycle. What the shock cannot touch is the floor: the containment built into the substrate, the boundaries a compromised component cannot cross whatever the budget. That floor is built once. No one a downturn lays off is staffing it. A downturn repossesses the position your spending rented; it cannot repossess the floor your design built. Spend buys position; design buys the floor. Fund the thing the downturn cannot repossess.
+
+Without continuous investment, large reach outruns the readiness that was containing it:
 
 **Warning Signs**:
 - Manual processes creeping back in

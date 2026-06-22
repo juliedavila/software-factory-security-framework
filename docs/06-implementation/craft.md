@@ -5,9 +5,9 @@
 
 ## Position Characteristics
 
-**Craft** organizations occupy the Simple + Low Readiness quadrant:
+**Craft** organizations occupy the Small reach + Low Readiness quadrant:
 
-- **Simple operational complexity** (typically <50 engineers, single product/service)
+- **Small inherent reach** (little authority granted; typically <50 engineers, single product/service)
 - **Legacy or basic infrastructure** (manual processes, limited automation)
 - **Resource constraints** (small teams, limited budget)
 - **Pragmatic focus** (solving immediate problems, not building for scale)
@@ -231,7 +231,7 @@ This is a valid, sustainable choice for many organizations:
 
 **Timeline**: Ongoing; sustainable at this scale
 
-### Moving to Studio (Simple + High Readiness)
+### Moving to Studio (Small reach + High Readiness)
 Preparing infrastructure for growth:
 
 **Strategy**: Single-axis movement (increase operational readiness)

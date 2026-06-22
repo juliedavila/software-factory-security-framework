@@ -63,10 +63,10 @@ Each guide includes:
 ```
 I'm a security leader at [company description]. Help me assess our SF² position:
 
-Operational Complexity: [simple/complex]
-- Team size: [X engineers]
-- Products/services: [description]
-- Infrastructure: [description]
+Blast Radius: [small reach/large reach]
+- Reach of most-capable automation: [one bounded surface / crosses prod + data + identity]
+- Autonomy depth: [proposes only / acts and commits unattended]
+- Authority concentration: [scoped per task / broad standing authority exists]
 
 Operational Readiness: [lower/higher]
 - CI/CD maturity: [description]
@@ -152,7 +152,7 @@ Create a realistic transformation roadmap with:
 **Scenario**: New security leader wants to understand organizational positioning
 
 **AI Workflow**:
-1. Systematic assessment of operational complexity
+1. Systematic assessment of blast radius
 2. Evaluation of operational readiness maturity
 3. Analysis of contextual modifiers
 4. Strategic recommendations based on positioning

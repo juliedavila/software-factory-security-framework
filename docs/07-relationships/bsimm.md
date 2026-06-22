@@ -13,7 +13,7 @@
 
 **SF²** helps determine **which BSIMM activities to implement** and **in what sequence** based on your organizational positioning and investment strategy.
 
-BSIMM is a descriptive census of what programs already do, one snapshot of the practice baseline SF² sequences rather than a fixed target. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it turns the census into priorities for your context and aims them at limiting what the system can do.
+BSIMM is a descriptive census of what programs already do. SF² sequences a practice baseline, and that census is one snapshot of it rather than a fixed target. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it turns the census into priorities for your context, and it aims them at limiting what the system can do.
 
 ## Key Insight
 
@@ -51,7 +51,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 ## SF² Investment Strategy and BSIMM
 
-### Studio (Simple + High Readiness)
+### Studio (Small reach + High Readiness)
 
 **BSIMM Activity Selection**: Automation-friendly activities that scale
 
@@ -78,7 +78,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 **Implementation Approach**: Automate BSIMM activities from the start
 
-### Lean (Complex + High Readiness)
+### Lean (Large reach + High Readiness)
 
 **BSIMM Activity Selection**: Comprehensive coverage with platform effects
 
@@ -96,7 +96,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 **Implementation Approach**: Comprehensive BSIMM with efficiency focus
 
-### Craft (Simple + Low Readiness)
+### Craft (Small reach + Low Readiness)
 
 **BSIMM Activity Selection**: Essential activities only
 
@@ -120,7 +120,7 @@ BSIMM organizes 112 activities into 4 domains:
 
 **Implementation Approach**: Minimal BSIMM coverage, managed services where possible
 
-### Mass (Complex + Low Readiness)
+### Mass (Large reach + Low Readiness)
 
 **BSIMM Activity Selection**: Hybrid (comprehensive for new, essential for legacy)
 

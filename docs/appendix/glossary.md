@@ -10,23 +10,26 @@
 
 ## Strategic Positioning
 
-**Operational Complexity**
-: The "what you manage" axis measuring organizational scale, process sophistication, and interdependencies (Simple → Complex).
+**Blast Radius**
+: The horizontal positioning axis (called Operational Complexity before v0.7): the inherent reach of a failure assuming containment fails, set by granted authority (Small reach → Large reach). Headcount is a legacy proxy AI has decoupled from reach.
+
+**Blast Cell**
+: The bounded region a contained failure stays inside. Small reach means a worst-case failure is held to a single blast cell; large reach means it cascades across the estate. The unit that blast radius is measured against.
 
 **Operational Readiness**
-: The "how you operate" axis measuring automation, infrastructure modernity, and process maturity (Lower → Higher).
+: The "how you operate" axis: automation, infrastructure modernity, process maturity, and the ability to prove containment holds (Lower → Higher).
 
 **Studio**
-: Organizations with simple operations and high operational readiness (Simple + High Readiness).
+: Organizations with small inherent reach and high readiness (Small reach + High Readiness): narrow grants, floor built.
 
 **Lean**
-: Organizations with complex operations and high operational readiness (Complex + High Readiness).
+: Organizations with large inherent reach and proven containment (Large reach + High Readiness). The goal position: large blast radius with the floor built.
 
 **Craft**
-: Organizations with simple operations and lower operational readiness (Simple + Low Readiness).
+: Organizations with small inherent reach and low readiness (Small reach + Low Readiness): narrow grants, containment unproven.
 
 **Mass**
-: Organizations with complex operations and lower operational readiness (Complex + Low Readiness).
+: Organizations with large inherent reach and unproven containment (Large reach + Low Readiness). Ungoverned reach, not size.
 
 ## Universal Stewardship
 

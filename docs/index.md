@@ -3,7 +3,7 @@ title: Software Factory Security Framework (SF²)
 description: Strategic framework for scaling security capabilities while improving business outcomes
 keywords: security framework, security strategy, security scaling, software factory, security leadership, CISO, VP Security
 author: Julie Davila
-version: 0.6.0
+version: 0.7.0
 ---
 
 # Software Factory Security Framework (SF²)
@@ -110,7 +110,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 1. Read the [Executive Summary](executive-summary.md)
 2. Assess your [Strategic Position](03-positioning/two-axis-model.md)
-3. Review [Implementation Guide](06-implementation/studio.md) for your quadrant
+3. Review the Implementation Guide for your quadrant: [Studio](06-implementation/studio.md), [Lean](06-implementation/lean.md), [Craft](06-implementation/craft.md), or [Mass](06-implementation/mass.md)
 4. Evaluate [Contextual Modifiers](05-context/overview.md)
 
 ### For Individual Contributors
@@ -164,7 +164,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 0.6.0
+**Version:** 0.7.0
 
 This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
 
@@ -186,6 +186,6 @@ This is an open source framework (CC BY 4.0) intended as a resource for the broa
     Use the [Two-Axis Positioning Model](03-positioning/two-axis-model.md) to determine your current state and optimal path forward.
 
 !!! success "Implement Strategically"
-    Follow your quadrant-specific [Implementation Guide](06-implementation/studio.md) for actionable next steps.
+    Follow your quadrant-specific Implementation Guide for actionable next steps: [Studio](06-implementation/studio.md), [Lean](06-implementation/lean.md), [Craft](06-implementation/craft.md), or [Mass](06-implementation/mass.md).
 
 </div>

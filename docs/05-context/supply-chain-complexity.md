@@ -37,10 +37,15 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 - National security implications
 - Highly regulated vendors (defense, finance)
 - Geopolitical constraints and restrictions
+- Bloc bifurcation: a cloud, chip, model, or cryptographic standard available in one technology bloc is unavailable or untrusted in another, forcing dual-sourced primitives, duplicated pipelines, and sequencing around export controls
 - Critical single vendors (business-critical dependencies)
 - Supply chain attacks as existential risk
 
 **Implementation**: Enterprise-grade supply chain security regardless of operational complexity
+
+A critical single vendor is a continuity risk, not only a concentration risk: weigh whether it could disappear and what you would do the week it did.
+
+The stack-bifurcation facet is the source-and-build half of sovereignty, not the paperwork half. What you can buy, run, and ship lives here; which legal regimes you must answer to lives in [Regulatory Constraints](regulatory-constraints.md). Same geopolitics, two different questions.
 
 ## Assessment Questions
 
@@ -51,6 +56,7 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 | Geopolitical concerns? | Minimal | Moderate | Significant constraints |
 | Regulatory requirements? | Standard | Industry-specific | Government/defense |
 | Supply chain attack impact? | Recoverable | Significant | Existential |
+| Vendor/dependency survivability? | Vendors stable, deps actively maintained | Some single-maintainer or aging deps | Load-bearing dep on one maintainer or a vendor that could vanish |
 
 ## Impact on Strategic Position
 
@@ -83,6 +89,10 @@ Follow standard quadrant approach for supply chain stewardship
 - Use advanced supply chain automation
 - Policy-as-code for supply chain governance
 - AI-powered supply chain risk analysis
+
+## Is This Modifier Earning Its Place?
+
+> Score an organization's supply-chain complexity before a third-party failure. High-scorers without enhanced visibility will absorb a materially larger blast radius than low-scorers without it. Equal blast radius falsifies this modifier.
 
 ## Next Steps
 

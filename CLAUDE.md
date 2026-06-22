@@ -19,7 +19,7 @@ When working on this framework, these principles are foundational:
 - Help leaders find appropriate security for their context
 
 ### 2. Honest and Pragmatic
-- **Call out hard truths**: Scaling crisis is inevitable, two-axis transformation is high-risk
+- **Call out hard truths**: Scaling crisis is inevitable, diagonal transformation (cutting blast radius and raising readiness at once) is high-risk
 - **Realistic timelines**: Mass transformations take 3-5 years, not 12 months
 - **Acknowledge tradeoffs**: No perfect solutions, only context-appropriate choices
 - **Supply Chain #1 since 2017**: Adversary evolution to automated discovery is non-negotiable
@@ -86,7 +86,7 @@ docs/
 ├── 02-stewardship/          # 5 universal areas (Supply Chain #1)
 ├── 03-positioning/          # Two-axis model, four quadrants
 ├── 04-investment/           # BAU vs Scaling, portfolio framework
-├── 05-context/              # 6 contextual modifiers
+├── 05-context/              # 8 contextual modifiers
 ├── 06-implementation/       # Quadrant-specific guides
 ├── 07-relationships/        # Integration with other frameworks
 ├── 08-use-cases/            # Real-world scenarios
@@ -175,7 +175,7 @@ Use these terms precisely:
 - **Supply Chain Stewardship is #1 priority** - always with "since 2017 adversary evolution"
 - **BAU (Business-as-Usual)** - activities to constrain
 - **Scaling Investments** - capabilities that create compound effects
-- **Operational Complexity** - "what you manage" axis (Simple → Complex)
+- **Blast Radius** - "how far a failure could reach if containment fails" axis, set by granted authority (Low → High); replaced Operational Complexity in v0.7
 - **Operational Readiness** - "how you operate" axis (Lower → Higher)
 - **Quadrant names**: Studio, Lean, Craft, Mass (always capitalized)
 
@@ -577,12 +577,12 @@ If no → Refine or remove it.
 
 ## Quick Reference
 
-**Core Concept**: Two-axis positioning model (Complexity × Readiness) creates four strategic positions
+**Core Concept**: Two-axis positioning model (Blast Radius × Readiness) creates four strategic positions
 
 **Key Framework Elements**:
 - 5 Universal Stewardship areas (Supply Chain #1)
 - 4 Strategic Quadrants (implementation approaches differ)
-- 6 Contextual Modifiers (affect strategy execution)
+- 8 Contextual Modifiers (affect strategy execution)
 - Investment Portfolio (BAU vs Scaling)
 - Framework Relationships (integration with NIST, OWASP, etc.)
 

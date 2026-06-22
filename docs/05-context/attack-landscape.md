@@ -149,6 +149,10 @@ High attack landscape maturity makes [Supply Chain Stewardship](../02-stewardshi
 
 **This is why supply chain became the #1 priority** when the attack landscape matured to industrial-scale automation.
 
+## Is This Modifier Earning Its Place?
+
+> Score an organization's attack-landscape maturity before a year of operation. High-scorers who kept manual processes will absorb materially more automated-discovery damage than low-scorers who kept them. Equal damage falsifies this modifier.
+
 ---
 
 ## Next Steps

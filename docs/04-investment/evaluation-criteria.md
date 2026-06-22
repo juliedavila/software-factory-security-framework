@@ -186,7 +186,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Does this close the surface it claims, or only raise the cost on paths already covered?
 
-**Why Important**: Adversary economics is real, but it is easy to measure the wrong part of it. An attacker does not pay the average cost of attacking you. They pay for the cheapest way in that still works. You can harden nine doors and leave the tenth open, and the tenth still costs what it always did. Your average goes up. The real cost to breach you does not move. This is why the breaches that hurt so often trace back to one dull thing: a storage bucket left public behind a well-run security program, an aging server no one re-checked. The damage hides in the seams between the parts you hardened, not in the parts themselves. So the test is coverage, not price. Does this capability actually close the surface it claims, or does it just raise the toll on paths that were already covered? Cost-raising still earns its place, but on top of a boundary that contains the breach when one gets through, never in place of one. An expensive attack that slips through an open seam owns you just as completely as a cheap one.
+**Why Important**: Adversary economics is real, but it is easy to measure the wrong part of it. An attacker does not pay the average cost of attacking you. They pay for the cheapest way in that still works. Harden nine of an attacker's ten ways in and leave the tenth open, and that tenth path still costs what it always did. Your average goes up. The real cost to breach you does not move. This is why the breaches that hurt so often trace back to one dull thing: a storage bucket left public behind a well-run security program, an aging server no one re-checked. The damage hides in the seams between the parts you hardened, not in the parts themselves. So the test is coverage, not price. Does this capability actually close the surface it claims, or does it just raise the toll on paths that were already covered? Cost-raising still earns its place, but on top of a boundary that contains the breach when one gets through, never in place of one. An expensive attack that slips through an open seam owns you just as completely as a cheap one.
 
 One kind of cost-imposition earns full credit on its own: friction that comes with an alarm you can act on. Plant something that has no real use and watch who touches it. A fake admin login, a decoy database, a credential that should never be used. The moment anyone uses it, you know, because no legitimate person ever would. That is not raising the average toll. It is closing the blind spot where an intruder moves unseen. So the rule is simple: cost-imposition counts when it comes with a signal and a way to contain whatever trips it. Friction with nothing watching does not, because the attacker just reroutes to the next cheapest path and you never find out.
 
@@ -286,7 +286,7 @@ Minimum Possible Score: 13.5
 
 Your [strategic position](../03-positioning/strategic-positions.md) affects criteria weighting:
 
-### Studio (Simple + High Readiness)
+### Studio (Small reach + High Readiness)
 
 **Adjust weights**:
 - Increase Time to Value weight (rapid iteration preferred)
@@ -297,7 +297,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Lean (Complex + High Readiness)
+### Lean (Large reach + High Readiness)
 
 **Adjust weights**:
 - Increase Adversary Economics weight (sophisticated threat model)
@@ -308,7 +308,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Craft (Simple + Lower Readiness)
+### Craft (Small reach + Lower Readiness)
 
 **Adjust weights**:
 - Increase Organizational Change sensitivity (limited change capacity)
@@ -319,7 +319,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Mass (Complex + Lower Readiness)
+### Mass (Large reach + Lower Readiness)
 
 **Adjust weights**:
 - Dramatically increase Organizational Change sensitivity (change saturation risk)

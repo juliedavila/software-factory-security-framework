@@ -5,7 +5,7 @@
 ## Framework Identity
 
 **Name**: Software Factory Security Framework (SF²)
-**Version**: 0.6.0
+**Version**: 0.7.0
 **Author**: Julie Davila
 **License**: CC BY 4.0
 **Purpose**: Strategic framework for scaling security capabilities while improving business outcomes
@@ -16,9 +16,9 @@
 
 SF² is a **two-axis positioning model** that helps security leaders determine appropriate security strategies based on their organization's characteristics.
 
-### Axis 1: Operational Complexity (What You Manage)
-- **Simple**: Small teams (<100 engineers), single/few products, straightforward infrastructure
-- **Complex**: Large teams (100+ engineers), multiple products, diverse infrastructure
+### Axis 1: Blast Radius (How Far a Failure Can Reach)
+- **Small reach**: automation scoped per task, touching one bounded surface; a worst-case failure stays in a single blast cell. Headcount is a legacy proxy (often <100 engineers), not the measure.
+- **Large reach**: automation granted broad standing authority across production, data, and identity; a worst-case failure cascades across the estate. Headcount used to predict this (often 100+ engineers); AI severed the correlation.
 
 ### Axis 2: Operational Readiness (How You Operate)
 - **Lower**: Manual processes, legacy infrastructure, limited automation
@@ -26,7 +26,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 ## Four Strategic Quadrants
 
-### 1. Studio (Simple + High Readiness)
+### 1. Studio (Small reach + High Readiness)
 **Characteristics**: 10-200 engineers, modern cloud infrastructure, strong CI/CD, fast decision-making
 
 **Strategy**: Automate from the start, build scaling foundations early
@@ -41,7 +41,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Building Lean-level complexity too early
 
-### 2. Lean (Complex + High Readiness)
+### 2. Lean (Large reach + High Readiness)
 **Characteristics**: 200+ engineers, mature platforms, established security, platform-oriented
 
 **Strategy**: Optimize existing capabilities, build platform effects, security as competitive advantage
@@ -56,7 +56,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Complacency and tool sprawl without retirement
 
-### 3. Craft (Simple + Low Readiness)
+### 3. Craft (Small reach + Low Readiness)
 **Characteristics**: <50 engineers, legacy/basic infrastructure, resource constraints, critical decision point
 
 **Strategy**: Choose intentional simplicity OR prepare for growth (two distinct paths)
@@ -73,7 +73,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Accidental drift to Mass (complexity without readiness)
 
-### 4. Mass (Complex + Low Readiness)
+### 4. Mass (Large reach + Low Readiness)
 **Characteristics**: 100+ engineers, legacy systems at scale, manual processes, transformation imperative
 
 **Strategy**: Stabilize first, hybrid approach (modern for new, pragmatic for legacy), realistic 3-5 year timeline
@@ -86,7 +86,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Timeline**: 3-5 years for transformation (honest assessment)
 
-**Common Pitfall**: Attempting two-axis movement too fast, underestimating resources needed
+**Common Pitfall**: Rushing the containment climb, or widening reach further before the floor is built, underestimating resources needed
 
 ## Universal Stewardship Areas
 
@@ -249,7 +249,7 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 1. **Supply Chain is #1 priority** - Adversary evolution to automated discovery
 2. **Constrain BAU, build scaling** - Don't expand manual work
 3. **High readiness enables automation** - Operational readiness determines feasibility
-4. **Two-axis transformation is high-risk** - Sequence carefully (stabilize → move one axis)
+4. **Diagonal transformation is high-risk** - Sequence carefully (stabilize, then move one axis)
 5. **Appropriate security varies by position** - No one-size-fits-all
 6. **Realistic timelines matter** - Mass organizations need 3-5 years, not 12 months
 7. **Framework integration, not competition** - SF² guides other frameworks' implementation
@@ -335,7 +335,7 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 **Craft**: Accidental drift to Mass, premature optimization, wrong modernization sequence
 
-**Mass**: Two-axis movement too fast, underestimating timeline/resources, recreating legacy in cloud, missing crisis window
+**Mass**: rushing the containment climb or widening reach further before the floor is built, underestimating timeline/resources, recreating legacy in cloud, missing crisis window
 
 ## Transformation Timelines (Realistic Expectations)
 

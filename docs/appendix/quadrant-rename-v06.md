@@ -6,10 +6,10 @@ v0.6 changed two sets of names that v0.5 readers may have cited: the four strate
 
 | Axes | v0.5 name | v0.6 name |
 |------|-----------|-----------|
-| Simple + Low readiness | Niche Players | **Craft** |
-| Simple + High readiness | Visionaries | **Studio** |
-| Complex + High readiness (goal) | Leaders | **Lean** |
-| Complex + Low readiness | Challengers | **Mass** |
+| Small reach + Low readiness | Niche Players | **Craft** |
+| Small reach + High readiness | Visionaries | **Studio** |
+| Large reach + High readiness (goal) | Leaders | **Lean** |
+| Large reach + Low readiness | Challengers | **Mass** |
 
 ## Why the names changed
 
@@ -19,16 +19,16 @@ The v0.6 names come from how software actually gets built. They map the readines
 
 ## Reading the axes
 
-The vertical axis (Operational Readiness) is the **lean transformation**. Moving up means the work becomes more repeatable. The progression Craft to Mass to Lean traces repeatability rising, which is the core SF² thesis. The horizontal axis (Operational Complexity) is scale.
+The vertical axis (Operational Readiness) is the **lean transformation**. Moving up means the work becomes more repeatable and a failure provably stays contained. The progression Craft to Mass to Lean traces repeatability rising, which is the core SF² thesis. The horizontal axis was Operational Complexity (scale) through v0.6; v0.7 redefined it as **Blast Radius**, the inherent reach of a failure if containment fails. The four names and the readiness story below are unchanged.
 
-- **Craft** (Simple + Low): non-repeatable hand-work, a snowflake per build.
-- **Studio** (Simple + High): repeatable work at small scale.
-- **Mass** (Complex + Low): big-batch, siloed, low-flow work at large scale.
-- **Lean** (Complex + High): the goal, repeatability sustained at scale.
+- **Craft** (Small reach + Low): non-repeatable hand-work, a narrow grant by hand.
+- **Studio** (Small reach + High): narrow grant, floor built.
+- **Mass** (Large reach + Low): ungoverned reach, no floor.
+- **Lean** (Large reach + High): the goal, large reach with the floor built.
 
 ## Two terms that mislead if read casually
 
-1. **Mass is lean's antonym, not Ford's 1913 assembly line.** In SF² terms, Mass means big-batch, siloed, low-flow work that has not yet earned repeatability. It is not the historical mass-production repeatability triumph. The repeatability win in this framework is Lean. A reader fluent in manufacturing history should not invert the readiness axis on the strength of the word alone.
+1. **Mass is Lean's large reach without Lean's floor, not Ford's 1913 assembly line.** Under the v0.7 reach axis, Mass is ungoverned scale: large inherent reach with no proven containment. The border that matters is against Lean, not against the historical mass-production repeatability triumph. A reader fluent in manufacturing history should not invert the axes on the strength of the word alone.
 2. **Craft names a method, not a price tag.** Craft means non-repeatable hand-work, not quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time.
 
 ## Names that were considered and dropped
