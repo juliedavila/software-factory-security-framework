@@ -380,7 +380,7 @@ You're at an inflection point:
 
 **Strategic Priority: Build Platform-Scale Security Capabilities**
 
-Your path forward combines Visionary automation with Leaders platform thinking:
+Your path forward combines Studio automation with Lean platform thinking:
 
 ## 12-Month Investment Strategy
 
@@ -415,7 +415,7 @@ Redirect saved time to platform building:
 
 Expected: Compliance work 20% → 8%, cloud security 25% → 12%
 
-**Phase 3 (Q4): Leaders-Level Capabilities**
+**Phase 3 (Q4): Lean-Level Capabilities**
 Build competitive advantage:
 
 1. **Advanced Automation** ($150K)
@@ -443,9 +443,9 @@ Build competitive advantage:
 
 ## Key Risks
 
-1. **Multi-cloud complexity**: May need Leaders-level tools sooner
+1. **Multi-cloud complexity**: May need Lean-level tools sooner
 2. **Change management**: 5 product teams need adoption of new tools
-3. **Platform overbuilding**: Don't build Leaders complexity too early
+3. **Platform overbuilding**: Don't build Lean complexity too early
 
 ## Next Steps
 

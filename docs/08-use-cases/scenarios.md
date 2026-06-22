@@ -142,7 +142,7 @@ So add a step the other cases do not need. Before you sign off on an agent syste
 
 You cannot judge a run from inside it. The same crafted text that steered the agent can also narrate the result as clean, so the answer shown to the user looks fine while the damage happens off to the side. The evidence is blunt. When researchers fed agents data through ordinary outbound requests, checks on what the agent showed the user missed 95 percent of the leaks, because the data left through a channel the visible answer never mentioned.[^silent-egress] The same EchoLeak email fits this exact shape: the assistant's reply looked normal, and the mail left quietly. So the signal you trust comes from outside the agent, never from its own account.
 
-That outside signal has two jobs. The failures you can name in advance, you pre-commit as bright lines: a value with untrusted provenance reached a sink, data crossed a boundary it should not have, an action fired without its checkpoint. The failures you cannot name, because an injection invents a path no one listed, you catch a different way. You keep enough record of each run to reconstruct what the agent actually did from the outside, then ask a question you had not thought to ask.[^observability] That record has to be three things. Accurate, meaning read from the network and the actions, not from the agent's own reply. Real-time, because a finding a quarter later is an autopsy. And specific to the single run, because an average hides the one that leaked.
+That outside signal has two jobs. The failures you can name in advance, you pre-commit as bright lines: a value with untrusted provenance reached a sink, data crossed a boundary it should not have, an action fired without its checkpoint. The failures you cannot name in advance, you catch a different way, because an injection invents a path no one listed. You keep enough record of each run to reconstruct what the agent actually did from the outside, then ask a question you had not thought to ask.[^observability] That record has to be three things. Accurate, meaning read from the network and the actions, not from the agent's own reply. Real-time, because a finding a quarter later is an autopsy. And specific to the single run, because an average hides the one that leaked.
 
 This sign-off is dated. Today it is something you run periodically, at the level of a system you approve once. As autonomy widens and agents begin to wire themselves to each other, that cadence will be too slow, and the unit you analyze will shift from a system you approve to a population of agents you watch. If your sign-off cadence has not changed while your agents' autonomy has, your review is already aging.
 
@@ -169,6 +169,8 @@ Use this template to apply SF² to your organization:
 | Crisis Events | | |
 | Change Capacity | | |
 | Relationship Health | | |
+| AI Saturation | | |
+| PQC Exposure | | |
 
 ### 3. Identify Priority Stewardship Areas
 Based on position and modifiers:

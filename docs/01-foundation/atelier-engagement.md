@@ -44,7 +44,7 @@ Coadaptive Security extends the picture to a third layer neither metaphor antici
 
 ## The AI-era production-model question
 
-Sankar's framing surfaces a harder question than the one it answers, and the synthesis has to sit with it honestly. If the unit of production is shifting from a team of humans to a human working with agents, neither metaphor maps. A factory is a human assembly line. An atelier is a lone craftsman with tools. A paired-intelligence cell is neither, and the tools in this case reason, act, and occasionally get things wrong on their own initiative.
+Sankar's framing surfaces a harder question than the one it answers, and the synthesis has to sit with it honestly. If the unit of production is shifting from a team of humans to a human working with agents, neither metaphor maps. A factory is a human assembly line. An atelier is a lone craftsman with tools. A paired-intelligence cell is neither. The tools in this case reason, act, and occasionally get things wrong on their own initiative.
 
 Foundation does not resolve that question. It names it and hands it forward to [Coadaptive Security Chapter 03](../10-coadaptive/03-unit-of-defense.md), where the unit of operation and the property that defends it get worked out.
 

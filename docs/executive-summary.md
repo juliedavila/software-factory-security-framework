@@ -49,7 +49,7 @@ Systematic method for balancing security investments:
 
 ### Contextual Adaptation Guide
 
-Seven modifiers that influence your implementation approach:
+Eight modifiers that influence your implementation approach:
 
 1. Attack Landscape Maturity
 2. Supply Chain Complexity
@@ -58,6 +58,7 @@ Seven modifiers that influence your implementation approach:
 5. Change Capacity
 6. Relationship Health
 7. AI Saturation
+8. PQC Exposure
 
 [:octicons-arrow-right-24: Understand your context](05-context/overview.md)
 
@@ -93,7 +94,7 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 
 1. **Assess Your Position**: Use the [Two-Axis Model](03-positioning/two-axis-model.md) to understand your current state
 2. **Evaluate Context**: Review [Contextual Modifiers](05-context/overview.md) that influence your approach
-3. **Implement Strategically**: Follow your [Implementation Guide](06-implementation/studio.md) for actionable next steps
+3. **Implement Strategically**: Follow your Implementation Guide for actionable next steps: [Studio](06-implementation/studio.md), [Lean](06-implementation/lean.md), [Craft](06-implementation/craft.md), or [Mass](06-implementation/mass.md)
 
 ---
 

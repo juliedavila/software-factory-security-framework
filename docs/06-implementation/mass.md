@@ -54,6 +54,8 @@ Two possible strategies, each with different tradeoffs:
 - **Challenges**: May require difficult business decisions, potential revenue impact
 - **Timeline**: 12-24 months to Craft, then 18-24 to Studio
 
+Path A is the exception, not the default. It only works when a real business reason already supports shrinking reach: a divestiture, an SMB pivot, a product consolidation. Without that, you cannot claw back authority you have already granted across the estate, and Path B is the path almost every Mass organization actually takes. See [Movement Paths](../03-positioning/movement-paths.md#path-4-mass-craft-simplification).
+
 **Path B: Increase Readiness Despite Complexity (Move toward Lean)**
 - **Strategy**: Gradual modernization while maintaining complex operations
 - **Examples**: Hybrid approaches, phased rollouts, incremental automation

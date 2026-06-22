@@ -219,7 +219,7 @@ Generate slide outline with:
 ```
 @Gem SF² Security Strategist
 
-Quick question: Should we invest in [security tool] given our Visionary position? We're debating build vs buy.
+Quick question: Should we invest in [security tool] given our Studio position? We're debating build vs buy.
 ```
 
 **Gemini Response**:

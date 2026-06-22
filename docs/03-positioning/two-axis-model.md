@@ -19,7 +19,7 @@ The horizontal axis is **inherent blast radius**: how far a failure could reach 
 
 **Large reach**: automation that crosses trust boundaries (production, data, and identity at once), standing authority broad enough that one misused credential is an enterprise event, a worst-case failure that cascades across the estate.
 
-Headcount survives here as a legacy proxy: it used to predict reach, and where a small team still holds small authority it still does. AI is what severs the two, and the axis follows the reach.
+Headcount survives here as a legacy proxy: it used to predict reach, and where a small team still holds small authority it still does. AI is what severs headcount from reach, and the axis follows the reach.
 
 This is *inherent* reach, measured as if containment failed. What you build to stop a failure reaching that far, the boundary enforcement that holds a compromised component to the authority it was granted, is the other axis: readiness. Keeping the two apart is what keeps the model honest. Your reach is mostly what you have decided to let your systems do; your readiness is what you build to contain it. The containment floor that bounds the blast is the same boundary enforcement the [coadaptive layer](../10-coadaptive/04-boundary-enforcement.md) specifies at the substrate: this chapter names the position, that chapter builds the floor.
 

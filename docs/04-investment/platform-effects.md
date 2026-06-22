@@ -120,9 +120,7 @@ Platform companies often serve as sophisticated users of their own products, pro
 Your platform company discovers that:
 - Automated dependency scanning significantly reduces your manual security effort
 - Your security team's productivity improves 3x with automated vulnerability management
-- Unknown dependency discovery becomes systemat
-
-ic rather than reactive
+- Unknown dependency discovery becomes systematic rather than reactive
 
 **Strategic Insight**: If this internal pain point reflects modern adversary capabilities (automated discovery at scale), it likely represents a market opportunity affecting thousands of customer software factories facing the same capability gap.
 

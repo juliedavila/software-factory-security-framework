@@ -13,6 +13,9 @@
 **Blast Radius**
 : The horizontal positioning axis (called Operational Complexity before v0.7): the inherent reach of a failure assuming containment fails, set by granted authority (Small reach → Large reach). Headcount is a legacy proxy AI has decoupled from reach.
 
+**Blast Cell**
+: The bounded region a contained failure stays inside. Small reach means a worst-case failure is held to a single blast cell; large reach means it cascades across the estate. The unit that blast radius is measured against.
+
 **Operational Readiness**
 : The "how you operate" axis: automation, infrastructure modernity, process maturity, and the ability to prove containment holds (Lower → Higher).
 
