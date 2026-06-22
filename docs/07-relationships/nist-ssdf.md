@@ -15,6 +15,47 @@
 
 SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
 
+<figure>
+  <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-ov-title">SF² as a strategic overlay on other security frameworks</title>
+    <desc id="sf2-ov-desc">Two layers. The bottom layer is the practices and requirements provided by other frameworks: NIST SSDF, OWASP SAMM, BSIMM, and OWASP ASVS. They tell you what to implement. The top layer is SF², the strategic overlay, which sequences those practices: which to fund first, when, and how fast, for your strategic position. SF² does not replace the other frameworks. It orders them. Integration, not competition.</desc>
+    <defs>
+      <marker id="ov-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
+    </defs>
+    <rect x="0" y="0" width="720" height="500" fill="#FAFAF7"/>
+    <!-- SF2 overlay (top) -->
+    <rect x="60" y="50" width="600" height="120" rx="8" fill="#2C4A6B" stroke="#21384F" stroke-width="2"/>
+    <text x="360" y="84" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">SF&#178;: the strategic overlay</text>
+    <text x="360" y="110" font-size="13" fill="#EAF1F7" text-anchor="middle">the sequencing: which practices to fund first &#183; when &#183; how fast</text>
+    <text x="360" y="132" font-size="13" fill="#EAF1F7" text-anchor="middle">for your strategic position (Studio / Lean / Craft / Mass)</text>
+    <text x="360" y="154" font-size="12" font-style="italic" fill="#C9D8E6" text-anchor="middle">prioritization, sustainability, sequencing</text>
+    <!-- connector -->
+    <line x1="360" y1="172" x2="360" y2="232" stroke="#2C4A6B" stroke-width="2.2" marker-end="url(#ov-arrow)"/>
+    <text x="372" y="206" font-size="11.5" font-style="italic" fill="#2C4A6B">orders and paces</text>
+    <!-- practices base layer (bottom) -->
+    <text x="360" y="262" font-size="13" font-weight="700" fill="#855A00" text-anchor="middle">Other frameworks: the practices and requirements (the WHAT)</text>
+    <g>
+      <rect x="60" y="280" width="138" height="92" rx="6" fill="#FCF4E6" stroke="#B8956A" stroke-width="1.5"/>
+      <text x="129" y="312" font-size="14" font-weight="700" fill="#2A2520" text-anchor="middle">NIST SSDF</text>
+      <text x="129" y="334" font-size="10.5" fill="#2A2520" text-anchor="middle">secure-development</text>
+      <text x="129" y="348" font-size="10.5" fill="#2A2520" text-anchor="middle">practice groups</text>
+      <rect x="214" y="280" width="138" height="92" rx="6" fill="#FCF4E6" stroke="#B8956A" stroke-width="1.5"/>
+      <text x="283" y="312" font-size="14" font-weight="700" fill="#2A2520" text-anchor="middle">OWASP SAMM</text>
+      <text x="283" y="334" font-size="10.5" fill="#2A2520" text-anchor="middle">maturity model</text>
+      <rect x="368" y="280" width="138" height="92" rx="6" fill="#FCF4E6" stroke="#B8956A" stroke-width="1.5"/>
+      <text x="437" y="312" font-size="14" font-weight="700" fill="#2A2520" text-anchor="middle">BSIMM</text>
+      <text x="437" y="334" font-size="10.5" fill="#2A2520" text-anchor="middle">observed practices</text>
+      <rect x="522" y="280" width="138" height="92" rx="6" fill="#FCF4E6" stroke="#B8956A" stroke-width="1.5"/>
+      <text x="591" y="312" font-size="14" font-weight="700" fill="#2A2520" text-anchor="middle">OWASP ASVS</text>
+      <text x="591" y="334" font-size="10.5" fill="#2A2520" text-anchor="middle">verification reqs</text>
+    </g>
+    <!-- footer thesis -->
+    <text x="360" y="420" font-size="13" fill="#2A2520" text-anchor="middle">They provide the practices. SF&#178; decides <tspan font-style="italic">which</tspan>, <tspan font-style="italic">when</tspan>, and <tspan font-style="italic">how fast</tspan> to implement them.</text>
+    <text x="360" y="446" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Integration, not replacement.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Other frameworks provide the practices. SF² is the strategic overlay that sequences them: which to fund first, when, and how fast. Integration, not replacement.</figcaption>
+</figure>
+
 ## Integration Approach
 
 ### SSDF Provides the Practices

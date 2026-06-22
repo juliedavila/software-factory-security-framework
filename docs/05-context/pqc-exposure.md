@@ -9,6 +9,50 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 !!! danger "The Clock Already Started"
     Harvest-now-decrypt-later means the attack does not wait for a quantum computer. Anything an adversary can record today and needs to read in ten years is exposed now, on today's encryption. NIST finalized the replacement algorithms ([FIPS 203/204/205](../appendix/references.md#post-quantum-cryptography-and-crypto-agility), August 2024) and set the deprecation clock: quantum-vulnerable public-key cryptography like RSA and ECC is deprecated by 2030 and disallowed in NIST standards by 2035 ([NIST IR 8547](../appendix/references.md#post-quantum-cryptography-and-crypto-agility)). The migration is years of work against a fixed deadline, which is why exposure belongs on your standing roadmap and not your incident plan.
 
+<figure>
+  <svg viewBox="0 0 760 440" role="img" aria-labelledby="sf2-pq-title sf2-pq-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-pq-title">The post-quantum migration clock and harvest-now-decrypt-later</title>
+    <desc id="sf2-pq-desc">A timeline with three NIST milestones: in August 2024 the replacement algorithms FIPS 203, 204, and 205 were finalized; by 2030 quantum-vulnerable public-key cryptography such as RSA and ECC is deprecated; by 2035 it is disallowed in NIST standards. Above the timeline, a separate arc shows the harvest-now-decrypt-later threat: an adversary captures ciphertext today, around 2026, stores it, and decrypts it later once a capable machine exists, well past 2035. The loss is silent and already underway; there is no breach alert for data copied and shelved. Anything that must stay confidential beyond 2035 is exposed now, on today's encryption.</desc>
+    <defs>
+      <marker id="pq-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#A6450B"/></marker>
+    </defs>
+    <rect x="0" y="0" width="760" height="440" fill="#FAFAF7"/>
+    <text x="380" y="34" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">The clock already started: harvest now, decrypt later</text>
+    <!-- harvest-now arc (above timeline) -->
+    <path d="M120 250 C 200 110, 600 110, 690 250" fill="none" stroke="#A6450B" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#pq-arrow)"/>
+    <rect x="60" y="232" width="130" height="44" rx="6" fill="#F6EBE3" stroke="#A6450B" stroke-width="1.4"/>
+    <text x="125" y="252" font-size="11.5" font-weight="700" fill="#A6450B" text-anchor="middle">Capture today</text>
+    <text x="125" y="268" font-size="10" fill="#2A2520" text-anchor="middle">record the ciphertext</text>
+    <text x="405" y="132" font-size="11.5" font-style="italic" fill="#A6450B" text-anchor="middle">store it, wait for the machine that reads it. No breach alert fires.</text>
+    <rect x="600" y="232" width="150" height="44" rx="6" fill="#F6EBE3" stroke="#A6450B" stroke-width="1.4"/>
+    <text x="675" y="252" font-size="11.5" font-weight="700" fill="#A6450B" text-anchor="middle">Decrypt later</text>
+    <text x="675" y="268" font-size="10" fill="#2A2520" text-anchor="middle">when the machine exists</text>
+    <!-- timeline axis -->
+    <line x1="90" y1="320" x2="700" y2="320" stroke="#2A2520" stroke-width="2"/>
+    <!-- milestone 2024 -->
+    <circle cx="150" cy="320" r="7" fill="#009E73" stroke="#00553F" stroke-width="1.5"/>
+    <text x="150" y="350" font-size="13" font-weight="700" fill="#00553F" text-anchor="middle">Aug 2024</text>
+    <text x="150" y="370" font-size="10.5" fill="#2A2520" text-anchor="middle">FIPS 203 / 204 / 205</text>
+    <text x="150" y="384" font-size="10.5" fill="#2A2520" text-anchor="middle">replacements finalized</text>
+    <!-- milestone 2030 -->
+    <circle cx="420" cy="320" r="7" fill="#E69F00" stroke="#855A00" stroke-width="1.5"/>
+    <text x="420" y="350" font-size="13" font-weight="700" fill="#855A00" text-anchor="middle">2030</text>
+    <text x="420" y="370" font-size="10.5" fill="#2A2520" text-anchor="middle">RSA and ECC</text>
+    <text x="420" y="384" font-size="10.5" fill="#2A2520" text-anchor="middle">deprecated</text>
+    <!-- milestone 2035 -->
+    <circle cx="660" cy="320" r="7" fill="#D55E00" stroke="#A6450B" stroke-width="1.5"/>
+    <text x="660" y="350" font-size="13" font-weight="700" fill="#A6450B" text-anchor="middle">2035</text>
+    <text x="660" y="370" font-size="10.5" fill="#2A2520" text-anchor="middle">disallowed in</text>
+    <text x="660" y="384" font-size="10.5" fill="#2A2520" text-anchor="middle">NIST standards</text>
+    <!-- today marker -->
+    <line x1="230" y1="306" x2="230" y2="334" stroke="#2C4A6B" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="230" y="302" font-size="10.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">today</text>
+    <!-- footer -->
+    <text x="380" y="416" font-size="11.5" fill="#2A2520" text-anchor="middle">Anything that must stay confidential for a decade or more is exposed now. Score exposure today; build the swap path first.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">NIST set the deprecation clock; harvest-now-decrypt-later runs above it. Data captured today is exposed now, on today's encryption, with no breach alert to announce it.</figcaption>
+</figure>
+
 ## Exposure Levels
 
 ### Low Exposure: Short-Lived Secrets, Agile Crypto

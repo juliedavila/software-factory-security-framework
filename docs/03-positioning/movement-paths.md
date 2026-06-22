@@ -39,6 +39,68 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
+<figure>
+  <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-mv-title">SF² strategic movement paths on the two-axis model</title>
+    <desc id="sf2-mv-desc">The four-quadrant positioning grid with movement arrows. Three tractable single-axis moves are shown as solid arrows: Craft up to Studio (raise readiness, 12 to 18 months), Studio right to Lean (widen reach, 24 to 36 months), and Mass up to Lean (build the floor under reach you already hold, 36 to 48 months, the containment climb). One dashed arrow shows Craft right to Mass: drift, reach outran the floor. One diagonal arrow from Craft to Lean is crossed out: moving on both axes at once carries the highest failure rate. The goal position is Lean, top right.</desc>
+    <defs>
+      <marker id="mv-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
+      <marker id="mv-arrow-drift" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#A6450B"/></marker>
+    </defs>
+    <rect x="0" y="0" width="720" height="600" fill="#FAFAF7"/>
+    <!-- quadrant cells -->
+    <rect x="130" y="70" width="250" height="200" fill="#EAF5F0" stroke="#009E73" stroke-width="2"/>
+    <rect x="380" y="70" width="250" height="200" fill="#E6F0F8" stroke="#0072B2" stroke-width="2"/>
+    <rect x="130" y="270" width="250" height="200" fill="#FCF4E6" stroke="#E69F00" stroke-width="2"/>
+    <rect x="380" y="270" width="250" height="200" fill="#FCEFE6" stroke="#D55E00" stroke-width="2"/>
+    <!-- quadrant labels (top-left, short) -->
+    <text x="148" y="98" font-size="18" font-weight="700" fill="#00553F">Studio</text>
+    <text x="148" y="117" font-size="11" fill="#2A2520">small reach, high readiness</text>
+    <text x="398" y="98" font-size="18" font-weight="700" fill="#00557F">Lean &#9733;</text>
+    <text x="398" y="117" font-size="11" fill="#2A2520">goal: reach with the floor built</text>
+    <text x="148" y="298" font-size="18" font-weight="700" fill="#855A00">Craft</text>
+    <text x="148" y="317" font-size="11" fill="#2A2520">small reach, low readiness</text>
+    <text x="398" y="298" font-size="18" font-weight="700" fill="#A6450B">Mass</text>
+    <text x="398" y="317" font-size="11" fill="#2A2520">large reach, low readiness</text>
+    <!-- diagonal trap (under solid climbs) -->
+    <line x1="305" y1="348" x2="472" y2="192" stroke="#A6450B" stroke-width="2" stroke-dasharray="3 4" opacity="0.8"/>
+    <g stroke="#C0392B" stroke-width="3.4"><line x1="378" y1="260" x2="398" y2="280"/><line x1="398" y1="260" x2="378" y2="280"/></g>
+    <text x="300" y="238" font-size="11.5" font-style="italic" fill="#C0392B" text-anchor="middle">two axes at once:</text>
+    <text x="300" y="252" font-size="11.5" font-style="italic" fill="#C0392B" text-anchor="middle">highest failure</text>
+    <!-- Craft -> Studio (readiness up), right lane of left column -->
+    <line x1="345" y1="350" x2="345" y2="190" stroke="#2C4A6B" stroke-width="2.6" marker-end="url(#mv-arrow)"/>
+    <text x="365" y="270" font-size="11" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 365 270)">readiness &#8593;</text>
+    <!-- Mass -> Lean (readiness up), right lane of right column -->
+    <line x1="585" y1="350" x2="585" y2="190" stroke="#2C4A6B" stroke-width="2.6" marker-end="url(#mv-arrow)"/>
+    <text x="605" y="270" font-size="11" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 605 270)">readiness &#8593;</text>
+    <!-- Studio -> Lean (reach right) -->
+    <line x1="300" y1="167" x2="473" y2="167" stroke="#2C4A6B" stroke-width="2.6" marker-end="url(#mv-arrow)"/>
+    <text x="387" y="158" font-size="11" font-weight="700" fill="#2C4A6B" text-anchor="middle">reach &#8594;</text>
+    <!-- Craft -> Mass (drift) -->
+    <line x1="300" y1="425" x2="473" y2="425" stroke="#A6450B" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mv-arrow-drift)"/>
+    <text x="387" y="445" font-size="11" font-style="italic" fill="#A6450B" text-anchor="middle">drift: reach outran the floor</text>
+    <!-- axes -->
+    <line x1="130" y1="490" x2="630" y2="490" stroke="#2A2520" stroke-width="1.4"/>
+    <line x1="112" y1="70" x2="112" y2="470" stroke="#2A2520" stroke-width="1.4"/>
+    <text x="130" y="508" font-size="12" fill="#3A3530">Small reach</text>
+    <text x="630" y="508" font-size="12" fill="#3A3530" text-anchor="end">Large reach</text>
+    <text x="380" y="530" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Blast Radius (inherent reach, if containment fails)</text>
+    <text x="104" y="465" font-size="12" fill="#3A3530" text-anchor="end">Lower</text>
+    <text x="104" y="80" font-size="12" fill="#3A3530" text-anchor="end">Higher</text>
+    <text x="42" y="270" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 42 270)">Operational Readiness</text>
+    <!-- timeline caption -->
+    <text x="380" y="556" font-size="11" fill="#2A2520" text-anchor="middle">Single-axis moves are the tractable ones: Craft to Studio 12-18mo &#183; Studio to Lean 24-36mo &#183; Mass to Lean 36-48mo (the containment climb).</text>
+    <!-- legend -->
+    <line x1="150" y1="582" x2="186" y2="582" stroke="#2C4A6B" stroke-width="2.6" marker-end="url(#mv-arrow)"/>
+    <text x="196" y="586" font-size="11" fill="#2A2520">tractable: one axis at a time</text>
+    <line x1="392" y1="582" x2="428" y2="582" stroke="#A6450B" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mv-arrow-drift)"/>
+    <text x="438" y="586" font-size="11" fill="#2A2520">drift to guard against</text>
+    <g stroke="#C0392B" stroke-width="2.6"><line x1="566" y1="576" x2="578" y2="588"/><line x1="578" y1="576" x2="566" y2="588"/></g>
+    <text x="588" y="586" font-size="11" fill="#2A2520">diagonal: do not attempt</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The three tractable moves change one axis at a time. The dashed path is drift to guard against; the crossed diagonal is the two-axis move that fails most often. Lean is the goal position.</figcaption>
+</figure>
+
 ---
 
 ## Path 1: Craft → Studio (Operational Readiness)
