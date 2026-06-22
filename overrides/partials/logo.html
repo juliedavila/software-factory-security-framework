@@ -1,0 +1,14 @@
+{#-
+  SF² override of Material's partials/logo.html.
+  ISC-26 (v0.8 a11y): the parent <a class="md-logo"> already carries
+  aria-label="{{ config.site_name }}", and the header brand text link names
+  the framework, so the logo image is decorative. alt="" prevents a
+  screen-reader double-announcement (WCAG 1.1.1). Upstream hardcodes
+  alt="logo" (the file type, not the content); this is the only change.
+-#}
+{% if config.theme.logo %}
+  <img src="{{ config.theme.logo | url }}" alt="">
+{% else %}
+  {% set icon = config.theme.icon.logo or "material/library" %}
+  {% include ".icons/" ~ icon ~ ".svg" %}
+{% endif %}

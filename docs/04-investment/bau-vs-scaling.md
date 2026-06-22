@@ -141,6 +141,62 @@ Security investments fall into three categories with fundamentally different sca
 | **Craft** | Manageable manual processes | Document processes while building readiness |
 | **Mass** | High burden requiring constraint | Triage system + strategic automation pilots |
 
+<figure>
+  <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ea-title sf2-ea-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-ea-title">Year-one effort allocation by quadrant: constraining BAU versus scaling investment</title>
+    <desc id="sf2-ea-desc">Four horizontal stacked bars, one per quadrant, showing the year-one split between business-as-usual to constrain and scaling investment. Craft spends about 80 percent on BAU and 20 percent on scaling. Mass spends about 80 percent on BAU and 20 percent on scaling. Studio spends 30 percent on BAU and 70 percent on scaling. Lean spends about 12 percent on BAU and 88 percent on scaling. The more readiness an organization has, the more of its effort goes to scaling rather than constraining BAU. Craft and Mass both spend most of their effort on BAU for opposite reasons: Craft by intentional simplicity, Mass because legacy work eats the budget. These are year-one figures. A dashed extension on the Craft and Mass bars shows the constraint share ratcheting down toward scaling over later years, a direction of travel rather than a dated forecast.</desc>
+    <defs>
+      <pattern id="ea-bau" width="7" height="7" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="7" stroke="#8A8270" stroke-width="1" opacity="0.35"/></pattern>
+      <pattern id="ea-studio" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#009E73" stroke-width="1.2" opacity="0.5"/></pattern>
+      <pattern id="ea-lean" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.6" fill="#0072B2" opacity="0.5"/></pattern>
+      <pattern id="ea-craft" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#E69F00" stroke-width="1.4" opacity="0.55"/></pattern>
+      <pattern id="ea-mass" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 0 L12 12 M12 0 L0 12" stroke="#D55E00" stroke-width="0.9" opacity="0.4"/></pattern>
+      <marker id="ea-later" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M2 1 L8 5 L2 9 Z" fill="#8A7A5A"/></marker>
+    </defs>
+    <rect x="0" y="0" width="720" height="500" fill="#FAFAF7"/>
+    <text x="360" y="34" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Year-one effort: constrain BAU vs. invest in scaling</text>
+    <!-- scale gridlines 0/50/100 -->
+    <g stroke="#D8D2C6" stroke-width="1"><line x1="180" y1="70" x2="180" y2="378"/><line x1="420" y1="70" x2="420" y2="378"/><line x1="660" y1="70" x2="660" y2="378"/></g>
+    <g font-size="10" fill="#6B6456" text-anchor="middle"><text x="180" y="64">0%</text><text x="420" y="64">50%</text><text x="660" y="64">100%</text></g>
+    <!-- Craft -->
+    <text x="170" y="105" font-size="14" font-weight="700" fill="#855A00" text-anchor="end">Craft</text>
+    <rect x="180" y="84" width="384" height="34" fill="#E8E2D4" stroke="#8A8270" stroke-width="1.2"/><rect x="180" y="84" width="384" height="34" fill="url(#ea-bau)"/>
+    <rect x="564" y="84" width="96" height="34" fill="#FBEFD9" stroke="#E69F00" stroke-width="1.4"/><rect x="564" y="84" width="96" height="34" fill="url(#ea-craft)"/>
+    <rect x="500" y="87" width="64" height="28" fill="#FBEFD9" opacity="0.5" stroke="#A6450B" stroke-width="1.1" stroke-dasharray="4 3"/>
+    <line x1="560" y1="101" x2="506" y2="101" stroke="#8A7A5A" stroke-width="1.2" marker-end="url(#ea-later)"/>
+    <text x="372" y="106" font-size="11.5" fill="#3A3530" text-anchor="middle">BAU to constrain 80%</text>
+    <text x="612" y="106" font-size="11" font-weight="700" fill="#855A00" text-anchor="middle">20%</text>
+    <!-- Mass -->
+    <text x="170" y="170" font-size="14" font-weight="700" fill="#A6450B" text-anchor="end">Mass</text>
+    <rect x="180" y="149" width="384" height="34" fill="#E8E2D4" stroke="#8A8270" stroke-width="1.2"/><rect x="180" y="149" width="384" height="34" fill="url(#ea-bau)"/>
+    <rect x="564" y="149" width="96" height="34" fill="#FBE6DA" stroke="#D55E00" stroke-width="1.4"/><rect x="564" y="149" width="96" height="34" fill="url(#ea-mass)"/>
+    <rect x="500" y="152" width="64" height="28" fill="#FBE6DA" opacity="0.5" stroke="#A6450B" stroke-width="1.1" stroke-dasharray="4 3"/>
+    <line x1="560" y1="166" x2="506" y2="166" stroke="#8A7A5A" stroke-width="1.2" marker-end="url(#ea-later)"/>
+    <text x="372" y="171" font-size="11.5" fill="#3A3530" text-anchor="middle">BAU to constrain 80%</text>
+    <text x="612" y="171" font-size="11" font-weight="700" fill="#A6450B" text-anchor="middle">20%</text>
+    <!-- Studio -->
+    <text x="170" y="235" font-size="14" font-weight="700" fill="#00553F" text-anchor="end">Studio</text>
+    <rect x="180" y="214" width="144" height="34" fill="#E8E2D4" stroke="#8A8270" stroke-width="1.2"/><rect x="180" y="214" width="144" height="34" fill="url(#ea-bau)"/>
+    <rect x="324" y="214" width="336" height="34" fill="#E2F3EC" stroke="#009E73" stroke-width="1.4"/><rect x="324" y="214" width="336" height="34" fill="url(#ea-studio)"/>
+    <text x="252" y="236" font-size="11" fill="#3A3530" text-anchor="middle">BAU 30%</text>
+    <text x="492" y="236" font-size="11.5" font-weight="700" fill="#00553F" text-anchor="middle">Scaling investment 70%</text>
+    <!-- Lean -->
+    <text x="170" y="300" font-size="14" font-weight="700" fill="#00557F" text-anchor="end">Lean</text>
+    <rect x="180" y="279" width="58" height="34" fill="#E8E2D4" stroke="#8A8270" stroke-width="1.2"/><rect x="180" y="279" width="58" height="34" fill="url(#ea-bau)"/>
+    <rect x="238" y="279" width="422" height="34" fill="#DCEBF6" stroke="#0072B2" stroke-width="1.4"/><rect x="238" y="279" width="422" height="34" fill="url(#ea-lean)"/>
+    <text x="209" y="301" font-size="9.5" fill="#3A3530" text-anchor="middle">12%</text>
+    <text x="449" y="301" font-size="11.5" font-weight="700" fill="#00557F" text-anchor="middle">Scaling investment ~88%</text>
+    <!-- insight -->
+    <line x1="60" y1="404" x2="660" y2="404" stroke="#B8956A" stroke-width="1"/>
+    <text x="60" y="430" font-size="12.5" font-weight="700" fill="#2C4A6B">The more readiness you hold, the more effort goes to scaling, not constraining BAU.</text>
+    <text x="60" y="452" font-size="11.5" fill="#2A2520">Craft and Mass both spend most on BAU, for opposite reasons: Craft by intentional simplicity,</text>
+    <text x="60" y="468" font-size="11.5" fill="#2A2520">Mass because legacy eats the budget. Year-one figures; both shift toward scaling over later years.</text>
+    <rect x="60" y="478" width="20" height="11" fill="#FBEFD9" opacity="0.6" stroke="#A6450B" stroke-width="1.1" stroke-dasharray="4 3"/>
+    <text x="88" y="488" font-size="10.5" font-style="italic" fill="#2A2520">dashed = BAU that shifts to scaling in later years (the ratchet, not a dated forecast)</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Year-one effort split per quadrant. The more readiness you hold, the more goes to scaling rather than constraining BAU. Craft and Mass spend most on BAU for opposite reasons: Craft by intentional simplicity, Mass because legacy eats the budget.</figcaption>
+</figure>
+
 ---
 
 ### Scaling Investments (Prioritize Post-Crisis)

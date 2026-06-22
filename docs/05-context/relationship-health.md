@@ -84,6 +84,50 @@ A scaling investment pays off only when the organization takes it up. The capabi
 
 The reflex when relationships are weak is to make more controls mandatory and accept the resistance. That reads the trade-off as mandatory against voluntary, when the axis that governs adoption is friction. A secure default built into the [paved road](https://dora.dev/capabilities/platform-engineering/) is mandatory and low-friction at once: dependency scanning that runs in the pipeline and blocks only on a critical finding gets full adoption because no one has to choose it. The mandatory-versus-voluntary frame misses that whole quadrant. When trust is thin, the move that protects adoption velocity is to lower friction, to make the secure path the default path, so the capability lands even before the relationship does.
 
+<figure>
+  <svg viewBox="0 0 680 580" role="img" aria-labelledby="sf2-rh-title sf2-rh-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-rh-title">Adoption by friction and mandate: the missing paved-road cell</title>
+    <desc id="sf2-rh-desc">A two-by-two matrix. The horizontal axis runs from voluntary on the left to mandatory on the right. The vertical axis runs from high friction at the bottom to low friction at the top. Voluntary plus low friction, top left, is an opt-in default with partial adoption. Mandatory plus low friction, top right, is the paved road: a secure default built into the pipeline, mandatory and low-friction at once, which gets full adoption because no one has to choose it. This is the cell the mandatory-versus-voluntary frame misses, and it is highlighted. Voluntary plus high friction, bottom left, gets low adoption. Mandatory plus high friction, bottom right, is the reflex: make more controls mandatory and accept the resistance. The axis that actually governs adoption is friction, not whether the control is mandatory.</desc>
+    <defs>
+      <pattern id="rh-paved" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="12" stroke="#009E73" stroke-width="1.3" opacity="0.45"/></pattern>
+    </defs>
+    <rect x="0" y="0" width="680" height="580" fill="#FAFAF7"/>
+    <text x="360" y="34" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Friction governs adoption, not the mandate</text>
+    <!-- TL voluntary + low friction -->
+    <rect x="120" y="70" width="240" height="190" fill="#EDF1F6" stroke="#2C4A6B" stroke-width="2"/>
+    <text x="240" y="150" font-size="14" font-weight="700" fill="#2C4A6B" text-anchor="middle">Opt-in default</text>
+    <text x="240" y="176" font-size="11.5" fill="#2A2520" text-anchor="middle">partial adoption</text>
+    <!-- TR mandatory + low friction = paved road (highlight) -->
+    <rect x="360" y="70" width="240" height="190" fill="#E2F3EC" stroke="#009E73" stroke-width="3"/><rect x="360" y="70" width="240" height="190" fill="url(#rh-paved)"/>
+    <circle cx="382" cy="92" r="14" fill="#00553F"/><path d="M375 92 l5 5 l9 -10" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="492" y="140" font-size="15.5" font-weight="700" fill="#00553F" text-anchor="middle">The paved road &#9733;</text>
+    <text x="480" y="166" font-size="11.5" fill="#2A2520" text-anchor="middle">secure default in the pipeline:</text>
+    <text x="480" y="182" font-size="11.5" fill="#2A2520" text-anchor="middle">mandatory AND low-friction</text>
+    <text x="480" y="206" font-size="11.5" font-weight="700" fill="#00553F" text-anchor="middle">full adoption</text>
+    <!-- BL voluntary + high friction -->
+    <rect x="120" y="260" width="240" height="190" fill="#EDEBE4" stroke="#8A8270" stroke-width="2"/>
+    <text x="240" y="346" font-size="14" font-weight="700" fill="#5A5446" text-anchor="middle">Low adoption</text>
+    <text x="240" y="372" font-size="11.5" fill="#2A2520" text-anchor="middle">friction with no mandate</text>
+    <!-- BR mandatory + high friction = the reflex -->
+    <rect x="360" y="260" width="240" height="190" fill="#F6EBE3" stroke="#A6450B" stroke-width="2"/>
+    <text x="480" y="338" font-size="14" font-weight="700" fill="#A6450B" text-anchor="middle">The reflex</text>
+    <text x="480" y="364" font-size="11.5" fill="#2A2520" text-anchor="middle">more mandates,</text>
+    <text x="480" y="380" font-size="11.5" fill="#2A2520" text-anchor="middle">accept the resistance</text>
+    <!-- axes -->
+    <line x1="120" y1="470" x2="600" y2="470" stroke="#2A2520" stroke-width="1.4"/>
+    <line x1="104" y1="70" x2="104" y2="450" stroke="#2A2520" stroke-width="1.4"/>
+    <text x="120" y="488" font-size="12" fill="#3A3530">Voluntary</text>
+    <text x="600" y="488" font-size="12" fill="#3A3530" text-anchor="end">Mandatory</text>
+    <text x="360" y="510" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Is the control required?</text>
+    <text x="96" y="450" font-size="12" fill="#3A3530" text-anchor="end">High</text>
+    <text x="96" y="80" font-size="12" fill="#3A3530" text-anchor="end">Low</text>
+    <text x="36" y="260" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 36 260)">Friction to adopt</text>
+    <!-- caption -->
+    <text x="360" y="546" font-size="11.5" font-style="italic" fill="#2A2520" text-anchor="middle">When trust is thin, lower friction. Make the secure path the default path, so the capability lands before the relationship does.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Friction governs adoption, not the mandate. The paved road is mandatory and low-friction at once, the cell the mandatory-versus-voluntary frame misses.</figcaption>
+</figure>
+
 ---
 
 ## When the Counterparty Is an Agent

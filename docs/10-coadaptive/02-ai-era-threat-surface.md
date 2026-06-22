@@ -15,6 +15,66 @@ These five are not an arbitrary count. One rule sits under all of them. Each is 
 
 The fifth is a different kind of thing. LLM workflows are not another bottleneck coming undone so much as the place the first four chain into each other, where one removed limit becomes the next one's problem. The four are the load-bearing limits coming undone now, not a closed catalog. You can already see the next ones forming. An agent that remembers across sessions removes a limit we used to rely on: that a session ended and its reach stopped with it. One operator spawning a fan-out of sub-agents removes the limit that one human was one actor you could count. The same rule names each as it arrives. The list was never meant to be finished.
 
+<figure>
+  <svg viewBox="0 0 720 560" role="img" aria-labelledby="sf2-5x-title sf2-5x-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-5x-title">The five attack surface expansions as one coupled surface</title>
+    <desc id="sf2-5x-desc">Five attack surface expansions (democratized builders, public APIs, agent access, autonomous reasoning, and LLM workflows) drawn as five spokes converging on a single central node: one identity, one grant of authority. The expansions are not five independent surfaces to defend in turn. They couple through the shared substrate (the identity that acts and the authority it carries), so each one widens what that single grant can reach. A compromise of the shared substrate can therefore propagate to all five surfaces, a shared blast radius rather than a guaranteed breach. Folded into one general-purpose agent, all five collapse into a single actor under one set of credentials, which concentrates the blast radius rather than reducing it.</desc>
+    <defs>
+      <marker id="x5-dot" markerWidth="8" markerHeight="8" refX="4" refY="4"><circle cx="4" cy="4" r="3" fill="#2C4A6B"/></marker>
+    </defs>
+    <rect x="0" y="0" width="720" height="560" fill="#FAFAF7"/>
+    <text x="360" y="34" font-size="17" font-weight="700" fill="#2C4A6B" text-anchor="middle">Not five surfaces. One coupled surface.</text>
+    <text x="360" y="58" font-size="11.5" fill="#2A2520" text-anchor="middle">They share one blast radius: a compromise of the grant can reach all five, not stay in one.</text>
+    <!-- spokes from centre to each expansion (drawn first, behind nodes) -->
+    <g stroke="#2C4A6B" stroke-width="1.8" opacity="0.55">
+      <line x1="360" y1="300" x2="170" y2="150"/>
+      <line x1="360" y1="300" x2="360" y2="120"/>
+      <line x1="360" y1="300" x2="550" y2="150"/>
+      <line x1="360" y1="300" x2="190" y2="330"/>
+      <line x1="360" y1="300" x2="530" y2="330"/>
+    </g>
+    <!-- central authority core -->
+    <circle cx="360" cy="300" r="78" fill="#2C4A6B" stroke="#21384F" stroke-width="2"/>
+    <text x="360" y="288" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">the shared</text>
+    <text x="360" y="306" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">substrate</text>
+    <text x="360" y="326" font-size="11" fill="#C9D8E6" text-anchor="middle">one identity,</text>
+    <text x="360" y="340" font-size="11" fill="#C9D8E6" text-anchor="middle">one grant of authority</text>
+    <!-- expansion nodes -->
+    <g>
+      <rect x="78" y="124" width="184" height="48" rx="6" fill="#E6F0F8" stroke="#2C4A6B" stroke-width="1.4"/>
+      <text x="170" y="146" font-size="13" font-weight="700" fill="#1F3850" text-anchor="middle">Democratized builders</text>
+      <text x="170" y="163" font-size="10.5" fill="#2A2520" text-anchor="middle">authorship past the org chart</text>
+    </g>
+    <g>
+      <rect x="246" y="92" width="228" height="48" rx="6" fill="#E6F0F8" stroke="#2C4A6B" stroke-width="1.4"/>
+      <text x="360" y="114" font-size="13" font-weight="700" fill="#1F3850" text-anchor="middle">Public APIs</text>
+      <text x="360" y="131" font-size="10.5" fill="#2A2520" text-anchor="middle">discovered and chained at machine speed</text>
+    </g>
+    <g>
+      <rect x="458" y="124" width="184" height="48" rx="6" fill="#E6F0F8" stroke="#2C4A6B" stroke-width="1.4"/>
+      <text x="550" y="146" font-size="13" font-weight="700" fill="#1F3850" text-anchor="middle">Agent access</text>
+      <text x="550" y="163" font-size="10.5" fill="#2A2520" text-anchor="middle">the trust boundary moves to the agent</text>
+    </g>
+    <g>
+      <rect x="60" y="306" width="190" height="48" rx="6" fill="#E6F0F8" stroke="#2C4A6B" stroke-width="1.4"/>
+      <text x="155" y="328" font-size="13" font-weight="700" fill="#1F3850" text-anchor="middle">Autonomous reasoning</text>
+      <text x="155" y="345" font-size="10.5" fill="#2A2520" text-anchor="middle">behavior chosen at runtime</text>
+    </g>
+    <g>
+      <rect x="470" y="306" width="190" height="48" rx="6" fill="#E6F0F8" stroke="#2C4A6B" stroke-width="1.4"/>
+      <text x="565" y="328" font-size="13" font-weight="700" fill="#1F3850" text-anchor="middle">LLM workflows</text>
+      <text x="565" y="345" font-size="10.5" fill="#2A2520" text-anchor="middle">where the other four interlock</text>
+    </g>
+    <!-- footer note: the inward fold -->
+    <rect x="80" y="438" width="560" height="86" rx="6" fill="#FCF4E6" stroke="#B8956A" stroke-width="1.4"/>
+    <text x="360" y="462" font-size="12.5" font-weight="700" fill="#855A00" text-anchor="middle">Folded into one general-purpose agent, the five collapse into a single actor.</text>
+    <text x="360" y="483" font-size="11.5" fill="#2A2520" text-anchor="middle">One process, one identity, one set of credentials, all five expansions at once.</text>
+    <text x="360" y="503" font-size="11.5" fill="#2A2520" text-anchor="middle">A weakness in the shared substrate (an over-broad credential, an action that traces to no one)</text>
+    <text x="360" y="518" font-size="11.5" fill="#2A2520" text-anchor="middle">does not add a surface. It widens every surface routed through it.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The five expansions are not five surfaces to defend in turn. They couple through one shared substrate, the identity that acts and the authority it carries, so a weakness there widens every surface routed through it.</figcaption>
+</figure>
+
 ### Democratized builders
 
 The set of people shipping production behavior has stopped matching the set of people the security program was built around. A product manager wiring together a workflow, an analyst writing a script an agent will run, a marketer standing up a site through a generation tool: each is now a builder, and most of them never touch the paved road the security team paved. The surface expands because authorship expands, and authorship expanded past the org chart.

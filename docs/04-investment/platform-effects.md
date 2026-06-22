@@ -105,6 +105,54 @@ Use this systematic framework to evaluate security investments when you're a pla
 - Priority: Hard reject, diverts resources from valuable work
 - Risk: Damages credibility with both internal teams and customers
 
+<figure>
+  <svg viewBox="0 0 680 580" role="img" aria-labelledby="sf2-pe-title sf2-pe-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-pe-title">Platform effects decision matrix: internal value against customer value</title>
+    <desc id="sf2-pe-desc">A two-by-two decision matrix for platform companies. The horizontal axis is customer value, weak on the left to strong on the right. The vertical axis is internal value, weak at the bottom to strong at the top. Across those two axes the four cells rank by priority: rank 1, strong internal plus strong customer value (top right), is highest priority, accelerate; rank 2, strong internal plus weak customer value (top left), is standard priority, justified on the internal business case; rank 3, weak internal plus strong customer value (bottom right), is avoid, a maintenance burden without sustainability; rank 4, weak internal plus weak customer value (bottom left), is reject, security theater. The recommended action is the rank 1 cell, flagged. The governing principle is that platform effects are a multiplier, not a driver: the internal business case must pass on its own before customer value justifies more investment. Priority is carried by the rank numerals and labels, not by color.</desc>
+    <rect x="0" y="0" width="680" height="580" fill="#FAFAF7"/>
+    <text x="360" y="34" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Platform effects: a multiplier, not a driver</text>
+    <!-- cells: neutral fills; rank numerals + labels carry meaning; one azul flag on the action cell -->
+    <!-- TL standard (rank 2) -->
+    <rect x="120" y="70" width="240" height="190" fill="#F1ECE3" stroke="#C9C0B0" stroke-width="1.5"/>
+    <circle cx="142" cy="92" r="14" fill="#8A8270"/><text x="142" y="97" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="240" y="150" font-size="15" font-weight="700" fill="#2A2520" text-anchor="middle">Standard priority</text>
+    <text x="240" y="176" font-size="11.5" fill="#2A2520" text-anchor="middle">justify on the internal</text>
+    <text x="240" y="192" font-size="11.5" fill="#2A2520" text-anchor="middle">business case alone</text>
+    <!-- TR highest (rank 1): the action cell, azul flag -->
+    <rect x="360" y="70" width="240" height="190" fill="#F1ECE3" stroke="#2C4A6B" stroke-width="3"/>
+    <circle cx="382" cy="92" r="14" fill="#2C4A6B"/><text x="382" y="97" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="486" y="146" font-size="16" font-weight="700" fill="#2C4A6B" text-anchor="middle">Highest priority &#9733;</text>
+    <text x="480" y="174" font-size="11.5" fill="#2A2520" text-anchor="middle">accelerate; 2-3x investment,</text>
+    <text x="480" y="190" font-size="11.5" fill="#2A2520" text-anchor="middle">faster timeline</text>
+    <!-- BL reject (rank 4) -->
+    <rect x="120" y="260" width="240" height="190" fill="#F1ECE3" stroke="#C9C0B0" stroke-width="1.5"/>
+    <circle cx="142" cy="282" r="14" fill="#8A8270"/><text x="142" y="287" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="240" y="340" font-size="15" font-weight="700" fill="#5A5446" text-anchor="middle">Reject</text>
+    <text x="240" y="366" font-size="11.5" fill="#2A2520" text-anchor="middle">security theater for</text>
+    <text x="240" y="382" font-size="11.5" fill="#2A2520" text-anchor="middle">marketing purposes</text>
+    <!-- BR avoid (rank 3) -->
+    <rect x="360" y="260" width="240" height="190" fill="#F1ECE3" stroke="#C9C0B0" stroke-width="1.5"/>
+    <circle cx="382" cy="282" r="14" fill="#8A8270"/><text x="382" y="287" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="480" y="340" font-size="15" font-weight="700" fill="#5A5446" text-anchor="middle">Avoid</text>
+    <text x="480" y="366" font-size="11.5" fill="#2A2520" text-anchor="middle">maintenance burden,</text>
+    <text x="480" y="382" font-size="11.5" fill="#2A2520" text-anchor="middle">no sustainability</text>
+    <!-- axes -->
+    <line x1="120" y1="470" x2="600" y2="470" stroke="#2A2520" stroke-width="1.4"/>
+    <line x1="104" y1="70" x2="104" y2="450" stroke="#2A2520" stroke-width="1.4"/>
+    <text x="120" y="488" font-size="12" fill="#3A3530">Weak</text>
+    <text x="600" y="488" font-size="12" fill="#3A3530" text-anchor="end">Strong</text>
+    <text x="360" y="510" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Customer value (to other software factories)</text>
+    <text x="96" y="450" font-size="12" fill="#3A3530" text-anchor="end">Weak</text>
+    <text x="96" y="80" font-size="12" fill="#3A3530" text-anchor="end">Strong</text>
+    <text x="36" y="260" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 36 260)">Internal value (your own factory)</text>
+    <!-- flag legend + principle -->
+    <rect x="120" y="524" width="22" height="14" fill="none" stroke="#2C4A6B" stroke-width="2.5"/>
+    <text x="150" y="535" font-size="11" fill="#2A2520">flagged = the recommended action (rank 1)</text>
+    <text x="360" y="560" font-size="11.5" font-style="italic" fill="#2A2520" text-anchor="middle">The internal business case must pass on its own. Customer value is the multiplier, never the justification.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Priority is carried by the rank numerals and labels, not color. The internal business case must pass on its own; customer value is the multiplier, never the justification.</figcaption>
+</figure>
+
 ---
 
 ## Customer Zero Insights and Strategic Weighting
