@@ -81,6 +81,24 @@
   margin: 0 auto;
 }
 
+/* v0.9.2 sizing fix (SCREEN ONLY). The figure element shrink-wraps to ~528px
+   instead of filling the ~1032px content column, so the SVG's width:100%
+   resolves against the shrunk box and every diagram renders at roughly half
+   size. Force the figure to fill the column and let the SVG fill the figure,
+   overriding the inline max-width:760px cap. Wrapped in @media screen so the
+   PDF build (WeasyPrint renders print media, and extra.css loads in the PDF
+   config too) is never touched. */
+@media screen {
+  .md-typeset figure {
+    width: 100%;
+  }
+  .md-typeset figure svg[role="img"] {
+    width: 100%;
+    max-width: 100% !important;
+    height: auto;
+  }
+}
+
 /* The ornament (sparing, <=2x sitewide). Placement 1: footer hairline cenefa. */
 .md-footer-meta::before {
   content: "";
