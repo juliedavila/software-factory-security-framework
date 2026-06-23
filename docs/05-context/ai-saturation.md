@@ -40,10 +40,13 @@ understanding it, and the work of security shifts with it.
     <path d="M110 350 C 330 330, 470 220, 700 110 L700 322 C 520 334, 350 346, 110 350 Z" fill="#D55E00" opacity="0.12"/>
     <!-- generation curve -->
     <path d="M110 350 C 330 330, 470 220, 700 110" fill="none" stroke="#D55E00" stroke-width="2.8"/>
+    <rect x="628.9" y="86.9" width="75.1" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="700" y="102" font-size="12.5" font-weight="700" fill="#A6450B" text-anchor="end">generation</text>
     <!-- review curve -->
     <path d="M110 350 C 350 346, 520 334, 700 322" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <rect x="547.2" y="324.9" width="156.8" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="700" y="340" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="end">review / comprehension</text>
+    <rect x="367.8" y="286.0" width="124.4" height="19.9" rx="2" fill="#FAFAF7" fill-opacity="0.72" transform="rotate(-21 430 300)"/>
     <text x="430" y="300" font-size="11.5" font-weight="700" fill="#A6450B" text-anchor="middle" transform="rotate(-21 430 300)">comprehension debt</text>
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
     <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">The gap is comprehension debt: code shipped that no person has fully read.</text>

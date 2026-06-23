@@ -84,15 +84,20 @@ The payback windows below are a 2026 baseline, calibrated to today's tooling and
     <!-- BAU: linear while spending, flat when it stops -->
     <polyline points="110,372 360,250 480,250 710,250" fill="none" stroke="#6B6456" stroke-width="2.6"/>
     <circle cx="360" cy="250" r="4.5" fill="#6B6456"/>
+    <rect x="368.0" y="226.8" width="132.7" height="19.1" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="372" y="240" font-size="10.5" fill="#6B6456">spend stops, return stops</text>
+    <rect x="561.3" y="222.9" width="77.3" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="600" y="238" font-size="12.5" font-weight="700" fill="#6B6456" text-anchor="middle">BAU: linear</text>
     <!-- Scaling: compound, keeps paying after spend ends -->
     <path d="M110 372 C 300 366, 470 300, 710 168" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <rect x="560.9" y="184.9" width="126.2" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="624" y="200" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="middle">Scaling: compound</text>
     <!-- Platform: multiplicative, dashed where gated on serving >1 factory -->
     <path d="M110 372 C 250 364, 360 300, 430 250" fill="none" stroke="#009E73" stroke-width="2.6" stroke-dasharray="6 4"/>
     <path d="M430 250 C 540 198, 620 150, 710 104" fill="none" stroke="#009E73" stroke-width="2.8"/>
+    <rect x="550.0" y="82.9" width="156.0" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="628" y="98" font-size="12.5" font-weight="700" fill="#00553F" text-anchor="middle">Platform: multiplicative</text>
+    <rect x="266.0" y="345.5" width="238.1" height="18.0" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="270" y="358" font-size="10" font-style="italic" fill="#00553F">dashed = only where you serve more than one factory</text>
     <!-- insight band -->
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>

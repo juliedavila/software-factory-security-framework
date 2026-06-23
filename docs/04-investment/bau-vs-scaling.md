@@ -20,20 +20,28 @@ It changes less than it looks like it should, for three reasons in rising order 
     <text x="410" y="398" font-size="11.5" fill="#6B6456" text-anchor="middle">time</text>
     <!-- inflection line -->
     <line x1="410" y1="80" x2="410" y2="372" stroke="#2C4A6B" stroke-width="1.3" stroke-dasharray="4 4"/>
+    <rect x="297.7" y="60.8" width="224.6" height="19.1" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="410" y="74" font-size="10.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">the inflection point: which curve you fund</text>
     <!-- production curve -->
     <path d="M110 358 C 330 348, 440 250, 614 120" fill="none" stroke="#D55E00" stroke-width="2.8"/>
     <path d="M614 120 C 660 86, 686 78, 710 70" fill="none" stroke="#D55E00" stroke-width="2.8" stroke-dasharray="6 4"/>
+    <rect x="422.1" y="134.9" width="137.9" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="556" y="150" font-size="12.5" font-weight="700" fill="#A6450B" text-anchor="end">production / demand</text>
+    <rect x="395.2" y="153.5" width="164.8" height="18.0" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="556" y="166" font-size="10" fill="#A6450B" text-anchor="end">code shipped + authority granted</text>
+    <rect x="590.6" y="49.9" width="123.4" height="17.7" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="710" y="62" font-size="9.5" font-style="italic" fill="#A6450B" text-anchor="end">climbs on deployment alone</text>
     <!-- comprehension curve -->
     <path d="M110 358 C 350 350, 520 332, 710 300" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <rect x="529.6" y="276.9" width="174.4" height="21.3" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="700" y="292" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="end">comprehension bandwidth</text>
-    <text x="700" y="344" font-size="10" fill="#00557F" text-anchor="end">what people can secure + understand</text>
+    <rect x="520.1" y="303.5" width="183.9" height="18.0" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
+    <text x="700" y="316" font-size="10" fill="#00557F" text-anchor="end">what people can secure + understand</text>
     <!-- the gap -->
     <line x1="662" y1="92" x2="662" y2="306" stroke="#6B6456" stroke-width="1.3" stroke-dasharray="3 3"/>
+    <rect x="668.4" y="190.8" width="45.6" height="19.1" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="710" y="204" font-size="10.5" font-weight="700" fill="#6B6456" text-anchor="end">the gap</text>
+    <rect x="594.9" y="207.5" width="119.1" height="18.0" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="710" y="220" font-size="10" fill="#6B6456" text-anchor="end">what no one can secure</text>
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
     <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">Not a linear line losing to an exponential. Two exponentials, and which one you fund is the inflection point.</text>
