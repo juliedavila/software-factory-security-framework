@@ -269,7 +269,7 @@ Most organizations benefit from moving toward the Lean position, but the path de
 <td data-label="Current Position"><strong>Mass → Lean</strong></td>
 <td data-label="Optimal Path">Build the floor under reach you already hold</td>
 <td data-label="Primary Investments">Containment over the estate: per-request attenuation, boundary enforcement, retire ungoverned grants</td>
-<td data-label="Timeline">36-48 months</td>
+<td data-label="Timeline">36-60 months</td>
 <td data-label="Notes">The enterprise's main game: single-axis climb (up)</td>
 </tr>
 <tr>

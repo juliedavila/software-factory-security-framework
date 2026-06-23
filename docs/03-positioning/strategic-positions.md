@@ -178,13 +178,13 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
     **Symptoms**: Aggressive transformation timelines, simultaneous re-platforming and process overhauls, widespread disruption
 
-    **Solution**: Sequence changes carefully. Typically, build the containment floor first (the Mass → Lean climb) to enable automation at scale. Accept 36-48 month timeline.
+    **Solution**: Sequence changes carefully. Typically, build the containment floor first (the Mass → Lean climb) to enable automation at scale. Accept 36-60 month timeline.
 
 **Success Indicators**:
 
 - **12 Months**: Hybrid security solutions operational, critical technical debt reduction projects started, transformation roadmap with executive buy-in
 - **24 Months**: Measurable automation improvements in high-value areas, improved operational readiness metrics, cultural momentum toward transformation
-- **36-48 Months**: Substantial progress toward [Lean](#lean-large-reach-high-readiness) position, security increasingly enabling business rather than constraining it
+- **36-60 Months**: Substantial progress toward [Lean](#lean-large-reach-high-readiness) position, security increasingly enabling business rather than constraining it
 
 **Movement Path**: Most Mass should move toward Lean by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Mass → Craft) rarely succeeds. It requires major business restructuring.
 

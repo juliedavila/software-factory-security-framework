@@ -5,7 +5,7 @@
 ## Framework Identity
 
 **Name**: Software Factory Security Framework (SF²)
-**Version**: 0.8.1
+**Version**: 0.9.0
 **Author**: Julie Davila
 **License**: CC BY 4.0
 **Purpose**: Strategic framework for scaling security capabilities while improving business outcomes
@@ -205,7 +205,7 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 - Not every organization should pursue Level 3 in every practice
 
 ### BSIMM Integration
-- BSIMM describes **112 security activities**
+- BSIMM describes **128 security activities** (as of BSIMM16, 2026)
 - SF² helps **prioritize which activities** and **sequence implementation**
 - Quadrant determines activity count (Craft: 15-25, Studio: 30-40, Lean: 60-80)
 

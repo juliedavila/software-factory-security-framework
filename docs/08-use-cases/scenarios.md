@@ -45,7 +45,7 @@ A 5,000-person financial services company (Mass position) needs to modernize sec
 **Investment Strategy**:
 1. **Use crisis window**: Apply audit findings for funding approval
 2. **Hybrid approach**: Modern security for new systems, pragmatic controls for legacy
-3. **Extended timeline**: 36-48 month transformation with phased rollout
+3. **Extended timeline**: 36-60 month transformation with phased rollout
 
 **Outcome**: Gradual modernization with compliance maintained; crisis event created sustainable funding for transformation.
 

@@ -45,29 +45,29 @@ Don't attempt transformation while drowning in operational work.
 
 ### 2. Choose Your Transformation Path
 
-Two possible strategies, each with different tradeoffs:
+Almost every Mass organization takes the same path: build the floor under the reach it already holds, knowing that is a 3-to-5-year climb most attempts do not finish. The other path shrinks reach, and that is the exception.
 
-**Path A: Reduce Complexity First (Move toward Craft)**
-- **Strategy**: Simplify operations while modernizing what remains
-- **Examples**: Consolidate products, retire legacy systems, reduce scope
-- **Advantages**: Easier transformation, clearer focus, faster progress
-- **Challenges**: May require difficult business decisions, potential revenue impact
-- **Timeline**: 12-24 months to Craft, then 18-24 to Studio
-
-Path A is the exception, not the default. It only works when a real business reason already supports shrinking reach: a divestiture, an SMB pivot, a product consolidation. Without that, you cannot claw back authority you have already granted across the estate, and Path B is the path almost every Mass organization actually takes. See [Movement Paths](../03-positioning/movement-paths.md#path-4-mass-craft-simplification).
-
-**Path B: Increase Readiness Despite Complexity (Move toward Lean)**
-- **Strategy**: Gradual modernization while maintaining complex operations
+**The default: Build the Floor (Mass → Lean, the Containment Climb)**
+- **Strategy**: Increase readiness through gradual modernization while large reach stays in place
 - **Examples**: Hybrid approaches, phased rollouts, incremental automation
-- **Advantages**: Maintains business operations, no scope reduction needed
+- **Advantages**: Preserves the business as-is (operations and revenue continue)
 - **Challenges**: Longest timeline, highest failure risk, requires sustained investment
 - **Timeline**: 36-60 months to Lean (realistically)
 
-**Critical Decision Factors**:
-- Executive support and patience (Path B requires 3-5 year commitment)
-- Resource availability (Path B needs significant sustained investment)
-- Business model (Can you reduce complexity without hurting revenue?)
-- Organizational change capacity (Path B requires high tolerance for disruption)
+**Critical Decision Factors** (for committing to the climb):
+- Executive support and patience (a 3-5 year commitment)
+- Resource availability (significant sustained investment)
+- Business model (can you sustain operations through a long climb?)
+- Organizational change capacity (high tolerance for disruption)
+
+**The exception: Reduce Reach (Mass → Craft, Simplification)**
+- **Strategy**: Simplify operations while modernizing what remains
+- **Examples**: Consolidate products, retire legacy systems, reduce scope
+- **Advantages**: Easier transformation, clearer focus, faster progress
+- **Challenges**: Requires difficult business decisions, potential revenue impact
+- **Timeline**: 12-24 months to Craft, then 18-24 to Studio
+
+Reducing reach works only when a divestiture, an SMB pivot, or a product consolidation already supports it. Without that, you cannot claw back authority you have already granted across the estate. See [Movement Paths](../03-positioning/movement-paths.md#path-4-mass-craft-simplification).
 
 ### 3. Execute Hybrid Transformation
 
@@ -116,26 +116,7 @@ Regardless of path, you'll need hybrid approaches:
 
 ## Investment Roadmap
 
-### Path A: Reduce Complexity First (→ Craft → Studio)
-
-**Year 1: Stabilize + Plan Complexity Reduction**
-- **Stabilization** (50% effort): Quick automation wins, operational burden reduction
-- **Complexity Assessment** (30% effort): What can be simplified, consolidated, retired?
-- **Modern Security for New** (20% effort): Stop recreating legacy patterns
-
-**Year 2-3: Complexity Reduction + Modernization**
-- **Simplification** (40% effort): Product consolidation, system retirement, scope reduction
-- **Modernization** (40% effort): Cloud migration, CI/CD, infrastructure-as-code
-- **Essential Security** (20% effort): Maintain security during transformation
-
-**Year 3-4: Complete Transformation to Studio**
-- **Security Automation** (60% effort): Build Studio-level capabilities
-- **Legacy Retirement** (30% effort): Complete sunset of old systems
-- **Optimization** (10% effort): Refine and improve
-
-**Expected Outcome**: **Studio positioning** after 3-4 years
-
-### Path B: Increase Readiness Despite Complexity (→ Lean)
+### The Default: Build the Floor (→ Lean)
 
 **Year 1: Stabilize + Hybrid Foundation**
 - **Stabilization** (40% effort): Quick wins, operational burden reduction
@@ -153,6 +134,25 @@ Regardless of path, you'll need hybrid approaches:
 - **Legacy Retirement** (20% effort): Sunset old infrastructure
 
 **Expected Outcome**: **Lean positioning** after 4-5 years (optimistic)
+
+### The Exception: Reduce Reach (→ Craft → Studio)
+
+**Year 1: Stabilize + Plan Reach Reduction**
+- **Stabilization** (50% effort): Quick automation wins, operational burden reduction
+- **Scope Assessment** (30% effort): What can be simplified, consolidated, retired?
+- **Modern Security for New** (20% effort): Stop recreating legacy patterns
+
+**Year 2-3: Simplification + Modernization**
+- **Simplification** (40% effort): Product consolidation, system retirement, scope reduction
+- **Modernization** (40% effort): Cloud migration, CI/CD, infrastructure-as-code
+- **Essential Security** (20% effort): Maintain security during transformation
+
+**Year 3-4: Complete Transformation to Studio**
+- **Security Automation** (60% effort): Build Studio-level capabilities
+- **Legacy Retirement** (30% effort): Complete sunset of old systems
+- **Optimization** (10% effort): Refine and improve
+
+**Expected Outcome**: **Studio positioning** after 3-4 years
 
 ## Common Pitfalls
 
@@ -261,24 +261,12 @@ One more failure mode belongs here, because it is the one outside your control. 
 
 ## Decision Framework
 
-### Should You Reduce Complexity First?
+### Can You Commit to the Containment Climb (Mass → Lean)?
 
-**Yes, if:**
-- You have products/services that could be consolidated or retired
-- Business model supports scope reduction
-- Executive support for difficult decisions
-- Prefer faster transformation (3-4 years vs 4-5 years)
-
-**No, if:**
-- Business model requires current complexity
-- Revenue tied to all current products
-- No viable consolidation or retirement options
-- Must maintain all current operations
-
-### Can You Successfully Execute Path B (Direct to Lean)?
+This is the question for almost every Mass organization. It is the default path.
 
 **Realistic if:**
-- Strong executive commitment (CEO level) to 4-5 year timeline
+- Strong executive commitment (CEO level) to a 4-5 year timeline
 - Significant resources available (budget, headcount, time)
 - High organizational change capacity
 - Excellent relationship health with engineering
@@ -291,7 +279,23 @@ One more failure mode belongs here, because it is the one outside your control. 
 - Low change capacity or change fatigue
 - No crisis event or executive urgency
 
-**If Path B seems unrealistic**: **Choose Path A** (reduce complexity first)
+**If the climb looks unrealistic**, the answer is rarely to shrink reach instead. That path stalls without a real business driver, and it can strand you mid-transformation carrying both old and new. The answer is to make the climb realistic: stabilize first, sequence the work in stages, and secure sustained executive sponsorship before committing.
+
+### Should You Reduce Reach Instead (Mass → Craft)?
+
+Only when a real business reason already supports it.
+
+**Yes, if:**
+- You have products/services that could be consolidated or retired
+- Business model supports scope reduction
+- Executive support for the difficult decisions involved
+- A divestiture, SMB pivot, or product consolidation is already underway
+
+**No, if:**
+- Business model requires the current reach
+- Revenue tied to all current products
+- No viable consolidation or retirement options
+- Must maintain all current operations
 
 ---
 

@@ -33,9 +33,9 @@ OWASP SAMM organizes security practices into five business functions:
 2. **Design** - Threat assessment, security requirements, architecture
 3. **Implementation** - Secure build, deployment, defect management
 4. **Verification** - Architecture assessment, requirements testing, security testing
-5. **Operations** - Incident management, environment management, operational enablement
+5. **Operations** - Incident management, environment management, operational management
 
-Each practice has maturity levels 0 (not performed) through 3 (optimized/strategic).
+Each business function holds three security practices (fifteen in total), and each practice is assessed along two activity streams. Maturity runs from level 0 (not performed) through level 3 (optimized/strategic).
 
 ## SF² Maturity Strategy by Quadrant
 

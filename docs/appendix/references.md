@@ -34,11 +34,23 @@
 
 SF² is built on prior work. These are the thinkers whose arguments the framework rests on, grouped by the part of SF² they anchor. Each entry names the work, where to find it, and what it carries for the framework.
 
+### Software factory lineage and the atelier critique
+
+The term SF² governs has a fifty-year industrial paper trail, and the framework owes the strongest counter-framing (software as artist colony, not factory) a real answer. These anchor [Engaging the Atelier Critique](../01-foundation/atelier-engagement.md).
+
+- **[Bemer (1968), "The Economics of Program Production."](https://www.computerhistory.org/collections/catalog/102724781)** Robert W. Bemer, then at General Electric, is generally credited with the earliest "software factory" proposal, framed as an answer to the late-1960s software crisis. (Bemer's papers, Computer History Museum.) The provenance behind treating "Software Factory" as industrial-lineage vocabulary rather than a fresh coinage.
+- **[Cusumano (1991), *Japan's Software Factories: A Challenge to U.S. Management.*](https://global.oup.com/academic/product/japans-software-factories-9780195062168)** Oxford University Press. The book-length study of the factory model applied to software at Hitachi, Toshiba, NEC, and Fujitsu. The mid-history of the term, between Bemer and modern DevOps usage.
+- **[Greenfield & Short (2004), *Software Factories: Assembling Applications with Patterns, Models, Frameworks, and Tools.*](https://archive.org/details/softwarefactorie0000gree)** Wiley. The configuration-of-languages-patterns-frameworks-tools definition that carried the term into modern application development.
+- **[U.S. Department of Defense accredited software factories](https://software.af.mil/) (Platform One, Kessel Run, and others).** More than twenty accredited software factories operate today; the word carries operational and regulatory weight in the one ecosystem where getting delivery wrong gets people killed.
+- **[Sankar, *Position and Portfolio.*](https://www.shyamsankar.com/p/position-and-portfolio)** shyamsankar.com. Palantir's CTO argues the atelier counter-framing: position and portfolio decoupled, "there is only the artist and the work." The steelmanned view SF² absorbs at the creative-act layer. The "artist colony, extraordinarily and exquisitely flat" line is from Sankar's *Financial Times* interview, 12 August 2021 (paywalled).
+
 ### Capability and least-privilege
 
 - **[Saltzer & Schroeder (1975), "The Protection of Information in Computer Systems."](https://web.mit.edu/saltzer/www/publications/protection/)** *Proceedings of the IEEE* 63(9):1278-1308. The original eight design principles, least privilege among them. SF²'s investment portfolio is a modern form of the same question: where do you spend constrained attention? This is the half-century anchor.
 - **[Hardy (1988), "The Confused Deputy."](http://cap-lore.com/CapTheory/ConfusedDeputy.html)** *ACM SIGOPS Operating Systems Review* 22(4):36-38 ([DOI](https://dl.acm.org/doi/10.1145/54289.871709)). The foundational account of why authority and the right to exercise it must be bound together. Agent and MCP authorization failures are this 1988 problem reincarnated.
 - **[Birgisson, Politz, Erlingsson, Taly, Vrable & Lentczner (2014), "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud."](https://theory.stanford.edu/~ataly/Papers/macaroons.pdf)** NDSS ([DOI](https://doi.org/10.14722/NDSS.2014.23212)). Bearer credentials that attenuate: any holder can append a caveat that narrows what a token may do, and none can broaden it, with the chain enforced by nested HMACs. This is the existence proof that authority can be made to shrink at every hop of a delegation chain. The pattern runs in production today: Fly.io scopes its API tokens this way (`fly tokens attenuate`, with caveats that lock a credential to a single machine), and AWS STS session policies enforce the same intersection rule, where a delegated session can never exceed the role it assumed. SF²'s agent-scale authorization argument extends a deployed pattern, not a research idea.
+- **[Shapiro, Smith & Farber (1999), "EROS: A Fast Capability System."](https://dl.acm.org/doi/10.1145/319151.319163)** SOSP. A capability operating system where every authority a process holds is an explicit, unforgeable capability and nothing is ambient. The existence proof that capability-based confinement runs as a real operating system, not only as a principle.
+- **[Watson, Anderson, Laurie & Kennaway (2010), "Capsicum: Practical Capabilities for UNIX."](https://www.usenix.org/conference/usenixsecurity10/capsicum-practical-capabilities-unix)** USENIX Security. Capability-mode sandboxing retrofitted into a mainstream operating system (FreeBSD), carrying the EROS model into production UNIX. The practical face of bounding what a component may do at the OS boundary.
 
 ### Agentic security: capability control and the confused deputy
 
@@ -61,6 +73,7 @@ The substrate guarantee is provable by construction only for as long as a compon
 - **[Klein et al. (2009), "seL4: Formal Verification of an OS Kernel."](https://dl.acm.org/doi/10.1145/1629575.1629596)** SOSP 2009 ([full proof account](https://sel4.systems/Research/pdfs/comprehensive-formal-verification-os-microkernel.pdf)). A machine-checked proof, in Isabelle/HOL, that a general-purpose OS kernel's C implementation refines its specification, carrying functional correctness, access-control enforcement, and information-flow noninterference. The existence proof that a boundary can be proven rather than asserted, and the reason verification is the one defensive property attacker cleverness cannot erode.
 - **[DARPA, "AI Cyber Challenge (AIxCC) Final Results" (2025).](https://www.darpa.mil/news/2025/aixcc-results)** Autonomous cyber-reasoning systems found 18 real vulnerabilities across 54 million lines of open-source code and patched the majority of injected ones, at roughly $152 per task. DARPA's own framing calls it an inflection point. The evidence that finding a path through enforcement-layer code is now a machine-scale capability, currently led by defenders.
 - **[Google, "Big Sleep" agent (Project Zero and DeepMind, 2024-2025).](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-big-sleep-agent-makes-big-leap)** The first AI agent to find a live, previously-unknown vulnerability in widely-deployed substrate software (SQLite, CVE-2025-6965), then more across open-source projects. The symmetric capability made concrete: AI reaching flaws in exactly the primitive code that sits below applications.
+- **[CSIS, "Beyond Autonomous Attacks: The Reality of AI-Enabled Cyber Threats" (2026).](https://www.csis.org/blogs/strategic-technologies-blog/beyond-autonomous-attacks-reality-ai-enabled-cyber-threats)** The measured counter to the autonomous-attack narrative: AI's offensive contribution today is efficiency, not new capability, with most attacks still relying on existing tactics. The grounding for dating the symmetric-capability balance as contested but not yet flipped.
 
 ### Prompt injection and input trust
 
@@ -286,7 +299,7 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 ## About This Framework
 
 **Author**: Julie Davila
-**Version**: 0.8.1
+**Version**: 0.9.0
 **License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
 **Website**: https://sf2framework.com
