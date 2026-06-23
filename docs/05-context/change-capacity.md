@@ -12,6 +12,38 @@ The error is testable. Projects dated and closed on the install date should show
 
 You cannot price a clock you cannot read, so make the absorb clock legible first. Before you start, name the absorb milestone the way you would a ship date: the share of work running on the new path, the date the old path is switched off, the point where the change is the default and not the option. Price the move on that.
 
+<figure>
+  <svg viewBox="0 0 760 400" role="img" aria-labelledby="sf2-tc-title sf2-tc-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-tc-title">Every transformation runs on two clocks: the install clock and the absorb clock</title>
+    <desc id="sf2-tc-desc">Two horizontal timeline tracks. The top track is the install clock: how fast you can stand the change up, by buying the tool, flipping the config, and lighting up the pipeline. It is short and ends early, and it is visible because it has an invoice and a deploy log. The bottom track is the absorb clock, which is change capacity: how fast the organization actually runs on the change, as people change how they work, the new path becomes the default, and the old path switches off. It runs far longer and is invisible unless you build a way to read it. That stretch is shaded as where the money leaks. Leaders price the move on the install date they can see, call it done when the tool is live, then find two quarters later that the numbers have not moved. No one's behavior did. The lesson is to schedule by the absorb budget, not by what you can install.</desc>
+    <rect x="0" y="0" width="760" height="400" fill="#FAFAF7"/>
+    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Two clocks: the install clock you can see, the absorb clock you must build to see</text>
+    <!-- where the money leaks -->
+    <rect x="330" y="70" width="320" height="232" fill="#D55E00" opacity="0.10"/>
+    <text x="490" y="90" font-size="11" font-weight="700" fill="#A6450B" text-anchor="middle">where the money leaks</text>
+    <text x="490" y="106" font-size="9.5" fill="#A6450B" text-anchor="middle">priced on the install date; behavior has not moved</text>
+    <!-- install clock -->
+    <text x="120" y="142" font-size="13" font-weight="700" fill="#00557F" text-anchor="end">install clock</text>
+    <rect x="140" y="126" width="190" height="28" rx="4" fill="#DCEBF6" stroke="#0072B2" stroke-width="1.6"/>
+    <circle cx="330" cy="140" r="6" fill="#0072B2"/>
+    <text x="235" y="145" font-size="10.5" fill="#00557F" text-anchor="middle">buy tool · flip config · deploy</text>
+    <text x="344" y="136" font-size="10.5" font-weight="700" fill="#00557F">installed</text>
+    <text x="344" y="150" font-size="9.5" fill="#00557F">visible: has an invoice + a deploy log</text>
+    <!-- absorb clock -->
+    <text x="120" y="234" font-size="13" font-weight="700" fill="#A6450B" text-anchor="end">absorb clock</text>
+    <rect x="140" y="218" width="500" height="28" rx="4" fill="#FBE6DA" stroke="#D55E00" stroke-width="1.6"/>
+    <circle cx="640" cy="232" r="6" fill="#D55E00"/>
+    <text x="390" y="237" font-size="10.5" fill="#A6450B" text-anchor="middle">people change how they work · new path becomes default · old path off</text>
+    <text x="640" y="270" font-size="10.5" font-weight="700" fill="#A6450B" text-anchor="middle">absorbed</text>
+    <text x="640" y="284" font-size="9.5" fill="#A6450B" text-anchor="middle">invisible unless you build it</text>
+    <text x="120" y="200" font-size="10" fill="#6B6456" text-anchor="end">(change capacity)</text>
+    <line x1="60" y1="330" x2="700" y2="330" stroke="#B8956A" stroke-width="1"/>
+    <text x="60" y="352" font-size="12.5" font-weight="700" fill="#2C4A6B">Schedule by the absorb budget, not by what you can install.</text>
+    <text x="60" y="372" font-size="11.5" fill="#2A2520">You can stand up four tools at once. You cannot absorb four changes at once. A tool installed but not absorbed is shelfware with a green light.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The install clock is short and visible; the absorb clock runs longer and stays invisible unless you build a way to read it. The gap between them is where the spend leaks. Schedule by the absorb budget, not the install date.</figcaption>
+</figure>
+
 ## Capacity Levels
 
 ### Risk-Averse / Slow Adoption

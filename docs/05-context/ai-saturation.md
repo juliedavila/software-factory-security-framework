@@ -19,6 +19,39 @@ understanding it, and the work of security shifts with it.
     shipped. No amount of hiring closes a gap that scales with machine output. See
     [the comprehension crisis](../10-coadaptive/02-ai-era-threat-surface.md).
 
+<figure>
+  <svg viewBox="0 0 760 470" role="img" aria-labelledby="sf2-cg-title sf2-cg-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-cg-title">As AI saturation rises, generation outpaces review and a comprehension gap opens</title>
+    <desc id="sf2-cg-desc">A chart of rate against AI saturation, the proportion of the pipeline running through AI, banded from low through moderate to high. Two curves start together at low saturation. The generation curve, how fast code is produced, climbs steeply as saturation rises. The review curve, how fast people can read and understand what shipped, stays nearly flat because human capacity bounds it, and hiring cannot scale that capacity to machine output. The widening area between them is shaded as comprehension debt: the share of shipped code no person has fully read. The gap opens because review is human-bound while generation is not, and better models do not close it. In a 2025 study across more than a hundred models, code written for security-sensitive tasks was insecure nearly half the time, and newer models were not meaningfully safer. The response is structural, not patient.</desc>
+    <rect x="0" y="0" width="760" height="470" fill="#FAFAF7"/>
+    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Generation outpaces review as saturation rises</text>
+    <!-- saturation bands -->
+    <rect x="110" y="80" width="200" height="292" fill="#F4F1EA"/>
+    <rect x="310" y="80" width="200" height="292" fill="#ECE7DB"/>
+    <rect x="510" y="80" width="200" height="292" fill="#E5E0D3"/>
+    <text x="210" y="98" font-size="10.5" fill="#2A2520" text-anchor="middle">low</text>
+    <text x="410" y="98" font-size="10.5" fill="#2A2520" text-anchor="middle">moderate</text>
+    <text x="610" y="98" font-size="10.5" fill="#2A2520" text-anchor="middle">high</text>
+    <line x1="110" y1="80" x2="110" y2="372" stroke="#2A2520" stroke-width="1.6"/>
+    <line x1="110" y1="372" x2="710" y2="372" stroke="#2A2520" stroke-width="1.6"/>
+    <text x="40" y="226" font-size="11.5" fill="#6B6456" text-anchor="middle" transform="rotate(-90 40 226)">rate (volume per unit time)</text>
+    <text x="410" y="398" font-size="11.5" fill="#6B6456" text-anchor="middle">AI saturation (share of pipeline running through AI)</text>
+    <!-- comprehension debt wedge -->
+    <path d="M110 350 C 330 330, 470 220, 700 110 L700 322 C 520 334, 350 346, 110 350 Z" fill="#D55E00" opacity="0.12"/>
+    <!-- generation curve -->
+    <path d="M110 350 C 330 330, 470 220, 700 110" fill="none" stroke="#D55E00" stroke-width="2.8"/>
+    <text x="700" y="102" font-size="12.5" font-weight="700" fill="#A6450B" text-anchor="end">generation</text>
+    <!-- review curve -->
+    <path d="M110 350 C 350 346, 520 334, 700 322" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <text x="700" y="340" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="end">review / comprehension</text>
+    <text x="430" y="248" font-size="11.5" font-weight="700" fill="#A6450B" text-anchor="middle" transform="rotate(-21 430 248)">comprehension debt</text>
+    <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
+    <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">The gap is comprehension debt: code shipped that no person has fully read.</text>
+    <text x="60" y="458" font-size="11.5" fill="#2A2520">Better models do not close it. In a 2025 study of 100-plus models, code for security tasks was insecure nearly half the time.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">As saturation climbs, generation pulls away from review and the shaded gap, comprehension debt, widens. Hiring cannot close a gap that scales with machine output, and newer models test no safer. The response is structural, not patient.</figcaption>
+</figure>
+
 ## Saturation Levels
 
 ### Low Saturation: AI on the Margins

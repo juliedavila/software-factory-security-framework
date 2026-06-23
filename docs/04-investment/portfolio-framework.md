@@ -70,6 +70,38 @@ These three categories rank by the shape of their return. BAU is linear-effort w
 
 The payback windows below are a 2026 baseline, calibrated to today's tooling and a typical rate of adoption. They will age. The ordering they sit under does not move on the same clock.
 
+<figure>
+  <svg viewBox="0 0 760 470" role="img" aria-labelledby="sf2-rs-title sf2-rs-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-rs-title">Three investment categories ranked by the shape of their return</title>
+    <desc id="sf2-rs-desc">A line chart of cumulative return against sustained spend over time, plotting the three investment categories by the shape of their return. BAU is a straight line of modest slope. It climbs only while the spend continues and goes flat the moment spending stops, returning nothing after that. Scaling investment is a curve that starts slower than BAU but keeps compounding and rising after the initial spend ends, overtaking BAU and finishing far higher. Platform effects is the steepest curve, multiplicative because it pays across more than one factory at once, but its first segment is dashed to mark that it is only open where you serve more than one factory. The durable claim is the ordering by return shape: linear, then compound, then multiplicative. The payback windows are a 2026 baseline that ages; Scaling returns in roughly six to eighteen months and Platform in roughly twelve to twenty-four, but those numbers move while the ordering does not.</desc>
+    <rect x="0" y="0" width="760" height="470" fill="#FAFAF7"/>
+    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Three categories, ranked by the shape of their return</text>
+    <!-- axes -->
+    <line x1="110" y1="80" x2="110" y2="372" stroke="#2A2520" stroke-width="1.6"/>
+    <line x1="110" y1="372" x2="710" y2="372" stroke="#2A2520" stroke-width="1.6"/>
+    <text x="40" y="226" font-size="11.5" fill="#6B6456" text-anchor="middle" transform="rotate(-90 40 226)">cumulative return</text>
+    <text x="410" y="398" font-size="11.5" fill="#6B6456" text-anchor="middle">sustained spend over time</text>
+    <!-- BAU: linear while spending, flat when it stops -->
+    <polyline points="110,372 360,250 480,250 710,250" fill="none" stroke="#6B6456" stroke-width="2.6"/>
+    <circle cx="360" cy="250" r="4.5" fill="#6B6456"/>
+    <text x="372" y="240" font-size="10.5" fill="#6B6456">spend stops, return stops</text>
+    <text x="600" y="244" font-size="12.5" font-weight="700" fill="#6B6456" text-anchor="middle">BAU: linear</text>
+    <!-- Scaling: compound, keeps paying after spend ends -->
+    <path d="M110 372 C 300 366, 470 300, 710 168" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <text x="624" y="160" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="middle">Scaling: compound</text>
+    <!-- Platform: multiplicative, dashed where gated on serving >1 factory -->
+    <path d="M110 372 C 250 364, 360 300, 430 250" fill="none" stroke="#009E73" stroke-width="2.6" stroke-dasharray="6 4"/>
+    <path d="M430 250 C 540 198, 620 150, 710 104" fill="none" stroke="#009E73" stroke-width="2.8"/>
+    <text x="628" y="98" font-size="12.5" font-weight="700" fill="#00553F" text-anchor="middle">Platform: multiplicative</text>
+    <text x="270" y="318" font-size="10" font-style="italic" fill="#00553F">dashed = only where you serve more than one factory</text>
+    <!-- insight band -->
+    <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
+    <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">The ordering by return shape is the durable claim: linear, then compound, then multiplicative.</text>
+    <text x="60" y="458" font-size="11.5" fill="#2A2520">Payback windows (Scaling 6 to 18 months, Platform 12 to 24) are a 2026 baseline that ages; the ranking does not.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The three categories ranked by return shape. BAU returns nothing once the spend stops; Scaling keeps compounding after it; Platform multiplies across more than one factory, where you have more than one to serve. The ordering is durable; the payback windows are a 2026 baseline that ages.</figcaption>
+</figure>
+
 How fast any of this returns is set by absorption capacity: how fast the organization adopts a paved road, retires the manual work it replaces, and keeps a working understanding of what changed. Absorption has a measurable cost. [DORA's 2024 State of DevOps research](https://dora.dev/research/2024/dora-report/) found that standing up a platform first cost roughly an eight percent dip in delivery throughput before the platform matured: the gain arrived after a temporary dip, paced by how fast teams absorbed the change, not by the rollout date.
 
 One thing the return-shape ranking does not say on its own: the category it tells you to prioritize, compounding scaling investment, is also the most discretionary line on the budget, which makes it the first one a downturn cuts. The 2023 round of security budget cuts landed hardest on exactly this kind of future-facing spend. That year, [63 percent of organizations cut their security budgets, and 39 percent cut headcount](../appendix/references.md#economic-reasoning-in-security). Two instructions follow, and both are about sequencing, not reassurance. If you are funding in an up-cycle, pre-fund the compounding capability now, because it is the line that vanishes when the cycle turns. Whatever the cycle, bias the portfolio toward capability-based controls that keep enforcing with fewer hands, because that is the spend whose value does not leave with the headcount. What a cut cannot repossess is the durable enforcement that keeps running with fewer hands, which is the [Lean guide](../06-implementation/lean.md)'s subject. This paragraph is about what to fund first. A plateau may give you more time on the demand side; a downturn gives you less on the funding side, so build for the clock that runs out first.

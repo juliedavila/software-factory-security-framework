@@ -22,6 +22,44 @@ The routine gates run on a competence clock. For a low-stakes call, the only thi
 
 The high-criticality gates are not on that clock. A human stays on the wire transfer because when it goes wrong, someone has to answer for it, and [the accountability does not transfer to the agent; it concentrates on the people who deployed it](../appendix/references.md#accountability-and-liability-for-autonomous-action). What moves a gate like that is a shift in who is liable. When the card networks pushed counterfeit-fraud liability onto whichever party had not adopted chip cards in [October 2015](../appendix/references.md#accountability-and-liability-for-autonomous-action), chip terminals were at checkout counters across the country within about two years, and none of them read a card more intelligently than the magnetic stripe they replaced. That is the governance clock: it runs on liability and trust, which the competence curve does not produce. Its floor is governance, not competence, and that is the more durable result and the more interesting one.
 
+<figure>
+  <svg viewBox="0 0 760 480" role="img" aria-labelledby="sf2-gc-title sf2-gc-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-gc-title">Two clocks lower the human decision gate at different rates</title>
+    <desc id="sf2-gc-desc">A chart of the criticality at which a human gate still pays for itself, plotted high to low against time. Two lines fall at different rates. The competence clock governs routine, low-stakes gates: it descends steeply and continuously, because the only thing ever in the way was whether an agent could finish the work unsupervised, and that is now a measured, moving quantity. METR's task horizon, the length of task a frontier model completes unsupervised, doubled about every seven months from 2019 to 2025, and about every four months across 2024 and 2025. At that rate, the next five to ten years move most routine decision gates into the cell itself. The governance clock governs high-criticality gates: it stays high and drops only in steps, when liability moves rather than when capability arrives. When the card networks shifted counterfeit-fraud liability in October 2015, chip terminals were at checkout counters across the country within about two years, none reading a card more intelligently than the stripe they replaced. The governance gates hold longest because someone has to own the irreversible call, and that floor is governance, not competence.</desc>
+    <rect x="0" y="0" width="760" height="480" fill="#FAFAF7"/>
+    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Two clocks lower the human gate at different rates</text>
+    <line x1="110" y1="78" x2="110" y2="368" stroke="#2A2520" stroke-width="1.6"/>
+    <line x1="110" y1="368" x2="710" y2="368" stroke="#2A2520" stroke-width="1.6"/>
+    <text x="44" y="223" font-size="11" fill="#6B6456" text-anchor="middle" transform="rotate(-90 44 223)">criticality a human gate still pays for</text>
+    <text x="124" y="92" font-size="9.5" fill="#6B6456">high</text>
+    <text x="124" y="362" font-size="9.5" fill="#6B6456">low</text>
+    <text x="410" y="394" font-size="11.5" fill="#6B6456" text-anchor="middle">time</text>
+    <!-- governance clock: high, holds, steps down only on liability shift -->
+    <polyline points="110,118 360,118 360,150 560,150 560,180 710,180" fill="none" stroke="#D55E00" stroke-width="2.8"/>
+    <circle cx="360" cy="118" r="4.5" fill="#D55E00"/>
+    <circle cx="560" cy="150" r="4.5" fill="#D55E00"/>
+    <text x="360" y="110" font-size="9" fill="#A6450B" text-anchor="middle">liability shift</text>
+    <text x="700" y="172" font-size="12.5" font-weight="700" fill="#A6450B" text-anchor="end">high-criticality gates</text>
+    <text x="700" y="196" font-size="10.5" fill="#A6450B" text-anchor="end">governance clock: moves on liability, not competence</text>
+    <!-- competence clock: steep continuous descent -->
+    <path d="M110 132 C 320 176, 470 300, 710 348" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <text x="300" y="250" font-size="12.5" font-weight="700" fill="#00557F">routine gates</text>
+    <text x="300" y="268" font-size="10.5" fill="#00557F">competence clock</text>
+    <!-- annotation boxes -->
+    <rect x="150" y="300" width="270" height="56" rx="5" fill="#DCEBF6" stroke="#0072B2" stroke-width="1.2"/>
+    <text x="160" y="318" font-size="9.5" fill="#00557F">METR task horizon doubles about every 7 months</text>
+    <text x="160" y="332" font-size="9.5" fill="#00557F">(2019 to 2025), about every 4 months (2024 to 2025):</text>
+    <text x="160" y="346" font-size="9.5" fill="#00557F">5 to 10 years moves most routine gates into the cell.</text>
+    <rect x="440" y="92" width="262" height="40" rx="5" fill="#FBE6DA" stroke="#D55E00" stroke-width="1.2"/>
+    <text x="450" y="110" font-size="9.5" fill="#A6450B">EMV chip-card liability shift, October 2015:</text>
+    <text x="450" y="124" font-size="9.5" fill="#A6450B">chip terminals nationwide in about 2 years.</text>
+    <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
+    <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">Routine gates fall on competence; high-criticality gates hold until liability moves.</text>
+    <text x="60" y="458" font-size="11.5" fill="#2A2520">The gates that hold longest hold because someone has to own the irreversible call. Build that ownership now, at the gates capability will never hand you.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Two clocks. The competence clock drops routine gates steeply and continuously as the task horizon doubles; the governance clock holds high-criticality gates and lowers them only in steps, when liability moves. The governance floor is the durable one.</figcaption>
+</figure>
+
 The gates that hold longest hold because someone has to own the irreversible call. The human-factors literature is blunt about the trap that floor sets. A person kept at the gate without real control does not anchor responsibility; they become the crumple zone for the system that failed around them. So the gate worth keeping is not a name on the form; it is meaningful control, where the consequential call still traces back to a human who held the reasons for it. The move this points to is to build that ownership and judgment now, at the gates that will outlive the competence argument, because it is the part capability will never hand you.
 
 Three things would falsify the timing. If the doubling stalls, the plateau the [investment chapter](../04-investment/bau-vs-scaling.md) hedges against, the competence clock slows and the routine-gate window stretches past ten years. If the routine gates stay manned anyway as the horizon keeps growing, then competence was never the binding constraint and this framework mistook a governance fact for a capability forecast. And if the high-criticality gates fall fast, because the liability moves rather than because the capability arrives, the way it moved for chip cards, then "the governance gates hold longest" is wrong at the top end; [insurers are already drafting coverage for autonomous action and underwriting it by the level of authority the agent holds](../appendix/references.md#accountability-and-liability-for-autonomous-action), and a market like that could empty a high gate without a single new model. The durable claim holds across all three: the cell is the unit, whatever its composition, and the human in it is the decision gate by criticality, not by definition. Below the line the human is still in the cell, doing the work; what criticality earns is the gate, not the presence.

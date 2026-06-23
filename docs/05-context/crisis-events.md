@@ -102,6 +102,49 @@ Everything above assumes the crisis arrives. Some of the most consequential secu
 
 Three moves fund the work anyway.
 
+<figure>
+  <svg viewBox="0 0 760 520" role="img" aria-labelledby="sf2-cw-title sf2-cw-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+    <title id="sf2-cw-title">Acute crises open a finite funding window; chronic exposures never spike</title>
+    <desc id="sf2-cw-desc">Two stacked panels plotting priority and funding over time. The top panel is an acute incident: the line sits low, then spikes sharply at the incident, opening a finite window of elevated priority and funding shaded across roughly one to two quarters as a rule of thumb, then decays back toward normal. A staged roadmap ships inside that window. The bottom panel is a chronic exposure, such as post-quantum risk or comprehension debt. The line rises slowly and steadily: no spike, no breach alert, no window ever opening. It is a silent clock running against a deadline you set yourself or never see. Because the crisis mechanism never fires for chronic work, three moves fund it anyway, drawn as branches off the chronic line: make the silent clock legible to budget-holders, piggyback the next real crisis window when the two share a root cause, and couple the work to an initiative that is already funded.</desc>
+    <rect x="0" y="0" width="760" height="520" fill="#FAFAF7"/>
+    <text x="380" y="30" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">A crisis opens a window; a chronic exposure never spikes</text>
+    <!-- Panel A: acute -->
+    <text x="120" y="58" font-size="12.5" font-weight="700" fill="#A6450B">Acute incident</text>
+    <line x1="110" y1="186" x2="710" y2="186" stroke="#2A2520" stroke-width="1.4"/>
+    <text x="44" y="130" font-size="10.5" fill="#6B6456" text-anchor="middle" transform="rotate(-90 44 130)">priority + funding</text>
+    <!-- window shading -->
+    <rect x="250" y="72" width="150" height="114" fill="#009E73" opacity="0.13"/>
+    <text x="325" y="88" font-size="10" font-weight="700" fill="#00553F" text-anchor="middle">window: 1 to 2 quarters</text>
+    <text x="325" y="101" font-size="9" fill="#00553F" text-anchor="middle">(rule of thumb; closes sooner than you expect)</text>
+    <!-- incident marker + funding line -->
+    <line x1="250" y1="66" x2="250" y2="186" stroke="#A6450B" stroke-width="1.3" stroke-dasharray="3 3"/>
+    <text x="250" y="62" font-size="9.5" font-weight="700" fill="#A6450B" text-anchor="middle">incident</text>
+    <path d="M110 176 L250 176 L278 96 L400 96 L520 168 L710 176" fill="none" stroke="#D55E00" stroke-width="2.8"/>
+    <text x="338" y="150" font-size="9.5" font-style="italic" fill="#00553F" text-anchor="middle">staged roadmap ships here</text>
+    <!-- Panel B: chronic -->
+    <text x="120" y="250" font-size="12.5" font-weight="700" fill="#00557F">Chronic exposure (PQC, comprehension debt)</text>
+    <line x1="110" y1="350" x2="710" y2="350" stroke="#2A2520" stroke-width="1.4"/>
+    <path d="M110 340 C 300 322, 500 300, 710 280" fill="none" stroke="#0072B2" stroke-width="2.8"/>
+    <text x="500" y="296" font-size="10" fill="#00557F" text-anchor="middle">silent clock: no spike, no breach alert, no window opens</text>
+    <!-- three moves -->
+    <g font-size="10.5" font-weight="700" text-anchor="middle">
+      <line x1="250" y1="312" x2="190" y2="392" stroke="#6B6456" stroke-width="1.1"/>
+      <line x1="430" y1="304" x2="380" y2="392" stroke="#6B6456" stroke-width="1.1"/>
+      <line x1="610" y1="290" x2="580" y2="392" stroke="#6B6456" stroke-width="1.1"/>
+      <rect x="96" y="392" width="188" height="48" rx="5" fill="#F1EEE6" stroke="#2C4A6B" stroke-width="1.3"/>
+      <text x="190" y="412" fill="#2C4A6B">Make the silent</text><text x="190" y="428" fill="#2C4A6B">clock legible</text>
+      <rect x="286" y="392" width="188" height="48" rx="5" fill="#F1EEE6" stroke="#2C4A6B" stroke-width="1.3"/>
+      <text x="380" y="412" fill="#2C4A6B">Piggyback the next</text><text x="380" y="428" fill="#2C4A6B">real window</text>
+      <rect x="476" y="392" width="188" height="48" rx="5" fill="#F1EEE6" stroke="#2C4A6B" stroke-width="1.3"/>
+      <text x="570" y="412" fill="#2C4A6B">Couple it to work</text><text x="570" y="428" fill="#2C4A6B">already funded</text>
+    </g>
+    <line x1="60" y1="466" x2="710" y2="466" stroke="#B8956A" stroke-width="1"/>
+    <text x="60" y="488" font-size="12.5" font-weight="700" fill="#2C4A6B">Stay staged so the acute window finds you ready. For chronic work, no window ever comes, so fund it another way.</text>
+    <text x="60" y="508" font-size="11.5" fill="#2A2520">All three moves get more urgent when money is tight, so build them before the squeeze arrives.</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">An acute incident spikes and opens a finite funding window a staged roadmap can ride. A chronic exposure runs as a silent clock that never spikes, so three moves fund it without a crisis: make it legible, piggyback a real window, or couple it to funded work.</figcaption>
+</figure>
+
 **Make the silent clock legible.** A crisis frees budget by making a latent risk visible and urgent to every decision-maker at once. That shared sight ends the argument before the usual vetoes reassemble. You can produce the same shared sight without the harm, by turning a silent risk into one the budget-holders can read. Two instruments do that:
 
 - a cryptographic bill of materials that puts your long-lived data, the primitives protecting it, and the deprecation deadline on a single page ([PQC exposure](pqc-exposure.md));
