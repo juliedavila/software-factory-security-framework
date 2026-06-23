@@ -55,7 +55,8 @@ The high-criticality gates are not on that clock. A human stays on the wire tran
     <text x="450" y="124" font-size="9.5" fill="#A6450B">chip terminals nationwide in about 2 years.</text>
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
     <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">Routine gates fall on competence; high-criticality gates hold until liability moves.</text>
-    <text x="60" y="458" font-size="11.5" fill="#2A2520">The gates that hold longest hold because someone has to own the irreversible call. Build that ownership now, at the gates capability will never hand you.</text>
+    <text x="60" y="452" font-size="11.5" fill="#2A2520">The gates that hold longest hold because someone has to own the irreversible call.</text>
+    <text x="60" y="470" font-size="11.5" fill="#2A2520">Build that ownership now, at the gates capability will never hand you.</text>
   </svg>
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Two clocks. The competence clock drops routine gates steeply and continuously as the task horizon doubles; the governance clock holds high-criticality gates and lowers them only in steps, when liability moves. The governance floor is the durable one.</figcaption>
 </figure>

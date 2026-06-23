@@ -58,7 +58,7 @@ This does not make the actor's identity irrelevant. You still have to know which
     <text x="384" y="132" font-size="10.5" font-style="italic" fill="#A6450B" text-anchor="middle">broad standing authority, unchanged at every hop &#8594; one crafted request is honored with privilege the caller never had</text>
     <!-- bottom band: attenuation wedge -->
     <text x="24" y="252" font-size="13" font-weight="700" fill="#00553F">The correction: capability attached to the request, narrowing per hop</text>
-    <text x="24" y="270" font-size="11.5" fill="#2A2520">A capability travels with the request, names exactly what may be done, and shrinks at every hop. Each deputy passes along less, never more.</text>
+    <text x="24" y="270" font-size="10.5" fill="#2A2520">A capability travels with the request, names exactly what may be done, and shrinks at every hop. Each deputy passes along less, never more.</text>
     <!-- wedge tapering left (wide) to right (narrow); aligned under the chain, ticked at each hop -->
     <polygon points="80,290 684,324 684,352 80,348" fill="#E2F3EC" stroke="#009E73" stroke-width="1.5"/>
     <g stroke="#009E73" stroke-width="1" opacity="0.55">

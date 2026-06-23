@@ -85,15 +85,15 @@ The payback windows below are a 2026 baseline, calibrated to today's tooling and
     <polyline points="110,372 360,250 480,250 710,250" fill="none" stroke="#6B6456" stroke-width="2.6"/>
     <circle cx="360" cy="250" r="4.5" fill="#6B6456"/>
     <text x="372" y="240" font-size="10.5" fill="#6B6456">spend stops, return stops</text>
-    <text x="600" y="244" font-size="12.5" font-weight="700" fill="#6B6456" text-anchor="middle">BAU: linear</text>
+    <text x="600" y="238" font-size="12.5" font-weight="700" fill="#6B6456" text-anchor="middle">BAU: linear</text>
     <!-- Scaling: compound, keeps paying after spend ends -->
     <path d="M110 372 C 300 366, 470 300, 710 168" fill="none" stroke="#0072B2" stroke-width="2.8"/>
-    <text x="624" y="160" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="middle">Scaling: compound</text>
+    <text x="624" y="200" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="middle">Scaling: compound</text>
     <!-- Platform: multiplicative, dashed where gated on serving >1 factory -->
     <path d="M110 372 C 250 364, 360 300, 430 250" fill="none" stroke="#009E73" stroke-width="2.6" stroke-dasharray="6 4"/>
     <path d="M430 250 C 540 198, 620 150, 710 104" fill="none" stroke="#009E73" stroke-width="2.8"/>
     <text x="628" y="98" font-size="12.5" font-weight="700" fill="#00553F" text-anchor="middle">Platform: multiplicative</text>
-    <text x="270" y="318" font-size="10" font-style="italic" fill="#00553F">dashed = only where you serve more than one factory</text>
+    <text x="270" y="358" font-size="10" font-style="italic" fill="#00553F">dashed = only where you serve more than one factory</text>
     <!-- insight band -->
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
     <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">The ordering by return shape is the durable claim: linear, then compound, then multiplicative.</text>

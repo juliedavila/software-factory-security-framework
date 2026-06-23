@@ -89,7 +89,8 @@ The timelines above are install-and-build floors. A move is not done until it is
     <text x="104" y="80" font-size="12" fill="#3A3530" text-anchor="end">Higher</text>
     <text x="42" y="270" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 42 270)">Operational Readiness</text>
     <!-- timeline caption -->
-    <text x="380" y="556" font-size="11" fill="#2A2520" text-anchor="middle">Single-axis moves are the tractable ones: Craft to Studio 12-18mo &#183; Studio to Lean 24-36mo &#183; Mass to Lean 36-60mo (the containment climb).</text>
+    <text x="360" y="548" font-size="11" fill="#2A2520" text-anchor="middle">Single-axis moves are the tractable ones:</text>
+    <text x="360" y="566" font-size="11" fill="#2A2520" text-anchor="middle">Craft to Studio 12-18mo &#183; Studio to Lean 24-36mo &#183; Mass to Lean 36-60mo (the containment climb).</text>
     <!-- legend -->
     <line x1="150" y1="582" x2="186" y2="582" stroke="#2C4A6B" stroke-width="2.6" marker-end="url(#mv-arrow)"/>
     <text x="196" y="586" font-size="11" fill="#2A2520">tractable: one axis at a time</text>

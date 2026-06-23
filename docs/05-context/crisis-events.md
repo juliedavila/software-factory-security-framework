@@ -114,8 +114,8 @@ Three moves fund the work anyway.
     <text x="44" y="130" font-size="10.5" fill="#6B6456" text-anchor="middle" transform="rotate(-90 44 130)">priority + funding</text>
     <!-- window shading -->
     <rect x="250" y="72" width="150" height="114" fill="#009E73" opacity="0.13"/>
-    <text x="325" y="88" font-size="10" font-weight="700" fill="#00553F" text-anchor="middle">window: 1 to 2 quarters</text>
-    <text x="325" y="101" font-size="9" fill="#00553F" text-anchor="middle">(rule of thumb; closes sooner than you expect)</text>
+    <text x="325" y="81" font-size="10" font-weight="700" fill="#00553F" text-anchor="middle">window: 1 to 2 quarters</text>
+    <text x="325" y="92" font-size="9" fill="#00553F" text-anchor="middle">(rule of thumb; closes sooner than you expect)</text>
     <!-- incident marker + funding line -->
     <line x1="250" y1="66" x2="250" y2="186" stroke="#A6450B" stroke-width="1.3" stroke-dasharray="3 3"/>
     <text x="250" y="62" font-size="9.5" font-weight="700" fill="#A6450B" text-anchor="middle">incident</text>
@@ -125,7 +125,7 @@ Three moves fund the work anyway.
     <text x="120" y="250" font-size="12.5" font-weight="700" fill="#00557F">Chronic exposure (PQC, comprehension debt)</text>
     <line x1="110" y1="350" x2="710" y2="350" stroke="#2A2520" stroke-width="1.4"/>
     <path d="M110 340 C 300 322, 500 300, 710 280" fill="none" stroke="#0072B2" stroke-width="2.8"/>
-    <text x="500" y="296" font-size="10" fill="#00557F" text-anchor="middle">silent clock: no spike, no breach alert, no window opens</text>
+    <text x="500" y="270" font-size="10" fill="#00557F" text-anchor="middle">silent clock: no spike, no breach alert, no window opens</text>
     <!-- three moves -->
     <g font-size="10.5" font-weight="700" text-anchor="middle">
       <line x1="250" y1="312" x2="190" y2="392" stroke="#6B6456" stroke-width="1.1"/>
