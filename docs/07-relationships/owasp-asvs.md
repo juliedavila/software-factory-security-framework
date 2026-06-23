@@ -9,7 +9,7 @@
 
 ## Relationship to SF²
 
-**OWASP ASVS** provides **comprehensive security verification requirements** organized into 17 chapters across three verification levels (ASVS 5.0, 2025).
+**OWASP ASVS** provides **comprehensive security verification requirements** organized into 17 chapters across three verification levels ([ASVS 5.0](https://owasp.org/www-project-application-security-verification-standard/), 2025).
 
 **SF²** helps determine **which ASVS level to target**, **which requirements to prioritize**, and **how to implement verification** based on organizational position and risk.
 

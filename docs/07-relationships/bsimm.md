@@ -9,7 +9,7 @@
 
 ## Relationship to SF²
 
-**BSIMM** describes **128 security activities** that organizations perform, organized into 12 practices across 4 domains (as of BSIMM16, 2026).
+**BSIMM** describes **128 security activities** that organizations perform, organized into 12 practices across 4 domains (as of [BSIMM16](https://www.bsimm.com/), 2026).
 
 **SF²** helps determine **which BSIMM activities to implement** and **in what sequence** based on your organizational positioning and investment strategy.
 
