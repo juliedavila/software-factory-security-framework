@@ -81,7 +81,7 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 - Data that must stay confidential for a decade or more (health, financial, defense, intellectual property)
 - Long-lived trust anchors: firmware signing, device certificates, code-signing roots with multi-year validity, living in products you cannot easily update
 - Cryptography embedded where it is hard to rotate: hardware, IoT, key-management modules, protocol assumptions, vendor black boxes
-- A binding migration deadline (for national-security systems, CNSA 2.0)
+- A binding migration deadline (for national-security systems, [CNSA 2.0](../appendix/references.md#post-quantum-cryptography-and-crypto-agility))
 
 **Implementation Impact**: Front-load crypto-agility and migration sequencing now. This is the exposure the deadline turns into an emergency if deferred.
 
