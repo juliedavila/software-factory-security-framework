@@ -1,0 +1,40 @@
+/* PDF-only stylesheet for the downloadable core SF2 PDF.
+ *
+ * Loaded solely by mkdocs.pdf.yml (the with-pdf / weasyprint build). The live
+ * site builds from mkdocs.yml, which never references this file, so nothing
+ * here can reach sf2framework.com. It carries two print-only fixes.
+ *
+ * 1. FONT EMBEDDING. Material injects the body face (Source Serif 4) and the
+ *    code face (JetBrains Mono) through a theme link tag in the HTML head.
+ *    weasyprint does not read that tag, so the PDF fell back to DejaVu. Fetching
+ *    the two faces here, the same way extra.css fetches Cardo for headings, lets
+ *    weasyprint embed the real brand fonts. CSS requires @import to lead the file.
+ *
+ * 2. PAGINATION. with-pdf's stylesheet sets min-height: 100vh on every article
+ *    and adjacent section. In weasyprint that full-viewport floor, combined with
+ *    a forced page break before each section, stalls pagination once the document
+ *    grows past roughly a dozen sections, and the renderer silently drops the rest
+ *    of the document with no warning. Releasing the floor in print media lets the
+ *    full four-section core render. The break-inside rules are left untouched, so
+ *    tables, figures, and admonitions still avoid splitting across a page.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@media print {
+  article,
+  section + section {
+    min-height: 0 !important;
+  }
+
+  /* Material routes the code face through a --md-code-font variable that
+   * weasyprint does not resolve, so inline code fell back to a system mono.
+   * Name JetBrains Mono directly so the imported brand face is the one used. */
+  code,
+  kbd,
+  samp,
+  pre,
+  .md-typeset code,
+  .md-typeset pre {
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Menlo, monospace !important;
+  }
+}

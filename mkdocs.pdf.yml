@@ -28,6 +28,15 @@ INHERIT: mkdocs.yml
 # Build into a dedicated directory so it never clobbers the main `site/` build.
 site_dir: pdf-build
 
+# A child `extra_css` replaces the parent's. Keep the site stylesheet, then add a
+# print-only sheet that embeds the body and code brand fonts (Source Serif 4 and
+# JetBrains Mono, which weasyprint otherwise misses) and releases with-pdf's
+# per-section min-height floor that silently truncates the document. This file is
+# referenced ONLY here, so it never loads on the live site. See docs/stylesheets/pdf.css.
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/pdf.css
+
 # with-pdf converts EVERY page mkdocs builds, not just the ones in `nav`. To
 # scope the PDF to the core, exclude the rest from the build itself (gitignore
 # syntax, relative to docs/). This is what actually keeps the non-core sections
@@ -77,7 +86,7 @@ plugins:
   - with-pdf:
       author: Julie Davila
       copyright: Copyright © 2025 Julie Davila | Licensed under CC BY 4.0
-      cover_title: "SF² — Core Framework"
+      cover_title: "SF² Core Framework"
       cover_subtitle: Software Factory Security Framework
       cover_logo: assets/logo.svg
       output_path: pdf/sf2-framework.pdf

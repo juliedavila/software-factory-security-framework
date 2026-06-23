@@ -17,7 +17,9 @@ before_script:
   # Install system dependencies for mkdocs-material social plugin and PDF generation
   # (cairo/pango for social cards and with-pdf plugin)
   - apt-get update
-  - apt-get install -y --no-install-recommends libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 shared-mime-info
+  # poppler-utils provides pdfinfo + pdffonts, used by the build job to hard-gate
+  # the downloadable PDF (page count + brand-font embedding).
+  - apt-get install -y --no-install-recommends libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 shared-mime-info poppler-utils
   # Install Python dependencies
   - pip install --cache-dir .cache/pip -r requirements.txt
 
@@ -70,6 +72,17 @@ build:
     - test -f pdf-build/pdf/sf2-framework.pdf || { echo "ERROR core PDF was not generated"; exit 1; }
     - PDF_BYTES=$(stat -c%s pdf-build/pdf/sf2-framework.pdf); echo "core PDF size ${PDF_BYTES} bytes"
     - test "$PDF_BYTES" -ge 51200 || { echo "ERROR core PDF is suspiciously small (${PDF_BYTES} bytes, floor 51200)"; exit 1; }
+    # PDF-fidelity hard-gate (v0.8.1). Both of the fixes this guards fail SILENTLY:
+    # a weasyprint pagination stall drops the document tail with no error, and a
+    # failed Google-Fonts @import falls back to system fonts with no error. The
+    # job would stay green either way and ship a broken download. Assert the
+    # CI-produced artifact actually renders the full document and embeds the three
+    # brand faces, so a regression fails the deploy loudly instead of silently.
+    - PDF_PAGES=$(pdfinfo pdf-build/pdf/sf2-framework.pdf | awk '/^Pages:/{print $2}'); echo "core PDF pages ${PDF_PAGES}"
+    - test "$PDF_PAGES" -ge 60 || { echo "ERROR core PDF looks truncated (${PDF_PAGES} pages, floor 60; full core is ~72)"; exit 1; }
+    - pdffonts pdf-build/pdf/sf2-framework.pdf | tee /tmp/sf2-fonts.txt
+    - for FONT in Source-Serif-4 JetBrains-Mono Cardo; do grep -q "$FONT" /tmp/sf2-fonts.txt || { echo "ERROR brand font ${FONT} not embedded in core PDF (likely a failed font @import at build time)"; exit 1; }; done
+    - echo "PDF-fidelity gate passed (${PDF_PAGES} pages, Source Serif 4 + JetBrains Mono + Cardo embedded)"
     - mkdir -p site/pdf
     - cp pdf-build/pdf/sf2-framework.pdf site/pdf/sf2-framework.pdf
     - echo "Site built (strict) and core PDF generated"
