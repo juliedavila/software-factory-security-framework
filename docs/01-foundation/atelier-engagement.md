@@ -27,10 +27,10 @@ The term is also not a coinage invented to make this argument, and not a jab at 
 
 The history predates the current debate by decades:
 
-- **Bob Bemer, 1968**: the GE paper often credited as the earliest "software factory" proposal.
-- **Cusumano, Michael, 1991**: *Japan's Software Factories: A Challenge to U.S. Management.* Oxford University Press.
-- **Greenfield, Jack and Keith Short, 2004**: *Software Factories: Assembling Applications with Patterns, Models, Frameworks, and Tools.* Wiley.
-- **U.S. Department of Defense**: 20+ accredited Software Factories operating today (Platform One, Kessel Run, Kobayashi Maru, Black Pearl, others).
+- **[Bob Bemer, 1968](https://www.computerhistory.org/collections/catalog/102724781)**: the GE paper often credited as the earliest "software factory" proposal.
+- **Cusumano, Michael, 1991**: *[Japan's Software Factories: A Challenge to U.S. Management.](https://global.oup.com/academic/product/japans-software-factories-9780195062168)* Oxford University Press.
+- **Greenfield, Jack and Keith Short, 2004**: *[Software Factories: Assembling Applications with Patterns, Models, Frameworks, and Tools.](https://archive.org/details/softwarefactorie0000gree)* Wiley.
+- **U.S. Department of Defense**: 20+ accredited Software Factories operating today ([Platform One](https://software.af.mil/), Kessel Run, Kobayashi Maru, Black Pearl, others).
 
 The Defense Department runs more than twenty accredited software factories right now. The word carries operational and regulatory weight in the one ecosystem where getting delivery wrong gets people killed. It is the right word for what SF² governs.
 
