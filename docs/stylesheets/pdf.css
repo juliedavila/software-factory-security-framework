@@ -26,9 +26,21 @@
     min-height: 0 !important;
   }
 
-  /* Material routes the code face through a --md-code-font variable that
-   * weasyprint does not resolve, so inline code fell back to a system mono.
-   * Name JetBrains Mono directly so the imported brand face is the one used. */
+  /* Material routes the body and code faces through --md-text-font and
+   * --md-code-font variables that weasyprint does not resolve, so on a clean
+   * Linux build (no system Source Serif 4) the body fell back to DejaVu and code
+   * to a system mono. Name both brand faces directly so the imported faces embed. */
+  body,
+  .md-typeset,
+  p,
+  li,
+  td,
+  th,
+  blockquote,
+  figcaption {
+    font-family: "Source Serif 4", Georgia, serif !important;
+  }
+
   code,
   kbd,
   samp,
@@ -36,5 +48,25 @@
   .md-typeset code,
   .md-typeset pre {
     font-family: "JetBrains Mono", SFMono-Regular, Consolas, Menlo, monospace !important;
+  }
+
+  /* with-pdf marks tables, lists, blockquotes, and admonitions break-inside:
+   * avoid. When the real brand-font metrics make one of those taller than the
+   * printable page, weasyprint cannot place it and stalls pagination, silently
+   * dropping the rest of the document (the same failure min-height: 100vh caused
+   * one section earlier). Let these tall containers break across pages so the
+   * full document always renders. Images and figures stay atomic. */
+  table,
+  thead,
+  tbody,
+  tr,
+  ul,
+  ol,
+  dl,
+  blockquote,
+  div.admonition,
+  div.tabbed-content--wrap {
+    break-inside: auto !important;
+    page-break-inside: auto !important;
   }
 }
