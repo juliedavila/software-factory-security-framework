@@ -9,7 +9,7 @@
 
 ## Relationship to SF²
 
-**OWASP ASVS** provides **comprehensive security verification requirements** organized into 14 categories across 3 verification levels.
+**OWASP ASVS** provides **comprehensive security verification requirements** organized into 17 chapters across three verification levels (ASVS 5.0, 2025).
 
 **SF²** helps determine **which ASVS level to target**, **which requirements to prioritize**, and **how to implement verification** based on organizational position and risk.
 
@@ -17,10 +17,10 @@ SF² sequences a practice baseline, and ASVS's verification levels are one expre
 
 ## Key Insight
 
-**ASVS provides three verification levels**:
-- **Level 1** (Opportunistic): Basic security for low-risk applications
-- **Level 2** (Standard): Most applications should meet this level
-- **Level 3** (Advanced): High-security applications with stringent requirements
+**ASVS provides three verification levels** (each a superset of the one below):
+- **Level 1**: Baseline security and the first step into ASVS, for lower-risk applications
+- **Level 2**: The recommended target for most applications, especially those handling sensitive data
+- **Level 3**: High-assurance requirements for critical, high-value applications
 
 **SF² helps you determine**:
 - Which ASVS level is appropriate for your organization
@@ -28,24 +28,27 @@ SF² sequences a practice baseline, and ASVS's verification levels are one expre
 - How to sequence ASVS requirement implementation
 - Whether to automate or manually verify ASVS requirements
 
-## ASVS Verification Categories
+## ASVS Verification Chapters
 
-ASVS organizes requirements into 14 categories:
+ASVS 5.0 organizes requirements into 17 chapters:
 
-1. Architecture, Design and Threat Modeling
-2. Authentication
-3. Session Management
-4. Access Control
-5. Validation, Sanitization and Encoding
-6. Stored Cryptography
-7. Error Handling and Logging
-8. Data Protection
-9. Communication
-10. Malicious Code
-11. Business Logic
-12. Files and Resources
-13. API and Web Service
-14. Configuration
+1. **V1** Encoding and Sanitization
+2. **V2** Validation and Business Logic
+3. **V3** Web Frontend Security
+4. **V4** API and Web Service
+5. **V5** File Handling
+6. **V6** Authentication
+7. **V7** Session Management
+8. **V8** Authorization
+9. **V9** Self-contained Tokens
+10. **V10** OAuth and OIDC
+11. **V11** Cryptography
+12. **V12** Secure Communication
+13. **V13** Configuration
+14. **V14** Data Protection
+15. **V15** Secure Coding and Architecture
+16. **V16** Security Logging and Error Handling
+17. **V17** WebRTC
 
 ## SF² ASVS Strategy by Quadrant
 
@@ -53,22 +56,22 @@ ASVS organizes requirements into 14 categories:
 
 **ASVS Verification Approach**: Automated Level 2, selective Level 3
 
-**Target ASVS Level**: **Level 2 (Standard)** for most applications
+**Target ASVS Level**: **Level 2** for most applications
 
 **Implementation Strategy**:
 - **Automate ASVS verification** in CI/CD pipeline
-- **Automated testing** for ASVS categories that support automation:
-  - V5 (Validation, Sanitization) - SAST/DAST
-  - V7 (Error Handling and Logging) - Automated scanning
-  - V9 (Communication) - TLS/certificate verification
-  - V13 (API and Web Service) - API security testing
+- **Automated testing** for ASVS chapters that support automation:
+  - V1 (Encoding/Sanitization) and V2 (Validation) - SAST/DAST
+  - V16 (Security Logging and Error Handling) - Automated scanning
+  - V12 (Secure Communication) - TLS/certificate verification
+  - V4 (API and Web Service) - API security testing
 - **Secure templates** implementing ASVS requirements by default
 - **Self-service ASVS verification** for developers
 
 **Manual Verification** (for requirements that can't be automated):
-- V1 (Architecture and Threat Modeling) - Risk-based for novel architectures
-- V4 (Access Control) - Logic testing for complex authorization
-- V11 (Business Logic) - Application-specific verification
+- V15 (Secure Coding and Architecture) - Risk-based threat modeling for novel architectures
+- V8 (Authorization) - Logic testing for complex authorization
+- V2 (Business Logic requirements) - Application-specific verification
 
 **Timeline**: 12-18 months to comprehensive automated ASVS Level 2
 
@@ -77,8 +80,8 @@ ASVS organizes requirements into 14 categories:
 **ASVS Verification Approach**: Comprehensive Level 2, selective Level 3 for high-risk
 
 **Target ASVS Level**:
-- **Level 2 (Standard)** for all applications
-- **Level 3 (Advanced)** for high-security applications (payment, sensitive data, critical infrastructure)
+- **Level 2** for all applications
+- **Level 3** for high-security applications (payment, sensitive data, critical infrastructure)
 
 **Implementation Strategy**:
 - **Platform-scale ASVS verification** serving multiple teams
@@ -101,20 +104,20 @@ ASVS organizes requirements into 14 categories:
 
 **ASVS Verification Approach**: Essential Level 1 requirements, risk-based Level 2
 
-**Target ASVS Level**: **Level 1 (Opportunistic)** baseline, **selective Level 2** for high-risk areas
+**Target ASVS Level**: **Level 1** baseline, **selective Level 2** for high-risk areas
 
 **Implementation Strategy**:
-- **Focus on highest-risk ASVS categories**:
-  - V2 (Authentication) - Critical for all applications
-  - V3 (Session Management) - Essential security baseline
-  - V5 (Validation, Sanitization) - Prevent common vulnerabilities
-  - V9 (Communication) - TLS/HTTPS basics
+- **Focus on highest-risk ASVS chapters**:
+  - V6 (Authentication) - Critical for all applications
+  - V7 (Session Management) - Essential security baseline
+  - V1 (Encoding/Sanitization) and V2 (Validation) - Prevent common vulnerabilities
+  - V12 (Secure Communication) - TLS/HTTPS basics
 - **Use managed security services** that provide ASVS compliance
 - **Basic security testing** covering essential ASVS requirements
 - **Accept Level 1 compliance** for lower-risk areas
 
 **Skip or Minimize**:
-- Advanced ASVS categories (Architecture, Business Logic)
+- Advanced ASVS chapters (architecture, business logic)
 - Comprehensive Level 2 verification for low-risk functionality
 - Level 3 requirements (not cost-effective at this scale)
 
@@ -127,11 +130,11 @@ ASVS organizes requirements into 14 categories:
 **Target ASVS Level by System**:
 
 **New/Modern Applications**:
-- **Level 2 (Standard)** with automated verification
+- **Level 2** with automated verification
 - Build Studio/Lean-level ASVS capabilities for future
 
 **Active Legacy Applications**:
-- **Level 1 (Opportunistic)** baseline
+- **Level 1** baseline
 - **Risk-based Level 2** for critical functionality
 - Accept pragmatic risk for legacy
 
@@ -149,33 +152,32 @@ ASVS organizes requirements into 14 categories:
 
 ## Risk-Based ASVS Prioritization
 
-### Critical ASVS Categories (All Organizations)
+### Critical ASVS Chapters (All Organizations)
 
-These categories should be prioritized regardless of position:
+These chapters should be prioritized regardless of position:
 
-1. **V2 (Authentication)** - Broken authentication = complete compromise
-2. **V3 (Session Management)** - Session attacks affect all applications
-3. **V4 (Access Control)** - Broken access control = unauthorized access
-4. **V5 (Validation, Sanitization)** - Prevents injection attacks
+1. **V6 (Authentication)** - Broken authentication = complete compromise
+2. **V7 (Session Management)** - Session attacks affect all applications
+3. **V8 (Authorization)** - Broken access control = unauthorized access
+4. **V1 (Encoding/Sanitization) and V2 (Validation)** - Prevents injection attacks
 
-### High-Value ASVS Categories (Studio, Lean, Mass-New)
+### High-Value ASVS Chapters (Studio, Lean, Mass-New)
 
-5. **V9 (Communication)** - TLS/encryption for data in transit
-6. **V8 (Data Protection)** - Sensitive data handling
-7. **V13 (API and Web Service)** - API security increasingly critical
+5. **V12 (Secure Communication)** - TLS/encryption for data in transit
+6. **V14 (Data Protection)** - Sensitive data handling
+7. **V4 (API and Web Service)** - API security increasingly critical
 
-### Moderate-Value ASVS Categories (Situational)
+### Moderate-Value ASVS Chapters (Situational)
 
-8. **V6 (Stored Cryptography)** - If handling sensitive data
-9. **V7 (Error Handling and Logging)** - Incident response needs
-10. **V14 (Configuration)** - Security misconfiguration prevention
+8. **V11 (Cryptography)** - If handling sensitive data
+9. **V16 (Security Logging and Error Handling)** - Incident response needs
+10. **V13 (Configuration)** - Security misconfiguration prevention
 
-### Lower-Value ASVS Categories (Deprioritize)
+### Lower-Value ASVS Chapters (Deprioritize)
 
-11. **V1 (Architecture, Design, Threat Modeling)** - Time-intensive, hard to automate
-12. **V11 (Business Logic)** - Application-specific, manual verification
-13. **V10 (Malicious Code)** - Covered by supply chain security
-14. **V12 (Files and Resources)** - Lower risk for modern applications
+11. **V15 (Secure Coding and Architecture)** - Architecture and threat modeling are high-judgment and hard to automate (handle manually for novel designs); malicious-code concerns are largely covered by supply chain controls
+12. **Business-logic verification (the application-specific slice of V2)** - Manual and situational
+13. **V5 (File Handling)** - Lower risk for modern applications
 
 ## Contextual Modifiers and ASVS
 
@@ -210,11 +212,11 @@ These categories should be prioritized regardless of position:
 
 **SF²-Informed Approach**:
 - **Automated ASVS verification** in CI/CD:
-  - SAST/DAST covering V5, V7, V9, V13
-  - Automated authentication testing (V2, V3)
-  - TLS/certificate validation (V9)
+  - SAST/DAST covering V1, V2, V4, V12, and V16
+  - Automated authentication testing (V6, V7)
+  - TLS/certificate validation (V12)
 - **Secure templates** implementing ASVS requirements by default
-- **Manual verification** only for V1, V4, V11 (architecture, access control, business logic)
+- **Manual verification** only for V15, V8, and V2 (architecture, authorization, business logic)
 - **Continuous ASVS verification** with every deployment
 
 **Outcome**: Level 2 ASVS compliance with 80% automation, continuous verification
@@ -230,7 +232,7 @@ These categories should be prioritized regardless of position:
 
 **SF²-Informed Approach**:
 - **New cloud services**: Level 2 ASVS with automated verification
-- **Critical legacy**: Level 2 for V2-V5 (authentication, access control, validation)
+- **Critical legacy**: Level 2 for authentication (V6), authorization (V8), and input validation (V1/V2)
 - **Non-critical legacy**: Level 1 baseline, accept gaps
 - **Retiring applications**: No new ASVS investment
 
@@ -250,8 +252,8 @@ These categories should be prioritized regardless of position:
   - Self-service ASVS verification for developers
   - Automated compliance reporting
 - **Advanced verification capabilities**:
-  - Automated threat modeling (V1)
-  - Sophisticated access control testing (V4)
+  - Automated threat modeling (V15)
+  - Sophisticated access control testing (V8)
 - **Customer-facing ASVS compliance**:
   - Security verification reports based on ASVS
   - Competitive advantage through security transparency

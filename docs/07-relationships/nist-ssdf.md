@@ -61,10 +61,10 @@ SF² sequences a practice baseline, and SSDF's practice groups are one expressio
 ### SSDF Provides the Practices
 
 NIST SSDF defines four practice groups:
-1. **Prepare the Organization (PO)** - Organizational security culture and training
-2. **Protect the Software (PS)** - Development and build security
-3. **Produce Well-Secured Software (PW)** - Secure design and coding
-4. **Respond to Vulnerabilities (RV)** - Vulnerability management and response
+1. **Prepare the Organization (PO)** - Ready your people, processes, and technology for secure development
+2. **Protect the Software (PS)** - Protect all software components from tampering and unauthorized access
+3. **Produce Well-Secured Software (PW)** - Secure design, coding, review, and testing to minimize released vulnerabilities
+4. **Respond to Vulnerabilities (RV)** - Identify and remediate residual vulnerabilities, and prevent their recurrence
 
 ### SF² Provides the Implementation Strategy
 
