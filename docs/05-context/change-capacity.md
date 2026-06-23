@@ -39,7 +39,7 @@ You cannot price a clock you cannot read, so make the absorb clock legible first
     <text x="120" y="200" font-size="10" fill="#6B6456" text-anchor="end">(change capacity)</text>
     <line x1="60" y1="330" x2="700" y2="330" stroke="#B8956A" stroke-width="1"/>
     <text x="60" y="352" font-size="12.5" font-weight="700" fill="#2C4A6B">Schedule by the absorb budget, not by what you can install.</text>
-    <text x="60" y="372" font-size="11.5" fill="#2A2520">You can stand up four tools at once. You cannot absorb four changes at once. A tool installed but not absorbed is shelfware with a green light.</text>
+    <text x="60" y="372" font-size="10" fill="#2A2520">You can stand up four tools at once. You cannot absorb four changes at once. A tool installed but not absorbed is shelfware with a green light.</text>
   </svg>
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The install clock is short and visible; the absorb clock runs longer and stays invisible unless you build a way to read it. The gap between them is where the spend leaks. Schedule by the absorb budget, not the install date.</figcaption>
 </figure>

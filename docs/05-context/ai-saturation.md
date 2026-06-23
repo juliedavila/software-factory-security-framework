@@ -44,7 +44,7 @@ understanding it, and the work of security shifts with it.
     <!-- review curve -->
     <path d="M110 350 C 350 346, 520 334, 700 322" fill="none" stroke="#0072B2" stroke-width="2.8"/>
     <text x="700" y="340" font-size="12.5" font-weight="700" fill="#00557F" text-anchor="end">review / comprehension</text>
-    <text x="430" y="248" font-size="11.5" font-weight="700" fill="#A6450B" text-anchor="middle" transform="rotate(-21 430 248)">comprehension debt</text>
+    <text x="430" y="300" font-size="11.5" font-weight="700" fill="#A6450B" text-anchor="middle" transform="rotate(-21 430 300)">comprehension debt</text>
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
     <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">The gap is comprehension debt: code shipped that no person has fully read.</text>
     <text x="60" y="458" font-size="11.5" fill="#2A2520">Better models do not close it. In a 2025 study of 100-plus models, code for security tasks was insecure nearly half the time.</text>
