@@ -5,7 +5,7 @@
 Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + High Readiness), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
-    Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-48 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
+    Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
 
     That gap between fast and slow is the install clock against the absorb clock: how fast you can stand a change up versus how fast the organization actually runs on it. Granting authority installs in a day, building the floor the organization runs on takes quarters (the two clocks get their full treatment in [Change Capacity](../05-context/change-capacity.md)). And the reason doing both at once fails most is that they draw on one shared absorption budget, not two. The same people, sponsor, and approval path carry both, so each absorbs worse. Sequence the heavy moves; do not stack them.
 
@@ -34,7 +34,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | **Craft → Mass** | Single-axis (Reach ↑) | 18-24 months | Moderate ⭐⭐ | [Reach Scaling Path](#path-2-craft-mass-reach-scaling) |
 | **Studio → Lean** | Single-axis (Reach ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
 | **Mass → Craft** | Single-axis (Reach ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
-| **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-48 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
+| **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-60 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
 | **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
 
 The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
@@ -42,7 +42,7 @@ The timelines above are install-and-build floors. A move is not done until it is
 <figure>
   <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
     <title id="sf2-mv-title">SF² strategic movement paths on the two-axis model</title>
-    <desc id="sf2-mv-desc">The four-quadrant positioning grid with movement arrows. Three tractable single-axis moves are shown as solid arrows: Craft up to Studio (raise readiness, 12 to 18 months), Studio right to Lean (widen reach, 24 to 36 months), and Mass up to Lean (build the floor under reach you already hold, 36 to 48 months, the containment climb). One dashed arrow shows Craft right to Mass: drift, reach outran the floor. One diagonal arrow from Craft to Lean is crossed out: moving on both axes at once carries the highest failure rate. The goal position is Lean, top right.</desc>
+    <desc id="sf2-mv-desc">The four-quadrant positioning grid with movement arrows. Three tractable single-axis moves are shown as solid arrows: Craft up to Studio (raise readiness, 12 to 18 months), Studio right to Lean (widen reach, 24 to 36 months), and Mass up to Lean (build the floor under reach you already hold, 36 to 60 months, the containment climb). One dashed arrow shows Craft right to Mass: drift, reach outran the floor. One diagonal arrow from Craft to Lean is crossed out: moving on both axes at once carries the highest failure rate. The goal position is Lean, top right.</desc>
     <defs>
       <marker id="mv-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
       <marker id="mv-arrow-drift" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#A6450B"/></marker>
@@ -89,7 +89,7 @@ The timelines above are install-and-build floors. A move is not done until it is
     <text x="104" y="80" font-size="12" fill="#3A3530" text-anchor="end">Higher</text>
     <text x="42" y="270" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle" transform="rotate(-90 42 270)">Operational Readiness</text>
     <!-- timeline caption -->
-    <text x="380" y="556" font-size="11" fill="#2A2520" text-anchor="middle">Single-axis moves are the tractable ones: Craft to Studio 12-18mo &#183; Studio to Lean 24-36mo &#183; Mass to Lean 36-48mo (the containment climb).</text>
+    <text x="380" y="556" font-size="11" fill="#2A2520" text-anchor="middle">Single-axis moves are the tractable ones: Craft to Studio 12-18mo &#183; Studio to Lean 24-36mo &#183; Mass to Lean 36-60mo (the containment climb).</text>
     <!-- legend -->
     <line x1="150" y1="582" x2="186" y2="582" stroke="#2C4A6B" stroke-width="2.6" marker-end="url(#mv-arrow)"/>
     <text x="196" y="586" font-size="11" fill="#2A2520">tractable: one axis at a time</text>
@@ -197,7 +197,7 @@ The timelines above are install-and-build floors. A move is not done until it is
 
 ### Strategic Warning
 
-**This path creates technical debt**. You're widening reach (more automation authority, more autonomous actors, broader scope across teams and features) without building the containment to match. Plan for eventual Mass → Lean transformation requiring 36-48 months.
+**This path creates technical debt**. You're widening reach (more automation authority, more autonomous actors, broader scope across teams and features) without building the containment to match. Plan for eventual Mass → Lean transformation requiring 36-60 months.
 
 ### Key Investment Priorities
 
@@ -318,7 +318,7 @@ Most Mass should invest in operational readiness rather than attempting to shrin
 
 **Movement Type**: Single-axis (Increasing Readiness under fixed large reach)
 
-**Timeline**: 36-48 months
+**Timeline**: 36-60 months
 
 **Success Probability**: Moderate ⭐⭐
 
@@ -339,7 +339,7 @@ This requires sustained executive support, significant investment, and realistic
 ### Critical Success Factors
 
 1. **Executive Sponsorship**: Sustained leadership commitment over 3-5 years
-2. **Realistic Timelines**: Accept 36-48 months; don't promise 12-month miracles
+2. **Realistic Timelines**: Accept 36-60 months; don't promise 12-month miracles
 3. **Hybrid Solutions**: Technology that works with legacy AND modern systems
 4. **Strategic Debt Reduction**: Systematic elimination of highest-risk constraints
 5. **Quick Wins**: Visible improvements that maintain organizational momentum
@@ -350,7 +350,7 @@ This requires sustained executive support, significant investment, and realistic
 - [ ] Comprehensive assessment of current state and transformation requirements
 - [ ] Hybrid security architecture supporting legacy and modern systems
 - [ ] Quick wins demonstrating transformation value and building confidence
-- [ ] Executive alignment on 36-48 month realistic timeline
+- [ ] Executive alignment on 36-60 month realistic timeline
 - [ ] Transformation roadmap with clear milestones and success metrics
 
 **Phase 2 (Months 13-24): Foundation Building**
@@ -375,7 +375,7 @@ This requires sustained executive support, significant investment, and realistic
 ### Common Pitfalls
 
 !!! warning "The Aggressive Timeline Trap"
-    **Risk**: Promising 12-18 month transformation when 36-48 months is realistic
+    **Risk**: Promising 12-18 month transformation when 36-60 months is realistic
 
     **Symptoms**: Burnout, partial implementations abandoned, organizational skepticism about security competence
 
@@ -385,7 +385,7 @@ This requires sustained executive support, significant investment, and realistic
 
 - **12 Months**: Hybrid solutions operational, transformation roadmap with executive buy-in, visible quick wins
 - **24 Months**: Measurable automation improvements, improved readiness metrics, cultural momentum
-- **36-48 Months**: Substantial Lean-level capabilities, security enabling rather than constraining business
+- **36-60 Months**: Substantial Lean-level capabilities, security enabling rather than constraining business
 
 ---
 
@@ -459,7 +459,7 @@ Use these questions to select your optimal path:
 - Avoid: Craft → Mass (creates technical debt requiring later remediation)
 
 **Established enterprise with legacy (Mass)**:
-- Best: Mass → Lean (36-48 months)
+- Best: Mass → Lean (36-60 months)
 - Avoid: Attempting Mass → Craft (usually fails)
 
 **Cloud-native startup scaling (Studio)**:

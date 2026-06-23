@@ -176,7 +176,7 @@ These chapters should be prioritized regardless of position:
 ### Lower-Value ASVS Chapters (Deprioritize)
 
 11. **V15 (Secure Coding and Architecture)** - Architecture and threat modeling are high-judgment and hard to automate (handle manually for novel designs); malicious-code concerns are largely covered by supply chain controls
-12. **Business-logic verification (the application-specific slice of V2)** - Manual and situational
+12. **Business-logic verification (the application-specific slice of V2, distinct from the input validation prioritized above)** - Manual and situational
 13. **V5 (File Handling)** - Lower risk for modern applications
 
 ## Contextual Modifiers and ASVS
