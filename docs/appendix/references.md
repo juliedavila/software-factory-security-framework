@@ -286,7 +286,7 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 ## About This Framework
 
 **Author**: Julie Davila
-**Version**: 0.8.0
+**Version**: 0.8.1
 **License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
 **Website**: https://sf2framework.com
