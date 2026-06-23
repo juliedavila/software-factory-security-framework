@@ -9,7 +9,7 @@ Your [strategic position](../03-positioning/two-axis-model.md) tells you *how* t
 There are four conditions you can hand to a team, and one you cannot.
 
 <figure>
-  <svg viewBox="0 0 760 520" role="img" aria-labelledby="sf2-sc-title sf2-sc-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 760 520" role="img" aria-labelledby="sf2-sc-title sf2-sc-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-sc-title">The five universal security conditions</title>
     <desc id="sf2-sc-desc">Four conditions you can staff, drawn as four pillars: Supply Chain, marked number one and the loudest; Third-Party; Process; and Runtime. Each pillar names the question it asks and its lever. Supply Chain asks what is inside what I shipped, with the lever of comprehension. Third-Party asks what I handed off and who holds the bag, with the lever of containment. Process asks whether the way we build produces security or bolts it on, with the lever of feedback. Runtime asks whether we can sense what production is doing now, with the lever of observability. Beneath all four runs a foundation bar, Adaptive Capacity, the one condition you cannot staff: whether the system as a whole can absorb a surprise it was not designed for and keep working. It runs across the other four rather than beside them. You assess it; you cannot hand it to a team.</desc>
     <rect x="0" y="0" width="760" height="520" fill="#FAFAF7"/>
@@ -89,7 +89,7 @@ They look like one thing. They are not, and the line between them is where a lot
 Lumping both under "supply chain" because the word has stretched to cover everything external is the move that hides the seam. The two conditions take different muscles. One is a comprehension problem: you embedded something and never read it. The other is an opacity problem: you delegated something you cannot directly inspect, and no contract or certificate changes that. Keep them apart on the page so they stay apart in the work.
 
 <figure>
-  <svg viewBox="0 0 760 500" role="img" aria-labelledby="sf2-st-title sf2-st-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 760 500" role="img" aria-labelledby="sf2-st-title sf2-st-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-st-title">Supply Chain versus Third-Party: embedded-in against handed-off</title>
     <desc id="sf2-st-desc">Two conditions side by side that look like one. Supply Chain, on the left, is what you pull in: libraries, base images, and sidecars you embed and then ship as your own. The artifact is in your hands, so you can read it, generate an SBOM, sign it, and pin it. It is like soil: you can amend it. It is a comprehension problem, and it fails when you did not look. Third-Party, on the right, is what you hand off: payments processors, data warehouses, identity providers, the cloud, the SIEM. You delegate the function under a shared-responsibility model and cannot directly inspect what they run. No contract or certificate hands the risk back. It is like weather: you cannot change it, only prepare for it. It is an opacity problem, and it fails when they get breached and you inherit it.</desc>
     <defs>

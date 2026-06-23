@@ -103,7 +103,7 @@ Everything above assumes the crisis arrives. Some of the most consequential secu
 Three moves fund the work anyway.
 
 <figure>
-  <svg viewBox="0 0 760 520" role="img" aria-labelledby="sf2-cw-title sf2-cw-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 760 520" role="img" aria-labelledby="sf2-cw-title sf2-cw-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-cw-title">Acute crises open a finite funding window; chronic exposures never spike</title>
     <desc id="sf2-cw-desc">Two stacked panels plotting priority and funding over time. The top panel is an acute incident: the line sits low, then spikes sharply at the incident, opening a finite window of elevated priority and funding shaded across roughly one to two quarters as a rule of thumb, then decays back toward normal. A staged roadmap ships inside that window. The bottom panel is a chronic exposure, such as post-quantum risk or comprehension debt. The line rises slowly and steadily: no spike, no breach alert, no window ever opening. It is a silent clock running against a deadline you set yourself or never see. Because the crisis mechanism never fires for chronic work, three moves fund it anyway, drawn as branches off the chronic line: make the silent clock legible to budget-holders, piggyback the next real crisis window when the two share a root cause, and couple the work to an initiative that is already funded.</desc>
     <rect x="0" y="0" width="760" height="520" fill="#FAFAF7"/>

@@ -106,7 +106,7 @@ Use this systematic framework to evaluate security investments when you're a pla
 - Risk: Damages credibility with both internal teams and customers
 
 <figure>
-  <svg viewBox="0 0 680 580" role="img" aria-labelledby="sf2-pe-title sf2-pe-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 680 580" role="img" aria-labelledby="sf2-pe-title sf2-pe-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-pe-title">Platform effects decision matrix: internal value against customer value</title>
     <desc id="sf2-pe-desc">A two-by-two decision matrix for platform companies. The horizontal axis is customer value, weak on the left to strong on the right. The vertical axis is internal value, weak at the bottom to strong at the top. Across those two axes the four cells rank by priority: rank 1, strong internal plus strong customer value (top right), is highest priority, accelerate; rank 2, strong internal plus weak customer value (top left), is standard priority, justified on the internal business case; rank 3, weak internal plus strong customer value (bottom right), is avoid, a maintenance burden without sustainability; rank 4, weak internal plus weak customer value (bottom left), is reject, security theater. The recommended action is the rank 1 cell, flagged. The governing principle is that platform effects are a multiplier, not a driver: the internal business case must pass on its own before customer value justifies more investment. Priority is carried by the rank numerals and labels, not by color.</desc>
     <rect x="0" y="0" width="680" height="580" fill="#FAFAF7"/>

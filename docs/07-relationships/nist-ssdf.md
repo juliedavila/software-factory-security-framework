@@ -16,7 +16,7 @@
 SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
 
 <figure>
-  <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-ov-title">SF² as a strategic overlay on other security frameworks</title>
     <desc id="sf2-ov-desc">Two layers. The bottom layer is the practices and requirements provided by other frameworks: NIST SSDF, OWASP SAMM, BSIMM, and OWASP ASVS. They tell you what to implement. The top layer is SF², the strategic overlay, which sequences those practices: which to fund first, when, and how fast, for your strategic position. SF² does not replace the other frameworks. It orders them. Integration, not competition.</desc>
     <defs>

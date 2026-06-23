@@ -7,7 +7,7 @@
 AI-era security pressure shows up at three distinct levels, and conflating them is how defenses end up aimed at the wrong layer. The substrate is what the system is allowed to do. The dynamic is how untrusted input moves through it. The unit is who, human and agents together, is actually operating. The rest of this layer is organized around that decomposition, because a defense that belongs at the substrate fails when you try to enforce it in the dynamic, and a threat that lives in the dynamic cannot be fixed by redrawing the unit.
 
 <figure>
-  <svg viewBox="0 0 720 510" role="img" aria-labelledby="sf2-3l-title sf2-3l-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 720 510" role="img" aria-labelledby="sf2-3l-title sf2-3l-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-3l-title">SF² three-layer model</title>
     <desc id="sf2-3l-desc">A vertical stack of three layers plus a foundation. Top: the Unit layer, who is operating (human and agents), the newest and least stable layer. Middle: the Dynamic layer, how untrusted input moves through the system, where the goal is containment and provenance, not prevention. Bottom: the Substrate layer, what the system is allowed to do, boundary-enforceable and where defense is most reliable. Beneath the substrate sits a foundation layer of cryptography, silicon, and model weights, which fails silently. Defensive weight should sit low, on the substrate, because the unit at the top is the least stable layer.</desc>
     <defs>
