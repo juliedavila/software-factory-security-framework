@@ -40,7 +40,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
 <figure>
-  <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-mv-title">SF² strategic movement paths on the two-axis model</title>
     <desc id="sf2-mv-desc">The four-quadrant positioning grid with movement arrows. Three tractable single-axis moves are shown as solid arrows: Craft up to Studio (raise readiness, 12 to 18 months), Studio right to Lean (widen reach, 24 to 36 months), and Mass up to Lean (build the floor under reach you already hold, 36 to 60 months, the containment climb). One dashed arrow shows Craft right to Mass: drift, reach outran the floor. One diagonal arrow from Craft to Lean is crossed out: moving on both axes at once carries the highest failure rate. The goal position is Lean, top right.</desc>
     <defs>

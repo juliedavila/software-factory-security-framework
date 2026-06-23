@@ -48,7 +48,7 @@ A test keeps the two axes from blurring. Place yourself in two sentences: a reac
 These two axes create four distinct strategic positions, each with different security approaches:
 
 <figure>
-  <svg viewBox="0 0 680 560" role="img" aria-labelledby="sf2-axis-title sf2-axis-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 680 560" role="img" aria-labelledby="sf2-axis-title sf2-axis-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-axis-title">SF² two-axis positioning model</title>
     <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus High readiness (top left); Lean is Large reach plus High readiness (top right) and is the goal position; Craft is Small reach plus Low readiness (bottom left); Mass is Large reach plus Low readiness (bottom right). Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</desc>
     <defs>

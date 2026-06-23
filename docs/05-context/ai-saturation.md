@@ -20,7 +20,7 @@ understanding it, and the work of security shifts with it.
     [the comprehension crisis](../10-coadaptive/02-ai-era-threat-surface.md).
 
 <figure>
-  <svg viewBox="0 0 760 470" role="img" aria-labelledby="sf2-cg-title sf2-cg-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:inherit;">
+  <svg viewBox="0 0 760 470" role="img" aria-labelledby="sf2-cg-title sf2-cg-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-cg-title">As AI saturation rises, generation outpaces review and a comprehension gap opens</title>
     <desc id="sf2-cg-desc">A chart of rate against AI saturation, the proportion of the pipeline running through AI, banded from low through moderate to high. Two curves start together at low saturation. The generation curve, how fast code is produced, climbs steeply as saturation rises. The review curve, how fast people can read and understand what shipped, stays nearly flat because human capacity bounds it, and hiring cannot scale that capacity to machine output. The widening area between them is shaded as comprehension debt: the share of shipped code no person has fully read. The gap opens because review is human-bound while generation is not, and better models do not close it. In a 2025 study across more than a hundred models, code written for security-sensitive tasks was insecure nearly half the time, and newer models were not meaningfully safer. The response is structural, not patient.</desc>
     <rect x="0" y="0" width="760" height="470" fill="#FAFAF7"/>
