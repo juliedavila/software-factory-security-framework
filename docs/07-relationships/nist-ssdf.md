@@ -16,6 +16,8 @@
 
 SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
 
+New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **stewardship areas** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+
 <figure>
   <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-ov-title">SF² as a strategic overlay on other security frameworks</title>
@@ -61,7 +63,7 @@ SF² sequences a practice baseline, and SSDF's practice groups are one expressio
 
 ### SSDF Provides the Practices
 
-NIST SSDF defines four practice groups:
+NIST SSDF defines four practice groups (SP 800-218 v1.1, 2022):
 
 1. **Prepare the Organization (PO)** - Ready your people, processes, and technology for secure development
 2. **Protect the Software (PS)** - Protect all software components from tampering and unauthorized access
@@ -183,6 +185,8 @@ SF² helps you:
 - Demonstrates clear ROI for SSDF investment
 
 ## Practical Integration Example
+
+The example below is a composite illustration, not a case study. The numbers and timelines show the shape of an outcome, not measured results.
 
 ### Scenario: Series B Startup (Studio Position)
 
