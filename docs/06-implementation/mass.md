@@ -1,5 +1,7 @@
 # Implementation Guide: Mass
 
+This guide is for organizations in the **Mass** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and low **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+
 !!! note "Mass is Lean's reach without Lean's floor"
     **Mass** is Lean's large reach without Lean's floor: ungoverned scale, not big batch. Your automation can already reach far; what it cannot yet do is prove a failure stays contained. The border that matters is against Lean, not against Ford's assembly line, and this guide is about building the floor.
 
@@ -211,7 +213,7 @@ Regardless of path, you'll need hybrid approaches:
 
 **Solution**: Use crisis events to secure sustained executive commitment
 
-One more failure mode belongs here, because it is the one outside your control. Every path in this guide assumes the funding holds for the years it takes. A capex shock mid-transformation does not just slow you; it strands you, half off legacy and not yet on the modern platform, carrying both. The 2023 round of security budget cuts, 63 percent of organizations in a single year, landed on exactly these multi-year programs first. The hedge is the one Lean rests on: build the containment floor into the substrate early, because the floor is the part a budget cut cannot repossess. Spend buys position; design buys the floor.
+One more failure mode belongs here, because it is the one outside your control. Every path in this guide assumes the funding holds for the years it takes. A capex shock mid-transformation does not just slow you; it strands you, half off legacy and not yet on the modern platform, carrying both. The [2023 round of security budget cuts](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats), 63 percent of organizations in a single year, landed on exactly these multi-year programs first. The hedge is the one Lean rests on: build the containment floor into the substrate early, because the floor is the part a budget cut cannot repossess. Spend buys position; design buys the floor.
 
 ## Success Indicators
 

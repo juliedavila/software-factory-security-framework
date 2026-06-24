@@ -1,5 +1,7 @@
 # Implementation Guide: Lean
 
+This guide is for organizations in the **Lean** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and high **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+
 ## Position Characteristics
 
 **Lean** organizations occupy the Large reach + High Readiness quadrant:
@@ -209,7 +211,7 @@ Continuous effort required to maintain leadership position:
 
 ### Risk: Regressing to Mass
 
-There is a faster way to lose Lean than gradual creep, and it is worth naming plainly. Lean runs on 85 to 90 percent of effort going to scaling investment, the discretionary, future-facing spend a downturn cuts first. In 2023, 63 percent of security organizations had their budgets cut and 39 percent cut headcount in a single year, with two-thirds reporting it degraded their ability to operate. A capex shock does not let Lean drift back to Mass over quarters; it drops you there in a budget cycle. What the shock cannot touch is the floor: the containment built into the substrate, the boundaries a compromised component cannot cross whatever the budget. That floor is built once. No one a downturn lays off is staffing it. A downturn repossesses the position your spending rented; it cannot repossess the floor your design built. Spend buys position; design buys the floor. Fund the thing the downturn cannot repossess.
+There is a faster way to lose Lean than gradual creep, and it is worth naming plainly. Lean runs on 85 to 90 percent of effort going to scaling investment, the discretionary, future-facing spend a downturn cuts first. In 2023, [HackerOne found](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats) 63 percent of security organizations had their budgets cut and 39 percent cut headcount in a single year, with two-thirds reporting it degraded their ability to operate. A capex shock does not let Lean drift back to Mass over quarters; it drops you there in a budget cycle. What the shock cannot touch is the floor: the containment built into the substrate, the boundaries a compromised component cannot cross whatever the budget. That floor is built once. No one a downturn lays off is staffing it. A downturn repossesses the position your spending rented; it cannot repossess the floor your design built. Spend buys position; design buys the floor. Fund the thing the downturn cannot repossess.
 
 Without continuous investment, large reach outruns the readiness that was containing it:
 
