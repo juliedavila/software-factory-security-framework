@@ -1,7 +1,7 @@
 # The Unit of Defense
 
 !!! info "Coadaptive Layer · Chapter 03"
-    **This chapter extends:** SF² Adaptive Capacity (Section 02), SF² Implementation Guides (Section 06).
+    **This chapter extends:** [SF² Adaptive Capacity (Section 02)](../02-stewardship/adaptive-capacity.md), [SF² Implementation Guides (Section 06)](../06-implementation/studio.md).
     **Scope:** what the operating unit becomes when AI joins, and what property defends it.
 
 Security was historically organized around the person and their tools. The analyst ran the query, the engineer pushed the fix, the tool did what it was told and nothing more. The older frameworks could assume the unit was a person, because it was. That is the assumption that breaks. The unit is whatever cell holds the authority to act, and its composition is no longer fixed: a lone human, a lone agent running on its own initiative, a human and their agents paired, or several agents working as one system. The pair is the case that names the era, and the rest of this chapter dwells on it, but it is one shape of the unit, not the definition of it. Defending a cell is not the same as defending a person who holds tools. What every shape shares is that the cell can act on its own judgment, including the parts of it that decide for themselves, and what every shape has to defend is the same: adaptive capacity, not rule-compliance. The composition changes; the property does not.

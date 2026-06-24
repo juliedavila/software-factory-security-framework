@@ -1,7 +1,7 @@
 # Input Trust Is a Category Error
 
 !!! info "Coadaptive Layer · Chapter 06"
-    **This chapter extends:** SF² Runtime Stewardship (Section 02), SF² Contextual Modifiers · Attack Landscape (Section 05).
+    **This chapter extends:** [SF² Runtime Stewardship (Section 02)](../02-stewardship/runtime.md), [SF² Contextual Modifiers · Attack Landscape (Section 05)](../05-context/attack-landscape.md).
     **Scope:** prompt injection as architecturally unsolvable, and what to do about it.
 
 Prompt injection is architecturally unsolvable.
@@ -32,7 +32,7 @@ The taxonomy of failure modes is by now well-mapped.
 
 **Sander Schulhoff** (HackAPrompt) produced the first community-scale prompt injection taxonomy through the [HackAPrompt competition](https://aclanthology.org/2023.emnlp-main.302/) (EMNLP 2023), where roughly 3,000 participants submitted some 600,000 adversarial prompts. The corpus shows a long tail of techniques and a converging insight: defense in the prompt does not generalize. Defense at the boundary does.
 
-Read together, they point at one conclusion: prompt injection is a property of the substrate, not a bug you patch. The defenders who get this earliest stop investing in prompt-side hardening and start investing in capability containment.
+Read together, they point at one conclusion: prompt injection is a property of the [substrate](01-three-layer-model.md#substrate), not a bug you patch. The defenders who get this earliest stop investing in prompt-side hardening and start investing in capability containment.
 
 Full citations for this chapter are in the [references](../appendix/references.md#prompt-injection-and-input-trust).
 

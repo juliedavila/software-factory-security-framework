@@ -1,7 +1,7 @@
 # Boundary Enforcement
 
 !!! info "Coadaptive Layer · Chapter 04"
-    **This chapter extends:** SF² Process Stewardship (Section 02), SF² Implementation Guides (Section 06).
+    **This chapter extends:** [SF² Process Stewardship (Section 02)](../02-stewardship/process.md), [SF² Implementation Guides (Section 06)](../06-implementation/studio.md).
     **Scope:** capability-based security as the substrate-layer answer when code review doesn't scale.
 
 Code review was the security control that assumed a human could read what shipped. That assumption is gone. When generation outruns comprehension, inspecting the code more carefully is a losing race against a faster machine. The architectural response is to stop relying on inspection and start relying on boundaries: capability-based security enforced by infrastructure, so the question is not whether someone read the change but whether the system was ever able to do the dangerous thing in the first place. This is the move away from meat-gated security and toward paved roads.

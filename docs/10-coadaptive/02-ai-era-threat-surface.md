@@ -1,8 +1,8 @@
 # The AI-Era Threat Surface
 
 !!! info "Coadaptive Layer · Chapter 02"
-    **This chapter extends:** SF² Contextual Modifiers (Section 05) · Attack Landscape.
-    **Also flags:** SF² Adaptive Capacity (Section 02): comprehension-crisis addendum lives here in v0.6 (chapter-only per D2).
+    **This chapter extends:** [SF² Contextual Modifiers (Section 05) · Attack Landscape](../05-context/attack-landscape.md).
+    **Also flags:** [SF² Adaptive Capacity (Section 02)](../02-stewardship/adaptive-capacity.md): comprehension-crisis addendum lives here in v0.6 (chapter-only per D2).
     **Scope:** the five attack surface expansions and the comprehension crisis.
 
 The AI era did not add five new threats to the board so much as multiply the board itself. Democratized builders, public APIs, agent access, autonomous reasoning, and LLM workflows each expand the attack surface, and they expand it together, each one widening the blast radius of the others. Underneath all five sits the comprehension crisis: code is now generated faster than any human process can understand it, and a surface you cannot comprehend is a surface you cannot review by the old methods.
@@ -85,7 +85,7 @@ Every capability exposed as an API is a capability exposed to whatever calls it,
 
 ### Agent access
 
-The moment an agent reads, writes, or acts on a system, the trust boundary moves to wherever the agent reaches. That is almost always somewhere the security team never controlled: a mailbox, a wiki, a shared drive, a vendor's data. Agent access converts every readable surface into a potential injection point and every writable surface into a potential action the attacker gets for free. You do not close that by sanitizing input; you close it by bounding what the agent can do regardless of what it reads, which is the substrate answer [Boundary Enforcement](04-boundary-enforcement.md) takes up.
+The moment an agent reads, writes, or acts on a system, the trust boundary moves to wherever the agent reaches. That is almost always somewhere the security team never controlled: a mailbox, a wiki, a shared drive, a vendor's data. Agent access converts every readable surface into a potential injection point and every writable surface into a potential action the attacker gets for free. You do not close that by sanitizing input; you close it by bounding what the agent can do regardless of what it reads, which is the [substrate](01-three-layer-model.md#substrate) answer [Boundary Enforcement](04-boundary-enforcement.md) takes up.
 
 ### Autonomous reasoning
 

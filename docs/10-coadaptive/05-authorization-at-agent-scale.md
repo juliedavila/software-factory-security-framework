@@ -1,7 +1,7 @@
 # Authorization at Agent Scale
 
 !!! info "Coadaptive Layer · Chapter 05"
-    **This chapter extends:** SF² Investment Portfolio (Section 04) · Platform Effects, SF² Process Stewardship (Section 02).
+    **This chapter extends:** [SF² Investment Portfolio (Section 04) · Platform Effects](../04-investment/platform-effects.md), [SF² Process Stewardship (Section 02)](../02-stewardship/process.md).
     **Scope:** the confused-deputy problem in MCP and agent-mediated workflows.
 
 The authorization failures showing up in agent systems are not new; they are a forty-year-old problem wearing new clothes. The confused deputy, named by Norm Hardy in 1988, is the correct lens for almost everything going wrong in MCP and agent-mediated workflows, and the reason the usual fixes do not work is that OAuth and RBAC were built for a human delegating to a program, not a program delegating to another program three hops down a chain no human is watching.

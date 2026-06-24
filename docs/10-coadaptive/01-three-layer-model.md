@@ -1,7 +1,7 @@
 # The Three-Layer Model
 
 !!! info "Coadaptive Layer · Chapter 01"
-    **This chapter extends:** SF² Foundation (Section 01): the unit-of-analysis question.
+    **This chapter extends:** [SF² Foundation (Section 01)](../01-foundation/software-factory-definition.md): the unit-of-analysis question.
     **Scope:** the substrate / dynamic / unit decomposition that organizes the rest of this layer.
 
 AI-era security pressure shows up at three distinct levels, and conflating them is how defenses end up aimed at the wrong layer. The substrate is what the system is allowed to do. The dynamic is how untrusted input moves through it. The unit is who, human and agents together, is actually operating. The rest of this layer is organized around that decomposition, because a defense that belongs at the substrate fails when you try to enforce it in the dynamic, and a threat that lives in the dynamic cannot be fixed by redrawing the unit.
