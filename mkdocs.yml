@@ -119,11 +119,7 @@ nav:
     - "05 Authorization at Agent Scale": 10-coadaptive/05-authorization-at-agent-scale.md
     - "06 Input Trust Is a Category Error": 10-coadaptive/06-input-trust-is-a-category-error.md
 
-  - AI Integration:
-    - Overview: 09-ai-integration/overview.md
-    - Claude: 09-ai-integration/claude.md
-    - ChatGPT: 09-ai-integration/chatgpt.md
-    - Gemini: 09-ai-integration/gemini.md
+  - AI Integration: 09-ai-integration/overview.md
 
   - Appendix:
     - Glossary: appendix/glossary.md
@@ -137,6 +133,14 @@ nav:
 plugins:
   - search:
       lang: en
+  # The three per-vendor AI Integration pages (claude/chatgpt/gemini) were
+  # consolidated into 09-ai-integration/overview.md in the v1.0 per-chapter pass.
+  # Preserve their old URLs so existing links and search results still resolve.
+  - redirects:
+      redirect_maps:
+        09-ai-integration/claude.md: 09-ai-integration/overview.md
+        09-ai-integration/chatgpt.md: 09-ai-integration/overview.md
+        09-ai-integration/gemini.md: 09-ai-integration/overview.md
   - social:
       cards: true
       cards_layout_options:

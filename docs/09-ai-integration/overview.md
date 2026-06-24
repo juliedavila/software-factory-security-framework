@@ -1,245 +1,261 @@
 # AI-Assisted Strategic Planning with SF²
 
-## Why AI Tools for Security Strategy?
+Loading SF² into a capable AI assistant turns the framework into a working strategy partner. Instead of reading the framework and applying it by hand, you give the assistant the framework as context and have it do the positioning, prioritization, and communication work with you. This is an adoption layer, not a new part of the framework: the doctrine below is vendor-neutral and the assistant is interchangeable.
 
-Modern AI assistants (Claude, ChatGPT, Gemini) can significantly accelerate security strategy work when properly configured with the SF² framework. They're particularly effective for:
+Any capable general-purpose assistant works. This guide names Claude, ChatGPT, and Gemini because they are widely available and each offers a persistent-context feature (Projects, Custom GPTs, Gems) that keeps the framework loaded across sessions. The setup mechanics for those three are point-in-time and live in the dated appendix at the foot of this page. Everything above that line is durable.
 
-- **Strategic analysis** - Assessing your organizational position
-- **Investment prioritization** - Determining which capabilities to build first
-- **Scenario planning** - Exploring transformation paths and timelines
-- **Framework application** - Translating SF² concepts to your specific context
-- **Executive communication** - Drafting board-ready strategy documents
+## Why use an assistant for security strategy
 
-## Key Capabilities of AI Assistants
+A framework-loaded assistant is most useful for the work that is reasoning-heavy and communication-heavy rather than tactical:
 
-### Context Management
-Modern AI tools support various context management features:
+- **Strategic positioning** — assess where your organization sits in the two-axis model
+- **Investment prioritization** — decide which capabilities to build first, and what to constrain
+- **Scenario planning** — explore transformation paths, timelines, and their risks
+- **Framework application** — translate SF² concepts to your specific context
+- **Executive communication** — draft board-ready and team-ready strategy material
 
-- **Claude Desktop**: Projects with persistent knowledge bases
-- **ChatGPT**: Custom GPTs with specific instructions and knowledge
-- **Gemini**: Gems with customized personas and knowledge
+Use it for strategy, not tactics. Keep specific vulnerabilities, incident details, and tool configurations out of it (see [Guardrails](#guardrails) below).
 
-### Strategic Advantages
+## The five workflows
 
-**1. Framework Internalization**
-- Load SF² framework documentation into AI context
-- Get instant guidance on quadrant positioning and investment strategy
-- Explore framework application to your specific situation
+A quick orientation first, since the workflows use it. SF² places your organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted to automation) and **Operational Readiness** (how mature your delivery and automation are). Those axes produce four quadrants, named **Studio**, **Lean**, **Craft**, and **Mass**. Most of the strategy work is figuring out which quadrant you are in and what that implies. The full definitions live in the framework; the assistant works the model with you.
 
-**2. Decision Support**
-- Analyze your organization against framework dimensions
-- Compare strategic options with framework-informed analysis
-- Model transformation timelines and resource requirements
+These are the five recurring jobs a framework-loaded assistant does well. Each is vendor-neutral: the prompts below work in any assistant once the [canonical instructions](#configure-your-assistant) are loaded.
 
-**3. Communication Acceleration**
-- Draft strategy documents aligned with SF² concepts
-- Generate executive summaries with framework terminology
-- Create board presentations explaining strategic positioning
+### 1. Position assessment
 
-**4. Continuous Reference**
-- Always-available framework consultation
-- Consistent strategic vocabulary across your team
-- Rapid exploration of "what-if" scenarios
+**Purpose:** determine your quadrant (Studio, Lean, Craft, or Mass) from your blast radius and operational readiness, and surface which contextual modifiers apply.
 
-## How to Use This Section
+**Good output:** a named quadrant with the reasoning shown on both axes, the applicable contextual modifiers, and the resulting strategic priorities. Not just a label.
 
-This section provides practical guidance for integrating SF² with popular AI tools:
+### 2. Investment strategy
 
-- **[Claude Integration](claude.md)** - Claude Projects, custom instructions, example workflows
-- **[ChatGPT Integration](chatgpt.md)** - Custom GPTs, system prompts, practical examples
-- **[Gemini Integration](gemini.md)** - Gems configuration, custom instructions, use cases
+**Purpose:** turn the quadrant into a sequenced plan that constrains business-as-usual (BAU) work and builds scaling capabilities.
 
-Each guide includes:
-- Setup instructions for the specific platform
-- Framework-specific prompts and instructions
-- Example conversations demonstrating strategic analysis
-- Practical workflows for common security leader tasks
+**Good output:** a phased plan that maps current work to BAU-versus-scaling, names the highest-leverage automation first, sequences by dependency, and attaches realistic timelines and success indicators.
 
-## General Best Practices
+### 3. Executive communication
 
-### 1. Start with Your Position Assessment
+**Purpose:** translate the strategy into board-, executive-, or team-appropriate language.
 
-**Initial Prompt Template**:
+**Good output:** a tight problem statement (the scaling crisis), the strategic position, the investment approach, expected outcomes, and anticipated questions with answers. Calibrated to the audience and the time slot.
+
+### 4. Framework application to a specific decision
+
+**Purpose:** apply SF² to a concrete choice, including tool and vendor evaluations (build versus buy, which platform, which framework practice first).
+
+**Good output:** the options mapped to BAU-versus-scaling, evaluated against your quadrant's priorities and contextual modifiers, with a framework-grounded recommendation and its tradeoffs.
+
+### 5. Transformation roadmap
+
+**Purpose:** plan a move from your current quadrant to a target quadrant.
+
+**Good output:** a phased roadmap with milestones, success indicators at 6, 12, and 24 months, resource requirements per phase, named risks with mitigations, and explicit go/no-go decision points. Honest about timelines: Mass transformations take years, not quarters.
+
+## Configure your assistant
+
+Paste this block into your assistant's persistent-instructions field (Claude Project instructions, Custom GPT instructions, or Gemini Gem instructions; see the [appendix](#per-vendor-setup) for where each one lives). It is the single source of truth for how the assistant should behave. Keep one copy and update it when the framework updates, rather than maintaining separate per-tool versions.
+
+```markdown
+You are a strategic security advisor specializing in the Software Factory
+Security Framework (SF²). You help security leaders scale security capabilities
+while improving business outcomes.
+
+## The framework
+- Two-axis positioning model: Blast Radius (how far a failure could reach if
+  containment fails; Small reach → Large reach, set by granted authority) ×
+  Operational Readiness (Lower → Higher). Four quadrants: Studio (small reach,
+  high readiness), Lean (large reach, high readiness), Craft (small reach, low
+  readiness), Mass (large reach, low readiness).
+- Five universal stewardship areas: Supply Chain (#1 priority), Third-Party,
+  Process, Runtime, and Adaptive Capacity.
+- Investment portfolio: constrain BAU (business-as-usual) activities; build
+  Scaling investments that create compound capabilities; favor platform effects.
+- Eight contextual modifiers that shape strategy: Attack Landscape Maturity,
+  Supply Chain Complexity, Regulatory Constraints, Crisis Events, Change
+  Capacity, Relationship Health, AI Saturation, and Post-Quantum (PQC) Exposure.
+
+## Your role
+1. Assess the organization's current SF² quadrant position.
+2. Identify which contextual modifiers apply and how they shift priorities.
+3. Design investment strategies that constrain BAU and build scaling capability.
+4. Plan transformations with realistic timelines.
+5. Draft executive communications.
+
+## Core principles
+- Supply Chain Stewardship is the #1 priority, driven by adversary evolution to
+  automated discovery since 2017.
+- Constrain BAU activities; do not expand them.
+- High operational readiness is what makes automation feasible.
+- Diagonal transformation (cutting blast radius and raising readiness at once) is
+  high-risk and must be sequenced.
+- Appropriate security depends on position; there is no one-size answer.
+
+## Style
+Strategic and pragmatic. Direct about tradeoffs and risk. Executive-appropriate
+language. Clear prioritization and sequencing. Realistic timelines. When key
+context is missing, ask before assuming.
 ```
-I'm a security leader at [company description]. Help me assess our SF² position:
 
-Blast Radius: [small reach/large reach]
+## Reusable prompts
+
+Four templates cover most strategy sessions. Fill the bracketed fields with your context.
+
+**Position assessment:**
+
+```
+Help me assess our SF² position.
+
+Blast Radius:
 - Reach of most-capable automation: [one bounded surface / crosses prod + data + identity]
 - Autonomy depth: [proposes only / acts and commits unattended]
 - Authority concentration: [scoped per task / broad standing authority exists]
 
-Operational Readiness: [lower/higher]
+Operational Readiness:
 - CI/CD maturity: [description]
 - Automation level: [description]
-- Infrastructure type: [cloud/hybrid/on-prem]
+- Infrastructure: [cloud-native / hybrid / on-prem]
 
-What quadrant are we in, and what should be our strategic priorities?
+Security team: [size, current focus, biggest pain points]
+
+What quadrant are we in, and what should our priorities be?
 ```
 
-### 2. Explore Contextual Modifiers
+**Contextual modifiers:**
 
-**Follow-up Analysis**:
 ```
 Analyze how these contextual modifiers affect our strategy:
 
-- Attack landscape maturity: [high/moderate/low]
+- Attack landscape maturity: [high / moderate / low]
 - Supply chain complexity: [description]
 - Regulatory constraints: [requirements]
 - Recent crisis events: [if any]
-- Change capacity: [high/moderate/low]
-- Relationship health with engineering: [strong/functional/damaged]
+- Change capacity: [high / moderate / low]
+- Relationship health with engineering: [strong / functional / damaged]
+- AI saturation: [how much AI-generated code and AI tooling is in play]
+- Post-quantum (PQC) exposure: [long-lived secrets, crypto-agility posture]
 
-How do these modifiers influence our investment priorities?
+How do these shift our investment priorities?
 ```
 
-### 3. Develop Investment Strategy
+**Investment strategy:**
 
-**Strategic Planning Prompt**:
 ```
-Based on our [quadrant] position, help me design a 12-month investment strategy:
+Based on our [quadrant] position, design a 12-month investment strategy.
 
-Current BAU activities consuming team time:
-- [list manual security work]
+Current BAU consuming team time:
+- [manual security work, with rough % of team time]
 
-Available resources:
-- Team: [size and composition]
-- Budget: [if relevant]
-- Executive support: [level]
+Resources: [team size and skill mix, tool budget, executive support]
+Constraints: [regulatory, technical debt, change capacity]
 
-What scaling investments should we prioritize?
+What scaling investments should we prioritize, and in what sequence?
 ```
 
-### 4. Create Transformation Roadmap
+**Transformation roadmap:**
 
-**Roadmap Development**:
 ```
-We're planning to move from [current position] to [target position].
+We are planning to move from [current quadrant] to [target quadrant].
 
-Timeline: [X months/years]
-Resources: [available]
-Constraints: [regulatory, organizational, technical]
+Timeline: [how long we have]
+Resources: [what we can commit]
+Constraints: [what limits us]
+Risk tolerance: [high / moderate / low]
 
-Create a realistic transformation roadmap with:
-- Major milestones
-- Success indicators
-- Risk factors
-- Resource requirements
+Create a realistic transformation roadmap with major milestones, success
+indicators at 6 / 12 / 24 months, resource requirements per phase, risk factors
+with mitigations, and explicit decision points.
 ```
 
-## Strategic Use Cases for AI Assistance
+## Guardrails
 
-### Board Preparation
-**Scenario**: Need to brief the board on security strategy
+### What to share, and what to withhold
 
-**AI Workflow**:
-1. Load current organizational assessment
-2. Request executive summary using SF² positioning
-3. Generate visual explanations of investment strategy
-4. Draft talking points for strategic transitions
-5. Prepare answers to anticipated board questions
+**Safe to include:** framework concepts and terminology, general organizational characteristics (size, complexity, stage), strategic objectives and investment priorities, hypothetical planning scenarios, and public information about your organization.
 
-### Budget Justification
-**Scenario**: Need to justify security investments
+**Withhold:** specific vulnerability details, real incident and response data, confidential business information, customer or user data, proprietary technical implementations, and security tool configurations and policies.
 
-**AI Workflow**:
-1. Explain current position and scaling crisis
-2. Generate ROI analysis for scaling investments
-3. Draft budget proposal using SF² terminology
-4. Create comparison of BAU vs scaling investment outcomes
-5. Prepare responses to CFO concerns
+### Working approach
 
-### Organizational Assessment
-**Scenario**: New security leader wants to understand organizational positioning
+1. **Use it for strategy, not tactics.** Stay at positioning and investment altitude.
+2. **Abstract when needed.** Use "Organization A" in place of your company name if that lowers your concern.
+3. **Review every output.** Treat assistant drafts as first drafts, not final artifacts.
+4. **Prefer enterprise accounts.** Team and Enterprise tiers offer stronger data controls; per-platform specifics are in the appendix.
 
-**AI Workflow**:
-1. Systematic assessment of blast radius
-2. Evaluation of operational readiness maturity
-3. Analysis of contextual modifiers
-4. Strategic recommendations based on positioning
-5. Priority action plan for first 90 days
+### Keep the framework current
 
-### Vendor Evaluation
-**Scenario**: Deciding which security tools to purchase
+As SF² evolves, keep your assistant's context fresh:
 
-**AI Workflow**:
-1. Map tools to SF² investment categories (BAU vs scaling)
-2. Evaluate tool fit for your quadrant position
-3. Analyze whether tools support automation or create manual work
-4. Compare tools against strategic priorities
-5. Generate vendor evaluation criteria aligned with framework
-
-### Team Communication
-**Scenario**: Need to explain strategic direction to security team
-
-**AI Workflow**:
-1. Translate SF² concepts into team-accessible language
-2. Generate examples relevant to your organization
-3. Draft all-hands presentation on strategy
-4. Create FAQ addressing common concerns
-5. Develop communication plan for transformation
-
-## Privacy and Security Considerations
-
-### What to Share with AI Tools
-
-**Safe to include**:
-- Framework concepts and terminology
-- General organizational characteristics (size, complexity)
-- Strategic objectives and investment priorities
-- Hypothetical scenarios and planning discussions
-- Public information about your organization
-
-**Avoid including**:
-- Specific vulnerability details
-- Actual security incidents and response details
-- Confidential business information
-- Customer or user data
-- Proprietary technical implementations
-- Security tool configurations and policies
-
-### Data Handling by Platform
-
-**Claude Desktop**:
-- Projects stored locally with optional cloud sync
-- Can be used in offline mode for sensitive work
-- Supports organizational deployment with data controls
-
-**ChatGPT**:
-- Custom GPTs available for Team and Enterprise plans
-- Enterprise plans offer enhanced data privacy
-- Can disable training on your conversations
-
-**Gemini**:
-- Gems available with privacy controls
-- Enterprise plans offer data residency options
-- Activity controls available for privacy management
-
-### Recommended Approach
-
-1. **Use for strategy, not tactics**: Focus on strategic positioning and investment planning rather than tactical security details
-2. **Abstract when necessary**: Use "Organization A" instead of your company name if concerned
-3. **Review outputs**: Always review AI-generated content before sharing internally
-4. **Enterprise accounts**: Consider enterprise AI accounts for enhanced privacy controls
-
-## Framework Update Strategy
-
-As SF² evolves, keep your AI context current:
-
-1. **Monitor framework updates**: Check the [GitLab repository](https://gitlab.com/juliedavila/software-factory-security-framework) for new releases
-2. **Update AI context**: Refresh your Projects/GPTs/Gems with new framework versions
-3. **Test updated guidance**: Verify AI responses align with latest framework thinking
-4. **Share improvements**: Contribute back useful prompts and workflows
+1. Watch the [GitLab repository](https://gitlab.com/juliedavila/software-factory-security-framework) for new releases.
+2. Refresh the canonical instructions block above when the framework updates, then update each tool's persistent instructions from that one copy.
+3. Spot-check that responses still match current framework thinking.
+4. Contribute useful prompts and workflows back.
 
 ---
 
-## Next Steps
+## Per-vendor setup
 
-Choose your AI platform to get started:
+!!! note "Point-in-time, accurate as of June 2026 (SF² v0.11)"
+    Everything below this line is per-vendor setup mechanics. Vendor product names,
+    menu paths, plan requirements, and data-handling defaults change often and SF²
+    does not control them. Treat this section as a dated snapshot, not framework
+    doctrine. The durable guidance is above this line. A separately versioned
+    companion workbook for these mechanics is planned for a future release.
 
-[:octicons-arrow-right-24: Claude Integration Guide](claude.md){ .md-button .md-button--primary }
-[:octicons-arrow-right-24: ChatGPT Integration Guide](chatgpt.md){ .md-button }
-[:octicons-arrow-right-24: Gemini Integration Guide](gemini.md){ .md-button }
+The body above is vendor-neutral. To put it to work in a specific tool, create that tool's persistent-context object, paste the [canonical instructions block](#configure-your-assistant), and add the framework as reference knowledge. The differences are only in where those fields live and how each platform handles data.
 
-[:octicons-arrow-left-24: Back to Use Cases](../08-use-cases/scenarios.md){ .md-button }
+### Claude (Projects)
+
+**Requires:** a Claude plan with Projects.
+
+**Setup:** Projects → New Project. Name it `SF² Security Strategy`. Paste the canonical instructions block into the project's custom instructions.
+
+**Add framework knowledge:** add `https://sf2framework.com` so Claude can reference the full framework, or attach specific sections (foundation, your quadrant's implementation guide, relevant framework relationships) as text. Add your own organizational-context document.
+
+**Data handling:** Projects are stored with Anthropic's standard data controls; Anthropic does not train on your conversations by default. Enterprise deployment offers additional organizational controls. Confirm current terms on Anthropic's site before sharing anything sensitive.
+
+**Fits best for:** long, multi-session strategic planning where persistent project knowledge and extended reasoning matter.
+
+### ChatGPT (Custom GPTs)
+
+**Requires:** ChatGPT Plus, Team, or Enterprise.
+
+**Setup:** Explore GPTs → Create → Configure. Name it `SF² Security Strategy Advisor`. Paste the canonical instructions block into the Instructions field. Add conversation starters for your most common jobs (for example, "Help me assess our SF² quadrant position" or "Evaluate this tool purchase against SF² priorities").
+
+**Add framework knowledge:** upload key framework pages (saved from `https://sf2framework.com` as PDF or text) plus an organizational-context document to the GPT's knowledge base. Enable Web Browsing if you want current-events grounding.
+
+**Share:** on Team and Enterprise, share the GPT org-wide (Share → "Anyone at [your organization]") so the whole security team works from the same framework.
+
+**Data handling:** Team and Enterprise offer enhanced privacy and let you disable training on your conversations. Confirm current terms before sharing anything sensitive.
+
+**Fits best for:** broad team adoption where a shared, purpose-built GPT keeps framework application consistent.
+
+### Gemini (Gems + Google Workspace)
+
+**Requires:** Gemini Advanced (Google One AI Premium) for Gems.
+
+**Setup:** Gemini → Gem Manager → Create New Gem. Name it `SF² Security Strategist`. Paste the canonical instructions block into the Gem's instructions.
+
+**Workspace integration (Gemini's distinctive strength):** because Gemini works across Google Workspace, your strategy can live where your team already works:
+
+- **Google Docs** — run a position assessment or draft a strategy with the team editing alongside (`@Gem SF² Security Strategist` then your prompt).
+- **Google Sheets** — structure investment planning across tabs (current BAU, proposed scaling investments, timeline, resources) and have the Gem populate the plan from your data.
+- **Google Slides** — generate a board-presentation outline with talking points and anticipated Q&A.
+- **Gmail** — draft executive stakeholder emails that explain the strategy in framework terms.
+- **Google Chat and Meet** — quick framework questions in a team space, or live consultation during strategy meetings.
+- **Multimodal and Google Cloud** — upload last year's strategy or a metrics spreadsheet for a framework-lens review, and ground GCP security-architecture choices in your quadrant.
+
+**Known limitations:** Gems do not persist conversation history across sessions, so restate key context when you start fresh (or keep the working strategy in a Google Doc). Gems do not take uploaded training files the way a Custom GPT does, so the framework lives in the instructions block and in the documents you reference per prompt.
+
+**Data handling:** standard consumer Gemini may use conversations to improve the product; Google Workspace tiers add enterprise controls and data residency options. Confirm current terms before sharing anything sensitive.
+
+**Fits best for:** teams already standardized on Google Workspace, where strategy artifacts and collaboration live in Docs, Sheets, and Slides.
+
+---
+
+## Next steps
+
+[:octicons-arrow-left-24: Back to Use Cases](../08-use-cases/scenarios.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Coadaptive Security Layer](../10-coadaptive/overview.md){ .md-button }
 
 [:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/09-ai-integration/overview.md){ .md-button }
