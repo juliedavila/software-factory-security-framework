@@ -304,12 +304,14 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 ## About This Framework
 
 **Author**: Julie Davila
-**Version**: 0.11.0
+**Version**: 1.0.0
 **License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
 **Website**: https://sf2framework.com
 
 This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
+
+Version 1.0 is the first complete, usable release. The 0.x series was me finding the shape; 1.0 is the shape, ready to use. It stays a living document, and I'll keep refining it as adversaries evolve and practice catches up. A 1.0 tag means established, never finished.
 
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 

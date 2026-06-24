@@ -5,7 +5,7 @@
 ## Framework Identity
 
 **Name**: Software Factory Security Framework (SF²)
-**Version**: 0.9.5
+**Version**: 1.0.0
 **Author**: Julie Davila
 **License**: CC BY 4.0
 **Purpose**: Strategic framework for scaling security capabilities while improving business outcomes

@@ -2,7 +2,7 @@
  *
  * Loaded solely by mkdocs.pdf.yml (the with-pdf / weasyprint build). The live
  * site builds from mkdocs.yml, which never references this file, so nothing
- * here can reach sf2framework.com. It carries two print-only fixes.
+ * here can reach sf2framework.com. It carries four print-only fixes.
  *
  * 1. FONT EMBEDDING. Material injects the body face (Source Serif 4) and the
  *    code face (JetBrains Mono) through a theme link tag in the HTML head.
@@ -17,6 +17,13 @@
  *    of the document with no warning. Releasing the floor in print media lets the
  *    full four-section core render. The break-inside rules are left untouched, so
  *    tables, figures, and admonitions still avoid splitting across a page.
+ *
+ * 3. EDIT-PAGE LINKS. Each page carries a manual "Edit this page" button to the
+ *    GitLab editor. Useful on the web, noise offline (with-pdf appends the raw
+ *    href since you cannot click it). Hidden in print; reading-order buttons stay.
+ *
+ * 4. COVER TITLE. with-pdf's default cover sets the title in a system sans. Name
+ *    the brand display serif (Cardo, already embedded) so it matches the site.
  */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;700&display=swap');
 
@@ -68,5 +75,15 @@
   div.tabbed-content--wrap {
     break-inside: auto !important;
     page-break-inside: auto !important;
+  }
+
+  /* 3. Hide the per-page "Edit this page" buttons in the PDF (web-only action). */
+  a.md-button[href*="/-/edit/"] {
+    display: none !important;
+  }
+
+  /* 4. Brand the with-pdf cover title with the heading face. */
+  #doc-cover h1 {
+    font-family: "Cardo", Georgia, serif !important;
   }
 }

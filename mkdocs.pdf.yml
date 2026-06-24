@@ -85,7 +85,7 @@ nav:
 plugins:
   - with-pdf:
       author: Julie Davila
-      copyright: Copyright © 2025 Julie Davila | Licensed under CC BY 4.0
+      copyright: Copyright © 2025-2026 Julie Davila | Licensed under CC BY 4.0
       cover_title: "SF² Core Framework"
       cover_subtitle: Software Factory Security Framework
       cover_logo: assets/logo.svg
