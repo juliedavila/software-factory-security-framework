@@ -30,6 +30,7 @@ A test keeps the two axes from blurring. Place yourself in two sentences: a reac
 ### Operational Readiness Axis (How You Operate)
 
 **Lower Readiness**:
+
 - Manual processes
 - Legacy infrastructure
 - Limited automation
@@ -37,6 +38,7 @@ A test keeps the two axes from blurring. Place yourself in two sentences: a reac
 - Reactive operations
 
 **Higher Readiness**:
+
 - Automated pipelines
 - Modern infrastructure
 - API-driven operations
@@ -103,6 +105,7 @@ These two axes create four distinct strategic positions, each with different sec
 ### Studio (Small reach + High Readiness)
 
 **Characteristics**:
+
 - Small teams with modern technology stack
 - Cloud-native infrastructure
 - Automated from inception
@@ -116,6 +119,7 @@ Enable security through modern tooling and self-service capabilities
 Use technology advantages while building organizational scale
 
 **Typical Organizations**:
+
 - Modern startups (post-Series A)
 - Cloud-native SaaS companies
 - Platform teams in larger organizations
@@ -126,6 +130,7 @@ Use technology advantages while building organizational scale
 ### Lean (Large reach + High Readiness)
 
 **Characteristics**:
+
 - Large-scale operations
 - Sophisticated DevOps practices
 - Comprehensive observability
@@ -139,6 +144,7 @@ Orchestrate enterprise security architecture with continuous learning
 Optimize security operations at enterprise scale while maintaining innovation
 
 **Typical Organizations**:
+
 - Cloud-native enterprises
 - Modern financial services
 - Advanced SaaS companies
@@ -153,6 +159,7 @@ Optimize security operations at enterprise scale while maintaining innovation
     **Craft** here describes non-repeatable hand-work: snowflake-per-build, every deployment a little different. It names the *method* (low repeatability), not quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time.
 
 **Characteristics**:
+
 - Small-scale operations
 - Legacy systems
 - Manual processes
@@ -166,6 +173,7 @@ Focus on operational readiness foundations while managing essential security con
 Build operational capabilities while maintaining security coverage
 
 **Typical Organizations**:
+
 - Early-stage startups
 - Small businesses
 - Non-tech companies with limited IT
@@ -177,6 +185,7 @@ Build operational capabilities while maintaining security coverage
 ### Mass (Large reach + Low Readiness)
 
 **Characteristics**:
+
 - Large scale with legacy constraints
 - Technical debt
 - Mixed manual/automated processes
@@ -190,6 +199,7 @@ Pragmatic security within constraints while enabling gradual modernization
 Balance current operational demands with strategic modernization investments
 
 **Typical Organizations**:
+
 - Traditional enterprises undergoing digital transformation
 - Financial institutions with legacy infrastructure
 - Healthcare organizations
@@ -298,24 +308,28 @@ Most organizations benefit from moving toward the Lean position, but the path de
 The lists below are four sequences toward the same containment, each with tooling fit to its scale. Every quadrant owes deny-by-default limits on the authority review cannot police at scale; what changes below is the order of investment and the tooling that fits the operational reality. Each list is a funding order for your scale, not the security you end up with.
 
 **For Studio**:
+
 - Use cloud-native security services
 - Implement policy-as-code from inception
 - Build security into platform capabilities
 - Enable developer self-service
 
 **For Lean**:
+
 - Orchestrate enterprise security architecture
 - Build internal security platforms
 - Optimize at scale with automation
 - Continuous security improvement programs
 
 **For Craft**:
+
 - Focus on foundational security controls
 - Manual but systematic approaches
 - Gradual capability building
 - Use managed security services
 
 **For Mass**:
+
 - Pragmatic hybrid security approaches
 - Risk-based prioritization (critical systems first)
 - Incremental modernization

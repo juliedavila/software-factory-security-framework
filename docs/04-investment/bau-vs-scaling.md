@@ -65,6 +65,7 @@ This section explains how to make this strategic shift while maintaining securit
 As software factories grow, traditional security activities face a scaling challenge that hiring alone cannot solve:
 
 **Demand Grows Exponentially**:
+
 - Security review requests increase with feature velocity (more teams = more requests)
 - Threat modeling needs scale with system complexity (more services = more models)
 - Customer security inquiries grow with customer base (enterprise customers demand more)
@@ -72,6 +73,7 @@ As software factories grow, traditional security activities face a scaling chall
 - Compliance activities expand with regulatory scope (new markets = new requirements)
 
 **Capacity Grows Linearly**:
+
 - Hiring requires time (3-6 months per role typically)
 - Onboarding creates temporary productivity reduction (new hires require training)
 - Communication overhead increases with team size (coordination costs rise)
@@ -110,6 +112,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 **Strategy**: Attempt to maintain current service levels through capacity increases
 
 **Typical Actions**:
+
 - Hire additional security personnel for manual work
 - Extend working hours to cover growing demand
 - Build custom solutions for individual use cases
@@ -117,6 +120,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 - Accept growing backlogs as "normal"
 
 **Why This Fails**:
+
 - Hiring doesn't close the capability gap against automated adversaries
 - Linear capacity growth can't match exponential demand growth
 - Custom solutions create maintenance burden without scaling benefits
@@ -130,6 +134,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 **Strategy**: Deliberately constrain capacity for some BAU activities to create investment cycles for automation and self-service capabilities
 
 **Typical Actions**:
+
 - Set explicit capacity limits for manual security activities
 - Develop automation and self-service capabilities systematically
 - Create standardized approaches for common security needs
@@ -137,6 +142,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 - Measure and communicate ROI from scaling investments
 
 **Why This Succeeds**:
+
 - Automation closes the capability gap against scaled adversaries
 - Capabilities create compound returns over time
 - Self-service enables teams without security team growth
@@ -157,6 +163,7 @@ Security investments fall into three categories with fundamentally different sca
 **Definition**: Manual work that scales linearly with organizational growth
 
 **Examples**:
+
 - Manual security design reviews for each new service
 - Threat modeling sessions requiring security team participation
 - Individual incident response investigations
@@ -164,12 +171,14 @@ Security investments fall into three categories with fundamentally different sca
 - Ad-hoc compliance evidence collection
 
 **Characteristics**:
+
 - Required for business operations (can't eliminate entirely)
 - Demand grows with organizational scale
 - Each instance requires similar effort (limited efficiency gains)
 - Creates capacity constraints at scale
 
 **Strategic Approach**:
+
 - **Pre-Crisis**: Maintain current service levels while building alternatives
 - **Crisis Point**: Set explicit capacity constraints with communication strategy
 - **Post-Crisis**: Systematic constraint with clear self-service alternatives
@@ -248,6 +257,7 @@ Security investments fall into three categories with fundamentally different sca
 Scaling Investments compound in two different ways, and the difference decides what each one buys. **Automation** takes a human out of a repeated step, so the work runs hands-free and throughput stops being bound by hours. **Composable guardrails** keep the human but change what they have to understand: instead of reviewing N bespoke implementations of mTLS, base images, scoped roles, or secure pub/sub, your people understand one packaged path that teams plug into. The comprehension does not disappear. It concentrates into one durable review, amortized across every team that adopts the path, which is a real economy only on the traffic that actually takes it. A guardrail also does what automation does not: because it is a boundary, it limits what goes wrong when something slips through, not just what your reviewers have to read. Two benefits from one artifact.
 
 **Examples**:
+
 - Automated dependency scanning with auto-remediation
 - Self-service security environment provisioning
 - Policy-as-code with automated enforcement
@@ -255,6 +265,7 @@ Scaling Investments compound in two different ways, and the difference decides w
 - Developer security training and tooling integration
 
 **Characteristics**:
+
 - Initial investment required (time, money, organizational change)
 - Benefits compound over time (more usage = more value)
 - Reduces future manual effort requirements systematically
@@ -279,12 +290,14 @@ Scaling Investments compound in two different ways, and the difference decides w
 **Definition**: Investments that benefit both your organization AND customer software factories (platform companies only)
 
 **Examples**:
+
 - Security platform features customers can use
 - Open-source security tools serving broader ecosystem
 - Security standards that become industry practices
 - Shared threat intelligence benefiting community
 
 **Characteristics**:
+
 - Internal business case must justify investment independently
 - Customer value creates additional strategic benefits
 - Competitive differentiation potential
@@ -305,21 +318,25 @@ The most sustainable security investments do more than solve immediate problems.
 Like renewable energy systems that provide ongoing value after initial investment, effective scaling investments become self-sustaining:
 
 **Paved Roads**: Secure templates and baselines that engineers reuse without security review
+
 - **One-time effort**: Design secure baseline architecture, document patterns
 - **Ongoing value**: Every team using the template saves 10-20 hours of security reviews
 - **Compound effect**: As templates improve based on feedback, all users benefit automatically
 
 **Self-Service Platforms**: Automated environments and policy-as-code eliminating recurring requests
+
 - **One-time effort**: Build security environment provisioning automation
 - **Ongoing value**: Teams provision secure infrastructure in minutes instead of days
 - **Compound effect**: Platform improvements benefit all users without additional security team effort
 
 **Automated Dependency Management**: Continuous monitoring without manual intervention
+
 - **One-time effort**: Integrate automated dependency scanning and update tools
 - **Ongoing value**: Vulnerabilities detected and remediated automatically
 - **Compound effect**: Coverage expands automatically as new services are built
 
 **Security-Quality Integration**: Process improvements serving both objectives simultaneously
+
 - **One-time effort**: Integrate security checks into CI/CD quality gates
 - **Ongoing value**: Security and quality issues detected together in development
 - **Compound effect**: Quality improvements enhance security, security improvements enhance quality
@@ -338,6 +355,7 @@ Like renewable energy systems that provide ongoing value after initial investmen
     - Create new manual processes rather than automating existing ones
 
 **Favor investments that**:
+
 - Become more valuable and less demanding over time
 - Store organizational knowledge in reusable form
 - Enable self-service without security team involvement
@@ -357,6 +375,7 @@ Constraining BAU activities requires clear communication to maintain organizatio
 **Message**: "We're investing in improved capabilities that will provide faster, more consistent security support."
 
 **Actions**:
+
 - Maintain current service levels while building alternatives
 - Gradual introduction of self-service options
 - Measure baseline metrics for later comparison
@@ -369,6 +388,7 @@ Constraining BAU activities requires clear communication to maintain organizatio
 **Message**: "We've reached a scaling inflection point. To ensure sustainable security support, we're shifting from manual processes to self-service capabilities. Here's what's changing, here are the alternatives, and here's the timeline for improved capabilities."
 
 **Actions**:
+
 - Set explicit capacity limits with clear justification
 - Provide immediate self-service alternatives (even if basic)
 - Establish escalation paths for critical needs
@@ -384,6 +404,7 @@ Constraining BAU activities requires clear communication to maintain organizatio
 **Message**: "Improved self-service capabilities are now available. Most teams can now [specific capability] without security team involvement, and we've measured [specific improvement metric]."
 
 **Actions**:
+
 - Demonstrate ROI realization from scaling investments
 - Showcase developer experience improvements
 - Adjust capacity constraints based on capability maturity
@@ -400,6 +421,7 @@ Security leaders operate within inherited financial contexts that affect investm
 **Constraints**: Security viewed as overhead, budget scrutiny, ROI skepticism
 
 **Strategy**:
+
 - Focus on compliance cost avoidance (failed audits cost money)
 - Emphasize operational efficiency (automation reduces labor costs)
 - Use crisis events as opportunities for scaling investment approval
@@ -415,6 +437,7 @@ Security leaders operate within inherited financial contexts that affect investm
 **Constraints**: Internal customer satisfaction, operational metrics, service level expectations
 
 **Strategy**:
+
 - Develop business cases emphasizing internal customer satisfaction
 - Measure and communicate developer experience improvements
 - Show operational improvements reducing business friction
@@ -430,6 +453,7 @@ Security leaders operate within inherited financial contexts that affect investm
 **Constraints**: Security competes with feature development for resources and attention
 
 **Strategy**:
+
 - Frame security investments as competitive advantages
 - Measure success through business outcomes, not security metrics
 - Demonstrate security capabilities enabling business opportunities

@@ -13,6 +13,7 @@ Platform companies, organizations that provide capabilities to other software fa
 This guidance applies specifically to:
 
 **Platform Companies**: Organizations whose products serve other software factories
+
 - Cloud platforms (AWS, Azure, GCP, etc.)
 - Development tools and CI/CD platforms (GitLab, GitHub, CircleCI, etc.)
 - Security platforms and tools (vulnerability scanners, SIEM, etc.)
@@ -20,6 +21,7 @@ This guidance applies specifically to:
 - Infrastructure and container platforms (Kubernetes, Docker, etc.)
 
 **Not applicable to**:
+
 - End-user application companies (even large ones)
 - Internal platform teams serving only their own organization
 - Security vendors selling traditional enterprise software
@@ -35,6 +37,7 @@ If you're not a platform company serving other software factories, focus on [BAU
 **Non-Negotiable Foundation**: Security investments must first make business sense for your direct needs. Platform effects are **enhancement factors**, not justifications.
 
 **Why This Matters**:
+
 - Your security team's primary responsibility is securing your software factory
 - Platform features that don't solve your internal problems create maintenance burden
 - Customer value without internal value is unsustainable
@@ -59,6 +62,7 @@ If you're not a platform company serving other software factories, focus on [BAU
 - Market differentiation and competitive advantage opportunities
 
 **Example**: Automated dependency scanning
+
 - **Internal value**: Reduces your security team's manual effort, improves your supply chain security posture
 - **Customer value**: Enables your customers to secure their supply chains using your platform
 - **Platform effect**: 10,000 customers using your feature = 10,000x the security value created
@@ -84,23 +88,27 @@ Use this systematic framework to evaluate security investments when you're a pla
 ### Decision Matrix
 
 **Strong Internal + Strong Customer Value** (Highest Priority):
+
 - Example: Automated vulnerability management solving your supply chain problems that customers can use
 - Priority: Accelerate implementation, allocate cross-functional resources, market aggressively
 - Timeline Impact: May justify 30-50% faster implementation than internal-only business case
 - Investment Level: Can justify 2-3x higher investment than internal-only features
 
 **Strong Internal + Weak Customer Value** (Standard Priority):
+
 - Example: Internal compliance automation specific to your regulatory environment
 - Priority: Standard internal security investment evaluation using [evaluation criteria](evaluation-criteria.md)
 - Timeline Impact: Normal implementation sequencing
 - Investment Level: Internal business case justification required
 
 **Weak Internal + Strong Customer Value** (Avoid):
+
 - Example: Security features customers request but your team doesn't use
 - Priority: Decline or deprioritize, likely maintenance burden without sustainability
 - Warning: High risk of poor execution, customer disappointment, wasted investment
 
 **Weak Internal + Weak Customer Value** (Reject):
+
 - Example: Security theater features for marketing purposes
 - Priority: Hard reject, diverts resources from valuable work
 - Risk: Damages credibility with both internal teams and customers
@@ -166,6 +174,7 @@ Platform companies often serve as sophisticated users of their own products, pro
 **Example**: Modern Supply Chain Security
 
 Your platform company discovers that:
+
 - Automated dependency scanning significantly reduces your manual security effort
 - Your security team's productivity improves 3x with automated vulnerability management
 - Unknown dependency discovery becomes systematic rather than reactive
@@ -205,12 +214,14 @@ When you've identified a security investment with both internal and customer val
 **Objective**: Solve your own problem first, learn from real usage
 
 **Activities**:
+
 - Implement security capability solving your internal team's pain
 - Use internally with realistic production workloads
 - Measure actual impact on your security team's effectiveness
 - Iterate based on internal feedback and usage patterns
 
 **Success Criteria**:
+
 - Your security team actively uses and values the capability
 - Measurable improvement in internal security metrics
 - Positive feedback from internal stakeholders
@@ -225,12 +236,14 @@ When you've identified a security investment with both internal and customer val
 **Objective**: Refine based on internal experience before customer exposure
 
 **Activities**:
+
 - Document lessons learned from internal implementation
 - Identify operational challenges and edge cases discovered
 - Develop customer-facing documentation based on internal experience
 - Create support and troubleshooting guidance from real issues
 
 **Success Criteria**:
+
 - Clear understanding of capability limitations and tradeoffs
 - Documented best practices from internal usage
 - Realistic customer expectations established
@@ -245,12 +258,14 @@ When you've identified a security investment with both internal and customer val
 **Objective**: Validate customer value hypothesis with friendly customers
 
 **Activities**:
+
 - Select 3-5 sophisticated customers for beta program
 - Provide hands-on support during initial adoption
 - Measure customer outcomes and gather detailed feedback
 - Validate that customer experience matches your internal experience
 
 **Success Criteria**:
+
 - Customers achieve measurable security improvements
 - Feedback validates value hypothesis
 - Support burden matches predictions
@@ -265,12 +280,14 @@ When you've identified a security investment with both internal and customer val
 **Objective**: Scale capability to broader customer base
 
 **Activities**:
+
 - Polish customer experience based on beta feedback
 - Scale support infrastructure for broader adoption
 - Market capability emphasizing customer outcomes
 - Monitor adoption and iterate based on usage patterns
 
 **Success Criteria**:
+
 - Adoption rates meet targets
 - Customer satisfaction scores strong
 - Support burden sustainable
@@ -285,21 +302,25 @@ When you've identified a security investment with both internal and customer val
 Evaluate whether security investments create defensible competitive advantages:
 
 **1. Does this capability create defensible competitive advantages?**
+
 - Is this difficult for competitors to replicate?
 - Does this build on unique platform strengths?
 - Can this become customer-facing product value driving adoption?
 
 **2. Does this enable market expansion?**
+
 - Does improved security enable entry into regulated industries?
 - Can this support enterprise customer requirements?
 - Does this address blockers in sales pipeline?
 
 **3. How does this compare to competitor security offerings?**
+
 - Do competitors offer similar capabilities?
 - Is your implementation meaningfully better?
 - Can customers easily switch to competitors?
 
 **4. What is the thought leadership opportunity?**
+
 - Can this position you as security innovation leader?
 - Does this enable industry standard or best practice development?
 - Will this attract top security talent to your organization?

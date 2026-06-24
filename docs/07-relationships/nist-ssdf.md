@@ -3,6 +3,7 @@
 ## Framework Overview
 
 **NIST SSDF (Secure Software Development Framework)**
+
 - **Focus**: Secure development lifecycle practices
 - **Website**: https://csrc.nist.gov/Projects/ssdf
 - **Purpose**: High-level guidance for integrating security into software development
@@ -61,6 +62,7 @@ SF² sequences a practice baseline, and SSDF's practice groups are one expressio
 ### SSDF Provides the Practices
 
 NIST SSDF defines four practice groups:
+
 1. **Prepare the Organization (PO)** - Ready your people, processes, and technology for secure development
 2. **Protect the Software (PS)** - Protect all software components from tampering and unauthorized access
 3. **Produce Well-Secured Software (PW)** - Secure design, coding, review, and testing to minimize released vulnerabilities
@@ -69,6 +71,7 @@ NIST SSDF defines four practice groups:
 ### SF² Provides the Implementation Strategy
 
 SF² helps you:
+
 - **Determine which SSDF practices to implement first** based on your quadrant position
 - **Choose between manual and automated implementation** based on operational readiness
 - **Sequence SSDF practice adoption** to avoid overwhelming your organization
@@ -81,12 +84,14 @@ SF² helps you:
 **SSDF Implementation Approach**: Automated from the start
 
 **Priority SSDF Practices**:
+
 1. **PS (Protect the Software)** - Automated build security, supply chain verification
 2. **PW (Produce Well-Secured Software)** - Automated security testing, secure templates
 3. **RV (Respond to Vulnerabilities)** - Automated dependency scanning and patching
 4. **PO (Prepare the Organization)** - Self-service security documentation
 
 **Implementation Strategy**:
+
 - Automate SSDF practices in CI/CD pipeline from inception
 - Policy-as-code for SSDF requirements
 - Self-service SSDF capabilities (developers implement without security review)
@@ -99,12 +104,14 @@ SF² helps you:
 **SSDF Implementation Approach**: Platform-scale automation
 
 **Priority SSDF Practices**:
+
 1. **All SSDF practices** at organizational scale with platform effects
 2. **Advanced automation** for complex SSDF requirements
 3. **Federated SSDF ownership** (security champions, guild structure)
 4. **Continuous SSDF improvement** based on metrics
 
 **Implementation Strategy**:
+
 - SSDF practices embedded in internal platforms
 - Automated evidence collection for SSDF compliance
 - Organization-wide SSDF metrics and optimization
@@ -117,12 +124,14 @@ SF² helps you:
 **SSDF Implementation Approach**: Essential practices, pragmatic implementation
 
 **Priority SSDF Practices**:
+
 1. **RV (Respond to Vulnerabilities)** - Basic vulnerability management (highest risk)
 2. **PS (Protect the Software)** - Essential build security (supply chain #1 priority)
 3. **PW (Produce Well-Secured Software)** - Secure coding guidelines
 4. **PO (Prepare the Organization)** - Basic security awareness
 
 **Implementation Strategy**:
+
 - Focus on highest-risk SSDF practices first
 - Use managed services for SSDF capabilities where possible
 - Manual implementation acceptable at current scale
@@ -135,12 +144,14 @@ SF² helps you:
 **SSDF Implementation Approach**: Hybrid (automated for new, pragmatic for legacy)
 
 **Priority SSDF Practices**:
+
 1. **RV (Respond to Vulnerabilities)** - Vulnerability management across complex systems
 2. **PS (Protect the Software)** - Build security for active development
 3. **Automated SSDF for new systems** - Break legacy patterns
 4. **Pragmatic SSDF for legacy** - Risk-based implementation
 
 **Implementation Strategy**:
+
 - Implement automated SSDF for new/modernizing systems
 - Risk-based SSDF for legacy systems (not full implementation)
 - Gradual SSDF improvement as systems modernize
@@ -152,18 +163,21 @@ SF² helps you:
 
 ### High Attack Landscape Maturity
 **Impact**: Accelerates SSDF RV (Respond to Vulnerabilities) priority
+
 - Automated vulnerability scanning becomes critical
 - Supply chain security (PS) moves to top priority
 - Manual response processes become existential vulnerability
 
 ### High Regulatory Constraints
 **Impact**: Requires SSDF practice documentation and evidence
+
 - Automated evidence collection essential
 - SSDF compliance reporting becomes significant BAU burden
 - May require comprehensive SSDF implementation regardless of risk
 
 ### Crisis Events
 **Impact**: Creates window for rapid SSDF adoption
+
 - Use incident as catalyst for automated SSDF implementation
 - "Never waste a good crisis" for securing SSDF resources
 - Demonstrates clear ROI for SSDF investment
@@ -173,17 +187,20 @@ SF² helps you:
 ### Scenario: Series B Startup (Studio Position)
 
 **Current State**:
+
 - Manual security reviews blocking releases
 - Basic SSDF practices implemented manually
 - Growing too fast for manual SSDF
 
 **SF² Guidance**:
+
 1. **Assess Position**: Studio (Small reach + High Readiness)
 2. **Identify Scaling Crisis**: Manual SSDF practices not sustainable
 3. **Constrain BAU**: Manual security reviews for novel architectures only
 4. **Scaling Investment**: Automate SSDF practices in CI/CD
 
 **SSDF Implementation**:
+
 - **PS (Protect Software)**: Automated build security, supply chain scanning
 - **PW (Produce Secured Software)**: Automated SAST/DAST, secure templates
 - **RV (Respond to Vulnerabilities)**: Automated dependency scanning, patch automation
@@ -194,18 +211,21 @@ SF² helps you:
 ## Key Takeaways
 
 **Use NIST SSDF for**:
+
 - Comprehensive security practice catalog
 - Practice descriptions and outcomes
 - Regulatory compliance requirements
 - Industry standard terminology
 
 **Use SF² for**:
+
 - Determining which SSDF practices to implement first
 - Choosing implementation approach (manual vs automated)
 - Sequencing SSDF adoption based on your position
 - Scaling SSDF sustainably without linear headcount growth
 
 **Together**:
+
 - SSDF provides the practices
 - SF² provides the sustainable implementation strategy
 - Result: Effective security practices at appropriate scale

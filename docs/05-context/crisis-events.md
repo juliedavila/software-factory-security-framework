@@ -85,12 +85,14 @@ Crisis events create unique windows for organizational change. Security incident
 - Know the organizational blockers, and which a crisis removes
 
 **Act Quickly**:
+
 - Present solutions during crisis
 - Secure commitments while urgent
 - Fast-track initiatives
 - Build irreversible momentum
 
 **Sustain Changes**:
+
 - Deliver quick wins
 - Demonstrate measurable improvement
 - Maintain executive visibility

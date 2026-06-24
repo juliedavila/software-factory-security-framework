@@ -86,6 +86,7 @@ You cannot price a clock you cannot read, so make the absorb clock legible first
 ## Strategic Implications
 
 **Low change capacity requires**:
+
 - Longer transformation timelines
 - More extensive pilots and proofs-of-concept
 - Significant change management investment
@@ -93,6 +94,7 @@ You cannot price a clock you cannot read, so make the absorb clock legible first
 - Strong executive sponsorship
 
 **High change capacity enables**:
+
 - Compressed transformation timelines
 - Bold strategic investments
 - Rapid experimentation and iteration

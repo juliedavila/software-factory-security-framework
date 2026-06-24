@@ -35,6 +35,7 @@ This website aims to conform to the [Web Content Accessibility Guidelines (WCAG)
 ### Color Contrast
 
 All text meets WCAG AA contrast requirements:
+
 - **Normal text**: 4.5:1 contrast ratio
 - **Large text**: 3:1 contrast ratio
 - **Color-coded elements**: Include text labels in addition to color
@@ -42,6 +43,7 @@ All text meets WCAG AA contrast requirements:
 ### Text Sizing
 
 Text can be resized up to 200% without loss of functionality:
+
 1. **Browser zoom**: Use Ctrl/Cmd + Plus (+) or Minus (-)
 2. **Font size**: Adjust in browser settings
 3. **Reader mode**: Most browsers support reader mode for focused reading
@@ -62,6 +64,7 @@ We welcome feedback on the accessibility of this framework. If you encounter acc
 - **Email**: Include "Accessibility" in the subject line
 
 Please provide:
+
 - The web page URL where you encountered the issue
 - A description of the problem
 - What assistive technology you were using (if applicable)
@@ -74,16 +77,19 @@ Please provide:
 This website is designed to be compatible with:
 
 **Browsers**:
+
 - Chrome, Firefox, Safari, Edge (latest 2 versions)
 - Mobile browsers on iOS and Android
 
 **Assistive Technologies**:
+
 - NVDA (Windows)
 - JAWS (Windows)
 - VoiceOver (macOS, iOS)
 - TalkBack (Android)
 
 **Technologies**:
+
 - HTML5
 - CSS3
 - JavaScript (progressively enhanced)
@@ -100,6 +106,7 @@ This website is designed to be compatible with:
 Last accessibility review: January 2025
 
 Methodology:
+
 - Manual keyboard navigation testing
 - Screen reader testing (NVDA, VoiceOver)
 - Automated testing (axe DevTools, WAVE)
@@ -145,6 +152,7 @@ When adding content to this framework:
 ### Accessibility Tools
 
 Recommended tools for testing:
+
 - [axe DevTools](https://www.deque.com/axe/devtools/) (browser extension)
 - [WAVE](https://wave.webaim.org/) (web accessibility evaluation tool)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) (Chrome DevTools)

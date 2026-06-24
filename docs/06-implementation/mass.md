@@ -18,6 +18,7 @@ This guide is for organizations in the **Mass** quadrant: large **Blast Radius**
 ## The Mass Reality
 
 This is the **most difficult transformation journey**. You must simultaneously:
+
 - **Reduce operational burden** (can't maintain current manual load)
 - **Increase automation** (while systems resist automation)
 - **Maintain operations** (can't stop to renovate)
@@ -32,12 +33,14 @@ This is the **most difficult transformation journey**. You must simultaneously:
 Don't attempt transformation while drowning in operational work.
 
 **First Priority**: **Achieve operational stability**
+
 - Constrain BAU growth (say no to low-value work)
 - Automate or eliminate highest-burden activities
 - Build breathing room for strategic work
 - Secure executive support for transformation
 
 **Investment Focus**:
+
 - Quick automation wins (eliminate repetitive manual work)
 - Tool consolidation (reduce operational overhead)
 - Relationship building with engineering (you'll need their help)
@@ -50,6 +53,7 @@ Don't attempt transformation while drowning in operational work.
 Almost every Mass organization takes the same path: build the floor under the reach it already holds, knowing that is a 3-to-5-year climb most attempts do not finish. The other path shrinks reach, and that is the exception.
 
 **The default: Build the Floor (Mass → Lean, the Containment Climb)**
+
 - **Strategy**: Increase readiness through gradual modernization while large reach stays in place
 - **Examples**: Hybrid approaches, phased rollouts, incremental automation
 - **Advantages**: Preserves the business as-is (operations and revenue continue)
@@ -57,12 +61,14 @@ Almost every Mass organization takes the same path: build the floor under the re
 - **Timeline**: 36-60 months to Lean (realistically)
 
 **Critical Decision Factors** (for committing to the climb):
+
 - Executive support and patience (a 3-5 year commitment)
 - Resource availability (significant sustained investment)
 - Business model (can you sustain operations through a long climb?)
 - Organizational change capacity (high tolerance for disruption)
 
 **The exception: Reduce Reach (Mass → Craft, Simplification)**
+
 - **Strategy**: Simplify operations while modernizing what remains
 - **Examples**: Consolidate products, retire legacy systems, reduce scope
 - **Advantages**: Easier transformation, clearer focus, faster progress
@@ -76,12 +82,14 @@ Reducing reach works only when a divestiture, an SMB pivot, or a product consoli
 Regardless of path, you'll need hybrid approaches:
 
 **Modern + Legacy Coexistence**:
+
 - **Modern security** for new systems (cloud-native, automated)
 - **Pragmatic controls** for legacy systems (appropriate to modernization timeline)
 - **Gradual migration** (not big-bang transformation)
 - **Clear criteria** for what gets modernized when
 
 **Investment Focus**:
+
 - Security automation for new systems (don't recreate manual processes)
 - Managed services for legacy (reduce operational burden)
 - Platform capabilities that serve both (unified monitoring, identity)
@@ -121,16 +129,19 @@ Regardless of path, you'll need hybrid approaches:
 ### The Default: Build the Floor (→ Lean)
 
 **Year 1: Stabilize + Hybrid Foundation**
+
 - **Stabilization** (40% effort): Quick wins, operational burden reduction
 - **Modern Security for New** (40% effort): Break legacy patterns for new systems
 - **Hybrid Strategy** (20% effort): Define modern vs. legacy approach
 
 **Year 2-3: Gradual Modernization**
+
 - **New Systems** (40% effort): Lean-level capabilities for modern infrastructure
 - **Legacy Pragmatism** (30% effort): Managed services, appropriate controls
 - **Platform Capabilities** (30% effort): Unified capabilities serving both
 
 **Year 4-5: Complete Modernization**
+
 - **Legacy Migration** (40% effort): Migrate remaining systems to modern platform
 - **Lean Capabilities** (40% effort): Advanced automation, platform effects
 - **Legacy Retirement** (20% effort): Sunset old infrastructure
@@ -140,16 +151,19 @@ Regardless of path, you'll need hybrid approaches:
 ### The Exception: Reduce Reach (→ Craft → Studio)
 
 **Year 1: Stabilize + Plan Reach Reduction**
+
 - **Stabilization** (50% effort): Quick automation wins, operational burden reduction
 - **Scope Assessment** (30% effort): What can be simplified, consolidated, retired?
 - **Modern Security for New** (20% effort): Stop recreating legacy patterns
 
 **Year 2-3: Simplification + Modernization**
+
 - **Simplification** (40% effort): Product consolidation, system retirement, scope reduction
 - **Modernization** (40% effort): Cloud migration, CI/CD, infrastructure-as-code
 - **Essential Security** (20% effort): Maintain security during transformation
 
 **Year 3-4: Complete Transformation to Studio**
+
 - **Security Automation** (60% effort): Build Studio-level capabilities
 - **Legacy Retirement** (30% effort): Complete sunset of old systems
 - **Optimization** (10% effort): Refine and improve
@@ -162,6 +176,7 @@ Regardless of path, you'll need hybrid approaches:
 **Risk**: Transformation failure from moving too aggressively
 
 **Symptoms**:
+
 - Multiple simultaneous transformation initiatives
 - Team burnout from change overload
 - Incomplete migrations and half-finished modernization
@@ -173,6 +188,7 @@ Regardless of path, you'll need hybrid approaches:
 **Risk**: Transformation stalls from insufficient investment
 
 **Symptoms**:
+
 - Transformation "initiatives" without dedicated resources
 - Security team expected to transform while maintaining BAU
 - Projects perpetually delayed for operational work
@@ -184,6 +200,7 @@ Regardless of path, you'll need hybrid approaches:
 **Risk**: Cloud migration without modernization
 
 **Symptoms**:
+
 - "Lift and shift" cloud migration
 - Manual processes recreated in cloud environment
 - Complex security reviews for cloud deployments
@@ -195,6 +212,7 @@ Regardless of path, you'll need hybrid approaches:
 **Risk**: Security transformation fails from engineering resistance
 
 **Symptoms**:
+
 - Security initiatives mandated without buy-in
 - Engineering teams bypassing security controls
 - Low adoption of security platforms
@@ -206,6 +224,7 @@ Regardless of path, you'll need hybrid approaches:
 **Risk**: Transformation loses momentum without executive support
 
 **Symptoms**:
+
 - Transformation deprioritized for short-term needs
 - Resources pulled for other initiatives
 - "Transformation fatigue" setting in
@@ -268,6 +287,7 @@ One more failure mode belongs here, because it is the one outside your control. 
 This is the question for almost every Mass organization. It is the default path.
 
 **Realistic if:**
+
 - Strong executive commitment (CEO level) to a 4-5 year timeline
 - Significant resources available (budget, headcount, time)
 - High organizational change capacity
@@ -275,6 +295,7 @@ This is the question for almost every Mass organization. It is the default path.
 - Recent crisis event creating transformation window
 
 **Unrealistic if:**
+
 - Expecting results in 1-2 years
 - Security team must transform while maintaining full BAU
 - Damaged relationships with engineering
@@ -288,12 +309,14 @@ This is the question for almost every Mass organization. It is the default path.
 Only when a real business reason already supports it.
 
 **Yes, if:**
+
 - You have products/services that could be consolidated or retired
 - Business model supports scope reduction
 - Executive support for the difficult decisions involved
 - A divestiture, SMB pivot, or product consolidation is already underway
 
 **No, if:**
+
 - Business model requires the current reach
 - Revenue tied to all current products
 - No viable consolidation or retirement options

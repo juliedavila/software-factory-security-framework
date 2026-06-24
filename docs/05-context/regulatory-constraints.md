@@ -17,6 +17,7 @@ This lag changes direction over time. Early on, a regulation is a gate: it limit
 ### Minimal Regulatory
 
 **Standard business compliance** (GDPR, basic privacy)
+
 - Flexible implementation choices
 - Standard commercial tools acceptable
 - Regular but manageable audit cycles
@@ -31,6 +32,7 @@ Regulation telegraphs. [CIRCIA](../appendix/references.md#regulation-as-drag-and
 ### Sector-Specific
 
 **Industry requirements** (HIPAA, PCI-DSS, SOX)
+
 - Constrained technology choices
 - Regular audit cycles with documentation burden
 - Industry-specific security controls
@@ -41,6 +43,7 @@ Regulation telegraphs. [CIRCIA](../appendix/references.md#regulation-as-drag-and
 ### High-Stakes Regulatory
 
 **Government/defense** (FedRAMP, financial regulations)
+
 - Severely limited technology options
 - Continuous compliance monitoring
 - Extensive documentation requirements

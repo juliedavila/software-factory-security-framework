@@ -60,6 +60,7 @@ understanding it, and the work of security shifts with it.
 ### Low Saturation: AI on the Margins
 
 **Characteristics**:
+
 - AI assists individual developers; adoption is uneven
 - Most code is human-written and human-reviewed
 - Few or no autonomous agents in the pipeline
@@ -70,6 +71,7 @@ understanding it, and the work of security shifts with it.
 ### Moderate Saturation: AI in the Workflow
 
 **Characteristics**:
+
 - AI generates a meaningful share of committed code
 - Humans still originate most non-trivial code
 - Review volume rising faster than review capacity
@@ -82,6 +84,7 @@ automated guardrails and scoped agent identity.
 ### High Saturation: AI as the Default Author
 
 **Characteristics**:
+
 - Most code, and much of review and operations, runs through AI
 - The human's default role shifts to reviewing and approving AI-originated code
 - Autonomous agents act across the repo, CI, and infrastructure
@@ -140,15 +143,18 @@ ahead of other scaling work.
 ### Investment Priorities
 
 **Low Saturation**:
+
 - Existing review models remain viable
 - Establish baseline policy-as-code before volume arrives
 
 **Moderate Saturation**:
+
 - Shift review effort from line-by-line inspection to automated guardrails
 - Begin scoped, short-lived identity for agents and tools
 - Inventory non-human identities and MCP servers
 
 **High Saturation**:
+
 - Automated guardrails become the primary control, not a supplement
 - Scoped, short-lived agent identity (necessary) plus per-request attenuation, which is what identity alone cannot provide
 - Continuous inventory of tool grants and agent identities
@@ -157,6 +163,7 @@ ahead of other scaling work.
 ## Real-World Indicators
 
 **You're facing high saturation when**:
+
 - ✅ Pull request volume has outrun your reviewers' capacity to understand each change
 - ✅ More of your code is read first by a model than by a person
 - ✅ Agents are opening PRs, running CI steps, or touching infrastructure on their own

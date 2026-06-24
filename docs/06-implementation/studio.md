@@ -19,12 +19,14 @@ This guide is for organizations in the **Studio** quadrant: small **Blast Radius
 Your advantage is speed. Security should accelerate, not slow down.
 
 **Investment Focus**:
+
 - Automated security scanning integrated into CI/CD
 - Secure templates and paved roads for common patterns
 - Self-service security capabilities for developers
 - Policy-as-code from the start
 
 **Avoid**:
+
 - Manual security review bottlenecks
 - Process for process's sake
 - Premature complexity (don't build Lean-level tools yet)
@@ -34,12 +36,14 @@ Your advantage is speed. Security should accelerate, not slow down.
 You're building on cloud-native foundations. Embed security from inception.
 
 **Investment Focus**:
+
 - Infrastructure security automation (cloud posture management)
 - Container and Kubernetes security guardrails
 - Automated compliance validation
 - Supply chain security from day one (SBOM, dependency scanning)
 
 **Avoid**:
+
 - Bolting security on after architecture decisions
 - Manual cloud configuration review
 - Treating security as separate from infrastructure
@@ -49,12 +53,14 @@ You're building on cloud-native foundations. Embed security from inception.
 You're positioned to scale efficiently. Build the right foundations now.
 
 **Investment Focus**:
+
 - Security platforms over point solutions
 - Reusable security capabilities (not one-off solutions)
 - Documentation and self-service patterns
 - Metrics that matter (outcomes, not activity)
 
 **Avoid**:
+
 - Tool sprawl without integration
 - Heroic manual efforts that can't scale
 - Missing the inflection point before scaling crisis
@@ -90,17 +96,20 @@ You're positioned to scale efficiently. Build the right foundations now.
 ### Year 1: Build Scaling Foundations
 
 **BAU to Constrain** (30% effort):
+
 - Manual security reviews for novel architectures only
 - Critical incident response
 - Compliance validation (automate where possible)
 
 **Scaling Investments** (70% effort):
+
 - Automated security scanning platform
 - Secure templates and paved roads
 - Self-service capabilities
 - Policy-as-code infrastructure
 
 **Expected Outcomes**:
+
 - 70% reduction in manual security review time
 - 3x increase in deployment frequency without security incidents
 - Security embedded in default paths
@@ -108,16 +117,19 @@ You're positioned to scale efficiently. Build the right foundations now.
 ### Year 2: Optimize and Extend
 
 **BAU to Constrain** (20% effort):
+
 - Maintain only truly unique security reviews
 - Automated incident response where possible
 
 **Scaling Investments** (80% effort):
+
 - Advanced security automation (threat modeling as code)
 - Supply chain security platform
 - Runtime security with automated response
 - Security product capabilities (if customer-facing software factory)
 
 **Expected Outcomes**:
+
 - Sub-hour security review for 90% of changes
 - Proactive vulnerability detection before exploitation
 - Security as competitive advantage
@@ -128,6 +140,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 **Risk**: Building Lean-level tooling before you need it
 
 **Symptoms**:
+
 - Creating complex security platforms for simple needs
 - Over-engineering automation
 - Analysis paralysis on tool selection
@@ -138,6 +151,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 **Risk**: Not recognizing when manual processes are failing
 
 **Symptoms**:
+
 - Security reviews taking weeks instead of hours
 - Security team overwhelmed with ticket backlog
 - Engineering teams bypassing security to meet deadlines
@@ -148,6 +162,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 **Risk**: Importing heavyweight processes that slow innovation
 
 **Symptoms**:
+
 - Security reviews requiring extensive documentation for simple changes
 - Multiple approval layers for standard patterns
 - Compliance theater instead of actual risk reduction
@@ -182,6 +197,7 @@ As your organization grows, your inherent reach will naturally widen. To maintai
 **Strategy**: Continuously optimize processes and automation as you scale
 
 **Key Investments**:
+
 - Automation that scales with team growth
 - Self-service capabilities to maintain velocity
 - Strong onboarding for security patterns
@@ -195,6 +211,7 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 **Strategy**: Thoughtful complexity management while maintaining readiness
 
 **Key Investments**:
+
 - Platform security capabilities
 - Advanced automation for complex scenarios
 - Policy-as-code at organizational scale

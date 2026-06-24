@@ -58,6 +58,7 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 ### Low Exposure: Short-Lived Secrets, Agile Crypto
 
 **Characteristics**:
+
 - Confidential data loses value in days or weeks; little or nothing needs decade-long secrecy
 - Cryptography runs through managed, updatable libraries and services you can patch centrally
 - Few or no long-lived signed artifacts (firmware, certificates, code-signing roots)
@@ -68,6 +69,7 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 ### Moderate Exposure: Mixed Lifetimes, Partial Agility
 
 **Characteristics**:
+
 - Some data carries multi-year confidentiality requirements
 - Crypto-agility is uneven: some systems swap primitives easily, others are pinned to versions
 - Dependence on TLS, managed key stores, and third parties whose PQC timelines you do not control
@@ -78,6 +80,7 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 ### High Exposure: Long Confidentiality, Pinned Primitives
 
 **Characteristics**:
+
 - Data that must stay confidential for a decade or more (health, financial, defense, intellectual property)
 - Long-lived trust anchors: firmware signing, device certificates, code-signing roots with multi-year validity, living in products you cannot easily update
 - Cryptography embedded where it is hard to rotate: hardware, IoT, key-management modules, protocol assumptions, vendor black boxes
@@ -112,15 +115,18 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 ## Investment Priorities
 
 **Low Exposure**:
+
 - Track NIST and NSA guidance
 - Require crypto-agility in new designs as a default
 
 **Moderate Exposure**:
+
 - Build the cryptographic bill of materials
 - Pilot hybrid key establishment (classical plus post-quantum) on the longest-lived data path
 - Pin vendor PQC roadmaps to contracts
 
 **High Exposure**:
+
 - Treat migration as a dated program: inventory, then prioritize by data lifetime, then hybrid deployment, then rotate trust anchors
 - Sequence ahead of discretionary scaling work
 

@@ -3,6 +3,7 @@
 ## Framework Overview
 
 **BSIMM (Building Security In Maturity Model)**
+
 - **Focus**: Security activity measurement and benchmarking
 - **Website**: https://www.bsimm.com/
 - **Purpose**: Describe what real organizations actually do for software security
@@ -20,6 +21,7 @@ BSIMM is a descriptive census of what programs already do. SF² sequences a prac
 **BSIMM is descriptive, not prescriptive.** It shows what organizations do, not what they should do.
 
 SF² provides the strategic framework to:
+
 - Prioritize BSIMM activities based on your quadrant position
 - Sequence BSIMM activity implementation based on investment strategy
 - Determine which BSIMM activities to skip entirely
@@ -56,6 +58,7 @@ BSIMM organizes these activities into 4 domains:
 **BSIMM Activity Selection**: Automation-friendly activities that scale
 
 **Priority BSIMM Activities**:
+
 1. **CMVM** (Configuration Management & Vulnerability Management)
    - Automated dependency scanning
    - Automated vulnerability remediation
@@ -71,6 +74,7 @@ BSIMM organizes these activities into 4 domains:
    - Automated security patterns
 
 **Skip or Minimize**:
+
 - Manual architecture analysis (AA)
 - Manual code review (CR)
 - Extensive governance documentation (CP)
@@ -83,12 +87,14 @@ BSIMM organizes these activities into 4 domains:
 **BSIMM Activity Selection**: Comprehensive coverage with platform effects
 
 **Priority BSIMM Activities**:
+
 1. **All 12 practices** with high activity coverage
 2. **Platform-scale implementation** of BSIMM activities
 3. **Advanced (BSIMM level-3) activities** appropriate for complexity
 4. **Federated execution** of BSIMM activities (security champions, guilds)
 
 **Optimization Focus**:
+
 - Automate evidence collection for BSIMM activities
 - Platform capabilities enabling BSIMM activities org-wide
 - Eliminate low-value BSIMM activities (even if industry performs them)
@@ -101,6 +107,7 @@ BSIMM organizes these activities into 4 domains:
 **BSIMM Activity Selection**: Essential activities only
 
 **Priority BSIMM Activities**:
+
 1. **CMVM** (Configuration Management & Vulnerability Management)
    - Basic dependency scanning
    - Vulnerability patching process
@@ -112,6 +119,7 @@ BSIMM organizes these activities into 4 domains:
    - Essential build security
 
 **Skip Entirely**:
+
 - Advanced governance activities (SM, CP)
 - Sophisticated attack modeling (AM)
 - Manual architecture analysis (AA)
@@ -127,16 +135,19 @@ BSIMM organizes these activities into 4 domains:
 **Priority BSIMM Activities by System**:
 
 **New/Modern Systems**:
+
 - Full BSIMM practice coverage
 - Automated implementation where possible
 - Build Lean-level capabilities for future
 
 **Legacy Systems**:
+
 - CMVM (vulnerability management) only
 - Essential security testing (ST)
 - Risk-based approach (not comprehensive)
 
 **Skip for Legacy**:
+
 - Architecture analysis (AA) - legacy is what it is
 - Code review (CR) - not changing legacy code significantly
 - Sophisticated attack modeling (AM) - pragmatic risk assessment only
@@ -205,12 +216,14 @@ These BSIMM activities often don't justify their cost:
 
 ### High Attack Landscape Maturity
 **Impact**: Prioritizes defensive BSIMM activities
+
 - **CMVM** becomes top priority (automated vulnerability management)
 - **ST** must be automated (manual testing too slow)
 - **PT** less valuable (adversaries find issues faster than annual pentests)
 
 ### High Regulatory Constraints
 **Impact**: Forces governance BSIMM activities
+
 - **CP** (Compliance & Policy) becomes mandatory
 - **SM** (Strategy & Metrics) needed for evidence
 - **T** (Training) required for compliance
@@ -218,6 +231,7 @@ These BSIMM activities often don't justify their cost:
 
 ### Low Relationship Health
 **Impact**: Limits collaborative BSIMM activities
+
 - **AA, CR, PT** difficult (require engineering cooperation)
 - Must focus on automated activities (CMVM, ST, SE)
 - Relationship building becomes prerequisite for manual BSIMM activities
@@ -227,11 +241,13 @@ These BSIMM activities often don't justify their cost:
 ### Scenario: Mass Position Enterprise
 
 **Current State**:
+
 - Attempting comprehensive BSIMM implementation
 - Following industry BSIMM scores
 - Overwhelming security team with 128 activities
 
 **Traditional BSIMM Approach**:
+
 - Implement all activities where industry shows high adoption
 - Progress through BSIMM levels systematically
 - Benchmark against similar organizations
@@ -239,17 +255,20 @@ These BSIMM activities often don't justify their cost:
 **SF²-Informed Approach**:
 
 **Year 1: Stabilization**
+
 - **CMVM** automation (Supply Chain #1)
 - **SE** for new systems (secure build)
 - **Basic ST** (automated security testing)
 - **Skip**: AA, CR, PT, extensive T programs
 
 **Year 2-3: Hybrid Build-out**
+
 - **New systems**: Comprehensive BSIMM (automation-focused)
 - **Legacy**: CMVM only (vulnerability management)
 - **Relationship building**: Enable collaborative activities (AA, CR) over time
 
 **Year 4-5: Comprehensive Coverage**
+
 - **Full BSIMM** for modernized systems
 - **Retire legacy** activities as systems sunset
 - **Optimize**: Eliminate low-value activities
@@ -270,18 +289,21 @@ These BSIMM activities often don't justify their cost:
 ## Key Takeaways
 
 **Use BSIMM for**:
+
 - Comprehensive catalog of security activities
 - Understanding what other organizations do
 - Benchmarking your security program
 - Identifying potential activity gaps
 
 **Use SF² for**:
+
 - Prioritizing which BSIMM activities to implement
 - Sequencing BSIMM activity adoption
 - Determining automation vs manual implementation
 - Deciding which BSIMM activities to skip entirely
 
 **Together**:
+
 - BSIMM provides the activity catalog
 - SF² provides the strategic prioritization framework
 - Result: Focused security program aligned with organizational reality

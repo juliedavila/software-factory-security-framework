@@ -22,12 +22,14 @@ This guide is for organizations in the **Craft** quadrant: small **Blast Radius*
 The most important decision: intentional simplicity or prepare for growth?
 
 **Option A: Intentional Simplicity (Remain Craft)**
+
 - Small team, focused product, sustainable operations
 - Security through simplicity (small attack surface)
 - Selective modernization only where it reduces operational burden
 - Appropriate for: Lifestyle businesses, internal tools, specialized services
 
 **Option B: Prepare for Growth (Move toward Studio)**
+
 - Anticipate operational growth
 - Invest in infrastructure modernization now
 - Build foundations that will scale
@@ -40,12 +42,14 @@ The most important decision: intentional simplicity or prepare for growth?
 Your advantage is small scale. Use it.
 
 **Investment Focus**:
+
 - Managed security services (SaaS over self-hosted)
 - Secure defaults over complex configuration
 - Cloud provider security features (don't build your own)
 - Essential security only (supply chain, patching, basic monitoring)
 
 **Avoid**:
+
 - Building complex security infrastructure
 - Manual processes that don't scale (if growth expected)
 - Premature optimization
@@ -56,12 +60,14 @@ Your advantage is small scale. Use it.
 If preparing for growth, modernize strategically to build Studio foundations.
 
 **Investment Focus**:
+
 - Cloud migration (if still on-premises)
 - CI/CD basics (automated deployment)
 - Infrastructure-as-code foundations
 - Automated security scanning (managed services)
 
 **Avoid**:
+
 - "Lift and shift" cloud migration (recreating legacy in cloud)
 - Over-engineering for hypothetical scale
 - Modernization without clear business value
@@ -98,16 +104,19 @@ If preparing for growth, modernize strategically to build Studio foundations.
 ### Path A: Intentional Simplicity (Remain Craft)
 
 **Year 1 Focus**:
+
 - Maintain essential security through managed services (80% effort)
 - Selective modernization only where it reduces burden (20% effort)
 
 **Security Approach**:
+
 - Managed security services (SaaS tools, cloud provider features)
 - Supply chain security (dependency scanning, SBOM)
 - Basic vulnerability management (automated patching)
 - Essential monitoring (security logs, basic alerting)
 
 **Expected Outcomes**:
+
 - Appropriate security without operational burden
 - Low total cost of ownership
 - Sustainable operations at current scale
@@ -115,18 +124,21 @@ If preparing for growth, modernize strategically to build Studio foundations.
 ### Path B: Prepare for Growth (Move toward Studio)
 
 **Year 1: Infrastructure Modernization** (70% effort on modernization)
+
 - Cloud migration (if on-premises)
 - CI/CD automation
 - Infrastructure-as-code
 - Automated security in pipeline
 
 **Year 2: Security Automation** (50% modernization, 50% security automation)
+
 - Expanded security scanning
 - Security guardrails in infrastructure
 - Self-service secure templates
 - Monitoring and response capabilities
 
 **Expected Outcomes**:
+
 - **Studio quadrant positioning** after 18-24 months
 - Security embedded in modern infrastructure
 - Ready to scale with business growth
@@ -138,6 +150,7 @@ If preparing for growth, modernize strategically to build Studio foundations.
 **Risk**: Unintentionally growing complexity without increasing readiness
 
 **Symptoms**:
+
 - Adding features without modernizing infrastructure
 - Team growing but still manual processes
 - Increasing operational burden without automation
@@ -149,6 +162,7 @@ If preparing for growth, modernize strategically to build Studio foundations.
 **Risk**: Building for scale you may never reach
 
 **Symptoms**:
+
 - Complex security infrastructure for 10-person team
 - Self-hosting tools that could be SaaS
 - Extensive automation for rare scenarios
@@ -160,6 +174,7 @@ If preparing for growth, modernize strategically to build Studio foundations.
 **Risk**: Modernizing in wrong order creates more problems
 
 **Symptoms**:
+
 - Lift-and-shift cloud migration (legacy architecture in cloud)
 - Adding automation to broken processes
 - Infrastructure-as-code for unstable architecture
@@ -171,6 +186,7 @@ If preparing for growth, modernize strategically to build Studio foundations.
 **Risk**: Attempting Studio/Lean approaches with Craft resources
 
 **Symptoms**:
+
 - Security team overwhelmed trying to build platforms
 - Half-finished modernization projects
 - Burnout from unsustainable manual work
@@ -183,12 +199,14 @@ If preparing for growth, modernize strategically to build Studio foundations.
 ### Path A: Intentional Simplicity
 
 **6 Months**:
+
 - [ ] **Essential security implemented** (dependency scanning, patching, basic monitoring)
 - [ ] **Managed services handling 80%+ of security** (minimal operational burden)
 - [ ] **Security incidents responded to within 24 hours**
 - [ ] **Sustainable security operations** (not requiring heroic effort)
 
 **12 Months**:
+
 - [ ] **Zero critical vulnerabilities in production** (through automated scanning and patching)
 - [ ] **Security integrated into development workflow** (not separate process)
 - [ ] **Quarterly security reviews** (confirming approach still appropriate)
@@ -197,18 +215,21 @@ If preparing for growth, modernize strategically to build Studio foundations.
 ### Path B: Prepare for Growth
 
 **6 Months**:
+
 - [ ] **Cloud migration plan finalized** (if applicable) or **basic CI/CD operational**
 - [ ] **Automated security scanning deployed**
 - [ ] **Infrastructure-as-code for 30%+ of systems**
 - [ ] **Operational readiness metrics tracked**
 
 **12 Months**:
+
 - [ ] **Cloud migration 80% complete** (if applicable)
 - [ ] **CI/CD automation covering all deployments**
 - [ ] **Infrastructure-as-code for 70%+ of systems**
 - [ ] **Security embedded in deployment pipeline**
 
 **18-24 Months**:
+
 - [ ] **Studio quadrant positioning achieved**
 - [ ] **Security automation at Studio level** (see Studio guide)
 - [ ] **Ready to scale** with business growth
@@ -220,12 +241,14 @@ If preparing for growth, modernize strategically to build Studio foundations.
 This is a valid, sustainable choice for many organizations:
 
 **When Appropriate**:
+
 - Stable team size (<20 people)
 - Single focused product/service
 - Not venture-funded or seeking rapid growth
 - Strong product-market fit at current scale
 
 **Strategy**:
+
 - Use managed services for security
 - Security through simplicity (small attack surface)
 - Quarterly reassessment of strategic choice
@@ -239,6 +262,7 @@ Preparing infrastructure for growth:
 **Strategy**: Single-axis movement (increase operational readiness)
 
 **Key Investments**:
+
 - Cloud infrastructure (if not already cloud-native)
 - CI/CD automation
 - Infrastructure-as-code
@@ -249,6 +273,7 @@ Preparing infrastructure for growth:
 **Success Probability**: High (single-axis movement is achievable)
 
 **Critical Success Factors**:
+
 - Clear business case for modernization
 - Adequate resources (time, money, expertise)
 - Avoid half-finished modernization
@@ -258,12 +283,14 @@ Preparing infrastructure for growth:
 Growing complexity without increasing readiness:
 
 **Warning Signs**:
+
 - Team growing but processes still manual
 - Multiple products but no platform thinking
 - Increasing operational burden without automation
 - Security becoming bottleneck
 
 **Prevention**:
+
 - Intentional strategic choice reviewed quarterly
 - If growing complexity, invest in operational readiness
 - If not investing in readiness, constrain complexity

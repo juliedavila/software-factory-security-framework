@@ -41,10 +41,12 @@ Each modifier has three impact levels that influence your implementation:
 Contextual modifiers can compound or offset each other:
 
 **Compounding Effects**:
+
 - High attack landscape maturity + high supply chain complexity = Supply chain becomes urgent regardless of quadrant
 - Low change capacity + poor relationship health = Scaling investments will face significant adoption challenges
 
 **Offsetting Effects**:
+
 - High regulatory constraints (slows down) + crisis events (speeds up) = May create windows for change during crisis response
 - Low change capacity + strong relationship health = Adoption challenges mitigated by trust and collaboration
 
@@ -96,17 +98,20 @@ The set sheds and grows by the same gate. A factor folded into a broader modifie
 ### Implementation Adjustments
 
 **For Positive Modifiers** (High relationship health, strong change capacity):
+
 - Accelerate transformation timelines
 - Take on more ambitious scaling investments
 - Experiment with advanced capabilities earlier
 
 **For Constraining Modifiers** (High regulatory constraints, low change capacity):
+
 - Extend timelines and add checkpoints
 - Start with smaller pilots before broad rollout
 - Invest in change management and stakeholder alignment
 - Choose less disruptive implementation paths
 
 **For Crisis Modifiers** (High attack landscape maturity, recent crisis events):
+
 - Prioritize security investments that address immediate threats
 - Use urgency to accelerate approvals and adoption
 - Balance rapid response with sustainable transformation

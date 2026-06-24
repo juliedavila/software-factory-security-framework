@@ -15,6 +15,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 <div class="quadrant-studio" markdown>
 
 **Who You Are**:
+
 - Small teams (typically under 50 engineers)
 - Cloud-native infrastructure from inception
 - Automated CI/CD pipelines and modern DevOps practices
@@ -60,6 +61,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 <div class="quadrant-lean" markdown>
 
 **Who You Are**:
+
 - Large-scale operations (100+ engineers, multiple teams)
 - Sophisticated DevOps and platform engineering practices
 - Comprehensive observability and automation across the enterprise
@@ -106,6 +108,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 <div class="quadrant-craft" markdown>
 
 **Who You Are**:
+
 - Small teams with limited resources
 - Legacy systems or manual deployment processes
 - Limited automation and observability
@@ -151,6 +154,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 <div class="quadrant-mass" markdown>
 
 **Who You Are**:
+
 - Large-scale operations with legacy constraints
 - Significant technical debt and mixed infrastructure (legacy + modern)
 - Manual processes coexist with automated systems

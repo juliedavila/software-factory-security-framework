@@ -119,12 +119,14 @@ The timelines above are install-and-build floors. A move is not done until it is
 ### When to Choose This Path
 
 **Yes, if:**
+
 - Your business remains relatively simple (single team or product focus)
 - You have budget/appetite for infrastructure modernization
 - Legacy technical debt is constraining your business velocity
 - You want to enable future automation before your reach widens
 
 **No, if:**
+
 - You're simultaneously scaling teams and organizational complexity rapidly
 - Legacy systems have significant customer dependencies requiring careful migration
 - Business model requires immediate complexity scaling
@@ -140,18 +142,21 @@ The timelines above are install-and-build floors. A move is not done until it is
 ### Sequencing Strategy
 
 **Months 1-6: Foundation**
+
 - [ ] Cloud platform selection and initial migration planning
 - [ ] Basic CI/CD pipeline for new services or non-critical systems
 - [ ] Observability platform implementation with critical system coverage
 - [ ] Team training on cloud-native practices and DevOps principles
 
 **Months 7-12: Acceleration**
+
 - [ ] Expand CI/CD coverage to 70%+ of systems
 - [ ] Infrastructure as Code for new deployments
 - [ ] Security tooling integrated into pipelines with automated feedback
 - [ ] Legacy system migration planning with risk assessment
 
 **Months 13-18: Completion**
+
 - [ ] 90%+ systems on modern infrastructure
 - [ ] Automated security scanning comprehensive
 - [ ] Manual deployment processes eliminated for standard changes
@@ -187,11 +192,13 @@ The timelines above are install-and-build floors. A move is not done until it is
 ### When to Choose This Path
 
 **Yes, if:**
+
 - Business growth requires rapid team scaling and organizational complexity
 - Market opportunity demands enterprise features and capabilities
 - Investment in operational readiness infrastructure isn't immediately feasible
 
 **No, if:**
+
 - You can afford to invest in readiness first (Craft → Studio → Lean is better)
 - Current manual processes are already creating business constraints
 - Team has capacity to focus on foundational improvements
@@ -246,18 +253,21 @@ Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term.
 ### Sequencing Strategy
 
 **Months 1-12: Platform Foundation**
+
 - [ ] Security platform vision and initial capabilities
 - [ ] Security champions program launch in 2-3 pilot teams
 - [ ] Enterprise architecture patterns documented
 - [ ] Cross-team coordination mechanisms established
 
 **Months 13-24: Scaling**
+
 - [ ] Platform capabilities covering 50%+ of common security needs
 - [ ] Security champions in all major teams
 - [ ] Federated decision-making with clear guardrails
 - [ ] Organizational structure supporting scale
 
 **Months 25-36: Optimization**
+
 - [ ] Platform capabilities comprehensive and self-service
 - [ ] Security embedded in engineering culture
 - [ ] Continuous improvement processes mature
@@ -332,6 +342,7 @@ Most Mass should invest in operational readiness rather than attempting to shrin
 ### The Challenge
 
 You're simultaneously:
+
 - Holding large inherent reach (broad automation authority across legacy and modern systems, enterprise requirements)
 - Improving operational readiness (automation, cloud migration, technical debt reduction)
 
@@ -348,6 +359,7 @@ This requires sustained executive support, significant investment, and realistic
 ### Sequencing Strategy
 
 **Phase 1 (Months 1-12): Stabilize and Plan**
+
 - [ ] Comprehensive assessment of current state and transformation requirements
 - [ ] Hybrid security architecture supporting legacy and modern systems
 - [ ] Quick wins demonstrating transformation value and building confidence
@@ -355,6 +367,7 @@ This requires sustained executive support, significant investment, and realistic
 - [ ] Transformation roadmap with clear milestones and success metrics
 
 **Phase 2 (Months 13-24): Foundation Building**
+
 - [ ] Critical technical debt reduction enabling future automation
 - [ ] Modern platforms deployed alongside legacy systems
 - [ ] Automation pilots in high-value areas demonstrating ROI
@@ -362,12 +375,14 @@ This requires sustained executive support, significant investment, and realistic
 - [ ] Change management reducing organizational resistance
 
 **Phase 3 (Months 25-36): Acceleration**
+
 - [ ] Significant automation coverage with measurable benefits
 - [ ] Legacy system migration or modernization showing progress
 - [ ] Platform capabilities emerging enabling self-service
 - [ ] Organizational capability development sustaining transformation
 
 **Phase 4 (Months 37-48): Optimization**
+
 - [ ] Lean-level capabilities operational across organization
 - [ ] Legacy constraints substantially eliminated or managed
 - [ ] Security automation enabling business velocity
@@ -405,6 +420,7 @@ This requires sustained executive support, significant investment, and realistic
 ### The Challenge
 
 **You're not done**. The Lean position requires continuous investment to maintain as:
+
 - Organizational complexity continues evolving
 - Technology platforms change and require adaptation
 - Threat landscape shifts requiring capability updates
@@ -436,19 +452,23 @@ This requires sustained executive support, significant investment, and realistic
 Use these questions to select your optimal path:
 
 **1. What is your current position?**
+
 - Accurately assess using [strategic positions assessment tool](strategic-positions.md#position-assessment-tool)
 
 **2. What is your business trajectory?**
+
 - Remaining simple vs scaling complexity
 - Revenue growth supporting transformation investment
 - Market pressures requiring rapid change
 
 **3. What is your organizational change capacity?**
+
 - Executive sponsorship sustainability over multi-year timeline
 - Team capacity for transformation alongside operational demands
 - Cultural readiness for significant change
 
 **4. What are your critical constraints?**
+
 - Budget availability for transformation investment
 - Technical debt severity limiting automation potential
 - Regulatory requirements affecting technology choices
@@ -456,18 +476,22 @@ Use these questions to select your optimal path:
 ### Recommended Paths by Situation
 
 **High-growth startup (Craft)**:
+
 - Best: Craft → Studio (12-18 months) → Lean (24-36 months)
 - Avoid: Craft → Mass (creates technical debt requiring later remediation)
 
 **Established enterprise with legacy (Mass)**:
+
 - Best: Mass → Lean (36-60 months)
 - Avoid: Attempting Mass → Craft (usually fails)
 
 **Cloud-native startup scaling (Studio)**:
+
 - Best: Studio → Lean (24-36 months)
 - Maintain: High operational readiness during reach scaling
 
 **Industry leader (Lean)**:
+
 - Best: Lean → Lean (continuous evolution)
 - Avoid: Complacency leading to readiness degradation
 

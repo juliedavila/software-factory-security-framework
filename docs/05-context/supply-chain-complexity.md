@@ -12,6 +12,7 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 ### Simple Supply Chain
 
 **Characteristics**:
+
 - Standard dependencies with known vendors
 - Direct relationships (minimal tiers)
 - Straightforward compliance
@@ -23,6 +24,7 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 ### Complex Supply Chain
 
 **Characteristics**:
+
 - Multi-tier dependencies (2-3 levels deep)
 - Critical SaaS integrations
 - Multiple geographic regions
@@ -34,6 +36,7 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 ### Critical Supply Chain
 
 **Characteristics**:
+
 - National security implications
 - Highly regulated vendors (defense, finance)
 - Geopolitical constraints and restrictions
@@ -76,16 +79,19 @@ Follow standard quadrant approach for supply chain stewardship
 **Requires Lean-level capabilities even in other quadrants**:
 
 **Craft with Critical Supply Chain**:
+
 - Implement enterprise SBOM tools early
 - Comprehensive vendor security program
 - May need dedicated supply chain security role
 
 **Mass with Critical Supply Chain**:
+
 - Prioritize supply chain modernization
 - Hybrid approaches with enhanced visibility
 - Balance legacy and modern supply chain security
 
 **Studio with Critical Supply Chain**:
+
 - Use advanced supply chain automation
 - Policy-as-code for supply chain governance
 - AI-powered supply chain risk analysis

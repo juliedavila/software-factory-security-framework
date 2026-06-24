@@ -19,12 +19,14 @@ This guide is for organizations in the **Lean** quadrant: large **Blast Radius**
 You have established security capabilities. Focus on optimization and continuous improvement.
 
 **Investment Focus**:
+
 - Data-driven optimization of existing security platforms
 - Eliminate security theater (activities that don't reduce risk)
 - Advanced automation to replace remaining manual processes
 - Security engineering productivity tools
 
 **Avoid**:
+
 - Complacency (maintaining status quo)
 - Adding capabilities without retiring old ones (tool sprawl)
 - Activity metrics over outcome metrics
@@ -34,12 +36,14 @@ You have established security capabilities. Focus on optimization and continuous
 Your complexity requires platform thinking. Build capabilities that serve multiple teams.
 
 **Investment Focus**:
+
 - Security platforms with self-service capabilities
 - Policy-as-code at organizational scale
 - Federated security models (champions who set boundaries, not gate changes)
 - Reusable security components and libraries
 
 **Avoid**:
+
 - Centralized bottlenecks (security as single point of failure)
 - One-size-fits-all solutions (enable teams to customize within guardrails)
 - Platform features without adoption focus
@@ -49,12 +53,14 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 Security should be a differentiator, not a cost center.
 
 **Investment Focus**:
+
 - Security product capabilities (if customer-facing software factory)
 - Advanced threat detection and response
 - Supply chain security leadership
 - Security research and thought leadership
 
 **Avoid**:
+
 - Innovation for innovation's sake
 - Pursuing cutting-edge at expense of fundamentals
 - Building capabilities that don't align with business strategy
@@ -90,11 +96,13 @@ Security should be a differentiator, not a cost center.
 ### Year 1: Optimize and Scale
 
 **BAU to Constrain** (10-15% effort):
+
 - Truly unique security challenges requiring expert review
 - Strategic incident response (automated where possible)
 - Critical compliance audits (automate evidence collection)
 
 **Scaling Investments** (85-90% effort):
+
 - Platform optimization and adoption improvement
 - Advanced automation (threat modeling, automated remediation)
 - Federated security models
@@ -102,6 +110,7 @@ Security should be a differentiator, not a cost center.
 - Tool consolidation and retirement
 
 **Expected Outcomes**:
+
 - 50% reduction in manual security work through optimization
 - 90%+ of teams using security platforms voluntarily
 - Security capabilities as competitive advantage
@@ -110,10 +119,12 @@ Security should be a differentiator, not a cost center.
 ### Year 2: Lead the Industry
 
 **BAU to Constrain** (5-10% effort):
+
 - Only truly novel security challenges
 - Strategic advisory for critical decisions
 
 **Scaling Investments** (90-95% effort):
+
 - Advanced security research and innovation
 - Open source security leadership
 - Industry standard contribution
@@ -121,6 +132,7 @@ Security should be a differentiator, not a cost center.
 - AI-powered security capabilities
 
 **Expected Outcomes**:
+
 - Security as measurable competitive advantage
 - Industry thought leadership
 - Attracting top security talent through reputation
@@ -132,6 +144,7 @@ Security should be a differentiator, not a cost center.
 **Risk**: Resting on past success while adversaries evolve
 
 **Symptoms**:
+
 - "We've always done it this way" mentality
 - Declining participation in security programs
 - Missing emerging threats (supply chain, AI security)
@@ -143,6 +156,7 @@ Security should be a differentiator, not a cost center.
 **Risk**: Accumulating security tools without sunsetting old ones
 
 **Symptoms**:
+
 - 20+ security tools with overlapping capabilities
 - Low adoption rates across multiple tools
 - Alert fatigue from redundant tooling
@@ -154,6 +168,7 @@ Security should be a differentiator, not a cost center.
 **Risk**: Focusing on incremental improvements while missing strategic shifts
 
 **Symptoms**:
+
 - All security investments are optimizations of existing capabilities
 - No exploration of emerging security paradigms
 - Falling behind on supply chain, AI, cloud-native security
@@ -165,6 +180,7 @@ Security should be a differentiator, not a cost center.
 **Risk**: Building sophisticated platforms nobody uses
 
 **Symptoms**:
+
 - Low voluntary adoption of security platforms
 - Teams building workarounds instead of using platforms
 - Platform teams focused on features, not user experience
@@ -200,6 +216,7 @@ Continuous effort required to maintain leadership position:
 **Strategy**: Continuous innovation and optimization to stay ahead
 
 **Key Investments**:
+
 - Ongoing platform optimization
 - Cutting-edge security research
 - Industry collaboration and standards contribution
@@ -216,12 +233,14 @@ There is a faster way to lose Lean than gradual creep, and it is worth naming pl
 Without continuous investment, large reach outruns the readiness that was containing it:
 
 **Warning Signs**:
+
 - Manual processes creeping back in
 - Platform adoption declining
 - Security becoming bottleneck again
 - Team morale declining
 
 **Prevention**:
+
 - Maintain 85%+ effort on scaling investments
 - Ruthlessly eliminate low-value activities
 - Continuous improvement culture
@@ -231,24 +250,28 @@ Without continuous investment, large reach outruns the readiness that was contai
 
 ### Threat Modeling as Code
 Automated threat modeling integrated into development workflow:
+
 - Infrastructure-as-code scanning for security patterns
 - Automated risk assessment based on component composition
 - Self-service threat model generation
 
 ### Automated Remediation
 Moving beyond detection to automated response:
+
 - Auto-patching for approved vulnerability classes
 - Automated security configuration drift correction
 - Self-healing security controls
 
 ### Security Product Capabilities
 If you operate a customer-facing software factory:
+
 - Security features as product differentiators
 - Compliance certifications as competitive advantage
 - Security transparency as trust builder
 
 ### Supply Chain Security Leadership
 Advanced supply chain security:
+
 - Complete SBOM across all products
 - Continuous supply chain monitoring
 - Vendor security posture management

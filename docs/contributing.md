@@ -152,6 +152,7 @@ Include:
 ✅ **Builds** the documentation to catch errors
 
 **What this means for you:**
+
 - Focus on writing great content
 - Don't worry about updating robots.txt, framework.json, or other meta files
 - If there's an issue, the pipeline will tell you exactly what needs fixing

@@ -14,11 +14,13 @@ A 50-person SaaS startup (Studio position) hits the scaling crisis: security rev
 **Strategic Position**: Studio (Small reach + High Readiness)
 
 **Contextual Modifiers**:
+
 - High attack landscape maturity (SaaS target)
 - Moderate supply chain complexity (standard dependencies)
 - Strong relationship health (good dev-security collaboration)
 
 **Investment Strategy**:
+
 1. **Constrain BAU**: Reduce manual security reviews to critical features only
 2. **Scaling Investment**: Implement automated security scanning + paved roads for common patterns
 3. **Timeline**: 6-month implementation with 3x ROI expected
@@ -37,12 +39,14 @@ A 5,000-person financial services company (Mass position) needs to modernize sec
 **Strategic Position**: Mass (Large reach + Low Readiness)
 
 **Contextual Modifiers**:
+
 - High regulatory constraints (financial services)
 - Low change capacity (risk-averse culture)
 - Moderate relationship health (improving)
 - Recent crisis event (audit findings)
 
 **Investment Strategy**:
+
 1. **Use crisis window**: Apply audit findings for funding approval
 2. **Hybrid approach**: Modern security for new systems, pragmatic controls for legacy
 3. **Extended timeline**: 36-60 month transformation with phased rollout
@@ -61,11 +65,13 @@ A technology company discovers compromised dependencies used in production syste
 **Universal Stewardship Priority**: [Supply Chain #1](../02-stewardship/supply-chain.md) priority activated
 
 **Contextual Modifiers**:
+
 - High attack landscape maturity (automated supply chain attacks)
 - Crisis event (compromised dependency)
 - Complex supply chain (multi-tier dependencies)
 
 **Response Strategy**:
+
 1. **Immediate**: Contain and assess impact
 2. **Short-term**: Implement automated dependency scanning
 3. **Medium-term**: Deploy SBOM capabilities and continuous monitoring
@@ -86,16 +92,19 @@ A 20-person startup with legacy infrastructure decides to modernize their entire
 **Target Position**: Studio (Small reach + High Readiness)
 
 **Movement Path**: Infrastructure modernization (single axis movement)
+
 - Timeline: 12-18 months
 - Success probability: High (single axis change)
 
 **Investment Priorities**:
+
 1. Cloud platform migration
 2. CI/CD automation
 3. Infrastructure-as-code
 4. Automated security testing
 
 **Security Integration**:
+
 - Implement security automation during modernization
 - Policy-as-code from the start
 - Avoid recreating manual processes in new infrastructure
@@ -114,16 +123,19 @@ A security team at series C company recognizes unsustainable demand growth and n
 **BAU Constraint Strategy** (from [Investment Portfolio](../04-investment/portfolio-framework.md)):
 
 **Phase 1 - Communication (Month 1)**:
+
 - Transparent explanation of scaling challenge
 - Presentation of self-service alternatives
 - Clear prioritization criteria for manual reviews
 
 **Phase 2 - Alternatives (Months 2-3)**:
+
 - Deploy security scanning automation
 - Create secure templates for common patterns
 - Build self-service documentation
 
 **Phase 3 - Constraint (Month 4)**:
+
 - Limit manual reviews to novel/high-risk changes
 - Direct teams to self-service for standard patterns
 - Measure adoption and iterate
@@ -174,6 +186,7 @@ Use this template to apply SF² to your organization:
 
 ### 3. Identify Priority Stewardship Areas
 Based on position and modifiers:
+
 1. Primary focus: _______________
 2. Secondary focus: _______________
 3. Maintenance areas: _______________
@@ -200,6 +213,7 @@ Enumerate the agent × API × autonomy interactions and test each seam: what it 
 Have you applied SF² to your organization? We welcome real-world use case contributions!
 
 **What to include**:
+
 - Organizational context (anonymized)
 - Strategic position and modifiers
 - Framework application approach

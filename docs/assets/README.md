@@ -20,16 +20,19 @@ This directory contains the branding assets for the Software Factory Security Fr
 ## Design Specifications
 
 **Color Palette:**
+
 - Primary: #1a3a52 (Dark blue/navy - shield background)
 - Accent: #ffffff (White - lettermark)
 - Matches site theme: Indigo (#3F51B5)
 
 **Typography:**
+
 - "SF²" in bold, geometric sans-serif style
 - Superscript "²" properly positioned
 - High contrast white on dark blue
 
 **Shape:**
+
 - Pentagon shield (5 sides + pointed bottom)
 - Conveys security and protection
 - Clean, geometric, modern design
@@ -41,6 +44,7 @@ For maximum browser compatibility, you may want to create additional formats:
 ### Converting to PNG/ICO
 
 **Using Online Tools:**
+
 1. **SVG to PNG**: https://cloudconvert.com/svg-to-png
    - Upload `favicon.svg`
    - Set sizes: 16x16, 32x32, 180x180 (for apple-touch-icon)

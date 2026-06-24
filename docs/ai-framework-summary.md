@@ -32,6 +32,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Strategy**: Automate from the start, build scaling foundations early
 
 **Investment Focus**:
+
 - Automated security scanning in CI/CD
 - Secure templates and paved roads
 - Self-service capabilities
@@ -47,6 +48,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Strategy**: Optimize existing capabilities, build platform effects, security as competitive advantage
 
 **Investment Focus**:
+
 - Platform-scale automation
 - Advanced security capabilities
 - Federated security models
@@ -62,11 +64,13 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Strategy**: Choose intentional simplicity OR prepare for growth (two distinct paths)
 
 **Path A - Intentional Simplicity**:
+
 - Managed security services
 - Essential security only
 - Security through simplicity
 
 **Path B - Prepare for Growth**:
+
 - Infrastructure modernization
 - CI/CD foundation
 - Move toward Studio over 18-24 months
@@ -79,6 +83,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Strategy**: Stabilize first, hybrid approach (modern for new, pragmatic for legacy), realistic 3-5 year timeline
 
 **Investment Focus**:
+
 - Quick automation wins
 - Modern security for new systems
 - Pragmatic controls for legacy
@@ -178,6 +183,7 @@ Factors that significantly affect strategy implementation:
 **Impact**: Directly affects adoption velocity
 
 **Levels**:
+
 - Damaged: Security as blocker
 - Functional: Working but transactional
 - Strategic: Security as enabler and partner
@@ -219,16 +225,19 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ### Supported AI Tools
 
 **Claude Desktop**:
+
 - Projects with persistent framework knowledge
 - Deep strategic reasoning, long context
 - Best for: Extended strategic planning sessions
 
 **ChatGPT**:
+
 - Custom GPTs with framework configuration
 - Team collaboration, web browsing
 - Best for: Organization-wide consistent framework access
 
 **Gemini**:
+
 - Gems with Google Workspace integration
 - Native Docs/Sheets/Slides collaboration
 - Best for: Strategy development in collaborative documents
@@ -259,12 +268,14 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ### Should We Reduce Complexity First? (Mass)
 
 **Yes, if**:
+
 - Products/services can be consolidated or retired
 - Business model supports scope reduction
 - Executive support for difficult decisions
 - Prefer faster transformation (3-4 years vs 4-5)
 
 **No, if**:
+
 - Business model requires current complexity
 - Revenue tied to all current products
 - Must maintain all operations
@@ -273,16 +284,19 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ### Which ASVS Level Should We Target?
 
 **Level 1 (Opportunistic)**:
+
 - Craft for most applications
 - Mass for legacy systems being retired
 
 **Level 2 (Standard)**:
+
 - Studio for all applications
 - Lean for all applications
 - Mass for new/modern systems
 - Most organizations should target this
 
 **Level 3 (Advanced)**:
+
 - Lean for high-security applications
 - Payment systems, sensitive data, critical infrastructure
 - Not typically cost-effective for others
@@ -290,12 +304,14 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ### Build vs Buy Security Platform?
 
 **Build** (Studio moving to Lean):
+
 - Custom requirements not met by vendors
 - Platform effects across many teams
 - Engineering capacity available
 - Long-term investment justified
 
 **Buy** (Most organizations):
+
 - Standard capabilities needed
 - Faster time-to-value required
 - Limited engineering capacity
@@ -352,18 +368,21 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 ## When to Use This Framework
 
 **Strategic Planning**:
+
 - Assessing current security program positioning
 - Designing multi-year investment strategies
 - Justifying budget to executives/board
 - Planning security transformations
 
 **Tactical Decisions**:
+
 - Evaluating security tool purchases
 - Deciding build vs buy for capabilities
 - Prioritizing which practices to implement first
 - Sequencing framework adoption (NIST, OWASP)
 
 **Organizational Change**:
+
 - Communicating strategy to stakeholders
 - Building relationship with engineering
 - Shifting from manual to automated security
@@ -406,6 +425,7 @@ When helping users with SF² framework:
 **Current Position** → Assess Complexity (Simple/Complex) + Readiness (Lower/Higher)
 
 **Quadrant Priorities**:
+
 - Studio: Automate early
 - Lean: Optimize and scale
 - Craft: Choose your path

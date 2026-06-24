@@ -46,6 +46,7 @@ A scaling investment pays off only when the organization takes it up. The capabi
 ## Building Strong Relationships
 
 **For Damaged Relationships**:
+
 1. Listen and acknowledge past friction
 2. Focus on quick wins that reduce developer pain
 3. Be transparent about constraints
@@ -53,6 +54,7 @@ A scaling investment pays off only when the organization takes it up. The capabi
 5. Measure and improve developer experience
 
 **For Functional Relationships**:
+
 1. Increase proactive engagement
 2. Collaborate on shared objectives
 3. Invest in developer-friendly security tools
@@ -60,6 +62,7 @@ A scaling investment pays off only when the organization takes it up. The capabi
 5. Build security champions program
 
 **For Strategic Partnerships**:
+
 1. Maintain momentum through continuous improvement
 2. Co-design security capabilities
 3. Share ownership of security outcomes
@@ -69,6 +72,7 @@ A scaling investment pays off only when the organization takes it up. The capabi
 ## Impact on Transformation
 
 **Strong relationships enable**:
+
 - Faster adoption of scaling investments
 - Higher adoption through low-friction, often voluntary, participation
 - Better feedback and iteration
@@ -76,6 +80,7 @@ A scaling investment pays off only when the organization takes it up. The capabi
 - Sustainable transformation
 
 **Weak relationships require**:
+
 - Extended relationship-building before transformation
 - A shift to low-friction defaults rather than more mandates
 - Slower rollouts with more resistance

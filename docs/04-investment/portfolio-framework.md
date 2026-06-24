@@ -20,6 +20,7 @@ Past a certain point, the solution isn't necessarily doing more security work. I
 The BAU scaling crisis isn't a resource problem. It's a capability mismatch. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
 
 **The Structural Mismatch**:
+
 - **Manual defender processes**: Quarterly vulnerability scans, manual asset discovery, individual security reviews
 - **Scaled adversary automation**: Continuous probing, automated reconnaissance, industrial-scale exploitation
 
@@ -114,12 +115,14 @@ One thing the return-shape ranking does not say on its own: the category it tell
 ### BAU Activities (Constrain)
 
 **Characteristics**:
+
 - Manual work that scales with growth
 - Security reviews, threat modeling, incident response
 - Customer security questionnaires
 - Individual risk assessments
 
 **Evaluation Criteria**:
+
 - Operational necessity
 - Customer impact
 - Constraint sustainability
@@ -134,12 +137,14 @@ One thing the return-shape ranking does not say on its own: the category it tell
 ### Scaling Investments (Prioritize)
 
 **Characteristics**:
+
 - Capabilities that reduce manual effort exponentially
 - Automation platforms, self-service capabilities, policy-as-code
 - Developer security platforms
 - Continuous security validation
 
 **Evaluation Criteria**:
+
 - Manual effort reduction potential
 - Developer experience improvement
 - Time to value
@@ -159,12 +164,14 @@ One thing the return-shape ranking does not say on its own: the category it tell
 ### Platform Effects (Multiply)
 
 **Characteristics**:
+
 - Benefits both internal and customer software factories
 - Security capabilities that create multiplicative value
 - Open-source security tools
 - Security-as-a-service offerings
 
 **Evaluation Criteria**:
+
 - Internal business case + multiplicative customer value
 - Competitive differentiation
 - Market amplification potential
@@ -198,21 +205,25 @@ The most sustainable security investments do more than solve immediate problems.
 **Examples of Compound Capabilities**:
 
 **Paved Roads**:
+
 - Secure templates and baselines that engineers reuse without security review
 - Each use provides security value without marginal security team effort
 - Templates improve based on lessons learned
 
 **Self-Service Platforms**:
+
 - Automated environments and policy-as-code
 - Eliminates recurring security review requests
 - Scales to thousands of deployments without proportional security team growth
 
 **Automated Dependency Management**:
+
 - Continuous monitoring without manual scanning
 - Automated vulnerability detection and remediation
 - Improves security posture while reducing security team workload
 
 **Security-Quality Integration**:
+
 - Process improvements that serve both goals simultaneously
 - Single investment, dual benefits
 - Reinforcing improvements over time
@@ -278,24 +289,28 @@ When proposing the shift from traditional to strategic scaling:
 Run it in this order: assess, pilot, constrain, expand. The quarter labels are a 2026 baseline cadence. An organization with high absorption capacity may move through it in two quarters; one stabilizing heavy BAU debt may need a year. Pace the moves to what the organization can absorb, not to the calendar.
 
 **Quarter 1: Assessment and Planning**
+
 - Measure current BAU demand and capacity
 - Identify scaling investment opportunities
 - Assess developer pain points
 - Build business case for strategic shift
 
 **Quarter 2: Pilot Scaling Investments**
+
 - Select highest-impact scaling investment
 - Implement pilot with small team
 - Measure manual effort reduction
 - Collect developer feedback
 
 **Quarter 3: Constrain BAU + Scale Alternatives**
+
 - Introduce strategic BAU constraints
 - Provide self-service alternatives
 - Communicate clearly about transition
 - Monitor adoption and satisfaction
 
 **Quarter 4: Iterate and Expand**
+
 - Review pilot results and iterate
 - Expand successful scaling investments
 - Build compound capabilities

@@ -12,12 +12,14 @@ Around 2017, the attack landscape fundamentally changed. Adversaries evolved fro
 ### Low Maturity: Targeted Attacks
 
 **Characteristics**:
+
 - Attacks require specific knowledge of your systems
 - Manual reconnaissance against known targets
 - Attacker invests time in individual organizations
 - Exploitation requires customization
 
 **Defender Advantage**:
+
 - Manual security processes can keep pace
 - Quarterly assessments may be sufficient
 - Asset discovery matches attacker reconnaissance speed
@@ -27,12 +29,14 @@ Around 2017, the attack landscape fundamentally changed. Adversaries evolved fro
 ### Moderate Maturity: Automated Common Vulnerabilities
 
 **Characteristics**:
+
 - Automated scanning for known vulnerabilities
 - Some internet-scale reconnaissance
 - Exploitation of common misconfigurations
 - Credential stuffing at scale
 
 **Defender Challenge**:
+
 - Manual processes start falling behind
 - Need for continuous monitoring increases
 - Asset inventory must be more frequent
@@ -42,6 +46,7 @@ Around 2017, the attack landscape fundamentally changed. Adversaries evolved fro
 ### High Maturity: Industrial-Scale Automation
 
 **Characteristics**:
+
 - **Bug bounty techniques applied at internet scale**
 - **Adversaries discover assets before defenders catalog them**
 - Rapid exploitation of disclosed vulnerabilities
@@ -49,6 +54,7 @@ Around 2017, the attack landscape fundamentally changed. Adversaries evolved fro
 - Real-time vulnerability weaponization
 
 **Defender Crisis**:
+
 - Manual defender processes versus scaled adversary automation
 - Quarterly asset inventories face adversaries with continuous discovery
 - Unknown assets become critical vulnerabilities
@@ -88,16 +94,19 @@ Use these questions to determine your attack landscape maturity:
 ### Investment Priorities
 
 **Low Maturity Context**:
+
 - Manual security processes remain viable
 - Gradual automation roadmap acceptable
 - Focus on process maturity before automation
 
 **Moderate Maturity Context**:
+
 - Begin prioritizing automation investments
 - Accelerate continuous monitoring capabilities
 - Balance manual and automated approaches
 
 **High Maturity Context**:
+
 - **Automation becomes existential priority**
 - Supply chain continuous monitoring critical
 - Asset discovery automation required

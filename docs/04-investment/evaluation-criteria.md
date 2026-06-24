@@ -11,12 +11,14 @@ This framework provides objective criteria for evaluating and prioritizing scali
 ## When to Use This Framework
 
 **Appropriate for**:
+
 - Scaling investments (automation, self-service, platform capabilities)
 - Tool and technology selection decisions
 - Process improvement prioritization
 - Resource allocation across competing security initiatives
 
 **Not designed for**:
+
 - Emergency incident response (requires immediate action)
 - Regulatory compliance requirements (non-discretionary)
 - Executive-mandated initiatives (political reality)
@@ -47,6 +49,7 @@ Use these criteria to score and compare potential security investments systemati
 | **1 - Minimal** | Reduces <10% of manual effort | <100 hours | Security tool with high manual overhead |
 
 **Assessment Questions**:
+
 - What manual security work does this eliminate completely?
 - How many person-hours per month does this category consume currently?
 - Will benefits compound as the organization scales?
@@ -54,6 +57,7 @@ Use these criteria to score and compare potential security investments systemati
 - What new authority, attack surface, or maintenance burden does this automation create, and is that cost already netted in your Adversary Economics score?
 
 **Red Flags**:
+
 - "This tool will help us work more efficiently" (without specific hour reduction)
 - Automation that requires extensive manual tuning or maintenance
 - Solutions that create new categories of manual work
@@ -77,6 +81,7 @@ Use these criteria to score and compare potential security investments systemati
 | **1 - High Friction** | Significant workflow disruption | Costs 5+ hours/week | Active resistance, widespread workarounds |
 
 **Assessment Questions**:
+
 - Does this integrate seamlessly into existing development workflows?
 - How much additional time or effort does this require from developers?
 - Do developers see personal benefit, or only security team benefit?
@@ -84,6 +89,7 @@ Use these criteria to score and compare potential security investments systemati
 - Is this faster/easier than current alternatives (including workarounds)?
 
 **Developer Experience Testing**:
+
 - Pilot with friendly team before broad rollout
 - Measure time-to-first-value (how long until developers see benefits)
 - Track adoption voluntarily vs via mandate
@@ -108,12 +114,14 @@ Use these criteria to score and compare potential security investments systemati
 | **1 - Delayed** | 18+ months to measurable impact | Benefits uncertain or far future | High risk of abandonment, requires exceptional justification |
 
 **Assessment Questions**:
+
 - What is minimum viable implementation that delivers measurable value?
 - Can we phase this to deliver incremental benefits?
 - What metrics will demonstrate value, and when can we measure them?
 - How do we communicate progress during implementation?
 
 **Sequencing Strategy**:
+
 - Start investment portfolio with high time-to-value projects (score 4-5)
 - Build organizational confidence before tackling longer-term investments
 - Mix quick wins with strategic long-term capabilities
@@ -138,6 +146,7 @@ Use these criteria to score and compare potential security investments systemati
 | **1 - Damaging** | Undermines culture | Reduces safety, creates blame | Inhibits learning, creates fear |
 
 **Assessment Questions**:
+
 - Does this create opportunities for learning and improvement?
 - Will this tool/process be used to blame individuals for security issues?
 - Does this support experimentation and innovation, or constrain it?
@@ -145,6 +154,7 @@ Use these criteria to score and compare potential security investments systemati
 - Does this enable self-service and autonomy, or create dependencies and gatekeeping?
 
 **Cultural Red Flags**:
+
 - Tools that "catch" developers making mistakes (blame framing)
 - Processes that require security approval for experimentation
 - Metrics that rank individuals or teams on security "scores"
@@ -170,6 +180,7 @@ Use these criteria to score and compare potential security investments systemati
 | **1 - Extreme** | Organizational restructuring | Fundamental way-of-working change | Multi-year transformation, may require external help |
 
 **Assessment Questions**:
+
 - How much does this change existing ways of working?
 - What training or skill development does this require?
 - Do we have change management resources to support adoption?
@@ -177,6 +188,7 @@ Use these criteria to score and compare potential security investments systemati
 - Are there competing changes creating change saturation?
 
 **Change Management Success Factors**:
+
 - Start with willing early adopters, not mandates
 - Provide hands-on support during initial adoption
 - Celebrate early successes and share learnings
@@ -207,6 +219,7 @@ One kind of cost-imposition earns full credit on its own: friction that comes wi
 | **1 - Minimal** | No meaningful adversary impact | Attacks remain economical | Compliance theater, negligible risk reduction |
 
 **Assessment Questions**:
+
 - Does this eliminate an attack vector completely, or just make it harder?
 - Do attackers need to develop new capabilities to succeed?
 - Does this protect against automated/scaled attacks, or only targeted efforts?
@@ -280,6 +293,7 @@ The spend-side companion to this override is [Defender cost economics](../10-coa
 **Proposed Investment**: Automated dependency scanning with auto-remediation
 
 **Scoring**:
+
 - Manual Effort Reduction: 5 (eliminates 2,000+ hours of manual reviews annually)
 - Developer Experience: 4 (automatic security fixes reduce developer toil)
 - Time to Value: 5 (measurable benefits within 8 weeks of deployment)
@@ -302,6 +316,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 ### Studio (Small reach + High Readiness)
 
 **Adjust weights**:
+
 - Increase Time to Value weight (rapid iteration preferred)
 - Increase Developer Experience weight (preserve innovation culture)
 - Decrease Organizational Change concern (high change capacity)
@@ -313,6 +328,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 ### Lean (Large reach + High Readiness)
 
 **Adjust weights**:
+
 - Increase Adversary Economics weight (sophisticated threat model)
 - Increase Cultural Alignment weight (learning culture critical at scale)
 - Maintain balanced approach across all criteria
@@ -324,6 +340,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 ### Craft (Small reach + Lower Readiness)
 
 **Adjust weights**:
+
 - Increase Organizational Change sensitivity (limited change capacity)
 - Prioritize readiness-building over automation breadth
 - Focus on foundational capabilities enabling future investments
@@ -335,6 +352,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 ### Mass (Large reach + Lower Readiness)
 
 **Adjust weights**:
+
 - Dramatically increase Organizational Change sensitivity (change saturation risk)
 - Increase Time to Value weight (need quick wins for credibility)
 - Focus on hybrid solutions working with legacy constraints
