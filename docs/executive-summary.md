@@ -22,7 +22,7 @@ Five core security responsibilities that apply to every software-producing organ
 2. **Process** - Security embedded throughout development lifecycle
 3. **Runtime** - Maintaining security of systems in production
 4. **Third-Party** - Managing risks from integrated services and platforms
-5. **Continuous Learning** - Evolving security practices based on experience
+5. **Adaptive Capacity** - Whether the system as a whole can absorb a surprise it was not designed for and keep working
 
 [:octicons-arrow-right-24: Learn more about stewardship](02-stewardship/overview.md)
 
