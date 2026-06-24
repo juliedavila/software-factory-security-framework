@@ -112,9 +112,9 @@
         "focus": "Managing security risks from integrated services, platforms, and vendors throughout operational lifecycle"
       },
       {
-        "name": "Continuous Learning",
+        "name": "Adaptive Capacity",
         "priority": 5,
-        "focus": "Evolving security practices based on experience, incidents, and changing threat landscape"
+        "focus": "Whether the system as a whole can absorb a surprise it was not designed for and keep working; the cross-cutting resilience condition formerly called Continuous Learning"
       }
     ]
   },
@@ -158,7 +158,7 @@
     }
   },
   "contextual_modifiers": {
-    "description": "Six factors that significantly affect strategy implementation",
+    "description": "Eight factors that significantly affect strategy implementation",
     "modifiers": [
       {
         "name": "Attack Landscape Maturity",
@@ -213,6 +213,24 @@
           "Damaged: Security seen as blocker",
           "Functional: Working but transactional",
           "Strategic: Security as enabler and partner"
+        ]
+      },
+      {
+        "name": "AI Saturation",
+        "impact": "Shifts the binding constraint from writing code to reviewing it; moves investment toward automated guardrails and scoped agent identity",
+        "assessment": [
+          "Share of code, review, and ops running through AI and agents",
+          "Whether review keeps pace with generation",
+          "Comprehension of the estate as it grows"
+        ]
+      },
+      {
+        "name": "PQC Exposure",
+        "impact": "How much of your cryptography the quantum transition puts at risk and how hard it is to retire; the loss is silent and already underway (harvest now, decrypt later)",
+        "assessment": [
+          "How long data must stay confidential",
+          "Crypto-agility: how hard the underlying math is to swap",
+          "Long-lived signed artifacts and fielded devices with no update path"
         ]
       }
     ]
@@ -294,7 +312,7 @@
           "Process Stewardship",
           "Runtime Stewardship",
           "Third-Party Stewardship",
-          "Continuous Learning"
+          "Adaptive Capacity"
         ],
         "url": "02-stewardship/"
       },

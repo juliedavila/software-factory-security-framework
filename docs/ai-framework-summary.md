@@ -113,8 +113,8 @@ Five areas requiring attention regardless of quadrant position:
 ### 4. Third-Party Stewardship
 **Focus**: Integrated services, platforms, vendors throughout operational lifecycle
 
-### 5. Continuous Learning
-**Focus**: Evolving practices based on experience, incidents, threat landscape changes
+### 5. Adaptive Capacity
+**Focus**: Whether the system as a whole can absorb a surprise it was not designed for and keep working; the cross-cutting resilience condition formerly called Continuous Learning
 
 ## Investment Portfolio Framework
 
@@ -148,7 +148,7 @@ Five areas requiring attention regardless of quadrant position:
 
 **Response**: Shift investment from BAU to scaling capabilities immediately
 
-## Seven Contextual Modifiers
+## Eight Contextual Modifiers
 
 Factors that significantly affect strategy implementation:
 
@@ -194,6 +194,11 @@ Factors that significantly affect strategy implementation:
 **Assessment**: Share of code, review, and ops running through AI and agents; whether review keeps pace with generation
 
 **Response**: Move from manual review to automated guardrails, from static authorization to per-request agent identity
+
+### 8. PQC Exposure
+**Impact**: How much of your cryptography the quantum transition puts at risk, and how hard that risk is to retire; the loss is silent and already underway (harvest now, decrypt later)
+
+**Assessment**: How long data must stay confidential, crypto-agility of the underlying math, long-lived signed artifacts and fielded devices with no update path
 
 ## Framework Integration with Other Standards
 
