@@ -271,6 +271,8 @@ One rule sits on top of the score. A high Manual Effort Reduction score cannot b
 
 The override has a second clause, for the failure the first cannot see. An automation can score high on effort saved and honestly high on Adversary Economics while still introducing a new credential, a new trust boundary, or a delegation path that nothing has accounted for. A score gates on a threshold. It never subtracts. So when the [assessment question above](#1-manual-effort-reduction) surfaces a new authority or surface that is not already netted in Adversary Economics, that investment does not clear **Should Do** on effort alone, whatever the total reads. The override keeps the arithmetic honest to the spine: risk-realization decides the tier, not toil-realization.
 
+The spend-side companion to this override is [Defender cost economics](../10-coadaptive/04-boundary-enforcement.md#defender-cost-economics): once the cost of the next control exceeds the risk it retires, you accept and sign the residual rather than keep adding controls.
+
 ---
 
 ### Example Investment Evaluation
