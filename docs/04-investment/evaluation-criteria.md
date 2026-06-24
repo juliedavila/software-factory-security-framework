@@ -34,6 +34,8 @@ Use these criteria to score and compare potential security investments systemati
 
 **Why Primary**: Manual effort reduction is the fundamental driver of sustainable scaling. Investments that don't reduce manual work don't solve the scaling crisis. They may improve security outcomes but won't enable organizational growth without proportional security team expansion.
 
+**Hours saved is a proxy for value, not value itself.** This criterion counts the work an investment displaces, never the work it creates downstream: the generated code someone still has to understand, the dependencies it adds, the authority it now holds, the maintenance it needs. Credit a high score here only net of that cost. The risk is structural, not careless. Once hours saved carries a 2x weight it becomes a target, and [a measure under target pressure stops tracking the value it once stood for](https://en.wikipedia.org/wiki/Goodhart%27s_law). An investment that saves hours while widening what can go wrong has not reduced effort. It has moved the effort somewhere this number cannot see.
+
 **Assessment Framework**:
 
 | Score | Manual Effort Reduction | Annual Hours Saved | Example |
@@ -49,6 +51,7 @@ Use these criteria to score and compare potential security investments systemati
 - How many person-hours per month does this category consume currently?
 - Will benefits compound as the organization scales?
 - Does this create capacity for strategic work, or just shift manual effort?
+- What new authority, attack surface, or maintenance burden does this automation create, and is that cost already netted in your Adversary Economics score?
 
 **Red Flags**:
 - "This tool will help us work more efficiently" (without specific hour reduction)
@@ -259,6 +262,14 @@ Minimum Possible Score: 13.5
 | **30-37** | Should Do | Strong business case, sequence strategically |
 | **22-29** | Consider | Evaluate context, may be valuable in specific situations |
 | **13.5-21** | Avoid | Poor fit, likely low ROI or high failure risk |
+
+---
+
+### The Risk Override
+
+One rule sits on top of the score. A high Manual Effort Reduction score cannot by itself lift an investment past **Should Do** when Adversary Economics is low. Effort saved is not risk retired, and the spine of this framework is risk, not activity. An investment that reduces real toil but closes no surface and contains no breach is a productivity buy, not a security one, and it should rank as the productivity buy it is.
+
+The override has a second clause, for the failure the first cannot see. An automation can score high on effort saved and honestly high on Adversary Economics while still introducing a new credential, a new trust boundary, or a delegation path that nothing has accounted for. A score gates on a threshold. It never subtracts. So when the [assessment question above](#1-manual-effort-reduction) surfaces a new authority or surface that is not already netted in Adversary Economics, that investment does not clear **Should Do** on effort alone, whatever the total reads. The override keeps the arithmetic honest to the spine: risk-realization decides the tier, not toil-realization.
 
 ---
 
