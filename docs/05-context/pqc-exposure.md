@@ -134,11 +134,11 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 
 **You're facing high exposure when**:
 
-- ✅ You hold data whose confidentiality must outlive 2035
-- ✅ You sign firmware or issue certificates with multi-year validity into devices you cannot recall
-- ✅ You cannot answer "what algorithm protects this?" for a critical system without a code dig
-- ✅ A regulator has handed you a dated migration mandate
-- ✅ Your crypto lives in a vendor or hardware boundary you do not control
+- You hold data whose confidentiality must outlive 2035
+- You sign firmware or issue certificates with multi-year validity into devices you cannot recall
+- You cannot answer "what algorithm protects this?" for a critical system without a code dig
+- A regulator has handed you a dated migration mandate
+- Your crypto lives in a vendor or hardware boundary you do not control
 
 ## Strategic Response
 

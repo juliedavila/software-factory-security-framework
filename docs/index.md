@@ -16,10 +16,10 @@ The **Software Factory Security Framework (SF²)** provides security leaders wit
 
 Whether you're leading security for a three-person startup or a multinational corporation, this framework helps you:
 
-- ✅ **Understand universal security responsibilities** that apply to every software-producing organization
-- ✅ **Position your organization strategically** using a two-axis assessment model
-- ✅ **Invest resources effectively** by balancing immediate needs with long-term scaling
-- ✅ **Adapt to your context** using modifiers that account for your specific constraints
+- **Understand universal security responsibilities** that apply to every software-producing organization
+- **Position your organization strategically** using a two-axis assessment model
+- **Invest resources effectively** by balancing immediate needs with long-term scaling
+- **Adapt to your context** using modifiers that account for your specific constraints
 
 <div class="sf2-cenefa-divider" role="separator" aria-hidden="true"></div>
 

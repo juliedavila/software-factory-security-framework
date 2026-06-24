@@ -258,37 +258,6 @@ td.low,
   padding-left: 0.75rem !important;
 }
 
-/* ============================================
-   ADMONITION ENHANCEMENTS
-   ============================================ */
-
-/* Executive Insight admonition */
-.admonition.executive-insight {
-  border-left: 0.4rem solid #1976d2;
-}
-
-.admonition.executive-insight > .admonition-title {
-  background-color: rgba(25, 118, 210, 0.1);
-}
-
-.admonition.executive-insight > .admonition-title::before {
-  content: "💼";
-  margin-right: 0.4rem;
-}
-
-/* Strategic Opportunity admonition */
-.admonition.strategic {
-  border-left: 0.4rem solid #7c4dff;
-}
-
-.admonition.strategic > .admonition-title {
-  background-color: rgba(124, 77, 255, 0.1);
-}
-
-.admonition.strategic > .admonition-title::before {
-  content: "🎯";
-  margin-right: 0.4rem;
-}
 
 /* ============================================
    PRINT OPTIMIZATION

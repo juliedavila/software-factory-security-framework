@@ -14,7 +14,7 @@ The easiest way to contribute is to:
 
 We welcome several types of contributions:
 
-### 📝 Content Improvements
+### Content Improvements
 
 - Clarifying existing concepts
 - Adding examples or use cases
@@ -144,12 +144,12 @@ Include:
 
 **You don't need to worry about consistency!** Our CI/CD pipeline automatically:
 
-✅ **Validates** version consistency across all files
-✅ **Checks** documentation structure and file counts
-✅ **Verifies** critical cross-references (Supply Chain #1, adversary evolution)
-✅ **Tests** terminology consistency
-✅ **Confirms** AI optimization files are valid
-✅ **Builds** the documentation to catch errors
+- **Validates** version consistency across all files
+- **Checks** documentation structure and file counts
+- **Verifies** critical cross-references (Supply Chain #1, adversary evolution)
+- **Tests** terminology consistency
+- **Confirms** AI optimization files are valid
+- **Builds** the documentation to catch errors
 
 **What this means for you:**
 

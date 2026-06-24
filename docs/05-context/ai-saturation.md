@@ -164,11 +164,11 @@ ahead of other scaling work.
 
 **You're facing high saturation when**:
 
-- ✅ Pull request volume has outrun your reviewers' capacity to understand each change
-- ✅ More of your code is read first by a model than by a person
-- ✅ Agents are opening PRs, running CI steps, or touching infrastructure on their own
-- ✅ You are discovering MCP servers and tool grants you did not know were in production
-- ✅ Non-human identities outnumber human ones and most carry more access than they use
+- Pull request volume has outrun your reviewers' capacity to understand each change
+- More of your code is read first by a model than by a person
+- Agents are opening PRs, running CI steps, or touching infrastructure on their own
+- You are discovering MCP servers and tool grants you did not know were in production
+- Non-human identities outnumber human ones and most carry more access than they use
 
 ## Strategic Response
 

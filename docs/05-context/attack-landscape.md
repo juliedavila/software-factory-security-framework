@@ -117,12 +117,12 @@ Use these questions to determine your attack landscape maturity:
 
 **You're facing high attack landscape maturity when**:
 
-- ✅ Attackers are exploiting vulnerabilities within hours of disclosure
-- ✅ You're discovering unauthorized systems during incident response
-- ✅ External parties notify you of assets you didn't know existed
-- ✅ Automated scanning attempts occur continuously
-- ✅ Credential stuffing attacks happen at scale
-- ✅ Supply chain attacks target your dependencies systematically
+- Attackers are exploiting vulnerabilities within hours of disclosure
+- You're discovering unauthorized systems during incident response
+- External parties notify you of assets you didn't know existed
+- Automated scanning attempts occur continuously
+- Credential stuffing attacks happen at scale
+- Supply chain attacks target your dependencies systematically
 
 ## Strategic Response
 

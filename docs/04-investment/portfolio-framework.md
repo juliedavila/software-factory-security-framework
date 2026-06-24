@@ -47,8 +47,7 @@ A word on *exponential*: that growth rests on AI capability continuing to compou
 
 Organizations approaching this inflection point can choose between different resource allocation strategies:
 
-### Traditional Scaling Approach ❌
-
+### Traditional Scaling Approach
 - Hire additional security personnel for manual work
 - Attempt to maintain current service levels across all requests
 - Build custom solutions for individual use cases
@@ -56,8 +55,7 @@ Organizations approaching this inflection point can choose between different res
 
 **Result**: Temporary relief followed by recurring capacity crises
 
-### Strategic Scaling Approach ✅
-
+### Strategic Scaling Approach
 - Deliberately constrain capacity for some BAU activities
 - Develop automation and self-service capabilities
 - Create standardized approaches for common security needs

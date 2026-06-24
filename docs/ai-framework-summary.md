@@ -395,20 +395,20 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 ## What This Framework Is NOT
 
-- ❌ Not a compliance checklist
-- ❌ Not specific security controls or configurations
-- ❌ Not "best practices" that apply to everyone
-- ❌ Not a replacement for NIST SSDF, OWASP SAMM, etc.
-- ❌ Not a quick fix (realistic timelines required)
+- Not a compliance checklist
+- Not specific security controls or configurations
+- Not "best practices" that apply to everyone
+- Not a replacement for NIST SSDF, OWASP SAMM, etc.
+- Not a quick fix (realistic timelines required)
 
 ## What This Framework IS
 
-- ✅ Strategic positioning model for security leaders
-- ✅ Investment decision framework (BAU vs scaling)
-- ✅ Context-appropriate guidance by organizational position
-- ✅ Realistic transformation planning with timelines
-- ✅ Integration strategy for other security frameworks
-- ✅ Honest about tradeoffs and organizational constraints
+- Strategic positioning model for security leaders
+- Investment decision framework (BAU vs scaling)
+- Context-appropriate guidance by organizational position
+- Realistic transformation planning with timelines
+- Integration strategy for other security frameworks
+- Honest about tradeoffs and organizational constraints
 
 ---
 

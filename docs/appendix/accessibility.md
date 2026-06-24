@@ -12,15 +12,15 @@ This website aims to conform to the [Web Content Accessibility Guidelines (WCAG)
 
 ### Current Implementations
 
-✅ **Keyboard Navigation**: All interactive elements are accessible via keyboard
-✅ **Focus Indicators**: Clear visual indicators for keyboard focus
-✅ **Text Alternatives**: Priority levels include text labels, not color alone
-✅ **Link Distinction**: Links are underlined, not identified by color alone
-✅ **Reduced Motion**: Respects user's reduced motion preferences
-✅ **High Contrast**: Enhanced borders and text in high contrast mode
-✅ **Semantic HTML**: Proper heading hierarchy and ARIA landmarks
-✅ **Responsive Design**: Adapts to different screen sizes and zoom levels
-✅ **Screen Reader Compatible**: Tested with major screen readers
+- **Keyboard Navigation**: All interactive elements are accessible via keyboard
+- **Focus Indicators**: Clear visual indicators for keyboard focus
+- **Text Alternatives**: Priority levels include text labels, not color alone
+- **Link Distinction**: Links are underlined, not identified by color alone
+- **Reduced Motion**: Respects user's reduced motion preferences
+- **High Contrast**: Enhanced borders and text in high contrast mode
+- **Semantic HTML**: Proper heading hierarchy and ARIA landmarks
+- **Responsive Design**: Adapts to different screen sizes and zoom levels
+- **Screen Reader Compatible**: Tested with major screen readers
 
 ### Navigation Shortcuts
 
@@ -129,8 +129,8 @@ We are committed to ongoing accessibility improvements:
 When adding content to this framework:
 
 1. **Use descriptive link text**: Avoid "click here" or "read more"
-   - ❌ Bad: "Click [here](#) for more information"
-   - ✅ Good: "[Review the implementation guide](#)"
+   - Bad: "Click [here](#) for more information"
+   - Good: "[Review the implementation guide](#)"
 
 2. **Provide text alternatives**: Add alt text for all images
    ```markdown
@@ -142,8 +142,8 @@ When adding content to this framework:
 4. **Write descriptive table headers**: Use `<th>` for column/row headers
 
 5. **Avoid color-only information**: Include text labels
-   - ❌ Bad: "Items in red are critical"
-   - ✅ Good: "Critical items (shown with red border) require immediate attention"
+   - Bad: "Items in red are critical"
+   - Good: "Critical items (shown with red border) require immediate attention"
 
 6. **Use lists appropriately**: Use `<ul>` for unordered, `<ol>` for ordered
 

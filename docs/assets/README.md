@@ -12,10 +12,12 @@ This directory contains the branding assets for the Software Factory Security Fr
 - Usage: Header, navigation, large displays
 
 ### `favicon.svg`
-- **Simplified icon** for browser tabs and bookmarks
-- Optimized for small sizes (16x16, 32x32px)
-- Same shield + SF² design, simplified
-- Usage: Browser favicon (modern browsers support SVG)
+- **Reduced mark** for browser tabs, bookmarks, and the home-screen icon
+- A 2-glyph **"S²"** lockup (not the full "SF²"): three glyphs turn to mush at 16×16px,
+  so the favicon keeps the brand's *squared* motif while staying legible at tab scale.
+- Drives `favicon-16x16.png`, `favicon-32x32.png`, `favicon.ico`, and `apple-touch-icon.png`.
+- The full **"SF²"** lettermark stays on `logo.svg` (header / large displays); the identity
+  is intentionally scale-tiered — full mark large, reduced mark small.
 
 ## Design Specifications
 
@@ -23,7 +25,8 @@ This directory contains the branding assets for the Software Factory Security Fr
 
 - Primary: #1a3a52 (Dark blue/navy - shield background)
 - Accent: #ffffff (White - lettermark)
-- Matches site theme: Indigo (#3F51B5)
+- Complements the site primary, Azul Talavera (#2C4A6B): the shield uses a deeper
+  navy so it keeps contrast against the azul site header rather than blending in.
 
 **Typography:**
 
