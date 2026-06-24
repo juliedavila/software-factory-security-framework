@@ -4,6 +4,10 @@
 
 This section demonstrates how to apply the Software Factory Security Framework to common organizational scenarios. Each use case shows how the framework's components work together to guide strategic decisions.
 
+New to the framework? The scenarios below lean on a handful of SF² terms, defined here so this page reads on its own. SF² places an organization on two axes. **Blast Radius** is how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount. **Operational Readiness** is how repeatably you operate and how well you can prove a failure stays contained. The two axes form four positions, named for production modes: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness, the goal position), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness). See [Positioning](../03-positioning/two-axis-model.md) for the full model. **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Stewardship areas** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md). **Contextual modifiers** are the eight situational factors that tune the strategy; see [Context](../05-context/overview.md).
+
+The scenarios below are composite illustrations, not case studies. The numbers show the shape of an outcome, not measured results.
+
 ## Use Case 1: Scaling Crisis at Series B Startup
 
 ### Situation
@@ -144,7 +148,9 @@ A security team at series C company recognizes unsustainable demand growth and n
 
 ---
 
-## When the parts are safe and the system is not
+## A different kind of case: when the system is the agent
+
+The five cases above are where you act. The seam is not a sixth case. It is the place between the parts, and in most organizations no one team owns it.
 
 The cases above take a situation apart: find the position, read the modifiers, pick the stewardship areas, design the portfolio. That works when the parts fail independently. It breaks the moment the system is an agent wired to APIs and acting on its own.
 
@@ -203,8 +209,8 @@ Based on position and modifiers:
 - Movement strategy: _______________
 - Timeline: _______________
 
-### 6. For Agent Systems: Run the Seam Pass
-Enumerate the agent × API × autonomy interactions and test each seam: what it lets through when the agent acts on input you do not control. Before shipping, require an external correctness criterion: one observable that proves a run wrong, and a watcher outside the agent that checks for it.
+### 6. For Agent Systems: Run the Seam Pass (the emerging ship bar)
+Enumerate the agent, the APIs it can call, and the autonomy it runs with, and test what each seam lets through when the agent acts on input you do not control. Because output-side checks miss most leaks, the gate is an external watcher: one observable that proves a run wrong, checked from outside the agent on every run. Leading teams now ship this as an evaluation in CI. No external watcher, no ship.
 
 ---
 
