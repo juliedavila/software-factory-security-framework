@@ -77,26 +77,46 @@ records + the repo `CNAME` file) works without it.
 
 ---
 
+## Pre-flight checks (do these BEFORE the flip)
+
+- **CAA record:** a CAA record that doesn't authorize `letsencrypt.org` will block GitHub's
+  cert from ever issuing (hard failure, not a delay). Checked 2026-06-25: `dig CAA sf2framework.com`
+  returns **nothing** — no CAA restriction, Let's Encrypt is free to issue. Re-check at cutover
+  if anything changed.
+- **Current TTL:** the apex A record is currently **TTL 3600s (1 hour)**. The lower-TTL step
+  below only helps if done **at least one full hour ahead** of the record swap.
+- **GitHub side ready** (done in repo): the deploy workflow writes `site/CNAME = sf2framework.com`
+  on `master`, and the repo's Pages custom domain is set to `sf2framework.com` (`gh api …/pages`
+  shows `cname: sf2framework.com`). GitHub Pages settings currently show a **"DNS check
+  unsuccessful / does not resolve to GitHub Pages server"** warning — this is **expected and
+  cosmetic** until DNS points at GitHub. Do **not** "fix" it by un-setting the custom domain.
+
 ## Cutover Procedure (live site stays up until the final flip)
 
-1. **GitHub side is ready** (done in repo): the deploy workflow writes `site/CNAME = sf2framework.com`
-   on `master`, and the repo's Pages custom domain is set to `sf2framework.com`. The site is
-   verifiable at `juliedavila.github.io/software-factory-security-framework/` before cutover.
-2. **~24h before flip:** lower the apex A-record TTL to `300` so the change propagates fast.
-   (If you cannot lower the GitLab A record's TTL in place, just set TTL `300` on the new
-   GitHub A records when you add them.)
-3. **Flip (one sitting):**
+1. **T-minus ≥1h — lower TTL:** set the apex A record's TTL to `300`. Wait at least the old
+   TTL (1h) so the short TTL has propagated before you swap. (If TTL can't be edited in place,
+   set TTL `300` on the new GitHub A records when you add them — but that won't speed the
+   *first* swap, only later changes/rollback.)
+2. **Flip (one sitting):**
    - Replace the GitLab apex `A 35.185.44.232` with the four GitHub `A` records above.
    - Repoint `www` CNAME from `juliedavila.gitlab.io` → `juliedavila.github.io`.
    - Remove the `_gitlab-pages-verification-code` TXT.
    - (Optional) add the `_github-pages-challenge-juliedavila` TXT and remove the old AAAA.
-4. **HTTPS:** GitHub auto-provisions a Let's Encrypt certificate once DNS resolves to it
-   (minutes to ~24h). Brief "not secure" warnings are possible during that window. After the
-   cert issues, enable **"Enforce HTTPS"** in repo Settings → Pages.
-5. **Verify:** `https://sf2framework.com` and `https://www.sf2framework.com` both serve the
-   GitHub build; check `dig sf2framework.com` returns the GitHub IPs.
-6. **Decommission/keep GitLab:** recommend leaving GitLab Pages live ~30 days as a passive
+3. **HTTPS — expect a gap:** GitHub provisions the Let's Encrypt cert **only after** DNS
+   resolves to GitHub. Between propagation and issuance, `https://sf2framework.com` will throw
+   a **TLS/cert warning for a few minutes to ~1h** — this is normal, not a failed cutover.
+   - Leave **"Enforce HTTPS" OFF** until GitHub shows "Your site is published at https://… 🔒".
+   - **If the cert is still stuck >1h** after `dig` clearly shows GitHub IPs: in repo
+     Settings → Pages, **remove the custom domain, save, re-add it, save** — this re-triggers
+     provisioning (documented GitHub gotcha).
+4. **Verify:** `https://sf2framework.com` and `https://www.sf2framework.com` both serve the
+   GitHub build; `dig +short sf2framework.com` returns the four GitHub IPs.
+5. **Decommission/keep GitLab:** recommend leaving GitLab Pages live ~30 days as a passive
    fallback (it just won't receive traffic). Remove its custom domain later if desired.
+
+> **Re-inspecting the raw GitHub build after cutover:** once the custom domain is set, the
+> `*.github.io` URL 301-redirects to the apex. To view the raw GitHub build again (e.g. for
+> debugging), temporarily remove the custom domain in Settings → Pages.
 
 ---
 
@@ -111,7 +131,9 @@ Revert the apex `A` record to the single GitLab IP and restore the GitLab verifi
 | `www` | CNAME | `juliedavila.gitlab.io` |
 
 GitLab Pages still has the repo + custom domain configured, so traffic returns as soon as the
-A record propagates (kept short by the lowered TTL). No GitHub change needed to roll back.
+A record propagates. With TTL pre-lowered to `300`, rollback is **a few minutes, not instant**
+(it's still TTL-bound in both directions). GitLab's cert and serving stay intact throughout, so
+no GitHub change is needed to roll back.
 
 ---
 
