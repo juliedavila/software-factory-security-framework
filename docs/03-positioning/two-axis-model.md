@@ -7,6 +7,9 @@ Rather than using traditional maturity models that assume linear progression, th
 !!! tip "Why Not Maturity Models?"
     Traditional security maturity models imply everyone should follow the same path. SF² recognizes that a 10-person startup with modern cloud infrastructure shouldn't implement security the same way as a 5,000-person enterprise with legacy systems, even if both need strong security.
 
+    <!-- JULIE — v1.1.0 academic grounding: one framing sentence here naming the lineage, in your voice. The idea (yours to rephrase): this is contingency theory made operational — there is no single best security posture, only the one that fits your position. Cite [Donaldson 2001] and [Horne, Maynard & Ahmad 2017] inline (both now in references → "Strategic positioning and contingency theory"). This sentence is load-bearing: lock its wording and reuse it verbatim as the paper's contribution statement. Remove this comment when written. -->
+
+
 ## The Strategic Positioning Framework
 
 Organizations can be assessed along two critical axes:
