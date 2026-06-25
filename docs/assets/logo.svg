@@ -1,14 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" width="400" height="450">
-  <!-- Shield background -->
-  <path d="M 50 50 L 350 50 L 350 300 L 200 400 L 50 300 Z"
-        fill="#1a3a52"
-        stroke="none"/>
-
-  <!-- SF² Lettermark using text -->
-  <text x="200" y="280"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="180"
-        font-weight="bold"
-        fill="#ffffff"
-        text-anchor="middle">SF²</text>
+  <!-- SF² header logo. Lettermark is "SF²" set in Source Serif 4 Bold (the site's
+       body face) and OUTLINED TO PATHS so it renders without a webfont dependency
+       in <img> contexts. Do not hand-edit the path; regenerate via the F3 outliner
+       (fontTools SVGPathPen) if the wordmark or face changes. -->
+  <path d="M 50 50 L 350 50 L 350 300 L 200 400 L 50 300 Z" fill="#1a3a52"/>
+  <g transform="translate(200 205) scale(0.17921 -0.17921) translate(-743.50 -399.50)"><path d="M251 -19Q195 -19 136.0 -6.0Q77 7 34 34L40 182H133L153 59Q176 50 199.0 45.5Q222 41 250 41Q304 41 332.0 68.5Q360 96 360 136Q360 176 339.5 198.0Q319 220 274 240L231 259Q143 300 94.5 350.5Q46 401 46 483Q46 573 113.5 624.5Q181 676 294 676Q348 676 397.0 662.5Q446 649 483 625L475 485H383L364 603Q331 617 297 617Q254 617 224.0 592.0Q194 567 194 526Q194 486 217.0 462.0Q240 438 285 418L332 397Q427 354 469.5 306.5Q512 259 512 183Q512 95 445.5 38.0Q379 -19 251 -19ZM574 604V657H1091L1098 485H1015L995 601H821Q820 544 819.5 486.0Q819 428 819 369H930L942 447H1000V222H942L929 310H819Q819 243 819.5 182.5Q820 122 821 63L910 54V0H574V54L649 62Q651 123 651.0 185.0Q651 247 651 310V347Q651 409 651.0 471.5Q651 534 649 596ZM1164 419V476L1249 558Q1293 600 1315.5 633.5Q1338 667 1338 710Q1338 746 1320.5 765.0Q1303 784 1273 784Q1269 784 1266.0 784.0Q1263 784 1259 783L1251 741Q1246 707 1232.0 696.5Q1218 686 1203 686Q1174 686 1161 713Q1162 766 1206.5 792.0Q1251 818 1318 818Q1384 818 1414.5 786.5Q1445 755 1445 711Q1445 665 1407.5 625.0Q1370 585 1292 533L1250 505H1453V419Z" fill="#ffffff"/></g>
 </svg>
