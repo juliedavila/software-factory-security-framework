@@ -181,7 +181,7 @@ This framework represents my personal strategic mental models for security leade
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 
 [:octicons-arrow-right-24: Contributing Guidelines](contributing.md){ .md-button .md-button--primary }
-[:octicons-arrow-right-24: View on GitLab](https://gitlab.com/juliedavila/software-factory-security-framework){ .md-button }
+[:octicons-arrow-right-24: View on GitHub](https://github.com/juliedavila/software-factory-security-framework){ .md-button }
 
 ---
 

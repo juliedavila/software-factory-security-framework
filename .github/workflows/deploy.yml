@@ -1,18 +1,24 @@
-# SF² — GitHub Pages build + deploy (migration Phase 1, STAGING).
+# SF² — GitHub Pages build + deploy.
 #
 # Ports the GitLab CI (.gitlab-ci.yml): strict MkDocs build + the separate
 # non-strict mkdocs.pdf.yml core-PDF build + the same hard-gates (page count
 # + brand-font embedding) that make a broken PDF fail the deploy loudly.
 #
-# SAFETY: this is a STAGING deploy to *.github.io. It deletes site/CNAME before
-# publishing so GitHub Pages does NOT claim sf2framework.com (which is still
-# served live by GitLab Pages). The custom-domain flip is Phase 2, deferred.
+# CNAME / custom domain (migration Phase 2):
+#   - On master (PRODUCTION): write site/CNAME = sf2framework.com so GitHub Pages
+#     serves the custom domain. GitHub reads the custom domain from this file in
+#     the deployed artifact — stripping it here would UN-SET the custom domain.
+#   - On any other ref (STAGING via workflow_dispatch): strip site/CNAME so a
+#     *.github.io preview build does NOT claim/overwrite the live custom domain.
+#
+# The apex domain is cut over at the registrar (Squarespace) separately; this
+# workflow only makes the GitHub side ready to receive it. See DNS-SETUP.md.
 
-name: Deploy SF2 (GitHub Pages — staging)
+name: Deploy SF2 (GitHub Pages)
 
 on:
   push:
-    branches: [master, visual-refresh-migration]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -62,8 +68,15 @@ jobs:
         run: |
           mkdir -p site/pdf
           cp pdf-build/pdf/sf2-framework.pdf site/pdf/sf2-framework.pdf
-      - name: Drop CNAME so STAGING does not claim the live custom domain
-        run: rm -f site/CNAME
+      - name: CNAME — production keeps the live domain; staging must not claim it
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/master" ]; then
+            echo "sf2framework.com" > site/CNAME
+            echo "PRODUCTION deploy: wrote site/CNAME = sf2framework.com"
+          else
+            rm -f site/CNAME
+            echo "STAGING deploy (${{ github.ref }}): removed site/CNAME so *.github.io does not claim the live domain"
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

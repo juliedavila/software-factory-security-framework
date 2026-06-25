@@ -19,7 +19,7 @@
  *    tables, figures, and admonitions still avoid splitting across a page.
  *
  * 3. EDIT-PAGE LINKS. Each page carries a manual "Edit this page" button to the
- *    GitLab editor. Useful on the web, noise offline (with-pdf appends the raw
+ *    GitHub editor. Useful on the web, noise offline (with-pdf appends the raw
  *    href since you cannot click it). Hidden in print; reading-order buttons stay.
  *
  * 4. COVER TITLE. with-pdf's default cover sets the title in a system sans. Name

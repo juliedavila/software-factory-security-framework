@@ -228,4 +228,4 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 [:octicons-arrow-right-24: Continue to Lean Implementation](lean.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/relationship-health.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/studio.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/studio.md){ .md-button }

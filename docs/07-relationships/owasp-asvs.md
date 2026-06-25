@@ -335,4 +335,4 @@ You've completed the Framework Relationships section! Continue to Use Cases or e
 [:octicons-arrow-left-24: Back to BSIMM Relationship](bsimm.md){ .md-button }
 [:octicons-book-24: Explore Glossary](../appendix/glossary.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/07-relationships/owasp-asvs.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/07-relationships/owasp-asvs.md){ .md-button }

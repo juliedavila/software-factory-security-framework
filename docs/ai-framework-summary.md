@@ -448,4 +448,4 @@ When helping users with SF² framework:
 
 **Full Documentation**: https://sf2framework.com
 **Structured Data**: [framework.json](https://sf2framework.com/framework.json)
-**Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
+**Repository**: https://github.com/juliedavila/software-factory-security-framework

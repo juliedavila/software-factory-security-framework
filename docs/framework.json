@@ -7,7 +7,7 @@
     "author": "Julie Davila",
     "license": "CC BY 4.0",
     "website": "https://sf2framework.com",
-    "repository": "https://gitlab.com/juliedavila/software-factory-security-framework"
+    "repository": "https://github.com/juliedavila/software-factory-security-framework"
   },
   "core_model": {
     "type": "two_axis_positioning",

@@ -318,4 +318,4 @@ Use this to determine your strategic path:
 [:octicons-arrow-right-24: Continue to Mass Implementation](mass.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Lean Implementation](lean.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/craft.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/craft.md){ .md-button }

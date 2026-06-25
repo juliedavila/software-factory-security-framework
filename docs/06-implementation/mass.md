@@ -329,4 +329,4 @@ Only when a real business reason already supports it.
 [:octicons-arrow-right-24: Continue to Framework Relationships](../07-relationships/nist-ssdf.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Craft Implementation](craft.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/mass.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/mass.md){ .md-button }

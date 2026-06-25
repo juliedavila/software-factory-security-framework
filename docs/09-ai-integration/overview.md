@@ -186,7 +186,7 @@ with mitigations, and explicit decision points.
 
 As SF² evolves, keep your assistant's context fresh:
 
-1. Watch the [GitLab repository](https://gitlab.com/juliedavila/software-factory-security-framework) for new releases.
+1. Watch the [GitHub repository](https://github.com/juliedavila/software-factory-security-framework) for new releases.
 2. Refresh the canonical instructions block above when the framework updates, then update each tool's persistent instructions from that one copy.
 3. Spot-check that responses still match current framework thinking.
 4. Contribute useful prompts and workflows back.
@@ -258,4 +258,4 @@ The body above is vendor-neutral. To put it to work in a specific tool, create t
 [:octicons-arrow-left-24: Back to Use Cases](../08-use-cases/scenarios.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: Coadaptive Security Layer](../10-coadaptive/overview.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/09-ai-integration/overview.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/09-ai-integration/overview.md){ .md-button }

@@ -241,4 +241,4 @@ The example below is a composite illustration, not a case study. The numbers and
 [:octicons-arrow-right-24: Continue to OWASP SAMM Relationship](owasp-samm.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Implementation Guides](../06-implementation/mass.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/07-relationships/nist-ssdf.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/07-relationships/nist-ssdf.md){ .md-button }

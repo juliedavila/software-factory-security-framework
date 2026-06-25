@@ -306,7 +306,7 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 **Author**: Julie Davila
 **Version**: 1.0.0
 **License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-**Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
+**Repository**: https://github.com/juliedavila/software-factory-security-framework
 **Website**: https://sf2framework.com
 
 This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
@@ -318,4 +318,4 @@ This is an open source framework (CC BY 4.0) intended as a resource for the broa
 ---
 
 [:octicons-arrow-left-24: Back to Glossary](glossary.md){ .md-button }
-[:octicons-arrow-right-24: View on GitLab](https://gitlab.com/juliedavila/software-factory-security-framework){ .md-button }
+[:octicons-arrow-right-24: View on GitHub](https://github.com/juliedavila/software-factory-security-framework){ .md-button }

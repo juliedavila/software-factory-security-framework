@@ -510,4 +510,4 @@ Use these questions to select your optimal path:
 [:octicons-arrow-left-24: Back to Strategic Positions](strategic-positions.md){ .md-button }
 [:octicons-arrow-right-24: Continue to Investment Portfolio](../04-investment/portfolio-framework.md){ .md-button .md-button--primary }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/03-positioning/movement-paths.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/03-positioning/movement-paths.md){ .md-button }

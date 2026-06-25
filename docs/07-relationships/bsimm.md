@@ -321,4 +321,4 @@ The example below is a composite illustration, not a case study. The numbers and
 [:octicons-arrow-right-24: Continue to OWASP ASVS Relationship](owasp-asvs.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to OWASP SAMM Relationship](owasp-samm.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/07-relationships/bsimm.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/07-relationships/bsimm.md){ .md-button }

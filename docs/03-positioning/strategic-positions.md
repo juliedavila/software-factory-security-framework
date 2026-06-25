@@ -269,4 +269,4 @@ Your strategic position determines your optimal approach to the [investment port
 [:octicons-arrow-left-24: Back to Two-Axis Model](two-axis-model.md){ .md-button }
 [:octicons-arrow-right-24: Continue to Movement Paths](movement-paths.md){ .md-button .md-button--primary }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/03-positioning/strategic-positions.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/03-positioning/strategic-positions.md){ .md-button }

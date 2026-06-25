@@ -432,4 +432,4 @@ Use this framework to compare competing investments:
 [:octicons-arrow-left-24: Back to Platform Effects](platform-effects.md){ .md-button }
 [:octicons-arrow-right-24: Continue to Contextual Modifiers](../05-context/overview.md){ .md-button .md-button--primary }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/04-investment/evaluation-criteria.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/04-investment/evaluation-criteria.md){ .md-button }

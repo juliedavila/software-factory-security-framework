@@ -3,7 +3,7 @@
 **A Complete Mental Model for Securing Software Factories at Scale**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![GitLab Pages](https://img.shields.io/badge/docs-GitLab%20Pages-orange)](https://sf2framework.com)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://sf2framework.com)
 
 ---
 
@@ -71,7 +71,7 @@ SF² complements existing standards:
 
 ```bash
 # Clone the repository
-git clone https://gitlab.com/juliedavila/software-factory-security-framework.git
+git clone https://github.com/juliedavila/software-factory-security-framework.git
 cd software-factory-security-framework
 
 # Install dependencies
@@ -105,7 +105,7 @@ build stays green while the core PDF still ships. CI copies it into
 
 ### Docker (CI-parity build)
 
-No local Python needed. This mirrors the GitLab CI environment exactly (`python:3.11` + cairo/pango + `requirements.txt`), so a clean `--strict` build here matches what the pipeline does, including broken-link and missing-anchor detection.
+No local Python needed. This mirrors the CI build environment (`python:3.11` + cairo/pango + `requirements.txt`), so a clean `--strict` build here matches what the pipeline does, including broken-link and missing-anchor detection.
 
 ```bash
 # Live preview with hot reload at http://localhost:8000
@@ -167,9 +167,9 @@ With attribution.
 ## 🔗 Links
 
 - **Documentation:** https://sf2framework.com
-- **Repository:** https://gitlab.com/juliedavila/software-factory-security-framework
-- **Issues:** https://gitlab.com/juliedavila/software-factory-security-framework/-/issues
-- **Author:** [Julie Davila](https://gitlab.com/juliedavila)
+- **Repository:** https://github.com/juliedavila/software-factory-security-framework
+- **Issues:** https://github.com/juliedavila/software-factory-security-framework/issues
+- **Author:** [Julie Davila](https://github.com/juliedavila)
 
 ---
 
@@ -179,7 +179,7 @@ With attribution.
 
 - [x] Repository structure
 - [x] MkDocs + Material theme setup
-- [x] GitLab CI/CD pipeline
+- [x] GitHub Actions CI/CD pipeline
 - [x] Core navigation structure
 - [ ] Content migration from source document
 - [ ] PDF export configuration

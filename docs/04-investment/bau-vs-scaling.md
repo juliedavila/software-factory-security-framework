@@ -497,4 +497,4 @@ Track these metrics to validate your BAU constraint and scaling investment strat
 [:octicons-arrow-left-24: Back to Portfolio Framework](portfolio-framework.md){ .md-button }
 [:octicons-arrow-right-24: Continue to Platform Effects](platform-effects.md){ .md-button .md-button--primary }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/04-investment/bau-vs-scaling.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/04-investment/bau-vs-scaling.md){ .md-button }

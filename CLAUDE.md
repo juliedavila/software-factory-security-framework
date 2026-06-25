@@ -288,7 +288,7 @@ Always include "Next Steps" at the end of pages:
 [:octicons-arrow-right-24: Continue to Next Section](next.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Previous Section](previous.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/path/to/file.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/path/to/file.md){ .md-button }
 ```
 
 ### Cross-References
@@ -600,6 +600,6 @@ If no → Refine or remove it.
 - **Glossary**: See `docs/appendix/glossary.md` for terminology definitions
 - **Accessibility Statement**: See `docs/appendix/accessibility.md` for WCAG compliance details
 - **Live Site**: https://sf2framework.com
-- **Repository**: https://gitlab.com/juliedavila/software-factory-security-framework
+- **Repository**: https://github.com/juliedavila/software-factory-security-framework
 
 For questions about the framework itself, refer to the published documentation. For questions about contributing or repository structure, this CLAUDE.md is your guide.

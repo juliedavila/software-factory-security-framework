@@ -7,7 +7,7 @@ Thank you for your interest in contributing to the Software Factory Security Fra
 The easiest way to contribute is to:
 
 1. **Click "Edit this page"** on any documentation page
-2. Make your changes in the GitLab Web IDE
+2. Make your changes in the GitHub web editor
 3. Submit a merge request with a clear description
 
 ## Types of Contributions
@@ -73,7 +73,7 @@ The framework uses:
 
 1. Navigate to the page you want to edit
 2. Click **"Edit this page"** button (pencil icon)
-3. Make your changes in the Web IDE
+3. Make your changes in the web editor
 4. Provide a clear commit message
 5. Submit the merge request
 
@@ -81,7 +81,7 @@ The framework uses:
 
 ```bash
 # Clone the repository
-git clone https://gitlab.com/juliedavila/software-factory-security-framework.git
+git clone https://github.com/juliedavila/software-factory-security-framework.git
 cd software-factory-security-framework
 
 # Create a feature branch
@@ -108,7 +108,7 @@ git push origin feature/your-contribution
 
 Can't contribute directly but have feedback?
 
-1. Open an [Issue](https://gitlab.com/juliedavila/software-factory-security-framework/-/issues)
+1. Open an [Issue](https://github.com/juliedavila/software-factory-security-framework/issues)
 2. Use issue templates for:
    - Content suggestions
    - Error reports
@@ -158,7 +158,7 @@ Include:
 - If there's an issue, the pipeline will tell you exactly what needs fixing
 - Clear, helpful error messages guide you to the solution
 
-**Learn more**: See [scripts/README.md](https://gitlab.com/juliedavila/software-factory-security-framework/-/blob/master/scripts/README.md) for automation details
+**Learn more**: See [scripts/README.md](https://github.com/juliedavila/software-factory-security-framework/blob/master/scripts/README.md) for automation details
 
 ## Content Organization
 
@@ -224,8 +224,8 @@ Contributors are recognized in several ways:
 
 ## Questions?
 
-- **Issues**: [Open an issue](https://gitlab.com/juliedavila/software-factory-security-framework/-/issues)
-- **Email**: Available in GitLab profile
+- **Issues**: [Open an issue](https://github.com/juliedavila/software-factory-security-framework/issues)
+- **Email**: Available in GitHub profile
 - **General questions**: Use issue discussions
 
 ## Code of Conduct
@@ -248,7 +248,7 @@ Contributors are recognized in several ways:
 
 By contributing to SF², you agree that your contributions will be licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-See [LICENSE](https://gitlab.com/juliedavila/software-factory-security-framework/-/blob/main/LICENSE) for details.
+See [LICENSE](https://github.com/juliedavila/software-factory-security-framework/blob/master/LICENSE) for details.
 
 ---
 
@@ -259,4 +259,4 @@ Small fixes matter as much as big ones. Thank you for the time and effort you pu
 **Ready to contribute?** Find a page that could be improved and click **"Edit this page"**!
 
 [:octicons-arrow-right-24: View all documentation](index.md){ .md-button .md-button--primary }
-[:octicons-arrow-right-24: Open an issue](https://gitlab.com/juliedavila/software-factory-security-framework/-/issues){ .md-button }
+[:octicons-arrow-right-24: Open an issue](https://github.com/juliedavila/software-factory-security-framework/issues){ .md-button }

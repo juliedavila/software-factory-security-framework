@@ -284,4 +284,4 @@ Advanced supply chain security:
 [:octicons-arrow-right-24: Continue to Craft Implementation](craft.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Studio Implementation](studio.md){ .md-button }
 
-[:octicons-arrow-right-24: Edit this page](https://gitlab.com/juliedavila/software-factory-security-framework/-/edit/master/docs/06-implementation/lean.md){ .md-button }
+[:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/lean.md){ .md-button }

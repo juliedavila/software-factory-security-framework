@@ -4,8 +4,8 @@ site_author: Julie Davila
 site_url: https://sf2framework.com
 
 repo_name: software-factory-security-framework
-repo_url: https://gitlab.com/juliedavila/software-factory-security-framework
-edit_uri: -/edit/master/docs/
+repo_url: https://github.com/juliedavila/software-factory-security-framework
+edit_uri: edit/master/docs/
 
 # Pages intentionally outside the nav (special 404 page + assets readme).
 # Keeps `mkdocs build --strict` from flagging them as orphaned.
@@ -192,9 +192,9 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.com/juliedavila
-      name: Julie Davila on GitLab
+    - icon: fontawesome/brands/github
+      link: https://github.com/juliedavila
+      name: Julie Davila on GitHub
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/thisjulie/
   version:
