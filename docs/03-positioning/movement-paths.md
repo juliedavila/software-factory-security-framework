@@ -39,6 +39,8 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
+These ranges and likelihood ratings are practitioner estimates synthesized from transformation experience, not measured outcomes. SF² treats them as hypotheses to validate rather than findings, and refining them against real transformations is part of the framework's research agenda.
+
 <figure>
   <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-mv-title">SF² strategic movement paths on the two-axis model</title>

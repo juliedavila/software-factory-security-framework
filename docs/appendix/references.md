@@ -132,6 +132,13 @@ The prompt-injection literature this chapter draws on, from the naming of the ca
 - **[Venables, "Turning the Security Flywheel."](https://www.philvenables.com/post/turning-the-security-flywheel)** Self-reinforcing, industrial-scale program design from a sitting CISO. Venables' artisanal-versus-industrial framing is the direct precursor to SF²'s Scaling Investments thesis.
 - **[Sounil Yu, Cyber Defense Matrix and the DIE Triad.](https://cyberdefensematrix.com/)** DIE (Distributed, Immutable, Ephemeral) is the architectural inverse of CIA, aligned with SF²'s stance of building security in through constraints on the artifact.
 
+### Strategic positioning and contingency theory
+
+The two-axis model rests on a body of organizational theory: there is no single best way to organize, only the structure that fits an organization's environment, scale, and technology. SF² carries that logic into security program design, which is why it replaces the maturity ladder with a position.
+
+- **[Donaldson (2001), *The Contingency Theory of Organizations.*](https://sk.sagepub.com/book/mono/download/the-contingency-theory-of-organizations/chpt/core-paradigm-theoretical-integration.pdf)** SAGE. The consolidated statement of contingency theory, descending from Lawrence & Lorsch's *Organization and Environment* (1967) and Burns & Stalker's mechanistic-versus-organic distinction (1961): organizational fit, not a universal maturity ladder, predicts performance. The intellectual parent of SF²'s claim that security posture is position-contingent rather than a level to climb.
+- **[Horne, Maynard & Ahmad (2017), "Organisational Information Security Strategy: Review, Discussion and Future Research."](https://ajis.aaisnet.org/index.php/ajis/article/view/1427)** *Australasian Journal of Information Systems* 21. Argues information security strategy must move from internally-focused protection toward a view that weighs the organization's resources, capabilities, and external environment. The closest precedent for SF²: it calls for environment-contingent security strategy; SF² supplies the operational construct, position and portfolio and movement, that makes the call actionable.
+
 ### AI-era code generation, comprehension, and review
 
 The comprehension crisis in the [Coadaptive Security layer](../10-coadaptive/02-ai-era-threat-surface.md) rests on a documented direction of travel, not a fixed multiple. These are the sources that establish it.
@@ -304,7 +311,7 @@ Have suggestions for additional resources? See our [Contributing Guidelines](../
 ## About This Framework
 
 **Author**: Julie Davila
-**Version**: 1.0.0
+**Version**: 1.1.0
 **License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **Repository**: https://github.com/juliedavila/software-factory-security-framework
 **Website**: https://sf2framework.com
