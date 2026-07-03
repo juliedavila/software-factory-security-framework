@@ -212,7 +212,7 @@ The body above is vendor-neutral. To put it to work in a specific tool, create t
 
 **Add framework knowledge:** add `https://sf2framework.com` so Claude can reference the full framework, or attach specific sections (foundation, your quadrant's implementation guide, relevant framework relationships) as text. Add your own organizational-context document.
 
-**Data handling:** Projects are stored with Anthropic's standard data controls; Anthropic does not train on your conversations by default. Enterprise deployment offers additional organizational controls. Confirm current terms on Anthropic's site before sharing anything sensitive.
+**Data handling:** Projects are stored under your Claude plan's data controls, and those differ by tier: consumer plans (Free and Pro) train on your conversations by default unless you opt out (Settings → Privacy → "Improve Claude for everyone"), while Team, Enterprise, and API accounts do not train on your data. Confirm current terms on Anthropic's site before sharing anything sensitive.
 
 **Fits best for:** long, multi-session strategic planning where persistent project knowledge and extended reasoning matter.
 

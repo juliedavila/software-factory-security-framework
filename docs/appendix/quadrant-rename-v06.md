@@ -19,7 +19,7 @@ The v0.6 names come from how software actually gets built. They map the readines
 
 ## Reading the axes
 
-The vertical axis (Operational Readiness) is the **lean transformation**. Moving up means the work becomes more repeatable and a failure provably stays contained. The progression Craft to Mass to Lean traces repeatability rising, which is the core SF² thesis. The horizontal axis was Operational Complexity (scale) through v0.6; v0.7 redefined it as **Blast Radius**, the inherent reach of a failure if containment fails. The four names and the readiness story below are unchanged.
+The vertical axis (Operational Readiness) is the **lean transformation**. Moving up means the work becomes more repeatable and a failure provably stays contained. Moving up the readiness axis, from Craft to Studio and Mass to Lean, is repeatability rising, which is the core SF² thesis. The horizontal axis was Operational Complexity (scale) through v0.6; v0.7 redefined it as **Blast Radius**, the inherent reach of a failure if containment fails. The four names and the readiness story below are unchanged.
 
 - **Craft** (Small reach + Low): non-repeatable hand-work, a narrow grant by hand.
 - **Studio** (Small reach + High): narrow grant, floor built.
