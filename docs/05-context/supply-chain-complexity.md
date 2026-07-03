@@ -44,7 +44,7 @@ Supply chain complexity isn't about the number of dependencies. It's about the *
 - Critical single vendors (business-critical dependencies)
 - Supply chain attacks as existential risk
 
-**Implementation**: Enterprise-grade supply chain security regardless of operational complexity
+**Implementation**: Enterprise-grade supply chain security regardless of position
 
 A critical single vendor is a continuity risk, not only a concentration risk: weigh whether it could disappear and what you would do the week it did.
 

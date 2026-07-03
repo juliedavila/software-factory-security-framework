@@ -7,7 +7,7 @@ This guide is for organizations in the **Craft** quadrant: small **Blast Radius*
 
 ## Position Characteristics
 
-**Craft** organizations occupy the Small reach + Low Readiness quadrant:
+**Craft** organizations occupy the Small reach + Lower Readiness quadrant:
 
 - **Small inherent reach** (little authority granted; typically <50 engineers, single product/service)
 - **Legacy or basic infrastructure** (manual processes, limited automation)
@@ -256,7 +256,7 @@ This is a valid, sustainable choice for many organizations:
 
 **Timeline**: Ongoing; sustainable at this scale
 
-### Moving to Studio (Small reach + High Readiness)
+### Moving to Studio (Small reach + Higher Readiness)
 Preparing infrastructure for growth:
 
 **Strategy**: Single-axis movement (increase operational readiness)

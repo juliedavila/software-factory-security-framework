@@ -175,9 +175,12 @@ Use these terms precisely:
 - **Supply Chain Stewardship is #1 priority** - always with "since 2017 adversary evolution"
 - **BAU (Business-as-Usual)** - activities to constrain
 - **Scaling Investments** - capabilities that create compound effects
-- **Blast Radius** - "how far a failure could reach if containment fails" axis, set by granted authority (Low → High); replaced Operational Complexity in v0.7
-- **Operational Readiness** - "how you operate" axis (Lower → Higher)
-- **Quadrant names**: Studio, Lean, Craft, Mass (always capitalized)
+- **Blast Radius** - "how far a failure could reach if containment fails" axis, set by granted authority (Small reach → Large reach); replaced Operational Complexity in v0.7. Never "Simple/Complex", never "Low/High" for this axis.
+- **Operational Readiness** - "how you operate" axis (**Lower → Higher** — never "Low/High")
+- **Quadrant names**: Studio, Lean, Craft, Mass (always capitalized). There is no fifth quadrant — "Leader" is a retired pre-rename name; never use it.
+- **Universal Security Conditions** - the canonical name for the five-condition set (v0.6 rename). Never "Universal Stewardship Model", "Universal Stewardship Areas", or "Universal Stewardship Responsibilities". "Stewardship" survives only inside member names (e.g. "Supply Chain Stewardship") and as the tending verb.
+- **Canonical order of the five conditions** (a numbered list implies priority, so order is load-bearing): 1) Supply Chain, 2) Third-Party, 3) Process, 4) Runtime, 5) Adaptive Capacity. This is the nav/section/diagram order; align every enumeration to it.
+- **Version** - single source of truth is `docs/appendix/references.md` "About This Framework". Current: **v1.1.0**. Do not stamp versions on individual content pages (they rot).
 
 ### Terms to Avoid
 

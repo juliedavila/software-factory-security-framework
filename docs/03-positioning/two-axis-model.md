@@ -55,7 +55,7 @@ These two axes create four distinct strategic positions, each with different sec
 <figure>
   <svg viewBox="0 0 680 560" role="img" aria-labelledby="sf2-axis-title sf2-axis-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-axis-title">SF² two-axis positioning model</title>
-    <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus High readiness (top left); Lean is Large reach plus High readiness (top right) and is the goal position; Craft is Small reach plus Low readiness (bottom left); Mass is Large reach plus Low readiness (bottom right). Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</desc>
+    <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus Higher readiness (top left); Lean is Large reach plus Higher readiness (top right) and is the goal position; Craft is Small reach plus Lower readiness (bottom left); Mass is Large reach plus Lower readiness (bottom right). Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</desc>
     <defs>
       <pattern id="pStudio" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="13" stroke="#009E73" stroke-width="1.2" opacity="0.38"/></pattern>
       <pattern id="pLean" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.5" fill="#0072B2" opacity="0.38"/></pattern>
@@ -73,16 +73,16 @@ These two axes create four distinct strategic positions, each with different sec
     <rect x="360" y="260" width="250" height="200" fill="url(#pMass)" stroke="none"/>
     <!-- quadrant labels -->
     <text x="235" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00553F">Studio</text>
-    <text x="235" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + High readiness</text>
+    <text x="235" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + Higher readiness</text>
     <text x="235" y="190" text-anchor="middle" font-size="12" fill="#2A2520">narrow grant, floor built</text>
     <text x="485" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00557F">Lean &#9733;</text>
-    <text x="485" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + High readiness</text>
+    <text x="485" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + Higher readiness</text>
     <text x="485" y="190" text-anchor="middle" font-size="12" fill="#2A2520">goal: reach with the floor built</text>
     <text x="235" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#855A00">Craft</text>
-    <text x="235" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + Low readiness</text>
+    <text x="235" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + Lower readiness</text>
     <text x="235" y="390" text-anchor="middle" font-size="12" fill="#2A2520">narrow grant, by hand</text>
     <text x="485" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#A6450B">Mass</text>
-    <text x="485" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + Low readiness</text>
+    <text x="485" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + Lower readiness</text>
     <text x="485" y="390" text-anchor="middle" font-size="12" fill="#2A2520">ungoverned reach, no floor</text>
     <!-- axis lines -->
     <line x1="110" y1="490" x2="610" y2="490" stroke="#2A2520" stroke-width="1.5"/>
@@ -96,16 +96,16 @@ These two axes create four distinct strategic positions, each with different sec
     <text x="80" y="70" text-anchor="end" font-size="13" fill="#3A3530">Higher</text>
     <text x="32" y="260" text-anchor="middle" font-size="14" font-weight="700" fill="#2C4A6B" transform="rotate(-90 32 260)">Operational Readiness (repeatability rising)</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The horizontal axis is inherent blast radius (reach if containment fails); the vertical axis is the lean transformation, repeatability and proven containment rising. <strong>Mass</strong> is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The horizontal axis is inherent blast radius (reach if containment fails); the vertical axis is operational readiness, the lean transformation, repeatability and proven containment rising. <strong>Mass</strong> is Lean's large reach without Lean's floor: ungoverned scale, not big batch.</figcaption>
 </figure>
 
 !!! note "Reading the two axes"
-    The horizontal axis is **blast radius**: the inherent reach of a failure if containment fails, set by what authority your automation holds. The vertical axis is the **lean transformation**: moving up means the work becomes more repeatable and a failure provably stays contained. The goal position is **Lean**: large reach with the floor built.
+    The horizontal axis is **blast radius**: the inherent reach of a failure if containment fails, set by what authority your automation holds. The vertical axis is **operational readiness**, the lean transformation: moving up means the work becomes more repeatable and a failure provably stays contained. The goal position is **Lean**: large reach with the floor built.
 
 !!! note "The names are production modes, about flow and containment"
     The four names map to production modes, and the analogy is about flow and containment, not volume. Lean is the cleanest fit: Toyota's line stops the instant a defect appears so it cannot propagate, which is large flow contained by construction, exactly large reach with the floor built. Craft is the artisan touching one or two things by hand. Studio is the small, bounded, modern shop. **Mass is Lean's large reach without Lean's floor: ungoverned scale, not big batch.** Under the reach axis the border that matters is against Lean, not against Ford's assembly line.
 
-### Studio (Small reach + High Readiness)
+### Studio (Small reach + Higher Readiness)
 
 **Characteristics**:
 
@@ -130,7 +130,7 @@ Use technology advantages while building organizational scale
 !!! example "Studio in Action"
     A fifteen-person SaaS company whose automation was never granted broad authority: each service's deploy actor is allowed to touch only its own service, so the worst failure can reach a single surface. Per-credential scoping and human review on consequential actions keep it that way, so the small reach stays a contained one. Small reach, high readiness. A small team is not automatically Studio: grant fifty agents broad tool access to production and the reach is enterprise-scale on startup discipline, which is [Mass](../06-implementation/mass.md).
 
-### Lean (Large reach + High Readiness)
+### Lean (Large reach + Higher Readiness)
 
 **Characteristics**:
 
@@ -156,7 +156,7 @@ Optimize security operations at enterprise scale while maintaining innovation
 !!! example "Lean in Action"
     A two-thousand-person organization whose automation is granted authority across the whole estate, so a failure could reach broadly. Every request runs under per-request attenuation enforced in the platform, so a compromised component is held inside the authority it was granted. Large reach, contained by construction. Lean is large blast radius with the floor already built.
 
-### Craft (Small reach + Low Readiness)
+### Craft (Small reach + Lower Readiness)
 
 !!! note "Craft is a method, not a price tag"
     **Craft** here describes non-repeatable hand-work: snowflake-per-build, every deployment a little different. It names the *method* (low repeatability), not quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time.
@@ -170,7 +170,7 @@ Optimize security operations at enterprise scale while maintaining innovation
 - Constrained resources
 
 **Security Approach**:
-Focus on operational readiness foundations while managing essential security controls
+Focus on operational readiness foundations while maintaining essential security capabilities
 
 **Strategic Focus**:
 Build operational capabilities while maintaining security coverage
@@ -185,7 +185,7 @@ Build operational capabilities while maintaining security coverage
 !!! example "Craft in Action"
     A twenty-person company on legacy infrastructure whose automation is granted little: one or two systems, deployed by hand. Nothing proves a failure stays put; it relies on the systems behaving. Small reach, low readiness.
 
-### Mass (Large reach + Low Readiness)
+### Mass (Large reach + Lower Readiness)
 
 **Characteristics**:
 
@@ -217,7 +217,7 @@ Use these questions to determine your organization's position:
 
 ### Blast Radius Assessment (inherent reach)
 
-| Question | Simple (small reach) | Complex (large reach) |
+| Question | Small reach | Large reach |
 |----------|----------------------|------------------------|
 | **Reach of most-capable automation:** the largest set of systems any one automated actor (pipeline, agent, service account) can touch without a human in the loop? | One bounded surface (single service/datastore) | Crosses trust boundaries (prod + data + identity); org-wide |
 | **Worst-case propagation:** if your single most-privileged non-human identity were fully compromised now, how far does damage reach before something *not also compromised* stops it? | Contained to one blast cell | Cascades across the estate |
@@ -247,6 +247,7 @@ Position is a sequencing and funding diagnostic, not an architecture one. It doe
 
 !!! warning "Common Mistake"
     Implementing Lean-level security programs in a Mass or Craft organization often leads to:
+
     - Failed tooling implementations
     - Frustrated security and development teams
     - Wasted budget on capabilities you never put to use
@@ -326,7 +327,7 @@ The lists below are four sequences toward the same containment, each with toolin
 
 **For Craft**:
 
-- Focus on foundational security controls
+- Focus on foundational security capabilities
 - Manual but systematic approaches
 - Gradual capability building
 - Use managed security services
@@ -336,7 +337,7 @@ The lists below are four sequences toward the same containment, each with toolin
 - Pragmatic hybrid security approaches
 - Risk-based prioritization (critical systems first)
 - Incremental modernization
-- Balance legacy and modern security controls
+- Balance legacy and modern security capabilities
 
 ---
 
@@ -354,4 +355,4 @@ Now that you understand strategic positioning, explore the specific characterist
 
 ---
 
-[:octicons-arrow-left-24: Back to Universal Stewardship](../02-stewardship/overview.md){ .md-button }
+[:octicons-arrow-left-24: Back to Universal Security Conditions](../02-stewardship/overview.md){ .md-button }

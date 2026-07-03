@@ -135,7 +135,7 @@ Use this matrix to assess your organization:
 
 ### Example 1: Studio with High Attack Landscape Maturity
 
-**Base Position**: Studio (Small reach + High Readiness)
+**Base Position**: Studio (Small reach + Higher Readiness)
 
 **Modifier Impact**: High attack landscape maturity means automated adversaries despite small scale
 
@@ -143,15 +143,15 @@ Use this matrix to assess your organization:
 
 ### Example 2: Mass with Strong Relationship Health
 
-**Base Position**: Mass (Large reach + Low Readiness)
+**Base Position**: Mass (Large reach + Lower Readiness)
 
 **Modifier Impact**: Strong relationship health enables faster adoption despite operational constraints
 
 **Adjustment**: Use that trust to implement hybrid solutions more aggressively. Good relationships reduce friction of transformation, allowing faster progress than typical Mass timeline.
 
-### Example 3: Leader with High Regulatory Constraints
+### Example 3: Lean with High Regulatory Constraints
 
-**Base Position**: Lean (Large reach + High Readiness)
+**Base Position**: Lean (Large reach + Higher Readiness)
 
 **Modifier Impact**: Heavy regulatory burden increases BAU workload despite strong operational capabilities
 
@@ -159,7 +159,7 @@ Use this matrix to assess your organization:
 
 ### Example 4: Lean with High AI Saturation
 
-**Base Position**: Lean (Large reach + High Readiness)
+**Base Position**: Lean (Large reach + Higher Readiness)
 
 **Modifier Impact**: Most code and much of review now run through AI; generation has outpaced human comprehension
 

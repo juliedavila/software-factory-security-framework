@@ -145,7 +145,7 @@ Use these questions to determine your attack landscape maturity:
 1. **AI-Powered Detection**: Machine learning for anomaly detection
 2. **Autonomous Response**: Self-healing systems for common attacks
 3. **Predictive Security**: Anticipate attacks before they occur
-4. **Security-as-Code**: Complete automation of security controls
+4. **Security-as-Code**: Complete automation of security capabilities
 
 ## Connection to Supply Chain Stewardship
 

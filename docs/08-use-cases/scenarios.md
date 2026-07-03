@@ -15,7 +15,7 @@ A 50-person SaaS startup (Studio position) hits the scaling crisis: security rev
 
 ### Framework Application
 
-**Strategic Position**: Studio (Small reach + High Readiness)
+**Strategic Position**: Studio (Small reach + Higher Readiness)
 
 **Contextual Modifiers**:
 
@@ -40,7 +40,7 @@ A 5,000-person financial services company (Mass position) needs to modernize sec
 
 ### Framework Application
 
-**Strategic Position**: Mass (Large reach + Low Readiness)
+**Strategic Position**: Mass (Large reach + Lower Readiness)
 
 **Contextual Modifiers**:
 
@@ -66,7 +66,7 @@ A technology company discovers compromised dependencies used in production syste
 
 ### Framework Application
 
-**Universal Stewardship Priority**: [Supply Chain #1](../02-stewardship/supply-chain.md) priority activated
+**Universal Security Conditions Priority**: [Supply Chain #1](../02-stewardship/supply-chain.md) priority activated
 
 **Contextual Modifiers**:
 
@@ -92,8 +92,8 @@ A 20-person startup with legacy infrastructure decides to modernize their entire
 
 ### Framework Application
 
-**Current Position**: Craft (Small reach + Low Readiness)
-**Target Position**: Studio (Small reach + High Readiness)
+**Current Position**: Craft (Small reach + Lower Readiness)
+**Target Position**: Studio (Small reach + Higher Readiness)
 
 **Movement Path**: Infrastructure modernization (single axis movement)
 

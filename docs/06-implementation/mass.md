@@ -7,7 +7,7 @@ This guide is for organizations in the **Mass** quadrant: large **Blast Radius**
 
 ## Position Characteristics
 
-**Mass** organizations occupy the Large reach + Low Readiness quadrant:
+**Mass** organizations occupy the Large reach + Lower Readiness quadrant:
 
 - **Large inherent reach** (broad authority granted; typically 100+ engineers, multiple products/services)
 - **Legacy infrastructure** (manual processes, limited automation, technical debt)

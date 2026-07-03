@@ -16,7 +16,7 @@
 
 BSIMM is a descriptive census of what programs already do. SF² sequences a practice baseline, and that census is one snapshot of it rather than a fixed target. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it turns the census into priorities for your context, and it aims them at limiting what the system can do.
 
-New to SF²? This page maps BSIMM onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **stewardship areas** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+New to SF²? This page maps BSIMM onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 ## Key Insight
 
@@ -55,7 +55,7 @@ BSIMM organizes these activities into 4 domains:
 
 ## SF² Investment Strategy and BSIMM
 
-### Studio (Small reach + High Readiness)
+### Studio (Small reach + Higher Readiness)
 
 **BSIMM Activity Selection**: Automation-friendly activities that scale
 
@@ -84,7 +84,7 @@ BSIMM organizes these activities into 4 domains:
 
 **Implementation Approach**: Automate BSIMM activities from the start
 
-### Lean (Large reach + High Readiness)
+### Lean (Large reach + Higher Readiness)
 
 **BSIMM Activity Selection**: Comprehensive coverage with platform effects
 
@@ -104,7 +104,7 @@ BSIMM organizes these activities into 4 domains:
 
 **Implementation Approach**: Comprehensive BSIMM with efficiency focus
 
-### Craft (Small reach + Low Readiness)
+### Craft (Small reach + Lower Readiness)
 
 **BSIMM Activity Selection**: Essential activities only
 
@@ -130,7 +130,7 @@ BSIMM organizes these activities into 4 domains:
 
 **Implementation Approach**: Minimal BSIMM coverage, managed services where possible
 
-### Mass (Large reach + Low Readiness)
+### Mass (Large reach + Lower Readiness)
 
 **BSIMM Activity Selection**: Hybrid (comprehensive for new, essential for legacy)
 

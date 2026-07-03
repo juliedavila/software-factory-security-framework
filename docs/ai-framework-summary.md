@@ -5,7 +5,7 @@
 ## Framework Identity
 
 **Name**: Software Factory Security Framework (SF²)
-**Version**: 1.0.0
+**Version**: 1.1.0
 **Author**: Julie Davila
 **License**: CC BY 4.0
 **Purpose**: Strategic framework for scaling security capabilities while improving business outcomes
@@ -26,7 +26,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 ## Four Strategic Quadrants
 
-### 1. Studio (Small reach + High Readiness)
+### 1. Studio (Small reach + Higher Readiness)
 **Characteristics**: 10-200 engineers, modern cloud infrastructure, strong CI/CD, fast decision-making
 
 **Strategy**: Automate from the start, build scaling foundations early
@@ -42,7 +42,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Building Lean-level complexity too early
 
-### 2. Lean (Large reach + High Readiness)
+### 2. Lean (Large reach + Higher Readiness)
 **Characteristics**: 200+ engineers, mature platforms, established security, platform-oriented
 
 **Strategy**: Optimize existing capabilities, build platform effects, security as competitive advantage
@@ -58,7 +58,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Complacency and tool sprawl without retirement
 
-### 3. Craft (Small reach + Low Readiness)
+### 3. Craft (Small reach + Lower Readiness)
 **Characteristics**: <50 engineers, legacy/basic infrastructure, resource constraints, critical decision point
 
 **Strategy**: Choose intentional simplicity OR prepare for growth (two distinct paths)
@@ -77,7 +77,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Accidental drift to Mass (complexity without readiness)
 
-### 4. Mass (Large reach + Low Readiness)
+### 4. Mass (Large reach + Lower Readiness)
 **Characteristics**: 100+ engineers, legacy systems at scale, manual processes, transformation imperative
 
 **Strategy**: Stabilize first, hybrid approach (modern for new, pragmatic for legacy), realistic 3-5 year timeline
@@ -93,7 +93,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Rushing the containment climb, or widening reach further before the floor is built, underestimating resources needed
 
-## Universal Stewardship Areas
+## Universal Security Conditions
 
 Five areas requiring attention regardless of quadrant position:
 
@@ -104,14 +104,14 @@ Five areas requiring attention regardless of quadrant position:
 
 **Critical**: Automated dependency scanning, SBOM, continuous monitoring
 
-### 2. Process Stewardship
+### 2. Third-Party Stewardship
+**Focus**: Integrated services, platforms, vendors throughout operational lifecycle
+
+### 3. Process Stewardship
 **Focus**: Security throughout development lifecycle, continuous validation, rapid feedback
 
-### 3. Runtime Stewardship
+### 4. Runtime Stewardship
 **Focus**: Production security and reliability, proactive monitoring, rapid response
-
-### 4. Third-Party Stewardship
-**Focus**: Integrated services, platforms, vendors throughout operational lifecycle
 
 ### 5. Adaptive Capacity
 **Focus**: Whether the system as a whole can absorb a surprise it was not designed for and keep working; the cross-cutting resilience condition formerly called Continuous Learning
@@ -416,7 +416,7 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 When helping users with SF² framework:
 
-1. **Start with position assessment** - Determine quadrant based on complexity and readiness
+1. **Start with position assessment** - Determine quadrant based on blast radius and readiness
 2. **Identify contextual modifiers** - Ask about attack landscape, supply chain, regulation, etc.
 3. **Apply quadrant-specific guidance** - Different recommendations for different positions
 4. **Consider realistic timelines** - Don't promise fast transformations for Mass
@@ -427,7 +427,7 @@ When helping users with SF² framework:
 
 ## Quick Reference Card
 
-**Current Position** → Assess Complexity (Simple/Complex) + Readiness (Lower/Higher)
+**Current Position** → Assess Blast Radius (Small reach/Large reach) + Readiness (Lower/Higher)
 
 **Quadrant Priorities**:
 

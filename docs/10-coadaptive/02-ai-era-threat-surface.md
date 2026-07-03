@@ -2,7 +2,7 @@
 
 !!! info "Coadaptive Layer · Chapter 02"
     **This chapter extends:** [SF² Contextual Modifiers (Section 05) · Attack Landscape](../05-context/attack-landscape.md).
-    **Also flags:** [SF² Adaptive Capacity (Section 02)](../02-stewardship/adaptive-capacity.md): comprehension-crisis addendum lives here in v0.6 (chapter-only per D2).
+    **Also flags:** [SF² Adaptive Capacity (Section 02)](../02-stewardship/adaptive-capacity.md): comprehension-crisis addendum lives here.
     **Scope:** the five attack surface expansions and the comprehension crisis.
 
 The AI era did not add five new threats to the board so much as multiply the board itself. Democratized builders, public APIs, agent access, autonomous reasoning, and LLM workflows each expand the attack surface, and they expand it together, each one widening the blast radius of the others. Underneath all five sits the comprehension crisis: code is now generated faster than any human process can understand it, and a surface you cannot comprehend is a surface you cannot review by the old methods.

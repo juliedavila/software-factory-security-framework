@@ -245,7 +245,7 @@ When you've identified a security investment with both internal and customer val
 **Success Criteria**:
 
 - Clear understanding of capability limitations and tradeoffs
-- Documented best practices from internal usage
+- Documented internal patterns from usage
 - Realistic customer expectations established
 - Support burden manageable based on internal experience
 

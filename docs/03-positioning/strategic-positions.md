@@ -10,7 +10,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ## The Four Strategic Positions
 
-### Studio: Small Reach + High Readiness
+### Studio: Small Reach + Higher Readiness
 
 <div class="quadrant-studio" markdown>
 
@@ -50,13 +50,13 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Zero manual security reviews for standard deployments, developers resolve 80%+ security issues without security team involvement
 - **24 Months**: Security automation enables 3-5x growth without proportional security team expansion
 
-**Movement Path**: As you grow, you'll naturally grant more authority and widen your reach. Your challenge is keeping containment ahead of that reach: transition to [Lean](#lean-large-reach-high-readiness) rather than falling into the Mass trap of widening reach faster than you can contain it.
+**Movement Path**: As you grow, you'll naturally grant more authority and widen your reach. Your challenge is keeping containment ahead of that reach: transition to [Lean](#lean-large-reach-higher-readiness) rather than falling into the Mass trap of widening reach faster than you can contain it.
 
 [:octicons-arrow-right-24: See Studio Implementation Guide](../06-implementation/studio.md){ .md-button }
 
 ---
 
-### Lean: Large Reach + High Readiness
+### Lean: Large Reach + Higher Readiness
 
 <div class="quadrant-lean" markdown>
 
@@ -97,7 +97,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - **12 Months**: Security champions program active in all major teams, 60%+ of security issues resolved without central team involvement
 - **24 Months**: Security capabilities scale automatically with organizational growth, security becomes competitive advantage
 
-**Movement Path**: Stay in Lean by continuously evolving security capabilities to match organizational scale. Falling into Mass happens when operational readiness can't keep pace with complexity growth, so maintain platform investment velocity.
+**Movement Path**: Stay in Lean by continuously evolving security capabilities to match organizational scale. Falling into Mass happens when readiness can't keep pace with widening reach, so maintain platform investment velocity.
 
 [:octicons-arrow-right-24: See Lean Implementation Guide](../06-implementation/lean.md){ .md-button }
 
@@ -115,7 +115,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 - Straightforward product or service offering
 - Often resource-constrained or bootstrapped
 
-**Your Security Approach**: Focus on operational readiness foundations while managing essential security controls. Accept manual security processes initially, but invest strategically in readiness improvements that enable future automation.
+**Your Security Approach**: Focus on operational readiness foundations while maintaining essential security capabilities. Accept manual security processes initially, but invest strategically in readiness improvements that enable future automation.
 
 **Strategic Focus**: Build operational capabilities systematically while maintaining security coverage. Your small reach means a failure stays contained even when caught by hand, so you can afford some manual processes temporarily. Use this breathing room to invest in readiness infrastructure.
 
@@ -141,7 +141,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 - **6 Months**: Critical dependencies monitored, basic CI/CD pipeline operational, documented security processes
 - **12 Months**: 30-50% automation of security checks, measurable reduction in manual security work
-- **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Studio](#studio-small-reach-high-readiness) position
+- **18-24 Months**: Operational readiness sufficient to support automation investments, movement toward [Studio](#studio-small-reach-higher-readiness) position
 
 **Movement Path**: Move toward Studio by investing in operational readiness. This single-axis movement is achievable. Prioritize cloud migration, DevOps tooling, and automation infrastructure over widening your reach.
 
@@ -163,7 +163,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Your Security Approach**: Pragmatic security within constraints while enabling gradual modernization. Accept that full transformation takes 3-5 years. Don't promise 12-month miracles.
 
-**Strategic Focus**: Balance current operational demands with strategic modernization investments. Your complexity prevents rapid transformation, but your scale justifies investment in foundational improvements.
+**Strategic Focus**: Balance current operational demands with strategic modernization investments. The reach you already hold prevents rapid transformation, but your scale justifies investment in foundational improvements.
 
 </div>
 
@@ -188,7 +188,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 - **12 Months**: Hybrid security solutions operational, critical technical debt reduction projects started, transformation roadmap with executive buy-in
 - **24 Months**: Measurable automation improvements in high-value areas, improved operational readiness metrics, cultural momentum toward transformation
-- **36-60 Months**: Substantial progress toward [Lean](#lean-large-reach-high-readiness) position, security increasingly enabling business rather than constraining it
+- **36-60 Months**: Substantial progress toward [Lean](#lean-large-reach-higher-readiness) position, security increasingly enabling business rather than constraining it
 
 **Movement Path**: Most Mass should move toward Lean by investing in operational readiness while managing existing complexity. This is difficult but achievable with sustained executive support and realistic timelines. Attempting to simplify operations (Mass → Craft) rarely succeeds. It requires major business restructuring.
 
@@ -247,7 +247,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 **Established Enterprise Self-Assessment**: "We're Lean, we have mature security programs!"
 
-**Reality Check**: If you're running significant legacy infrastructure with manual deployments, you're Mass regardless of security team size. Your complexity is high, but operational readiness is constrained by technical debt.
+**Reality Check**: If you're running significant legacy infrastructure with manual deployments, you're Mass regardless of security team size. Your reach is large, but operational readiness is constrained by technical debt.
 
 ---
 

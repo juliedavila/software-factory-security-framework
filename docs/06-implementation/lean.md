@@ -4,7 +4,7 @@ This guide is for organizations in the **Lean** quadrant: large **Blast Radius**
 
 ## Position Characteristics
 
-**Lean** organizations occupy the Large reach + High Readiness quadrant:
+**Lean** organizations occupy the Large reach + Higher Readiness quadrant:
 
 - **Large inherent reach** (broad authority across the estate; typically 200+ engineers, multiple products/services)
 - **Mature infrastructure** (sophisticated cloud platforms, advanced automation)
@@ -210,7 +210,7 @@ Security should be a differentiator, not a cost center.
 
 ## Movement Paths
 
-### Maintaining Position: Staying Leader
+### Maintaining Position: Staying Lean
 Continuous effort required to maintain leadership position:
 
 **Strategy**: Continuous innovation and optimization to stay ahead
@@ -260,7 +260,7 @@ Moving beyond detection to automated response:
 
 - Auto-patching for approved vulnerability classes
 - Automated security configuration drift correction
-- Self-healing security controls
+- Self-healing security capabilities
 
 ### Security Product Capabilities
 If you operate a customer-facing software factory:

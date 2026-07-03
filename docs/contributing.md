@@ -8,7 +8,7 @@ The easiest way to contribute is to:
 
 1. **Click "Edit this page"** on any documentation page
 2. Make your changes in the GitHub web editor
-3. Submit a merge request with a clear description
+3. Submit a pull request with a clear description
 
 ## Types of Contributions
 
@@ -75,7 +75,7 @@ The framework uses:
 2. Click **"Edit this page"** button (pencil icon)
 3. Make your changes in the web editor
 4. Provide a clear commit message
-5. Submit the merge request
+5. Submit the pull request
 
 ### Option 2: Full Repository Workflow (For Larger Changes)
 
@@ -100,7 +100,7 @@ mkdocs serve
 git add docs/
 git commit -m "feat: add <description of your changes>"
 
-# Push and create merge request
+# Push and create pull request
 git push origin feature/your-contribution
 ```
 
@@ -114,9 +114,9 @@ Can't contribute directly but have feedback?
    - Error reports
    - New topic requests
 
-## Merge Request Guidelines
+## Pull Request Guidelines
 
-### MR Title Format
+### PR Title Format
 
 Use conventional commit format:
 
@@ -125,7 +125,7 @@ Use conventional commit format:
 - `docs: improve clarity in ...`
 - `refactor: reorganize ...`
 
-### MR Description
+### PR Description
 
 Include:
 
@@ -135,10 +135,10 @@ Include:
 
 ### Review Process
 
-1. **Automatic checks** run on every MR (validation, linting, build verification)
+1. **Automatic checks** run on every PR (validation, linting, build verification)
 2. **Content review** by framework maintainers
 3. **Feedback & iteration** - we'll work with you to refine contributions
-4. **Merge** - approved MRs are merged to main and deployed automatically
+4. **Merge** - approved PRs are merged to main and deployed automatically
 
 ### Automation: We Handle the Details! 🎉
 
@@ -169,13 +169,15 @@ docs/
 ├── index.md                    # Landing page
 ├── executive-summary.md        # High-level overview
 ├── 01-foundation/             # Core concepts
-├── 02-stewardship/            # 5 universal responsibilities
+├── 02-stewardship/            # 5 universal security conditions
 ├── 03-positioning/            # Strategic positioning model
 ├── 04-investment/             # Investment portfolio framework
 ├── 05-context/                # Contextual modifiers
 ├── 06-implementation/         # Quadrant-specific guides
 ├── 07-relationships/          # Framework mappings
 ├── 08-use-cases/              # Application examples
+├── 09-ai-integration/         # AI tool integration guides
+├── 10-coadaptive/             # Coadaptive Security Layer (capstone)
 └── appendix/                  # Glossary, references
 ```
 

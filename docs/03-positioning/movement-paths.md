@@ -2,7 +2,7 @@
 
 ## How Organizations Transition Between Positions
 
-Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + High Readiness), but **the path you take determines your likelihood of success**.
+Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + Higher Readiness), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
     Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
@@ -19,7 +19,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 - Security capabilities that scale automatically with organizational growth
 - Developer experience improvements that increase rather than constrain velocity
-- Platform approaches that enable innovation while maintaining security controls
+- Platform approaches that enable innovation while maintaining security capabilities
 - Cultural integration where security is a competitive advantage, not a constraint
 
 **Reality Check**: Not every organization needs to reach Lean immediately. Your optimal target depends on your business trajectory and organizational change capacity.
@@ -459,7 +459,7 @@ Use these questions to select your optimal path:
 
 **2. What is your business trajectory?**
 
-- Remaining simple vs scaling complexity
+- Remaining small in reach vs widening reach
 - Revenue growth supporting transformation investment
 - Market pressures requiring rapid change
 

@@ -313,7 +313,7 @@ The spend-side companion to this override is [Defender cost economics](../10-coa
 
 Your [strategic position](../03-positioning/strategic-positions.md) affects criteria weighting:
 
-### Studio (Small reach + High Readiness)
+### Studio (Small reach + Higher Readiness)
 
 **Adjust weights**:
 
@@ -325,7 +325,7 @@ Your [strategic position](../03-positioning/strategic-positions.md) affects crit
 
 ---
 
-### Lean (Large reach + High Readiness)
+### Lean (Large reach + Higher Readiness)
 
 **Adjust weights**:
 

@@ -3,7 +3,7 @@ title: Software Factory Security Framework (SF²)
 description: Strategic framework for scaling security capabilities while improving business outcomes
 keywords: security framework, security strategy, security scaling, software factory, security leadership, CISO, VP Security
 author: Julie Davila
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Software Factory Security Framework (SF²)
@@ -44,7 +44,7 @@ Organizations that work through this well solve more than a scaling problem. The
 
 <div class="grid cards" markdown>
 
--   :material-shield-check:{ .lg .middle } __Universal Stewardship Model__
+-   :material-shield-check:{ .lg .middle } __Universal Security Conditions__
 
     ---
 
@@ -115,7 +115,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 ### For Individual Contributors
 
-1. Understand [Universal Stewardship Responsibilities](02-stewardship/overview.md)
+1. Understand [Universal Security Conditions](02-stewardship/overview.md)
 2. Explore [Use Cases](08-use-cases/scenarios.md) relevant to your role
 3. Reference specific stewardship areas as needed
 
@@ -174,7 +174,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
 

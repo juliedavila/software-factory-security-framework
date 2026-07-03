@@ -4,7 +4,7 @@ This guide is for organizations in the **Studio** quadrant: small **Blast Radius
 
 ## Position Characteristics
 
-**Studio** organizations occupy the Small reach + High Readiness quadrant:
+**Studio** organizations occupy the Small reach + Higher Readiness quadrant:
 
 - **Small inherent reach** (authority scoped per task; typically 10-200 engineers)
 - **Modern infrastructure** (cloud-native, infrastructure-as-code)

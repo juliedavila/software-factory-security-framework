@@ -10,7 +10,7 @@ This is the condition you can do the most about, because the artifact is in your
 
 ## Why it is the loudest of the four
 
-Supply Chain has been the one to watch for years, roughly since adversaries moved discovery to automation at internet scale and began finding vulnerable dependencies faster than defenders could inventory them. The asymmetry is the whole problem. An attacker runs continuous, internet-wide scans for a known-vulnerable package. A defender who inventories dependencies once a quarter is answering last quarter's question.
+Supply Chain has been the one to watch for years, roughly since 2017, when adversaries moved discovery to automation at internet scale and began finding vulnerable dependencies faster than defenders could inventory them. The asymmetry is the whole problem. An attacker runs continuous, internet-wide scans for a known-vulnerable package. A defender who inventories dependencies once a quarter is answering last quarter's question.
 
 This is about tempo, not a ranking of which matters more. The supply-chain condition degrades faster and gets exploited sooner than the rest, so it earns first call on attention and budget. Treat it as the default #1 and argue yourself *down* from there if your context warrants.
 

@@ -87,7 +87,7 @@ As software factories grow, traditional security activities face a scaling chall
 
 Volume isn't the real problem in the BAU scaling crisis. The deeper issue is a capability mismatch between manual defenders and automated adversaries.
 
-**The Adversary Capability Shift**: In recent years, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
+**The Adversary Capability Shift**: Since roughly 2017, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
 
 - Discover unknown assets (forgotten servers, shadow IT, unmanaged dependencies) faster than organizations can inventory them
 - Exploit known vulnerabilities within hours or days of disclosure

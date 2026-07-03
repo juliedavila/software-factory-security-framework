@@ -167,10 +167,5 @@ For questions about this accessibility statement:
 **Repository**: https://github.com/juliedavila/software-factory-security-framework
 **Issues**: https://github.com/juliedavila/software-factory-security-framework/issues
 
----
-
-**Last Updated**: January 2025
-**Framework Version**: 0.3.4
-
 [:octicons-arrow-left-24: Back to References](references.md){ .md-button }
 [:octicons-arrow-right-24: Report Accessibility Issue](https://github.com/juliedavila/software-factory-security-framework/issues/new){ .md-button }

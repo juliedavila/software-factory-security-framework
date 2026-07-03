@@ -67,7 +67,7 @@ while improving business outcomes.
   Operational Readiness (Lower → Higher). Four quadrants: Studio (small reach,
   high readiness), Lean (large reach, high readiness), Craft (small reach, low
   readiness), Mass (large reach, low readiness).
-- Five universal stewardship areas: Supply Chain (#1 priority), Third-Party,
+- Five Universal Security Conditions: Supply Chain (#1 priority), Third-Party,
   Process, Runtime, and Adaptive Capacity.
 - Investment portfolio: constrain BAU (business-as-usual) activities; build
   Scaling investments that create compound capabilities; favor platform effects.
@@ -195,7 +195,7 @@ As SF² evolves, keep your assistant's context fresh:
 
 ## Per-vendor setup
 
-!!! note "Point-in-time, accurate as of June 2026 (SF² v0.11)"
+!!! note "Point-in-time, accurate as of June 2026 (SF² v1.1.0)"
     Everything below this line is per-vendor setup mechanics. Vendor product names,
     menu paths, plan requirements, and data-handling defaults change often and SF²
     does not control them. Treat this section as a dated snapshot, not framework

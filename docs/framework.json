@@ -2,7 +2,7 @@
   "framework": {
     "name": "Software Factory Security Framework",
     "abbreviation": "SF²",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A strategic framework for scaling security capabilities while improving business outcomes",
     "author": "Julie Davila",
     "license": "CC BY 4.0",
@@ -38,7 +38,7 @@
     "quadrants": [
       {
         "name": "Studio",
-        "position": "Small reach + High Readiness",
+        "position": "Small reach + Higher Readiness",
         "characteristics": [
           "Small to medium scale (10-200 engineers)",
           "Modern cloud-native infrastructure",
@@ -50,7 +50,7 @@
       },
       {
         "name": "Lean",
-        "position": "Large reach + High Readiness",
+        "position": "Large reach + Higher Readiness",
         "characteristics": [
           "Large scale (200+ engineers)",
           "Mature infrastructure and platforms",
@@ -62,7 +62,7 @@
       },
       {
         "name": "Craft",
-        "position": "Small reach + Low Readiness",
+        "position": "Small reach + Lower Readiness",
         "characteristics": [
           "Small scale (<50 engineers)",
           "Legacy or basic infrastructure",
@@ -74,7 +74,7 @@
       },
       {
         "name": "Mass",
-        "position": "Large reach + Low Readiness",
+        "position": "Large reach + Lower Readiness",
         "characteristics": [
           "Large scale with legacy systems",
           "Manual processes at scale",
@@ -305,7 +305,7 @@
       },
       {
         "id": "02-stewardship",
-        "name": "Universal Stewardship",
+        "name": "Universal Security Conditions",
         "pages": [
           "Overview",
           "Supply Chain (Priority #1)",

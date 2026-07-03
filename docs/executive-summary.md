@@ -14,14 +14,14 @@ Organizations that work through this well solve more than a scaling problem. The
 
 The Software Factory Security Framework (SF²) provides security leaders with:
 
-### Universal Stewardship Model
+### Universal Security Conditions
 
 Five core security responsibilities that apply to every software-producing organization:
 
 1. **Supply Chain (#1 Priority)** - Managing security risks from all external dependencies
-2. **Process** - Security embedded throughout development lifecycle
-3. **Runtime** - Maintaining security of systems in production
-4. **Third-Party** - Managing risks from integrated services and platforms
+2. **Third-Party** - Managing risks from integrated services and platforms
+3. **Process** - Security embedded throughout development lifecycle
+4. **Runtime** - Maintaining security of systems in production
 5. **Adaptive Capacity** - Whether the system as a whole can absorb a surprise it was not designed for and keep working
 
 [:octicons-arrow-right-24: Learn more about stewardship](02-stewardship/overview.md)
