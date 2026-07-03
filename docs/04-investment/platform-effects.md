@@ -20,13 +20,11 @@ This guidance applies specifically to:
 - Developer productivity platforms (observability, monitoring, etc.)
 - Infrastructure and container platforms (Kubernetes, Docker, etc.)
 
-**Not applicable to**:
+**Where it applies**: anywhere you serve more than one software factory. Usually that means factories you do not run yourself, like a product your customers build on or an open-source tool the field adopts. A large enterprise running many internal factories can reach the same multiplication across them.
 
-- End-user application companies (even large ones)
-- Internal platform teams serving only their own organization
-- Security vendors selling traditional enterprise software
+**Where it does not**: any org that serves a single factory. A one-factory company (even a large end-user application company) or an internal platform team serving one internal org tops out at Scaling, which is the right ceiling for it. Security vendors selling traditional enterprise software sit here too, unless the product is itself a factory platform.
 
-If you're not a platform company serving other software factories, focus on [BAU vs Scaling](bau-vs-scaling.md) and [Evaluation Criteria](evaluation-criteria.md) instead.
+If you serve only one factory, focus on [BAU vs Scaling](bau-vs-scaling.md) and [Evaluation Criteria](evaluation-criteria.md) instead.
 
 ---
 
@@ -65,7 +63,7 @@ If you're not a platform company serving other software factories, focus on [BAU
 
 - **Internal value**: Reduces your security team's manual effort, improves your supply chain security posture
 - **Customer value**: Enables your customers to secure their supply chains using your platform
-- **Platform effect**: 10,000 customers using your feature = 10,000x the security value created
+- **Platform effect**: every customer who adopts the feature multiplies the security value beyond your internal use; the multiple tracks adoption, not your headcount
 - **Competitive advantage**: Security capability differentiating your platform from competitors
 
 ---
@@ -91,8 +89,8 @@ Use this systematic framework to evaluate security investments when you're a pla
 
 - Example: Automated vulnerability management solving your supply chain problems that customers can use
 - Priority: Accelerate implementation, allocate cross-functional resources, market aggressively
-- Timeline Impact: May justify 30-50% faster implementation than internal-only business case
-- Investment Level: Can justify 2-3x higher investment than internal-only features
+- Timeline Impact: May justify materially faster implementation than an internal-only business case (calibrate to your org)
+- Investment Level: Can justify materially higher investment than internal-only features (calibrate to your org)
 
 **Strong Internal + Weak Customer Value** (Standard Priority):
 

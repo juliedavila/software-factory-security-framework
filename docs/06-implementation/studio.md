@@ -86,7 +86,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 - [ ] Establish security metrics dashboard
 
 ### Quarter 2: Scaling
-- [ ] Reduce manual security reviews by 70% through automation
+- [ ] Reduce manual security reviews by 50% through automation
 - [ ] Launch security champions pilot program
 - [ ] Implement runtime security monitoring
 - [ ] Build feedback loops for continuous improvement
@@ -111,7 +111,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 **Expected Outcomes**:
 
 - 70% reduction in manual security review time
-- 3x increase in deployment frequency without security incidents
+- Higher deployment frequency without a rise in security incidents (set your own baseline target)
 - Security embedded in default paths
 
 ### Year 2: Optimize and Extend

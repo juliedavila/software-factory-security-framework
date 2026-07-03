@@ -176,7 +176,7 @@ ahead of other scaling work.
 
 1. **Guardrails over gates**: move security checks into the pipeline as automated policy, not manual review steps
 2. **Identity inventory**: enumerate agents, service accounts, and tool grants; revoke standing access that isn't used
-3. **Secrets discipline**: AI-assisted commits leak credentials at higher rates; continuous scanning and short-lived secrets
+3. **Secrets discipline**: more code committed faster, with less human review, means more chances to commit a secret; continuous scanning and short-lived secrets
 
 ### Medium-Term (6-18 months)
 

@@ -210,7 +210,7 @@ Based on position and modifiers:
 - Timeline: _______________
 
 ### 6. For Agent Systems: Run the Seam Pass (the emerging ship bar)
-Enumerate the agent, the APIs it can call, and the autonomy it runs with, and test what each seam lets through when the agent acts on input you do not control. Because output-side checks miss most leaks, the gate is an external watcher: one observable that proves a run wrong, checked from outside the agent on every run. Leading teams now ship this as an evaluation in CI. No external watcher, no ship.
+Enumerate the agent, the APIs it can call, and the autonomy it runs with, and test what each seam lets through when the agent acts on input you do not control. Because output-side checks miss most leaks, the gate is an external watcher: one observable that proves a run wrong, checked from outside the agent on every run. The emerging bar is to ship this as an evaluation in CI: no external watcher, no ship.
 
 ---
 

@@ -150,7 +150,7 @@ At the scaling inflection point, organizations face two fundamentally different 
 - Security becomes a competitive advantage enabler
 
 !!! tip "The Compound Interest Principle"
-    Just as financial investments generate compound returns, security scaling investments create exponential value. An automation capability used 100 times costs the same to build as one used once, but delivers 100x the value. Manual security work scales linearly. Each review costs the same effort.
+    Just as financial investments generate compound returns, security scaling investments compound. An automation capability used 100 times costs the same to build as one used once; the build cost amortizes toward zero per use while the value keeps accruing. Manual security work never amortizes. Each review costs the same effort as the last.
 
 ---
 
@@ -287,7 +287,7 @@ Scaling Investments compound in two different ways, and the difference decides w
 
 ### Platform Effects (Multiply)
 
-**Definition**: Investments that benefit both your organization AND customer software factories (platform companies only)
+**Definition**: Investments that pay across more than one software factory at once: customer platforms, open-source tools the field adopts, or many factories inside one large enterprise
 
 **Examples**:
 
@@ -320,7 +320,7 @@ Like renewable energy systems that provide ongoing value after initial investmen
 **Paved Roads**: Secure templates and baselines that engineers reuse without security review
 
 - **One-time effort**: Design secure baseline architecture, document patterns
-- **Ongoing value**: Every team using the template saves 10-20 hours of security reviews
+- **Ongoing value**: Every team using the template skips security reviews it would otherwise queue (measure your own baseline to size the saving)
 - **Compound effect**: As templates improve based on feedback, all users benefit automatically
 
 **Self-Service Platforms**: Automated environments and policy-as-code eliminating recurring requests

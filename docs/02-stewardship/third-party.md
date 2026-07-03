@@ -40,7 +40,7 @@ Because you cannot inspect the vendor, you cultivate this condition by preparing
 
 - **Contain the blast radius before you need to.** Scope what each vendor can reach to the minimum the function requires. The vendor breach you survive is the one whose reach you bounded in advance.
 - **Assume the breach and rehearse it.** Know which vendors are load-bearing, what happens to your product when one goes dark, for a day or for good, or goes hostile, and how you fail over. A contingency plan you have never tested is a hope.
-- **Make the shared-responsibility line explicit.** Most third-party incidents trace to a boundary nobody owned because each side assumed the other had it. Write down who secures what, then check the assumption against reality.
+- **Make the shared-responsibility line explicit.** The third-party incidents that hurt tend to trace to a boundary nobody owned, because each side assumed the other had it. Write down who secures what, then check the assumption against reality.
 - **Monitor the surface you can see.** You cannot watch their internals, but you can watch what they expose to you: the access they hold, the data crossing the boundary, the certifications lapsing.
 
 ## How tending differs by position

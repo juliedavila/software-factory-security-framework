@@ -14,7 +14,7 @@ The failure mode is rarely a missing tool. It is noise. A monitoring surface tha
 
 - **Detect on behavior, not only signatures.** Know what normal looks like for your system so the abnormal stands out. Static rules catch yesterday's attack; a sense of baseline catches the one you have not seen.
 - **Rehearse the response.** A playbook no one has run is a document, not a capability. The teams that contain incidents quickly are the ones that have practiced containing them.
-- **Protect the data at the boundary.** Most breaches turn on a credential or a misconfiguration, not an exotic exploit. Least privilege, encrypted data, and audited access close the paths that actually get used.
+- **Protect the data at the boundary.** The breaches that land here rarely turn on an exotic exploit. Year after year, the path that gets used is a stolen credential or a misconfiguration. Least privilege, encrypted data, and audited access close it.
 - **Design for graceful failure.** Systems that degrade rather than collapse under pressure buy you the minutes response needs. Recovery is part of the condition, not a separate discipline.
 
 ## How tending differs by position

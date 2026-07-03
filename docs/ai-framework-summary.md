@@ -128,7 +128,7 @@ Five areas requiring attention regardless of quadrant position:
 **Warning**: Linear scaling becomes unsustainable
 
 ### Scaling Investments
-**Definition**: Capabilities that reduce manual effort exponentially
+**Definition**: Capabilities whose payoff compounds as more teams use them
 
 **Examples**: Automation platforms, self-service capabilities, policy-as-code, paved roads
 
@@ -142,7 +142,7 @@ Five areas requiring attention regardless of quadrant position:
 **Value**: Multiplicative impact across organization
 
 ### The Scaling Crisis
-**Definition**: When demand for security services grows exponentially while team capacity grows linearly
+**Definition**: When demand for security services outpaces a team whose capacity grows only linearly
 
 **Signals**: Security blocking releases, team burnout, months-long backlogs
 
