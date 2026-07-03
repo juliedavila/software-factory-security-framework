@@ -179,52 +179,37 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
 
 ---
 
-## Path 2: Craft → Mass (Reach Scaling)
+## Path 2: Craft → Mass (the drift to guard against)
 
 <div class="quadrant-mass" markdown>
 
-**Movement Type**: Single-axis (Increasing Reach)
+**Movement type**: Reach widening, usually involuntary
 
-**Timeline**: 18-24 months
+**Drift speed**: 18-24 months from Craft to Mass once reach starts outrunning the floor
 
-**Success Probability**: Moderate ⭐⭐
+**Recovery cost**: 36-60 months for the [Mass → Lean containment climb](#path-5-mass-lean-the-containment-climb) afterward
 
 </div>
 
-### When to Choose This Path
+This is the one move on the map you do not make on purpose. Craft → Mass is what happens when you grant automation and agents more authority, a new integration here, broader tool access there, another autonomous actor in the pipeline, faster than you build the containment to hold it. Reach widens and the floor does not. One day a failure's blast radius is enterprise-scale and nothing proves a compromised component stays inside its grant. You arrived at Mass by drift, not by decision.
 
-**Yes, if:**
+### Sometimes it is a bet, not an accident
 
-- Business growth requires rapid team scaling and organizational complexity
-- Market opportunity demands enterprise features and capabilities
-- Investment in operational readiness infrastructure isn't immediately feasible
+Occasionally the reach is taken on knowingly: the business needs enterprise features or a new market before it can fund readiness, and you grant the authority with your eyes open. That is defensible exactly once, when you book the debt. Name a containment-funding date, put it in writing, and treat the position as temporary Mass you are already climbing out of. Undated, "we chose this" is not a strategy. It is the rationalization this warning exists to puncture. Either way you are in Mass, managing reach that outran its floor. A conscious tradeoff changes the motive, not your coordinates.
 
-**No, if:**
+### Recognition signs
 
-- You can afford to invest in readiness first (Craft → Studio → Lean is better)
-- Current manual processes are already creating business constraints
-- Team has capacity to focus on foundational improvements
+- Authority is granted to automation and agents faster than you can scope or review the grants
+- "We will add the containment later" has been said more than once
+- For a given agent or credential, you cannot say what it can reach if it misbehaves
 
-### Strategic Warning
+### What prevents it
 
-**This path creates technical debt**. You're widening reach (more automation authority, more autonomous actors, broader scope across teams and features) without building the containment to match. Plan for eventual Mass → Lean transformation requiring 36-60 months.
+The move you actually choose is Craft → Studio: raise readiness and build the floor before you widen reach. If reach is already widening for real business reasons, pair every authority grant with the containment that bounds it, per-credential scoping, human review on consequential actions, and blast-radius limits, so you land in Studio on the way to Lean rather than in Mass.
 
-### Key Investment Priorities
+### If you are already in Mass
 
-1. **Team Scaling**: Hiring and organizational structure for multiple teams
-2. **Process Sophistication**: Coordination mechanisms, change management, incident response
-3. **Compliance Capabilities**: Regulatory frameworks, audit readiness, documentation
-4. **Manual Security Scale**: Security team growth to match increased reach
-
-### Success Indicators
-
-- **Business**: Successfully serving enterprise customers, meeting regulatory requirements
-- **Operational**: Multiple teams operating with coordination processes
-- **Security**: Maintaining security coverage despite increased complexity
-
-### Recommended Next Steps
-
-Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term. It's unsustainable.
+Plan the [Mass → Lean containment climb](#path-5-mass-lean-the-containment-climb) and start it. Do not settle in. Mass is unsustainable: 36-60 months to build the floor under reach you already hold, and every month you wait is a month the blast radius stays uncontained.
 
 ---
 

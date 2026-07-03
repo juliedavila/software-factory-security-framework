@@ -158,7 +158,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 ## Framework Principles
 
 !!! quote "Executive Insight"
-    Security scaling isn't primarily solved through capacity increases alone. It requires **strategic investment in capabilities that reduce manual effort requirements**. Organizations that make this shift successfully report significant improvements in both security effectiveness and business velocity.
+    Hiring alone doesn't solve security scaling. It takes **strategic investment in capabilities that reduce manual effort**, and that is what lets security effectiveness and delivery speed rise together instead of trading off against each other.
 
 ### Core Principles
 

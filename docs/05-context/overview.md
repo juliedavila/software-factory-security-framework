@@ -120,6 +120,8 @@ The set sheds and grows by the same gate. A factor folded into a broader modifie
 
 Use this matrix to assess your organization:
 
+In this matrix, a factor's level runs Low to High by magnitude, not good-to-bad. For most modifiers a higher level constrains you; for a few (change capacity, relationship health) a higher level accelerates you. See [Implementation Adjustments](#implementation-adjustments) for how direction is handled.
+
 | Modifier | Low Impact | Moderate Impact | High Impact | Your Assessment |
 |----------|------------|-----------------|-------------|-----------------|
 | Attack Landscape | Primarily targeted attacks | Automated attacks on common vulnerabilities | Adversaries discovering assets faster than your inventory | ? |

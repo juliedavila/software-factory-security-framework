@@ -187,7 +187,7 @@ Your platform company discovers that:
 
 When evaluating internal security pain points, weight them by total organizational impact including the Customer Zero amplification factor:
 
-| Cost Category | Internal Cost Assessment | Customer Zero Multiplier | Strategic Priority |
+| Cost Category | Internal Cost Assessment | Customer Zero Multiplier (illustrative) | Strategic Priority |
 |---------------|------------------------|------------------------|-------------------|
 | **Direct Incident Costs** | Breach response, system downtime, recovery efforts | 1x (internal impact) | High |
 | **Security Research/Bug Bounty** | External researcher rewards, program costs | 2x (customer trust impact) | Medium |
@@ -195,6 +195,8 @@ When evaluating internal security pain points, weight them by total organization
 | **Business Disruption** | Customer communication, support escalation, sales impact | 3x (customer experience amplification) | High |
 | **Engineering Cycles** | Feature development diverted to security firefighting | 2x (opportunity cost amplification) | Medium |
 | **Customer Trust Erosion** | Churn risk, sales pipeline impact, competitive disadvantage | 5x (platform company trust multiplier) | Critical |
+
+_These multipliers are judgment anchors for ranking pain points, not measured coefficients. Calibrate them to your own incident data before attaching dollar weights._
 
 **Strategic Application**: If a security issue category costs your organization $5M annually across these factors, and Customer Zero insights suggest this affects thousands of customers similarly, the platform investment justification becomes compelling:
 
