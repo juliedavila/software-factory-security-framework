@@ -16,7 +16,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Who You Are**:
 
-- Small teams (typically under 50 engineers)
+- Narrow granted authority: no automated actor crosses trust boundaries (a small team is the usual correlate, not the cause)
 - Cloud-native infrastructure from inception
 - Automated CI/CD pipelines and modern DevOps practices
 - API-driven operations and infrastructure-as-code
@@ -62,7 +62,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Who You Are**:
 
-- Large-scale operations (100+ engineers, multiple teams)
+- Broad granted authority across the estate, held with the floor built (large scale is the correlate; reach is set by authority, not headcount)
 - Sophisticated DevOps and platform engineering practices
 - Comprehensive observability and automation across the enterprise
 - Mature change management and incident response processes
@@ -109,7 +109,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Who You Are**:
 
-- Small teams with limited resources
+- Narrow granted authority, held by hand rather than by a proven floor
 - Legacy systems or manual deployment processes
 - Limited automation and observability
 - Straightforward product or service offering
@@ -155,7 +155,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Who You Are**:
 
-- Large-scale operations with legacy constraints
+- Broad granted authority accumulated across a legacy estate, with no proven floor under it
 - Significant technical debt and mixed infrastructure (legacy + modern)
 - Manual processes coexist with automated systems
 - Complex compliance and regulatory requirements
@@ -196,33 +196,9 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ---
 
-## Position Assessment Tool
+## Confirm Your Position
 
-Use these questions to confirm your strategic position:
-
-### Blast Radius Assessment
-
-Measure inherent reach: how far a failure could travel if containment failed, given everything your automation is allowed to do. Answer with the verbs of authority (can reach, is granted, is allowed to touch), not the verbs of control.
-
-| Question | Small reach | Large reach |
-|----------|-------------|-------------|
-| **Reach of most-capable automation**: largest set of systems any one automated actor (pipeline, agent, service account) can touch without a human in the loop? | One bounded surface (single service or datastore) | Crosses trust boundaries (prod, data, and identity at once); org-wide |
-| **Worst-case propagation**: if your single most-privileged non-human identity were fully compromised now, how far does damage reach before something not also compromised stops it? | Contained to one blast cell | Cascades across the estate |
-| **Autonomy depth**: how much can automation do, not just read, without a human checkpoint (open and merge code, move money, grant access, drop data)? | Read or propose only; humans commit consequential actions | Acts and commits consequential actions unattended |
-| **Authority concentration**: does any single credential, role, or agent hold standing authority broad enough that its misuse is an enterprise event? | No; authority attenuated per task | Yes; broad standing authority exists |
-
-### Operational Readiness Assessment
-
-| Question | Lower Readiness | Higher Readiness |
-|----------|-----------------|------------------|
-| **Deployment Automation** | Manual or partially automated deployments | Fully automated CI/CD with infrastructure-as-code |
-| **Infrastructure** | Legacy systems, manual configuration | Cloud-native or hybrid with API-driven management |
-| **Observability** | Limited monitoring, reactive incident response | Comprehensive observability with proactive alerting |
-| **Process Documentation** | Tribal knowledge, inconsistent documentation | Well-documented, standardized processes |
-
-**Your Position**: Plot your answers to identify which quadrant best describes your current state.
-
----
+Confirm which quadrant you are in with the [position assessment](two-axis-model.md#assessing-your-position) on the Two-Axis Model page. It walks you through the same reach and readiness questions that define the axes.
 
 ## Strategic Position and Investment Strategy
 
@@ -241,7 +217,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 **Startup Founder Self-Assessment**: "We're obviously Craft, we're small and scrappy!"
 
-**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your small size keeps your reach small, but your modern stack is high readiness. Don't build manual processes just because you're small.
+**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your reach is small because no automated actor holds broad authority, not because the team is small, and your modern stack is high readiness. Don't build manual processes just because you're small.
 
 ---
 
@@ -259,7 +235,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 ## Next Steps
 
-1. **Confirm Your Position**: Use the assessment tools above to validate your quadrant
+1. **Confirm your quadrant**: Use the [position assessment on the Two-Axis Model page](two-axis-model.md#assessing-your-position)
 2. **Review [Movement Paths](movement-paths.md)**: Understand how to transition strategically
 3. **Read Your Implementation Guide**: Apply position-specific guidance from [`06-implementation/`](../06-implementation/studio.md)
 4. **Evaluate [Contextual Modifiers](../05-context/overview.md)**: Understand how your specific situation affects implementation

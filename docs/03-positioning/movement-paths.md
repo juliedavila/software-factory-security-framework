@@ -31,7 +31,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | From → To | Movement Type | Timeline | Success Probability | Strategic Guidance |
 |-----------|---------------|----------|---------------------|-------------------|
 | **Craft → Studio** | Single-axis (Readiness ↑) | 12-18 months | High ⭐⭐⭐⭐ | [Operational Readiness Path](#path-1-craft-studio-operational-readiness) |
-| **Craft → Mass** | Single-axis (Reach ↑) | 18-24 months | Moderate ⭐⭐ | [Reach Scaling Path](#path-2-craft-mass-reach-scaling) |
+| **Craft → Mass** | Drift | 18-24 months (unplanned) | Not a goal | [The drift to guard against](#path-2-craft-mass-the-drift-to-guard-against) |
 | **Studio → Lean** | Single-axis (Reach ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
 | **Mass → Craft** | Single-axis (Reach ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
 | **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-60 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
@@ -440,7 +440,7 @@ Use these questions to select your optimal path:
 
 **1. What is your current position?**
 
-- Accurately assess using [strategic positions assessment tool](strategic-positions.md#position-assessment-tool)
+- Accurately assess using the [position assessment on the Two-Axis Model page](two-axis-model.md#assessing-your-position)
 
 **2. What is your business trajectory?**
 
@@ -460,33 +460,13 @@ Use these questions to select your optimal path:
 - Technical debt severity limiting automation potential
 - Regulatory requirements affecting technology choices
 
-### Recommended Paths by Situation
-
-**High-growth startup (Craft)**:
-
-- Best: Craft → Studio (12-18 months) → Lean (24-36 months)
-- Avoid: Craft → Mass (creates technical debt requiring later remediation)
-
-**Established enterprise with legacy (Mass)**:
-
-- Best: Mass → Lean (36-60 months)
-- Avoid: Attempting Mass → Craft (usually fails)
-
-**Cloud-native startup scaling (Studio)**:
-
-- Best: Studio → Lean (24-36 months)
-- Maintain: High operational readiness during reach scaling
-
-**Industry leader (Lean)**:
-
-- Best: Lean → Lean (continuous evolution)
-- Avoid: Complacency leading to readiness degradation
+Your answers point back into the summary table above: your current position fixes the starting row, and your trajectory, change capacity, and constraints pick between the moves open from it.
 
 ---
 
 ## Next Steps
 
-1. **Confirm Your Current Position**: Use [strategic positions assessment](strategic-positions.md#position-assessment-tool)
+1. **Confirm Your Current Position**: Use the [position assessment on the Two-Axis Model page](two-axis-model.md#assessing-your-position)
 2. **Select Your Target Path**: Based on business trajectory and change capacity
 3. **Review [Contextual Modifiers](../05-context/overview.md)**: Understand how your specific constraints affect timeline
 4. **Read Your Implementation Guide**: Position-specific guidance in [`06-implementation/`](../06-implementation/studio.md)
