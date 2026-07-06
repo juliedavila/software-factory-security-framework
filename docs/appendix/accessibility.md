@@ -61,7 +61,6 @@ We are aware of the following accessibility considerations:
 We welcome feedback on the accessibility of this framework. If you encounter accessibility barriers, please let us know:
 
 - **Open an issue**: [GitHub Issues](https://github.com/juliedavila/software-factory-security-framework/issues)
-- **Email**: Include "Accessibility" in the subject line
 
 Please provide:
 
@@ -117,7 +116,7 @@ Methodology:
 
 We are committed to ongoing accessibility improvements:
 
-**Regular reviews**: Quarterly accessibility audits
+**Regular reviews**: Periodic accessibility reviews as the framework evolves
 **Content guidelines**: Writers follow accessibility best practices
 **Testing**: New features tested for accessibility before deployment
 **Training**: Contributors educated on accessible content creation

@@ -147,7 +147,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
     [:octicons-arrow-right-24: Core Framework PDF](https://sf2framework.com/pdf/sf2-framework.pdf){ .md-button }
 
-    Foundation, the Universal Security Conditions, Strategic Positioning, and the Investment Portfolio in one document. A direct download, no print step. Roughly 80 pages.
+    Foundation, the Universal Security Conditions, Strategic Positioning, and the Investment Portfolio in one document. A direct download, no print step. Roughly 70 pages.
 
 </div>
 
