@@ -79,7 +79,7 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 |---------------|------------|
 | How do I sustainably invest in security as we scale? | Investment Portfolio Framework |
 | How do I adapt security approaches to my org? | Strategic Positioning + Contextual Modifiers |
-| How do I align security with business outcomes? | Platform Effects + Business Integration |
+| How do I align security with business outcomes? | Platform Effects + Evaluation Criteria |
 
 ## Executive Insight
 
@@ -96,6 +96,6 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 
 ---
 
-Start with [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md) to understand the core concepts.
+Applying the framework starts with assessing your position, as the three steps above lay out. To read the underlying concepts in sequence, continue to [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md).
 
 [:octicons-arrow-right-24: Continue to Foundation](01-foundation/software-factory-definition.md){ .md-button .md-button--primary }
