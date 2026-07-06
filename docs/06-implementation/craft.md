@@ -207,7 +207,7 @@ If preparing for growth, modernize strategically to build Studio foundations.
 
 **12 Months**:
 
-- [ ] **Zero critical vulnerabilities in production** (through automated scanning and patching)
+- [ ] **No known critical vulnerability unpatched beyond a 14-day SLA** (through automated scanning and patching)
 - [ ] **Security integrated into development workflow** (not separate process)
 - [ ] **Quarterly security reviews** (confirming approach still appropriate)
 - [ ] **Team satisfaction with security approach** (not excessive burden)
