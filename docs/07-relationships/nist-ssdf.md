@@ -59,6 +59,17 @@ New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans o
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Other frameworks provide the practices. SF² is the strategic overlay that sequences them: which to fund first, when, and how fast. Integration, not replacement.</figcaption>
 </figure>
 
+## Key Insight
+
+**NIST SSDF is a practice catalog, not an implementation sequence.** It tells you which secure-development practices exist, not which to fund first or how fast to adopt them.
+
+Your SF² quadrant position determines:
+
+- Which SSDF practices warrant investment first
+- Whether to implement a practice through automation or accept manual work at current scale
+- The pace of SSDF adoption, so the rollout does not outrun your capacity
+- Which practices to hold at a baseline rather than deepen beyond actual risk
+
 ## Integration Approach
 
 ### SSDF Provides the Practices
@@ -211,6 +222,15 @@ The example below is a composite illustration, not a case study. The numbers and
 - **PO (Prepare Organization)**: Self-service security documentation
 
 **Outcome**: SSDF practices fully automated, security reviews reduced 70%
+
+## SSDF Practice Decision Matrix
+
+| Your SF² Position | Priority SSDF Practices | Implementation Approach | Timeline |
+|------------------|------------------------|------------------------|----------|
+| **Studio** | PS, PW, RV first; PO self-service | Automated from the start | 6-12 mo |
+| **Lean** | All four groups at platform scale | Platform-scale automation | Ongoing optimization |
+| **Craft** | RV and PS first (highest risk, supply chain) | Essential only, managed services | 6-12 mo (essentials) |
+| **Mass** | RV, PS; automated for new systems | Hybrid (automated new, risk-based legacy) | 3-5 yr as systems modernize |
 
 ## Key Takeaways
 
