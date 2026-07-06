@@ -93,6 +93,8 @@ You're positioned to scale efficiently. Build the right foundations now.
 
 ## Investment Roadmap
 
+Studio runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-framework.md) at its cleanest: high readiness lets you constrain BAU hard and pour the freed capacity into scaling investments from the first year.
+
 ### Year 1: Build Scaling Foundations
 
 **BAU to Constrain** (30% effort):

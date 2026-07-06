@@ -126,6 +126,8 @@ Regardless of path, you'll need hybrid approaches:
 
 ## Investment Roadmap
 
+The percentages below are phased across years, but they track the same [BAU-versus-Scaling split](../04-investment/portfolio-framework.md) the other guides use. Stabilization is BAU being constrained: reducing the operational burden that legacy reach imposes. Modern security for new systems and platform capabilities are the scaling investments that compound. Mass simply carries a larger, longer BAU tax than the higher-readiness quadrants, which is why the shift takes years rather than quarters.
+
 ### The Default: Build the Floor (→ Lean)
 
 **Year 1: Stabilize + Hybrid Foundation**
@@ -279,6 +281,15 @@ One more failure mode belongs here, because it is the one outside your control. 
 - No executive sponsor or inactive sponsor
 - Damaged relationships with engineering
 - Attempting transformation during other major changes (M&A, reorgs)
+
+## Movement Paths
+
+Mass is a position you move through, not one you hold. Studio, Lean, and Craft each have a stable "maintain position" path; Mass does not, because large reach with low readiness is where the scaling crisis bites hardest. The strategy is always transformation. Two routes lead out, detailed in the [Investment Roadmap](#investment-roadmap) above:
+
+- **The Default: raise readiness (Mass → Lean).** Build the containment floor and modernize while holding your reach. The long road, 4 to 5 years on an optimistic clock, but it keeps the business you already serve.
+- **The Exception: reduce reach (Mass → Craft → Studio).** Cut blast radius by consolidating, retiring, and simplifying, then raise readiness from a smaller base. Faster where the reach is genuinely sheddable.
+
+Use the [Decision Framework](#decision-framework) below to choose between them.
 
 ## Decision Framework
 

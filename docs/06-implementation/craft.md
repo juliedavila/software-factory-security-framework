@@ -101,6 +101,8 @@ If preparing for growth, modernize strategically to build Studio foundations.
 
 ## Investment Roadmap
 
+Both paths run on the same [BAU-versus-Scaling logic](../04-investment/portfolio-framework.md) as the higher-readiness quadrants, tuned for low readiness and a small budget. Managed services are how Craft constrains BAU: they carry the operational security load so your limited capacity is free for the one or two scaling investments that lower future burden. Path A keeps most effort in that constrained-BAU floor; Path B tilts toward scaling investment from year one to make readiness climb.
+
 ### Path A: Intentional Simplicity (Remain Craft)
 
 **Year 1 Focus**:

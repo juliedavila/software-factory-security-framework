@@ -93,6 +93,8 @@ Security should be a differentiator, not a cost center.
 
 ## Investment Roadmap
 
+Lean runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-framework.md) at its most aggressive: readiness and scale push constrained BAU toward the single digits, so nearly all effort compounds as scaling investment.
+
 ### Year 1: Optimize and Scale
 
 **BAU to Constrain** (10-15% effort):
