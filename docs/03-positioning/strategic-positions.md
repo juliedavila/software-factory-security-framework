@@ -202,14 +202,14 @@ Confirm which quadrant you are in with the [position assessment](two-axis-model.
 
 ## Strategic Position and Investment Strategy
 
-Your strategic position determines your optimal approach to the [investment portfolio](../04-investment/portfolio-framework.md):
+Your strategic position determines your optimal approach to the [investment portfolio](../04-investment/portfolio-framework.md), including how you constrain business-as-usual work and where you invest instead:
 
-| Position | BAU Approach | Scaling Investment Focus | Timeline to ROI |
-|----------|--------------|-------------------------|-----------------|
-| **Studio** | Minimal BAU burden initially | Automation-first from inception | 6-12 months |
-| **Lean** | Systematic BAU constraint | Platform capabilities at scale | 12-18 months |
-| **Craft** | Manageable manual BAU | Foundational readiness infrastructure | 18-24 months |
-| **Mass** | High BAU burden requiring constraint | Strategic debt reduction + readiness | 24-48 months |
+| Position | BAU Approach | Constraint Mechanism | Scaling Investment Focus | Timeline to ROI |
+|----------|--------------|----------------------|-------------------------|-----------------|
+| **Studio** | Minimal BAU burden initially | Avoid creating manual processes to begin with | Automation-first from inception | 6-12 months |
+| **Lean** | Systematic BAU constraint | Self-service platform + clear escalation paths | Platform capabilities at scale | 12-18 months |
+| **Craft** | Manageable manual BAU | Keep manual scope small; document while building readiness | Foundational readiness infrastructure | 18-24 months |
+| **Mass** | High BAU burden requiring constraint | Triage system + strategic automation pilots | Strategic debt reduction + readiness | 24-48 months |
 
 ---
 

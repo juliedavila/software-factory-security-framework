@@ -26,7 +26,7 @@ The BAU scaling crisis isn't a resource problem. It's a capability mismatch. Whe
 
 This structural mismatch, manual defender processes versus scaled adversary automation, makes the crisis inevitable.
 
-### Exponential Demand Growth
+### Demand Outpaces Capacity
 
 As software factories grow, traditional security activities face a mathematical scaling challenge:
 

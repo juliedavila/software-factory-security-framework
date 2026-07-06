@@ -2,7 +2,7 @@
 
 ## The Inevitable Choice
 
-Demand for security services grows exponentially. The instinct is to read the constraint as capacity: not enough reviewers, not enough hours. Several things do bind a scaling security program, but the one more headcount cannot buy is [comprehension bandwidth](../10-coadaptive/02-ai-era-threat-surface.md), the rate at which your people can actually understand what your factory ships. This is not a structural gap where a linear line loses to an exponential one and you manage the decline. It is a race between two exponentials: how fast the factory produces, and how much of that output your people can actually secure and understand. Which curve you fund is the inflection point.
+When demand outruns the team, the instinct is to read the constraint as capacity: not enough reviewers, not enough hours. Several things do bind a scaling security program, but the one more headcount cannot buy is [comprehension bandwidth](../10-coadaptive/02-ai-era-threat-surface.md), the rate at which your people can actually understand what your factory ships. This is not a structural gap where a linear line loses to an exponential one and you manage the decline. It is a race between two exponentials: how fast the factory produces, and how much of that output your people can actually secure and understand. Which curve you fund is the inflection point.
 
 One honest caveat on the word *exponential*. The demand curve climbs as long as the factory ships more code and hands automation more authority, and that has compounded because AI capability has compounded. That engine is not guaranteed. Most people, when they say the models keep getting better, mean pre-training scaling. That mechanism is showing diminishing returns, and the public human text it trains on is being used up sometime this decade. Ilya Sutskever, who led much of that scaling, [told NeurIPS in 2024](https://analyticsindiamag.com/ai-features/the-end-of-pre-training-era-begins/) that "pre-training as we know it will end." A slowdown in that one mechanism is a real possibility, not a tail risk.
 
@@ -50,42 +50,13 @@ It changes less than it looks like it should, for three reasons in rising order 
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Production climbs faster than comprehension; the widening gap is the share of output no one can secure or understand. Which curve you fund is the inflection point. A plateau slows demand but does not change the destination.</figcaption>
 </figure>
 
-**The Traditional Response**: Hire more security professionals, work longer hours, accept growing backlogs.
-
-**The Strategic Response**: Deliberately constrain some activities to invest in capabilities that reduce future manual effort.
-
-This section explains how to make this strategic shift while maintaining security outcomes.
+The [investment portfolio model](portfolio-framework.md) sorts security spending into three categories ranked by the shape of their return; this page is the execution deep dive on the hardest move in it: shifting from linear business-as-usual work to compounding scaling investment.
 
 ---
 
-## The BAU Scaling Crisis
+## The Capability Gap
 
-### The Mathematical Reality
-
-As software factories grow, traditional security activities face a scaling challenge that hiring alone cannot solve:
-
-**Demand Grows Exponentially**:
-
-- Security review requests increase with feature velocity (more teams = more requests)
-- Threat modeling needs scale with system complexity (more services = more models)
-- Customer security inquiries grow with customer base (enterprise customers demand more)
-- Incident response requirements increase with system surface area (more systems = more incidents)
-- Compliance activities expand with regulatory scope (new markets = new requirements)
-
-**Capacity Grows Linearly**:
-
-- Hiring requires time (3-6 months per role typically)
-- Onboarding creates temporary productivity reduction (new hires require training)
-- Communication overhead increases with team size (coordination costs rise)
-- Maintaining quality becomes challenging during rapid scaling (standards slip under pressure)
-
-**The Inflection Point**: Organizations reach a point where demand for BAU (Business-as-Usual) security services exceeds sustainable capacity, creating constraints on both security effectiveness and business velocity.
-
----
-
-### The Capability Gap: Beyond Just Capacity
-
-Volume isn't the real problem in the BAU scaling crisis. The deeper issue is a capability mismatch between manual defenders and automated adversaries.
+The gap isn't really about volume. The deeper issue is a capability mismatch between manual defenders and automated adversaries.
 
 **The Adversary Capability Shift**: Since roughly 2017, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
 
@@ -96,101 +67,44 @@ Volume isn't the real problem in the BAU scaling crisis. The deeper issue is a c
 
 **One Break, Two Bottlenecks**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. Underneath both sits one break showing up in two places. On the attacker's side, automation outran a human-bound defensive process, so manual throughput loses the speed race. On the production side, automation now outruns people too: code and systems are generated faster than anyone can understand them, so manual comprehension loses the understanding race. One root cause, two human bottlenecks, neither closed by hiring alone.
 
-Once a program has enough repeated work to amortize, the dollar that makes the secure path the easy path, by automating a step or packaging it into a guardrail engineers plug into, buys more than the dollar that adds one more linear reviewer, including the dollar that pays the engineer who builds it.
-
 !!! warning "Critical Insight: Supply Chain as #1 Priority"
     Supply chain security became the #1 priority not because dependencies increased, but because adversary capability evolved. When attackers can discover your unknown assets faster than you can catalog them, supply chain security becomes existential regardless of your other security investments.
 
----
-
-## The Strategic Choice Point
-
-At the scaling inflection point, organizations face two fundamentally different resource allocation strategies:
-
-### Traditional Scaling Approach (Unsustainable)
-
-**Strategy**: Attempt to maintain current service levels through capacity increases
-
-**Typical Actions**:
-
-- Hire additional security personnel for manual work
-- Extend working hours to cover growing demand
-- Build custom solutions for individual use cases
-- Maintain primarily reactive security posture
-- Accept growing backlogs as "normal"
-
-**Why This Fails**:
-
-- Hiring doesn't close the capability gap against automated adversaries
-- Linear capacity growth can't match exponential demand growth
-- Custom solutions create maintenance burden without scaling benefits
-- Team burnout and quality degradation become inevitable
-- Security becomes a business constraint and bottleneck
+Once a program has enough repeated work to amortize, the dollar that makes the secure path the easy path, by automating a step or packaging it into a guardrail engineers plug into, buys more than the dollar that adds one more linear reviewer, including the dollar that pays the engineer who builds it.
 
 ---
 
-### Strategic Scaling Approach (Sustainable)
+## What Compounds and What Doesn't
 
-**Strategy**: Deliberately constrain capacity for some BAU activities to create investment cycles for automation and self-service capabilities
-
-**Typical Actions**:
-
-- Set explicit capacity limits for manual security activities
-- Develop automation and self-service capabilities systematically
-- Create standardized approaches for common security needs
-- Shift toward proactive, scalable security architecture
-- Measure and communicate ROI from scaling investments
-
-**Why This Succeeds**:
-
-- Automation closes the capability gap against scaled adversaries
-- Capabilities create compound returns over time
-- Self-service enables teams without security team growth
-- Developer experience improves rather than degrades
-- Security becomes a competitive advantage enabler
+Scaling Investments compound in two different ways, and the difference decides what each one buys. **Automation** takes a human out of a repeated step, so the work runs hands-free and throughput stops being bound by hours. **Composable guardrails** keep the human but change what they have to understand: instead of reviewing N bespoke implementations of mTLS, base images, scoped roles, or secure pub/sub, your people understand one packaged path that teams plug into. The comprehension does not disappear. It concentrates into one durable review, amortized across every team that adopts the path, which is a real economy only on the traffic that actually takes it. A guardrail also does what automation does not: because it is a boundary, it limits what goes wrong when something slips through, not just what your reviewers have to read. Two benefits from one artifact.
 
 !!! tip "The Compound Interest Principle"
     Just as financial investments generate compound returns, security scaling investments compound. An automation capability used 100 times costs the same to build as one used once; the build cost amortizes toward zero per use while the value keeps accruing. Manual security work never amortizes. Each review costs the same effort as the last.
 
+### What to Avoid: Tools That Create Maintenance Burden
+
+!!! warning "The Maintenance Burden Trap"
+    Some security tools create ongoing maintenance costs that exceed their security value. Avoid investments that:
+
+    - Require continuous manual tuning to remain effective
+    - Generate high false-positive rates demanding constant triage
+    - Need specialized expertise that creates key-person dependencies
+    - Don't integrate with existing development workflows
+    - Create new manual processes rather than automating existing ones
+
+**Favor investments that**:
+
+- Become more valuable and less demanding over time
+- Store organizational knowledge in reusable form
+- Enable self-service without security team involvement
+- Integrate seamlessly into existing workflows
+- Improve developer experience while improving security
+
 ---
 
-## Investment Portfolio Categories
+## Constraint Strategy by Position
 
-Security investments fall into three categories with fundamentally different scaling characteristics:
-
-### BAU Activities (Constrain Past Crisis Point)
-
-**Definition**: Manual work that scales linearly with organizational growth
-
-**Examples**:
-
-- Manual security design reviews for each new service
-- Threat modeling sessions requiring security team participation
-- Individual incident response investigations
-- Customer security questionnaire responses
-- Ad-hoc compliance evidence collection
-
-**Characteristics**:
-
-- Required for business operations (can't eliminate entirely)
-- Demand grows with organizational scale
-- Each instance requires similar effort (limited efficiency gains)
-- Creates capacity constraints at scale
-
-**Strategic Approach**:
-
-- **Pre-Crisis**: Maintain current service levels while building alternatives
-- **Crisis Point**: Set explicit capacity constraints with communication strategy
-- **Post-Crisis**: Systematic constraint with clear self-service alternatives
-
-**Constraint Strategy by Position**:
-
-| Position | BAU Approach | Constraint Mechanism |
-|----------|--------------|---------------------|
-| **Studio** | Minimal BAU burden initially | Automation-first, avoid creating manual processes |
-| **Lean** | Systematic constraint with alternatives | Self-service platform + clear escalation paths |
-| **Craft** | Manageable manual processes | Document processes while building readiness |
-| **Mass** | High burden requiring constraint | Triage system + strategic automation pilots |
+The [Strategic Position and Investment Strategy table](../03-positioning/strategic-positions.md#strategic-position-and-investment-strategy) maps each quadrant's business-as-usual load to its scaling focus. The first-year balance between the two looks very different by position:
 
 <figure>
   <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ea-title sf2-ea-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
@@ -250,120 +164,6 @@ Security investments fall into three categories with fundamentally different sca
 
 ---
 
-### Scaling Investments (Prioritize Post-Crisis)
-
-**Definition**: Capabilities that reduce manual effort exponentially or enable self-service
-
-Scaling Investments compound in two different ways, and the difference decides what each one buys. **Automation** takes a human out of a repeated step, so the work runs hands-free and throughput stops being bound by hours. **Composable guardrails** keep the human but change what they have to understand: instead of reviewing N bespoke implementations of mTLS, base images, scoped roles, or secure pub/sub, your people understand one packaged path that teams plug into. The comprehension does not disappear. It concentrates into one durable review, amortized across every team that adopts the path, which is a real economy only on the traffic that actually takes it. A guardrail also does what automation does not: because it is a boundary, it limits what goes wrong when something slips through, not just what your reviewers have to read. Two benefits from one artifact.
-
-**Examples**:
-
-- Automated dependency scanning with auto-remediation
-- Self-service security environment provisioning
-- Policy-as-code with automated enforcement
-- Security champions program enabling distributed expertise
-- Developer security training and tooling integration
-
-**Characteristics**:
-
-- Initial investment required (time, money, organizational change)
-- Benefits compound over time (more usage = more value)
-- Reduces future manual effort requirements systematically
-- Enables organizational scaling without proportional security team growth
-
-**Evaluation Criteria**:
-
-| Criterion | Why It Matters | Assessment Question |
-|-----------|----------------|-------------------|
-| **Manual Effort Reduction** | Primary driver of sustainable scaling | Will this eliminate repetitive work permanently? |
-| **Developer Experience** | Critical for adoption | Does this reduce security friction or create new complexity? |
-| **Time to Value** | Affects organizational confidence | How quickly will benefits become measurable? |
-| **Cultural Alignment** | Determines sustainability | Does this support learning culture and psychological safety? |
-| **Adversary Economics** | Real, but judged by coverage | Does this close a path, or only raise the price on paths already closed? |
-
-**Expected ROI Timeline**: 6-18 months with compound returns increasing over time
-
----
-
-### Platform Effects (Multiply)
-
-**Definition**: Investments that pay across more than one software factory at once: customer platforms, open-source tools the field adopts, or many factories inside one large enterprise
-
-**Examples**:
-
-- Security platform features customers can use
-- Open-source security tools serving broader ecosystem
-- Security standards that become industry practices
-- Shared threat intelligence benefiting community
-
-**Characteristics**:
-
-- Internal business case must justify investment independently
-- Customer value creates additional strategic benefits
-- Competitive differentiation potential
-- Market influence and thought leadership opportunities
-
-**Evaluation**: Internal benefit × customer multiplier + competitive advantage
-
-**See Also**: [Platform Effects](platform-effects.md) for detailed guidance for platform companies
-
----
-
-## Designing Security Capabilities That Compound
-
-### The "Catch and Store Energy" Principle
-
-The most sustainable security investments do more than solve immediate problems. They **capture organizational effort and store it in reusable capabilities** that serve future needs without additional manual work.
-
-Like renewable energy systems that provide ongoing value after initial investment, effective scaling investments become self-sustaining:
-
-**Paved Roads**: Secure templates and baselines that engineers reuse without security review
-
-- **One-time effort**: Design secure baseline architecture, document patterns
-- **Ongoing value**: Every team using the template skips security reviews it would otherwise queue (measure your own baseline to size the saving)
-- **Compound effect**: As templates improve based on feedback, all users benefit automatically
-
-**Self-Service Platforms**: Automated environments and policy-as-code eliminating recurring requests
-
-- **One-time effort**: Build security environment provisioning automation
-- **Ongoing value**: Teams provision secure infrastructure in minutes instead of days
-- **Compound effect**: Platform improvements benefit all users without additional security team effort
-
-**Automated Dependency Management**: Continuous monitoring without manual intervention
-
-- **One-time effort**: Integrate automated dependency scanning and update tools
-- **Ongoing value**: Vulnerabilities detected and remediated automatically
-- **Compound effect**: Coverage expands automatically as new services are built
-
-**Security-Quality Integration**: Process improvements serving both objectives simultaneously
-
-- **One-time effort**: Integrate security checks into CI/CD quality gates
-- **Ongoing value**: Security and quality issues detected together in development
-- **Compound effect**: Quality improvements enhance security, security improvements enhance quality
-
----
-
-### What to Avoid: Security Tools That Consume Energy
-
-!!! warning "The Maintenance Burden Trap"
-    Some security tools create ongoing maintenance costs that exceed their security value. Avoid investments that:
-
-    - Require continuous manual tuning to remain effective
-    - Generate high false-positive rates demanding constant triage
-    - Need specialized expertise that creates key-person dependencies
-    - Don't integrate with existing development workflows
-    - Create new manual processes rather than automating existing ones
-
-**Favor investments that**:
-
-- Become more valuable and less demanding over time
-- Store organizational knowledge in reusable form
-- Enable self-service without security team involvement
-- Integrate seamlessly into existing workflows
-- Improve developer experience while improving security
-
----
-
 ## BAU Constraint Communication Strategy
 
 Constraining BAU activities requires clear communication to maintain organizational support and developer relationships.
@@ -409,58 +209,6 @@ Constraining BAU activities requires clear communication to maintain organizatio
 - Showcase developer experience improvements
 - Adjust capacity constraints based on capability maturity
 - Continuous improvement of self-service platforms
-
----
-
-## Financial Model Considerations
-
-Security leaders operate within inherited financial contexts that affect investment strategies:
-
-### Cost Center Context
-
-**Constraints**: Security viewed as overhead, budget scrutiny, ROI skepticism
-
-**Strategy**:
-
-- Focus on compliance cost avoidance (failed audits cost money)
-- Emphasize operational efficiency (automation reduces labor costs)
-- Use crisis events as opportunities for scaling investment approval
-- Frame investments as risk reduction with quantifiable business impact
-
-**Conversation Template**:
-> "Our current security approach will become a business constraint as we scale. Rather than only adding capacity through hiring, which provides temporary relief at increasing cost, we recommend investing in capabilities that reduce manual effort requirements permanently. This approach improves both security outcomes and business velocity while managing cost growth."
-
----
-
-### Shared Services Context
-
-**Constraints**: Internal customer satisfaction, operational metrics, service level expectations
-
-**Strategy**:
-
-- Develop business cases emphasizing internal customer satisfaction
-- Measure and communicate developer experience improvements
-- Show operational improvements reducing business friction
-- Position security as enabling faster, safer delivery
-
-**Conversation Template**:
-> "Our internal customers currently wait an average of 5 days for security reviews. By investing in self-service security baselines, we can reduce this to under 1 hour for 70% of projects while improving security consistency. This enables faster delivery without compromising security outcomes."
-
----
-
-### R&D Integration Context
-
-**Constraints**: Security competes with feature development for resources and attention
-
-**Strategy**:
-
-- Frame security investments as competitive advantages
-- Measure success through business outcomes, not security metrics
-- Demonstrate security capabilities enabling business opportunities
-- Position security as accelerating time-to-market for secure products
-
-**Conversation Template**:
-> "Security automation does more than manage risk. It lets our engineers move faster with confidence. By investing in security platforms, we can support 3x growth without proportional security team expansion while improving both security posture and delivery velocity."
 
 ---
 
