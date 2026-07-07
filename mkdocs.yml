@@ -122,6 +122,7 @@ nav:
   - AI Integration: 09-ai-integration/overview.md
 
   - Appendix:
+    - Framework Evolution: appendix/evolution.md
     - Glossary: appendix/glossary.md
     - References: appendix/references.md
     - Accessibility: appendix/accessibility.md
