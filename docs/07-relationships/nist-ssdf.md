@@ -14,14 +14,14 @@
 
 **SF²** tells you **HOW** to sustainably resource and scale those practices based on your organizational position.
 
-SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
+SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline rather than a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
 
 New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 <figure>
   <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-ov-title">SF² as a strategic overlay on other security frameworks</title>
-    <desc id="sf2-ov-desc">Two layers. The bottom layer is the practices and requirements provided by other frameworks: NIST SSDF, OWASP SAMM, BSIMM, and OWASP ASVS. They tell you what to implement. The top layer is SF², the strategic overlay, which sequences those practices: which to fund first, when, and how fast, for your strategic position. SF² does not replace the other frameworks. It orders them. Integration, not competition.</desc>
+    <desc id="sf2-ov-desc">Two layers. The bottom layer is the practices and requirements provided by other frameworks: NIST SSDF, OWASP SAMM, BSIMM, and OWASP ASVS. They tell you what to implement. The top layer is SF², the strategic overlay, which sequences those practices: which to fund first, when, and how fast, for your strategic position. SF² does not replace the other frameworks. It orders them. Integration over competition.</desc>
     <defs>
       <marker id="ov-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
     </defs>
@@ -54,14 +54,14 @@ New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans o
     </g>
     <!-- footer thesis -->
     <text x="360" y="420" font-size="13" fill="#2A2520" text-anchor="middle">They provide the practices. SF&#178; decides <tspan font-style="italic">which</tspan>, <tspan font-style="italic">when</tspan>, and <tspan font-style="italic">how fast</tspan> to implement them.</text>
-    <text x="360" y="446" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Integration, not replacement.</text>
+    <text x="360" y="446" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Integration over replacement.</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Other frameworks provide the practices. SF² is the strategic overlay that sequences them: which to fund first, when, and how fast. Integration, not replacement.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Other frameworks provide the practices. SF² is the strategic overlay that sequences them: which to fund first, when, and how fast. Integration over replacement.</figcaption>
 </figure>
 
 ## Key Insight
 
-**NIST SSDF is a practice catalog, not an implementation sequence.** It tells you which secure-development practices exist, not which to fund first or how fast to adopt them.
+**NIST SSDF is a practice catalog rather than an implementation sequence.** It tells you which secure-development practices exist rather than which to fund first or how fast to adopt them.
 
 Your SF² quadrant position determines:
 
@@ -197,7 +197,7 @@ SF² helps you:
 
 ## Practical Integration Example
 
-The example below is a composite illustration, not a case study. The numbers and timelines show the shape of an outcome, not measured results.
+The example below is a composite illustration rather than a case study. The numbers and timelines show the shape of an outcome rather than measured results.
 
 ### Scenario: Series B Startup (Studio Position)
 

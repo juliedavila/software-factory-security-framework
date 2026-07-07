@@ -20,7 +20,7 @@ New to SF²? This page maps BSIMM onto SF²'s strategic model, which leans on a 
 
 ## Key Insight
 
-**BSIMM is descriptive, not prescriptive.** It shows what organizations do, not what they should do.
+**BSIMM is descriptive rather than prescriptive.** It shows what organizations do rather than what they should do.
 
 SF² provides the strategic framework to:
 
@@ -240,7 +240,7 @@ At Craft and Studio, these activities often don't justify their cost when run as
 
 ## Practical Integration Example
 
-The example below is a composite illustration, not a case study. The numbers and timelines show the shape of an outcome, not measured results.
+The example below is a composite illustration rather than a case study. The numbers and timelines show the shape of an outcome rather than measured results.
 
 ### Scenario: Mass Position Enterprise
 
@@ -288,7 +288,7 @@ The example below is a composite illustration, not a case study. The numbers and
 | **Craft** | 15-25 activities | Essential only | Managed services |
 | **Mass** | 30-40 (new systems only) | Hybrid approach | Mixed |
 
-**Note**: These are guidelines, not targets. More BSIMM activities doesn't necessarily mean better security.
+**Note**: These are guidelines rather than targets. More BSIMM activities doesn't necessarily mean better security.
 
 ## Key Takeaways
 
@@ -312,7 +312,7 @@ The example below is a composite illustration, not a case study. The numbers and
 - SF² provides the strategic prioritization framework
 - Result: Focused security program aligned with organizational reality
 
-**Critical Insight**: **More BSIMM activities doesn't equal better security.** SF² helps you implement the right BSIMM activities for your organization, not the most activities.
+**Critical Insight**: **More BSIMM activities doesn't equal better security.** SF² helps you implement the right BSIMM activities for your organization rather than the most activities.
 
 ---
 
