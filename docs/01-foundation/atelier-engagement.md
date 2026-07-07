@@ -24,6 +24,8 @@ That is what the democratization story gets right and stops short of. Describing
 
 This is the part the critique gets closest to and still misses. The org chart is not what makes someone responsible. But accountability does not evaporate when the org flattens or the builder works alone; it follows the work to wherever the factory now runs. The GP still answers for patient data, and so does the platform underneath him. HIPAA does not care how many people were in the room. The AI era does not retire the factory; it hands you one you did not build and asks who owns it.
 
+That platform is a real company with its own security function, often a better one than a lone builder could staff, and buying that function does not take the responsibility off the builder. A contract shifts a capped slice of the cost onto the platform and the duty to answer for what ships stays with whoever put the software in front of a user, the ground [Third-Party stewardship](../02-stewardship/third-party.md) already works.
+
 The term is industrial-lineage vocabulary with a fifty-year paper trail.
 
 ### Term provenance
