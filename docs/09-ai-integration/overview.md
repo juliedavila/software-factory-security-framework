@@ -1,6 +1,6 @@
 # AI-Assisted Strategic Planning with SF²
 
-Loading SF² into a capable AI assistant turns the framework into a working strategy partner. Instead of reading the framework and applying it by hand, you give the assistant the framework as context and have it do the positioning, prioritization, and communication work with you. This is an adoption layer, not a new part of the framework: the doctrine below is vendor-neutral and the assistant is interchangeable.
+Loading SF² into a capable AI assistant turns the framework into a working strategy partner. Instead of reading the framework and applying it by hand, you give the assistant the framework as context and have it do the positioning, prioritization, and communication work with you. This is an adoption layer rather than a new part of the framework: the doctrine below is vendor-neutral and the assistant is interchangeable.
 
 Any capable general-purpose assistant works. This guide names Claude, ChatGPT, and Gemini because they are widely available and each offers a persistent-context feature (Projects, Custom GPTs, Gems) that keeps the framework loaded across sessions. The setup mechanics for those three are point-in-time and live in the dated appendix at the foot of this page. Everything above that line is durable.
 
@@ -14,7 +14,7 @@ A framework-loaded assistant is most useful for the work that is reasoning-heavy
 - **Framework application** — translate SF² concepts to your specific context
 - **Executive communication** — draft board-ready and team-ready strategy material
 
-Use it for strategy, not tactics. Keep specific vulnerabilities, incident details, and tool configurations out of it (see [Guardrails](#guardrails) below).
+Use it for strategy rather than tactics. Keep specific vulnerabilities, incident details, and tool configurations out of it (see [Guardrails](#guardrails) below).
 
 ## The five workflows
 
@@ -26,7 +26,7 @@ These are the five recurring jobs a framework-loaded assistant does well. Each i
 
 **Purpose:** determine your quadrant (Studio, Lean, Craft, or Mass) from your blast radius and operational readiness, and surface which contextual modifiers apply.
 
-**Good output:** a named quadrant with the reasoning shown on both axes, the applicable contextual modifiers, and the resulting strategic priorities. Not just a label.
+**Good output:** a named quadrant with the reasoning shown on both axes, the applicable contextual modifiers, and the resulting strategic priorities. More than a label.
 
 ### 2. Investment strategy
 
@@ -50,7 +50,7 @@ These are the five recurring jobs a framework-loaded assistant does well. Each i
 
 **Purpose:** plan a move from your current quadrant to a target quadrant.
 
-**Good output:** a phased roadmap with milestones, success indicators at 6, 12, and 24 months, resource requirements per phase, named risks with mitigations, and explicit go/no-go decision points. Honest about timelines: Mass transformations take years, not quarters.
+**Good output:** a phased roadmap with milestones, success indicators at 6, 12, and 24 months, resource requirements per phase, named risks with mitigations, and explicit go/no-go decision points. Honest about timelines: Mass transformations take years rather than quarters.
 
 ## Configure your assistant
 
@@ -177,9 +177,9 @@ with mitigations, and explicit decision points.
 
 ### Working approach
 
-1. **Use it for strategy, not tactics.** Stay at positioning and investment altitude.
+1. **Use it for strategy rather than tactics.** Stay at positioning and investment altitude.
 2. **Abstract when needed.** Use "Organization A" in place of your company name if that lowers your concern.
-3. **Review every output.** Treat assistant drafts as first drafts, not final artifacts.
+3. **Review every output.** Treat assistant drafts as first drafts rather than final artifacts.
 4. **Prefer enterprise accounts.** Team and Enterprise tiers offer stronger data controls; per-platform specifics are in the appendix.
 
 ### Keep the framework current
@@ -198,7 +198,7 @@ As SF² evolves, keep your assistant's context fresh:
 !!! note "Point-in-time, accurate as of June 2026 (SF² v1.1.0)"
     Everything below this line is per-vendor setup mechanics. Vendor product names,
     menu paths, plan requirements, and data-handling defaults change often and SF²
-    does not control them. Treat this section as a dated snapshot, not framework
+    does not control them. Treat this section as a dated snapshot rather than framework
     doctrine. The durable guidance is above this line. A separately versioned
     companion workbook for these mechanics is planned for a future release.
 
