@@ -27,7 +27,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 ## Four Strategic Quadrants
 
 ### 1. Studio (Small reach + Higher Readiness)
-**Characteristics**: 10-200 engineers, modern cloud infrastructure, strong CI/CD, fast decision-making
+**Characteristics**: Task-scoped automation (small reach), modern cloud infrastructure, strong CI/CD, fast decision-making (headcount a legacy proxy, historically 10-200 engineers)
 
 **Strategy**: Automate from the start, build scaling foundations early
 
@@ -43,7 +43,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Common Pitfall**: Building Lean-level complexity too early
 
 ### 2. Lean (Large reach + Higher Readiness)
-**Characteristics**: 200+ engineers, mature platforms, established security, platform-oriented
+**Characteristics**: Broad standing authority across the estate (large reach), mature platforms, established security, platform-oriented (headcount a legacy proxy, historically 200+ engineers)
 
 **Strategy**: Optimize existing capabilities, build platform effects, security as competitive advantage
 
@@ -59,7 +59,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 **Common Pitfall**: Complacency and tool sprawl without retirement
 
 ### 3. Craft (Small reach + Lower Readiness)
-**Characteristics**: <50 engineers, legacy/basic infrastructure, resource constraints, critical decision point
+**Characteristics**: Task-scoped automation (small reach), legacy/basic infrastructure, resource constraints, critical decision point (headcount a legacy proxy, historically <50 engineers)
 
 **Strategy**: Choose intentional simplicity OR prepare for growth (two distinct paths)
 
@@ -75,10 +75,10 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 - CI/CD foundation
 - Move toward Studio over 18-24 months
 
-**Common Pitfall**: Accidental drift to Mass (complexity without readiness)
+**Common Pitfall**: Accidental drift to Mass (reach without readiness)
 
 ### 4. Mass (Large reach + Lower Readiness)
-**Characteristics**: 100+ engineers, legacy systems at scale, manual processes, transformation imperative
+**Characteristics**: Broad standing authority across the estate (large reach), legacy systems at scale, manual processes, transformation imperative (headcount a legacy proxy, historically 100+ engineers)
 
 **Strategy**: Stabilize first, hybrid approach (modern for new, pragmatic for legacy), realistic 3-5 year timeline
 
