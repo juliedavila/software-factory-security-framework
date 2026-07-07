@@ -55,14 +55,14 @@ Contextual modifiers can compound or offset each other:
 The eight aren't arbitrary, and the count isn't permanent. A contextual modifier is a factor that meets three tests:
 
 1. **It doesn't fix your position.** Two organizations in the same strategic position can sit at opposite ends of it. A factor that only restates your position is not a modifier. Correlation is fine: regulatory exposure often tracks with position, but two regulated firms in the same quadrant can still carry very different compliance loads.
-2. **It shifts implementation.** It changes the pace, sequence, or investment of how you implement, not which position you occupy.
+2. **It shifts implementation.** It changes the pace, sequence, or investment of how you implement, rather than which position you occupy.
 3. **It isn't already covered.** No modifier already in the set captures the implementation shift it drives. Partial overlap is fine. A factor fails only when an existing modifier already does its work.
 
 These three tests are why the set holds where it does, and they are the gate for adding the next one.
 
 ### Adding a Modifier
 
-When a real factor passes all three tests, give it three impact levels (Low / Moderate / High) with questions a security leader can answer, and state how each level shifts implementation. Every modifier chapter already follows that assessment shape. A new one slots into the same matrix and the same compounding-and-offsetting logic, with no change to the method. This is the move the framework makes wherever a fixed list could harden into dogma: name the rule that generates the set, not just the set.
+When a real factor passes all three tests, give it three impact levels (Low / Moderate / High) with questions a security leader can answer, and state how each level shifts implementation. Every modifier chapter already follows that assessment shape. A new one slots into the same matrix and the same compounding-and-offsetting logic, with no change to the method. This is the move the framework makes wherever a fixed list could harden into dogma: name the rule that generates the set rather than only the set.
 
 The seventh modifier is the proof. **[AI Saturation](ai-saturation.md)** entered the set when AI moved from the margins of the pipeline to its center. It doesn't fix your position: a Craft shop and a Mass enterprise can each be barely touched or saturated. It shifts implementation: when AI writes code faster than people can read it, the binding constraint moves from writing to reviewing, and the investment moves from manual review toward automated guardrails and scoped agent identity. And it isn't already covered: supply chain measures what you pull in, attack landscape measures the adversary outside your boundary, while saturation measures how much of your own pipeline now runs faster than your people can comprehend it. It passed the gate, so it was recognized as the seventh. **[PQC Exposure](pqc-exposure.md)** is the eighth, recognized the same way: nothing in the set touched cryptography, and the quantum-migration clock made the gap impossible to fold into another factor.
 
@@ -76,7 +76,7 @@ The modifiers are a map of your organization's reality, and like any map they ho
 
 The stretch nominates; it does not decide. It is a prompt to run the [three tests above](#why-these-eight), not proof a factor is missing. Sometimes the honest answer is that the modifier is broad and should hold the new factor, which is what the third test protects. A stretch that fails the gate confirms the set already covers the ground. A stretch that clears it means the territory grew a region the map did not have, and the factor is recognized. AI was that case: practitioners kept filing it under Supply Chain Complexity or Attack Landscape Maturity, it fit neither, and [AI Saturation](ai-saturation.md) became the seventh.
 
-So schedule the thing that drifts, not the thing that doesn't. Re-rate your position across the modifiers on a cadence, faster for the volatile ones. Revisit the recognized set itself only when the stretch keeps recurring, when reality has outgrown the map. A periodic look is a backstop for the drift you missed, never the reason to add.
+So schedule the thing that drifts rather than the thing that doesn't. Re-rate your position across the modifiers on a cadence, faster for the volatile ones. Revisit the recognized set itself only when the stretch keeps recurring, when reality has outgrown the map. A periodic look is a backstop for the drift you missed rather than a reason to add.
 
 ### Retiring a Modifier
 
@@ -120,7 +120,7 @@ The set sheds and grows by the same gate. A factor folded into a broader modifie
 
 Use this matrix to assess your organization:
 
-In this matrix, a factor's level runs Low to High by magnitude, not good-to-bad. For most modifiers a higher level constrains you; for a few (change capacity, relationship health) a higher level accelerates you. See [Implementation Adjustments](#implementation-adjustments) for how direction is handled.
+In this matrix, a factor's level runs Low to High by magnitude rather than good-to-bad. For most modifiers a higher level constrains you; for a few (change capacity, relationship health) a higher level accelerates you. See [Implementation Adjustments](#implementation-adjustments) for how direction is handled.
 
 | Modifier | Low Impact | Moderate Impact | High Impact | Your Assessment |
 |----------|------------|-----------------|-------------|-----------------|

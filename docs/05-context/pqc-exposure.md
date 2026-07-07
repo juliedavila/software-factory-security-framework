@@ -4,10 +4,10 @@
 
 PQC exposure measures how much of your cryptography the quantum transition puts at risk, and how hard that risk is to retire. It is not a measure of how close quantum computers are. It is a measure of your own footprint: how long your data has to stay secret, and how hard it is to swap the math protecting it. Two organizations in the same strategic position can sit at opposite ends of it. A fintech that signs firmware lasting a decade and holds records that must stay confidential for years carries deep exposure. A media startup whose secrets are stale in a week barely registers, from the same quadrant.
 
-What makes this its own modifier, and not a crisis waiting to happen, is that the loss is silent and already underway. An adversary does not need a quantum computer today to take your data today. Harvest now, decrypt later: capture the ciphertext, store it, wait for the machine that reads it. There is no breach alert for data copied and shelved. So exposure has to be scored now, as a standing factor, instead of handled the week it becomes news. By the time it is news, the data is already gone.
+What makes this its own modifier rather than a crisis waiting to happen is that the loss is silent and already underway. An adversary does not need a quantum computer today to take your data today. Harvest now, decrypt later: capture the ciphertext, store it, wait for the machine that reads it. There is no breach alert for data copied and shelved. So exposure has to be scored now, as a standing factor, instead of handled the week it becomes news. By the time it is news, the data is already gone.
 
 !!! danger "The Clock Already Started"
-    Harvest-now-decrypt-later means the attack does not wait for a quantum computer. Anything an adversary can record today and needs to read in ten years is exposed now, on today's encryption. NIST finalized the replacement algorithms ([FIPS 203/204/205](../appendix/references.md#post-quantum-cryptography-and-crypto-agility), August 2024) and set the deprecation clock: quantum-vulnerable public-key cryptography like RSA and ECC is deprecated by 2030 and disallowed in NIST standards by 2035 ([NIST IR 8547](../appendix/references.md#post-quantum-cryptography-and-crypto-agility)). The migration is years of work against a fixed deadline, which is why exposure belongs on your standing roadmap and not your incident plan.
+    Harvest-now-decrypt-later means the attack does not wait for a quantum computer. Anything an adversary can record today and needs to read in ten years is exposed now, on today's encryption. NIST finalized the replacement algorithms ([FIPS 203/204/205](../appendix/references.md#post-quantum-cryptography-and-crypto-agility), August 2024) and set the deprecation clock: quantum-vulnerable public-key cryptography like RSA and ECC is deprecated by 2030 and disallowed in NIST standards by 2035 ([NIST IR 8547](../appendix/references.md#post-quantum-cryptography-and-crypto-agility)). The migration is years of work against a fixed deadline, which is why exposure belongs on your standing roadmap rather than your incident plan.
 
 <figure>
   <svg viewBox="0 0 760 440" role="img" aria-labelledby="sf2-pq-title sf2-pq-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
@@ -106,7 +106,7 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 
 **Studio**: Your footprint is small, which makes now the cheap moment to build the habit. Require primitive-rotation by configuration in every new system. Retrofit it after you scale and it costs you a rebuild.
 
-**Lean**: Scale means the same primitive sits in many places, so agility is a scaling investment, not a one-time project. Bake primitive-rotation into the platform every team builds on and the migration becomes a config change. Leave it to each team and you inherit a hand-search.
+**Lean**: Scale means the same primitive sits in many places, so agility is a scaling investment rather than a one-time project. Bake primitive-rotation into the platform every team builds on and the migration becomes a config change. Leave it to each team and you inherit a hand-search.
 
 **Craft**: Your risk concentrates where long-lived data sits behind cryptography you hand-rolled or pinned years ago. Inventory first. The high-craft trap is confidence that the crypto is fine because it has always been fine, which is the exact assumption the deadline retires.
 
@@ -161,7 +161,7 @@ What makes this its own modifier, and not a crisis waiting to happen, is that th
 
 ## How This Differs From the Modifiers Near It
 
-This sits close to three modifiers without being any of them. Supply Chain Complexity measures what you pull in, not whether your own primitives can rotate. Crisis Events accelerate movement after an incident, and PQC's defining property is that there is no incident: the loss is silent. Regulatory Constraints can drive your urgency through a mandate like CNSA 2.0, but the mandate is not the exposure. An unregulated company sitting on a decade of confidential data has maximal exposure and no one telling it so. Different dial from each.
+This sits close to three modifiers without being any of them. Supply Chain Complexity measures what you pull in rather than whether your own primitives can rotate. Crisis Events accelerate movement after an incident, and PQC's defining property is that there is no incident: the loss is silent. Regulatory Constraints can drive your urgency through a mandate like CNSA 2.0, but the mandate is not the exposure. An unregulated company sitting on a decade of confidential data has maximal exposure and no one telling it so. Different dial from each.
 
 ## Is This Modifier Earning Its Place?
 

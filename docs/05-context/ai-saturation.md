@@ -22,7 +22,7 @@ understanding it, and the work of security shifts with it.
 <figure>
   <svg viewBox="0 0 760 470" role="img" aria-labelledby="sf2-cg-title sf2-cg-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-cg-title">As AI saturation rises, generation outpaces review and a comprehension gap opens</title>
-    <desc id="sf2-cg-desc">A chart of rate against AI saturation, the proportion of the pipeline running through AI, banded from low through moderate to high. Two curves start together at low saturation. The generation curve, how fast code is produced, climbs steeply as saturation rises. The review curve, how fast people can read and understand what shipped, stays nearly flat because human capacity bounds it, and hiring cannot scale that capacity to machine output. The widening area between them is shaded as comprehension debt: the share of shipped code no person has fully read. The gap opens because review is human-bound while generation is not, and better models do not close it. In a 2025 study across more than a hundred models, code written for security-sensitive tasks was insecure nearly half the time, and newer models were not meaningfully safer. The response is structural, not patient.</desc>
+    <desc id="sf2-cg-desc">A chart of rate against AI saturation, the proportion of the pipeline running through AI, banded from low through moderate to high. Two curves start together at low saturation. The generation curve, how fast code is produced, climbs steeply as saturation rises. The review curve, how fast people can read and understand what shipped, stays nearly flat because human capacity bounds it, and hiring cannot scale that capacity to machine output. The widening area between them is shaded as comprehension debt: the share of shipped code no person has fully read. The gap opens because review is human-bound while generation is not, and better models do not close it. In a 2025 study across more than a hundred models, code written for security-sensitive tasks was insecure nearly half the time, and newer models were not meaningfully safer. The response is structural rather than patient.</desc>
     <rect x="0" y="0" width="760" height="470" fill="#FAFAF7"/>
     <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Generation outpaces review as saturation rises</text>
     <!-- saturation bands -->
@@ -52,7 +52,7 @@ understanding it, and the work of security shifts with it.
     <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">The gap is comprehension debt: code shipped that no person has fully read.</text>
     <text x="60" y="458" font-size="11.5" fill="#2A2520">Better models do not close it. In a 2025 study of 100-plus models, code for security tasks was insecure nearly half the time.</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">As saturation climbs, generation pulls away from review and the shaded gap, comprehension debt, widens. Hiring cannot close a gap that scales with machine output, and newer models test no safer. The response is structural, not patient.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">As saturation climbs, generation pulls away from review and the shaded gap, comprehension debt, widens. Hiring cannot close a gap that scales with machine output, and newer models test no safer. The response is structural rather than patient.</figcaption>
 </figure>
 
 ## Saturation Levels
@@ -104,7 +104,7 @@ contains what any one agent can reach.
     more than 100 models, asked to write code for security-sensitive tasks, the models
     produced insecure code nearly half the time, and newer, more capable models did not
     test meaningfully safer. You cannot wait for the next model to solve this. The
-    response is structural, not patient.
+    response is structural rather than patient.
 
 ## Assessment Questions
 
@@ -135,7 +135,7 @@ bottleneck saturation exposes first.
 **Craft**: Prioritize automated guardrails earlier than a pre-AI roadmap would. Manual
 review of AI-generated code at volume is the trap you walk into without noticing.
 
-**Mass**: Saturation arrives on its own schedule, not when your operations are ready for
+**Mass**: Saturation arrives on its own schedule rather than when your operations are ready for
 it. At high volume and low touch it lands as a cost-and-scale problem: more code, more
 agents, more grants, all faster than inventory. Sequence guardrails and agent identity
 ahead of other scaling work.
@@ -155,10 +155,10 @@ ahead of other scaling work.
 
 **High Saturation**:
 
-- Automated guardrails become the primary control, not a supplement
+- Automated guardrails become the primary control rather than a supplement
 - Scoped, short-lived agent identity (necessary) plus per-request attenuation, which is what identity alone cannot provide
 - Continuous inventory of tool grants and agent identities
-- Comprehension treated as an asset: an authoritative, queryable model of system behavior, continuously reconciled, not tribal memory
+- Comprehension treated as an asset: an authoritative, queryable model of system behavior, continuously reconciled rather than tribal memory
 
 ## Real-World Indicators
 
@@ -174,7 +174,7 @@ ahead of other scaling work.
 
 ### Short-Term (0-6 months)
 
-1. **Guardrails over gates**: move security checks into the pipeline as automated policy, not manual review steps
+1. **Guardrails over gates**: move security checks into the pipeline as automated policy rather than manual review steps
 2. **Identity inventory**: enumerate agents, service accounts, and tool grants; revoke standing access that isn't used
 3. **Secrets discipline**: more code committed faster, with less human review, means more chances to commit a secret; continuous scanning and short-lived secrets
 
@@ -186,8 +186,8 @@ ahead of other scaling work.
 
 ### Long-Term (18+ months)
 
-1. **Two floors, not one**: [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) contains what cannot be fully understood; comprehension is the floor under the decisions themselves. Neither alone is the answer
-2. **Policy-as-code as the default**: security expressed as constraints the pipeline enforces, not advice reviewers remember
+1. **Two floors, both required**: [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) contains what cannot be fully understood; comprehension is the floor under the decisions themselves. Neither alone is the answer
+2. **Policy-as-code as the default**: security expressed as constraints the pipeline enforces rather than advice reviewers remember
 3. **Continuous reconciliation**: keep the model of behavior current as generation outpaces documentation
 
 ## Connection to Supply Chain and Comprehension
@@ -197,7 +197,7 @@ restatement of either. [Supply Chain Stewardship](../02-stewardship/supply-chain
 measures what you pull in; saturation measures how much of your own pipeline now runs
 through AI. The [comprehension crisis](../10-coadaptive/02-ai-era-threat-surface.md) names
 the gap saturation creates: generation outruns understanding, and the response is to
-contain and to model behavior, not to read faster.
+contain and to model behavior rather than to read faster.
 
 The closest seam is supply chain, so name it plainly. Saturation measures how much of your
 pipeline you route through AI, an upstream allocation decision. Supply chain measures the

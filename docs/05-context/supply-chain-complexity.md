@@ -2,7 +2,7 @@
 
 ## Beyond Volume: Complexity as Risk Multiplier
 
-Supply chain complexity isn't about the number of dependencies. It's about the **interconnected risk** created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
+Supply chain complexity is less about the number of dependencies than about the **interconnected risk** created by multi-tier dependencies, critical single vendors, and geopolitical constraints.
 
 Volume is easy to count and mostly beside the point. A thousand well-maintained, widely used dependencies with clear provenance carry less risk than a handful you cannot see past the first tier. The three drivers below each break the count-and-relax instinct in a different way. Multi-tier depth hides your real exposure two or three levels down, where you have no direct relationship and often no visibility. A critical single vendor concentrates continuity risk in a node whose failure you cannot absorb. Geopolitical constraint removes options you assumed were fungible. Each is a different shape of one fact: what you depend on matters more than how much.
 
