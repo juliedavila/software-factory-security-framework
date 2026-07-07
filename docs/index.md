@@ -173,6 +173,16 @@ This framework represents my personal strategic mental models for security leade
 
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
 
+???+ note "How this framework was made"
+
+    **AI Influence Level: [AIL-3](https://danielmiessler.com/blog/ai-influence-level-ail), "AI Created, Human Full Structure."** Borrowing [Daniel Miessler's](https://danielmiessler.com/) AIL scale.
+
+    I'll be straight about this. I built SF² in close collaboration with AI, and I leaned on it heavily. The thinking is mine: a mental model of product security strategy I've carried for years and wanted to codify, down to the structure and the argument. AI is how it got drafted into prose. I checked every claim, citation, and figure by hand against [primary sources](appendix/references.md). Diligence was the whole job.
+
+    Done the traditional way, from scratch, this is a one- or two-year project. AI is what let me get the ideas out of my head and into something durable now, alongside everything else I've got running. The voice isn't perfectly mine yet, and that's something I'll keep polishing.
+
+    I made this first as a source of truth for my own work. Sharing it follows from a simple bet: if it saves me from re-explaining this, it's probably worth something to other people carrying the same problem.
+
 [:octicons-arrow-right-24: Contributing Guidelines](contributing.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: View on GitHub](https://github.com/juliedavila/software-factory-security-framework){ .md-button }
 
