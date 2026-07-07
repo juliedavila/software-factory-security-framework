@@ -34,15 +34,19 @@
 
 SF² is built on prior work. These are the thinkers whose arguments the framework rests on, grouped by the part of SF² they anchor. Each entry names the work, where to find it, and what it carries for the framework.
 
-### Software factory lineage and the atelier critique
+### Software factory lineage and the case against the factory
 
-The term SF² governs has a fifty-year industrial paper trail, and the framework owes the strongest counter-framing (software as artist colony, not factory) a real answer. These anchor [Engaging the Atelier Critique](../01-foundation/atelier-engagement.md).
+The term SF² governs has a fifty-year industrial paper trail, and the framework owes the strongest counter-framings, from AI-democratized creation to the flat artist colony, a real answer. These anchor [The Atelier and the Factory](../01-foundation/atelier-engagement.md).
 
 - **[Bemer (1968), "The Economics of Program Production."](https://www.computerhistory.org/collections/catalog/102724781)** Robert W. Bemer, then at General Electric, is generally credited with the earliest "software factory" proposal, framed as an answer to the late-1960s software crisis. (Bemer's papers, Computer History Museum.) The provenance behind treating "Software Factory" as industrial-lineage vocabulary rather than a fresh coinage.
 - **[Cusumano (1991), *Japan's Software Factories: A Challenge to U.S. Management.*](https://global.oup.com/academic/product/japans-software-factories-9780195062168)** Oxford University Press. The book-length study of the factory model applied to software at Hitachi, Toshiba, NEC, and Fujitsu. The mid-history of the term, between Bemer and modern DevOps usage.
 - **[Greenfield & Short (2004), *Software Factories: Assembling Applications with Patterns, Models, Frameworks, and Tools.*](https://archive.org/details/softwarefactorie0000gree)** Wiley. The configuration-of-languages-patterns-frameworks-tools definition that carried the term into modern application development.
 - **[U.S. Department of Defense accredited software factories](https://software.af.mil/) (Platform One, Kessel Run, and others).** More than twenty accredited software factories operate today; the word carries operational and regulatory weight in the one ecosystem where getting delivery wrong gets people killed.
 - **[Sankar, *Position and Portfolio.*](https://www.shyamsankar.com/p/position-and-portfolio)** shyamsankar.com. Palantir's CTO argues the atelier counter-framing: position and portfolio decoupled, "there is only the artist and the work." The steelmanned view SF² absorbs at the creative-act layer. The "artist colony, extraordinarily and exquisitely flat" line is from Sankar's *Financial Times* interview, 12 August 2021 (paywalled).
+- **[Karpathy (2025), "vibe coding."](https://x.com/karpathy/status/1886192184808149383)** Andrej Karpathy's originating post, where plain-language prompting means you "forget that the code even exists." The definitional statement of the AI-democratization current the chapter answers.
+- **[Huang (2023), "Everyone is a programmer."](https://www.cnbc.com/2023/05/30/everyone-is-a-programmer-with-generative-ai-nvidia-ceo-.html)** CNBC. Nvidia's CEO at Computex on natural language as the new programming interface: "you just have to say something to the computer."
+- **[Ramaswamy, via McKinsey (2025), "AI is turning every company into a software company."](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/ai-is-turning-every-company-into-a-software-company)** Snowflake's CEO on non-engineers shipping their own dashboards by describing them in English. The democratization thesis stated from inside an enterprise.
+- **[Northern Health / Hussain (2025), a clinic app in four days.](https://analyticsindiamag.com/ai-news-updates/doctor-with-no-coding-experience-builds-a-health-app-on-replit-in-just-4-days/)** A British GP with no coding background built a working patient app on Replit for £175 after agencies quoted £75,000 ([Replit case study](https://replit.com/customers/northern-health)). The concrete proof point, and [Replit's Amjad Masad](https://www.sequoiacap.com/podcast/training-data-amjad-masad/) frames the platform as one for a billion builders.
 
 ### Capability and least-privilege
 
