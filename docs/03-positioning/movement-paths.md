@@ -5,9 +5,9 @@
 Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + Higher Readiness), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
-    Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
+    Quadrant transitions are organizational transformations rather than technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
 
-    That gap between fast and slow is the install clock against the absorb clock: how fast you can stand a change up versus how fast the organization actually runs on it. Granting authority installs in a day, building the floor the organization runs on takes quarters (the two clocks get their full treatment in [Change Capacity](../05-context/change-capacity.md)). And the reason doing both at once fails most is that they draw on one shared absorption budget, not two. The same people, sponsor, and approval path carry both, so each absorbs worse. Sequence the heavy moves; do not stack them.
+    That gap between fast and slow is the install clock against the absorb clock: how fast you can stand a change up versus how fast the organization actually runs on it. Granting authority installs in a day, building the floor the organization runs on takes quarters (the two clocks get their full treatment in [Change Capacity](../05-context/change-capacity.md)). And the reason doing both at once fails most is that they draw on one shared absorption budget rather than two. The same people, sponsor, and approval path carry both, so each absorbs worse. Sequence the heavy moves; do not stack them.
 
 ---
 
@@ -20,7 +20,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 - Security capabilities that scale automatically with organizational growth
 - Developer experience improvements that increase rather than constrain velocity
 - Platform approaches that enable innovation while maintaining security capabilities
-- Cultural integration where security is a competitive advantage, not a constraint
+- Cultural integration where security is a competitive advantage rather than a constraint
 
 **Reality Check**: Not every organization needs to reach Lean immediately. Your optimal target depends on your business trajectory and organizational change capacity.
 
@@ -37,9 +37,9 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-60 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
 | **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
 
-The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
+The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget rather than two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
-These ranges and likelihood ratings are practitioner estimates synthesized from transformation experience, not measured outcomes. SF² treats them as hypotheses to validate rather than findings, and refining them against real transformations is part of the framework's research agenda.
+These ranges and likelihood ratings are practitioner estimates synthesized from transformation experience rather than measured outcomes. SF² treats them as hypotheses to validate rather than findings, and refining them against real transformations is part of the framework's research agenda.
 
 <figure>
   <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
@@ -191,11 +191,11 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
 
 </div>
 
-This is the one move on the map you do not make on purpose. Craft → Mass is what happens when you grant automation and agents more authority, a new integration here, broader tool access there, another autonomous actor in the pipeline, faster than you build the containment to hold it. Reach widens and the floor does not. One day a failure's blast radius is enterprise-scale and nothing proves a compromised component stays inside its grant. You arrived at Mass by drift, not by decision.
+This is the one move on the map you do not make on purpose. Craft → Mass is what happens when you grant automation and agents more authority, a new integration here, broader tool access there, another autonomous actor in the pipeline, faster than you build the containment to hold it. Reach widens and the floor does not. One day a failure's blast radius is enterprise-scale and nothing proves a compromised component stays inside its grant. You arrived at Mass by drift rather than by decision.
 
-### Sometimes it is a bet, not an accident
+### Sometimes it is a bet rather than an accident
 
-Occasionally the reach is taken on knowingly: the business needs enterprise features or a new market before it can fund readiness, and you grant the authority with your eyes open. That is defensible exactly once, when you book the debt. Name a containment-funding date, put it in writing, and treat the position as temporary Mass you are already climbing out of. Undated, "we chose this" is not a strategy. It is the rationalization this warning exists to puncture. Either way you are in Mass, managing reach that outran its floor. A conscious tradeoff changes the motive, not your coordinates.
+Occasionally the reach is taken on knowingly: the business needs enterprise features or a new market before it can fund readiness, and you grant the authority with your eyes open. That is defensible exactly once, when you book the debt. Name a containment-funding date, put it in writing, and treat the position as temporary Mass you are already climbing out of. Undated, "we chose this" is not a strategy. It is the rationalization this warning exists to puncture. Either way you are in Mass, managing reach that outran its floor. A conscious tradeoff changes the motive rather than your coordinates.
 
 ### Recognition signs
 

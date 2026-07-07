@@ -16,7 +16,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Who You Are**:
 
-- Narrow granted authority: no automated actor crosses trust boundaries (a small team is the usual correlate, not the cause)
+- Narrow granted authority: no automated actor crosses trust boundaries (a small team is the usual correlate rather than the cause)
 - Cloud-native infrastructure from inception
 - Automated CI/CD pipelines and modern DevOps practices
 - API-driven operations and infrastructure-as-code
@@ -62,7 +62,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Who You Are**:
 
-- Broad granted authority across the estate, held with the floor built (large scale is the correlate; reach is set by authority, not headcount)
+- Broad granted authority across the estate, held with the floor built (large scale is the correlate; reach is set by authority rather than headcount)
 - Sophisticated DevOps and platform engineering practices
 - Comprehensive observability and automation across the enterprise
 - Mature change management and incident response processes
@@ -77,7 +77,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 **Key Investment Priorities**:
 
 1. **Security Platform Engineering**: Self-service security capabilities available across all teams and products
-2. **Federated Security Champions**: Engineers inside each team who set the team-level boundaries the platform then enforces: capability scopes, deny-by-default defaults, the guardrails their team ships inside. The platform team authors the paved road; champions set the boundaries within it and feed the threat models that shape it. The leverage is configuration, not inspection, so enforcement scales without a human in the path of every change. The boundary-setting is itself threat modeling and risk judgment, not a config chore: the enforcement is delegated to the platform, the judgment is not.
+2. **Federated Security Champions**: Engineers inside each team who set the team-level boundaries the platform then enforces: capability scopes, deny-by-default defaults, the guardrails their team ships inside. The platform team authors the paved road; champions set the boundaries within it and feed the threat models that shape it. The leverage is configuration rather than inspection, so enforcement scales without a human in the path of every change. The boundary-setting is itself threat modeling and risk judgment rather than a config chore: the enforcement is delegated to the platform, the judgment is not.
 3. **Enterprise Architecture Integration**: Security embedded in platform decisions and organizational standards
 4. **Continuous Security Intelligence**: Automated threat detection with predictive insights and proactive response
 5. **Cultural Scaling Mechanisms**: Learning from incidents and scaling security knowledge across the organization
@@ -89,7 +89,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
     **Symptoms**: Multi-week security architecture reviews, declining developer satisfaction, increasing workarounds
 
-    **Solution**: Federate security decision-making to engineering teams with clear guardrails. Centralize platform capabilities, not every security decision.
+    **Solution**: Federate security decision-making to engineering teams with clear guardrails. Centralize platform capabilities rather than every security decision.
 
 **Success Indicators**:
 
@@ -217,7 +217,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 **Startup Founder Self-Assessment**: "We're obviously Craft, we're small and scrappy!"
 
-**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your reach is small because no automated actor holds broad authority, not because the team is small, and your modern stack is high readiness. Don't build manual processes just because you're small.
+**Reality Check**: If you're cloud-native with automated deployments, you're Studio. Your reach is small because no automated actor holds broad authority, rather than because the team is small, and your modern stack is high readiness. Don't build manual processes just because you're small.
 
 ---
 
