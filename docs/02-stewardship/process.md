@@ -6,7 +6,7 @@ The lever is feedback. Security that arrives while the work is happening gets fi
 
 ## Security as a property of the build
 
-The aim is a build that makes the insecure version harder to ship than the secure one, not simply more checks. When provenance, dependency inventory, secret scanning, and policy checks run as part of the pipeline rather than alongside it, they stop being security activities at all and become properties of how code moves to production.
+The aim is a build that makes the insecure version harder to ship than the secure one, rather than simply adding more checks. When provenance, dependency inventory, secret scanning, and policy checks run as part of the pipeline rather than alongside it, they stop being security activities at all and become properties of how code moves to production.
 
 This is also where the other conditions get cultivated for free. A pipeline that emits an SBOM is tending [Supply Chain](supply-chain.md). A pipeline that refuses a hardcoded secret closes a [Runtime](runtime.md) exposure before it exists. Process is the leverage point because a single change to the build strengthens more than one condition at once.
 
@@ -23,7 +23,7 @@ Process fails in the quietest way of the four. Nothing breaks. The build keeps s
 
 Equifax is the case study. In March 2017 a [patch for a known Apache Struts vulnerability](https://oversight.house.gov/wp-content/uploads/2018/12/Equifax-Report.pdf) went out, and the process meant to apply it never reached the server that needed it. That gap alone was the way in. But the detail that turns a missed patch into a story about drift is what the attackers walked past on the way out: the tool meant to inspect encrypted traffic for exactly this kind of exfiltration had been running on a certificate that expired in January 2016, and no one had noticed for nineteen months. The scanner was installed, funded, and green. It was also blind. The breach was found the day someone renewed the certificate and the tool, restored to sight, immediately lit up with the activity it had been missing the whole time. Data on 148 million people left over seventy-six days, past a guard that had been asleep since before anyone thought to check.
 
-This is what drift looks like: not a control that was never bought, but one that quietly stopped working while every dashboard stayed green. The patch queue that no longer reaches production, the scanner whose rules last updated two years ago, the gate that has been auto-approving since a config change no one logged. None of it announces itself, because a broken check and a passing check produce the same green until the day you need the difference.
+This is what drift looks like: a control that was bought and installed, then quietly stopped working while every dashboard stayed green. The patch queue that no longer reaches production, the scanner whose rules last updated two years ago, the gate that has been auto-approving since a config change no one logged. None of it announces itself, because a broken check and a passing check produce the same green until the day you need the difference.
 
 So the discipline Process demands is not more checks; it is watching the checks. Treat the pipeline itself as a system that decays and must be tended. Verify that a control still does what its green light claims, on a cadence, the way you would test a smoke detector you are betting the building on. A check no one audits is a check that has already started to drift.
 
