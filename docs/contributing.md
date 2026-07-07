@@ -67,6 +67,16 @@ The framework uses:
 - **Authentic voice** - Professional but not corporate-speak
 - **Empathy** - Acknowledge the challenges security leaders face
 
+### House Style
+
+A few house rules keep 100-plus pages reading as one voice. The [glossary](appendix/glossary.md) is the source of truth for every term.
+
+- **Match the glossary exactly.** Use the canonical names: **Universal Security Conditions** (never "stewardship areas" or "responsibilities"), **Blast Radius** for the reach axis (never "operational complexity"), **Operational Readiness** graded Lower to Higher (never "Low/High"), and the four quadrants **Studio, Lean, Craft, Mass**. If a term is not in the glossary, it probably needs to be added there before you use it.
+- **No em-dashes.** Use commas, colons, parentheses, or rewrite the sentence. Arrows (→) are welcome for showing progression or mapping.
+- **Say it directly.** Phrasings like "it's not X, it's Y" or "X doesn't Y, it Zs" read as filler when they stack up. State the point once, plainly.
+- **Blank line before every list.** Always leave a blank line between a paragraph and the list that follows it. Without it, the list renders as literal dashes instead of bullets.
+- **Write for the decision-maker.** The reader is a VP or CISO deciding where to spend, not a practitioner following steps. Lead with the tradeoff, not the tactic.
+
 ## How to Contribute
 
 ### Option 1: Quick Edits (Recommended for Minor Changes)
@@ -114,6 +124,29 @@ Can't contribute directly but have feedback?
    - Error reports
    - New topic requests
 
+### Preview and Validate Locally
+
+For anything larger than a one-line fix, preview and validate before you open the PR. The site builds with `--strict`, so a broken link or a missing heading anchor fails CI. Catching it locally is faster than a round trip.
+
+With Docker (matches the CI environment exactly, no local Python needed):
+
+```bash
+# Live preview with hot reload at http://localhost:8000
+docker compose up serve
+
+# Strict build — fails loudly on any broken link or missing anchor.
+# "Documentation built" means you are clear to open the PR.
+docker compose run --rm build
+```
+
+With a local Python toolchain instead:
+
+```bash
+pip install -r requirements.txt
+mkdocs serve                 # preview at http://127.0.0.1:8000
+mkdocs build --strict        # validate; must pass before you open the PR
+```
+
 ## Pull Request Guidelines
 
 ### PR Title Format
@@ -140,25 +173,15 @@ Include:
 3. **Feedback & iteration** - we'll work with you to refine contributions
 4. **Merge** - approved PRs are merged to master and deployed automatically
 
-### Automation: We Handle the Details! 🎉
+### What CI Checks
 
-**You don't need to worry about consistency!** Our CI/CD pipeline automatically:
+Every push to `master` runs the deploy pipeline, which:
 
-- **Validates** version consistency across all files
-- **Checks** documentation structure and file counts
-- **Verifies** critical cross-references (Supply Chain #1, adversary evolution)
-- **Tests** terminology consistency
-- **Confirms** AI optimization files are valid
-- **Builds** the documentation to catch errors
+- **Builds the site with `--strict`**, failing on any broken link or missing heading anchor
+- **Builds and gates the downloadable PDF** (page count plus embedded brand fonts)
+- **Deploys** the built site to sf2framework.com on success
 
-**What this means for you:**
-
-- Focus on writing great content
-- Don't worry about updating robots.txt, framework.json, or other meta files
-- If there's an issue, the pipeline will tell you exactly what needs fixing
-- Clear, helpful error messages guide you to the solution
-
-**Learn more**: See [scripts/README.md](https://github.com/juliedavila/software-factory-security-framework/blob/master/scripts/README.md) for automation details
+CI confirms that the site *builds*. It does not police terminology or voice for you, so please self-check against the [House Style](#house-style) rules and the [glossary](appendix/glossary.md) before you open a PR. A local `docker compose run --rm build` catches the structural problems ahead of time.
 
 ## Content Organization
 

@@ -83,7 +83,7 @@ The framework should read like advice from an experienced security leader who:
 ```
 docs/
 ├── 01-foundation/           # Core definitions (Software Factory concept)
-├── 02-stewardship/          # 5 universal areas (Supply Chain #1)
+├── 02-stewardship/          # 5 Universal Security Conditions (Supply Chain #1)
 ├── 03-positioning/          # Two-axis model, four quadrants
 ├── 04-investment/           # BAU vs Scaling, portfolio framework
 ├── 05-context/              # 8 contextual modifiers
@@ -180,7 +180,7 @@ Use these terms precisely:
 - **Quadrant names**: Studio, Lean, Craft, Mass (always capitalized). There is no fifth quadrant — "Leader" is a retired pre-rename name; never use it.
 - **Universal Security Conditions** - the canonical name for the five-condition set (v0.6 rename). Never "Universal Stewardship Model", "Universal Stewardship Areas", or "Universal Stewardship Responsibilities". "Stewardship" survives only inside member names (e.g. "Supply Chain Stewardship") and as the tending verb.
 - **Canonical order of the five conditions** (a numbered list implies priority, so order is load-bearing): 1) Supply Chain, 2) Third-Party, 3) Process, 4) Runtime, 5) Adaptive Capacity. This is the nav/section/diagram order; align every enumeration to it.
-- **Version** - single source of truth is `docs/appendix/references.md` "About This Framework". Current: **v1.1.0**. Do not stamp versions on individual content pages (they rot).
+- **Version** - single source of truth is `docs/appendix/references.md` "About This Framework". Current: **v1.2.0**. Do not stamp versions on individual content pages (they rot).
 
 ### Terms to Avoid
 
@@ -583,7 +583,7 @@ If no → Refine or remove it.
 **Core Concept**: Two-axis positioning model (Blast Radius × Readiness) creates four strategic positions
 
 **Key Framework Elements**:
-- 5 Universal Stewardship areas (Supply Chain #1)
+- 5 Universal Security Conditions (Supply Chain #1)
 - 4 Strategic Quadrants (implementation approaches differ)
 - 8 Contextual Modifiers (affect strategy execution)
 - Investment Portfolio (BAU vs Scaling)

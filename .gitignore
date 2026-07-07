@@ -25,3 +25,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 interceptor-screenshot-*.png
+
+# Internal working/audit docs (not framework content) — keep these out of the repo root
+/*-AUDIT-*.md
+/*-audit-*.md

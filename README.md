@@ -13,7 +13,7 @@ The Software Factory Security Framework (SF²) provides security leaders with a 
 
 This framework helps you:
 
-- ✅ Understand universal security responsibilities
+- ✅ Understand the Universal Security Conditions
 - ✅ Position your organization strategically
 - ✅ Invest resources effectively
 - ✅ Adapt to your specific context
@@ -34,7 +34,7 @@ This framework helps you:
 
 1. Read [Contributing Guidelines](https://sf2framework.com/contributing/)
 2. Find a section to improve
-3. Click "Edit this page" and submit a merge request
+3. Click "Edit this page" and submit a pull request
 
 ---
 
@@ -43,7 +43,7 @@ This framework helps you:
 ### Core Components
 
 1. **Foundation** - Software factory definition and core concepts
-2. **Universal Stewardship** - Five security responsibilities for all organizations
+2. **Universal Security Conditions** - Five conditions every software-producing organization must meet
 3. **Strategic Positioning** - Two-axis model for organizational assessment
 4. **Investment Portfolio** - Balancing BAU work with scaling investments
 5. **Contextual Modifiers** - Adapting to your specific situation
@@ -137,7 +137,7 @@ We welcome contributions! The framework is designed as a **public resource** for
 1. Visit any page on the [live site](https://sf2framework.com)
 2. Click "Edit this page"
 3. Make your changes
-4. Submit a merge request
+4. Submit a pull request
 
 See [Contributing Guidelines](https://sf2framework.com/contributing/) for details.
 
@@ -175,15 +175,14 @@ With attribution.
 
 ## 📊 Project Status
 
-**Version:** 0.1.0 (Initial Setup)
+**Version:** 1.2.0. See the [changelog](CHANGELOG.md) for the full release history.
 
-- [x] Repository structure
-- [x] MkDocs + Material theme setup
-- [x] GitHub Actions CI/CD pipeline
-- [x] Core navigation structure
-- [ ] Content migration from source document
-- [ ] PDF export configuration
-- [ ] First public release
+The framework is complete and in active use. Version 1.0 was the first complete, usable release; it stays a living document and keeps evolving as adversaries and practice do.
+
+- [x] Full framework content across all sections
+- [x] Downloadable core PDF (embedded brand fonts)
+- [x] Academic grounding and primary-source citations
+- [x] Live at [sf2framework.com](https://sf2framework.com)
 
 ---
 
