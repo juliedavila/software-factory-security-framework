@@ -29,7 +29,7 @@
 : Organizations with small inherent reach and low readiness (Small reach + Lower Readiness): narrow grants, containment unproven.
 
 **Mass**
-: Organizations with large inherent reach and unproven containment (Large reach + Lower Readiness). Ungoverned reach, not size.
+: Organizations with large inherent reach and unproven containment (Large reach + Lower Readiness). Ungoverned reach rather than size.
 
 ## Universal Security Conditions
 
@@ -92,7 +92,7 @@
 : How much of an organization's software work AI now generates, from code to review. As that proportion climbs, the binding constraint shifts from writing code to reviewing it, moving investment from manual review toward automated guardrails and scoped agent identity.
 
 **PQC Exposure**
-: How much of an organization's cryptography the quantum transition puts at risk, and how hard that risk is to retire. Not how close quantum computers are, but your own footprint: how long data must stay secret and how hard the underlying math is to swap. The loss is silent and already underway (harvest now, decrypt later).
+: How much of an organization's cryptography the quantum transition puts at risk, and how hard that risk is to retire. It turns on your own footprint rather than how close quantum computers are: how long data must stay secret and how hard the underlying math is to swap. The loss is silent and already underway (harvest now, decrypt later).
 
 ## Technical Terms
 
