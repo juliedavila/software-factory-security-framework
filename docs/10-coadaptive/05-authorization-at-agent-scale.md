@@ -4,13 +4,13 @@
     **This chapter extends:** [SF² Investment Portfolio (Section 04) · Platform Effects](../04-investment/platform-effects.md), [SF² Process Stewardship (Section 02)](../02-stewardship/process.md).
     **Scope:** the confused-deputy problem in MCP and agent-mediated workflows.
 
-The authorization failures showing up in agent systems are not new; they are a forty-year-old problem wearing new clothes. The confused deputy, named by Norm Hardy in 1988, is the correct lens for almost everything going wrong in MCP and agent-mediated workflows, and the reason the usual fixes do not work is that OAuth and RBAC were built for a human delegating to a program, not a program delegating to another program three hops down a chain no human is watching.
+The authorization failures showing up in agent systems are a forty-year-old problem wearing new clothes. The confused deputy, named by Norm Hardy in 1988, is the correct lens for almost everything going wrong in MCP and agent-mediated workflows, and the reason the usual fixes do not work is that OAuth and RBAC were built for a human delegating to a program rather than a program delegating to another program three hops down a chain no human is watching.
 
 ## The confused deputy problem (Hardy, 1988)
 
-Hardy's [original case](http://cap-lore.com/CapTheory/ConfusedDeputy.html) is a compiler with elevated permissions. A user asks it to write debugging output to a file they name, the compiler dutifully writes there using its own authority, and the user names a system file they should never have been able to touch. The compiler was not compromised; it was confused, holding authority for one purpose and getting tricked into wielding it for another. The deputy did exactly what it was told, with permissions that were never the caller's to spend.
+Hardy's [original case](http://cap-lore.com/CapTheory/ConfusedDeputy.html) is a compiler with elevated permissions. A user asks it to write debugging output to a file they name, the compiler dutifully writes there using its own authority, and the user names a system file they should never have been able to touch. The compiler was confused rather than compromised, holding authority for one purpose and getting tricked into wielding it for another. The deputy did exactly what it was told, with permissions that were never the caller's to spend.
 
-The pattern generalizes to any system where one component acts with its own authority on behalf of a less-privileged caller. That is the exact shape of an agent calling a tool, a tool calling a service, a service reaching data. Each hop carries the authority of the actor, not the requester, and somewhere down the chain a request gets honored with privilege the original asker never had. Every agent that acts on behalf of a user is a deputy, and a deputy is one crafted request away from being a confused one.
+The pattern generalizes to any system where one component acts with its own authority on behalf of a less-privileged caller. That is the exact shape of an agent calling a tool, a tool calling a service, a service reaching data. Each hop carries the authority of the actor rather than the requester, and somewhere down the chain a request gets honored with privilege the original asker never had. Every agent that acts on behalf of a user is a deputy, and a deputy is one crafted request away from being a confused one.
 
 ## Why OAuth and RBAC don't address agent-to-agent
 
@@ -23,7 +23,7 @@ This does not make the actor's identity irrelevant. You still have to know which
 <figure>
   <svg viewBox="0 0 760 500" role="img" aria-labelledby="sf2-cd-title sf2-cd-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-cd-title">The confused deputy and authority attenuation along a delegation chain</title>
-    <desc id="sf2-cd-desc">A delegation chain runs left to right: caller, agent, tool or MCP server, service, data. The top band shows actor authority under OAuth or RBAC, which sits still: each deputy acts with its own broad standing authority, not the caller's, so somewhere down the chain a request is honored with privilege the original asker never had. That is the confused deputy. The bottom band shows the correction: a capability attached to the request, which narrows at every hop. Each deputy can pass along less than it holds but never more, drawn as a wedge that tapers from left to right. Attenuation can only narrow because the layer that checks the caveat sits outside the deputies passing the token.</desc>
+    <desc id="sf2-cd-desc">A delegation chain runs left to right: caller, agent, tool or MCP server, service, data. The top band shows actor authority under OAuth or RBAC, which sits still: each deputy acts with its own broad standing authority rather than the caller's, so somewhere down the chain a request is honored with privilege the original asker never had. That is the confused deputy. The bottom band shows the correction: a capability attached to the request, which narrows at every hop. Each deputy can pass along less than it holds but never more, drawn as a wedge that tapers from left to right. Attenuation can only narrow because the layer that checks the caveat sits outside the deputies passing the token.</desc>
     <defs>
       <marker id="cd-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#5A6470"/></marker>
     </defs>
@@ -49,7 +49,7 @@ This does not make the actor's identity irrelevant. You still have to know which
     </g>
     <!-- top band: actor authority sits still -->
     <text x="24" y="58" font-size="13" font-weight="700" fill="#A6450B">The confused deputy: actor authority sits still</text>
-    <text x="24" y="76" font-size="11.5" fill="#2A2520">OAuth and RBAC ask "is this human allowed?" Each hop carries the authority of the actor, not the requester.</text>
+    <text x="24" y="76" font-size="11.5" fill="#2A2520">OAuth and RBAC ask "is this human allowed?" Each hop carries the authority of the actor rather than the requester.</text>
     <g fill="#FBE6DA" stroke="#D55E00" stroke-width="1.2">
       <rect x="174" y="96" width="116" height="16" rx="3"/>
       <rect x="326" y="96" width="116" height="16" rx="3"/>
@@ -83,7 +83,7 @@ This does not make the actor's identity irrelevant. You still have to know which
 
 The Model Context Protocol is the current canonical case, because it standardizes exactly the moment authority changes hands: an agent reaching a tool or data source through a server. MCP gets the plumbing right and the authority model is where the risk concentrates. A server that holds broad credentials and serves whatever an agent asks is a confused deputy by construction, and the agent asking may itself be acting on injected instructions from [the input surface](06-input-trust-is-a-category-error.md).
 
-The design implication for anyone building agent platforms is to treat every server and every tool as a deputy that must be scoped, not trusted. Give it the narrowest capability that lets it do its job, make authority flow with the request so it cannot be reused for another, and assume the caller may be confused or compromised. Scoping a deputy at design time costs little; discovering the confused deputy unscoped in an incident review costs a great deal.
+The design implication for anyone building agent platforms is to treat every server and every tool as a deputy that must be scoped rather than trusted. Give it the narrowest capability that lets it do its job, make authority flow with the request so it cannot be reused for another, and assume the caller may be confused or compromised. Scoping a deputy at design time costs little; discovering the confused deputy unscoped in an incident review costs a great deal.
 
 ## See also
 
