@@ -13,7 +13,7 @@ There are four conditions you can hand to a team, and one you cannot.
     <title id="sf2-sc-title">The five universal security conditions</title>
     <desc id="sf2-sc-desc">Four conditions you can staff, drawn as four pillars: Supply Chain, marked number one and the loudest; Third-Party; Process; and Runtime. Each pillar names the question it asks and its lever. Supply Chain asks what is inside what I shipped, with the lever of comprehension. Third-Party asks what I handed off and who holds the bag, with the lever of containment. Process asks whether the way we build produces security or bolts it on, with the lever of feedback. Runtime asks whether we can sense what production is doing now, with the lever of observability. Beneath all four runs a foundation bar, Adaptive Capacity, the one condition you cannot staff: whether the system as a whole can absorb a surprise it was not designed for and keep working. It runs across the other four rather than beside them. You assess it; you cannot hand it to a team.</desc>
     <rect x="0" y="0" width="760" height="520" fill="#FAFAF7"/>
-    <text x="380" y="36" font-size="17" font-weight="700" fill="#2C4A6B" text-anchor="middle">Conditions you cultivate, not controls you check off</text>
+    <text x="380" y="36" font-size="17" font-weight="700" fill="#2C4A6B" text-anchor="middle">Conditions you cultivate and keep alive</text>
     <text x="380" y="58" font-size="12" fill="#2A2520" text-anchor="middle">Four you can staff. One you cannot.</text>
     <!-- four pillars -->
     <g>
@@ -62,7 +62,7 @@ There are four conditions you can hand to a team, and one you cannot.
     <rect x="40" y="404" width="700" height="86" rx="6" fill="#B8956A" stroke="#9A7A52" stroke-width="2"/>
     <text x="380" y="432" font-size="15" font-weight="700" fill="#2A2520" text-anchor="middle">Adaptive Capacity &#183; the fifth condition, the one you cannot staff</text>
     <text x="380" y="454" font-size="11.5" fill="#2A2520" text-anchor="middle">Can the system absorb a surprise it was not designed for and keep working?</text>
-    <text x="380" y="474" font-size="11" font-style="italic" fill="#3A3026" text-anchor="middle">Runs across the other four, not beside them. You assess it; you cannot hand it to a team.</text>
+    <text x="380" y="474" font-size="11" font-style="italic" fill="#3A3026" text-anchor="middle">Runs beneath all four as their foundation. You assess it; you cannot hand it to a team.</text>
   </svg>
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Four conditions you can name, staff, and put on an org chart, plus Adaptive Capacity running underneath all four. You assess the fifth; you cannot hand it to a team.</figcaption>
 </figure>
@@ -73,7 +73,7 @@ There are four conditions you can hand to a team, and one you cannot.
 |-----------|----------------------|-----------|
 | **[Supply Chain](supply-chain.md)** (#1) | Do I know what is *inside* what I shipped? | Comprehension: SBOM, provenance, signing, pinning |
 | **[Third-Party](third-party.md)** | Do I know what I *handed off*, and who holds the bag when it fails? | Containment: blast-radius limits, shared-responsibility clarity, failover |
-| **[Process](process.md)** | Does the way we build *produce* security, or bolt it on afterward? | Feedback: security arriving while the work happens, not in a review at the end |
+| **[Process](process.md)** | Does the way we build *produce* security, or bolt it on afterward? | Feedback: security arriving while the work happens, ahead of the end-of-cycle review |
 | **[Runtime](runtime.md)** | Can we *sense* what production is doing right now and respond before a user does? | Observability: detection, response, recovery |
 
 These four map to functions you can name, staff, and put on an org chart. That is deliberate. A condition you cannot assign to anyone is a condition nobody tends.
@@ -97,7 +97,7 @@ Lumping both under "supply chain" because the word has stretched to cover everyt
       <marker id="st-out" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
     </defs>
     <rect x="0" y="0" width="760" height="500" fill="#FAFAF7"/>
-    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Two conditions, not one</text>
+    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Two distinct conditions</text>
     <text x="380" y="52" font-size="11.5" fill="#2A2520" text-anchor="middle">The line between them is where a lot of programs quietly fail.</text>
     <!-- divider -->
     <line x1="380" y1="74" x2="380" y2="464" stroke="#B8956A" stroke-width="1.5" stroke-dasharray="4 4"/>
