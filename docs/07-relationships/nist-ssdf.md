@@ -216,10 +216,10 @@ The example below is a composite illustration rather than a case study. The numb
 
 **SSDF Implementation**:
 
-- **PS (Protect Software)**: Automated build security, supply chain scanning
-- **PW (Produce Secured Software)**: Automated SAST/DAST, secure templates
+- **PS (Protect the Software)**: Automated build security, supply chain scanning
+- **PW (Produce Well-Secured Software)**: Automated SAST/DAST, secure templates
 - **RV (Respond to Vulnerabilities)**: Automated dependency scanning, patch automation
-- **PO (Prepare Organization)**: Self-service security documentation
+- **PO (Prepare the Organization)**: Self-service security documentation
 
 **Outcome**: SSDF practices fully automated, security reviews reduced 70%
 

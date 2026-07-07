@@ -10,7 +10,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ## The Four Strategic Positions
 
-### Studio: Small Reach + Higher Readiness
+### Studio: Small reach + Higher Readiness
 
 <div class="quadrant-studio" markdown>
 
@@ -56,7 +56,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ---
 
-### Lean: Large Reach + Higher Readiness
+### Lean: Large reach + Higher Readiness
 
 <div class="quadrant-lean" markdown>
 
@@ -103,7 +103,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ---
 
-### Craft: Small Reach + Lower Readiness
+### Craft: Small reach + Lower Readiness
 
 <div class="quadrant-craft" markdown>
 
@@ -149,7 +149,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 ---
 
-### Mass: Large Reach + Lower Readiness
+### Mass: Large reach + Lower Readiness
 
 <div class="quadrant-mass" markdown>
 

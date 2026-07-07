@@ -92,7 +92,7 @@ BSIMM organizes these activities into 4 domains:
 
 1. **All 12 practices** with high activity coverage
 2. **Platform-scale implementation** of BSIMM activities
-3. **Advanced (BSIMM level-3) activities** appropriate for complexity
+3. **Advanced (BSIMM Level 3) activities** appropriate for complexity
 4. **Federated execution** of BSIMM activities (security champions, guilds)
 
 **Optimization Focus**:

@@ -191,7 +191,7 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
 
 </div>
 
-This is the one move on the map you do not make on purpose. Craft → Mass is what happens when you grant automation and agents more authority, a new integration here, broader tool access there, another autonomous actor in the pipeline, faster than you build the containment to hold it. Reach widens and the floor does not. One day a failure's blast radius is enterprise-scale and nothing proves a compromised component stays inside its grant. You arrived at Mass by drift rather than by decision.
+This is the one move on the map you do not make on purpose. Craft → Mass is what happens when you grant automation and agents more authority faster than you build the containment to hold it: a new integration here, broader tool access there, another autonomous actor in the pipeline. Reach widens and the floor does not. One day a failure's blast radius is enterprise-scale and nothing proves a compromised component stays inside its grant. You arrived at Mass by drift rather than by decision.
 
 ### Sometimes it is a bet rather than an accident
 

@@ -253,13 +253,13 @@ For each potential investment, score across all six criteria (1-5 scale):
 2. **Developer Experience** (weight: 1.5x)
 3. **Time to Value** (weight: 1x)
 4. **Cultural Alignment** (weight: 1.5x)
-5. **Organizational Change** (weight: 1x, reverse scored, lower is better)
+5. **Organizational Change** (weight: 1x)
 6. **Adversary Economics** (weight: 2x)
 
 **Total Score Calculation**:
 ```
 Total = (Manual Effort × 2) + (Developer Experience × 1.5) + (Time to Value × 1) +
-        (Cultural Alignment × 1.5) + ((6 - Organizational Change) × 1) + (Adversary Economics × 2)
+        (Cultural Alignment × 1.5) + (Organizational Change × 1) + (Adversary Economics × 2)
 
 Maximum Possible Score: 45
 Minimum Possible Score: 9
@@ -301,9 +301,9 @@ The spend-side companion to this override is [Defender cost economics](../10-coa
 - Organizational Change: 4 (low change requirement, integrates with existing CI/CD)
 - Adversary Economics: 5 (addresses modern adversary capabilities, closes supply chain gaps)
 
-**Total Score**: `(5×2) + (4×1.5) + (5×1) + (4×1.5) + ((6-4)×1) + (5×2) = 10 + 6 + 5 + 6 + 2 + 10 = 39`
+**Total Score**: `(5×2) + (4×1.5) + (5×1) + (4×1.5) + (4×1) + (5×2) = 10 + 6 + 5 + 6 + 4 + 10 = 41`
 
-**Priority**: Must Do (Score 39/45)
+**Priority**: Must Do (Score 41/45)
 
 **Justification**: Exceptional score across all criteria. Addresses fundamental scaling challenge while improving developer experience and closing critical security gaps created by adversary evolution.
 
@@ -369,9 +369,9 @@ Use this framework to compare competing investments:
 
 | Investment | Manual Effort | Dev Experience | Time to Value | Cultural | Org Change | Adversary Econ | Total Score | Priority |
 |-----------|--------------|----------------|--------------|----------|------------|---------------|-------------|----------|
-| **Dependency Scanning** | 5 | 4 | 5 | 4 | 4 | 5 | 39 | Must Do |
+| **Dependency Scanning** | 5 | 4 | 5 | 4 | 4 | 5 | 41 | Must Do |
 | **Security Review Automation** | 4 | 3 | 3 | 3 | 3 | 3 | 29 | Should Do |
-| **Compliance Documentation** | 2 | 2 | 4 | 3 | 4 | 1 | 19.5 | Consider |
+| **Compliance Documentation** | 2 | 2 | 4 | 3 | 4 | 1 | 21.5 | Consider |
 
 **Decision**: Prioritize dependency scanning: highest total score, addresses adversary evolution, exceptional ROI.
 

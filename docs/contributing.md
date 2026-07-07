@@ -14,7 +14,7 @@ The easiest way to contribute is to:
 
 We welcome several types of contributions:
 
-### Content Improvements
+### ✏️ Content Improvements
 
 - Clarifying existing concepts
 - Adding examples or use cases
