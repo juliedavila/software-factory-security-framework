@@ -1,6 +1,6 @@
 # Implementation Guide: Lean
 
-This guide is for organizations in the **Lean** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and high **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Lean** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and higher **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 ## Position Characteristics
 
@@ -68,7 +68,7 @@ Security should be a differentiator rather than a cost center.
 ## Quick Start Checklist
 
 ### Month 1: Assessment
-- [ ] Conduct comprehensive capability assessment across all stewardship areas
+- [ ] Conduct comprehensive capability assessment across all Universal Security Conditions
 - [ ] Identify high-effort, low-impact security activities (candidates for elimination)
 - [ ] Map platform adoption rates and satisfaction
 - [ ] Review outcome metrics rather than activity metrics
@@ -196,7 +196,7 @@ Lean runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-fr
 - [ ] **Manual security effort reduced 30%** through optimization
 - [ ] **Security platform adoption >80%** for primary platforms
 - [ ] **3+ low-value activities eliminated** or fully automated
-- [ ] **Outcome metrics defined and baseline established** for all stewardship areas
+- [ ] **Outcome metrics defined and baseline established** for all Universal Security Conditions
 
 ### 12 Months
 - [ ] **Manual security effort reduced 50%** (from baseline)

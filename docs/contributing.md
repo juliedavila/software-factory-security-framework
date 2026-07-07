@@ -43,7 +43,7 @@ We welcome several types of contributions:
 
 ### Content Standards
 
-!!! important "Keep Content Universal"
+!!! warning "Keep Content Universal"
     Contributions should be broadly applicable to all organizations. Do not include:
 
     - Organization-specific internal details or processes
@@ -138,7 +138,7 @@ Include:
 1. **Automatic checks** run on every PR (validation, linting, build verification)
 2. **Content review** by framework maintainers
 3. **Feedback & iteration** - we'll work with you to refine contributions
-4. **Merge** - approved PRs are merged to main and deployed automatically
+4. **Merge** - approved PRs are merged to master and deployed automatically
 
 ### Automation: We Handle the Details! 🎉
 

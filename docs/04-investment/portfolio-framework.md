@@ -148,6 +148,7 @@ One thing the return-shape ranking does not say on its own: the category it tell
 - Time to value
 - Cultural alignment
 - Organizational change requirements
+- Adversary economics
 
 **Resource Allocation**: Primary investment focus past crisis point
 

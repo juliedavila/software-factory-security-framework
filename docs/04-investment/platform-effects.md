@@ -128,7 +128,7 @@ Use this systematic framework to evaluate security investments when you're a pla
     <rect x="360" y="70" width="240" height="190" fill="#F1ECE3" stroke="#2C4A6B" stroke-width="3"/>
     <circle cx="382" cy="92" r="14" fill="#2C4A6B"/><text x="382" y="97" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
     <text x="486" y="146" font-size="16" font-weight="700" fill="#2C4A6B" text-anchor="middle">Highest priority &#9733;</text>
-    <text x="480" y="174" font-size="11.5" fill="#2A2520" text-anchor="middle">accelerate; 2-3x investment,</text>
+    <text x="480" y="174" font-size="11.5" fill="#2A2520" text-anchor="middle">accelerate; higher investment,
     <text x="480" y="190" font-size="11.5" fill="#2A2520" text-anchor="middle">faster timeline</text>
     <!-- BL reject (rank 4) -->
     <rect x="120" y="260" width="240" height="190" fill="#F1ECE3" stroke="#C9C0B0" stroke-width="1.5"/>

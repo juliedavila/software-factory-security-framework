@@ -46,7 +46,7 @@
 : Maintaining security and reliability of systems in production with proactive monitoring and rapid response capabilities.
 
 **Adaptive Capacity**
-: Whether the system as a whole can absorb a surprise it was not designed for and keep working. The condition formerly called Continuous Learning, renamed for what it is. Unlike the other four stewardship areas, it maps to no single team: you assess whether the system has it, you cannot hand it to anyone. Resilience-engineering lineage (Holling, Hollnagel, Woods, Cook).
+: Whether the system as a whole can absorb a surprise it was not designed for and keep working. The condition formerly called Continuous Learning, renamed for what it is. Unlike the other four conditions, it maps to no single team: you assess whether the system has it, you cannot hand it to anyone. Resilience-engineering lineage (Holling, Hollnagel, Woods, Cook).
 
 ## Investment Portfolio
 

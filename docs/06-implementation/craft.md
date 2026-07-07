@@ -1,6 +1,6 @@
 # Implementation Guide: Craft
 
-This guide is for organizations in the **Craft** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and low **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Craft** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and lower **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 !!! note "Craft is a method, not a price tag"
     **Craft** names a method: non-repeatable hand-work, a snowflake per build. It is not a statement about quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time, which is exactly the low-readiness condition this guide addresses.
@@ -35,7 +35,7 @@ The most important decision: intentional simplicity or prepare for growth?
 - Build foundations that will scale
 - Appropriate for: Funded startups, expanding services, growth trajectory
 
-**Critical**: Choose intentionally. Don't accidentally drift into wrong model.
+**Critical**: Choose intentionally. Don't accidentally drift into the wrong model.
 
 ### 2. Security Through Simplicity
 

@@ -153,7 +153,7 @@ High attack landscape maturity makes [Supply Chain Stewardship](../02-stewardshi
 
 - Adversaries discover supply chain vulnerabilities at scale
 - Dependency confusion attacks happen automatically
-- Compromised packages detected through industrial scanning
+- Compromised packages are detected through industrial scanning
 - Manual dependency tracking can't keep pace
 
 **This is why supply chain became the #1 priority** when the attack landscape matured to industrial-scale automation.

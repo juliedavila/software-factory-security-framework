@@ -16,7 +16,7 @@ The **Software Factory Security Framework (SF²)** provides security leaders wit
 
 Whether you're leading security for a three-person startup or a multinational corporation, this framework helps you:
 
-- **Understand universal security responsibilities** that apply to every software-producing organization
+- **Understand the Universal Security Conditions** that apply to every software-producing organization
 - **Position your organization strategically** using a two-axis assessment model
 - **Invest resources effectively** by balancing immediate needs with long-term scaling
 - **Adapt to your context** using modifiers that account for your specific constraints
@@ -48,7 +48,7 @@ Organizations that work through this well solve more than a scaling problem. The
 
     ---
 
-    Five core security responsibilities that apply to every software-producing organization
+    Five Universal Security Conditions that apply to every software-producing organization
 
     [:octicons-arrow-right-24: Learn more](02-stewardship/overview.md)
 
@@ -115,7 +115,7 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 1. Understand [Universal Security Conditions](02-stewardship/overview.md)
 2. Explore [Use Cases](08-use-cases/scenarios.md) relevant to your role
-3. Reference specific stewardship areas as needed
+3. Reference specific Universal Security Conditions as needed
 
 ### For Consultants & Advisors
 

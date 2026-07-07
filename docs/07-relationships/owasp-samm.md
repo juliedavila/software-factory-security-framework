@@ -150,7 +150,7 @@ Each business function holds three security practices, so fifteen across the fiv
 
 - Difficult to achieve Level 2+ maturity (requires collaboration)
 - Must invest in relationship building before maturity progression
-- Forced to rely on Level 1 controls (doesn't require engineering cooperation)
+- Forced to rely on Level 1 controls (they don't require engineering cooperation)
 
 ## Practical Integration Examples
 

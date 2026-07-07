@@ -92,7 +92,7 @@ Use these criteria to score and compare potential security investments systemati
 
 - Pilot with friendly team before broad rollout
 - Measure time-to-first-value (how long until developers see benefits)
-- Track adoption voluntarily vs via mandate
+- Track voluntary vs mandated adoption
 - Monitor for workaround creation or process avoidance
 
 ---
@@ -101,7 +101,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: How quickly will benefits become measurable?
 
-**Why Important**: Time to value affects organizational confidence in scaling investment strategy. Long-running projects with delayed benefits create skepticism, while quick wins build momentum and executive support. This doesn't mean always choosing fastest options, but timeline awareness is critical for communication and sequencing.
+**Why Important**: Time to value affects organizational confidence in scaling investment strategy. Long-running projects with delayed benefits create skepticism, while quick wins build momentum and executive support. This doesn't mean always choosing the fastest options, but timeline awareness is critical for communication and sequencing.
 
 **Assessment Framework**:
 
@@ -115,7 +115,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **Assessment Questions**:
 
-- What is minimum viable implementation that delivers measurable value?
+- What is the minimum viable implementation that delivers measurable value?
 - Can we phase this to deliver incremental benefits?
 - What metrics will demonstrate value, and when can we measure them?
 - How do we communicate progress during implementation?
@@ -184,7 +184,7 @@ Use these criteria to score and compare potential security investments systemati
 - How much does this change existing ways of working?
 - What training or skill development does this require?
 - Do we have change management resources to support adoption?
-- What is organizational appetite for change right now?
+- What is the organizational appetite for change right now?
 - Are there competing changes creating change saturation?
 
 **Change Management Success Factors**:
@@ -235,7 +235,7 @@ Adversaries evolved from targeted reconnaissance to automated discovery at inter
 - Supply chain automation (detect unknown dependencies)
 - Real-time threat detection (match adversary speed)
 
-**Community-Level Success**: Once in a while a whole field closes a path for good, and attackers leave it because it stops paying. Software has done this once already, at the transport layer. The web moved to [encryption by default](https://letsencrypt.org/stats/), with free certificates and browsers warning on plain HTTP, and the old trick of sniffing someone's login over open wifi mostly died. Attackers did not keep trying it. They moved on.
+**Community-Level Success**: Once in a while a whole field closes a path for good, and attackers leave it because it stops paying. Software has done this once already, at the transport layer. The web moved to [encryption by default](https://letsencrypt.org/stats/), with free certificates and browsers warning on plain HTTP, and the old trick of sniffing someone's login over open Wi-Fi mostly died. Attackers did not keep trying it. They moved on.
 
 At the level of the code itself, software has not done this yet. The best attempt so far is the shift to memory-safe languages. When you write in a language that makes an entire class of memory bugs impossible, those bugs stop appearing at all, instead of being found and patched one at a time. The early numbers are real: as Android moved new code to memory-safe languages, the share of its vulnerabilities that were memory-safety bugs [fell from about three-quarters to under a quarter in six years](https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html).
 

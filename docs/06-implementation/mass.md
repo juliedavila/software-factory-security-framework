@@ -1,6 +1,6 @@
 # Implementation Guide: Mass
 
-This guide is for organizations in the **Mass** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and low **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Mass** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and lower **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 !!! note "Mass is Lean's reach without Lean's floor"
     **Mass** is Lean's large reach without Lean's floor: ungoverned scale rather than big batch. Your automation can already reach far; what it cannot yet do is prove a failure stays contained. The border that matters is against Lean rather than against Ford's assembly line, and this guide is about building the floor.
@@ -73,7 +73,7 @@ Almost every Mass organization takes the same path: build the floor under the re
 - **Examples**: Consolidate products, retire legacy systems, reduce scope
 - **Advantages**: Easier transformation, clearer focus, faster progress
 - **Challenges**: Requires difficult business decisions, potential revenue impact
-- **Timeline**: 12-24 months to Craft, then 18-24 to Studio
+- **Timeline**: 18-30 months to Craft, then 18-24 months to Studio
 
 Reducing reach works only when a divestiture, an SMB pivot, or a product consolidation already supports it. Without that, you cannot claw back authority you have already granted across the estate. See [Movement Paths](../03-positioning/movement-paths.md#path-4-mass-craft-simplification).
 
@@ -108,7 +108,7 @@ Regardless of path, you'll need hybrid approaches:
 - [ ] Eliminate or automate at least 1 high-burden manual activity
 - [ ] Implement managed security service for at least 1 capability
 - [ ] Launch relationship-building initiative with engineering
-- [ ] Define transformation path (reduce complexity or increase readiness)
+- [ ] Define transformation path (reduce reach or increase readiness)
 - [ ] Create high-level transformation roadmap with executive sponsor
 
 ### Month 7-12: Foundation
@@ -119,7 +119,7 @@ Regardless of path, you'll need hybrid approaches:
 - [ ] Communicate transformation progress to stakeholders
 
 ### Year 2: Transformation Launch
-- [ ] Execute on chosen path (complexity reduction or readiness increase)
+- [ ] Execute on chosen path (reach reduction or readiness increase)
 - [ ] Establish success metrics and track progress
 - [ ] Regular executive updates on transformation progress
 - [ ] Course-correct based on what's working/not working
@@ -248,13 +248,13 @@ One more failure mode belongs here, because it is the one outside your control. 
 ### Year 2 (Early Transformation)
 - [ ] **Operational burden reduced 40%** from baseline
 - [ ] **Clear separation** between modern and legacy security approaches
-- [ ] **Measurable progress** on complexity reduction or modernization
+- [ ] **Measurable progress** on reach reduction or modernization
 - [ ] **Team morale stable or improving** (not burnout from change)
 - [ ] **Regular executive updates** demonstrating progress
 
 ### Year 3-5 (Transformation Progress)
 - [ ] **Operational burden reduced 60-80%** from baseline
-- [ ] **Majority of systems on modern infrastructure** (or complexity significantly reduced)
+- [ ] **Majority of systems on modern infrastructure** (or reach significantly reduced)
 - [ ] **Security automation at Studio or Lean level** for modern systems
 - [ ] **Sustainable operations** (not requiring heroic effort)
 - [ ] **Position movement** toward Craft, Studio, or Lean
@@ -273,7 +273,7 @@ One more failure mode belongs here, because it is the one outside your control. 
 - **High change capacity** in organization
 - **Strong engineering partnership** willing to help
 - **Financial resources** for tools, cloud migration, hiring
-- **Business support** for complexity reduction (if applicable)
+- **Business support** for reach reduction (if applicable)
 
 ### Red Flags for Failure
 - "Transform in 12 months" expectations

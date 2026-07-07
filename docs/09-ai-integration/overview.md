@@ -8,11 +8,11 @@ Any capable general-purpose assistant works. This guide names Claude, ChatGPT, a
 
 A framework-loaded assistant is most useful for the work that is reasoning-heavy and communication-heavy rather than tactical:
 
-- **Strategic positioning** — assess where your organization sits in the two-axis model
-- **Investment prioritization** — decide which capabilities to build first, and what to constrain
-- **Scenario planning** — explore transformation paths, timelines, and their risks
-- **Framework application** — translate SF² concepts to your specific context
-- **Executive communication** — draft board-ready and team-ready strategy material
+- **Strategic positioning**: assess where your organization sits in the two-axis model
+- **Investment prioritization**: decide which capabilities to build first, and what to constrain
+- **Scenario planning**: explore transformation paths, timelines, and their risks
+- **Framework application**: translate SF² concepts to your specific context
+- **Executive communication**: draft board-ready and team-ready strategy material
 
 Use it for strategy rather than tactics. Keep specific vulnerabilities, incident details, and tool configurations out of it (see [Guardrails](#guardrails) below).
 
@@ -65,8 +65,8 @@ while improving business outcomes.
 - Two-axis positioning model: Blast Radius (how far a failure could reach if
   containment fails; Small reach → Large reach, set by granted authority) ×
   Operational Readiness (Lower → Higher). Four quadrants: Studio (small reach,
-  high readiness), Lean (large reach, high readiness), Craft (small reach, low
-  readiness), Mass (large reach, low readiness).
+  higher readiness), Lean (large reach, higher readiness), Craft (small reach, lower
+  readiness), Mass (large reach, lower readiness).
 - Five Universal Security Conditions: Supply Chain (#1 priority), Third-Party,
   Process, Runtime, and Adaptive Capacity.
 - Investment portfolio: constrain BAU (business-as-usual) activities; build
@@ -86,7 +86,7 @@ while improving business outcomes.
 - Supply Chain Stewardship is the #1 priority, driven by adversary evolution to
   automated discovery since 2017.
 - Constrain BAU activities; do not expand them.
-- High operational readiness is what makes automation feasible.
+- Higher operational readiness is what makes automation feasible.
 - Diagonal transformation (cutting blast radius and raising readiness at once) is
   high-risk and must be sequenced.
 - Appropriate security depends on position; there is no one-size answer.
@@ -238,12 +238,12 @@ The body above is vendor-neutral. To put it to work in a specific tool, create t
 
 **Workspace integration (Gemini's distinctive strength):** because Gemini works across Google Workspace, your strategy can live where your team already works:
 
-- **Google Docs** — run a position assessment or draft a strategy with the team editing alongside (`@Gem SF² Security Strategist` then your prompt).
-- **Google Sheets** — structure investment planning across tabs (current BAU, proposed scaling investments, timeline, resources) and have the Gem populate the plan from your data.
-- **Google Slides** — generate a board-presentation outline with talking points and anticipated Q&A.
-- **Gmail** — draft executive stakeholder emails that explain the strategy in framework terms.
-- **Google Chat and Meet** — quick framework questions in a team space, or live consultation during strategy meetings.
-- **Multimodal and Google Cloud** — upload last year's strategy or a metrics spreadsheet for a framework-lens review, and ground GCP security-architecture choices in your quadrant.
+- **Google Docs**: run a position assessment or draft a strategy with the team editing alongside (`@Gem SF² Security Strategist` then your prompt).
+- **Google Sheets**: structure investment planning across tabs (current BAU, proposed scaling investments, timeline, resources) and have the Gem populate the plan from your data.
+- **Google Slides**: generate a board-presentation outline with talking points and anticipated Q&A.
+- **Gmail**: draft executive stakeholder emails that explain the strategy in framework terms.
+- **Google Chat and Meet**: quick framework questions in a team space, or live consultation during strategy meetings.
+- **Multimodal and Google Cloud**: upload last year's strategy or a metrics spreadsheet for a framework-lens review, and ground GCP security-architecture choices in your quadrant.
 
 **Known limitations:** Gems do not persist conversation history across sessions, so restate key context when you start fresh (or keep the working strategy in a Google Doc). Gems do not take uploaded training files the way a Custom GPT does, so the framework lives in the instructions block and in the documents you reference per prompt.
 

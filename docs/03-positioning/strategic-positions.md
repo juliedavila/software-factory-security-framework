@@ -24,7 +24,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Your Security Approach**: Enable security through modern tooling and self-service capabilities. Use your technology advantages rather than building processes that assume operational constraints you don't have.
 
-**Strategic Focus**: Build security automation from day one. Don't create manual processes you'll need to replace in 18 months. Your high operational readiness makes automation achievable now, and your small reach means there's little cross-boundary authority to coordinate and govern.
+**Strategic Focus**: Build security automation from day one. Don't create manual processes you'll need to replace in 18 months. Your higher operational readiness makes automation achievable now, and your small reach means there's little cross-boundary authority to coordinate and govern.
 
 </div>
 
@@ -77,7 +77,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 **Key Investment Priorities**:
 
 1. **Security Platform Engineering**: Self-service security capabilities available across all teams and products
-2. **Federated Security Champions**: Engineers inside each team who set the team-level boundaries the platform then enforces: capability scopes, deny-by-default defaults, the guardrails their team ships inside. The platform team authors the paved road; champions set the boundaries within it and feed the threat models that shape it. The leverage is configuration rather than inspection, so enforcement scales without a human in the path of every change. The boundary-setting is itself threat modeling and risk judgment rather than a config chore: the enforcement is delegated to the platform, the judgment is not.
+2. **Federated Security Champions**: Engineers inside each team who set the team-level boundaries the platform then enforces: capability scopes, deny-by-default grants, the guardrails their team ships inside. The platform team authors the paved road; champions set the boundaries within it and feed the threat models that shape it. The leverage is configuration rather than inspection, so enforcement scales without a human in the path of every change. The boundary-setting is itself threat modeling and risk judgment rather than a config chore: the enforcement is delegated to the platform, the judgment is not.
 3. **Enterprise Architecture Integration**: Security embedded in platform decisions and organizational standards
 4. **Continuous Security Intelligence**: Automated threat detection with predictive insights and proactive response
 5. **Cultural Scaling Mechanisms**: Learning from incidents and scaling security knowledge across the organization
@@ -169,7 +169,7 @@ The [two-axis positioning model](two-axis-model.md) creates four distinct strate
 
 **Key Investment Priorities**:
 
-1. **Pragmatic Supply Chain Controls**: Risk-based approach given limitations: focus on critical paths and crown jewels
+1. **Pragmatic Supply Chain Controls**: Risk-based approach given limitations; focus on critical paths and crown jewels
 2. **Hybrid Security Architecture**: Solutions that work across legacy and modern systems without requiring full modernization
 3. **Strategic Technical Debt Reduction**: Systematic elimination of highest-risk legacy constraints enabling future automation
 4. **Change Management and Communication**: Organizational alignment on multi-year transformation reality and sequencing
@@ -229,7 +229,7 @@ Your strategic position determines your optimal approach to the [investment port
 
 **High-Growth Startup Self-Assessment**: "We're Studio scaling successfully!"
 
-**Reality Check**: If you're widening reach faster than you can contain it, you're moving toward Mass (large reach, low readiness). Maintain containment investments or you'll face the diagonal transformation trap.
+**Reality Check**: If you're widening reach faster than you can contain it, you're moving toward Mass (large reach, lower readiness). Maintain containment investments or you'll face the diagonal transformation trap.
 
 ---
 

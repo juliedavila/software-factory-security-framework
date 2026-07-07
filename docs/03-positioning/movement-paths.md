@@ -57,13 +57,13 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
     <rect x="380" y="270" width="250" height="200" fill="#FCEFE6" stroke="#D55E00" stroke-width="2"/>
     <!-- quadrant labels (top-left, short) -->
     <text x="148" y="98" font-size="18" font-weight="700" fill="#00553F">Studio</text>
-    <text x="148" y="117" font-size="11" fill="#2A2520">small reach, high readiness</text>
+    <text x="148" y="117" font-size="11" fill="#2A2520">small reach, higher readiness</text>
     <text x="398" y="98" font-size="18" font-weight="700" fill="#00557F">Lean &#9733;</text>
     <text x="398" y="117" font-size="11" fill="#2A2520">goal: reach with the floor built</text>
     <text x="148" y="298" font-size="18" font-weight="700" fill="#855A00">Craft</text>
-    <text x="148" y="317" font-size="11" fill="#2A2520">small reach, low readiness</text>
+    <text x="148" y="317" font-size="11" fill="#2A2520">small reach, lower readiness</text>
     <text x="398" y="298" font-size="18" font-weight="700" fill="#A6450B">Mass</text>
-    <text x="398" y="317" font-size="11" fill="#2A2520">large reach, low readiness</text>
+    <text x="398" y="317" font-size="11" fill="#2A2520">large reach, lower readiness</text>
     <!-- diagonal trap (under solid climbs) -->
     <line x1="305" y1="348" x2="472" y2="192" stroke="#A6450B" stroke-width="2" stroke-dasharray="3 4" opacity="0.8"/>
     <g stroke="#C0392B" stroke-width="3.4"><line x1="378" y1="260" x2="398" y2="280"/><line x1="398" y1="260" x2="378" y2="280"/></g>

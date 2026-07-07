@@ -194,7 +194,7 @@ These BSIMM activities have value but require careful sequencing:
    - Basic for Studio
    - Minimal for Craft
 
-### Lower-Value Activities for Lower-Readiness Positions (Implement Last or Skip)
+### Lower-Value Activities for Small-Reach Positions (Implement Last or Skip)
 
 At Craft and Studio, these activities often don't justify their cost when run as manual practices. A Lean org at platform scale runs the same activities differently, automated and federated, and keeps them (see the Lean selection above). Scope the call to your position:
 

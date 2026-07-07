@@ -174,6 +174,9 @@ Explore each contextual modifier in detail to understand how it affects your imp
 [:octicons-arrow-right-24: Attack Landscape Maturity](attack-landscape.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: Supply Chain Complexity](supply-chain-complexity.md){ .md-button }
 [:octicons-arrow-right-24: Regulatory Constraints](regulatory-constraints.md){ .md-button }
+[:octicons-arrow-right-24: Crisis Events](crisis-events.md){ .md-button }
+[:octicons-arrow-right-24: Change Capacity](change-capacity.md){ .md-button }
+[:octicons-arrow-right-24: Relationship Health](relationship-health.md){ .md-button }
 [:octicons-arrow-right-24: AI Saturation](ai-saturation.md){ .md-button }
 [:octicons-arrow-right-24: PQC Exposure](pqc-exposure.md){ .md-button }
 

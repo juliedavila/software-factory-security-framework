@@ -1,6 +1,6 @@
 # Implementation Guide: Studio
 
-This guide is for organizations in the **Studio** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and high **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Studio** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and higher **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 ## Position Characteristics
 
@@ -219,7 +219,7 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 - Policy-as-code at organizational scale
 - Security product capabilities
 
-**Timeline**: 18-36 months as complexity naturally increases
+**Timeline**: 24-36 months as reach naturally increases
 
 **Critical Success Factor**: Don't let increased complexity degrade operational readiness
 
@@ -228,6 +228,6 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to Lean Implementation](lean.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/relationship-health.md){ .md-button }
+[:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/overview.md){ .md-button }
 
 [:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/studio.md){ .md-button }
