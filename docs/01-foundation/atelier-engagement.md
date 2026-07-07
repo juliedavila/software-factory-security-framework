@@ -21,7 +21,7 @@ This is not generational posturing, and it names something real. A generation of
 
 The factory framing survives the critique because it answers a different question. The atelier describes how creative work feels and how talent arranges itself. The factory describes who is accountable when ten thousand deployments a day have to ship safely. Those are not competing claims about the same thing. The term names operational responsibility for delivery at scale, and that responsibility does not dissolve because the people doing the work think of themselves as artists. Someone still owns the blast radius when the artist's brilliant, unreviewed change reaches production.
 
-The term is also not a coinage invented to make this argument, and not a jab at Palantir. It is industrial-lineage vocabulary with a fifty-year paper trail.
+The term is industrial-lineage vocabulary with a fifty-year paper trail.
 
 ### Term provenance
 
