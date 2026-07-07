@@ -3,7 +3,7 @@
 This guide is for organizations in the **Mass** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and low **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
 
 !!! note "Mass is Lean's reach without Lean's floor"
-    **Mass** is Lean's large reach without Lean's floor: ungoverned scale, not big batch. Your automation can already reach far; what it cannot yet do is prove a failure stays contained. The border that matters is against Lean, not against Ford's assembly line, and this guide is about building the floor.
+    **Mass** is Lean's large reach without Lean's floor: ungoverned scale rather than big batch. Your automation can already reach far; what it cannot yet do is prove a failure stays contained. The border that matters is against Lean rather than against Ford's assembly line, and this guide is about building the floor.
 
 ## Position Characteristics
 
@@ -196,7 +196,7 @@ The percentages below are phased across years, but they track the same [BAU-vers
 - Projects perpetually delayed for operational work
 - Executive frustration with "slow progress"
 
-**Solution**: Realistic timelines (years, not months), dedicated resources, executive understanding
+**Solution**: Realistic timelines (years rather than months), dedicated resources, executive understanding
 
 ### Recreating Legacy in Modern Infrastructure
 **Risk**: Cloud migration without modernization
@@ -234,7 +234,7 @@ The percentages below are phased across years, but they track the same [BAU-vers
 
 **Solution**: Use crisis events to secure sustained executive commitment
 
-One more failure mode belongs here, because it is the one outside your control. Every path in this guide assumes the funding holds for the years it takes. A capex shock mid-transformation does not just slow you; it strands you, half off legacy and not yet on the modern platform, carrying both. The [2023 round of security budget cuts](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats), 63 percent of organizations in a single year, landed on exactly these multi-year programs first. The hedge is the one Lean rests on: build the containment floor into the substrate early, because the floor is the part a budget cut cannot repossess. Spend buys position; design buys the floor.
+One more failure mode belongs here, because it is the one outside your control. Every path in this guide assumes the funding holds for the years it takes. A capex shock mid-transformation does more than slow you; it strands you, half off legacy and not yet on the modern platform, carrying both. The [2023 round of security budget cuts](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats), 63 percent of organizations in a single year, landed on exactly these multi-year programs first. The hedge is the one Lean rests on: build the containment floor into the substrate early, because the floor is the part a budget cut cannot repossess. Spend buys position; design buys the floor.
 
 ## Success Indicators
 
@@ -265,7 +265,7 @@ One more failure mode belongs here, because it is the one outside your control. 
 1. **Executive sponsorship** - CEO, CTO, or COO level champion
 2. **Realistic timeline** - 3-5 years for complete transformation
 3. **Dedicated resources** - Can't be "side of desk" project
-4. **Relationship health** - Engineering as partners, not adversaries
+4. **Relationship health** - Engineering as partners rather than adversaries
 5. **Strategic patience** - Resist pressure for premature timelines
 
 ### Helpful Enablers
@@ -284,7 +284,7 @@ One more failure mode belongs here, because it is the one outside your control. 
 
 ## Movement Paths
 
-Mass is a position you move through, not one you hold. Studio, Lean, and Craft each have a stable "maintain position" path; Mass does not, because large reach with low readiness is where the scaling crisis bites hardest. The strategy is always transformation. Two routes lead out, detailed in the [Investment Roadmap](#investment-roadmap) above:
+Mass is a position you move through rather than one you hold. Studio, Lean, and Craft each have a stable "maintain position" path; Mass does not, because large reach with low readiness is where the scaling crisis bites hardest. The strategy is always transformation. Two routes lead out, detailed in the [Investment Roadmap](#investment-roadmap) above:
 
 - **The Default: raise readiness (Mass → Lean).** Build the containment floor and modernize while holding your reach. The long road, 4 to 5 years on an optimistic clock, but it keeps the business you already serve.
 - **The Exception: reduce reach (Mass → Craft → Studio).** Cut blast radius by consolidating, retiring, and simplifying, then raise readiness from a smaller base. Faster where the reach is genuinely sheddable.

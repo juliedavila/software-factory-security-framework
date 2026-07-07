@@ -39,7 +39,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 
 - Security platforms with self-service capabilities
 - Policy-as-code at organizational scale
-- Federated security models (champions who set boundaries, not gate changes)
+- Federated security models (champions who set boundaries rather than gate changes)
 - Reusable security components and libraries
 
 **Avoid**:
@@ -50,7 +50,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 
 ### 3. Innovate for Competitive Advantage
 
-Security should be a differentiator, not a cost center.
+Security should be a differentiator rather than a cost center.
 
 **Investment Focus**:
 
@@ -185,7 +185,7 @@ Lean runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-fr
 
 - Low voluntary adoption of security platforms
 - Teams building workarounds instead of using platforms
-- Platform teams focused on features, not user experience
+- Platform teams focused on features rather than user experience
 - Disconnect between platform capabilities and team needs
 
 **Solution**: Product management approach to security platforms with adoption metrics

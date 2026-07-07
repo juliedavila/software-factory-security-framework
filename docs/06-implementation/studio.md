@@ -16,7 +16,7 @@ This guide is for organizations in the **Studio** quadrant: small **Blast Radius
 
 ### 1. Maintain Velocity While Building Security
 
-Your advantage is speed. Security should accelerate, not slow down.
+Your advantage is speed. Security should accelerate rather than slow down.
 
 **Investment Focus**:
 
@@ -57,7 +57,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 - Security platforms over point solutions
 - Reusable security capabilities (not one-off solutions)
 - Documentation and self-service patterns
-- Metrics that matter (outcomes, not activity)
+- Metrics that matter (outcomes rather than activity)
 
 **Avoid**:
 
@@ -169,7 +169,7 @@ Studio runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-
 - Multiple approval layers for standard patterns
 - Compliance theater instead of actual risk reduction
 
-**Solution**: Focus on secure defaults and automation, not manual gates
+**Solution**: Focus on secure defaults and automation rather than manual gates
 
 ## Success Indicators
 

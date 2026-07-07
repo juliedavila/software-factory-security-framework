@@ -12,7 +12,7 @@ This guide is for organizations in the **Craft** quadrant: small **Blast Radius*
 - **Small inherent reach** (little authority granted; typically <50 engineers, single product/service)
 - **Legacy or basic infrastructure** (manual processes, limited automation)
 - **Resource constraints** (small teams, limited budget)
-- **Pragmatic focus** (solving immediate problems, not building for scale)
+- **Pragmatic focus** (solving immediate problems rather than building for scale)
 - **Critical decision point** (modernize strategically or stay intentionally simple)
 
 ## Strategic Priorities
