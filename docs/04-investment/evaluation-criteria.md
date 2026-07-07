@@ -36,7 +36,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **Why Primary**: Manual effort reduction is the fundamental driver of sustainable scaling. Investments that don't reduce manual work don't solve the scaling crisis. They may improve security outcomes but won't enable organizational growth without proportional security team expansion.
 
-**Hours saved is a proxy for value, not value itself.** This criterion counts the work an investment displaces, never the work it creates downstream: the generated code someone still has to understand, the dependencies it adds, the authority it now holds, the maintenance it needs. Credit a high score here only net of that cost. The risk is structural, not careless. Once hours saved carries a 2x weight it becomes a target, and [a measure under target pressure stops tracking the value it once stood for](https://en.wikipedia.org/wiki/Goodhart%27s_law). An investment that saves hours while widening what can go wrong has not reduced effort. It has moved the effort somewhere this number cannot see.
+**Hours saved is a proxy for value rather than the value itself.** This criterion counts the work an investment displaces, never the work it creates downstream: the generated code someone still has to understand, the dependencies it adds, the authority it now holds, the maintenance it needs. Credit a high score here only net of that cost. The risk is structural rather than careless. Once hours saved carries a 2x weight it becomes a target, and [a measure under target pressure stops tracking the value it once stood for](https://en.wikipedia.org/wiki/Goodhart%27s_law). An investment that saves hours while widening what can go wrong has not reduced effort. It has moved the effort somewhere this number cannot see.
 
 **Assessment Framework**:
 
@@ -133,7 +133,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Does this support learning culture and psychological safety?
 
-**Why Critical**: Security investments succeed or fail based on organizational culture. Capabilities that punish developers, create blame dynamics, or undermine psychological safety will be resisted or circumvented regardless of security benefits. Cultural alignment isn't "soft." It's a hard requirement for adoption success.
+**Why Critical**: Security investments succeed or fail based on organizational culture. Capabilities that punish developers, create blame dynamics, or undermine psychological safety will be resisted or circumvented regardless of security benefits. Cultural alignment is a hard requirement for adoption success.
 
 **Assessment Framework**:
 
@@ -189,7 +189,7 @@ Use these criteria to score and compare potential security investments systemati
 
 **Change Management Success Factors**:
 
-- Start with willing early adopters, not mandates
+- Start with willing early adopters rather than mandates
 - Provide hands-on support during initial adoption
 - Celebrate early successes and share learnings
 - Address failures constructively, iterate based on feedback
@@ -201,12 +201,12 @@ Use these criteria to score and compare potential security investments systemati
 
 **The Question**: Does this close the surface it claims, or only raise the cost on paths already covered?
 
-**Why Important**: Adversary economics is real, but it is easy to measure the wrong part of it. An attacker does not pay the average cost of attacking you. They pay for the cheapest way in that still works. Harden nine of an attacker's ten ways in and leave the tenth open, and that tenth path still costs what it always did. Your average goes up. The real cost to breach you does not move. This is why the breaches that hurt so often trace back to one dull thing: a storage bucket left public behind a well-run security program, an aging server no one re-checked. The damage hides in the seams between the parts you hardened, not in the parts themselves. So the test is coverage, not price. Does this capability actually close the surface it claims, or does it just raise the toll on paths that were already covered? Cost-raising still earns its place, but on top of a boundary that contains the breach when one gets through, never in place of one. An expensive attack that slips through an open seam owns you just as completely as a cheap one.
+**Why Important**: Adversary economics is real, but it is easy to measure the wrong part of it. An attacker does not pay the average cost of attacking you. They pay for the cheapest way in that still works. Harden nine of an attacker's ten ways in and leave the tenth open, and that tenth path still costs what it always did. Your average goes up. The real cost to breach you does not move. This is why the breaches that hurt so often trace back to one dull thing: a storage bucket left public behind a well-run security program, an aging server no one re-checked. The damage hides in the seams between the parts you hardened, rather than in the parts themselves. So the test is coverage rather than price. Does this capability actually close the surface it claims, or does it just raise the toll on paths that were already covered? Cost-raising still earns its place, but on top of a boundary that contains the breach when one gets through, never in place of one. An expensive attack that slips through an open seam owns you just as completely as a cheap one.
 
 One kind of cost-imposition earns full credit on its own: friction that comes with an alarm you can act on. Plant something that has no real use and watch who touches it. A fake admin login, a decoy database, a credential that should never be used. The moment anyone uses it, you know, because no legitimate person ever would. That is not raising the average toll. It is closing the blind spot where an intruder moves unseen. So the rule is simple: cost-imposition counts when it comes with a signal and a way to contain whatever trips it. Friction with nothing watching does not, because the attacker just reroutes to the next cheapest path and you never find out.
 
 !!! note "Deception is the clearest case"
-    Honeypots, canary tokens, and honeytokens are the standard tools (the discipline [MITRE Engage](https://engage.mitre.org/) organizes). A common real version: drop a fake cloud access key into a private repository. It does nothing, so the instant it shows up in your logs you have a true alarm and a rough location for the intruder, with almost no false positives. Deception works because of that signal, not the friction. It closes the detection surface while covering no prevention surface, which is also why [Bejtlich's Intruder's Dilemma](https://taosecurity.blogspot.com/2009/05/defenders-dilemma-and-intruders-dilemma.html) ("the defender only needs to detect one indicator") is really a detection argument, not a cost one.
+    Honeypots, canary tokens, and honeytokens are the standard tools (the discipline [MITRE Engage](https://engage.mitre.org/) organizes). A common real version: drop a fake cloud access key into a private repository. It does nothing, so the instant it shows up in your logs you have a true alarm and a rough location for the intruder, with almost no false positives. Deception works because of that signal rather than the friction. It closes the detection surface while covering no prevention surface, which is also why [Bejtlich's Intruder's Dilemma](https://taosecurity.blogspot.com/2009/05/defenders-dilemma-and-intruders-dilemma.html) ("the defender only needs to detect one indicator") is really a detection argument rather than a cost one.
 
 **Assessment Framework**:
 
@@ -239,7 +239,7 @@ Adversaries evolved from targeted reconnaissance to automated discovery at inter
 
 At the level of the code itself, software has not done this yet. The best attempt so far is the shift to memory-safe languages. When you write in a language that makes an entire class of memory bugs impossible, those bugs stop appearing at all, instead of being found and patched one at a time. The early numbers are real: as Android moved new code to memory-safe languages, the share of its vulnerabilities that were memory-safety bugs [fell from about three-quarters to under a quarter in six years](https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html).
 
-That is the shape of the highest form of security success. Not the average cost of attack going up, but one whole attack method deleted from every target at once. It is rare, it is slow, and at the code level it is still a direction more than a destination. And even when a field finishes the job, it never closes your own seams for you. The industry can retire a path for everyone, and one team with a forgotten gap still loses through it.
+That is the shape of the highest form of security success: a whole attack method deleted from every target at once, beyond the average cost of attack merely rising. It is rare, it is slow, and at the code level it is still a direction more than a destination. And even when a field finishes the job, it never closes your own seams for you. The industry can retire a path for everyone, and one team with a forgotten gap still loses through it.
 
 ---
 
@@ -280,9 +280,9 @@ Minimum Possible Score: 9
 
 ### The Risk Override
 
-One rule sits on top of the score. A high Manual Effort Reduction score cannot by itself lift an investment past **Should Do** when Adversary Economics is low. Effort saved is not risk retired, and the spine of this framework is risk, not activity. An investment that reduces real toil but closes no surface and contains no breach is a productivity buy, not a security one, and it should rank as the productivity buy it is.
+One rule sits on top of the score. A high Manual Effort Reduction score cannot by itself lift an investment past **Should Do** when Adversary Economics is low. Effort saved is not risk retired, and the spine of this framework is risk rather than activity. An investment that reduces real toil but closes no surface and contains no breach is a productivity buy rather than a security one, and it should rank as the productivity buy it is.
 
-The override has a second clause, for the failure the first cannot see. An automation can score high on effort saved and honestly high on Adversary Economics while still introducing a new credential, a new trust boundary, or a delegation path that nothing has accounted for. A score gates on a threshold. It never subtracts. So when the [assessment question above](#1-manual-effort-reduction) surfaces a new authority or surface that is not already netted in Adversary Economics, that investment does not clear **Should Do** on effort alone, whatever the total reads. The override keeps the arithmetic honest to the spine: risk-realization decides the tier, not toil-realization.
+The override has a second clause, for the failure the first cannot see. An automation can score high on effort saved and honestly high on Adversary Economics while still introducing a new credential, a new trust boundary, or a delegation path that nothing has accounted for. A score gates on a threshold. It never subtracts. So when the [assessment question above](#1-manual-effort-reduction) surfaces a new authority or surface that is not already netted in Adversary Economics, that investment does not clear **Should Do** on effort alone, whatever the total reads. The override keeps the arithmetic honest to the spine: risk-realization decides the tier rather than toil-realization.
 
 The spend-side companion to this override is [Defender cost economics](../10-coadaptive/04-boundary-enforcement.md#defender-cost-economics): once the cost of the next control exceeds the risk it retires, you accept and sign the residual rather than keep adding controls.
 
@@ -405,7 +405,7 @@ Use this framework to compare competing investments:
 
 **Consequence**: Technically excellent solutions that fail organizationally
 
-**Solution**: Recognize cultural alignment as hard requirement, not nice-to-have
+**Solution**: Recognize cultural alignment as a hard requirement rather than a nice-to-have
 
 ---
 

@@ -4,7 +4,7 @@
 
 Platform companies, organizations that provide capabilities to other software factories, have unique opportunities to create value that extends beyond their immediate organization. However, these opportunities come with important constraints and strategic considerations.
 
-**Critical Principle**: Platform effects should serve as investment multipliers, not primary drivers. The internal business case must work first.
+**Critical Principle**: Platform effects should serve as investment multipliers rather than primary drivers. The internal business case must work first.
 
 ---
 
@@ -32,7 +32,7 @@ If you serve only one factory, focus on [BAU vs Scaling](bau-vs-scaling.md) and 
 
 ### Primary Responsibility: Solve Your Own Problems First
 
-**Non-Negotiable Foundation**: Security investments must first make business sense for your direct needs. Platform effects are **enhancement factors**, not justifications.
+**Non-Negotiable Foundation**: Security investments must first make business sense for your direct needs. Platform effects are **enhancement factors** rather than justifications.
 
 **Why This Matters**:
 
@@ -63,7 +63,7 @@ If you serve only one factory, focus on [BAU vs Scaling](bau-vs-scaling.md) and 
 
 - **Internal value**: Reduces your security team's manual effort, improves your supply chain security posture
 - **Customer value**: Enables your customers to secure their supply chains using your platform
-- **Platform effect**: every customer who adopts the feature multiplies the security value beyond your internal use; the multiple tracks adoption, not your headcount
+- **Platform effect**: every customer who adopts the feature multiplies the security value beyond your internal use; the multiple tracks adoption rather than your headcount
 - **Competitive advantage**: Security capability differentiating your platform from competitors
 
 ---
@@ -114,9 +114,9 @@ Use this systematic framework to evaluate security investments when you're a pla
 <figure>
   <svg viewBox="0 0 680 580" role="img" aria-labelledby="sf2-pe-title sf2-pe-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-pe-title">Platform effects decision matrix: internal value against customer value</title>
-    <desc id="sf2-pe-desc">A two-by-two decision matrix for platform companies. The horizontal axis is customer value, weak on the left to strong on the right. The vertical axis is internal value, weak at the bottom to strong at the top. Across those two axes the four cells rank by priority: rank 1, strong internal plus strong customer value (top right), is highest priority, accelerate; rank 2, strong internal plus weak customer value (top left), is standard priority, justified on the internal business case; rank 3, weak internal plus strong customer value (bottom right), is avoid, a maintenance burden without sustainability; rank 4, weak internal plus weak customer value (bottom left), is reject, security theater. The recommended action is the rank 1 cell, flagged. The governing principle is that platform effects are a multiplier, not a driver: the internal business case must pass on its own before customer value justifies more investment. Priority is carried by the rank numerals and labels, not by color.</desc>
+    <desc id="sf2-pe-desc">A two-by-two decision matrix for platform companies. The horizontal axis is customer value, weak on the left to strong on the right. The vertical axis is internal value, weak at the bottom to strong at the top. Across those two axes the four cells rank by priority: rank 1, strong internal plus strong customer value (top right), is highest priority, accelerate; rank 2, strong internal plus weak customer value (top left), is standard priority, justified on the internal business case; rank 3, weak internal plus strong customer value (bottom right), is avoid, a maintenance burden without sustainability; rank 4, weak internal plus weak customer value (bottom left), is reject, security theater. The recommended action is the rank 1 cell, flagged. The governing principle is that platform effects are a multiplier rather than a driver: the internal business case must pass on its own before customer value justifies more investment. Priority is carried by the rank numerals and labels rather than by color.</desc>
     <rect x="0" y="0" width="680" height="580" fill="#FAFAF7"/>
-    <text x="360" y="34" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Platform effects: a multiplier, not a driver</text>
+    <text x="360" y="34" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Platform effects multiply; they do not drive</text>
     <!-- cells: neutral fills; rank numerals + labels carry meaning; one azul flag on the action cell -->
     <!-- TL standard (rank 2) -->
     <rect x="120" y="70" width="240" height="190" fill="#F1ECE3" stroke="#C9C0B0" stroke-width="1.5"/>
@@ -156,7 +156,7 @@ Use this systematic framework to evaluate security investments when you're a pla
     <text x="150" y="535" font-size="11" fill="#2A2520">flagged = the recommended action (rank 1)</text>
     <text x="360" y="560" font-size="11.5" font-style="italic" fill="#2A2520" text-anchor="middle">The internal business case must pass on its own. Customer value is the multiplier, never the justification.</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Priority is carried by the rank numerals and labels, not color. The internal business case must pass on its own; customer value is the multiplier, never the justification.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Priority is carried by the rank numerals and labels rather than color. The internal business case must pass on its own; customer value is the multiplier, never the justification.</figcaption>
 </figure>
 
 ---
@@ -194,7 +194,7 @@ When evaluating internal security pain points, weight them by total organization
 | **Engineering Cycles** | Feature development diverted to security firefighting | 2x (opportunity cost amplification) | Medium |
 | **Customer Trust Erosion** | Churn risk, sales pipeline impact, competitive disadvantage | 5x (platform company trust multiplier) | Critical |
 
-_These multipliers are judgment anchors for ranking pain points, not measured coefficients. Calibrate them to your own incident data before attaching dollar weights._
+_These multipliers are judgment anchors for ranking pain points rather than measured coefficients. Calibrate them to your own incident data before attaching dollar weights._
 
 **Strategic Application**: If a security issue category costs your organization $5M annually across these factors, and Customer Zero insights suggest this affects thousands of customers similarly, the platform investment justification becomes compelling:
 

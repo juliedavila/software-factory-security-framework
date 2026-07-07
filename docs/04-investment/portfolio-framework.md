@@ -11,13 +11,13 @@ Sound familiar? You've hit the **scaling crisis**, the inevitable moment when de
 
 ## A Different Approach
 
-Past a certain point, the solution isn't necessarily doing more security work. It's **deliberately constraining some activities while investing in capabilities that reduce future manual effort**. This section shows you how to make this strategic shift while maintaining security outcomes.
+Past a certain point, the solution is **deliberately constraining some activities while investing in capabilities that reduce future manual effort** rather than simply doing more security work. This section shows you how to make this strategic shift while maintaining security outcomes.
 
 ## The BAU Scaling Crisis
 
 ### The Capability Gap Reality
 
-The BAU scaling crisis isn't a resource problem. It's a capability mismatch. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
+The BAU scaling crisis is a capability mismatch rather than a resource problem. When adversaries automate attacks at internet scale while defenders remain manual, no amount of hiring closes the gap.
 
 **The Structural Mismatch**:
 
@@ -38,7 +38,7 @@ As software factories grow, traditional security activities face a mathematical 
 
 Meanwhile, security team capacity grows linearly at best. Hiring requires time and creates temporary productivity reduction during onboarding. Communication overhead increases with team size.
 
-A word on *exponential*: that growth rests on AI capability continuing to compound, and the pre-training mechanism behind it may be slowing, with the public-text supply it runs on exhausting this decade. It matters less than it sounds. The demand here tracks how much code ships and how much authority automation holds, both of which keep rising on deployment alone, and the comprehension gap above is already booked. A plateau buys more time, not a different answer. The [BAU vs Scaling](bau-vs-scaling.md) chapter works this through.
+A word on *exponential*: that growth rests on AI capability continuing to compound, and the pre-training mechanism behind it may be slowing, with the public-text supply it runs on exhausting this decade. It matters less than it sounds. The demand here tracks how much code ships and how much authority automation holds, both of which keep rising on deployment alone, and the comprehension gap above is already booked. A plateau buys more time rather than a different answer. The [BAU vs Scaling](bau-vs-scaling.md) chapter works this through.
 
 !!! danger "The Inflection Point"
     Organizations reach a point where demand for BAU security services exceeds sustainable capacity, creating constraints on both security effectiveness and business velocity.
@@ -106,9 +106,9 @@ The payback windows below are a 2026 baseline, calibrated to today's tooling and
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The three categories ranked by return shape. BAU returns nothing once the spend stops; Scaling keeps compounding after it; Platform multiplies across more than one factory, where you have more than one to serve. The ordering is durable; the payback windows are a 2026 baseline that ages.</figcaption>
 </figure>
 
-How fast any of this returns is set by absorption capacity: how fast the organization adopts a paved road, retires the manual work it replaces, and keeps a working understanding of what changed. Absorption has a measurable cost. [DORA's 2024 State of DevOps research](https://dora.dev/research/2024/dora-report/) found that standing up a platform first cost roughly an eight percent dip in delivery throughput before the platform matured: the gain arrived after a temporary dip, paced by how fast teams absorbed the change, not by the rollout date.
+How fast any of this returns is set by absorption capacity: how fast the organization adopts a paved road, retires the manual work it replaces, and keeps a working understanding of what changed. Absorption has a measurable cost. [DORA's 2024 State of DevOps research](https://dora.dev/research/2024/dora-report/) found that standing up a platform first cost roughly an eight percent dip in delivery throughput before the platform matured: the gain arrived after a temporary dip, paced by how fast teams absorbed the change rather than by the rollout date.
 
-One thing the return-shape ranking does not say on its own: the category it tells you to prioritize, compounding scaling investment, is also the most discretionary line on the budget, which makes it the first one a downturn cuts. The 2023 round of security budget cuts landed hardest on exactly this kind of future-facing spend. That year, [HackerOne found 63 percent of organizations cut their security budgets, and 39 percent cut headcount](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats). Two instructions follow, and both are about sequencing, not reassurance. If you are funding in an up-cycle, pre-fund the compounding capability now, because it is the line that vanishes when the cycle turns. Whatever the cycle, bias the portfolio toward capability-based controls that keep enforcing with fewer hands, because that is the spend whose value does not leave with the headcount. What a cut cannot repossess is the durable enforcement that keeps running with fewer hands, which is the [Lean guide](../06-implementation/lean.md)'s subject. This paragraph is about what to fund first. A plateau may give you more time on the demand side; a downturn gives you less on the funding side, so build for the clock that runs out first.
+One thing the return-shape ranking does not say on its own: the category it tells you to prioritize, compounding scaling investment, is also the most discretionary line on the budget, which makes it the first one a downturn cuts. The 2023 round of security budget cuts landed hardest on exactly this kind of future-facing spend. That year, [HackerOne found 63 percent of organizations cut their security budgets, and 39 percent cut headcount](https://www.hackerone.com/press-release/economy-slows-headcount-and-resource-cuts-harm-security-teams-ability-combat-threats). Two instructions follow, and both are about sequencing rather than reassurance. If you are funding in an up-cycle, pre-fund the compounding capability now, because it is the line that vanishes when the cycle turns. Whatever the cycle, bias the portfolio toward capability-based controls that keep enforcing with fewer hands, because that is the spend whose value does not leave with the headcount. What a cut cannot repossess is the durable enforcement that keeps running with fewer hands, which is the [Lean guide](../06-implementation/lean.md)'s subject. This paragraph is about what to fund first. A plateau may give you more time on the demand side; a downturn gives you less on the funding side, so build for the clock that runs out first.
 
 ### BAU Activities (Constrain)
 
@@ -151,7 +151,7 @@ One thing the return-shape ranking does not say on its own: the category it tell
 
 **Resource Allocation**: Primary investment focus past crisis point
 
-**Expected ROI**: 6-18 months with compound returns (2026 baseline, modeled; paced by absorption capacity, not a fixed calendar)
+**Expected ROI**: 6-18 months with compound returns (2026 baseline, modeled; paced by absorption capacity rather than a fixed calendar)
 
 !!! example "Scaling Investment Examples"
     - **Paved Roads**: Secure templates that eliminate security review needs
@@ -284,7 +284,7 @@ When proposing the shift from traditional to strategic scaling:
 
 ## Implementation Roadmap
 
-Run it in this order: assess, pilot, constrain, expand. The quarter labels are a 2026 baseline cadence. An organization with high absorption capacity may move through it in two quarters; one stabilizing heavy BAU debt may need a year. Pace the moves to what the organization can absorb, not to the calendar.
+Run it in this order: assess, pilot, constrain, expand. The quarter labels are a 2026 baseline cadence. An organization with high absorption capacity may move through it in two quarters; one stabilizing heavy BAU debt may need a year. Pace the moves to what the organization can absorb rather than to the calendar.
 
 **Quarter 1: Assessment and Planning**
 

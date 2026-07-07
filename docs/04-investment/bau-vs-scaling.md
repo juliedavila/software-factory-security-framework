@@ -2,18 +2,18 @@
 
 ## The Inevitable Choice
 
-When demand outruns the team, the instinct is to read the constraint as capacity: not enough reviewers, not enough hours. Several things do bind a scaling security program, but the one more headcount cannot buy is [comprehension bandwidth](../10-coadaptive/02-ai-era-threat-surface.md), the rate at which your people can actually understand what your factory ships. This is not a structural gap where a linear line loses to an exponential one and you manage the decline. It is a race between two exponentials: how fast the factory produces, and how much of that output your people can actually secure and understand. Which curve you fund is the inflection point.
+When demand outruns the team, the instinct is to read the constraint as capacity: not enough reviewers, not enough hours. Several things do bind a scaling security program, but the one more headcount cannot buy is [comprehension bandwidth](../10-coadaptive/02-ai-era-threat-surface.md), the rate at which your people can actually understand what your factory ships. This is a race between two exponentials rather than a structural gap where a linear line loses to an exponential one and you manage the decline: how fast the factory produces, and how much of that output your people can actually secure and understand. Which curve you fund is the inflection point.
 
-One honest caveat on the word *exponential*. The demand curve climbs as long as the factory ships more code and hands automation more authority, and that has compounded because AI capability has compounded. That engine is not guaranteed. Most people, when they say the models keep getting better, mean pre-training scaling. That mechanism is showing diminishing returns, and the public human text it trains on is being used up sometime this decade. Ilya Sutskever, who led much of that scaling, [told NeurIPS in 2024](https://analyticsindiamag.com/ai-features/the-end-of-pre-training-era-begins/) that "pre-training as we know it will end." A slowdown in that one mechanism is a real possibility, not a tail risk.
+One honest caveat on the word *exponential*. The demand curve climbs as long as the factory ships more code and hands automation more authority, and that has compounded because AI capability has compounded. That engine is not guaranteed. Most people, when they say the models keep getting better, mean pre-training scaling. That mechanism is showing diminishing returns, and the public human text it trains on is being used up sometime this decade. Ilya Sutskever, who led much of that scaling, [told NeurIPS in 2024](https://analyticsindiamag.com/ai-features/the-end-of-pre-training-era-begins/) that "pre-training as we know it will end." A slowdown in that one mechanism is a real possibility rather than a tail risk.
 
-It changes less than it looks like it should, for three reasons in rising order of certainty. The least certain first: the mechanism people will point to, pre-training, may stall. Next, and surer: even if it does, the demand this framework tracks is not model cleverness; it is the volume of code shipped and the breadth of authority handed to automation, and both keep climbing on deployment alone, through test-time reasoning, agent fleets, and wider rollout, with no new scaling breakthrough required. Surest of all: the comprehension debt and the automated adversary are already here, since a plateau does not un-ship the code your people already cannot read, or call off the scanners already probing you. The destination is the same. What a plateau buys is time on the clock, not a turn in the road.
+It changes less than it looks like it should, for three reasons in rising order of certainty. The least certain first: the mechanism people will point to, pre-training, may stall. Next, and surer: even if it does, the demand this framework tracks is the volume of code shipped and the breadth of authority handed to automation rather than model cleverness, and both keep climbing on deployment alone, through test-time reasoning, agent fleets, and wider rollout, with no new scaling breakthrough required. Surest of all: the comprehension debt and the automated adversary are already here, since a plateau does not un-ship the code your people already cannot read, or call off the scanners already probing you. The destination is the same. What a plateau buys is time on the clock rather than a turn in the road.
 
 <figure>
   <svg viewBox="0 0 760 470" role="img" aria-labelledby="sf2-2e-title sf2-2e-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-2e-title">A race between two exponentials: production against comprehension</title>
-    <desc id="sf2-2e-desc">A line chart of rate against time showing two rising curves. The production curve, the volume of code shipped and the authority handed to automation, climbs steeply. The comprehension curve, the rate at which people can actually secure and understand that output, rises far more slowly. The vertical distance between them, widening to the right, is the share of output the organization cannot secure or understand. A dashed vertical line marks the inflection point: which curve you choose to fund. The production curve continues as a dashed line past the present, showing that it keeps climbing on deployment alone: test-time reasoning, agent fleets, wider rollout, with no new scaling breakthrough required. A pre-training plateau buys time on the clock, not a turn in the road. This is a race between two exponentials, not a structural decline a linear line manages.</desc>
+    <desc id="sf2-2e-desc">A line chart of rate against time showing two rising curves. The production curve, the volume of code shipped and the authority handed to automation, climbs steeply. The comprehension curve, the rate at which people can actually secure and understand that output, rises far more slowly. The vertical distance between them, widening to the right, is the share of output the organization cannot secure or understand. A dashed vertical line marks the inflection point: which curve you choose to fund. The production curve continues as a dashed line past the present, showing that it keeps climbing on deployment alone: test-time reasoning, agent fleets, wider rollout, with no new scaling breakthrough required. A pre-training plateau buys time on the clock rather than a turn in the road. This is a race between two exponentials rather than a structural decline a linear line manages.</desc>
     <rect x="0" y="0" width="760" height="470" fill="#FAFAF7"/>
-    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">A race between two exponentials, not a managed decline</text>
+    <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">A race between two exponentials</text>
     <line x1="110" y1="80" x2="110" y2="372" stroke="#2A2520" stroke-width="1.6"/>
     <line x1="110" y1="372" x2="710" y2="372" stroke="#2A2520" stroke-width="1.6"/>
     <text x="40" y="226" font-size="11.5" fill="#6B6456" text-anchor="middle" transform="rotate(-90 40 226)">rate (volume per unit time)</text>
@@ -44,8 +44,8 @@ It changes less than it looks like it should, for three reasons in rising order 
     <rect x="594.9" y="207.5" width="119.1" height="18.0" rx="2" fill="#FAFAF7" fill-opacity="0.72"/>
     <text x="710" y="220" font-size="10" fill="#6B6456" text-anchor="end">what no one can secure</text>
     <line x1="60" y1="416" x2="710" y2="416" stroke="#B8956A" stroke-width="1"/>
-    <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">Not a linear line losing to an exponential. Two exponentials, and which one you fund is the inflection point.</text>
-    <text x="60" y="458" font-size="10.5" fill="#2A2520">A pre-training plateau slows the demand curve but does not un-ship the code already written: time on the clock, not a turn in the road.</text>
+    <text x="60" y="438" font-size="12.5" font-weight="700" fill="#2C4A6B">Two exponentials racing, and which one you fund is the inflection point.</text>
+    <text x="60" y="458" font-size="10.5" fill="#2A2520">A pre-training plateau slows the demand curve but does not un-ship the code already written: time on the clock rather than a turn in the road.</text>
   </svg>
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Production climbs faster than comprehension; the widening gap is the share of output no one can secure or understand. Which curve you fund is the inflection point. A plateau slows demand but does not change the destination.</figcaption>
 </figure>
@@ -56,7 +56,7 @@ The [investment portfolio model](portfolio-framework.md) sorts security spending
 
 ## The Capability Gap
 
-The gap isn't really about volume. The deeper issue is a capability mismatch between manual defenders and automated adversaries.
+The gap runs deeper than volume: a capability mismatch between manual defenders and automated adversaries.
 
 **The Adversary Capability Shift**: Since roughly 2017, adversaries evolved from targeted reconnaissance to automated discovery at internet scale. Using techniques inspired by bug bounty programs and internet-wide scanning, attackers can now:
 
@@ -68,7 +68,7 @@ The gap isn't really about volume. The deeper issue is a capability mismatch bet
 **One Break, Two Bottlenecks**: Organizations conducting quarterly vulnerability scans face adversaries who probe continuously. Manual asset discovery can't keep pace with automated reconnaissance. Underneath both sits one break showing up in two places. On the attacker's side, automation outran a human-bound defensive process, so manual throughput loses the speed race. On the production side, automation now outruns people too: code and systems are generated faster than anyone can understand them, so manual comprehension loses the understanding race. One root cause, two human bottlenecks, neither closed by hiring alone.
 
 !!! warning "Critical Insight: Supply Chain as #1 Priority"
-    Supply chain security became the #1 priority not because dependencies increased, but because adversary capability evolved. When attackers can discover your unknown assets faster than you can catalog them, supply chain security becomes existential regardless of your other security investments.
+    Supply chain security became the #1 priority because adversary capability evolved rather than because dependencies increased. When attackers can discover your unknown assets faster than you can catalog them, supply chain security becomes existential regardless of your other security investments.
 
 Once a program has enough repeated work to amortize, the dollar that makes the secure path the easy path, by automating a step or packaging it into a guardrail engineers plug into, buys more than the dollar that adds one more linear reviewer, including the dollar that pays the engineer who builds it.
 
@@ -76,7 +76,7 @@ Once a program has enough repeated work to amortize, the dollar that makes the s
 
 ## What Compounds and What Doesn't
 
-Scaling Investments compound in two different ways, and the difference decides what each one buys. **Automation** takes a human out of a repeated step, so the work runs hands-free and throughput stops being bound by hours. **Composable guardrails** keep the human but change what they have to understand: instead of reviewing N bespoke implementations of mTLS, base images, scoped roles, or secure pub/sub, your people understand one packaged path that teams plug into. The comprehension does not disappear. It concentrates into one durable review, amortized across every team that adopts the path, which is a real economy only on the traffic that actually takes it. A guardrail also does what automation does not: because it is a boundary, it limits what goes wrong when something slips through, not just what your reviewers have to read. Two benefits from one artifact.
+Scaling Investments compound in two different ways, and the difference decides what each one buys. **Automation** takes a human out of a repeated step, so the work runs hands-free and throughput stops being bound by hours. **Composable guardrails** keep the human but change what they have to understand: instead of reviewing N bespoke implementations of mTLS, base images, scoped roles, or secure pub/sub, your people understand one packaged path that teams plug into. The comprehension does not disappear. It concentrates into one durable review, amortized across every team that adopts the path, which is a real economy only on the traffic that actually takes it. A guardrail also does what automation does not: because it is a boundary, it limits what goes wrong when something slips through, beyond what your reviewers have to read. Two benefits from one artifact.
 
 !!! tip "The Compound Interest Principle"
     Just as financial investments generate compound returns, security scaling investments compound. An automation capability used 100 times costs the same to build as one used once; the build cost amortizes toward zero per use while the value keeps accruing. Manual security work never amortizes. Each review costs the same effort as the last.
@@ -153,11 +153,11 @@ The [Strategic Position and Investment Strategy table](../03-positioning/strateg
     <text x="449" y="301" font-size="11.5" font-weight="700" fill="#00557F" text-anchor="middle">Scaling investment ~88%</text>
     <!-- insight -->
     <line x1="60" y1="404" x2="660" y2="404" stroke="#B8956A" stroke-width="1"/>
-    <text x="60" y="430" font-size="12.5" font-weight="700" fill="#2C4A6B">The more readiness you hold, the more effort goes to scaling, not constraining BAU.</text>
+    <text x="60" y="430" font-size="12.5" font-weight="700" fill="#2C4A6B">The more readiness you hold, the more effort goes to scaling rather than constraining BAU.</text>
     <text x="60" y="452" font-size="11.5" fill="#2A2520">Craft and Mass both spend most on BAU, for opposite reasons: Craft by intentional simplicity,</text>
     <text x="60" y="468" font-size="11.5" fill="#2A2520">Mass because legacy eats the budget. Year-one figures; both shift toward scaling over later years.</text>
     <rect x="60" y="478" width="20" height="11" fill="#FBEFD9" opacity="0.6" stroke="#A6450B" stroke-width="1.1" stroke-dasharray="4 3"/>
-    <text x="88" y="488" font-size="10.5" font-style="italic" fill="#2A2520">dashed = BAU that shifts to scaling in later years (the ratchet, not a dated forecast)</text>
+    <text x="88" y="488" font-size="10.5" font-style="italic" fill="#2A2520">dashed = BAU that shifts to scaling in later years (a ratchet rather than a dated forecast)</text>
   </svg>
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Year-one effort split per quadrant. The more readiness you hold, the more goes to scaling rather than constraining BAU. Craft and Mass spend most on BAU for opposite reasons: Craft by intentional simplicity, Mass because legacy eats the budget.</figcaption>
 </figure>
