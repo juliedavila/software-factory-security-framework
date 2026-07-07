@@ -38,7 +38,7 @@ Crisis events create unique windows for organizational change. Security incident
 ### During Crisis
 **Heightened urgency**: Security becomes top priority, resources unlock, decisions accelerate
 
-**Window of opportunity**: A finite stretch of elevated priority and funding. Practitioners often plan for one to two quarters; treat that as a rule of thumb, not a measured figure. Plan for it to close sooner than you expect.
+**Window of opportunity**: A finite stretch of elevated priority and funding. Practitioners often plan for one to two quarters; treat that as a rule of thumb rather than a measured figure. Plan for it to close sooner than you expect.
 
 ### Post-Crisis
 **Two possible outcomes**:

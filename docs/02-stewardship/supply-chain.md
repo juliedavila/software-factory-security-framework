@@ -10,9 +10,9 @@ This is the condition you can do the most about, because the artifact is in your
 
 ## Why it is the loudest of the four
 
-Supply Chain has been the one to watch for years, roughly since adversaries moved discovery to automation at internet scale and began finding vulnerable dependencies faster than defenders could inventory them. The asymmetry is the whole problem. An attacker runs continuous, internet-wide scans for a known-vulnerable package. A defender who inventories dependencies once a quarter is answering last quarter's question.
+Supply Chain has been the one to watch for years, roughly since 2017, when adversaries moved discovery to automation at internet scale and began finding vulnerable dependencies faster than defenders could inventory them. The asymmetry is the whole problem. An attacker runs continuous, internet-wide scans for a known-vulnerable package. A defender who inventories dependencies once a quarter is answering last quarter's question.
 
-This is about tempo, not a ranking of which matters more. The supply-chain condition degrades faster and gets exploited sooner than the rest, so it earns first call on attention and budget. Treat it as the default #1 and argue yourself *down* from there if your context warrants.
+This is a matter of tempo. Supply Chain does not matter more than the rest; it degrades faster and gets exploited sooner, so it earns first call on attention and budget. Treat it as the default #1 and argue yourself *down* from there if your context warrants.
 
 The asymmetry that earns it the slot is that adversaries scan faster than defenders inventory. If build-generated inventory ever becomes universal and continuous, that gap narrows and the call would have to be re-argued. Abandonment is the part that would survive the change, because knowing which orphaned package you depend on does not make it maintained.
 
@@ -24,7 +24,7 @@ Tending Supply Chain is the practice of comprehension: closing the gap between w
 - **Establish provenance and sign.** Know where each artifact came from and that it arrived unaltered. Verified provenance turns "we think this is the library we meant" into something you can check.
 - **Pin and rebuild.** Pin versions so a dependency cannot change under you silently. Rebuild from source where the supply matters enough to warrant it.
 - **Catch the supply-specific attacks.** Dependency confusion, typosquatting, a compromised maintainer pushing a poisoned release, and now a poisoned MCP server or a [tool whose description carries instructions the model will follow](https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html). They are attacks on your trust rather than bugs in your code, which is why your own tests never catch them.
-- **Weigh survivability, not only security.** A dependency's future is part of its risk. Take it on partly on whether the project is alive and whether you could carry it if the upstream stopped.
+- **Weigh survivability alongside security.** A dependency's future is part of its risk. Take it on partly on whether the project is alive and whether you could carry it if the upstream stopped.
 
 None of this is a control you install once. A dependency you vetted last year is a dependency that has shipped forty releases since. Comprehension is a standing practice or it is nothing.
 
@@ -32,15 +32,15 @@ None of this is a control you install once. A dependency you vetted last year is
 
 The practices so far assume the thing you embedded keeps shipping. You inventory it, sign it, pin it, and wait for the next release to patch. But a dependency can fail in a way none of that touches: it can simply stop. The maintainer walks away, the project is archived, the company behind it folds or sells and the buyer turns it off. The code still sits in your tree doing its job, until the day a vulnerability lands in it and no fix is ever coming.
 
-This is a different failure from a breach. A poisoned release is an attack on your trust; an abandoned dependency is the absence of anyone to trust. None of the breach-facing controls reach it. An SBOM tells you that you depend on the orphaned package, not how to keep it alive. A signature proves the last release was genuine, not that there will be another. Against a vendor that no longer exists, an indemnity is a claim on an empty estate.
+This is a different failure from a breach. A poisoned release is an attack on your trust; an abandoned dependency is the absence of anyone to trust. None of the breach-facing controls reach it. An SBOM tells you that you depend on the orphaned package; it says nothing about keeping it alive. A signature proves the last release was genuine and promises nothing about the next. Against a vendor that no longer exists, an indemnity is a claim on an empty estate.
 
 [core-js](https://www.theregister.com/2023/02/15/corejs_russia_open_source/) sits in a large share of the web, downloaded billions of times, and is maintained by one person who has said the money to keep it going has collapsed and that he is ready to walk. Nothing was breached. The risk is that a load-bearing dependency rests on a single human, and the bus factor upstream is one.
 
-With open source you always have the right to fork. What you rarely have is the capacity to maintain what you forked. Forking core-js means owning a polyfill library you did not write and cannot staff. So the real question is your own bus factor on a dependency whose upstream bus factor is one, and you answer it before the abandonment, not after. Vendor the source so you can patch it yourself when no one upstream will. Weigh how alive a project is before you take it on: the release cadence, the number of hands, whether a foundation stands behind it or one tired person does. Funding the maintainer can buy time, but it is goodwill, not a control.
+With open source you always have the right to fork. What you rarely have is the capacity to maintain what you forked. Forking core-js means owning a polyfill library you did not write and cannot staff. So the real question is your own bus factor on a dependency whose upstream bus factor is one, and you answer it before the abandonment, while there is still time. Vendor the source so you can patch it yourself when no one upstream will. Weigh how alive a project is before you take it on: the release cadence, the number of hands, whether a foundation stands behind it or one tired person does. Funding the maintainer can buy time, but it buys goodwill rather than a control.
 
 That is the embedded version. A delegated vendor can die the same way, on a deadline or in a bankruptcy, and because that is [Third-Party](third-party.md) the continuity plan for it is built there.
 
-Containment does not save you from abandonment. This is a continuity problem, not a blast-radius one, carried by source escrow, the contractual right to fork or self-host, and your own capacity to take the code over, [planned before you need it](adaptive-capacity.md) rather than improvised the week the upstream goes quiet.
+Containment does not save you from abandonment. This is a continuity problem rather than a blast-radius one, carried by source escrow, the contractual right to fork or self-host, and your own capacity to take the code over, [planned before you need it](adaptive-capacity.md) rather than improvised the week the upstream goes quiet.
 
 ## How tending differs by position
 

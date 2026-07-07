@@ -5,7 +5,7 @@
 ## Framework Identity
 
 **Name**: Software Factory Security Framework (SF²)
-**Version**: 1.0.0
+**Version**: 1.1.0
 **Author**: Julie Davila
 **License**: CC BY 4.0
 **Purpose**: Strategic framework for scaling security capabilities while improving business outcomes
@@ -26,8 +26,8 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 ## Four Strategic Quadrants
 
-### 1. Studio (Small reach + High Readiness)
-**Characteristics**: 10-200 engineers, modern cloud infrastructure, strong CI/CD, fast decision-making
+### 1. Studio (Small reach + Higher Readiness)
+**Characteristics**: Task-scoped automation (small reach), modern cloud infrastructure, strong CI/CD, fast decision-making (headcount a legacy proxy, historically 10-200 engineers)
 
 **Strategy**: Automate from the start, build scaling foundations early
 
@@ -42,8 +42,8 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Building Lean-level complexity too early
 
-### 2. Lean (Large reach + High Readiness)
-**Characteristics**: 200+ engineers, mature platforms, established security, platform-oriented
+### 2. Lean (Large reach + Higher Readiness)
+**Characteristics**: Broad standing authority across the estate (large reach), mature platforms, established security, platform-oriented (headcount a legacy proxy, historically 200+ engineers)
 
 **Strategy**: Optimize existing capabilities, build platform effects, security as competitive advantage
 
@@ -58,8 +58,8 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Complacency and tool sprawl without retirement
 
-### 3. Craft (Small reach + Low Readiness)
-**Characteristics**: <50 engineers, legacy/basic infrastructure, resource constraints, critical decision point
+### 3. Craft (Small reach + Lower Readiness)
+**Characteristics**: Task-scoped automation (small reach), legacy/basic infrastructure, resource constraints, critical decision point (headcount a legacy proxy, historically <50 engineers)
 
 **Strategy**: Choose intentional simplicity OR prepare for growth (two distinct paths)
 
@@ -75,10 +75,10 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 - CI/CD foundation
 - Move toward Studio over 18-24 months
 
-**Common Pitfall**: Accidental drift to Mass (complexity without readiness)
+**Common Pitfall**: Accidental drift to Mass (reach without readiness)
 
-### 4. Mass (Large reach + Low Readiness)
-**Characteristics**: 100+ engineers, legacy systems at scale, manual processes, transformation imperative
+### 4. Mass (Large reach + Lower Readiness)
+**Characteristics**: Broad standing authority across the estate (large reach), legacy systems at scale, manual processes, transformation imperative (headcount a legacy proxy, historically 100+ engineers)
 
 **Strategy**: Stabilize first, hybrid approach (modern for new, pragmatic for legacy), realistic 3-5 year timeline
 
@@ -93,7 +93,7 @@ SF² is a **two-axis positioning model** that helps security leaders determine a
 
 **Common Pitfall**: Rushing the containment climb, or widening reach further before the floor is built, underestimating resources needed
 
-## Universal Stewardship Areas
+## Universal Security Conditions
 
 Five areas requiring attention regardless of quadrant position:
 
@@ -104,14 +104,14 @@ Five areas requiring attention regardless of quadrant position:
 
 **Critical**: Automated dependency scanning, SBOM, continuous monitoring
 
-### 2. Process Stewardship
+### 2. Third-Party Stewardship
+**Focus**: Integrated services, platforms, vendors throughout operational lifecycle
+
+### 3. Process Stewardship
 **Focus**: Security throughout development lifecycle, continuous validation, rapid feedback
 
-### 3. Runtime Stewardship
+### 4. Runtime Stewardship
 **Focus**: Production security and reliability, proactive monitoring, rapid response
-
-### 4. Third-Party Stewardship
-**Focus**: Integrated services, platforms, vendors throughout operational lifecycle
 
 ### 5. Adaptive Capacity
 **Focus**: Whether the system as a whole can absorb a surprise it was not designed for and keep working; the cross-cutting resilience condition formerly called Continuous Learning
@@ -128,7 +128,7 @@ Five areas requiring attention regardless of quadrant position:
 **Warning**: Linear scaling becomes unsustainable
 
 ### Scaling Investments
-**Definition**: Capabilities that reduce manual effort exponentially
+**Definition**: Capabilities whose payoff compounds as more teams use them
 
 **Examples**: Automation platforms, self-service capabilities, policy-as-code, paved roads
 
@@ -142,7 +142,7 @@ Five areas requiring attention regardless of quadrant position:
 **Value**: Multiplicative impact across organization
 
 ### The Scaling Crisis
-**Definition**: When demand for security services grows exponentially while team capacity grows linearly
+**Definition**: When demand for security services outpaces a team whose capacity grows only linearly
 
 **Signals**: Security blocking releases, team burnout, months-long backlogs
 
@@ -416,7 +416,7 @@ SF² is a **strategic overlay** that guides **which**, **when**, and **how fast*
 
 When helping users with SF² framework:
 
-1. **Start with position assessment** - Determine quadrant based on complexity and readiness
+1. **Start with position assessment** - Determine quadrant based on blast radius and readiness
 2. **Identify contextual modifiers** - Ask about attack landscape, supply chain, regulation, etc.
 3. **Apply quadrant-specific guidance** - Different recommendations for different positions
 4. **Consider realistic timelines** - Don't promise fast transformations for Mass
@@ -427,7 +427,7 @@ When helping users with SF² framework:
 
 ## Quick Reference Card
 
-**Current Position** → Assess Complexity (Simple/Complex) + Readiness (Lower/Higher)
+**Current Position** → Assess Blast Radius (Small reach/Large reach) + Readiness (Lower/Higher)
 
 **Quadrant Priorities**:
 

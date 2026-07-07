@@ -6,9 +6,9 @@ That is the defining trait of this condition: opacity. You will never inspect yo
 
 ## Liability moves; responsibility does not
 
-A shared-responsibility model splits the work, and a contract can move a capped slice of the financial loss to the vendor through indemnities, a security super-cap, and a matched cyber policy. That money moves only after the failure, and only the part you could put a number on. It does not move the work of preventing the failure, or the duty to answer for it. Responsibility shifts; accountability never leaves you. Regulators treat it the same way: a board stays responsible for an outsourced function as if it ran in-house. When your identity provider leaks your users' credentials, your users do not call the vendor. They call you.
+A shared-responsibility model splits the work, and a contract can move a capped slice of the financial loss to the vendor through indemnities, a security super-cap, and a matched cyber policy. That money moves only after the failure, and only the part you could put a number on. It does not move the work of preventing the failure, or the duty to answer for it. Liability shifts; responsibility never leaves you. Regulators treat it the same way: a board stays responsible for an outsourced function as if it ran in-house. When your identity provider leaks your users' credentials, your users do not call the vendor. They call you.
 
-This is where compliance gets misread. Compliance is a market-access key, not a security proof. A vendor earns FedRAMP to unlock the federal market, not to become safe to depend on. The attestation expands their addressable market and retires none of your risk. Read a SOC 2 or a FedRAMP authorization as evidence that a vendor cleared a bar, never as a transfer of the responsibility that stays with you.
+This is where compliance gets misread. Compliance is a market-access key. A vendor earns FedRAMP to unlock the federal market; the attestation expands their addressable market and retires none of your risk. Read a SOC 2 or a FedRAMP authorization as evidence that a vendor cleared a bar, never as a transfer of the responsibility that stays with you.
 
 This is the [Foundation accountability premise](../01-foundation/software-factory-definition.md) narrowed to the functions you delegate. No law lets you transfer the responsibility itself, only a capped slice of its cost, and that is why it cannot be argued away.
 
@@ -28,7 +28,7 @@ The chain rarely stops at one link. A provider you operate is often itself an op
 
 Three things compound down that chain. Opacity deepens: you could not see inside your direct provider, and you can see less inside the provider it leans on. Reach widens: the access the composition can exercise does not stop where your contract does, and it lands at a layer where you hold no controls and no recourse. And the liability cap reaches only the link you signed, so the matched cyber policy answers for your direct vendor, never for the sub-operator that actually leaked your data.
 
-You cannot inventory what you cannot see, and here you cannot see in advance two layers down. That is the case that shows most cleanly why the answer is containment, not inspection. You do not certify the sub-dependency; you bound what the whole composition can reach and spend, so a failure at a link you never contracted spends only the authority you granted at the boundary. What the boundary cannot do is claw back data the sub-operator already holds and leaks; that residual is carried by contingency and contract, not by the boundary. [Boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) is built for exactly the dependency you cannot inventory.
+You cannot inventory what you cannot see, and here you cannot see in advance two layers down. That is the case that shows most cleanly why the answer is containment rather than inspection. You do not certify the sub-dependency; you bound what the whole composition can reach and spend, so a failure at a link you never contracted spends only the authority you granted at the boundary. What the boundary cannot do is claw back data the sub-operator already holds and leaks; that residual is carried by contingency and contract, beyond what the boundary covers. [Boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) is built for exactly the dependency you cannot inventory.
 
 ## When a vendor dies
 
@@ -40,7 +40,7 @@ Because you cannot inspect the vendor, you cultivate this condition by preparing
 
 - **Contain the blast radius before you need to.** Scope what each vendor can reach to the minimum the function requires. The vendor breach you survive is the one whose reach you bounded in advance.
 - **Assume the breach and rehearse it.** Know which vendors are load-bearing, what happens to your product when one goes dark, for a day or for good, or goes hostile, and how you fail over. A contingency plan you have never tested is a hope.
-- **Make the shared-responsibility line explicit.** Most third-party incidents trace to a boundary nobody owned because each side assumed the other had it. Write down who secures what, then check the assumption against reality.
+- **Make the shared-responsibility line explicit.** The third-party incidents that hurt tend to trace to a boundary nobody owned, because each side assumed the other had it. Write down who secures what, then check the assumption against reality.
 - **Monitor the surface you can see.** You cannot watch their internals, but you can watch what they expose to you: the access they hold, the data crossing the boundary, the certifications lapsing.
 
 ## How tending differs by position

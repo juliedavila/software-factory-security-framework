@@ -1,10 +1,10 @@
 # Implementation Guide: Studio
 
-This guide is for organizations in the **Studio** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and high **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Studio** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and higher **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 ## Position Characteristics
 
-**Studio** organizations occupy the Small reach + High Readiness quadrant:
+**Studio** organizations occupy the Small reach + Higher Readiness quadrant:
 
 - **Small inherent reach** (authority scoped per task; typically 10-200 engineers)
 - **Modern infrastructure** (cloud-native, infrastructure-as-code)
@@ -16,7 +16,7 @@ This guide is for organizations in the **Studio** quadrant: small **Blast Radius
 
 ### 1. Maintain Velocity While Building Security
 
-Your advantage is speed. Security should accelerate, not slow down.
+Your advantage is speed. Security should accelerate rather than slow down.
 
 **Investment Focus**:
 
@@ -57,7 +57,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 - Security platforms over point solutions
 - Reusable security capabilities (not one-off solutions)
 - Documentation and self-service patterns
-- Metrics that matter (outcomes, not activity)
+- Metrics that matter (outcomes rather than activity)
 
 **Avoid**:
 
@@ -86,12 +86,14 @@ You're positioned to scale efficiently. Build the right foundations now.
 - [ ] Establish security metrics dashboard
 
 ### Quarter 2: Scaling
-- [ ] Reduce manual security reviews by 70% through automation
+- [ ] Reduce manual security reviews by 50% through automation
 - [ ] Launch security champions pilot program
 - [ ] Implement runtime security monitoring
 - [ ] Build feedback loops for continuous improvement
 
 ## Investment Roadmap
+
+Studio runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-framework.md) at its cleanest: high readiness lets you constrain BAU hard and pour the freed capacity into scaling investments from the first year.
 
 ### Year 1: Build Scaling Foundations
 
@@ -111,7 +113,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 **Expected Outcomes**:
 
 - 70% reduction in manual security review time
-- 3x increase in deployment frequency without security incidents
+- Higher deployment frequency without a rise in security incidents (set your own baseline target)
 - Security embedded in default paths
 
 ### Year 2: Optimize and Extend
@@ -167,7 +169,7 @@ You're positioned to scale efficiently. Build the right foundations now.
 - Multiple approval layers for standard patterns
 - Compliance theater instead of actual risk reduction
 
-**Solution**: Focus on secure defaults and automation, not manual gates
+**Solution**: Focus on secure defaults and automation rather than manual gates
 
 ## Success Indicators
 
@@ -217,7 +219,7 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 - Policy-as-code at organizational scale
 - Security product capabilities
 
-**Timeline**: 18-36 months as complexity naturally increases
+**Timeline**: 24-36 months as reach naturally increases
 
 **Critical Success Factor**: Don't let increased complexity degrade operational readiness
 
@@ -226,6 +228,6 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 ## Next Steps
 
 [:octicons-arrow-right-24: Continue to Lean Implementation](lean.md){ .md-button .md-button--primary }
-[:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/relationship-health.md){ .md-button }
+[:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/overview.md){ .md-button }
 
 [:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/studio.md){ .md-button }

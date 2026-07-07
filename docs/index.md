@@ -3,7 +3,7 @@ title: Software Factory Security Framework (SF²)
 description: Strategic framework for scaling security capabilities while improving business outcomes
 keywords: security framework, security strategy, security scaling, software factory, security leadership, CISO, VP Security
 author: Julie Davila
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Software Factory Security Framework (SF²)
@@ -16,7 +16,7 @@ The **Software Factory Security Framework (SF²)** provides security leaders wit
 
 Whether you're leading security for a three-person startup or a multinational corporation, this framework helps you:
 
-- **Understand universal security responsibilities** that apply to every software-producing organization
+- **Understand the Universal Security Conditions** that apply to every software-producing organization
 - **Position your organization strategically** using a two-axis assessment model
 - **Invest resources effectively** by balancing immediate needs with long-term scaling
 - **Adapt to your context** using modifiers that account for your specific constraints
@@ -44,11 +44,11 @@ Organizations that work through this well solve more than a scaling problem. The
 
 <div class="grid cards" markdown>
 
--   :material-shield-check:{ .lg .middle } __Universal Stewardship Model__
+-   :material-shield-check:{ .lg .middle } __Universal Security Conditions__
 
     ---
 
-    Five core security responsibilities that apply to every software-producing organization
+    Five Universal Security Conditions that apply to every software-producing organization
 
     [:octicons-arrow-right-24: Learn more](02-stewardship/overview.md)
 
@@ -82,10 +82,7 @@ Organizations that work through this well solve more than a scaling problem. The
 
 ## Strategic Context
 
-!!! info "Adversary Evolution"
-    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**, sweeping billions of assets to find vulnerabilities. Organizations using manual security processes face a fundamental capability gap: attackers can discover unknown systems faster than defenders can catalog them.
-
-    Understanding these adversary evolution patterns helps security leaders **prioritize investments that shift economic advantage away from attackers.**
+Attackers now operate at a scale manual processes cannot match, finding vulnerable systems faster than most organizations can map their own estate. That capability gap is why Supply Chain has been the #1 priority since 2017, and it shapes where this framework tells you to invest. The [Executive Summary](executive-summary.md) sets out the shift.
 
 ---
 
@@ -110,18 +107,19 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 1. Read the [Executive Summary](executive-summary.md)
 2. Assess your [Strategic Position](03-positioning/two-axis-model.md)
-3. Review the Implementation Guide for your quadrant: [Studio](06-implementation/studio.md), [Lean](06-implementation/lean.md), [Craft](06-implementation/craft.md), or [Mass](06-implementation/mass.md)
-4. Evaluate [Contextual Modifiers](05-context/overview.md)
+3. Understand the [Investment Portfolio](04-investment/portfolio-framework.md) logic behind funding decisions
+4. Review the Implementation Guide for your quadrant: [Studio](06-implementation/studio.md), [Lean](06-implementation/lean.md), [Craft](06-implementation/craft.md), or [Mass](06-implementation/mass.md)
+5. Evaluate [Contextual Modifiers](05-context/overview.md)
 
 ### For Individual Contributors
 
-1. Understand [Universal Stewardship Responsibilities](02-stewardship/overview.md)
+1. Understand [Universal Security Conditions](02-stewardship/overview.md)
 2. Explore [Use Cases](08-use-cases/scenarios.md) relevant to your role
-3. Reference specific stewardship areas as needed
+3. Reference specific Universal Security Conditions as needed
 
 ### For Consultants & Advisors
 
-1. Review complete [Framework Structure](executive-summary.md)
+1. Review the complete [Executive Summary](executive-summary.md)
 2. Study [Strategic Positioning Model](03-positioning/strategic-positions.md)
 3. Understand [Investment Portfolio Approach](04-investment/portfolio-framework.md)
 
@@ -149,18 +147,13 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
     [:octicons-arrow-right-24: Core Framework PDF](https://sf2framework.com/pdf/sf2-framework.pdf){ .md-button }
 
-    Foundation, the Universal Security Conditions, Strategic Positioning, and the Investment Portfolio in one document. A direct download, no print step. Roughly 80 pages.
+    Foundation, the Universal Security Conditions, Strategic Positioning, and the Investment Portfolio in one document. A direct download, no print step. Roughly 70 pages.
 
 </div>
 
 ---
 
 ## Framework Principles
-
-!!! quote "Executive Insight"
-    Security scaling isn't primarily solved through capacity increases alone. It requires **strategic investment in capabilities that reduce manual effort requirements**. Organizations that make this shift successfully report significant improvements in both security effectiveness and business velocity.
-
-### Core Principles
 
 1. **Scale-Agnostic**: Applies from startups to enterprises
 2. **Technology-Agnostic**: Works with any tech stack or infrastructure
@@ -174,11 +167,21 @@ SF² works **alongside** existing security methodologies (NIST SSDF, OWASP SAMM,
 
 **Author:** Julie Davila
 **License:** CC BY 4.0
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 This framework represents my personal strategic mental models for security leadership, developed through years of experience leading product security at scale. **SF² is an independent framework** and does not represent the views of any employer.
 
 This is an open source framework (CC BY 4.0) intended as a resource for the broader security community.
+
+???+ note "How this framework was made"
+
+    **AI Influence Level: [AIL-3](https://danielmiessler.com/blog/ai-influence-level-ail), "AI Created, Human Full Structure."** Borrowing [Daniel Miessler's](https://danielmiessler.com/) AIL scale.
+
+    I'll be straight about this. I built SF² in close collaboration with AI, and I leaned on it heavily. The thinking is mine: a mental model of product security strategy I've carried for years and wanted to codify, down to the structure and the argument. AI is how it got drafted into prose. I checked every claim, citation, and figure by hand against [primary sources](appendix/references.md). Diligence was the whole job.
+
+    Done the traditional way, from scratch, this is a one- or two-year project. AI is what let me get the ideas out of my head and into something durable now, alongside everything else I've got running. The voice isn't perfectly mine yet, and that's something I'll keep polishing.
+
+    I made this first as a source of truth for my own work. Sharing it follows from a simple bet: if it saves me from re-explaining this, it's probably worth something to other people carrying the same problem.
 
 [:octicons-arrow-right-24: Contributing Guidelines](contributing.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: View on GitHub](https://github.com/juliedavila/software-factory-security-framework){ .md-button }

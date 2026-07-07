@@ -10,12 +10,12 @@ The two are not equally visible, and that is where the money leaks. The install 
 
 The error is testable. Projects dated and closed on the install date should show lower sustained adoption two quarters out than otherwise-matched projects tracked to an absorb milestone. If they adopt just as well, the pricing error is not real and this is only relabeling.
 
-You cannot price a clock you cannot read, so make the absorb clock legible first. Before you start, name the absorb milestone the way you would a ship date: the share of work running on the new path, the date the old path is switched off, the point where the change is the default and not the option. Price the move on that.
+You cannot price a clock you cannot read, so make the absorb clock legible first. Before you start, name the absorb milestone the way you would a ship date: the share of work running on the new path, the date the old path is switched off, the point where the change is the default rather than the option. Price the move on that.
 
 <figure>
   <svg viewBox="0 0 760 400" role="img" aria-labelledby="sf2-tc-title sf2-tc-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-tc-title">Every transformation runs on two clocks: the install clock and the absorb clock</title>
-    <desc id="sf2-tc-desc">Two horizontal timeline tracks. The top track is the install clock: how fast you can stand the change up, by buying the tool, flipping the config, and lighting up the pipeline. It is short and ends early, and it is visible because it has an invoice and a deploy log. The bottom track is the absorb clock, which is change capacity: how fast the organization actually runs on the change, as people change how they work, the new path becomes the default, and the old path switches off. It runs far longer and is invisible unless you build a way to read it. That stretch is shaded as where the money leaks. Leaders price the move on the install date they can see, call it done when the tool is live, then find two quarters later that the numbers have not moved. No one's behavior did. The lesson is to schedule by the absorb budget, not by what you can install.</desc>
+    <desc id="sf2-tc-desc">Two horizontal timeline tracks. The top track is the install clock: how fast you can stand the change up, by buying the tool, flipping the config, and lighting up the pipeline. It is short and ends early, and it is visible because it has an invoice and a deploy log. The bottom track is the absorb clock, which is change capacity: how fast the organization actually runs on the change, as people change how they work, the new path becomes the default, and the old path switches off. It runs far longer and is invisible unless you build a way to read it. That stretch is shaded as where the money leaks. Leaders price the move on the install date they can see, call it done when the tool is live, then find two quarters later that the numbers have not moved. No one's behavior did. The lesson is to schedule by the absorb budget rather than by what you can install.</desc>
     <rect x="0" y="0" width="760" height="400" fill="#FAFAF7"/>
     <text x="380" y="32" font-size="16.5" font-weight="700" fill="#2C4A6B" text-anchor="middle">Two clocks: the install clock you can see, the absorb clock you must build to see</text>
     <!-- where the money leaks -->
@@ -38,10 +38,10 @@ You cannot price a clock you cannot read, so make the absorb clock legible first
     <text x="640" y="284" font-size="9.5" fill="#A6450B" text-anchor="middle">invisible unless you build it</text>
     <text x="120" y="200" font-size="10" fill="#6B6456" text-anchor="end">(change capacity)</text>
     <line x1="60" y1="330" x2="700" y2="330" stroke="#B8956A" stroke-width="1"/>
-    <text x="60" y="352" font-size="12.5" font-weight="700" fill="#2C4A6B">Schedule by the absorb budget, not by what you can install.</text>
+    <text x="60" y="352" font-size="12.5" font-weight="700" fill="#2C4A6B">Schedule by the absorb budget rather than by what you can install.</text>
     <text x="60" y="372" font-size="10" fill="#2A2520">You can stand up four tools at once. You cannot absorb four changes at once. A tool installed but not absorbed is shelfware with a green light.</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The install clock is short and visible; the absorb clock runs longer and stays invisible unless you build a way to read it. The gap between them is where the spend leaks. Schedule by the absorb budget, not the install date.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The install clock is short and visible; the absorb clock runs longer and stays invisible unless you build a way to read it. The gap between them is where the spend leaks. Schedule by the absorb budget rather than the install date.</figcaption>
 </figure>
 
 ## Capacity Levels
@@ -108,7 +108,7 @@ How much two changes contend comes down to how much they share. Four overlaps de
 
 This is what turns change capacity from a description into a sequencing tool. You schedule by the absorb budget, not by what you can install: you can stand up four tools at once, you [cannot absorb four changes at once](../appendix/references.md#change-capacity-absorption-and-concurrent-overload). Sequencing your actual transformation paths by this budget is where the [movement paths](../03-positioning/movement-paths.md) come in.
 
-The honest default is contend, not parallelize. Real initiatives almost always share at least one of the four surfaces, so running both this year usually costs you on absorption even when the install schedules fit. Genuine independence across all four, separate people and approval and sponsor and system, does happen, and then you can run them together. But it is rarer than optimism assumes. Make clean separation something you have to prove before you bank on it.
+The honest default is contend rather than parallelize. Real initiatives almost always share at least one of the four surfaces, so running both this year usually costs you on absorption even when the install schedules fit. Genuine independence across all four, separate people and approval and sponsor and system, does happen, and then you can run them together. But it is rarer than optimism assumes. Make clean separation something you have to prove before you bank on it.
 
 ## Is This Modifier Earning Its Place?
 

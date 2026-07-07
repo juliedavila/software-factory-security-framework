@@ -1,10 +1,10 @@
 # Implementation Guide: Lean
 
-This guide is for organizations in the **Lean** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and high **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Lean** quadrant: large **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and higher **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 ## Position Characteristics
 
-**Lean** organizations occupy the Large reach + High Readiness quadrant:
+**Lean** organizations occupy the Large reach + Higher Readiness quadrant:
 
 - **Large inherent reach** (broad authority across the estate; typically 200+ engineers, multiple products/services)
 - **Mature infrastructure** (sophisticated cloud platforms, advanced automation)
@@ -39,7 +39,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 
 - Security platforms with self-service capabilities
 - Policy-as-code at organizational scale
-- Federated security models (champions who set boundaries, not gate changes)
+- Federated security models (champions who set boundaries rather than gate changes)
 - Reusable security components and libraries
 
 **Avoid**:
@@ -50,7 +50,7 @@ Your complexity requires platform thinking. Build capabilities that serve multip
 
 ### 3. Innovate for Competitive Advantage
 
-Security should be a differentiator, not a cost center.
+Security should be a differentiator rather than a cost center.
 
 **Investment Focus**:
 
@@ -68,7 +68,7 @@ Security should be a differentiator, not a cost center.
 ## Quick Start Checklist
 
 ### Month 1: Assessment
-- [ ] Conduct comprehensive capability assessment across all stewardship areas
+- [ ] Conduct comprehensive capability assessment across all Universal Security Conditions
 - [ ] Identify high-effort, low-impact security activities (candidates for elimination)
 - [ ] Map platform adoption rates and satisfaction
 - [ ] Review outcome metrics rather than activity metrics
@@ -92,6 +92,8 @@ Security should be a differentiator, not a cost center.
 - [ ] Continuously optimize based on metrics
 
 ## Investment Roadmap
+
+Lean runs the [BAU-versus-Scaling portfolio model](../04-investment/portfolio-framework.md) at its most aggressive: readiness and scale push constrained BAU toward the single digits, so nearly all effort compounds as scaling investment.
 
 ### Year 1: Optimize and Scale
 
@@ -183,7 +185,7 @@ Security should be a differentiator, not a cost center.
 
 - Low voluntary adoption of security platforms
 - Teams building workarounds instead of using platforms
-- Platform teams focused on features, not user experience
+- Platform teams focused on features rather than user experience
 - Disconnect between platform capabilities and team needs
 
 **Solution**: Product management approach to security platforms with adoption metrics
@@ -194,7 +196,7 @@ Security should be a differentiator, not a cost center.
 - [ ] **Manual security effort reduced 30%** through optimization
 - [ ] **Security platform adoption >80%** for primary platforms
 - [ ] **3+ low-value activities eliminated** or fully automated
-- [ ] **Outcome metrics defined and baseline established** for all stewardship areas
+- [ ] **Outcome metrics defined and baseline established** for all Universal Security Conditions
 
 ### 12 Months
 - [ ] **Manual security effort reduced 50%** (from baseline)
@@ -210,7 +212,7 @@ Security should be a differentiator, not a cost center.
 
 ## Movement Paths
 
-### Maintaining Position: Staying Leader
+### Maintaining Position: Staying Lean
 Continuous effort required to maintain leadership position:
 
 **Strategy**: Continuous innovation and optimization to stay ahead
@@ -260,7 +262,7 @@ Moving beyond detection to automated response:
 
 - Auto-patching for approved vulnerability classes
 - Automated security configuration drift correction
-- Self-healing security controls
+- Self-healing security capabilities
 
 ### Security Product Capabilities
 If you operate a customer-facing software factory:

@@ -14,17 +14,17 @@ Organizations that work through this well solve more than a scaling problem. The
 
 The Software Factory Security Framework (SF²) provides security leaders with:
 
-### Universal Stewardship Model
+### Universal Security Conditions
 
-Five core security responsibilities that apply to every software-producing organization:
+Five Universal Security Conditions that apply to every software-producing organization:
 
-1. **Supply Chain (#1 Priority)** - Managing security risks from all external dependencies
-2. **Process** - Security embedded throughout development lifecycle
-3. **Runtime** - Maintaining security of systems in production
-4. **Third-Party** - Managing risks from integrated services and platforms
-5. **Adaptive Capacity** - Whether the system as a whole can absorb a surprise it was not designed for and keep working
+1. **Supply Chain (#1 Priority)**: Managing security risks from all external dependencies
+2. **Third-Party**: Managing risks from integrated services and platforms
+3. **Process**: Embedding security throughout the development lifecycle
+4. **Runtime**: Maintaining security of systems in production
+5. **Adaptive Capacity**: Whether the system as a whole can absorb a surprise it was not designed for and keep working
 
-[:octicons-arrow-right-24: Learn more about stewardship](02-stewardship/overview.md)
+[:octicons-arrow-right-24: Learn more about the Universal Security Conditions](02-stewardship/overview.md)
 
 ### Strategic Positioning Tool
 
@@ -43,7 +43,7 @@ Systematic method for balancing security investments:
 
 - **BAU Activities** (Constrain): Manual work that scales with growth
 - **Scaling Investments** (Prioritize): Capabilities that reduce manual effort
-- **Platform Effects** (Multiply): Benefits that serve internal and external value
+- **Platform Effects** (Multiply): Benefits that deliver internal and external value
 
 [:octicons-arrow-right-24: Explore investment strategy](04-investment/portfolio-framework.md)
 
@@ -65,7 +65,7 @@ Eight modifiers that influence your implementation approach:
 ## Strategic Context: Adversary Evolution
 
 !!! info "Critical Shift in Adversary Capabilities"
-    In recent years, attackers shifted from targeted reconnaissance to **automated discovery at internet scale**, sweeping billions of assets to find vulnerabilities. 
+    In recent years, attackers have shifted from targeted reconnaissance to **automated discovery at internet scale**, sweeping billions of assets to find vulnerabilities. 
     
     Organizations using manual security processes face a fundamental capability gap: **attackers can discover unknown systems faster than defenders can catalog them.**
     
@@ -79,14 +79,12 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 |---------------|------------|
 | How do I sustainably invest in security as we scale? | Investment Portfolio Framework |
 | How do I adapt security approaches to my org? | Strategic Positioning + Contextual Modifiers |
-| How do I align security with business outcomes? | Platform Effects + Business Integration |
+| How do I align security with business outcomes? | Platform Effects + Evaluation Criteria |
 
 ## Executive Insight
 
 !!! quote
-    Security scaling isn't primarily solved through capacity increases alone. It requires **strategic investment in capabilities that reduce manual effort requirements**. 
-    
-    Organizations that make this shift successfully report significant improvements in both security effectiveness and business velocity.
+    Hiring alone doesn't solve security scaling. It takes **strategic investment in capabilities that reduce manual effort**, and that is what lets security effectiveness and delivery speed rise together instead of trading off against each other.
 
 ## Getting Started
 
@@ -98,6 +96,6 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 
 ---
 
-Start with [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md) to understand the core concepts.
+Applying the framework starts with assessing your position, as the three steps above lay out. To read the underlying concepts in sequence, continue to [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md).
 
 [:octicons-arrow-right-24: Continue to Foundation](01-foundation/software-factory-definition.md){ .md-button .md-button--primary }

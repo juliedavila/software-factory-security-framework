@@ -20,21 +20,24 @@
 : The "how you operate" axis: automation, infrastructure modernity, process maturity, and the ability to prove containment holds (Lower → Higher).
 
 **Studio**
-: Organizations with small inherent reach and high readiness (Small reach + High Readiness): narrow grants, floor built.
+: Organizations with small inherent reach and high readiness (Small reach + Higher Readiness): narrow grants, floor built.
 
 **Lean**
-: Organizations with large inherent reach and proven containment (Large reach + High Readiness). The goal position: large blast radius with the floor built.
+: Organizations with large inherent reach and proven containment (Large reach + Higher Readiness). The goal position: large blast radius with the floor built.
 
 **Craft**
-: Organizations with small inherent reach and low readiness (Small reach + Low Readiness): narrow grants, containment unproven.
+: Organizations with small inherent reach and low readiness (Small reach + Lower Readiness): narrow grants, containment unproven.
 
 **Mass**
-: Organizations with large inherent reach and unproven containment (Large reach + Low Readiness). Ungoverned reach, not size.
+: Organizations with large inherent reach and unproven containment (Large reach + Lower Readiness). Ungoverned reach rather than size.
 
-## Universal Stewardship
+## Universal Security Conditions
 
 **Supply Chain Stewardship**
-: Managing security risks from all external dependencies and third-party components throughout their lifecycle. #1 priority due to adversary evolution to automated discovery.
+: Managing security risks from all external dependencies and third-party components throughout their lifecycle. #1 priority since roughly 2017, when adversaries moved discovery to automation at internet scale.
+
+**Third-Party Stewardship**
+: Managing security risks from integrated services, platforms, and vendors throughout operational lifecycle.
 
 **Process Stewardship**
 : Security embedded throughout development lifecycle with continuous validation and rapid feedback loops.
@@ -42,11 +45,8 @@
 **Runtime Stewardship**
 : Maintaining security and reliability of systems in production with proactive monitoring and rapid response capabilities.
 
-**Third-Party Stewardship**
-: Managing security risks from integrated services, platforms, and vendors throughout operational lifecycle.
-
 **Adaptive Capacity**
-: Whether the system as a whole can absorb a surprise it was not designed for and keep working. The condition formerly called Continuous Learning, renamed for what it is. Unlike the other four stewardship areas, it maps to no single team: you assess whether the system has it, you cannot hand it to anyone. Resilience-engineering lineage (Holling, Hollnagel, Woods, Cook).
+: Whether the system as a whole can absorb a surprise it was not designed for and keep working. The condition formerly called Continuous Learning, renamed for what it is. Unlike the other four conditions, it maps to no single team: you assess whether the system has it, you cannot hand it to anyone. Resilience-engineering lineage (Holling, Hollnagel, Woods, Cook).
 
 ## Investment Portfolio
 
@@ -92,7 +92,7 @@
 : How much of an organization's software work AI now generates, from code to review. As that proportion climbs, the binding constraint shifts from writing code to reviewing it, moving investment from manual review toward automated guardrails and scoped agent identity.
 
 **PQC Exposure**
-: How much of an organization's cryptography the quantum transition puts at risk, and how hard that risk is to retire. Not how close quantum computers are, but your own footprint: how long data must stay secret and how hard the underlying math is to swap. The loss is silent and already underway (harvest now, decrypt later).
+: How much of an organization's cryptography the quantum transition puts at risk, and how hard that risk is to retire. It turns on your own footprint rather than how close quantum computers are: how long data must stay secret and how hard the underlying math is to swap. The loss is silent and already underway (harvest now, decrypt later).
 
 ## Technical Terms
 

@@ -1,6 +1,6 @@
 # AI-Assisted Strategic Planning with SF²
 
-Loading SF² into a capable AI assistant turns the framework into a working strategy partner. Instead of reading the framework and applying it by hand, you give the assistant the framework as context and have it do the positioning, prioritization, and communication work with you. This is an adoption layer, not a new part of the framework: the doctrine below is vendor-neutral and the assistant is interchangeable.
+Loading SF² into a capable AI assistant turns the framework into a working strategy partner. Instead of reading the framework and applying it by hand, you give the assistant the framework as context and have it do the positioning, prioritization, and communication work with you. This is an adoption layer rather than a new part of the framework: the doctrine below is vendor-neutral and the assistant is interchangeable.
 
 Any capable general-purpose assistant works. This guide names Claude, ChatGPT, and Gemini because they are widely available and each offers a persistent-context feature (Projects, Custom GPTs, Gems) that keeps the framework loaded across sessions. The setup mechanics for those three are point-in-time and live in the dated appendix at the foot of this page. Everything above that line is durable.
 
@@ -8,13 +8,13 @@ Any capable general-purpose assistant works. This guide names Claude, ChatGPT, a
 
 A framework-loaded assistant is most useful for the work that is reasoning-heavy and communication-heavy rather than tactical:
 
-- **Strategic positioning** — assess where your organization sits in the two-axis model
-- **Investment prioritization** — decide which capabilities to build first, and what to constrain
-- **Scenario planning** — explore transformation paths, timelines, and their risks
-- **Framework application** — translate SF² concepts to your specific context
-- **Executive communication** — draft board-ready and team-ready strategy material
+- **Strategic positioning**: assess where your organization sits in the two-axis model
+- **Investment prioritization**: decide which capabilities to build first, and what to constrain
+- **Scenario planning**: explore transformation paths, timelines, and their risks
+- **Framework application**: translate SF² concepts to your specific context
+- **Executive communication**: draft board-ready and team-ready strategy material
 
-Use it for strategy, not tactics. Keep specific vulnerabilities, incident details, and tool configurations out of it (see [Guardrails](#guardrails) below).
+Use it for strategy rather than tactics. Keep specific vulnerabilities, incident details, and tool configurations out of it (see [Guardrails](#guardrails) below).
 
 ## The five workflows
 
@@ -26,7 +26,7 @@ These are the five recurring jobs a framework-loaded assistant does well. Each i
 
 **Purpose:** determine your quadrant (Studio, Lean, Craft, or Mass) from your blast radius and operational readiness, and surface which contextual modifiers apply.
 
-**Good output:** a named quadrant with the reasoning shown on both axes, the applicable contextual modifiers, and the resulting strategic priorities. Not just a label.
+**Good output:** a named quadrant with the reasoning shown on both axes, the applicable contextual modifiers, and the resulting strategic priorities. More than a label.
 
 ### 2. Investment strategy
 
@@ -50,7 +50,7 @@ These are the five recurring jobs a framework-loaded assistant does well. Each i
 
 **Purpose:** plan a move from your current quadrant to a target quadrant.
 
-**Good output:** a phased roadmap with milestones, success indicators at 6, 12, and 24 months, resource requirements per phase, named risks with mitigations, and explicit go/no-go decision points. Honest about timelines: Mass transformations take years, not quarters.
+**Good output:** a phased roadmap with milestones, success indicators at 6, 12, and 24 months, resource requirements per phase, named risks with mitigations, and explicit go/no-go decision points. Honest about timelines: Mass transformations take years rather than quarters.
 
 ## Configure your assistant
 
@@ -65,9 +65,9 @@ while improving business outcomes.
 - Two-axis positioning model: Blast Radius (how far a failure could reach if
   containment fails; Small reach → Large reach, set by granted authority) ×
   Operational Readiness (Lower → Higher). Four quadrants: Studio (small reach,
-  high readiness), Lean (large reach, high readiness), Craft (small reach, low
-  readiness), Mass (large reach, low readiness).
-- Five universal stewardship areas: Supply Chain (#1 priority), Third-Party,
+  higher readiness), Lean (large reach, higher readiness), Craft (small reach, lower
+  readiness), Mass (large reach, lower readiness).
+- Five Universal Security Conditions: Supply Chain (#1 priority), Third-Party,
   Process, Runtime, and Adaptive Capacity.
 - Investment portfolio: constrain BAU (business-as-usual) activities; build
   Scaling investments that create compound capabilities; favor platform effects.
@@ -86,7 +86,7 @@ while improving business outcomes.
 - Supply Chain Stewardship is the #1 priority, driven by adversary evolution to
   automated discovery since 2017.
 - Constrain BAU activities; do not expand them.
-- High operational readiness is what makes automation feasible.
+- Higher operational readiness is what makes automation feasible.
 - Diagonal transformation (cutting blast radius and raising readiness at once) is
   high-risk and must be sequenced.
 - Appropriate security depends on position; there is no one-size answer.
@@ -177,9 +177,9 @@ with mitigations, and explicit decision points.
 
 ### Working approach
 
-1. **Use it for strategy, not tactics.** Stay at positioning and investment altitude.
+1. **Use it for strategy rather than tactics.** Stay at positioning and investment altitude.
 2. **Abstract when needed.** Use "Organization A" in place of your company name if that lowers your concern.
-3. **Review every output.** Treat assistant drafts as first drafts, not final artifacts.
+3. **Review every output.** Treat assistant drafts as first drafts rather than final artifacts.
 4. **Prefer enterprise accounts.** Team and Enterprise tiers offer stronger data controls; per-platform specifics are in the appendix.
 
 ### Keep the framework current
@@ -195,10 +195,10 @@ As SF² evolves, keep your assistant's context fresh:
 
 ## Per-vendor setup
 
-!!! note "Point-in-time, accurate as of June 2026 (SF² v0.11)"
+!!! note "Point-in-time, accurate as of June 2026 (SF² v1.1.0)"
     Everything below this line is per-vendor setup mechanics. Vendor product names,
     menu paths, plan requirements, and data-handling defaults change often and SF²
-    does not control them. Treat this section as a dated snapshot, not framework
+    does not control them. Treat this section as a dated snapshot rather than framework
     doctrine. The durable guidance is above this line. A separately versioned
     companion workbook for these mechanics is planned for a future release.
 
@@ -212,7 +212,7 @@ The body above is vendor-neutral. To put it to work in a specific tool, create t
 
 **Add framework knowledge:** add `https://sf2framework.com` so Claude can reference the full framework, or attach specific sections (foundation, your quadrant's implementation guide, relevant framework relationships) as text. Add your own organizational-context document.
 
-**Data handling:** Projects are stored with Anthropic's standard data controls; Anthropic does not train on your conversations by default. Enterprise deployment offers additional organizational controls. Confirm current terms on Anthropic's site before sharing anything sensitive.
+**Data handling:** Projects are stored under your Claude plan's data controls, and those differ by tier: consumer plans (Free and Pro) train on your conversations by default unless you opt out (Settings → Privacy → "Improve Claude for everyone"), while Team, Enterprise, and API accounts do not train on your data. Confirm current terms on Anthropic's site before sharing anything sensitive.
 
 **Fits best for:** long, multi-session strategic planning where persistent project knowledge and extended reasoning matter.
 
@@ -238,12 +238,12 @@ The body above is vendor-neutral. To put it to work in a specific tool, create t
 
 **Workspace integration (Gemini's distinctive strength):** because Gemini works across Google Workspace, your strategy can live where your team already works:
 
-- **Google Docs** — run a position assessment or draft a strategy with the team editing alongside (`@Gem SF² Security Strategist` then your prompt).
-- **Google Sheets** — structure investment planning across tabs (current BAU, proposed scaling investments, timeline, resources) and have the Gem populate the plan from your data.
-- **Google Slides** — generate a board-presentation outline with talking points and anticipated Q&A.
-- **Gmail** — draft executive stakeholder emails that explain the strategy in framework terms.
-- **Google Chat and Meet** — quick framework questions in a team space, or live consultation during strategy meetings.
-- **Multimodal and Google Cloud** — upload last year's strategy or a metrics spreadsheet for a framework-lens review, and ground GCP security-architecture choices in your quadrant.
+- **Google Docs**: run a position assessment or draft a strategy with the team editing alongside (`@Gem SF² Security Strategist` then your prompt).
+- **Google Sheets**: structure investment planning across tabs (current BAU, proposed scaling investments, timeline, resources) and have the Gem populate the plan from your data.
+- **Google Slides**: generate a board-presentation outline with talking points and anticipated Q&A.
+- **Gmail**: draft executive stakeholder emails that explain the strategy in framework terms.
+- **Google Chat and Meet**: quick framework questions in a team space, or live consultation during strategy meetings.
+- **Multimodal and Google Cloud**: upload last year's strategy or a metrics spreadsheet for a framework-lens review, and ground GCP security-architecture choices in your quadrant.
 
 **Known limitations:** Gems do not persist conversation history across sessions, so restate key context when you start fresh (or keep the working strategy in a Google Doc). Gems do not take uploaded training files the way a Custom GPT does, so the framework lives in the instructions block and in the documents you reference per prompt.
 

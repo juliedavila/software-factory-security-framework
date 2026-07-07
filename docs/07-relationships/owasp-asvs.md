@@ -14,9 +14,9 @@
 
 **SF²** helps determine **which ASVS level to target**, **which requirements to prioritize**, and **how to implement verification** based on organizational position and risk.
 
-SF² sequences a practice baseline, and ASVS's verification levels are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it picks the right subset for your context, and it ties the verification back to what the system is allowed to do.
+SF² sequences a practice baseline, and ASVS's verification levels are one expression of that baseline rather than a fixed endpoint. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it picks the right subset for your context, and it ties the verification back to what the system is allowed to do.
 
-New to SF²? This page maps OWASP ASVS onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **stewardship areas** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+New to SF²? This page maps OWASP ASVS onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 ## Key Insight
 
@@ -57,7 +57,7 @@ ASVS 5.0 organizes requirements into 17 chapters:
 
 ## SF² ASVS Strategy by Quadrant
 
-### Studio (Small reach + High Readiness)
+### Studio (Small reach + Higher Readiness)
 
 **ASVS Verification Approach**: Automated Level 2, selective Level 3
 
@@ -82,7 +82,7 @@ ASVS 5.0 organizes requirements into 17 chapters:
 
 **Timeline**: 12-18 months to comprehensive automated ASVS Level 2
 
-### Lean (Large reach + High Readiness)
+### Lean (Large reach + Higher Readiness)
 
 **ASVS Verification Approach**: Comprehensive Level 2, selective Level 3 for high-risk
 
@@ -110,7 +110,7 @@ ASVS 5.0 organizes requirements into 17 chapters:
 
 **Timeline**: Ongoing optimization of established ASVS capabilities
 
-### Craft (Small reach + Low Readiness)
+### Craft (Small reach + Lower Readiness)
 
 **ASVS Verification Approach**: Essential Level 1 requirements, risk-based Level 2
 
@@ -135,7 +135,7 @@ ASVS 5.0 organizes requirements into 17 chapters:
 
 **Timeline**: 6-12 months to essential ASVS Level 1 coverage
 
-### Mass (Large reach + Low Readiness)
+### Mass (Large reach + Lower Readiness)
 
 **ASVS Verification Approach**: Hybrid (Level 2 for new, Level 1 for legacy)
 
@@ -220,7 +220,7 @@ These chapters should be prioritized regardless of position:
 
 ## Practical Integration Examples
 
-The examples below are composite illustrations, not case studies. The numbers and timelines show the shape of an outcome, not measured results.
+The examples below are composite illustrations rather than case studies. The numbers and timelines show the shape of an outcome rather than measured results.
 
 ### Example 1: Studio SaaS Startup
 

@@ -16,11 +16,11 @@
 
 BSIMM is a descriptive census of what programs already do. SF² sequences a practice baseline, and that census is one snapshot of it rather than a fixed target. As that baseline broadens toward attestation and capability standards, SF²'s role holds: it turns the census into priorities for your context, and it aims them at limiting what the system can do.
 
-New to SF²? This page maps BSIMM onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **stewardship areas** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+New to SF²? This page maps BSIMM onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 ## Key Insight
 
-**BSIMM is descriptive, not prescriptive.** It shows what organizations do, not what they should do.
+**BSIMM is descriptive rather than prescriptive.** It shows what organizations do rather than what they should do.
 
 SF² provides the strategic framework to:
 
@@ -55,7 +55,7 @@ BSIMM organizes these activities into 4 domains:
 
 ## SF² Investment Strategy and BSIMM
 
-### Studio (Small reach + High Readiness)
+### Studio (Small reach + Higher Readiness)
 
 **BSIMM Activity Selection**: Automation-friendly activities that scale
 
@@ -84,7 +84,7 @@ BSIMM organizes these activities into 4 domains:
 
 **Implementation Approach**: Automate BSIMM activities from the start
 
-### Lean (Large reach + High Readiness)
+### Lean (Large reach + Higher Readiness)
 
 **BSIMM Activity Selection**: Comprehensive coverage with platform effects
 
@@ -92,7 +92,7 @@ BSIMM organizes these activities into 4 domains:
 
 1. **All 12 practices** with high activity coverage
 2. **Platform-scale implementation** of BSIMM activities
-3. **Advanced (BSIMM level-3) activities** appropriate for complexity
+3. **Advanced (BSIMM Level 3) activities** appropriate for complexity
 4. **Federated execution** of BSIMM activities (security champions, guilds)
 
 **Optimization Focus**:
@@ -104,7 +104,7 @@ BSIMM organizes these activities into 4 domains:
 
 **Implementation Approach**: Comprehensive BSIMM with efficiency focus
 
-### Craft (Small reach + Low Readiness)
+### Craft (Small reach + Lower Readiness)
 
 **BSIMM Activity Selection**: Essential activities only
 
@@ -130,7 +130,7 @@ BSIMM organizes these activities into 4 domains:
 
 **Implementation Approach**: Minimal BSIMM coverage, managed services where possible
 
-### Mass (Large reach + Low Readiness)
+### Mass (Large reach + Lower Readiness)
 
 **BSIMM Activity Selection**: Hybrid (comprehensive for new, essential for legacy)
 
@@ -194,9 +194,9 @@ These BSIMM activities have value but require careful sequencing:
    - Basic for Studio
    - Minimal for Craft
 
-### Lower-Value Activities (Implement Last or Skip)
+### Lower-Value Activities for Small-Reach Positions (Implement Last or Skip)
 
-These BSIMM activities often don't justify their cost:
+At Craft and Studio, these activities often don't justify their cost when run as manual practices. A Lean org at platform scale runs the same activities differently, automated and federated, and keeps them (see the Lean selection above). Scope the call to your position:
 
 7. **AA** - Architecture analysis
    - Manual and doesn't scale
@@ -240,7 +240,7 @@ These BSIMM activities often don't justify their cost:
 
 ## Practical Integration Example
 
-The example below is a composite illustration, not a case study. The numbers and timelines show the shape of an outcome, not measured results.
+The example below is a composite illustration rather than a case study. The numbers and timelines show the shape of an outcome rather than measured results.
 
 ### Scenario: Mass Position Enterprise
 
@@ -288,7 +288,7 @@ The example below is a composite illustration, not a case study. The numbers and
 | **Craft** | 15-25 activities | Essential only | Managed services |
 | **Mass** | 30-40 (new systems only) | Hybrid approach | Mixed |
 
-**Note**: These are guidelines, not targets. More BSIMM activities doesn't necessarily mean better security.
+**Note**: These are guidelines rather than targets. More BSIMM activities doesn't necessarily mean better security.
 
 ## Key Takeaways
 
@@ -312,7 +312,7 @@ The example below is a composite illustration, not a case study. The numbers and
 - SF² provides the strategic prioritization framework
 - Result: Focused security program aligned with organizational reality
 
-**Critical Insight**: **More BSIMM activities doesn't equal better security.** SF² helps you implement the right BSIMM activities for your organization, not the most activities.
+**Critical Insight**: **More BSIMM activities doesn't equal better security.** SF² helps you implement the right BSIMM activities for your organization rather than the most activities.
 
 ---
 

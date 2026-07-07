@@ -1,18 +1,18 @@
 # Implementation Guide: Craft
 
-This guide is for organizations in the **Craft** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and low **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [stewardship areas](../02-stewardship/overview.md), Supply Chain first.
+This guide is for organizations in the **Craft** quadrant: small **Blast Radius** (how far a failure could reach if containment fails, set by the authority granted to automation) and lower **Operational Readiness** (how mature your delivery and automation are). If you have not yet placed yourself among the four quadrants, Studio, Lean, Craft, and Mass, start with the [two-axis model](../03-positioning/two-axis-model.md) and [strategic positions](../03-positioning/strategic-positions.md). Throughout, this guide refers to constraining **BAU** (business-as-usual security work) and investing in the five [Universal Security Conditions](../02-stewardship/overview.md), Supply Chain first.
 
 !!! note "Craft is a method, not a price tag"
     **Craft** names a method: non-repeatable hand-work, a snowflake per build. It is not a statement about quality, premium positioning, or boutique branding. A Craft organization can do excellent security work; it just does it by hand each time, which is exactly the low-readiness condition this guide addresses.
 
 ## Position Characteristics
 
-**Craft** organizations occupy the Small reach + Low Readiness quadrant:
+**Craft** organizations occupy the Small reach + Lower Readiness quadrant:
 
 - **Small inherent reach** (little authority granted; typically <50 engineers, single product/service)
 - **Legacy or basic infrastructure** (manual processes, limited automation)
 - **Resource constraints** (small teams, limited budget)
-- **Pragmatic focus** (solving immediate problems, not building for scale)
+- **Pragmatic focus** (solving immediate problems rather than building for scale)
 - **Critical decision point** (modernize strategically or stay intentionally simple)
 
 ## Strategic Priorities
@@ -35,7 +35,7 @@ The most important decision: intentional simplicity or prepare for growth?
 - Build foundations that will scale
 - Appropriate for: Funded startups, expanding services, growth trajectory
 
-**Critical**: Choose intentionally. Don't accidentally drift into wrong model.
+**Critical**: Choose intentionally. Don't accidentally drift into the wrong model.
 
 ### 2. Security Through Simplicity
 
@@ -100,6 +100,8 @@ If preparing for growth, modernize strategically to build Studio foundations.
 - [ ] Begin tracking operational readiness metrics
 
 ## Investment Roadmap
+
+Both paths run on the same [BAU-versus-Scaling logic](../04-investment/portfolio-framework.md) as the higher-readiness quadrants, tuned for low readiness and a small budget. Managed services are how Craft constrains BAU: they carry the operational security load so your limited capacity is free for the one or two scaling investments that lower future burden. Path A keeps most effort in that constrained-BAU floor; Path B tilts toward scaling investment from year one to make readiness climb.
 
 ### Path A: Intentional Simplicity (Remain Craft)
 
@@ -207,7 +209,7 @@ If preparing for growth, modernize strategically to build Studio foundations.
 
 **12 Months**:
 
-- [ ] **Zero critical vulnerabilities in production** (through automated scanning and patching)
+- [ ] **No known critical vulnerability unpatched beyond a 14-day SLA** (through automated scanning and patching)
 - [ ] **Security integrated into development workflow** (not separate process)
 - [ ] **Quarterly security reviews** (confirming approach still appropriate)
 - [ ] **Team satisfaction with security approach** (not excessive burden)
@@ -256,7 +258,7 @@ This is a valid, sustainable choice for many organizations:
 
 **Timeline**: Ongoing; sustainable at this scale
 
-### Moving to Studio (Small reach + High Readiness)
+### Moving to Studio (Small reach + Higher Readiness)
 Preparing infrastructure for growth:
 
 **Strategy**: Single-axis movement (increase operational readiness)

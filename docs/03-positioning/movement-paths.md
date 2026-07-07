@@ -2,12 +2,12 @@
 
 ## How Organizations Transition Between Positions
 
-Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + High Readiness), but **the path you take determines your likelihood of success**.
+Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + Higher Readiness), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
-    Quadrant transitions are organizational transformations, not technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
+    Quadrant transitions are organizational transformations rather than technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
 
-    That gap between fast and slow is the install clock against the absorb clock: how fast you can stand a change up versus how fast the organization actually runs on it. Granting authority installs in a day, building the floor the organization runs on takes quarters (the two clocks get their full treatment in [Change Capacity](../05-context/change-capacity.md)). And the reason doing both at once fails most is that they draw on one shared absorption budget, not two. The same people, sponsor, and approval path carry both, so each absorbs worse. Sequence the heavy moves; do not stack them.
+    That gap between fast and slow is the install clock against the absorb clock: how fast you can stand a change up versus how fast the organization actually runs on it. Granting authority installs in a day, building the floor the organization runs on takes quarters (the two clocks get their full treatment in [Change Capacity](../05-context/change-capacity.md)). And the reason doing both at once fails most is that they draw on one shared absorption budget rather than two. The same people, sponsor, and approval path carry both, so each absorbs worse. Sequence the heavy moves; do not stack them.
 
 ---
 
@@ -19,8 +19,8 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 - Security capabilities that scale automatically with organizational growth
 - Developer experience improvements that increase rather than constrain velocity
-- Platform approaches that enable innovation while maintaining security controls
-- Cultural integration where security is a competitive advantage, not a constraint
+- Platform approaches that enable innovation while maintaining security capabilities
+- Cultural integration where security is a competitive advantage rather than a constraint
 
 **Reality Check**: Not every organization needs to reach Lean immediately. Your optimal target depends on your business trajectory and organizational change capacity.
 
@@ -31,15 +31,15 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | From → To | Movement Type | Timeline | Success Probability | Strategic Guidance |
 |-----------|---------------|----------|---------------------|-------------------|
 | **Craft → Studio** | Single-axis (Readiness ↑) | 12-18 months | High ⭐⭐⭐⭐ | [Operational Readiness Path](#path-1-craft-studio-operational-readiness) |
-| **Craft → Mass** | Single-axis (Reach ↑) | 18-24 months | Moderate ⭐⭐ | [Reach Scaling Path](#path-2-craft-mass-reach-scaling) |
+| **Craft → Mass** | Drift | 18-24 months (unplanned) | Not a goal | [The drift to guard against](#path-2-craft-mass-the-drift-to-guard-against) |
 | **Studio → Lean** | Single-axis (Reach ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
 | **Mass → Craft** | Single-axis (Reach ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
 | **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-60 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
 | **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
 
-The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget, not two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
+The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget rather than two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
-These ranges and likelihood ratings are practitioner estimates synthesized from transformation experience, not measured outcomes. SF² treats them as hypotheses to validate rather than findings, and refining them against real transformations is part of the framework's research agenda.
+These ranges and likelihood ratings are practitioner estimates synthesized from transformation experience rather than measured outcomes. SF² treats them as hypotheses to validate rather than findings, and refining them against real transformations is part of the framework's research agenda.
 
 <figure>
   <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
@@ -57,13 +57,13 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
     <rect x="380" y="270" width="250" height="200" fill="#FCEFE6" stroke="#D55E00" stroke-width="2"/>
     <!-- quadrant labels (top-left, short) -->
     <text x="148" y="98" font-size="18" font-weight="700" fill="#00553F">Studio</text>
-    <text x="148" y="117" font-size="11" fill="#2A2520">small reach, high readiness</text>
+    <text x="148" y="117" font-size="11" fill="#2A2520">small reach, higher readiness</text>
     <text x="398" y="98" font-size="18" font-weight="700" fill="#00557F">Lean &#9733;</text>
     <text x="398" y="117" font-size="11" fill="#2A2520">goal: reach with the floor built</text>
     <text x="148" y="298" font-size="18" font-weight="700" fill="#855A00">Craft</text>
-    <text x="148" y="317" font-size="11" fill="#2A2520">small reach, low readiness</text>
+    <text x="148" y="317" font-size="11" fill="#2A2520">small reach, lower readiness</text>
     <text x="398" y="298" font-size="18" font-weight="700" fill="#A6450B">Mass</text>
-    <text x="398" y="317" font-size="11" fill="#2A2520">large reach, low readiness</text>
+    <text x="398" y="317" font-size="11" fill="#2A2520">large reach, lower readiness</text>
     <!-- diagonal trap (under solid climbs) -->
     <line x1="305" y1="348" x2="472" y2="192" stroke="#A6450B" stroke-width="2" stroke-dasharray="3 4" opacity="0.8"/>
     <g stroke="#C0392B" stroke-width="3.4"><line x1="378" y1="260" x2="398" y2="280"/><line x1="398" y1="260" x2="378" y2="280"/></g>
@@ -179,52 +179,37 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
 
 ---
 
-## Path 2: Craft → Mass (Reach Scaling)
+## Path 2: Craft → Mass (the drift to guard against)
 
 <div class="quadrant-mass" markdown>
 
-**Movement Type**: Single-axis (Increasing Reach)
+**Movement type**: Reach widening, usually involuntary
 
-**Timeline**: 18-24 months
+**Drift speed**: 18-24 months from Craft to Mass once reach starts outrunning the floor
 
-**Success Probability**: Moderate ⭐⭐
+**Recovery cost**: 36-60 months for the [Mass → Lean containment climb](#path-5-mass-lean-the-containment-climb) afterward
 
 </div>
 
-### When to Choose This Path
+This is the one move on the map you do not make on purpose. Craft → Mass is what happens when you grant automation and agents more authority faster than you build the containment to hold it: a new integration here, broader tool access there, another autonomous actor in the pipeline. Reach widens and the floor does not. One day a failure's blast radius is enterprise-scale and nothing proves a compromised component stays inside its grant. You arrived at Mass by drift rather than by decision.
 
-**Yes, if:**
+### Sometimes it is a bet rather than an accident
 
-- Business growth requires rapid team scaling and organizational complexity
-- Market opportunity demands enterprise features and capabilities
-- Investment in operational readiness infrastructure isn't immediately feasible
+Occasionally the reach is taken on knowingly: the business needs enterprise features or a new market before it can fund readiness, and you grant the authority with your eyes open. That is defensible exactly once, when you book the debt. Name a containment-funding date, put it in writing, and treat the position as temporary Mass you are already climbing out of. Undated, "we chose this" is not a strategy. It is the rationalization this warning exists to puncture. Either way you are in Mass, managing reach that outran its floor. A conscious tradeoff changes the motive rather than your coordinates.
 
-**No, if:**
+### Recognition signs
 
-- You can afford to invest in readiness first (Craft → Studio → Lean is better)
-- Current manual processes are already creating business constraints
-- Team has capacity to focus on foundational improvements
+- Authority is granted to automation and agents faster than you can scope or review the grants
+- "We will add the containment later" has been said more than once
+- For a given agent or credential, you cannot say what it can reach if it misbehaves
 
-### Strategic Warning
+### What prevents it
 
-**This path creates technical debt**. You're widening reach (more automation authority, more autonomous actors, broader scope across teams and features) without building the containment to match. Plan for eventual Mass → Lean transformation requiring 36-60 months.
+The move you actually choose is Craft → Studio: raise readiness and build the floor before you widen reach. If reach is already widening for real business reasons, pair every authority grant with the containment that bounds it, per-credential scoping, human review on consequential actions, and blast-radius limits, so you land in Studio on the way to Lean rather than in Mass.
 
-### Key Investment Priorities
+### If you are already in Mass
 
-1. **Team Scaling**: Hiring and organizational structure for multiple teams
-2. **Process Sophistication**: Coordination mechanisms, change management, incident response
-3. **Compliance Capabilities**: Regulatory frameworks, audit readiness, documentation
-4. **Manual Security Scale**: Security team growth to match increased reach
-
-### Success Indicators
-
-- **Business**: Successfully serving enterprise customers, meeting regulatory requirements
-- **Operational**: Multiple teams operating with coordination processes
-- **Security**: Maintaining security coverage despite increased complexity
-
-### Recommended Next Steps
-
-Plan immediately for Mass → Lean transformation. Don't stay in Mass long-term. It's unsustainable.
+Plan the [Mass → Lean containment climb](#path-5-mass-lean-the-containment-climb) and start it. Do not settle in. Mass is unsustainable: 36-60 months to build the floor under reach you already hold, and every month you wait is a month the blast radius stays uncontained.
 
 ---
 
@@ -455,11 +440,11 @@ Use these questions to select your optimal path:
 
 **1. What is your current position?**
 
-- Accurately assess using [strategic positions assessment tool](strategic-positions.md#position-assessment-tool)
+- Accurately assess using the [position assessment on the Two-Axis Model page](two-axis-model.md#assessing-your-position)
 
 **2. What is your business trajectory?**
 
-- Remaining simple vs scaling complexity
+- Remaining small in reach vs widening reach
 - Revenue growth supporting transformation investment
 - Market pressures requiring rapid change
 
@@ -475,33 +460,13 @@ Use these questions to select your optimal path:
 - Technical debt severity limiting automation potential
 - Regulatory requirements affecting technology choices
 
-### Recommended Paths by Situation
-
-**High-growth startup (Craft)**:
-
-- Best: Craft → Studio (12-18 months) → Lean (24-36 months)
-- Avoid: Craft → Mass (creates technical debt requiring later remediation)
-
-**Established enterprise with legacy (Mass)**:
-
-- Best: Mass → Lean (36-60 months)
-- Avoid: Attempting Mass → Craft (usually fails)
-
-**Cloud-native startup scaling (Studio)**:
-
-- Best: Studio → Lean (24-36 months)
-- Maintain: High operational readiness during reach scaling
-
-**Industry leader (Lean)**:
-
-- Best: Lean → Lean (continuous evolution)
-- Avoid: Complacency leading to readiness degradation
+Your answers point back into the summary table above: your current position fixes the starting row, and your trajectory, change capacity, and constraints pick between the moves open from it.
 
 ---
 
 ## Next Steps
 
-1. **Confirm Your Current Position**: Use [strategic positions assessment](strategic-positions.md#position-assessment-tool)
+1. **Confirm Your Current Position**: Use the [position assessment on the Two-Axis Model page](two-axis-model.md#assessing-your-position)
 2. **Select Your Target Path**: Based on business trajectory and change capacity
 3. **Review [Contextual Modifiers](../05-context/overview.md)**: Understand how your specific constraints affect timeline
 4. **Read Your Implementation Guide**: Position-specific guidance in [`06-implementation/`](../06-implementation/studio.md)

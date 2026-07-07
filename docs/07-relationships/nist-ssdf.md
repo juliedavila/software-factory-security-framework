@@ -14,14 +14,14 @@
 
 **SF²** tells you **HOW** to sustainably resource and scale those practices based on your organizational position.
 
-SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline, not a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
+SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline rather than a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
 
-New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **stewardship areas** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 <figure>
   <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-ov-title">SF² as a strategic overlay on other security frameworks</title>
-    <desc id="sf2-ov-desc">Two layers. The bottom layer is the practices and requirements provided by other frameworks: NIST SSDF, OWASP SAMM, BSIMM, and OWASP ASVS. They tell you what to implement. The top layer is SF², the strategic overlay, which sequences those practices: which to fund first, when, and how fast, for your strategic position. SF² does not replace the other frameworks. It orders them. Integration, not competition.</desc>
+    <desc id="sf2-ov-desc">Two layers. The bottom layer is the practices and requirements provided by other frameworks: NIST SSDF, OWASP SAMM, BSIMM, and OWASP ASVS. They tell you what to implement. The top layer is SF², the strategic overlay, which sequences those practices: which to fund first, when, and how fast, for your strategic position. SF² does not replace the other frameworks. It orders them. Integration over competition.</desc>
     <defs>
       <marker id="ov-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
     </defs>
@@ -54,10 +54,21 @@ New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans o
     </g>
     <!-- footer thesis -->
     <text x="360" y="420" font-size="13" fill="#2A2520" text-anchor="middle">They provide the practices. SF&#178; decides <tspan font-style="italic">which</tspan>, <tspan font-style="italic">when</tspan>, and <tspan font-style="italic">how fast</tspan> to implement them.</text>
-    <text x="360" y="446" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Integration, not replacement.</text>
+    <text x="360" y="446" font-size="13" font-weight="700" fill="#2C4A6B" text-anchor="middle">Integration over replacement.</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Other frameworks provide the practices. SF² is the strategic overlay that sequences them: which to fund first, when, and how fast. Integration, not replacement.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Other frameworks provide the practices. SF² is the strategic overlay that sequences them: which to fund first, when, and how fast. Integration over replacement.</figcaption>
 </figure>
+
+## Key Insight
+
+**NIST SSDF is a practice catalog rather than an implementation sequence.** It tells you which secure-development practices exist rather than which to fund first or how fast to adopt them.
+
+Your SF² quadrant position determines:
+
+- Which SSDF practices warrant investment first
+- Whether to implement a practice through automation or accept manual work at current scale
+- The pace of SSDF adoption, so the rollout does not outrun your capacity
+- Which practices to hold at a baseline rather than deepen beyond actual risk
 
 ## Integration Approach
 
@@ -81,7 +92,7 @@ SF² helps you:
 
 ## Implementation by Quadrant
 
-### Studio (Small reach + High Readiness)
+### Studio (Small reach + Higher Readiness)
 
 **SSDF Implementation Approach**: Automated from the start
 
@@ -101,7 +112,7 @@ SF² helps you:
 
 **Timeline**: 6-12 months for comprehensive automated SSDF implementation
 
-### Lean (Large reach + High Readiness)
+### Lean (Large reach + Higher Readiness)
 
 **SSDF Implementation Approach**: Platform-scale automation
 
@@ -121,7 +132,7 @@ SF² helps you:
 
 **Timeline**: Ongoing optimization of established SSDF capabilities
 
-### Craft (Small reach + Low Readiness)
+### Craft (Small reach + Lower Readiness)
 
 **SSDF Implementation Approach**: Essential practices, pragmatic implementation
 
@@ -141,7 +152,7 @@ SF² helps you:
 
 **Timeline**: 6-12 months for essential SSDF practices
 
-### Mass (Large reach + Low Readiness)
+### Mass (Large reach + Lower Readiness)
 
 **SSDF Implementation Approach**: Hybrid (automated for new, pragmatic for legacy)
 
@@ -186,7 +197,7 @@ SF² helps you:
 
 ## Practical Integration Example
 
-The example below is a composite illustration, not a case study. The numbers and timelines show the shape of an outcome, not measured results.
+The example below is a composite illustration rather than a case study. The numbers and timelines show the shape of an outcome rather than measured results.
 
 ### Scenario: Series B Startup (Studio Position)
 
@@ -198,19 +209,28 @@ The example below is a composite illustration, not a case study. The numbers and
 
 **SF² Guidance**:
 
-1. **Assess Position**: Studio (Small reach + High Readiness)
+1. **Assess Position**: Studio (Small reach + Higher Readiness)
 2. **Identify Scaling Crisis**: Manual SSDF practices not sustainable
 3. **Constrain BAU**: Manual security reviews for novel architectures only
 4. **Scaling Investment**: Automate SSDF practices in CI/CD
 
 **SSDF Implementation**:
 
-- **PS (Protect Software)**: Automated build security, supply chain scanning
-- **PW (Produce Secured Software)**: Automated SAST/DAST, secure templates
+- **PS (Protect the Software)**: Automated build security, supply chain scanning
+- **PW (Produce Well-Secured Software)**: Automated SAST/DAST, secure templates
 - **RV (Respond to Vulnerabilities)**: Automated dependency scanning, patch automation
-- **PO (Prepare Organization)**: Self-service security documentation
+- **PO (Prepare the Organization)**: Self-service security documentation
 
 **Outcome**: SSDF practices fully automated, security reviews reduced 70%
+
+## SSDF Practice Decision Matrix
+
+| Your SF² Position | Priority SSDF Practices | Implementation Approach | Timeline |
+|------------------|------------------------|------------------------|----------|
+| **Studio** | PS, PW, RV first; PO self-service | Automated from the start | 6-12 mo |
+| **Lean** | All four groups at platform scale | Platform-scale automation | Ongoing optimization |
+| **Craft** | RV and PS first (highest risk, supply chain) | Essential only, managed services | 6-12 mo (essentials) |
+| **Mass** | RV, PS; automated for new systems | Hybrid (automated new, risk-based legacy) | 3-5 yr as systems modernize |
 
 ## Key Takeaways
 

@@ -9,7 +9,7 @@ This responsibility spans your entire value delivery chain, from internal develo
 ## What is a Software Factory?
 
 !!! info "Definition"
-    A **software factory** is whoever bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
+    A **Software Factory** is whoever bears operational responsibility for deploying, maintaining, and evolving code-based systems that deliver value to end users, including systematic risk stewardship across all components in their value delivery chain, whether directly controlled or third-party.
 
 This definition encompasses:
 
@@ -22,7 +22,7 @@ This definition encompasses:
 
 ### Operational Responsibility
 
-Software factories are accountable for how code reaches end users and impacts their experience, regardless of whether every component is built in-house.
+Software Factories are accountable for how code reaches end users and impacts their experience, regardless of whether every component is built in-house.
 
 ### Value Delivery Chain
 
@@ -38,7 +38,7 @@ Repeatable, improvable approaches to software creation and deployment rather tha
 
 ## Why This Definition Matters
 
-Understanding your organization as a software factory helps clarify:
+Understanding your organization as a Software Factory helps clarify:
 
 1. **Scope of Responsibility**: You're accountable for security across the entire value delivery chain, beyond the code you write
 2. **Third-Party Dependencies**: External components are part of your security responsibility
@@ -62,7 +62,7 @@ SF² addresses strategic questions that existing frameworks don't answer:
 | **BSIMM** | Security activity measurement and benchmarking | SF² determines investment priorities for BSIMM activities based on organizational positioning | Use SF² assessment to guide BSIMM implementation scope and sequencing |
 | **OWASP ASVS** | Security verification requirements | SF² helps sequence ASVS implementation within scaling investment strategy | Use SF² to determine risk-based ASVS subset vs. comprehensive implementation |
 
-The four frameworks in the table are today's instance of the baseline, not the baseline itself. SF² overlays whatever the prevailing practice baseline is, and right now that is a set of human-pace maturity models: SSDF, SAMM, BSIMM, ASVS. That baseline is already broadening. As more software gets built and shipped by machines, a new layer is emerging alongside the maturity models: attestation and capability standards. Two examples point the way. Verifiable provenance for what was built is the direction [SLSA](https://slsa.dev/) points, and scoped identity for what an agent may do is what [SPIFFE](https://spiffe.io) provides. The roster of the baseline will grow; SF²'s job does not. It sequences the investment, decides what to fund first for your context, and aims it at the thing both baselines are ultimately trying to protect: a capability boundary that bounds what any part of the system can do. That boundary is the floor. When the baseline grows a new wing, SF² sequences it the way it sequenced the old. The durable commitment is to that floor, set out in [Boundary Enforcement](../10-coadaptive/04-boundary-enforcement.md), not to the four names that express it today.
+The four frameworks in the table are today's instance of the baseline rather than the baseline itself. SF² overlays whatever the prevailing practice baseline is, and right now that is a set of human-pace maturity models: SSDF, SAMM, BSIMM, ASVS. That baseline is already broadening. As more software gets built and shipped by machines, a new layer is emerging alongside the maturity models: attestation and capability standards. Two examples point the way. Verifiable provenance for what was built is the direction [SLSA](https://slsa.dev/) points, and scoped identity for what an agent may do is what [SPIFFE](https://spiffe.io) provides. The roster of the baseline will grow; SF²'s job will not. It sequences the investment, decides what to fund first for your context, and aims it at the thing the baseline is ultimately trying to protect: a capability boundary that limits what any part of the system can do. That boundary is the floor. When the baseline grows a new wing, SF² sequences it the way it sequenced the old. The durable commitment is to that floor, set out in [Boundary Enforcement](../10-coadaptive/04-boundary-enforcement.md), rather than to the four names that express it today.
 
 ## Examples of Software Factories
 
@@ -87,15 +87,15 @@ To illustrate the universal nature of this definition:
 - **Security Responsibility**: Enabling other teams while maintaining platform security posture
 
 !!! note "Common Thread"
-    In each case, security responsibility extends far beyond code directly written by the organization. The software factory definition emphasizes this operational accountability across the complete value delivery chain.
+    In each case, security responsibility extends far beyond code directly written by the organization. The Software Factory definition emphasizes this operational accountability across the complete value delivery chain.
 
-This raises a gap the rest of the framework has to close. You are accountable for far more than you can personally read, and as generation outpaces comprehension the gap widens: the volume of code, dependencies, and agent actions you answer for grows faster than anyone's capacity to inspect it. Accountability does not shrink to match. You discharge it by bounding what the system was ever able to do, not by comprehending everything that happened. Comprehending everything is no longer possible at scale. That is what [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) and the [three-layer model](../10-coadaptive/01-three-layer-model.md) provide: a way to answer for a system you cannot fully read. The same logic governs what you delegate rather than build: as [Third-Party stewardship](../02-stewardship/third-party.md) puts it, a contract can move a capped slice of the cost, never the responsibility.
+This raises a gap the rest of the framework has to close. You are accountable for far more than you can personally read, and as generation outpaces comprehension the gap widens: the volume of code, dependencies, and agent actions you answer for grows faster than anyone's capacity to inspect it. Accountability does not shrink to match. You discharge it by bounding what the system was ever able to do, rather than by comprehending everything that happened. Comprehending everything is no longer possible at scale. That is what [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) and the [three-layer model](../10-coadaptive/01-three-layer-model.md) provide: a way to answer for a system you cannot fully read. The same logic governs what you delegate rather than build: as [Third-Party stewardship](../02-stewardship/third-party.md) puts it, a contract can move a capped slice of the cost, never the responsibility.
 
 ---
 
 ## Next Steps
 
-Now that you understand what constitutes a software factory, the next section explores the five universal security responsibilities that every software factory must address.
+Now that you understand what constitutes a Software Factory, the next section explores the five Universal Security Conditions that every Software Factory must address.
 
-[:octicons-arrow-right-24: Continue to Universal Stewardship](../02-stewardship/overview.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: Continue to Universal Security Conditions](../02-stewardship/overview.md){ .md-button .md-button--primary }
 [:octicons-arrow-right-24: Back to Executive Summary](../executive-summary.md){ .md-button }

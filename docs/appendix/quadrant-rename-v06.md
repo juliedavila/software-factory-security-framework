@@ -6,10 +6,10 @@ v0.6 changed two sets of names that v0.5 readers may have cited: the four strate
 
 | Axes | v0.5 name | v0.6 name |
 |------|-----------|-----------|
-| Small reach + Low readiness | Niche Players | **Craft** |
-| Small reach + High readiness | Visionaries | **Studio** |
-| Large reach + High readiness (goal) | Leaders | **Lean** |
-| Large reach + Low readiness | Challengers | **Mass** |
+| Small reach + Lower Readiness | Niche Players | **Craft** |
+| Small reach + Higher Readiness | Visionaries | **Studio** |
+| Large reach + Higher Readiness (goal) | Leaders | **Lean** |
+| Large reach + Lower Readiness | Challengers | **Mass** |
 
 ## Why the names changed
 
@@ -19,12 +19,12 @@ The v0.6 names come from how software actually gets built. They map the readines
 
 ## Reading the axes
 
-The vertical axis (Operational Readiness) is the **lean transformation**. Moving up means the work becomes more repeatable and a failure provably stays contained. The progression Craft to Mass to Lean traces repeatability rising, which is the core SF² thesis. The horizontal axis was Operational Complexity (scale) through v0.6; v0.7 redefined it as **Blast Radius**, the inherent reach of a failure if containment fails. The four names and the readiness story below are unchanged.
+The vertical axis (Operational Readiness) is the **lean transformation**. Moving up means the work becomes more repeatable and a failure provably stays contained. Moving up the readiness axis, from Craft to Studio and Mass to Lean, is repeatability rising, which is the core SF² thesis. The horizontal axis was Operational Complexity (scale) through v0.6; v0.7 redefined it as **Blast Radius**, the inherent reach of a failure if containment fails. The four names and the readiness story below are unchanged.
 
-- **Craft** (Small reach + Low): non-repeatable hand-work, a narrow grant by hand.
-- **Studio** (Small reach + High): narrow grant, floor built.
-- **Mass** (Large reach + Low): ungoverned reach, no floor.
-- **Lean** (Large reach + High): the goal, large reach with the floor built.
+- **Craft** (Small reach + Lower): non-repeatable hand-work, a narrow grant by hand.
+- **Studio** (Small reach + Higher): narrow grant, floor built.
+- **Mass** (Large reach + Lower): ungoverned reach, no floor.
+- **Lean** (Large reach + Higher): the goal, large reach with the floor built.
 
 ## Two terms that mislead if read casually
 
