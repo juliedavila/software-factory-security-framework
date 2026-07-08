@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 The version source of truth is the "About This Framework" block in
 [`docs/appendix/references.md`](docs/appendix/references.md); annotated git tags mirror it.
 
+## [1.3.2] — 2026-07-08
+
+- Aligned the landing page and the docs index with the framework's position on the five
+  conditions: replaced "in priority order" with the tempo framing (Supply Chain leads because
+  it degrades fastest), so the intro pages no longer assert a rigid hierarchy across what are
+  three different kinds of condition.
+
 ## [1.3.1] — 2026-07-08
 
 - Made the three kinds of Universal Security Condition explicit: added a Kind column
