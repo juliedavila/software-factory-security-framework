@@ -50,9 +50,9 @@ The version source of truth is the "About This Framework" block in
 - Renamed the second assessment axis to Blast Radius.
 - Added 14 content items and ran a corpus-wide first-read readability pass.
 
-## [0.6.0] — 2026-06-08
+## [0.6.0] — 2025-11
 
-- Coadaptive layer hardening pass. (Last publicly announced release before the 1.x line.)
+- Coadaptive layer hardening pass. The first version shared publicly for community feedback; the 1.x line followed in the mid-2026 completion sprint. (Date approximate: this predates the repo's June-2026 tag, which reflects when v0.6 landed in git, not its public release.)
 
 ## [0.5.0] — 2025-10-14
 

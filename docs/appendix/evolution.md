@@ -13,15 +13,15 @@ The first versions (v0.1 through v0.5) moved the core thinking out of a Google D
 
 <div class="sf2-cenefa-divider" role="separator" aria-hidden="true"></div>
 
-## The Sprint: v0.6 to v1.2
+## From Draft to Framework: v0.6 to v1.2
 
-<p class="sf2-timeline-era">June to July 2026</p>
+<p class="sf2-timeline-era">Late 2025 to July 2026</p>
 
-Eight months later, in a single month, the draft became the framework.
+The draft went out for feedback in late 2025. Eight months on, a focused sprint turned it into the finished framework.
 
 <ol class="sf2-timeline">
   <li class="sf2-timeline-item">
-    <span class="sf2-timeline-ver">v0.6.0</span><span class="sf2-timeline-date">Jun 8</span>
+    <span class="sf2-timeline-ver">v0.6.0</span><span class="sf2-timeline-date">Late 2025</span>
     <p class="sf2-timeline-body">Coadaptive layer hardening.<em class="sf2-timeline-note">The draft I first shared publicly for feedback.</em></p>
   </li>
   <li class="sf2-timeline-item">
