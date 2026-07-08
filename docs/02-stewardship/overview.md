@@ -11,7 +11,7 @@ There are four conditions you can hand to a team, and one you cannot.
 <figure>
   <svg viewBox="0 0 760 520" role="img" aria-labelledby="sf2-sc-title sf2-sc-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-sc-title">The five universal security conditions</title>
-    <desc id="sf2-sc-desc">Four conditions you can staff, drawn as four pillars: Supply Chain, marked number one and the loudest; Third-Party; Process; and Runtime. Each pillar names the question it asks and its lever. Supply Chain asks what is inside what I shipped, with the lever of comprehension. Third-Party asks what I handed off and who holds the bag, with the lever of containment. Process asks whether the way we build produces security or bolts it on, with the lever of feedback. Runtime asks whether we can sense what production is doing now, with the lever of observability. Beneath all four runs a foundation bar, Adaptive Capacity, the one condition you cannot staff: whether the system as a whole can absorb a surprise it was not designed for and keep working. It runs across the other four rather than beside them. You assess it; you cannot hand it to a team.</desc>
+    <desc id="sf2-sc-desc">Four conditions you can staff, drawn as four pillars: Supply Chain, marked number one and the loudest; Third-Party; Process; and Runtime. Each pillar names the question it asks and its lever. Supply Chain asks what is inside what I shipped, with the lever of comprehension. Third-Party asks what I handed off and who holds the bag, with the lever of containment. Process asks whether the way we build produces security or bolts it on, with the lever of feedback. Runtime asks whether we can sense what production is doing now, with the lever of observability. Spanning all four runs a band, Adaptive Capacity, the one condition you cannot staff: whether the system as a whole can absorb a surprise it was not designed for and keep working. It runs across the other four rather than beside them, the resilience of the whole system. You assess it; you cannot hand it to a team.</desc>
     <rect x="0" y="0" width="760" height="520" fill="#FAFAF7"/>
     <text x="380" y="36" font-size="17" font-weight="700" fill="#2C4A6B" text-anchor="middle">Conditions you cultivate and keep alive</text>
     <text x="380" y="58" font-size="12" fill="#2A2520" text-anchor="middle">Four you can staff. One you cannot.</text>
@@ -58,25 +58,27 @@ There are four conditions you can hand to a team, and one you cannot.
       <text x="660" y="265" font-size="10" fill="#C9D8E6" text-anchor="middle">recovery</text>
     </g>
     <text x="380" y="398" font-size="10.5" font-style="italic" fill="#6B6456" text-anchor="middle">functions you can name, staff, and put on an org chart</text>
-    <!-- foundation bar: Adaptive Capacity -->
+    <!-- Adaptive Capacity: the band that spans all four -->
     <rect x="40" y="404" width="700" height="86" rx="6" fill="#B8956A" stroke="#9A7A52" stroke-width="2"/>
     <text x="380" y="432" font-size="15" font-weight="700" fill="#2A2520" text-anchor="middle">Adaptive Capacity &#183; the fifth condition, the one you cannot staff</text>
     <text x="380" y="454" font-size="11.5" fill="#2A2520" text-anchor="middle">Can the system absorb a surprise it was not designed for and keep working?</text>
-    <text x="380" y="474" font-size="11" font-style="italic" fill="#3A3026" text-anchor="middle">Runs beneath all four as their foundation. You assess it; you cannot hand it to a team.</text>
+    <text x="380" y="474" font-size="11" font-style="italic" fill="#3A3026" text-anchor="middle">Runs across all four as the resilience of the whole system. You assess it; you cannot hand it to a team.</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Four conditions you can name, staff, and put on an org chart, plus Adaptive Capacity running underneath all four. You assess the fifth; you cannot hand it to a team.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Four conditions you can name, staff, and put on an org chart, plus Adaptive Capacity, the resilience of the whole system, running across all four. You assess the fifth; you cannot hand it to a team.</figcaption>
 </figure>
 
 ## The four you can staff
 
-| Condition | The question it asks | The lever |
-|-----------|----------------------|-----------|
-| **[Supply Chain](supply-chain.md)** (#1) | Do I know what is *inside* what I shipped? | Comprehension: SBOM, provenance, signing, pinning |
-| **[Third-Party](third-party.md)** | Do I know what I *handed off*, and who holds the bag when it fails? | Containment: blast-radius limits, shared-responsibility clarity, failover |
-| **[Process](process.md)** | Does the way we build *produce* security, or bolt it on afterward? | Feedback: security arriving while the work happens, ahead of the end-of-cycle review |
-| **[Runtime](runtime.md)** | Can we *sense* what production is doing right now and respond before a user does? | Observability: detection, response, recovery |
+| Condition | Kind | The question it asks | The lever |
+|-----------|------|----------------------|-----------|
+| **[Supply Chain](supply-chain.md)** (#1) | Domain | Do I know what is *inside* what I shipped? | Comprehension: SBOM, provenance, signing, pinning |
+| **[Third-Party](third-party.md)** | Domain | Do I know what I *handed off*, and who holds the bag when it fails? | Containment: blast-radius limits, shared-responsibility clarity, failover |
+| **[Process](process.md)** | Mechanism | Does the way we build *produce* security, or bolt it on afterward? | Feedback: security arriving while the work happens, ahead of the end-of-cycle review |
+| **[Runtime](runtime.md)** | Domain | Can we *sense* what production is doing right now and respond before a user does? | Observability: detection, response, recovery |
 
 These four map to functions you can name, staff, and put on an org chart. That is deliberate. A condition you cannot assign to anyone is a condition nobody tends.
+
+The four are not the same kind of thing. Supply Chain, Third-Party, and Runtime are **domains**, a scope of risk you can point to: the code you pulled in, the services you handed off, the system running now. **Process** is a **mechanism**: the way those domains get built, which is why a pipeline that emits provenance tends Supply Chain for free. Adaptive Capacity, further down, is a third kind entirely: a property of the whole system, not a domain or a mechanism. The numbers label three different kinds of thing on one list, and tempo is the only ranking the list carries, which is why Supply Chain leads. A domain, a mechanism, and a system property do not belong on the same maturity scale, so read the column before you build a scorecard.
 
 ### Supply Chain and Third-Party are not the same condition
 
@@ -158,6 +160,63 @@ The conditions are coupled, and the coupling is where leverage hides:
 - **Process** is where the other conditions either get cultivated or get skipped. A build pipeline that produces provenance is tending Supply Chain for free.
 - **Third-Party** failures are bounded by **Runtime** containment. The vendor breach you survive is the one whose blast radius you limited in advance.
 - **Adaptive Capacity** is how all four improve at all. Without it, you are just repainting the same four walls on a fixed cadence.
+
+<figure>
+  <svg viewBox="0 0 760 548" role="img" aria-labelledby="sf2-ac-title sf2-ac-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:760px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
+    <title id="sf2-ac-title">Adaptive Capacity as the emergent output of the four conditions and their seams</title>
+    <desc id="sf2-ac-desc">A convergence diagram. Across the top sit the four conditions you can staff. Supply Chain, Third-Party, and Runtime are marked as domains, a scope of risk you can point to. Process, set apart with a gold border, is marked as a mechanism: the way the other three get built. Between the conditions sit three seams, small gold diamonds, the couplings where a weakness in one condition surfaces in another. Arrows flow downward from all four conditions and from the three seams into a single wide node at the bottom: Adaptive Capacity. The diagram presents Adaptive Capacity as the emergent output of the whole system, produced by the four conditions together and by the seams between them, rather than as a fifth peer beside them or a foundation beneath them. You assess whether the system has this capacity; you cannot hand it to a team.</desc>
+    <defs>
+      <marker id="ac-azul" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
+      <marker id="ac-oro" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#B8956A"/></marker>
+    </defs>
+    <rect x="0" y="0" width="760" height="548" fill="#FAFAF7"/>
+    <text x="380" y="32" font-size="17" font-weight="700" fill="#2C4A6B" text-anchor="middle">How the fifth condition emerges</text>
+    <text x="380" y="54" font-size="11.5" fill="#2A2520" text-anchor="middle">Adaptive Capacity is what the other four conditions, and the seams between them, produce together.</text>
+    <!-- four source conditions -->
+    <g>
+      <!-- Supply Chain (domain) -->
+      <rect x="30" y="86" width="150" height="76" rx="6" fill="#2C4A6B" stroke="#21384F" stroke-width="2"/>
+      <text x="105" y="122" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Supply Chain</text>
+      <text x="105" y="142" font-size="10" fill="#C9D8E6" text-anchor="middle" font-style="italic">domain</text>
+      <!-- Third-Party (domain) -->
+      <rect x="215" y="86" width="150" height="76" rx="6" fill="#2C4A6B" stroke="#21384F" stroke-width="2"/>
+      <text x="290" y="122" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Third-Party</text>
+      <text x="290" y="142" font-size="10" fill="#C9D8E6" text-anchor="middle" font-style="italic">domain</text>
+      <!-- Process (mechanism, oro border) -->
+      <rect x="400" y="86" width="150" height="76" rx="6" fill="#2C4A6B" stroke="#B8956A" stroke-width="3"/>
+      <text x="475" y="122" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Process</text>
+      <text x="475" y="142" font-size="10" fill="#EAD9BF" text-anchor="middle" font-style="italic">mechanism</text>
+      <!-- Runtime (domain) -->
+      <rect x="585" y="86" width="150" height="76" rx="6" fill="#2C4A6B" stroke="#21384F" stroke-width="2"/>
+      <text x="660" y="122" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Runtime</text>
+      <text x="660" y="142" font-size="10" fill="#C9D8E6" text-anchor="middle" font-style="italic">domain</text>
+    </g>
+    <!-- seams: gold diamonds in the gaps -->
+    <g>
+      <polygon points="197,199 205,207 197,215 189,207" fill="#B8956A" stroke="#9A7A52" stroke-width="1"/>
+      <polygon points="382,199 390,207 382,215 374,207" fill="#B8956A" stroke="#9A7A52" stroke-width="1"/>
+      <polygon points="567,199 575,207 567,215 559,207" fill="#B8956A" stroke="#9A7A52" stroke-width="1"/>
+    </g>
+    <!-- condition arrows (azul) converging into Adaptive Capacity -->
+    <line x1="105" y1="164" x2="235" y2="424" stroke="#2C4A6B" stroke-width="2" marker-end="url(#ac-azul)"/>
+    <line x1="290" y1="164" x2="330" y2="424" stroke="#2C4A6B" stroke-width="2" marker-end="url(#ac-azul)"/>
+    <line x1="475" y1="164" x2="430" y2="424" stroke="#2C4A6B" stroke-width="2" marker-end="url(#ac-azul)"/>
+    <line x1="660" y1="164" x2="525" y2="424" stroke="#2C4A6B" stroke-width="2" marker-end="url(#ac-azul)"/>
+    <!-- seam arrows (oro, dashed) converging into Adaptive Capacity -->
+    <line x1="197" y1="216" x2="283" y2="424" stroke="#B8956A" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac-oro)"/>
+    <line x1="382" y1="216" x2="380" y2="424" stroke="#B8956A" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac-oro)"/>
+    <line x1="567" y1="216" x2="477" y2="424" stroke="#B8956A" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac-oro)"/>
+    <!-- Adaptive Capacity: emergent output node -->
+    <rect x="120" y="430" width="520" height="86" rx="6" fill="#B8956A" stroke="#9A7A52" stroke-width="2"/>
+    <text x="380" y="462" font-size="15" font-weight="700" fill="#2A2520" text-anchor="middle">Adaptive Capacity</text>
+    <text x="380" y="484" font-size="11.5" fill="#2A2520" text-anchor="middle">The emergent output of the four and their seams.</text>
+    <text x="380" y="503" font-size="11" font-style="italic" fill="#3A3026" text-anchor="middle">You assess whether the system has it. You cannot hand it to a team.</text>
+    <!-- legend -->
+    <polygon points="34,532 41,539 34,546 27,539" fill="#B8956A" stroke="#9A7A52" stroke-width="1"/>
+    <text x="48" y="543" font-size="10" fill="#6B6456">seam: the coupling between two conditions, where the leverage hides</text>
+  </svg>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Adaptive Capacity is a different kind of thing from the other four: the resilience of the whole system, which you assess but cannot staff.</figcaption>
+</figure>
 
 Invest where a single move strengthens more than one condition at once. Those are the moves worth sequencing first.
 
