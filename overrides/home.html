@@ -1,0 +1,144 @@
+{% extends "main.html" %}
+
+{#
+  SF² landing page. Council-approved "structure yes, texture no": the proven
+  section order rendered entirely in the Talavera publication language.
+  Content lives here (not docs/index.md) for layout control; index.md carries
+  only frontmatter (template + hide + title/description for SEO).
+  Restraint is enforced by size. Do not add cards, logos, avatars, or grids.
+#}
+
+{% block content %}
+<div class="sf2-home">
+
+  {# ---------- 1. HERO ---------- #}
+  <section class="sf2-home-hero" aria-labelledby="sf2-hero-headline">
+    <div class="sf2-home-hero-copy">
+      <h1 id="sf2-hero-headline" class="sf2-home-headline">Security strategy starts with where you actually stand.</h1>
+      <p class="sf2-home-lede">A strategic mental model for scaling security in the software factory: where your organization sits, what to fund first, and why it compounds.</p>
+      <p class="sf2-home-cta">
+        <a class="md-button md-button--primary" href="{{ 'executive-summary/' | url }}">Read the framework &rarr;</a>
+      </p>
+    </div>
+
+    <figure class="sf2-home-hero-figure">
+      <svg class="sf2-hero-svg" viewBox="0 0 680 524" role="img" aria-labelledby="sf2-hero-svg-title sf2-hero-svg-desc" xmlns="http://www.w3.org/2000/svg">
+        <title id="sf2-hero-svg-title">The SF² two-axis positioning model</title>
+        <desc id="sf2-hero-svg-desc">A two-by-two matrix. The horizontal axis is Blast Radius, the inherent reach of a failure, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, rising from Lower at the bottom to Higher at the top. Four positions: Studio is small reach with higher readiness (top left); Lean is large reach with higher readiness (top right); Craft is small reach with lower readiness (bottom left); Mass is large reach with lower readiness (bottom right). Both top-row positions, Studio and Lean, are ideal end states for their reach.</desc>
+
+        <!-- Ideal band: the top row (higher readiness, the floor built) is the ideal at any reach -->
+        <rect class="hq-ideal" x="110" y="60" width="500" height="200"/>
+
+        <!-- quadrant frames -->
+        <rect class="hq" x="110" y="60"  width="250" height="200"/>
+        <rect class="hq" x="360" y="60"  width="250" height="200"/>
+        <rect class="hq" x="110" y="260" width="250" height="200"/>
+        <rect class="hq" x="360" y="260" width="250" height="200"/>
+
+        <!-- quadrant labels -->
+        <text class="hq-title" x="235" y="150" text-anchor="middle">Studio</text>
+        <text class="hq-sub"   x="235" y="174" text-anchor="middle">small reach, floor built</text>
+
+        <text class="hq-title" x="485" y="150" text-anchor="middle">Lean</text>
+        <text class="hq-sub"   x="485" y="174" text-anchor="middle">large reach, floor built</text>
+
+        <text class="hq-title" x="235" y="350" text-anchor="middle">Craft</text>
+        <text class="hq-sub"   x="235" y="374" text-anchor="middle">small reach, by hand</text>
+
+        <text class="hq-title" x="485" y="350" text-anchor="middle">Mass</text>
+        <text class="hq-sub"   x="485" y="374" text-anchor="middle">large reach, no floor</text>
+
+        <!-- axes -->
+        <line class="hq-axis" x1="110" y1="490" x2="610" y2="490"/>
+        <line class="hq-axis" x1="90"  y1="60"  x2="90"  y2="460"/>
+
+        <!-- x axis labels -->
+        <text class="hq-tick" x="110" y="508" text-anchor="start">Small reach</text>
+        <text class="hq-tick" x="610" y="508" text-anchor="end">Large reach</text>
+        <text class="hq-axislabel" x="360" y="510" text-anchor="middle">Blast Radius</text>
+
+        <!-- y axis labels -->
+        <text class="hq-tick" x="80" y="456" text-anchor="end">Lower</text>
+        <text class="hq-tick" x="80" y="70"  text-anchor="end">Higher</text>
+        <text class="hq-axislabel" x="30" y="260" text-anchor="middle" transform="rotate(-90 30 260)">Operational Readiness</text>
+      </svg>
+    </figure>
+  </section>
+
+  {# ---------- 2. COLOPHON (one hairline-ruled line, oro) ---------- #}
+  <p class="sf2-home-colophon">
+    <a href="https://tldr.tech/security">Featured in tl;dr sec</a>
+    <span class="sf2-home-colophon-sep" aria-hidden="true">&middot;</span>
+    <a href="https://github.com/juliedavila/software-factory-security-framework"><svg class="sf2-colophon-mk" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Open on GitHub</a>
+    <span class="sf2-home-colophon-sep" aria-hidden="true">&middot;</span>
+    <a href="https://creativecommons.org/licenses/by/4.0/"><svg class="sf2-colophon-mk" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm0 1.45A6.55 6.55 0 111.45 8 6.54 6.54 0 018 1.45z"/><path d="M6.2 6.1a1.9 1.9 0 00-1.36.53 1.94 1.94 0 00-.5 1.4 1.86 1.86 0 00.5 1.36 1.79 1.79 0 001.33.53 1.9 1.9 0 001.2-.4 2 2 0 00.66-1l-1-.52a1 1 0 01-.28.5.68.68 0 01-.46.16c-.5 0-.75-.33-.75-1 0-.63.25-.95.74-.95a.62.62 0 01.44.16 1 1 0 01.27.48l1-.53a2 2 0 00-.65-1 1.86 1.86 0 00-1.2-.4zm4.6 0a1.9 1.9 0 00-1.36.53 1.94 1.94 0 00-.5 1.4 1.86 1.86 0 00.5 1.36 1.79 1.79 0 001.33.53 1.9 1.9 0 001.2-.4 2 2 0 00.66-1l-1-.52a1 1 0 01-.28.5.68.68 0 01-.46.16c-.5 0-.75-.33-.75-1 0-.63.25-.95.74-.95a.62.62 0 01.44.16 1 1 0 01.27.48l1-.53a2 2 0 00-.65-1 1.86 1.86 0 00-1.2-.4z"/></svg>CC BY 4.0</a>
+  </p>
+
+  {# ---------- 3. THE PROBLEM (essay passage, long-measure) ---------- #}
+  <section class="sf2-home-prose" aria-labelledby="sf2-problem-h">
+    <h2 id="sf2-problem-h">The scaling wall</h2>
+    <p>Run a security org long enough and the math catches up with you. Demand for security work grows faster than your team's capacity to deliver it, and there's a day when the two cross. The usual answer, hiring more security people, buys time and then stops scaling.</p>
+    <p>SF&sup2; (the Software Factory Security Framework) takes a different route. Capacity is one factor among several, and the deeper question is strategic: where does your organization actually stand, and what security work compounds from there. It compounds because the investments that scale, like automation, self-service, and policy-as-code, keep paying down manual effort for every team downstream. Answer that first, and resourcing becomes a positioning decision instead of a hiring race.</p>
+  </section>
+
+  {# ---------- 4. THE MODEL (visible structure = table of contents) ---------- #}
+  <section class="sf2-home-model" aria-labelledby="sf2-model-h">
+    <h2 id="sf2-model-h">The model</h2>
+
+    <p class="sf2-home-model-intro">Two ideas carry the framework, and each is an entry point into the docs.</p>
+
+    <h3 class="sf2-home-model-sub">Five Universal Security Conditions</h3>
+    <p class="sf2-home-model-note">Every software-producing organization owes the same five, in priority order. Supply Chain leads because in 2017 adversaries automated dependency discovery at internet scale.</p>
+    <ol class="sf2-home-list">
+      <li><a href="{{ '02-stewardship/supply-chain/' | url }}">Supply Chain</a> <span class="sf2-home-list-tag">#1 since 2017</span></li>
+      <li><a href="{{ '02-stewardship/third-party/' | url }}">Third-Party</a></li>
+      <li><a href="{{ '02-stewardship/process/' | url }}">Process</a></li>
+      <li><a href="{{ '02-stewardship/runtime/' | url }}">Runtime</a></li>
+      <li><a href="{{ '02-stewardship/adaptive-capacity/' | url }}">Adaptive Capacity</a></li>
+    </ol>
+
+    <h3 class="sf2-home-model-sub">Four strategic positions</h3>
+    <p class="sf2-home-model-note">Placement on <a href="{{ '03-positioning/two-axis-model/' | url }}">Blast Radius and Operational Readiness</a> sets your sequence. Blast Radius is how far a failure reaches if containment fails; Operational Readiness is how much of your security is built and proven, rather than done by hand. There is no ladder to climb and no single destination. Wherever you sit, the move is up: build the floor, the proven containment that keeps a failure from cascading, at the reach your business already has. Both top-row positions are ideal end states: Studio for small reach, Lean for large.</p>
+    <ul class="sf2-home-list sf2-home-list-plain">
+      <li><a href="{{ '06-implementation/studio/' | url }}">Studio</a> <span class="sf2-home-list-desc">small reach, floor built</span></li>
+      <li><a href="{{ '06-implementation/lean/' | url }}">Lean</a> <span class="sf2-home-list-desc">large reach, floor built</span></li>
+      <li><a href="{{ '06-implementation/craft/' | url }}">Craft</a> <span class="sf2-home-list-desc">small reach, by hand</span></li>
+      <li><a href="{{ '06-implementation/mass/' | url }}">Mass</a> <span class="sf2-home-list-desc">large reach, no floor</span></li>
+    </ul>
+  </section>
+
+  {# ---------- 5. RECEPTION (dated v0.6 pull-quotes; NO avatars/logos/grid) ---------- #}
+  <section class="sf2-home-reception" aria-labelledby="sf2-reception-h">
+    <p class="sf2-home-eyebrow" id="sf2-reception-h">On the v0.6 draft, late 2025</p>
+
+    <blockquote class="sf2-home-quote">
+      <p>The level of completion on this framework is inspiring. Thrilled you put this out with CC.</p>
+      <footer class="sf2-home-attribution">Fred Wilmot <span>Founder &amp; 3x CISO (Splunk, Devo, JumpCloud)</span></footer>
+    </blockquote>
+
+    <div class="sf2-cenefa-divider" role="separator" aria-hidden="true"></div>
+
+    <blockquote class="sf2-home-quote">
+      <p>Super detailed, tons of great insights. I especially like the Investment Evaluation Framework for what to invest in, and Designing Security Capabilities That Compound. Awesome work!</p>
+      <footer class="sf2-home-attribution">Clint Gibler <span>Leading Cyber @ OpenAI &middot; creator, tl;dr sec</span></footer>
+    </blockquote>
+  </section>
+
+  {# ---------- 6. HOW THIS WAS MADE (the community-shaped story) ---------- #}
+  <section class="sf2-home-prose sf2-home-story" aria-labelledby="sf2-story-h">
+    <h2 id="sf2-story-h">How this was made</h2>
+    <p>I shipped a draft and asked the security community to tell me what I got wrong. People did. CISOs, researchers, and engineers pushed on the framework in public, some of it pointed, and the framework changed because of it. One example: after that public critique, the framework added its Defender Cost Economics analysis. The quotes above date to that v0.6 draft. They are early reception, and the framework has changed substantially since.</p>
+    <p class="sf2-home-story-cta"><a href="{{ 'appendix/evolution/' | url }}">See how it evolved, v0.6 to v1.2 &rarr;</a></p>
+  </section>
+
+  {# ---------- 7. CLOSING ---------- #}
+  <section class="sf2-home-closing" aria-labelledby="sf2-closing-h">
+    <h2 id="sf2-closing-h" class="sr-only">Read the framework</h2>
+    <p class="sf2-home-cta">
+      <a class="md-button md-button--primary" href="{{ 'executive-summary/' | url }}">Read the framework &rarr;</a>
+    </p>
+    <p class="sf2-home-closing-note">Disagree with a call it makes? <a href="https://github.com/juliedavila/software-factory-security-framework/issues">Challenge it on GitHub.</a></p>
+  </section>
+
+</div>
+{% endblock %}

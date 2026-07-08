@@ -646,3 +646,158 @@ textarea:focus,
 }
 [data-md-color-scheme="slate"] .sf2-timeline-ver { color: var(--sf2-azul-light); }
 [data-md-color-scheme="slate"] .sf2-timeline-era { color: var(--sf2-azul-light); }
+
+/* ============================================
+   LANDING PAGE (overrides/home.html)
+   "Structure yes, texture no": proven section order, Talavera texture.
+   Whitespace is the persuasion. Oro used exactly twice here (colophon rule
+   + colophon separators); the single cenefa in section 5 reuses the shared
+   .sf2-cenefa-divider ornament. No cards, no logos, no avatars, no grids.
+   ============================================ */
+
+.sf2-home {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0.5rem 0 1.5rem;
+}
+
+/* 1. Hero: copy + the quiet Talavera object, side by side on wide screens */
+.sf2-home-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.4rem;
+  margin: 1.2rem 0 2.4rem;
+}
+.sf2-home-hero-copy { flex: 1 1 20rem; }
+.sf2-home-hero-figure { flex: 1 1 20rem; margin: 0; }
+
+.md-typeset .sf2-home-headline {
+  font-family: "Cardo", "Source Serif 4", Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4.4vw, 2.9rem);
+  line-height: 1.13;
+  letter-spacing: 0.004em;
+  color: var(--sf2-ink);
+  margin: 0 0 0.7rem;
+}
+.md-typeset .sf2-home-lede {
+  font-size: 1.16rem;
+  line-height: 1.5;
+  color: var(--md-default-fg-color--light);
+  max-width: 32ch;
+  margin: 0 0 1.3rem;
+}
+.sf2-home-cta { margin: 0; }
+
+/* Hero diagram: Talavera monochrome, theme-aware, all four labels retained */
+.sf2-hero-svg {
+  display: block;
+  width: 100%;
+  max-width: 34rem;
+  height: auto;
+  margin: 0 auto;
+  font-family: "Source Serif 4", Georgia, serif;
+}
+.sf2-hero-svg .hq { fill: none; stroke: var(--sf2-azul); stroke-width: 2; }
+.sf2-hero-svg .hq-ideal { fill: var(--sf2-azul); opacity: 0.08; }
+.sf2-hero-svg .hq-title {
+  font-family: "Cardo", "Source Serif 4", Georgia, serif;
+  font-weight: 700;
+  font-size: 23px;
+  fill: var(--sf2-azul);
+}
+.sf2-hero-svg .hq-sub { font-size: 12.5px; fill: var(--sf2-ink); opacity: 0.72; }
+.sf2-hero-svg .hq-axis { stroke: var(--sf2-ink); stroke-width: 1.4; opacity: 0.55; }
+.sf2-hero-svg .hq-tick { font-size: 13px; fill: var(--sf2-ink); opacity: 0.7; }
+.sf2-hero-svg .hq-axislabel { font-weight: 700; font-size: 15px; fill: var(--sf2-azul); }
+
+/* 2. Colophon: one hairline-ruled line (the two oro uses live here) */
+.md-typeset .sf2-home-colophon {
+  text-align: center;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: var(--md-default-fg-color--light);
+  padding: 0.75rem 0;
+  margin: 0 auto 2.6rem;
+  max-width: 40rem;
+  border-top: 1px solid var(--sf2-oro);
+  border-bottom: 1px solid var(--sf2-oro);
+}
+.sf2-home-colophon-sep { color: var(--md-default-fg-color--lighter); margin: 0 0.5rem; }
+.md-typeset .sf2-home-colophon a { display: inline-flex; align-items: center; gap: 0.32em; }
+.sf2-colophon-mk { width: 0.9em; height: 0.9em; fill: currentColor; flex: none; vertical-align: -0.12em; }
+
+/* 3 + 6. Prose sections: essay long-measure */
+.sf2-home-prose { max-width: 40rem; margin: 0 auto 2.6rem; }
+.md-typeset .sf2-home-prose h2 { margin-top: 0; }
+.md-typeset .sf2-home-prose p { font-size: 1.05rem; line-height: 1.66; }
+
+/* 4. The model: visible structure that doubles as a table of contents */
+.sf2-home-model { max-width: 42rem; margin: 0 auto 2.6rem; }
+.md-typeset .sf2-home-model-intro { color: var(--md-default-fg-color--light); }
+.md-typeset .sf2-home-model-sub { font-size: 1.05rem; margin: 1.6rem 0 0.2rem; }
+.md-typeset .sf2-home-model-note { font-size: 0.95rem; color: var(--md-default-fg-color--light); margin: 0 0 0.6rem; }
+.md-typeset .sf2-home-list { margin: 0.3rem 0 0; }
+.md-typeset .sf2-home-list li { margin-bottom: 0.25rem; }
+.md-typeset .sf2-home-list a { font-weight: 600; }
+.sf2-home-list-plain { list-style: none; padding-left: 0; }
+.sf2-home-list-tag,
+.sf2-home-list-desc { color: var(--md-default-fg-color--light); font-size: 0.85rem; font-weight: 400; }
+
+/* 5. Reception: dated pull-quotes, no avatars/logos/grid */
+.sf2-home-reception { max-width: 40rem; margin: 0 auto 2.6rem; }
+.md-typeset .sf2-home-eyebrow {
+  font-family: "Cardo", "Source Serif 4", Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--sf2-azul-dark);
+  text-align: center;
+  margin: 0 0 1.4rem;
+}
+.md-typeset .sf2-home-quote {
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 34rem;
+}
+.md-typeset .sf2-home-quote p {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--sf2-ink);
+  margin: 0;
+}
+.sf2-home-attribution {
+  font-style: normal;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--sf2-azul);
+  margin-top: 0.6rem;
+}
+.sf2-home-attribution span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* 7. Closing */
+.sf2-home-closing { text-align: center; margin: 0 auto; max-width: 40rem; }
+.md-typeset .sf2-home-closing-note { font-size: 0.95rem; color: var(--md-default-fg-color--light); margin-top: 0.9rem; }
+.sf2-home-story-cta { margin-top: 0.6rem; }
+
+/* Dark scheme legibility */
+[data-md-color-scheme="slate"] .sf2-home-headline { color: var(--md-default-fg-color); }
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq { stroke: var(--sf2-azul-light); }
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq-ideal { fill: var(--sf2-azul-light); opacity: 0.13; }
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq-title,
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq-axislabel { fill: var(--sf2-azul-light); }
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq-sub,
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq-tick { fill: var(--md-default-fg-color--light); opacity: 0.9; }
+[data-md-color-scheme="slate"] .sf2-hero-svg .hq-axis { stroke: var(--md-default-fg-color--light); }
+[data-md-color-scheme="slate"] .sf2-home-eyebrow { color: var(--sf2-azul-light); }
+[data-md-color-scheme="slate"] .sf2-home-attribution { color: var(--sf2-azul-light); }
