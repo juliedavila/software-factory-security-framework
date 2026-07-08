@@ -55,7 +55,7 @@ These two axes create four distinct strategic positions, each with different sec
 <figure>
   <svg viewBox="0 0 680 560" role="img" aria-labelledby="sf2-axis-title sf2-axis-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:680px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-axis-title">SF² two-axis positioning model</title>
-    <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, the lean transformation, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus Higher readiness (top left); Lean is Large reach plus Higher readiness (top right) and is the goal position; Craft is Small reach plus Lower readiness (bottom left); Mass is Large reach plus Lower readiness (bottom right). Mass is Lean's large reach without Lean's floor: ungoverned scale rather than big batch.</desc>
+    <desc id="sf2-axis-desc">A 2x2 matrix. The horizontal axis is Blast Radius, the inherent reach of a failure assuming containment fails, increasing from Small reach on the left to Large reach on the right. The vertical axis is Operational Readiness, with repeatability and proven containment rising from Lower at the bottom to Higher at the top. Four quadrants: Studio is Small reach plus Higher readiness (top left); Lean is Large reach plus Higher readiness (top right); Craft is Small reach plus Lower readiness (bottom left); Mass is Large reach plus Lower readiness (bottom right). The top row is the floor built: Studio is the ideal end state for small-reach organizations, Lean for large-reach organizations. Mass is Lean's large reach without Lean's floor: ungoverned scale rather than big batch.</desc>
     <defs>
       <pattern id="pStudio" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="13" stroke="#009E73" stroke-width="1.2" opacity="0.38"/></pattern>
       <pattern id="pLean" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.5" fill="#0072B2" opacity="0.38"/></pattern>
@@ -75,9 +75,9 @@ These two axes create four distinct strategic positions, each with different sec
     <text x="235" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00553F">Studio</text>
     <text x="235" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + Higher readiness</text>
     <text x="235" y="190" text-anchor="middle" font-size="12" fill="#2A2520">narrow grant, floor built</text>
-    <text x="485" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00557F">Lean &#9733;</text>
+    <text x="485" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#00557F">Lean</text>
     <text x="485" y="172" text-anchor="middle" font-size="12" fill="#2A2520">Large reach + Higher readiness</text>
-    <text x="485" y="190" text-anchor="middle" font-size="12" fill="#2A2520">goal: reach with the floor built</text>
+    <text x="485" y="190" text-anchor="middle" font-size="12" fill="#2A2520">broad grant, floor built</text>
     <text x="235" y="350" text-anchor="middle" font-size="20" font-weight="700" fill="#855A00">Craft</text>
     <text x="235" y="372" text-anchor="middle" font-size="12" fill="#2A2520">Small reach + Lower readiness</text>
     <text x="235" y="390" text-anchor="middle" font-size="12" fill="#2A2520">narrow grant, by hand</text>
@@ -96,16 +96,16 @@ These two axes create four distinct strategic positions, each with different sec
     <text x="80" y="70" text-anchor="end" font-size="13" fill="#3A3530">Higher</text>
     <text x="32" y="260" text-anchor="middle" font-size="14" font-weight="700" fill="#2C4A6B" transform="rotate(-90 32 260)">Operational Readiness (repeatability rising)</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The horizontal axis is inherent blast radius (reach if containment fails); the vertical axis is operational readiness, the lean transformation, repeatability and proven containment rising. <strong>Mass</strong> is Lean's large reach without Lean's floor: ungoverned scale rather than big batch.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The horizontal axis is inherent blast radius (reach if containment fails); the vertical axis is operational readiness, repeatability and proven containment rising. <strong>Mass</strong> is Lean's large reach without Lean's floor: ungoverned scale rather than big batch.</figcaption>
 </figure>
 
 !!! note "Reading the two axes"
-    The horizontal axis is **blast radius**: the inherent reach of a failure if containment fails, set by what authority your automation holds. The vertical axis is **operational readiness**, the lean transformation: moving up means the work becomes more repeatable and a failure provably stays contained. The goal position is **Lean**: large reach with the floor built.
+    The horizontal axis is **blast radius**: the inherent reach of a failure if containment fails, set by what authority your automation holds. The vertical axis is **operational readiness**: moving up means the work becomes more repeatable and a failure provably stays contained. The goal is the top row, the floor built, and it is one goal at two addresses: **Studio** if your reach is small, **Lean** if it is large. You do not choose your reach; the authority you have already granted sets it. The [assessment below](#assessing-your-position) places you.
 
 !!! note "The names are production modes, about flow and containment"
     The four names map to production modes, and the analogy is about flow and containment rather than volume. Lean is the cleanest fit: Toyota's line stops the instant a defect appears so it cannot propagate, which is large flow contained by construction, exactly large reach with the floor built. Craft is the artisan touching one or two things by hand. Studio is the small, bounded, modern shop. **Mass is Lean's large reach without Lean's floor: ungoverned scale rather than big batch.** Under the reach axis the border that matters is against Lean rather than against Ford's assembly line.
 
-Each position is drawn out in full on [Four Strategic Positions](strategic-positions.md): its characteristics, security approach, investment priorities, and common pitfalls. In short: **Studio** is small reach with the floor built, **Lean** is large reach with the floor built (the goal position), **Craft** is small reach done by hand, and **Mass** is large reach with no floor under it.
+Each position is drawn out in full on [Four Strategic Positions](strategic-positions.md): its characteristics, security approach, investment priorities, and common pitfalls. In short: **Studio** is small reach with the floor built, **Lean** is large reach with the floor built, **Craft** is small reach done by hand, and **Mass** is large reach with no floor under it. The top row is the goal at either reach; Craft and Mass are those same two reaches without the floor.
 
 ## Assessing Your Position
 
@@ -119,6 +119,9 @@ Use these questions to determine your organization's position:
 | **Worst-case propagation:** if your single most-privileged non-human identity were fully compromised now, how far does damage reach before something *not also compromised* stops it? | Contained to one blast cell | Cascades across the estate |
 | **Autonomy depth:** how much can automation *do* rather than merely read, without a human checkpoint (open and merge code, move money, grant access, drop data)? | Read or propose only; humans commit consequential actions | Acts and commits consequential actions unattended |
 | **Authority concentration:** does any single credential, role, or agent hold standing authority broad enough that its misuse is an enterprise event? | No; authority attenuated per task | Yes; broad standing authority exists |
+
+!!! note "If the answers are split"
+    Reach is a sum, so it tips on the strongest answer. If any row above lands in the Large reach column, especially worst-case propagation or authority concentration, treat your reach as large. One broad grant is enough to put the whole estate in the blast.
 
 ### Operational Readiness Assessment
 
@@ -151,7 +154,7 @@ Position is a sequencing and funding diagnostic rather than an architecture one.
 
 ## Strategic Movement Paths
 
-Most organizations are working toward Lean, but the route depends on where they start. Every move, with its investments, timeline, and likelihood, is laid out on [Strategic Movement Paths](movement-paths.md), which lays all six out in a summary table. The one worth naming here: **Craft → Mass is drift rather than a strategy**, reach that outran the floor. It is the move to guard against.
+Most organizations are working upward: building the floor under the reach they already hold. Small reach lands that climb in Studio; large reach lands it in Lean. The route depends on where they start. Every move, with its investments, timeline, and likelihood, is laid out on [Strategic Movement Paths](movement-paths.md), which lays all six out in a summary table. The one worth naming here: **Craft → Mass is drift rather than a strategy**, reach that outran the floor. It is the move to guard against.
 
 ## Using Position to Guide Security Strategy
 

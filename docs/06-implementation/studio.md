@@ -207,8 +207,8 @@ As your organization grows, your inherent reach will naturally widen. To maintai
 
 **Timeline**: Ongoing; requires continuous attention
 
-### Advancing to Lean
-When your reach widens (more automation authority, broader scope; often 100+ engineers, multiple products):
+### If Your Reach Widens
+Studio is a finished end state for as long as your reach stays small. Lean becomes your end state only when the business widens your reach (more automation authority, broader scope; often 100+ engineers, multiple products). When that happens:
 
 **Strategy**: Thoughtful complexity management while maintaining readiness
 
@@ -227,7 +227,7 @@ When your reach widens (more automation authority, broader scope; often 100+ eng
 
 ## Next Steps
 
-[:octicons-arrow-right-24: Continue to Lean Implementation](lean.md){ .md-button .md-button--primary }
+[:octicons-arrow-right-24: If your reach widens: Lean Implementation](lean.md){ .md-button .md-button--primary }
 [:octicons-arrow-left-24: Back to Contextual Modifiers](../05-context/overview.md){ .md-button }
 
 [:octicons-arrow-right-24: Edit this page](https://github.com/juliedavila/software-factory-security-framework/edit/master/docs/06-implementation/studio.md){ .md-button }

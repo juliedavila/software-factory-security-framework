@@ -20,10 +20,10 @@
 : The "how you operate" axis: automation, infrastructure modernity, process maturity, and the ability to prove containment holds (Lower → Higher).
 
 **Studio**
-: Organizations with small inherent reach and high readiness (Small reach + Higher Readiness): narrow grants, floor built.
+: Organizations with small inherent reach and high readiness (Small reach + Higher Readiness): narrow grants, floor built. The ideal end state for small-reach organizations.
 
 **Lean**
-: Organizations with large inherent reach and proven containment (Large reach + Higher Readiness). The goal position: large blast radius with the floor built.
+: Organizations with large inherent reach and proven containment (Large reach + Higher Readiness). The ideal end state for large-reach organizations: large blast radius with the floor built.
 
 **Craft**
 : Organizations with small inherent reach and low readiness (Small reach + Lower Readiness): narrow grants, containment unproven.

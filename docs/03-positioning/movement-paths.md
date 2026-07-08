@@ -2,7 +2,7 @@
 
 ## How Organizations Transition Between Positions
 
-Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving toward the Lean position (Large reach + Higher Readiness), but **the path you take determines your likelihood of success**.
+Understanding your current [strategic position](strategic-positions.md) is only the first step. Most organizations benefit from moving up, building the floor under the reach they already hold (Studio at small reach, Lean at large), but **the path you take determines your likelihood of success**.
 
 !!! warning "The Transformation Reality"
     Quadrant transitions are organizational transformations rather than technology projects. The tractable moves change one axis at a time. But one axis is not automatically quick: widening reach is fast and cheap (you just grant the authority), while building the containment floor under reach you already hold is slow. Climbing from Mass to Lean is a single-axis move on paper and still takes 36-60 months, because the floor has to cover the whole estate. The moves that fail most often are the ones that widen reach and build containment at the same time.
@@ -13,16 +13,18 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 
 ## The Strategic Movement Framework
 
-### The Goal Position: Lean
+### The Goal: The Floor Built at Your Reach
 
-**Why Lean**: The Lean quadrant combines enterprise-scale capabilities with operational excellence. Organizations in this position achieve:
+**One goal, two addresses**: the floor built, higher readiness proven at whatever reach your business already holds. A small-reach organization reaches that goal at Studio; a large-reach organization reaches it at Lean. Higher readiness is always the move; only the reach it lands at changes.
+
+**What the top row buys you** (Studio and Lean both):
 
 - Security capabilities that scale automatically with organizational growth
-- Developer experience improvements that increase rather than constrain velocity
-- Platform approaches that enable innovation while maintaining security capabilities
-- Cultural integration where security is a competitive advantage rather than a constraint
+- Developer experience improvements that increase velocity
+- Platform approaches that enable innovation while holding security
+- Cultural integration where security is a competitive advantage
 
-**Reality Check**: Not every organization needs to reach Lean immediately. Your optimal target depends on your business trajectory and organizational change capacity.
+**Reality Check**: Lean is the goal only for large-reach organizations. If your reach is small, your end state is Studio, and it stays Studio for as long as your reach stays small. When the business widens your reach, build the floor first, so you pass through Studio rather than Mass.
 
 ---
 
@@ -35,7 +37,7 @@ Understanding your current [strategic position](strategic-positions.md) is only 
 | **Studio → Lean** | Single-axis (Reach ↑) | 24-36 months | High ⭐⭐⭐⭐ | [Enterprise Scaling Path](#path-3-studio-lean-enterprise-scaling) |
 | **Mass → Craft** | Single-axis (Reach ↓) | 18-30 months | Low ⭐ | [Simplification Path](#path-4-mass-craft-simplification) |
 | **Mass → Lean** | Single-axis (Readiness ↑, large reach) | 36-60 months | Moderate ⭐⭐ | [The Containment Climb](#path-5-mass-lean-the-containment-climb) |
-| **Lean → Lean** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Excellence Sustainment](#path-6-maintaining-lean-position) |
+| **Studio/Lean → same** | Position Maintenance | Ongoing | High ⭐⭐⭐⭐ | [Sustaining a Top-Row Position](#path-6-maintaining-a-top-row-position-studio-or-lean) |
 
 The timelines above are install-and-build floors. A move is not done until it is absorbed, and two major moves that run through the same quarters draw on one absorption budget rather than two. Sequence by that budget rather than by what your calendar can install (see [Change Capacity](../05-context/change-capacity.md)).
 
@@ -44,7 +46,7 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
 <figure>
   <svg viewBox="0 0 720 600" role="img" aria-labelledby="sf2-mv-title sf2-mv-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
     <title id="sf2-mv-title">SF² strategic movement paths on the two-axis model</title>
-    <desc id="sf2-mv-desc">The four-quadrant positioning grid with movement arrows. Three tractable single-axis moves are shown as solid arrows: Craft up to Studio (raise readiness, 12 to 18 months), Studio right to Lean (widen reach, 24 to 36 months), and Mass up to Lean (build the floor under reach you already hold, 36 to 60 months, the containment climb). One dashed arrow shows Craft right to Mass: drift, reach outran the floor. One diagonal arrow from Craft to Lean is crossed out: moving on both axes at once carries the highest failure rate. The goal position is Lean, top right.</desc>
+    <desc id="sf2-mv-desc">The four-quadrant positioning grid with movement arrows. Three tractable single-axis moves are shown as solid arrows: Craft up to Studio (raise readiness, 12 to 18 months), Studio right to Lean (widen reach, 24 to 36 months), and Mass up to Lean (build the floor under reach you already hold, 36 to 60 months, the containment climb). One dashed arrow shows Craft right to Mass: drift, reach outran the floor. One diagonal arrow from Craft to Lean is crossed out: moving on both axes at once carries the highest failure rate. The goal is the top row, the floor built: Studio for small reach, Lean for large.</desc>
     <defs>
       <marker id="mv-arrow" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2C4A6B"/></marker>
       <marker id="mv-arrow-drift" markerWidth="11" markerHeight="11" refX="7.5" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#A6450B"/></marker>
@@ -58,8 +60,8 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
     <!-- quadrant labels (top-left, short) -->
     <text x="148" y="98" font-size="18" font-weight="700" fill="#00553F">Studio</text>
     <text x="148" y="117" font-size="11" fill="#2A2520">small reach, higher readiness</text>
-    <text x="398" y="98" font-size="18" font-weight="700" fill="#00557F">Lean &#9733;</text>
-    <text x="398" y="117" font-size="11" fill="#2A2520">goal: reach with the floor built</text>
+    <text x="398" y="98" font-size="18" font-weight="700" fill="#00557F">Lean</text>
+    <text x="398" y="117" font-size="11" fill="#2A2520">large reach, floor built</text>
     <text x="148" y="298" font-size="18" font-weight="700" fill="#855A00">Craft</text>
     <text x="148" y="317" font-size="11" fill="#2A2520">small reach, lower readiness</text>
     <text x="398" y="298" font-size="18" font-weight="700" fill="#A6450B">Mass</text>
@@ -101,7 +103,7 @@ These ranges and likelihood ratings are practitioner estimates synthesized from 
     <g stroke="#C0392B" stroke-width="2.6"><line x1="566" y1="576" x2="578" y2="588"/><line x1="578" y1="576" x2="566" y2="588"/></g>
     <text x="588" y="586" font-size="11" fill="#2A2520">diagonal: do not attempt</text>
   </svg>
-  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The three tractable moves change one axis at a time. The dashed path is drift to guard against; the crossed diagonal is the two-axis move that fails most often. Lean is the goal position.</figcaption>
+  <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">The three tractable moves change one axis at a time. The dashed path is drift to guard against; the crossed diagonal is the two-axis move that fails most often. The top row is the goal at either reach: Studio for small, Lean for large.</figcaption>
 </figure>
 
 ---
@@ -392,7 +394,7 @@ This requires sustained executive support, significant investment, and realistic
 
 ---
 
-## Path 6: Maintaining Lean Position
+## Path 6: Maintaining a Top-Row Position (Studio or Lean)
 
 <div class="quadrant-lean" markdown>
 
@@ -406,7 +408,7 @@ This requires sustained executive support, significant investment, and realistic
 
 ### The Challenge
 
-**You're not done**. The Lean position requires continuous investment to maintain as:
+**You're not done**. Studio and Lean are both finished end states, and holding either requires continuous investment as:
 
 - Organizational complexity continues evolving
 - Technology platforms change and require adaptation
@@ -424,11 +426,11 @@ This requires sustained executive support, significant investment, and realistic
 ### Common Pitfall: Complacency
 
 !!! warning "The 'We've Arrived' Trap"
-    **Risk**: Treating Lean position as destination rather than ongoing commitment
+    **Risk**: Treating a top-row position as a finish line that needs no upkeep
 
     **Symptoms**: Platform investment declining, manual processes creeping back, cultural erosion
 
-    **Solution**: Continuous investment in capabilities matching organizational evolution. Falling from Lean to Mass happens when containment can't keep pace with widening reach.
+    **Solution**: Continuous investment in capabilities matching organizational evolution. Lean falls to Mass when containment can't keep pace with widening reach; Studio falls to Craft when readiness erodes, or to Mass if reach widens without the floor.
 
 ---
 
