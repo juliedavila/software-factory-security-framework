@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 The version source of truth is the "About This Framework" block in
 [`docs/appendix/references.md`](docs/appendix/references.md); annotated git tags mirror it.
 
+## [1.3.0] — 2026-07-08
+
+- Reconciled the positioning model's framing: Lean is no longer described as "the goal
+  position." Both top-row positions are ideal end states for their reach (Studio for small
+  reach, Lean for large), and higher operational readiness stays the universal move.
+- Added a reach-assessment tie-break rule for when the reach signals are split.
+- New landing page for sf2framework.com.
+- Trimmed the "#1 since 2017" callout from the landing page. The rationale is retained in
+  the Supply Chain docs and the glossary.
+
 ## [1.2.0] — 2026-07-07
 
 - Fixed a scoring-logic contradiction in the evaluation criteria (Organizational Change

@@ -180,7 +180,7 @@ Use these terms precisely:
 - **Quadrant names**: Studio, Lean, Craft, Mass (always capitalized). There is no fifth quadrant — "Leader" is a retired pre-rename name; never use it.
 - **Universal Security Conditions** - the canonical name for the five-condition set (v0.6 rename). Never "Universal Stewardship Model", "Universal Stewardship Areas", or "Universal Stewardship Responsibilities". "Stewardship" survives only inside member names (e.g. "Supply Chain Stewardship") and as the tending verb.
 - **Canonical order of the five conditions** (a numbered list implies priority, so order is load-bearing): 1) Supply Chain, 2) Third-Party, 3) Process, 4) Runtime, 5) Adaptive Capacity. This is the nav/section/diagram order; align every enumeration to it.
-- **Version** - single source of truth is `docs/appendix/references.md` "About This Framework". Current: **v1.2.0**. Do not stamp versions on individual content pages (they rot).
+- **Version** - single source of truth is `docs/appendix/references.md` "About This Framework". Current: **v1.3.0**. Do not stamp versions on individual content pages (they rot).
 
 ### Terms to Avoid
 

@@ -1,6 +1,6 @@
 ---
 title: Framework Evolution
-description: How SF² evolved from a shared draft to a complete, cited framework. The v0.6 to v1.2 story.
+description: How SF² evolved from a shared draft to a complete, cited framework. The v0.6 to v1.3 story.
 ---
 
 # How SF² Got Here
@@ -13,7 +13,7 @@ The first versions (v0.1 through v0.5) moved the core thinking out of a Google D
 
 <div class="sf2-cenefa-divider" role="separator" aria-hidden="true"></div>
 
-## From Draft to Framework: v0.6 to v1.2
+## From Draft to Framework: v0.6 to v1.3
 
 <p class="sf2-timeline-era">Late 2025 to July 2026</p>
 
@@ -50,7 +50,11 @@ The draft went out for feedback in late 2025. Eight months on, a focused sprint 
   </li>
   <li class="sf2-timeline-item">
     <span class="sf2-timeline-ver">v1.2.0</span><span class="sf2-timeline-date">Jul 7</span>
-    <p class="sf2-timeline-body">Scoring-logic fix and final editorial polish.<em class="sf2-timeline-note">The current release.</em></p>
+    <p class="sf2-timeline-body">Scoring-logic fix and editorial polish.</p>
+  </li>
+  <li class="sf2-timeline-item is-major">
+    <span class="sf2-timeline-ver">v1.3.0</span><span class="sf2-timeline-date">Jul 8</span>
+    <p class="sf2-timeline-body">Positioning-framing reconciliation and a new landing page.<em class="sf2-timeline-note">The current release.</em></p>
   </li>
 </ol>
 

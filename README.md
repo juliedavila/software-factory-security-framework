@@ -175,7 +175,7 @@ With attribution.
 
 ## 📊 Project Status
 
-**Version:** 1.2.0. See the [changelog](CHANGELOG.md) for the full release history.
+**Version:** 1.3.0. See the [changelog](CHANGELOG.md) for the full release history.
 
 The framework is complete and in active use. Version 1.0 was the first complete, usable release; it stays a living document and keeps evolving as adversaries and practice do.
 
