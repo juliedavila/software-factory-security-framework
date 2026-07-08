@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 The version source of truth is the "About This Framework" block in
 [`docs/appendix/references.md`](docs/appendix/references.md); annotated git tags mirror it.
 
+## [1.3.1] — 2026-07-08
+
+- Made the three kinds of Universal Security Condition explicit: added a Kind column
+  (domain, mechanism, system property) to the conditions table, with a short typology note
+  so that a domain, a mechanism, and a system property are not scored on one maturity scale.
+- Added a companion diagram showing Adaptive Capacity as the emergent output of the four
+  conditions and the seams between them, and reconciled the Adaptive Capacity framing across
+  the section: it runs across the four as the resilience of the whole system, rather than a
+  foundation beneath them.
+
 ## [1.3.0] — 2026-07-08
 
 - Reconciled the positioning model's framing: Lean is no longer described as "the goal
