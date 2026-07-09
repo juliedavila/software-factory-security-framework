@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{#
+  Custom head injection for sf2framework.com.
+  home.html extends "main.html", so it inherits this extrahead too.
+#}
+{% block extrahead %}
+  {{ super() }}
+  <!-- Privacy-friendly analytics by Plausible (cookieless, no consent banner) -->
+  <script async src="https://plausible.io/js/pa-u1TBg-Lu6HtTdh9h4X1IV.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
+{% endblock %}
