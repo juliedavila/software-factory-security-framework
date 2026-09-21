@@ -20,13 +20,13 @@ When it is missing, the other four conditions can each look fine on a maturity c
 
 ## Why it runs across the other four
 
-Adaptive Capacity is how all four of the other conditions improve at all. It is the health of all four at once rather than a fifth lane staffed beside them, the question of whether [Supply Chain](supply-chain.md), [Third-Party](third-party.md), [Process](process.md), and [Runtime](runtime.md) are getting better faster than their failure modes are. A maturity chart can tell you whether each condition is filled in. Only Adaptive Capacity tells you whether the system is still adapting faster than the things trying to break it, and that is the question worth asking.
+Adaptive Capacity is how all four of the other conditions improve at all. It is the health of all four at once rather than a fifth lane staffed beside them, the question of whether [Supply Chain](supply-chain.md), [Third-Party](third-party.md), [Process](process.md), and [Runtime](runtime.md) are getting better faster than their failure modes are. A maturity chart can tell you whether each condition is filled in. Only Adaptive Capacity tells you whether the system is still adapting faster than the things trying to break it.
 
 ## The seam to the Coadaptive layer
 
 This is where the base framework meets the [Coadaptive Security layer](../10-coadaptive/overview.md). The contest between a system that keeps changing and adversaries who keep changing in response is the same predator-and-prey pressure that runs through any living system, and it sharpens once the system includes AI that writes, decides, and acts. Adaptive Capacity is the condition that carries the base framework up into that layer. It is the reason SF² treats security as something a system keeps doing rather than a state a system reaches.
 
-This chapter says security is never finished. The Coadaptive layer says something that sounds like the opposite: you can prove a hard limit on what one component is allowed to do, and that limit holds without tending. Both are true, because they describe different things. You can prove a part. You cannot finish the whole. A single component has a fixed job, so you can bound it and trust the bound. The system those components add up to keeps meeting new surprises, and they land at the seams between the parts, where no single proof reaches. So you prove each piece and you tend the system. Neither move does the other's job.
+This chapter says security is never finished. The Coadaptive layer says something that sounds like the opposite: you can prove a hard limit on what one component is allowed to do, and that limit holds without tending. Both are true, because they describe different things. You can prove a part. You cannot finish the whole. A single component has a fixed job, so you can bound it and trust the bound. The system those components add up to keeps meeting new surprises, and they land at the seams between the parts, where no single proof reaches. So you prove each piece and you tend the system.
 
 ---
 
