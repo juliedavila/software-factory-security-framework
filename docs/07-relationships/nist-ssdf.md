@@ -14,9 +14,9 @@
 
 **SF²** tells you **HOW** to sustainably resource and scale those practices based on your organizational position.
 
-SF² sequences a practice baseline, and SSDF's practice groups are one expression of that baseline rather than a fixed endpoint. As that baseline broadens toward attestation standards for agent-built software, SF²'s role holds: it decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
+SF² sequences a practice baseline. SSDF's practice groups are one expression of that baseline, and the baseline keeps moving: attestation standards for agent-built software are extending it now. SF² does the same job against the wider baseline. It decides which practices to fund first for your context, and it keeps the work pointed at bounding what the system can do.
 
-New to SF²? This page maps NIST SSDF onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+New to SF²? This page maps NIST SSDF onto SF²'s strategic model, and the terms below are defined here so it reads on its own. SF² positions an organization on two axes. **Blast Radius** is how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount. **Operational Readiness** is how repeatably you operate and how well you can prove a failure stays contained. The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)). **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 <figure>
   <svg viewBox="0 0 720 500" role="img" aria-labelledby="sf2-ov-title sf2-ov-desc" xmlns="http://www.w3.org/2000/svg" style="max-width:720px;width:100%;height:auto;font-family:'Source Serif 4',Georgia,serif;">
@@ -197,7 +197,7 @@ SF² helps you:
 
 ## Practical Integration Example
 
-The example below is a composite illustration rather than a case study. The numbers and timelines show the shape of an outcome rather than measured results.
+The example below is a composite illustration. Its numbers and timelines show the shape of an outcome; nothing here was measured in a real organization.
 
 ### Scenario: Series B Startup (Studio Position)
 

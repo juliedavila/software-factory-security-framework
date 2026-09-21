@@ -14,9 +14,9 @@
 
 **SF²** helps determine **which maturity levels to pursue** and **how fast to progress** based on your organizational position and readiness.
 
-SF² sequences a practice baseline, and SAMM's maturity levels are one expression of that baseline rather than a ladder to climb for its own sake. As that baseline broadens toward capability and attestation standards, SF²'s role holds: it decides which levels are worth the investment for your context, and it sequences them toward containing what the system can do.
+SF² sequences a practice baseline. SAMM's maturity levels are one expression of that baseline, and the baseline keeps moving: capability and attestation standards are extending it now. Climbing the levels is not the point. SF² decides which levels are worth the investment for your context, and sequences them toward containing what the system can do.
 
-New to SF²? This page maps OWASP SAMM onto SF²'s strategic model, which leans on a few SF² terms. SF² positions an organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)); **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
+New to SF²? This page maps OWASP SAMM onto SF²'s strategic model, and the terms below are defined here so it reads on its own. SF² positions an organization on two axes. **Blast Radius** is how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount. **Operational Readiness** is how repeatably you operate and how well you can prove a failure stays contained. The two axes form four positions: **Studio** (small reach, higher readiness), **Lean** (large reach, higher readiness), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness); see [Positioning](../03-positioning/two-axis-model.md). **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Contextual modifiers** are the eight situational factors that tune the strategy ([Context](../05-context/overview.md)). **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md).
 
 ## Key Insight
 
@@ -154,7 +154,7 @@ Each business function holds three security practices, so fifteen across the fiv
 
 ## Practical Integration Examples
 
-The examples below are composite illustrations rather than case studies. The numbers and timelines show the shape of an outcome rather than measured results.
+The examples below are composite illustrations. Their numbers and timelines show the shape of an outcome; nothing here was measured in a real organization.
 
 ### Example 1: Studio Pursuing SAMM Implementation Maturity
 
