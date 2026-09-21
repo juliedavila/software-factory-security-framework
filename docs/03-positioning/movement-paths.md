@@ -408,7 +408,7 @@ This requires sustained executive support, significant investment, and realistic
 
 ### The Challenge
 
-**You're not done**. Studio and Lean are both finished end states, and holding either requires continuous investment as:
+**You're not done**. Neither Studio nor Lean is a finished end state, and holding either requires continuous investment as:
 
 - Organizational complexity continues evolving
 - Technology platforms change and require adaptation

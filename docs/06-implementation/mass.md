@@ -24,7 +24,7 @@ This is the **most difficult transformation journey**. You must simultaneously:
 - **Maintain operations** (can't stop to renovate)
 - **Work through organizational resistance** (change is hard)
 
-**Critical Truth**: This is the containment climb. Your reach is already large and you can't shrink it, so the whole job is building the floor beneath it while operations continue. That single-axis climb still has high failure risk; success requires strategic sequencing, executive support, and realistic timelines.
+**Critical Truth**: This is the containment climb. Your reach is already large and you can't shrink it, so the whole job is building the floor beneath it while operations continue. That single-axis climb still has high failure risk; success requires all five [critical requirements](#critical-requirements) below, from executive sponsorship through strategic patience.
 
 ## Strategic Priorities
 
