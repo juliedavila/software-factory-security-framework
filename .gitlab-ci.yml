@@ -8,6 +8,15 @@ stages:
   - build
   - deploy
 
+# Full history, not GitLab's default shallow clone. The
+# git-revision-date-localized plugin reads commit dates to stamp each page, and
+# on a shallow clone it both emits a warning (fatal under --strict, which the
+# build and pages jobs run) and derives wrong "last updated" dates. Surfaced
+# 2026-09-21 when the unpinned plugin floated to 1.6.0 and started warning; the
+# dates were already wrong before that, silently.
+variables:
+  GIT_DEPTH: 0
+
 # Cache pip packages for faster builds
 cache:
   paths:
