@@ -144,7 +144,7 @@ Of the four, Supply Chain has been the one to watch for years, roughly since 201
 
 ## The one you cannot staff: Adaptive Capacity
 
-The fifth condition does not get a team.
+The fifth condition does not get a team. It is what the other four run on.
 
 **Adaptive Capacity** is whether the system as a whole can absorb a surprise it was not designed for and keep working. It is the old Continuous Learning idea, finally named for what it actually is. The other four conditions each map to a function you can put on an org chart. This one does not. It is closer to the resilience of an ecosystem than to anything you could install or assign. The capacity of a living system to take a shock, a drought or a new predator, and reorganize without collapsing is spread across the whole web rather than held in any single species or place. It is never finished, because the system and the things stressing it keep changing against each other. You assess whether the system *has* this capacity. You cannot hand it to a team.
 
