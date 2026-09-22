@@ -4,7 +4,7 @@
 
 A control is something you check off. It passes or it fails, it lives as a line in a spreadsheet, and half the energy around it goes into arguing the spirit of the control rather than the state of the system. A condition is a different kind of object. It is something you cultivate and keep alive, and it has no passing grade. The security posture of a Software Factory is a set of conditions you tend. Like anything living, they start to degrade the moment you stop tending them.
 
-Your [strategic position](../03-positioning/two-axis-model.md) tells you *how* to tend them. A Craft shop and a Lean enterprise cultivate the same conditions with very different tools, budgets, and timelines. The conditions themselves do not move with size, stack, or industry. They are what every Software Factory has to keep alive regardless of where it sits on the map, which is why this section comes before the positioning work and not after it.
+Your [strategic position](../03-positioning/two-axis-model.md) tells you *how* to tend them. A Craft shop and a Lean enterprise cultivate the same conditions with very different tools, budgets, and timelines. The conditions themselves do not move with size, stack, or industry. They are what every Software Factory has to keep alive regardless of where it sits on the map, which is why this section comes before the positioning work.
 
 There are four conditions you can hand to a team, and one you cannot.
 
@@ -144,13 +144,13 @@ Of the four, Supply Chain has been the one to watch for years, roughly since 201
 
 ## The one you cannot staff: Adaptive Capacity
 
-The fifth condition does not get a team, and that is the point.
+The fifth condition does not get a team.
 
 **Adaptive Capacity** is whether the system as a whole can absorb a surprise it was not designed for and keep working. It is the old Continuous Learning idea, finally named for what it actually is. The other four conditions each map to a function you can put on an org chart. This one does not. It is closer to the resilience of an ecosystem than to anything you could install or assign. The capacity of a living system to take a shock, a drought or a new predator, and reorganize without collapsing is spread across the whole web rather than held in any single species or place. It is never finished, because the system and the things stressing it keep changing against each other. You assess whether the system *has* this capacity. You cannot hand it to a team.
 
 It runs across the other four rather than beside them. A healthy Adaptive Capacity shows up as blameless post-incident review that changes something, as feedback loops that shorten, as the organization sensing a shift in the threat landscape and adjusting before it gets hit rather than after. When it is missing, the other four can each look fine on a maturity chart while the system stays brittle, because nothing is teaching it to bend.
 
-This is the condition that carries the framework's resilience thinking, and it is the seam where this base framework meets the [Coadaptive Security layer](../10-coadaptive/overview.md). The idea comes from ecology. A system survives shocks when it can reorganize as new ones arrive, and that capacity lives in the whole web rather than in any single part. Security works the same way. Certify a system once and trust it to hold, and it falls behind, because the things trying to break it keep changing while it stands still. Adaptive Capacity measures whether the whole system is still adapting faster than its adversaries. That is the question worth asking.
+This is the condition that carries the framework's resilience thinking, and it is the seam where this base framework meets the [Coadaptive Security layer](../10-coadaptive/overview.md). The idea comes from ecology. A system survives shocks when it can reorganize as new ones arrive, and that capacity lives in the whole web rather than in any single part. Security works the same way. Certify a system once and trust it to hold, and it falls behind, because the things trying to break it keep changing while it stands still. Adaptive Capacity measures whether the whole system is still adapting faster than its adversaries.
 
 ## How the conditions hold each other up
 
@@ -218,7 +218,7 @@ The conditions are coupled, and the coupling is where leverage hides:
   <figcaption style="font-size:0.85rem;color:#555;margin-top:0.4rem;">Adaptive Capacity is a different kind of thing from the other four: the resilience of the whole system, which you assess but cannot staff.</figcaption>
 </figure>
 
-Invest where a single move strengthens more than one condition at once. Those are the moves worth sequencing first.
+Invest where a single move strengthens more than one condition at once.
 
 ## Universal conditions, local implementation
 

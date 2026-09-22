@@ -53,8 +53,8 @@ The draft went out for feedback in late 2025. Eight months on, a focused sprint 
     <p class="sf2-timeline-body">Scoring-logic fix and editorial polish.</p>
   </li>
   <li class="sf2-timeline-item is-major">
-    <span class="sf2-timeline-ver">v1.3.0</span><span class="sf2-timeline-date">Jul 8</span>
-    <p class="sf2-timeline-body">Positioning-framing reconciliation and a new landing page.<em class="sf2-timeline-note">The current release.</em></p>
+    <span class="sf2-timeline-ver">v1.3</span><span class="sf2-timeline-date">Jul 8</span>
+    <p class="sf2-timeline-body">Positioning-framing reconciliation and a new landing page.<em class="sf2-timeline-note">The current release line.</em></p>
   </li>
 </ol>
 

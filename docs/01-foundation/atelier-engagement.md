@@ -16,7 +16,7 @@ This is not generational posturing, and it names something real. A generation of
 
 ## Why "Software Factory" is the right term anyway
 
-The factory framing survives the critique because it answers a different question. The atelier describes how creative work feels and how talent arranges itself. The factory describes who is accountable when ten thousand deployments a day have to ship safely. Those are not competing claims about the same thing. The term names operational responsibility for delivery at scale, and that responsibility does not dissolve because the people doing the work think of themselves as artists. Someone still owns the blast radius when the artist's brilliant, unreviewed change reaches production.
+The factory framing survives the critique because it answers a different question. The atelier describes how creative work feels and how talent arranges itself. The factory describes who is accountable when ten thousand deployments a day have to ship safely. The term names operational responsibility for delivery at scale, and that responsibility does not dissolve because the people doing the work think of themselves as artists. Someone still owns the blast radius when the artist's brilliant, unreviewed change reaches production.
 
 Call the work a factory and the objection writes itself: an assembly line, the opposite of craft, the very image the democratized-creation crowd wants to leave behind. But a software factory optimizes something other than the throughput of identical parts: the time it takes for value to reach a customer, and for that customer's response to travel back to the people making it, so each version improves on the one before. The model for that is Toyota's line, where quality is built in at the source and anyone can pull the andon cord to halt production the instant a defect appears. Automate that discipline and the line catches its own defects while still answering to a human who can stop it, and the people it frees move up to deciding what to build while the machine handles how it ships.
 
@@ -45,7 +45,7 @@ Both framings are load-bearing, and the synthesis is naming the layer where each
 
 The factory framing is right at the layer of operational accountability. Foundation and the Universal Security Conditions live here: who owns the supply chain, who answers for what runs in production, how delivery stays safe as it scales. The atelier framing, and the democratization argument with it, is right at the layer of the creative act and how roles get arranged inside a team. SF² never claimed that layer and does not want it. How you organize your artists is your business.
 
-Coadaptive Security extends the picture to a third layer neither metaphor anticipated: the unit of operation in the AI era. That unit is most often a person working with agents, and it resembles a paired-intelligence cell more than a factory worker or a lone craftsman. [Chapter 03, The Unit of Defense](../10-coadaptive/03-unit-of-defense.md), takes that up. The synthesis names the layer at which each framing earns its keep, so no one has to choose between them.
+Coadaptive Security extends the picture to a third layer neither metaphor anticipated: the unit of operation in the AI era. That unit is most often a person working with agents, and it resembles a paired-intelligence cell more than a factory worker or a lone craftsman. [Chapter 03, The Unit of Defense](../10-coadaptive/03-unit-of-defense.md), takes that up.
 
 ## The AI-era production-model question
 

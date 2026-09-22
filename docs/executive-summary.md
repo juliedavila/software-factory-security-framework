@@ -96,6 +96,6 @@ This framework works **alongside** existing security methodologies (NIST SSDF, O
 
 ---
 
-Applying the framework starts with assessing your position, as the three steps above lay out. To read the underlying concepts in sequence, continue to [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md).
+Applying the framework starts with assessing your position. To read the underlying concepts in sequence, continue to [Foundation: Software Factory Definition](01-foundation/software-factory-definition.md).
 
 [:octicons-arrow-right-24: Continue to Foundation](01-foundation/software-factory-definition.md){ .md-button .md-button--primary }

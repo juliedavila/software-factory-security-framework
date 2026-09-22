@@ -87,7 +87,7 @@ To illustrate the universal nature of this definition:
 - **Security Responsibility**: Enabling other teams while maintaining platform security posture
 
 !!! note "Common Thread"
-    In each case, security responsibility extends far beyond code directly written by the organization. The Software Factory definition emphasizes this operational accountability across the complete value delivery chain.
+    In each case, security responsibility extends far beyond code directly written by the organization.
 
 This raises a gap the rest of the framework has to close. You are accountable for far more than you can personally read, and as generation outpaces comprehension the gap widens: the volume of code, dependencies, and agent actions you answer for grows faster than anyone's capacity to inspect it. Accountability does not shrink to match. You discharge it by bounding what the system was ever able to do, rather than by comprehending everything that happened. Comprehending everything is no longer possible at scale. That is what [boundary enforcement](../10-coadaptive/04-boundary-enforcement.md) and the [three-layer model](../10-coadaptive/01-three-layer-model.md) provide: a way to answer for a system you cannot fully read. The same logic governs what you delegate rather than build: as [Third-Party stewardship](../02-stewardship/third-party.md) puts it, a contract can move a capped slice of the cost, never the responsibility.
 

@@ -6,7 +6,7 @@ This section demonstrates how to apply the Software Factory Security Framework t
 
 New to the framework? The scenarios below lean on a handful of SF² terms, defined here so this page reads on its own. SF² places an organization on two axes. **Blast Radius** is how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount. **Operational Readiness** is how repeatably you operate and how well you can prove a failure stays contained. The two axes form four positions, named for production modes: **Studio** (small reach, higher readiness, the small-reach ideal), **Lean** (large reach, higher readiness, the large-reach ideal), **Craft** (small reach, lower readiness), and **Mass** (large reach, lower readiness). See [Positioning](../03-positioning/two-axis-model.md) for the full model. **BAU** (business as usual) is the recurring manual security work you constrain to free capacity for scaling investments. **Universal Security Conditions** are the five universal priorities every organization owes regardless of position, led by [Supply Chain](../02-stewardship/supply-chain.md). **Contextual modifiers** are the eight situational factors that tune the strategy; see [Context](../05-context/overview.md).
 
-The scenarios below are composite illustrations rather than case studies. The numbers show the shape of an outcome rather than measured results.
+The scenarios below are composite illustrations. Their numbers show the shape of an outcome; nothing here was measured in a real organization.
 
 ## Use Case 1: Scaling Crisis at Series B Startup
 
@@ -158,7 +158,7 @@ An agent, the APIs it can call, and the autonomy it runs with can each be safe o
 
 So add a step the other cases do not need. Before you sign off on an agent system, run an interaction pass: enumerate the agent against the APIs it can call against the autonomy it has, and ask what each seam lets through. The thing to test is what happens when this agent, reading input you do not control, is allowed to call this API on its own. Asking only whether the API is safe answers a smaller question.
 
-You cannot judge a run from inside it. The same crafted text that steered the agent can also narrate the result as clean, so the answer shown to the user looks fine while the damage happens off to the side. The evidence is blunt. When researchers fed agents data through ordinary outbound requests, checks on what the agent showed the user missed 95 percent of the leaks, because the data left through a channel the visible answer never mentioned.[^silent-egress] The same EchoLeak email fits this exact shape: the assistant's reply looked normal, and the mail left quietly. So the signal you trust comes from outside the agent, never from its own account.
+You cannot judge a run from inside it. The same crafted text that steered the agent can also narrate the result as clean, so the answer shown to the user looks fine while the damage happens off to the side. Researchers injected instructions that drove agents to leak their own context through ordinary outbound requests. Checks on the user-facing reply missed 95 percent of the leaks, because the data left through a channel the visible answer never mentioned.[^silent-egress] The same EchoLeak email fits this exact shape: the assistant's reply looked normal, and the mail left quietly. So the signal you trust comes from outside the agent, never from its own account.
 
 That outside signal has two jobs. The failures you can name in advance, you pre-commit as bright lines: a value with untrusted provenance reached a sink, data crossed a boundary it should not have, an action fired without its checkpoint. The failures you cannot name in advance, you catch a different way, because an injection invents a path no one listed. You keep enough record of each run to reconstruct what the agent actually did from the outside, then ask a question you had not thought to ask.[^observability] That record has to be three things. Accurate, meaning read from the network and the actions rather than from the agent's own reply. Real-time, because a finding a quarter later is an autopsy. And specific to the single run, because an average hides the one that leaked.
 
@@ -210,7 +210,7 @@ Based on position and modifiers:
 - Timeline: _______________
 
 ### 6. For Agent Systems: Run the Seam Pass (the emerging ship bar)
-Enumerate the agent, the APIs it can call, and the autonomy it runs with, and test what each seam lets through when the agent acts on input you do not control. Because output-side checks miss most leaks, the gate is an external watcher: one observable that proves a run wrong, checked from outside the agent on every run. The emerging bar is to ship this as an evaluation in CI: no external watcher, no ship.
+Enumerate the agent, the APIs it can call, and the autonomy it runs with, and test what each seam lets through when the agent acts on input you do not control. Because output-side checks miss 95 percent of successful leaks, the gate is an external watcher: one observable that proves a run wrong, checked from outside the agent on every run. The emerging bar is to ship this as an evaluation in CI: no external watcher, no ship.
 
 ---
 

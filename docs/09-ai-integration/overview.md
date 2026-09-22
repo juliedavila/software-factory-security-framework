@@ -18,7 +18,7 @@ Use it for strategy rather than tactics. Keep specific vulnerabilities, incident
 
 ## The five workflows
 
-A quick orientation first, since the workflows use it. SF² places your organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted to automation) and **Operational Readiness** (how mature your delivery and automation are). Those axes produce four quadrants, named **Studio**, **Lean**, **Craft**, and **Mass**. Most of the strategy work is figuring out which quadrant you are in and what that implies. The full definitions live in the framework; the assistant works the model with you.
+A quick orientation first, since the workflows use it. SF² places your organization on two axes: **Blast Radius** (how far a failure could reach if containment fails, set by the authority you have granted your automation and agents, not by headcount) and **Operational Readiness** (how repeatably you operate and how well you can prove a failure stays contained). Those axes produce four quadrants, named **Studio**, **Lean**, **Craft**, and **Mass**. Most of the strategy work is figuring out which quadrant you are in and what that implies. The full definitions live in the framework; the assistant works the model with you.
 
 These are the five recurring jobs a framework-loaded assistant does well. Each is vendor-neutral: the prompts below work in any assistant once the [canonical instructions](#configure-your-assistant) are loaded.
 
