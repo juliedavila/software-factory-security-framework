@@ -102,15 +102,13 @@ This website is designed to be compatible with:
 
 ## Assessment
 
-Last accessibility review: January 2025
+The features above were built into the site and are re-checked as the framework
+changes. No formal third-party accessibility audit has been carried out, and no
+testing with assistive technology has been commissioned, so treat this as a
+statement of intent and implementation rather than of verified conformance.
 
-Methodology:
-
-- Manual keyboard navigation testing
-- Screen reader testing (NVDA, VoiceOver)
-- Automated testing (axe DevTools, WAVE)
-- Color contrast analysis
-- HTML validation
+If you use assistive technology and something here does not work, the feedback
+route above is the fastest way to get it fixed.
 
 ## Continuous Improvement
 
