@@ -92,7 +92,7 @@
 : How much of an organization's software work AI now generates, from code to review. As that proportion climbs, the binding constraint shifts from writing code to reviewing it, moving investment from manual review toward automated guardrails and scoped agent identity.
 
 **PQC Exposure**
-: How much of an organization's cryptography the quantum transition puts at risk, and how hard that risk is to retire. It turns on your own footprint: how long data must stay secret and how hard the underlying math is to swap. Both are knowable today. The arrival date is not. The loss is silent and already underway (harvest now, decrypt later).
+: How much of an organization's cryptography the quantum transition puts at risk, and how hard that risk is to retire. It turns on your own footprint: how long data must stay secret and how hard the underlying math is to swap. Both answers hold whatever the arrival date turns out to be. The loss is silent and already underway (harvest now, decrypt later).
 
 ## Technical Terms
 
