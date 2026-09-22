@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 The version source of truth is the "About This Framework" block in
 [`docs/appendix/references.md`](docs/appendix/references.md); annotated git tags mirror it.
 
+## [1.3.3] — 2026-09-21
+
+- Audited the corpus against the revised writing rules and remediated. A July 2026 pass had
+  replaced the banned ", not Y" construction with "rather than Y" corpus-wide; the banned string
+  went to zero while the rhetorical reflex survived at higher density, and two glossary
+  definitions were softened from categorical exclusions into preferences in the process. Both
+  regressions are reversed and the reflex is thinned where it was doing no work.
+- Corrected a dropped negation in Movement Paths, where "Studio and Lean are both finished end
+  states" contradicted the pitfall box below it, which names treating a top-row position as a
+  finish line as the risk.
+- Corrected the Silent Egress mechanism in Use Cases, which described data flowing inbound
+  through an outbound channel, the reverse of the cited paper and of the page's own footnote.
+  Verified the 95 percent figure against arXiv:2602.22450 and stated it identically at all three
+  places the corpus cites it.
+- Restored the canonical Blast Radius and Operational Readiness definitions on the AI Integration
+  page, the only page that had dropped the containment-proof half of Operational Readiness and
+  the "not by headcount" qualifier that the v0.7 axis rename exists to carry.
+- Rebuilt three orientation and disclaimer passages that had been stamped into four and five
+  files each, promoting the "not by headcount" claim out of a parenthetical and making the
+  composite-illustration disclaimer disclaim in plain terms.
+- Fixed the Mass implementation guide's Critical Truth callout, which named three of the page's
+  five critical requirements, and corrected a stale "current release" marker in the evolution
+  timeline.
+
 ## [1.3.2] — 2026-07-08
 
 - Aligned the landing page and the docs index with the framework's position on the five
